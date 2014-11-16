@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_POPCAPINCREASE"
+smallHudIcon "HUDICON_RESEARCH_POPCAPINCREASE"
+infoCardIcon ""
+NameStringID "IDS_REMNANTRESEARCH_CITYPLANNING_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_CITYPLANNING_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 5 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_RuralDevelopment"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+	linkedPlanetType "Iron"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

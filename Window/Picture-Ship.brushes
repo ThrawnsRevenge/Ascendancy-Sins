@@ -1,0 +1,463 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 92
+brush
+	name "CORVETTEPICTURE_PHASE_LOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CORVETTEPICTURE_PSI_LOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CORVETTEPICTURE_TECH_LOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "FRIGATEPICTURE_PHASE_NANITE_SWARM"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "FRIGATEPICTURE_PHASEFLAGSHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "FRIGATEPICTURE_PSIFLAGSHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "FRIGATEPICTURE_TECHFLAGSHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHTRANSPORT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSIBATTLESHIP2"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASEBATTLESHIP2"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_TECHLOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_TECHREBEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_PSILOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_PSIREBEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_PHASELOYALIST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "TITANPICTURE_PHASEREBEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHCOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHCARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHBATTLESHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHSUPPORT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_TECHSIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSICOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSICARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSIBATTLESHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSIBATTLEPSIONIC"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PSIPLANETPSIONIC"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASECOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASECARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASEBATTLESHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASESCOUT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "CAPITALSHIPPICTURE_PHASESIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_TRADESHIP_TECH"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_TRADESHIP_PSI"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_TRADESHIP_PHASE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_REFINERYSHIP_TECH"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_REFINERYSHIP_PSI"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_REFINERYSHIP_PHASE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADTECHCOMBAT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADTECHBOMBER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADPSICOMBAT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADPSIBOMBER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADPSIMINELAYER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADPHASECOMBAT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_SQUADPHASEBOMBER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHANTIFIGHTER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHCARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHCOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHHEAVY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHLIGHT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHLONGRANGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHSCOUT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHSIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHUTILITY0"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHUTILITY1"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHMODULECONSTRUCTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHSTARBASECONSTRUCTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHENVOY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TECHANTIMODULE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIANTIFIGHTER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSICARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSICOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIHEAVY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSILIGHT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSILONGRANGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSISCOUT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSISIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSISTARBASECONSTRUCTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIUTILITY0"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIUTILITY1"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIMODULECONSTRUCTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIANTIMODULE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PSIENVOY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEANTIFIGHTER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASECARRIER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASECOLONY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEHEAVY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASELIGHT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASELONGRANGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASESCOUT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASESIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEUTILITY0"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEUTILITY1"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEMINELAYER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEMODULECONSTRUCTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PHASEENVOY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PIRATEMEDIUM"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PIRATEHEAVY"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PIRATEANTIFIGHTER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PIRATESIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_PIRATELIGHT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TURRETCOMBAT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_FRIGATE_TURRETSIEGE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]

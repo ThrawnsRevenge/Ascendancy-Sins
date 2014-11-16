@@ -1,0 +1,68 @@
+﻿TXT
+onlyLoadOnDemand TRUE
+brushCount 11
+brush
+	name "LoadScreenCharacterTech"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenCharacterPsi"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenCharacterPhase"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenBarBackdrop"
+	content "Simple"
+	fileName "Ascendancy_Loadscreen"
+	pixelBox [ 5 , 40 , 635 , 34 ]
+brush
+	name "LoadScreenBarOverlay"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenBarProgress"
+	content "Margins"
+	stretchMargins
+		left 14
+		right 14
+		top 0
+		bottom 0
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Loadscreen"
+	pixelBox [ 0 , 0 , 36 , 36 ]
+brush
+	name "LoadScreenTipBackdrop"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenTipOverlay"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenPictureBackdrop"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenPictureOverlay"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ -5000 , -5000 , 0 , 0 ]
+brush
+	name "LoadScreenPicture0"
+	content "Simple"
+	fileName "StarDestroyer_Loadscreen"
+	pixelBox [ 0 , 0 , 1024 , 768 ]

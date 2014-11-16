@@ -1,0 +1,73 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 14
+brush
+	name "PictureCannonShellTech"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureCannonShellPsi"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureCannonShellPhase"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "STARPICTURE_YELLOW"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 597 , 177 , 94 ]
+brush
+	name "STARPICTURE_BLUE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 597 , 177 , 94 ]
+brush
+	name "STARPICTURE_GREEN"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 597 , 177 , 94 ]
+brush
+	name "STARPICTURE_RED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 597 , 177 , 94 ]
+brush
+	name "PICTURE_STARBASETECH"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_STARBASEPSI"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_STARBASEPHASE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureSpaceMineTech"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureSpaceMinePsi"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureSpaceMinePhaseExplosive"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PictureSpaceMinePhaseGravity"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 3 , 3 , 177 , 94 ]

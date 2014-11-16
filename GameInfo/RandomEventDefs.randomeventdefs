@@ -1,0 +1,8 @@
+TXT
+initialSpawnTimeMin 480.0
+initialSpawnTimeMax 780.0
+failedRespawnTimeMin 120.0
+failedRespawnTimeMax 300.0
+lowAllegianceCheckPeriod 240.0
+lowAllegianceThreshold 0.3
+randomEventDefCount 0

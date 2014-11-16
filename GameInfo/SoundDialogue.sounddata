@@ -1,0 +1,3353 @@
+TXT
+numEffects 1117
+effect
+	name "EVENTPHASE_BUYNOTITANFACTORY"
+	fileName "EventPhase_TitanFactoryNotFound.ogg"
+effect
+	name "EVENTPHASE_RESEARCHVICTORYCOMPLETE"
+	fileName "EventPhase_OnResearchVictoryWin.ogg"
+effect
+	name "EVENTPHASE_RESEARCHVICTORYHALFWAY"
+	fileName "EventPhase_OnResearchVictoryNear.ogg"
+effect
+	name "EVENTPHASE_OCCUPATIONVICTORYCOMPLETE"
+	fileName "EventPhase_OnOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTPHASE_OCCUPATIONVICTORYHALFWAY"
+	fileName "EventPhase_OnOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTPHASE_GAMEWIN"
+	fileName "EventPhase_OnGameWin.ogg"
+effect
+	name "EVENTPHASE_PLAYERFLAGSHIPDESTROYED"
+	fileName "EventPhase_OnFlagshipVictoryLost.ogg"
+effect
+	name "EVENTPHASE_PLAYERFLAGSHIPUNDERATTACK"
+	fileName "EventPhase_OnFlagshipUnderAttack.ogg"
+effect
+	name "EVENTPHASE_PLAYERFLAGSHIPSHIELDSDOWN"
+	fileName "EventPhase_OnFlagshipShieldsFail.ogg"
+effect
+	name "EVENTPHASE_PLAYERFLAGSHIPHULLSEVERELYDAMAGED"
+	fileName "EventPhase_OnFlagshipHullDamaged.ogg"
+effect
+	name "EVENTPHASE_ENEMYRESEARCHVICTORYCOMPLETE"
+	fileName "EventPhase_OnEnemyResearchVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ENEMYRESEARCHVICTORYHALFWAY"
+	fileName "EventPhase_OnEnemyResearchVictoryNear.ogg"
+effect
+	name "EVENTPHASE_ENEMYRESEARCHVICTORYSTARTED"
+	fileName "EventPhase_OnEnemyResearchVictoryStart.ogg"
+effect
+	name "EVENTPHASE_ENEMYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventPhase_OnEnemyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ENEMYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventPhase_OnEnemyOccupationPlanetVictoryNearWin.ogg"
+effect
+	name "EVENTPHASE_ENEMYOCCUPATIONVICTORYSTARTED"
+	fileName "EventPhase_OnEnemyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTPHASE_ENEMYFLAGSHIPDESTROYED"
+	fileName "EventPhase_OnEnemyFlagshipLost.ogg"
+effect
+	name "EVENTPHASE_ENEMYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventPhase_OnEnemyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ENEMYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventPhase_OnEnemyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTPHASE_ENEMYCAPITALPLANETDESTROYED"
+	fileName "EventPhase_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTPHASE_DIPLOMATICVICTORYCOMPLETE"
+	fileName "EventPhase_OnDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTPHASE_DIPLOMATICVICTORYHALFWAY"
+	fileName "EventPhase_OnDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALPLANETDESTROYED"
+	fileName "EventPhase_OnCapitalPlanetVictoryLost.ogg"
+effect
+	name "EVENTPHASE_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventPhase_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTPHASE_ENEMYCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EventPhase_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EventPhase_OnCapitalPlanetNearlyDestroyed.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALPLANETUNDERATTACK"
+	fileName "EventPhase_OnCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTPHASE_ALLYRESEARCHVICTORYCOMPLETE"
+	fileName "EventPhase_OnAllyResearchVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ALLYRESEARCHVICTORYHALFWAY"
+	fileName "EventPhase_OnAllyResearchVictoryNear.ogg"
+effect
+	name "EVENTPHASE_ALLYRESEARCHVICTORYSTARTED"
+	fileName "EventPhase_OnAllyResearchVictoryStart.ogg"
+effect
+	name "EVENTPHASE_ALLYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventPhase_OnAllyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ALLYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventPhase_OnAllyOccupationPlanetVictoryNearWin.ogg"
+effect
+	name "EVENTPHASE_ALLYOCCUPATIONPLANETUNDERATTACK"
+	fileName "EventPhase_OnAllyOccupationPlanetUnderAttack.ogg"
+effect
+	name "EVENTPHASE_ALLYOCCUPATIONVICTORYSTARTED"
+	fileName "EventPhase_OnAllyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTPHASE_ALLYFLAGSHIPDESTROYED"
+	fileName "EventPhase_OnAllyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ALLYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventPhase_OnAllyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTPHASE_ALLYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventPhase_OnAllyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTPHASE_ALLYCAPITALPLANETUNDERATTACK"
+	fileName "EventPhase_OnAllyCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTPHASE_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventPhase_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTPHASE_ALLIEDGAMEWIN"
+	fileName "EventPhase_OnAlliedGameWin.ogg"
+effect
+	name "EVENTREMNANT_BUYNOTITANFACTORY"
+	fileName "EventRemnant_TitanFactoryNotFound.ogg"
+effect
+	name "EVENTREMNANT_RESEARCHVICTORYCOMPLETE"
+	fileName "EventRemnant_OnResearchVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_RESEARCHVICTORYHALFWAY"
+	fileName "EventRemnant_OnResearchVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_OCCUPATIONVICTORYCOMPLETE"
+	fileName "EventRemnant_OnOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_OCCUPATIONVICTORYHALFWAY"
+	fileName "EventRemnant_OnOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_GAMEWIN"
+	fileName "EventRemnant_OnGameWin.ogg"
+effect
+	name "EVENTREMNANT_PLAYERFLAGSHIPDESTROYED"
+	fileName "EventRemnant_OnFlagshipVictoryLost.ogg"
+effect
+	name "EVENTREMNANT_PLAYERFLAGSHIPUNDERATTACK"
+	fileName "EventRemnant_OnFlagshipUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_PLAYERFLAGSHIPSHIELDSDOWN"
+	fileName "EventRemnant_OnFlagshipShieldsFail.ogg"
+effect
+	name "EVENTREMNANT_PLAYERFLAGSHIPHULLSEVERELYDAMAGED"
+	fileName "EventRemnant_OnFlagshipHullDamaged.ogg"
+effect
+	name "EVENTREMNANT_ENEMYRESEARCHVICTORYCOMPLETE"
+	fileName "EventRemnant_OnEnemyResearchVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ENEMYRESEARCHVICTORYHALFWAY"
+	fileName "EventRemnant_OnEnemyResearchVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ENEMYRESEARCHVICTORYSTARTED"
+	fileName "EventRemnant_OnEnemyResearchVictoryStart.ogg"
+effect
+	name "EVENTREMNANT_ENEMYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventRemnant_OnEnemyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ENEMYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventRemnant_OnEnemyOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ENEMYOCCUPATIONVICTORYSTARTED"
+	fileName "EventRemnant_OnEnemyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTREMNANT_ENEMYFLAGSHIPDESTROYED"
+	fileName "EventRemnant_OnEnemyFlagshipLost.ogg"
+effect
+	name "EVENTREMNANT_ENEMYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventRemnant_OnEnemyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ENEMYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventRemnant_OnEnemyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ENEMYCAPITALPLANETDESTROYED"
+	fileName "EventRemnant_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_DIPLOMATICVICTORYCOMPLETE"
+	fileName "EventRemnant_OnDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_DIPLOMATICVICTORYHALFWAY"
+	fileName "EventRemnant_OnDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALPLANETDESTROYED"
+	fileName "EventRemnant_OnCapitalPlanetVictoryLost.ogg"
+effect
+	name "EVENTREMNANT_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventRemnant_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_ENEMYCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EventRemnant_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EventRemnant_OnCapitalPlanetNearlyDestroyed.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALPLANETUNDERATTACK"
+	fileName "EventRemnant_OnCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_ALLYRESEARCHVICTORYCOMPLETE"
+	fileName "EventRemnant_OnAllyResearchVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ALLYRESEARCHVICTORYHALFWAY"
+	fileName "EventRemnant_OnAllyResearchVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ALLYRESEARCHVICTORYSTARTED"
+	fileName "EventRemnant_OnAllyResearchVictoryStart.ogg"
+effect
+	name "EVENTREMNANT_ALLYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventRemnant_OnAllyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ALLYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventRemnant_OnAllyOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ALLYOCCUPATIONPLANETUNDERATTACK"
+	fileName "EventRemnant_OnAllyOccupationPlanetUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_ALLYOCCUPATIONVICTORYSTARTED"
+	fileName "EventRemnant_OnAllyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTREMNANT_ALLYFLAGSHIPDESTROYED"
+	fileName "EventRemnant_OnAllyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ALLYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventRemnant_OnAllyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTREMNANT_ALLYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventRemnant_OnAllyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTREMNANT_ALLYCAPITALPLANETUNDERATTACK"
+	fileName "EventRemnant_OnAllyCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventRemnant_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_ALLIEDGAMEWIN"
+	fileName "EventRemnant_OnAlliedGameWin.ogg"
+effect
+	name "EVENTTECH_BUYNOTITANFACTORY"
+	fileName "EventTech_TitanFactoryNotFound.ogg"
+effect
+	name "EVENTTECH_RESEARCHVICTORYCOMPLETE"
+	fileName "EventTech_OnResearchVictoryWin.ogg"
+effect
+	name "EVENTTECH_RESEARCHVICTORYHALFWAY"
+	fileName "EventTech_OnResearchVictoryNear.ogg"
+effect
+	name "EVENTTECH_OCCUPATIONVICTORYCOMPLETE"
+	fileName "EventTech_OnOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTTECH_OCCUPATIONVICTORYHALFWAY"
+	fileName "EventTech_OnOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTTECH_GAMEWIN"
+	fileName "EventTech_OnGameWin.ogg"
+effect
+	name "EVENTTECH_PLAYERFLAGSHIPDESTROYED"
+	fileName "EventTech_OnFlagshipVictoryLost.ogg"
+effect
+	name "EVENTTECH_PLAYERFLAGSHIPUNDERATTACK"
+	fileName "EventTech_OnFlagshipUnderAttack.ogg"
+effect
+	name "EVENTTECH_PLAYERFLAGSHIPSHIELDSDOWN"
+	fileName "EventTech_OnFlagshipShieldsFail.ogg"
+effect
+	name "EVENTTECH_PLAYERFLAGSHIPHULLSEVERELYDAMAGED"
+	fileName "EventTech_OnFlagshipHullDamaged.ogg"
+effect
+	name "EVENTTECH_ENEMYRESEARCHVICTORYCOMPLETE"
+	fileName "EventTech_OnEnemyResearchVictoryWin.ogg"
+effect
+	name "EVENTTECH_ENEMYRESEARCHVICTORYHALFWAY"
+	fileName "EventTech_OnEnemyResearchVictoryNear.ogg"
+effect
+	name "EVENTTECH_ENEMYRESEARCHVICTORYSTARTED"
+	fileName "EventTech_OnEnemyResearchVictoryStart.ogg"
+effect
+	name "EVENTTECH_ENEMYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventTech_OnEnemyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTTECH_ENEMYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventTech_OnEnemyOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTTECH_ENEMYOCCUPATIONVICTORYSTARTED"
+	fileName "EventTech_OnEnemyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTTECH_ENEMYFLAGSHIPDESTROYED"
+	fileName "EventTech_OnEnemyFlagshipLost.ogg"
+effect
+	name "EVENTTECH_ENEMYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventTech_OnEnemyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTTECH_ENEMYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventTech_OnEnemyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTTECH_ENEMYCAPITALPLANETDESTROYED"
+	fileName "EventTech_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTTECH_DIPLOMATICVICTORYCOMPLETE"
+	fileName "EventTech_OnDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTTECH_DIPLOMATICVICTORYHALFWAY"
+	fileName "EventTech_OnDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALPLANETDESTROYED"
+	fileName "EventTech_OnCapitalPlanetVictoryLost.ogg"
+effect
+	name "EVENTTECH_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventTech_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTTECH_ENEMYCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EventTech_OnEnemyCapitalPlanetLost.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALPLANETUNDERATTACK"
+	fileName "EventTech_OnCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTTECH_ALLYRESEARCHVICTORYCOMPLETE"
+	fileName "EventTech_OnAllyResearchVictoryWin.ogg"
+effect
+	name "EVENTTECH_ALLYRESEARCHVICTORYHALFWAY"
+	fileName "EventTech_OnAllyResearchVictoryNear.ogg"
+effect
+	name "EVENTTECH_ALLYRESEARCHVICTORYSTARTED"
+	fileName "EventTech_OnAllyResearchVictoryStart.ogg"
+effect
+	name "EVENTTECH_ALLYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EventTech_OnAllyOccupationPlanetVictoryWin.ogg"
+effect
+	name "EVENTTECH_ALLYOCCUPATIONVICTORYHALFWAY"
+	fileName "EventTech_OnAllyOccupationPlanetVictoryNear.ogg"
+effect
+	name "EVENTTECH_ALLYOCCUPATIONPLANETUNDERATTACK"
+	fileName "EventTech_OnAllyOccupationPlanetUnderAttack.ogg"
+effect
+	name "EVENTTECH_ALLYOCCUPATIONVICTORYSTARTED"
+	fileName "EventTech_OnAllyOccupationPlanetColonized.ogg"
+effect
+	name "EVENTTECH_ALLYFLAGSHIPDESTROYED"
+	fileName "EventTech_OnAllyFlagshipLostGeneral.ogg"
+effect
+	name "EVENTTECH_ALLYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EventTech_OnAllyDiplomaticVictoryWin.ogg"
+effect
+	name "EVENTTECH_ALLYDIPLOMATICVICTORYHALFWAY"
+	fileName "EventTech_OnAllyDiplomaticVictoryNear.ogg"
+effect
+	name "EVENTTECH_ALLYCAPITALPLANETUNDERATTACK"
+	fileName "EventTech_OnAllyCapitalPlanetUnderAttack.ogg"
+effect
+	name "EVENTTECH_ALLYCAPITALPLANETDESTROYED"
+	fileName "EventTech_OnAllyCapitalPlanetLost.ogg"
+effect
+	name "EVENTTECH_ALLIEDGAMEWIN"
+	fileName "EventTech_OnAlliedGameWin.ogg"
+effect
+	name "COMMON_CANNONBUILT"
+	fileName "Common_CannonBuilt.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONCREATION"
+	fileName "CapitalShip_TechColony_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONSELECTED_0"
+	fileName "CapitalShip_TechColony_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONSELECTED_1"
+	fileName "CapitalShip_TechColony_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONSELECTED_2"
+	fileName "CapitalShip_TechColony_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechColony_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONCREATION"
+	fileName "CapitalShip_TechCarrier_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONSELECTED_0"
+	fileName "CapitalShip_TechCarrier_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONSELECTED_1"
+	fileName "CapitalShip_TechCarrier_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONSELECTED_2"
+	fileName "CapitalShip_TechCarrier_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechCarrier_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechCarrier_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechCarrier_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONCREATION"
+	fileName "CapitalShip_TechBattleShip_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_0"
+	fileName "CapitalShip_TechBattleShip_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_1"
+	fileName "CapitalShip_TechBattleShip_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_2"
+	fileName "CapitalShip_TechBattleShip_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechBattleShip_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechBattleShip_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechBattleShip_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechBattleShip_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechBattleShip_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechBattleShip_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_3"
+	fileName "CapitalShip_TechBattleShip_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechBattleShip_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONCREATION"
+	fileName "CapitalShip_TechSupport_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONSELECTED_0"
+	fileName "CapitalShip_TechSupport_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONSELECTED_1"
+	fileName "CapitalShip_TechSupport_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONSELECTED_2"
+	fileName "CapitalShip_TechSupport_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONSELECTED_3"
+	fileName "CapitalShip_TechSupport_OnSelected_3.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechSupport_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechSupport_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechSupport_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechSupport_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechSupport_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechSupport_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSUPPORT_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechSupport_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONCREATION"
+	fileName "CapitalShip_TechSiege_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONSELECTED_0"
+	fileName "CapitalShip_TechSiege_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONSELECTED_1"
+	fileName "CapitalShip_TechSiege_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONSELECTED_2"
+	fileName "CapitalShip_TechSiege_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechSiege_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechSiege_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechSiege_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechSiege_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechSiege_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechSiege_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_3"
+	fileName "CapitalShip_TechSiege_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechSiege_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONCREATION"
+	fileName "Frigate_TechScout_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONSELECTED_0"
+	fileName "Frigate_TechScout_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONSELECTED_1"
+	fileName "Frigate_TechScout_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONSELECTED_2"
+	fileName "Frigate_TechScout_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONSELECTED_3"
+	fileName "Frigate_TechScout_OnSelected_3.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechScout_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechScout_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechScout_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechScout_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechScout_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechScout_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHSCOUT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechScout_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONCREATION"
+	fileName "Frigate_TechLight_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONSELECTED_0"
+	fileName "Frigate_TechLight_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONSELECTED_1"
+	fileName "Frigate_TechLight_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONSELECTED_2"
+	fileName "Frigate_TechLight_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechLight_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechLight_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechLight_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechLight_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechLight_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechLight_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechLight_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONCREATION"
+	fileName "Frigate_TechLongRange_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONSELECTED_0"
+	fileName "Frigate_TechLongRange_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONSELECTED_1"
+	fileName "Frigate_TechLongRange_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
+	fileName "Frigate_TechLongRange_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
+	fileName "Frigate_TechLongRange_OnSelected_3.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechLongRange_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechLongRange_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechLongRange_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechLongRange_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechLongRange_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechLongRange_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechLongRange_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONCREATION"
+	fileName "Frigate_TechSiege_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONSELECTED_0"
+	fileName "Frigate_TechSiege_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONSELECTED_1"
+	fileName "Frigate_TechSiege_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONSELECTED_2"
+	fileName "Frigate_TechSiege_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechSiege_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechSiege_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechSiege_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechSiege_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechSiege_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechSiege_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHSIEGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechSiege_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHAA_ONCREATION"
+	fileName "Frigate_TechAA_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHAA_ONSELECTED_0"
+	fileName "Frigate_TechAA_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHAA_ONSELECTED_1"
+	fileName "Frigate_TechAA_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHAA_ONSELECTED_2"
+	fileName "Frigate_TechAA_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHAA_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechAA_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHAA_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechAA_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHAA_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechAA_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHAA_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechAA_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHAA_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechAA_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHAA_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechAA_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHAA_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechAA_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONCREATION"
+	fileName "Frigate_TechAntiModule_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONSELECTED_0"
+	fileName "Frigate_TechAntiModule_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONSELECTED_1"
+	fileName "Frigate_TechAntiModule_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONSELECTED_2"
+	fileName "Frigate_TechAntiModule_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechAntiModule_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechAntiModule_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechAntiModule_OnAttackOrderIssued_2.ogg"	
+effect
+	name "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechAntiModule_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechAntiModule_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechAntiModule_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHANTIMODULE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechAntiModule_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONCREATION"
+	fileName "Frigate_TechColony_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONSELECTED_0"
+	fileName "Frigate_TechColony_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONSELECTED_1"
+	fileName "Frigate_TechColony_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONSELECTED_2"
+	fileName "Frigate_TechColony_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONATTACKORDERISSUED_3"
+	fileName "Frigate_TechColony_OnAttackOrderIssued_3.ogg"
+effect
+	name "FRIGATE_TECHCOLONY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechColony_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONCREATION"
+	fileName "Frigate_TechCarrier_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONSELECTED_0"
+	fileName "Frigate_TechCarrier_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONSELECTED_1"
+	fileName "Frigate_TechCarrier_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONSELECTED_2"
+	fileName "Frigate_TechCarrier_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONSELECTED_3"
+	fileName "Frigate_TechCarrier_OnSelected_3.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHCARRIER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONCREATION"
+	fileName "Frigate_TechRobotics_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONSELECTED_0"
+	fileName "Frigate_TechRobotics_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONSELECTED_1"
+	fileName "Frigate_TechRobotics_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONSELECTED_2"
+	fileName "Frigate_TechRobotics_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechRobotics_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechRobotics_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechRobotics_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechRobotics_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechRobotics_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechRobotics_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHROBOTICS_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechRobotics_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONCREATION"
+	fileName "Frigate_TechCommand_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONSELECTED_0"
+	fileName "Frigate_TechCommand_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONSELECTED_1"
+	fileName "Frigate_TechCommand_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONSELECTED_2"
+	fileName "Frigate_TechCommand_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechCommand_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechCommand_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechCommand_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechCommand_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechCommand_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechCommand_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHCOMMAND_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechCommand_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONCREATION"
+	fileName "Frigate_TechHeavy_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONSELECTED_0"
+	fileName "Frigate_TechHeavy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONSELECTED_1"
+	fileName "Frigate_TechHeavy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONSELECTED_2"
+	fileName "Frigate_TechHeavy_OnSelected_2.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechHeavy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechHeavy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechHeavy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_3"
+	fileName "Frigate_TechHeavy_OnGeneralOrderIssued_3.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_TechHeavy_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_TechHeavy_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_TechHeavy_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_3"
+	fileName "Frigate_TechHeavy_OnAttackOrderIssued_3.ogg"
+effect
+	name "FRIGATE_TECHHEAVY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_TechHeavy_OnStartPhaseJump_0.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONSELECTED_0"
+	fileName "Squad_TechCombat_OnSelected_0.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONSELECTED_1"
+	fileName "Squad_TechCombat_OnSelected_1.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONSELECTED_2"
+	fileName "Squad_TechCombat_OnSelected_2.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_0"
+	fileName "Squad_TechCombat_OnGeneralOrderIssued_0.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_1"
+	fileName "Squad_TechCombat_OnGeneralOrderIssued_1.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_2"
+	fileName "Squad_TechCombat_OnGeneralOrderIssued_2.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_0"
+	fileName "Squad_TechCombat_OnAttackOrderIssued_0.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_1"
+	fileName "Squad_TechCombat_OnAttackOrderIssued_1.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_2"
+	fileName "Squad_TechCombat_OnAttackOrderIssued_2.ogg"
+effect
+	name "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_3"
+	fileName "Squad_TechCombat_OnAttackOrderIssued_3.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONSELECTED_0"
+	fileName "Squad_TechBomber_OnSelected_0.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONSELECTED_1"
+	fileName "Squad_TechBomber_OnSelected_1.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONSELECTED_2"
+	fileName "Squad_TechBomber_OnSelected_2.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONGENERALORDERISSUED_0"
+	fileName "Squad_TechBomber_OnGeneralOrderIssued_0.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONGENERALORDERISSUED_1"
+	fileName "Squad_TechBomber_OnGeneralOrderIssued_1.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONGENERALORDERISSUED_2"
+	fileName "Squad_TechBomber_OnGeneralOrderIssued_2.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONATTACKORDERISSUED_0"
+	fileName "Squad_TechBomber_OnAttackOrderIssued_0.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONATTACKORDERISSUED_1"
+	fileName "Squad_TechBomber_OnAttackOrderIssued_1.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONATTACKORDERISSUED_2"
+	fileName "Squad_TechBomber_OnAttackOrderIssued_2.ogg"
+effect
+	name "SQUAD_TECHBOMBER_ONATTACKORDERISSUED_3"
+	fileName "Squad_TechBomber_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONCREATION"
+	fileName "CapitalShip_PsiColony_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONSELECTED_0"
+	fileName "CapitalShip_PsiColony_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONSELECTED_1"
+	fileName "CapitalShip_PsiColony_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONSELECTED_2"
+	fileName "CapitalShip_PsiColony_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PsiColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PsiColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PsiColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PsiColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PsiColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PsiColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSICOLONY_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PsiColony_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONCREATION"
+	fileName "CapitalShip_PsiCarrier_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONSELECTED_0"
+	fileName "CapitalShip_PsiCarrier_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONSELECTED_1"
+	fileName "CapitalShip_PsiCarrier_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONSELECTED_2"
+	fileName "CapitalShip_PsiCarrier_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PsiCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PsiCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PsiCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PsiCarrier_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PsiCarrier_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PsiCarrier_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSICARRIER_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PsiCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONCREATION"
+	fileName "CapitalShip_PsiBattleship_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_0"
+	fileName "CapitalShip_PsiBattleship_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_1"
+	fileName "CapitalShip_PsiBattleship_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_2"
+	fileName "CapitalShip_PsiBattleship_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PsiBattleship_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PsiBattleship_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PsiBattleship_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PsiBattleship_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PsiBattleship_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PsiBattleship_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PsiBattleship_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONCREATION"
+	fileName "CapitalShip_PsiBattlePsionic_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_0"
+	fileName "CapitalShip_PsiBattlePsionic_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_1"
+	fileName "CapitalShip_PsiBattlePsionic_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_2"
+	fileName "CapitalShip_PsiBattlePsionic_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PsiBattlePsionic_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PsiBattlePsionic_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PsiBattlePsionic_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PsiBattlePsionic_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PsiBattlePsionic_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PsiBattlePsionic_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLEPSIONIC_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PsiBattlePsionic_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONCREATION"
+	fileName "CapitalShip_PsiPlanetPsionic_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_0"
+	fileName "CapitalShip_PsiPlanetPsionic_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_1"
+	fileName "CapitalShip_PsiPlanetPsionic_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_2"
+	fileName "CapitalShip_PsiPlanetPsionic_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PsiPlanetPsionic_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PsiPlanetPsionic_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PsiPlanetPsionic_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PsiPlanetPsionic_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PsiPlanetPsionic_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PsiPlanetPsionic_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_3"
+	fileName "CapitalShip_PsiPlanetPsionic_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_PSIPLANETPSIONIC_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PsiPlanetPsionic_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONCREATION"
+	fileName "Frigate_PsiScout_OnCreation.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONSELECTED_0"
+	fileName "Frigate_PsiScout_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONSELECTED_1"
+	fileName "Frigate_PsiScout_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONSELECTED_2"
+	fileName "Frigate_PsiScout_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiScout_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiScout_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiScout_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiScout_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiScout_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISCOUT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiScout_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONCREATION"
+	fileName "Frigate_PsiLight_OnCreation.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONSELECTED_0"
+	fileName "Frigate_PsiLight_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONSELECTED_1"
+	fileName "Frigate_PsiLight_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONSELECTED_2"
+	fileName "Frigate_PsiLight_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiLight_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiLight_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiLight_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiLight_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiLight_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiLight_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSILIGHT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiLight_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONCREATION"
+	fileName "Frigate_PsiLongRange_OnCreation.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONSELECTED_0"
+	fileName "Frigate_PsiLongRange_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONSELECTED_1"
+	fileName "Frigate_PsiLongRange_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONSELECTED_2"
+	fileName "Frigate_PsiLongRange_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiLongRange_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiLongRange_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiLongRange_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiLongRange_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiLongRange_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiLongRange_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSILONGRANGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiLongRange_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONCREATION"
+	fileName "Frigate_PsiSiege_OnCreation.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONSELECTED_0"
+	fileName "Frigate_PsiSiege_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONSELECTED_1"
+	fileName "Frigate_PsiSiege_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiSiege_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiSiege_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiSiege_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiSiege_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiSiege_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiSiege_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSISIEGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiSiege_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSIAA_ONCREATION"
+	fileName "Frigate_PsiAA_OnCreation.ogg"
+effect
+	name "FRIGATE_PSIAA_ONSELECTED_0"
+	fileName "Frigate_PsiAA_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSIAA_ONSELECTED_1"
+	fileName "Frigate_PsiAA_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSIAA_ONSELECTED_2"
+	fileName "Frigate_PsiAA_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSIAA_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiAA_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIAA_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiAA_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIAA_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiAA_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIAA_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiAA_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIAA_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiAA_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIAA_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiAA_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIAA_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiAA_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONCREATION"
+	fileName "Frigate_PsiAntiModule_OnCreation.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONSELECTED_0"
+	fileName "Frigate_PsiAntiModule_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONSELECTED_1"
+	fileName "Frigate_PsiAntiModule_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONSELECTED_2"
+	fileName "Frigate_PsiAntiModule_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiAntiModule_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiAntiModule_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiAntiModule_OnAttackOrderIssued_2.ogg"	
+effect
+	name "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiAntiModule_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiAntiModule_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiAntiModule_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIANTIMODULE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiAntiModule_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONCREATION"
+	fileName "Frigate_PsiColony_OnCreation.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONSELECTED_0"
+	fileName "Frigate_PsiColony_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONSELECTED_1"
+	fileName "Frigate_PsiColony_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONSELECTED_2"
+	fileName "Frigate_PsiColony_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSICOLONY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiColony_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONCREATION"
+	fileName "Frigate_PsiCarrier_OnCreation.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONSELECTED_0"
+	fileName "Frigate_PsiCarrier_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONSELECTED_1"
+	fileName "Frigate_PsiCarrier_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONSELECTED_2"
+	fileName "Frigate_PsiCarrier_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSICARRIER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONCREATION"
+	fileName "Frigate_PsiSanctuary_OnCreation.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONSELECTED_0"
+	fileName "Frigate_PsiSanctuary_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONSELECTED_1"
+	fileName "Frigate_PsiSanctuary_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONSELECTED_2"
+	fileName "Frigate_PsiSanctuary_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiSanctuary_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiSanctuary_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiSanctuary_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiSanctuary_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiSanctuary_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiSanctuary_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSISANCTUARY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiSanctuary_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONCREATION"
+	fileName "Frigate_PsiBalance_OnCreation.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONSELECTED_0"
+	fileName "Frigate_PsiBalance_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONSELECTED_1"
+	fileName "Frigate_PsiBalance_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONSELECTED_2"
+	fileName "Frigate_PsiBalance_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiBalance_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiBalance_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiBalance_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiBalance_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiBalance_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiBalance_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIBALANCE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiBalance_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONCREATION"
+	fileName "CapitalShip_PhaseColony_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONSELECTED_0"
+	fileName "CapitalShip_PhaseColony_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONSELECTED_1"
+	fileName "CapitalShip_PhaseColony_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONSELECTED_2"
+	fileName "CapitalShip_PhaseColony_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECOLONY_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseColony_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONCREATION"
+	fileName "CapitalShip_PhaseCarrier_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONSELECTED_0"
+	fileName "CapitalShip_PhaseCarrier_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONSELECTED_1"
+	fileName "CapitalShip_PhaseCarrier_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONSELECTED_2"
+	fileName "CapitalShip_PhaseCarrier_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseCarrier_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseCarrier_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseCarrier_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASECARRIER_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONCREATION"
+	fileName "CapitalShip_PhaseBattleship_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONSELECTED_0"
+	fileName "CapitalShip_PhaseBattleship_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONSELECTED_1"
+	fileName "CapitalShip_PhaseBattleship_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONSELECTED_2"
+	fileName "CapitalShip_PhaseBattleship_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseBattleship_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseBattleship_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseBattleship_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseBattleship_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseBattleship_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseBattleship_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONATTACKORDERISSUED_3"
+	fileName "CapitalShip_PhaseBattleship_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseBattleship_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONCREATION"
+	fileName "CapitalShip_PhaseScout_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONSELECTED_0"
+	fileName "CapitalShip_PhaseScout_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONSELECTED_1"
+	fileName "CapitalShip_PhaseScout_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONSELECTED_2"
+	fileName "CapitalShip_PhaseScout_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseScout_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseScout_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseScout_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseScout_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseScout_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseScout_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESCOUT_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseScout_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONCREATION"
+	fileName "CapitalShip_PhaseSiege_OnCreation.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONSELECTED_0"
+	fileName "CapitalShip_PhaseSiege_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONSELECTED_1"
+	fileName "CapitalShip_PhaseSiege_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONSELECTED_2"
+	fileName "CapitalShip_PhaseSiege_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONSELECTED_3"
+	fileName "CapitalShip_PhaseSiege_OnSelected_3.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseSiege_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseSiege_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseSiege_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseSiege_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseSiege_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseSiege_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONATTACKORDERISSUED_3"
+	fileName "CapitalShip_PhaseSiege_OnAttackOrderIssued_3.ogg"
+effect
+	name "CAPITALSHIP_PHASESIEGE_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseSiege_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONCREATION"
+	fileName "Frigate_PhaseScout_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONSELECTED_0"
+	fileName "Frigate_PhaseScout_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONSELECTED_1"
+	fileName "Frigate_PhaseScout_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONSELECTED_2"
+	fileName "Frigate_PhaseScout_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseScout_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseScout_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseScout_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseScout_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseScout_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESCOUT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseScout_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONCREATION"
+	fileName "Frigate_PhaseLight_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONSELECTED_0"
+	fileName "Frigate_PhaseLight_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONSELECTED_1"
+	fileName "Frigate_PhaseLight_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONSELECTED_2"
+	fileName "Frigate_PhaseLight_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseLight_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseLight_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseLight_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseLight_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseLight_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseLight_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASELIGHT_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseLight_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONCREATION"
+	fileName "Frigate_PhaseLongRange_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONSELECTED_0"
+	fileName "Frigate_PhaseLongRange_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONSELECTED_1"
+	fileName "Frigate_PhaseLongRange_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONSELECTED_2"
+	fileName "Frigate_PhaseLongRange_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseLongRange_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseLongRange_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseLongRange_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseLongRange_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseLongRange_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseLongRange_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASELONGRANGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseLongRange_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONCREATION"
+	fileName "Frigate_PhaseSiege_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONSELECTED_0"
+	fileName "Frigate_PhaseSiege_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONSELECTED_1"
+	fileName "Frigate_PhaseSiege_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONSELECTED_2"
+	fileName "Frigate_PhaseSiege_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseSiege_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseSiege_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseSiege_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseSiege_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseSiege_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseSiege_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASESIEGE_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseSiege_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONCREATION"
+	fileName "Frigate_PhaseAA_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONSELECTED_0"
+	fileName "Frigate_PhaseAA_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONSELECTED_1"
+	fileName "Frigate_PhaseAA_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONSELECTED_2"
+	fileName "Frigate_PhaseAA_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseAA_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseAA_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseAA_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseAA_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseAA_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseAA_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEAA_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseAA_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONCREATION"
+	fileName "Frigate_PhaseColony_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONSELECTED_0"
+	fileName "Frigate_PhaseColony_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONSELECTED_1"
+	fileName "Frigate_PhaseColony_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONSELECTED_2"
+	fileName "Frigate_PhaseColony_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseColony_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseColony_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseColony_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseColony_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseColony_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseColony_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASECOLONY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseColony_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONCREATION"
+	fileName "Frigate_PhaseCarrier_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONSELECTED_0"
+	fileName "Frigate_PhaseCarrier_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONSELECTED_1"
+	fileName "Frigate_PhaseCarrier_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONSELECTED_2"
+	fileName "Frigate_PhaseCarrier_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseCarrier_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseCarrier_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseCarrier_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASECARRIER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseCarrier_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONCREATION"
+	fileName "Frigate_PhaseOverseer_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONSELECTED_0"
+	fileName "Frigate_PhaseOverseer_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONSELECTED_1"
+	fileName "Frigate_PhaseOverseer_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONSELECTED_2"
+	fileName "Frigate_PhaseOverseer_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseOverseer_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseOverseer_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseOverseer_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseOverseer_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseOverseer_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseOverseer_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEOVERSEER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseOverseer_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONCREATION"
+	fileName "Frigate_PhaseMineLayer_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONSELECTED_0"
+	fileName "Frigate_PhaseMineLayer_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONSELECTED_1"
+	fileName "Frigate_PhaseMineLayer_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONSELECTED_2"
+	fileName "Frigate_PhaseMineLayer_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseMineLayer_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseMineLayer_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseMineLayer_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEMINELAYER_ONGENERALORDERISSUED_3"
+	fileName "Frigate_PhaseMineLayer_OnGeneralOrderIssued_3.ogg"	
+effect
+	name "FRIGATE_PHASEMINELAYER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseMineLayer_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONCREATION"
+	fileName "Frigate_PhaseSubverter_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONSELECTED_0"
+	fileName "Frigate_PhaseSubverter_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONSELECTED_1"
+	fileName "Frigate_PhaseSubverter_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONSELECTED_2"
+	fileName "Frigate_PhaseSubverter_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseSubverter_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseSubverter_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseSubverter_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseSubverter_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseSubverter_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseSubverter_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASESUBVERTER_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseSubverter_OnStartPhaseJump_0.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONCREATION"
+	fileName "Frigate_PhaseHeavy_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONSELECTED_0"
+	fileName "Frigate_PhaseHeavy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONSELECTED_1"
+	fileName "Frigate_PhaseHeavy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONSELECTED_2"
+	fileName "Frigate_PhaseHeavy_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseHeavy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseHeavy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseHeavy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PhaseHeavy_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PhaseHeavy_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PhaseHeavy_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEHEAVY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PhaseHeavy_OnStartPhaseJump_0.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONSELECTED_0"
+	fileName "Squad_PhaseCombat_OnSelected_0.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONSELECTED_1"
+	fileName "Squad_PhaseCombat_OnSelected_1.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONSELECTED_2"
+	fileName "Squad_PhaseCombat_OnSelected_2.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONGENERALORDERISSUED_0"
+	fileName "Squad_PhaseCombat_OnGeneralOrderIssued_0.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONGENERALORDERISSUED_1"
+	fileName "Squad_PhaseCombat_OnGeneralOrderIssued_1.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONGENERALORDERISSUED_2"
+	fileName "Squad_PhaseCombat_OnGeneralOrderIssued_2.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONATTACKORDERISSUED_0"
+	fileName "Squad_PhaseCombat_OnAttackOrderIssued_0.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONATTACKORDERISSUED_1"
+	fileName "Squad_PhaseCombat_OnAttackOrderIssued_1.ogg"
+effect
+	name "SQUAD_PHASECOMBAT_ONATTACKORDERISSUED_2"
+	fileName "Squad_PhaseCombat_OnAttackOrderIssued_2.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONSELECTED_0"
+	fileName "Squad_PhaseBomber_OnSelected_0.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONSELECTED_1"
+	fileName "Squad_PhaseBomber_OnSelected_1.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONSELECTED_2"
+	fileName "Squad_PhaseBomber_OnSelected_2.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_0"
+	fileName "Squad_PhaseBomber_OnGeneralOrderIssued_0.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_1"
+	fileName "Squad_PhaseBomber_OnGeneralOrderIssued_1.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_2"
+	fileName "Squad_PhaseBomber_OnGeneralOrderIssued_2.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_0"
+	fileName "Squad_PhaseBomber_OnAttackOrderIssued_0.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_1"
+	fileName "Squad_PhaseBomber_OnAttackOrderIssued_1.ogg"
+effect
+	name "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_2"
+	fileName "Squad_PhaseBomber_OnAttackOrderIssued_2.ogg"
+effect
+	name "EVENTTECH_ALLIANCECEASEFIREBROKEN"
+	fileName "EventTech_AllianceCeaseFireBroken.ogg"
+effect
+	name "EVENTTECH_ALLIANCECEASEFIREFORMED"
+	fileName "EventTech_AllianceCeaseFireFormed.ogg"
+effect
+	name "EVENTTECH_ALLIANCECEASEFIREOFFERED"
+	fileName "EventTech_AllianceCeaseFireOffered.ogg"
+effect
+	name "EVENTTECH_ALLIANCEOTHERBROKEN"
+	fileName "EventTech_AllianceOtherBroken.ogg"
+effect
+	name "EVENTTECH_ALLIANCEOTHERFORMED"
+	fileName "EventTech_AllianceOtherFormed.ogg"
+effect
+	name "EVENTTECH_ALLIANCEOTHEROFFERED"
+	fileName "EventTech_AllianceOtherOffered.ogg"
+effect
+	name "EVENTTECH_ALLYBACKUPARRIVED"
+	fileName "EventTech_AllyBackUpArrived.ogg"
+effect
+	name "EVENTTECH_ALLYBACKUPENROUTE"
+	fileName "EventTech_AllyBackUpEnRoute.ogg"
+effect
+	name "EVENTTECH_ALLYCAPITALSHIPLOST"
+	fileName "EventTech_AllyCapitalShipLost.ogg"
+effect
+	name "EVENTTECH_ALLYFLEETARRIVED"
+	fileName "EventTech_AllyFleetArrived.ogg"
+effect
+	name "EVENTTECH_ALLYPLANETLOST"
+	fileName "EventTech_AllyPlanetLost.ogg"
+effect
+	name "EVENTTECH_ALLYPLANETUNDERATTACK"
+	fileName "EventTech_AllyPlanetUnderAttack.ogg"
+effect
+	name "EVENTTECH_ALLYUNITUNDERATTACK"
+	fileName "EventTech_AllyUnitUnderAttack.ogg"
+effect
+	name "EVENTTECH_BOUNTYALLDEPLETED"
+	fileName "EventTech_BountyAllDepleted.ogg"
+effect
+	name "EVENTTECH_BOUNTYINCREASEDOTHER"
+	fileName "EventTech_BountyIncreasedOther.ogg"
+effect
+	name "EVENTTECH_BOUNTYINCREASEDPLAYER"
+	fileName "EventTech_BountyIncreasedPlayer.ogg"
+effect
+	name "EVENTTECH_BUYNOCREDITS"
+	fileName "EventTech_BuyNoCredits.ogg"
+effect
+	name "EVENTTECH_BUYNOMETAL"
+	fileName "EventTech_BuyNoMetal.ogg"
+effect
+	name "EVENTTECH_BUYNOCRYSTAL"
+	fileName "EventTech_BuyNoCrystal.ogg"
+effect
+	name "EVENTTECH_BUYNOFRIGATEFACTORY"
+	fileName "EventTech_BuyNoFrigateFactory.ogg"
+effect
+	name "EVENTTECH_BUYNOCAPITALSHIPFACTORY"
+	fileName "EventTech_BuyNoCapitalShipFactory.ogg"
+effect
+	name "EVENTTECH_CANNONSHELLDETECTED"
+	fileName "EventTech_CannonShellDetected.ogg"
+effect
+	name "EVENTTECH_PIRATEFLEETARRIVED"
+	fileName "EventTech_PirateFleetArrived.ogg"
+effect
+	name "EVENTTECH_PIRATERAIDIMMINENT"
+	fileName "EventTech_PirateRaidImminent.ogg"
+effect
+	name "EVENTTECH_PIRATERAIDLAUNCHED"
+	fileName "EventTech_PirateRaidLaunched.ogg"
+effect
+	name "EVENTTECH_HOSTILEFLEETARRIVED"
+	fileName "EventTech_HostileFleetArrived.ogg"
+effect
+	name "EVENTTECH_HOSTILEFLEETENROUTE"
+	fileName "EventTech_HostileFleetEnRoute.ogg"
+effect
+	name "EVENTTECH_HOSTILEPLANETDESTROYED"
+	fileName "EventTech_HostilePlanetDestroyed.ogg"
+effect
+	name "EVENTTECH_MODULECOMPLETE"
+	fileName "EventTech_ModuleComplete.ogg"
+effect
+	name "EVENTTECH_PLANETUPGRADECOMPLETE"
+	fileName "EventTech_PlanetUpgradeComplete.ogg"
+effect
+	name "EVENTTECH_ARTIFACTDISCOVERED"
+	fileName "EventTech_ArtifactDiscovered.ogg"
+effect
+	name "EVENTTECH_PLAYERPLANETCOLONIZED"
+	fileName "EventTech_PlayerPlanetColonized.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALPLANETCHANGED"
+	fileName "EventTech_PlayerCapitalPlanetChanged.ogg"
+effect
+	name "EVENTTECH_NEWPLANETDISCOVERED"
+	fileName "EventTech_NewPlanetDiscovered.ogg"
+effect
+	name "EVENTTECH_BONUSDISCOVERED"
+	fileName "EventTech_BonusDiscovered.ogg"
+effect
+	name "EVENTTECH_NOTHINGDISCOVERED"
+	fileName "EventTech_NothingDiscovered.ogg"
+effect
+	name "EVENTTECH_PLAYERBACKUPARRIVED"
+	fileName "EventTech_PlayerBackUpArrived.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALSHIPLOST"
+	fileName "EventTech_PlayerCapitalShipLost.ogg"
+effect
+	name "EVENTTECH_PLAYERFLEETARRIVED"
+	fileName "EventTech_PlayerFleetArrived.ogg"
+effect
+	name "EVENTTECH_PLAYERPLANETLOST"
+	fileName "EventTech_PlayerPlanetLost.ogg"
+effect
+	name "EVENTTECH_PLAYERPLANETSOONLOSTTOCULTURE"
+	fileName "EventTech_PlayerPlanetSoonLostToCulture.ogg"
+effect
+	name "EVENTTECH_PLAYERPLANETUNDERATTACK"
+	fileName "EventTech_PlayerPlanetUnderAttack.ogg"
+effect
+	name "EVENTTECH_PLAYERUNITUNDERATTACK"
+	fileName "EventTech_PlayerUnitUnderAttack.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALSHIPSHIELDSDOWN"
+	fileName "EventTech_PlayerCapitalShipShieldsDown.ogg"
+effect
+	name "EVENTTECH_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
+	fileName "EventTech_PlayerCapitalShipHullSeverelyDamaged.ogg"
+effect
+	name "EVENTTECH_QUESTADDED"
+	fileName "EventTech_QuestAdded.ogg"
+effect
+	name "EVENTTECH_QUESTCOMPLETED"
+	fileName "EventTech_QuestCompleted.ogg"
+effect
+	name "EVENTTECH_QUESTFAILED"
+	fileName "EventTech_QuestFailed.ogg"
+effect
+	name "EVENTTECH_RESEARCHCOMPLETE"
+	fileName "EventTech_ResearchComplete.ogg"
+effect
+	name "EVENTTECH_RESEARCHNEEDMORELABMODULES"
+	fileName "EventTech_ResearchNeedMoreLabModules.ogg"
+effect
+	name "EVENTTECH_RESEARCHNEEDPREREQUISITE"
+	fileName "EventTech_ResearchNeedPrerequisite.ogg"
+effect
+	name "EVENTTECH_INVALIDMODULEPLACEMENTPOSITION"
+	fileName "EventTech_InvalidModulePlacementPosition.ogg"
+effect
+	name "EVENTTECH_USEABILITYNOANTIMATTER"
+	fileName "EventTech_UseAbilityNoAntimatter.ogg"
+effect
+	name "EVENTTECH_MOREMODULESLOTSNEEDED"
+	fileName "EventTech_MoreModuleSlotsNeeded.ogg"
+effect
+	name "EVENTTECH_ALLYREQUESTATTACK"
+	fileName "EventTech_AllyRequestAttack.ogg"
+effect
+	name "EVENTTECH_ALLYREQUESTDEFEND"
+	fileName "EventTech_AllyRequestDefend.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCECEASEFIREBROKEN"
+	fileName "EventRemnant_AllianceCeaseFireBroken.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCECEASEFIREFORMED"
+	fileName "EventRemnant_AllianceCeaseFireFormed.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCECEASEFIREOFFERED"
+	fileName "EventRemnant_AllianceCeaseFireOffered.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCEOTHERBROKEN"
+	fileName "EventRemnant_AllianceOtherBroken.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCEOTHERFORMED"
+	fileName "EventRemnant_AllianceOtherFormed.ogg"
+effect
+	name "EVENTREMNANT_ALLIANCEOTHEROFFERED"
+	fileName "EventRemnant_AllianceOtherOffered.ogg"
+effect
+	name "EVENTREMNANT_ALLYBACKUPARRIVED"
+	fileName "EventRemnant_AllyBackUpArrived.ogg"
+effect
+	name "EVENTREMNANT_ALLYBACKUPENROUTE"
+	fileName "EventRemnant_AllyBackUpEnRoute.ogg"
+effect
+	name "EVENTREMNANT_ALLYCAPITALSHIPLOST"
+	fileName "EventRemnant_AllyCapitalShipLost.ogg"
+effect
+	name "EVENTREMNANT_ALLYFLEETARRIVED"
+	fileName "EventRemnant_AllyFleetArrived.ogg"
+effect
+	name "EVENTREMNANT_ALLYPLANETLOST"
+	fileName "EventRemnant_AllyPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_ALLYPLANETUNDERATTACK"
+	fileName "EventRemnant_AllyPlanetUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_ALLYUNITUNDERATTACK"
+	fileName "EventRemnant_AllyUnitUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_BOUNTYALLDEPLETED"
+	fileName "EventRemnant_BountyAllDepleted.ogg"
+effect
+	name "EVENTREMNANT_BOUNTYINCREASEDOTHER"
+	fileName "EventRemnant_BountyIncreasedOther.ogg"
+effect
+	name "EVENTREMNANT_BOUNTYINCREASEDPLAYER"
+	fileName "EventRemnant_BountyIncreasedPlayer.ogg"
+effect
+	name "EVENTREMNANT_BUYNOCREDITS"
+	fileName "EventRemnant_BuyNoCredits.ogg"
+effect
+	name "EVENTREMNANT_BUYNOMETAL"
+	fileName "EventRemnant_BuyNoMetal.ogg"
+effect
+	name "EVENTREMNANT_BUYNOCRYSTAL"
+	fileName "EventRemnant_BuyNoCrystal.ogg"
+effect
+	name "EVENTREMNANT_BUYNOFRIGATEFACTORY"
+	fileName "EventRemnant_BuyNoFrigateFactory.ogg"
+effect
+	name "EVENTREMNANT_BUYNOCAPITALSHIPFACTORY"
+	fileName "EventRemnant_BuyNoCapitalShipFactory.ogg"
+effect
+	name "EVENTREMNANT_CANNONSHELLDETECTED"
+	fileName "EventRemnant_CannonShellDetected.ogg"
+effect
+	name "EVENTREMNANT_PIRATEFLEETARRIVED"
+	fileName "EventRemnant_PirateFleetArrived.ogg"
+effect
+	name "EVENTREMNANT_PIRATERAIDIMMINENT"
+	fileName "EventRemnant_PirateRaidImminent.ogg"
+effect
+	name "EVENTREMNANT_PIRATERAIDLAUNCHED"
+	fileName "EventRemnant_PirateRaidLaunched.ogg"
+effect
+	name "EVENTREMNANT_HOSTILEFLEETARRIVED"
+	fileName "EventRemnant_HostileFleetArrived.ogg"
+effect
+	name "EVENTREMNANT_HOSTILEFLEETENROUTE"
+	fileName "EventRemnant_HostileFleetEnRoute.ogg"
+effect
+	name "EVENTREMNANT_HOSTILEPLANETDESTROYED"
+	fileName "EventRemnant_HostilePlanetDestroyed.ogg"
+effect
+	name "EVENTREMNANT_MODULECOMPLETE"
+	fileName "EventRemnant_ModuleComplete.ogg"
+effect
+	name "EVENTREMNANT_PLANETUPGRADECOMPLETE"
+	fileName "EventRemnant_PlanetUpgradeComplete.ogg"
+effect
+	name "EVENTREMNANT_ARTIFACTDISCOVERED"
+	fileName "EventRemnant_ArtifactDiscovered.ogg"
+effect
+	name "EVENTREMNANT_PLAYERPLANETCOLONIZED"
+	fileName "EventRemnant_PlayerPlanetColonized.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALPLANETCHANGED"
+	fileName "EventRemnant_PlayerCapitalPlanetChanged.ogg"
+effect
+	name "EVENTREMNANT_NEWPLANETDISCOVERED"
+	fileName "EventRemnant_NewPlanetDiscovered.ogg"
+effect
+	name "EVENTREMNANT_BONUSDISCOVERED"
+	fileName "EventRemnant_BonusDiscovered.ogg"
+effect
+	name "EVENTREMNANT_NOTHINGDISCOVERED"
+	fileName "EventRemnant_NothingDiscovered.ogg"
+effect
+	name "EVENTREMNANT_PLAYERBACKUPARRIVED"
+	fileName "EventRemnant_PlayerBackUpArrived.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALSHIPLOST"
+	fileName "EventRemnant_PlayerCapitalShipLost.ogg"
+effect
+	name "EVENTREMNANT_PLAYERFLEETARRIVED"
+	fileName "EventRemnant_PlayerFleetArrived.ogg"
+effect
+	name "EVENTREMNANT_PLAYERPLANETLOST"
+	fileName "EventRemnant_PlayerPlanetLost.ogg"
+effect
+	name "EVENTREMNANT_PLAYERPLANETSOONLOSTTOCULTURE"
+	fileName "EventRemnant_PlayerPlanetSoonLostToCulture.ogg"
+effect
+	name "EVENTREMNANT_PLAYERPLANETUNDERATTACK"
+	fileName "EventRemnant_PlayerPlanetUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_PLAYERUNITUNDERATTACK"
+	fileName "EventRemnant_PlayerUnitUnderAttack.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALSHIPSHIELDSDOWN"
+	fileName "EventRemnant_PlayerCapitalShipShieldsDown.ogg"
+effect
+	name "EVENTREMNANT_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
+	fileName "EventRemnant_PlayerCapitalShipHullSeverelyDamaged.ogg"
+effect
+	name "EVENTREMNANT_QUESTADDED"
+	fileName "EventRemnant_QuestAdded.ogg"
+effect
+	name "EVENTREMNANT_QUESTCOMPLETED"
+	fileName "EventRemnant_QuestCompleted.ogg"
+effect
+	name "EVENTREMNANT_QUESTFAILED"
+	fileName "EventRemnant_QuestFailed.ogg"
+effect
+	name "EVENTREMNANT_RESEARCHCOMPLETE"
+	fileName "EventRemnant_ResearchComplete.ogg"
+effect
+	name "EVENTREMNANT_RESEARCHNEEDMORELABMODULES"
+	fileName "EventRemnant_ResearchNeedMoreLabModules.ogg"
+effect
+	name "EVENTREMNANT_RESEARCHNEEDPREREQUISITE"
+	fileName "EventRemnant_ResearchNeedPrerequisite.ogg"
+effect
+	name "EVENTREMNANT_INVALIDMODULEPLACEMENTPOSITION"
+	fileName "EventRemnant_InvalidModulePlacementPosition.ogg"
+effect
+	name "EVENTREMNANT_USEABILITYNOANTIMATTER"
+	fileName "EventRemnant_UseAbilityNoAntimatter.ogg"
+effect
+	name "EVENTREMNANT_MOREMODULESLOTSNEEDED"
+	fileName "EventRemnant_MoreModuleSlotsNeeded.ogg"
+effect
+	name "EVENTREMNANT_ALLYREQUESTATTACK"
+	fileName "EventRemnant_AllyRequestAttack.ogg"
+effect
+	name "EVENTREMNANT_ALLYREQUESTDEFEND"
+	fileName "EventRemnant_AllyRequestDefend.ogg"
+effect
+	name "EVENTPHASE_ALLIANCECEASEFIREBROKEN"
+	fileName "EventPhase_AllianceCeaseFireBroken.ogg"
+effect
+	name "EVENTPHASE_ALLIANCECEASEFIREFORMED"
+	fileName "EventPhase_AllianceCeaseFireFormed.ogg"
+effect
+	name "EVENTPHASE_ALLIANCECEASEFIREOFFERED"
+	fileName "EventPhase_AllianceCeaseFireOffered.ogg"
+effect
+	name "EVENTPHASE_ALLIANCEOTHERBROKEN"
+	fileName "EventPhase_AllianceOtherBroken.ogg"
+effect
+	name "EVENTPHASE_ALLIANCEOTHERFORMED"
+	fileName "EventPhase_AllianceOtherFormed.ogg"
+effect
+	name "EVENTPHASE_ALLIANCEOTHEROFFERED"
+	fileName "EventPhase_AllianceOtherOffered.ogg"
+effect
+	name "EVENTPHASE_ALLYBACKUPARRIVED"
+	fileName "EventPhase_AllyBackUpArrived.ogg"
+effect
+	name "EVENTPHASE_ALLYBACKUPENROUTE"
+	fileName "EventPhase_AllyBackUpEnRoute.ogg"
+effect
+	name "EVENTPHASE_ALLYCAPITALSHIPLOST"
+	fileName "EventPhase_AllyCapitalShipLost.ogg"
+effect
+	name "EVENTPHASE_ALLYFLEETARRIVED"
+	fileName "EventPhase_AllyFleetArrived.ogg"
+effect
+	name "EVENTPHASE_ALLYPLANETLOST"
+	fileName "EventPhase_AllyPlanetLost.ogg"
+effect
+	name "EVENTPHASE_ALLYPLANETUNDERATTACK"
+	fileName "EventPhase_AllyPlanetUnderAttack.ogg"
+effect
+	name "EVENTPHASE_ALLYUNITUNDERATTACK"
+	fileName "EventPhase_AllyUnitUnderAttack.ogg"
+effect
+	name "EVENTPHASE_BOUNTYALLDEPLETED"
+	fileName "EventPhase_BountyAllDepleted.ogg"
+effect
+	name "EVENTPHASE_BOUNTYINCREASEDOTHER"
+	fileName "EventPhase_BountyIncreasedOther.ogg"
+effect
+	name "EVENTPHASE_BOUNTYINCREASEDPLAYER"
+	fileName "EventPhase_BountyIncreasedPlayer.ogg"
+effect
+	name "EVENTPHASE_BUYNOCREDITS"
+	fileName "EventPhase_BuyNoCredits.ogg"
+effect
+	name "EVENTPHASE_BUYNOMETAL"
+	fileName "EventPhase_BuyNoMetal.ogg"
+effect
+	name "EVENTPHASE_BUYNOCRYSTAL"
+	fileName "EventPhase_BuyNoCrystal.ogg"
+effect
+	name "EVENTPHASE_BUYNOFRIGATEFACTORY"
+	fileName "EventPhase_BuyNoFrigateFactory.ogg"
+effect
+	name "EVENTPHASE_BUYNOCAPITALSHIPFACTORY"
+	fileName "EventPhase_BuyNoCapitalShipFactory.ogg"
+effect
+	name "EVENTPHASE_CANNONSHELLDETECTED"
+	fileName "EventPhase_CannonShellDetected.ogg"
+effect
+	name "EVENTPHASE_PIRATEFLEETARRIVED"
+	fileName "EventPhase_PirateFleetArrived.ogg"
+effect
+	name "EVENTPHASE_PIRATERAIDIMMINENT"
+	fileName "EventPhase_PirateRaidImminent.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONCREATION"
+	fileName "Frigate_PsiHeavy_OnCreation.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONSELECTED_0"
+	fileName "Frigate_PsiHeavy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONSELECTED_1"
+	fileName "Frigate_PsiHeavy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONSELECTED_2"
+	fileName "Frigate_PsiHeavy_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiHeavy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiHeavy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiHeavy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONATTACKORDERISSUED_0"
+	fileName "Frigate_PsiHeavy_OnAttackOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONATTACKORDERISSUED_1"
+	fileName "Frigate_PsiHeavy_OnAttackOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONATTACKORDERISSUED_2"
+	fileName "Frigate_PsiHeavy_OnAttackOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIHEAVY_ONSTARTPHASEJUMP_0"
+	fileName "Frigate_PsiHeavy_OnStartPhaseJump_0.ogg"
+effect
+	name "EVENTPHASE_PIRATERAIDLAUNCHED"
+	fileName "EventPhase_PirateRaidLaunched.ogg"
+effect
+	name "EVENTPHASE_HOSTILEFLEETARRIVED"
+	fileName "EventPhase_HostileFleetArrived.ogg"
+effect
+	name "EVENTPHASE_HOSTILEFLEETENROUTE"
+	fileName "EventPhase_HostileFleetEnRoute.ogg"
+effect
+	name "EVENTPHASE_HOSTILEPLANETDESTROYED"
+	fileName "EventPhase_HostilePlanetDestroyed.ogg"
+effect
+	name "EVENTPHASE_MODULECOMPLETE"
+	fileName "EventPhase_ModuleComplete.ogg"
+effect
+	name "EVENTPHASE_PLANETUPGRADECOMPLETE"
+	fileName "EventPhase_PlanetUpgradeComplete.ogg"
+effect
+	name "EVENTPHASE_ARTIFACTDISCOVERED"
+	fileName "EventPhase_ArtifactDiscovered.ogg"
+effect
+	name "EVENTPHASE_PLAYERPLANETCOLONIZED"
+	fileName "EventPhase_PlayerPlanetColonized.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALPLANETCHANGED"
+	fileName "EventPhase_PlayerCapitalPlanetChanged.ogg"
+effect
+	name "EVENTPHASE_NEWPLANETDISCOVERED"
+	fileName "EventPhase_NewPlanetDiscovered.ogg"
+effect
+	name "EVENTPHASE_BONUSDISCOVERED"
+	fileName "EventPhase_BonusDiscovered.ogg"
+effect
+	name "EVENTPHASE_NOTHINGDISCOVERED"
+	fileName "EventPhase_NothingDiscovered.ogg"
+effect
+	name "EVENTPHASE_PLAYERBACKUPARRIVED"
+	fileName "EventPhase_PlayerBackUpArrived.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALSHIPLOST"
+	fileName "EventPhase_PlayerCapitalShipLost.ogg"
+effect
+	name "EVENTPHASE_PLAYERFLEETARRIVED"
+	fileName "EventPhase_PlayerFleetArrived.ogg"
+effect
+	name "EVENTPHASE_PLAYERPLANETLOST"
+	fileName "EventPhase_PlayerPlanetLost.ogg"
+effect
+	name "EVENTPHASE_PLAYERPLANETSOONLOSTTOCULTURE"
+	fileName "EventPhase_PlayerPlanetSoonLostToCulture.ogg"
+effect
+	name "EVENTPHASE_PLAYERPLANETUNDERATTACK"
+	fileName "EventPhase_PlayerPlanetUnderAttack.ogg"
+effect
+	name "EVENTPHASE_PLAYERUNITUNDERATTACK"
+	fileName "EventPhase_PlayerUnitUnderAttack.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALSHIPSHIELDSDOWN"
+	fileName "EventPhase_PlayerCapitalShipShieldsDown.ogg"
+effect
+	name "EVENTPHASE_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
+	fileName "EventPhase_PlayerCapitalShipHullSeverelyDamaged.ogg"
+effect
+	name "EVENTPHASE_QUESTADDED"
+	fileName "EventPhase_QuestAdded.ogg"
+effect
+	name "EVENTPHASE_QUESTCOMPLETED"
+	fileName "EventPhase_QuestCompleted.ogg"
+effect
+	name "EVENTPHASE_QUESTFAILED"
+	fileName "EventPhase_QuestFailed.ogg"
+effect
+	name "EVENTPHASE_RESEARCHCOMPLETE"
+	fileName "EventPhase_ResearchComplete.ogg"
+effect
+	name "EVENTPHASE_RESEARCHNEEDMORELABMODULES"
+	fileName "EventPhase_ResearchNeedMoreLabModules.ogg"
+effect
+	name "EVENTPHASE_RESEARCHNEEDPREREQUISITE"
+	fileName "EventPhase_ResearchNeedPrerequisite.ogg"
+effect
+	name "EVENTPHASE_INVALIDMODULEPLACEMENTPOSITION"
+	fileName "EventPhase_InvalidModulePlacementPosition.ogg"
+effect
+	name "EVENTPHASE_USEABILITYNOANTIMATTER"
+	fileName "EventPhase_UseAbilityNoAntimatter.ogg"
+effect
+	name "EVENTPHASE_MOREMODULESLOTSNEEDED"
+	fileName "EventPhase_MoreModuleSlotsNeeded.ogg"
+effect
+	name "EVENTPHASE_ALLYREQUESTATTACK"
+	fileName "EventPhase_AllyRequestAttack.ogg"
+effect
+	name "EVENTPHASE_ALLYREQUESTDEFEND"
+	fileName "EventPhase_AllyRequestDefend.ogg"
+effect
+	name "EVENTPHASE_DARKFLEETARRIVES"
+	fileName "EventPhase_DarkFleetArrives.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONCREATION"
+	fileName "Frigate_TechEnvoy_OnCreation.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONSTARTPHASEJUMP"
+	fileName "Frigate_TechEnvoy_OnStartPhaseJump.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_TechEnvoy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_TechEnvoy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_TechEnvoy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONSELECTED_0"
+	fileName "Frigate_TechEnvoy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONSELECTED_1"
+	fileName "Frigate_TechEnvoy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_TECHENVOY_ONSELECTED_2"
+	fileName "Frigate_TechEnvoy_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONCREATION"
+	fileName "Frigate_PsiEnvoy_OnCreation.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONSTARTPHASEJUMP"
+	fileName "Frigate_PsiEnvoy_OnStartPhaseJump.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PsiEnvoy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PsiEnvoy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PsiEnvoy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONSELECTED_0"
+	fileName "Frigate_PsiEnvoy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONSELECTED_1"
+	fileName "Frigate_PsiEnvoy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PSIENVOY_ONSELECTED_2"
+	fileName "Frigate_PsiEnvoy_OnSelected_2.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONCREATION"
+	fileName "Frigate_PhaseEnvoy_OnCreation.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONSTARTPHASEJUMP"
+	fileName "Frigate_PhaseEnvoy_OnStartPhaseJump.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONGENERALORDERISSUED_0"
+	fileName "Frigate_PhaseEnvoy_OnGeneralOrderIssued_0.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONGENERALORDERISSUED_1"
+	fileName "Frigate_PhaseEnvoy_OnGeneralOrderIssued_1.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONGENERALORDERISSUED_2"
+	fileName "Frigate_PhaseEnvoy_OnGeneralOrderIssued_2.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONSELECTED_0"
+	fileName "Frigate_PhaseEnvoy_OnSelected_0.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONSELECTED_1"
+	fileName "Frigate_PhaseEnvoy_OnSelected_1.ogg"
+effect
+	name "FRIGATE_PHASEENVOY_ONSELECTED_2"
+	fileName "Frigate_PhaseEnvoy_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONATTACKORDERISSUED_0"
+	fileName "Capitalship_PsiBattleship2_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONATTACKORDERISSUED_1"
+	fileName "Capitalship_PsiBattleship2_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONATTACKORDERISSUED_2"
+	fileName "Capitalship_PsiBattleship2_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONCREATION_0"
+	fileName "Capitalship_PsiBattleship2_OnCreation_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONGENERALORDERISSUED_0"
+	fileName "Capitalship_PsiBattleship2_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONGENERALORDERISSUED_1"
+	fileName "Capitalship_PsiBattleship2_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONGENERALORDERISSUED_2"
+	fileName "Capitalship_PsiBattleship2_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONSELECTED_0"
+	fileName "Capitalship_PsiBattleship2_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONSELECTED_1"
+	fileName "Capitalship_PsiBattleship2_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONSELECTED_2"
+	fileName "Capitalship_PsiBattleship2_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PSIBATTLESHIP2_ONSTARTPHASEJUMP_0"
+	fileName "Capitalship_PsiBattleship2_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONATTACKORDERISSUED_0"
+	fileName "Corvette_PsiRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONATTACKORDERISSUED_1"
+	fileName "Corvette_PsiRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONATTACKORDERISSUED_2"
+	fileName "Corvette_PsiRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONCREATION_0"
+	fileName "Corvette_PsiRebel_OnCreation_0.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONGENERALORDERISSUED_0"
+	fileName "Corvette_PsiRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONGENERALORDERISSUED_1"
+	fileName "Corvette_PsiRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONGENERALORDERISSUED_2"
+	fileName "Corvette_PsiRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONSELECTED_0"
+	fileName "Corvette_PsiRebel_OnSelected_0.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONSELECTED_1"
+	fileName "Corvette_PsiRebel_OnSelected_1.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONSELECTED_2"
+	fileName "Corvette_PsiRebel_OnSelected_2.ogg"
+effect
+	name "CORVETTE_PSIREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_PsiRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Corvette_PsiLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Corvette_PsiLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Corvette_PsiLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONCREATION_0"
+	fileName "Corvette_PsiLoyalist_OnCreation_0.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Corvette_PsiLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Corvette_PsiLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Corvette_PsiLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONSELECTED_0"
+	fileName "Corvette_PsiLoyalist_OnSelected_0.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONSELECTED_1"
+	fileName "Corvette_PsiLoyalist_OnSelected_1.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONSELECTED_2"
+	fileName "Corvette_PsiLoyalist_OnSelected_2.ogg"
+effect
+	name "CORVETTE_PSILOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_PsiLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_ALLYCAPITALSHIPLOST_0"
+	fileName "EventRemnant_Loyalist_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTREMNANT_ONALLYFLAGSHIPLOST"
+	fileName "EventRemnant_OnAllyFlagshipLostGeneral.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_ALLYONTITANCREATION_0"
+	fileName "EventRemnant_Loyalist_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_ALLYTITANLOST_0"
+	fileName "EventRemnant_Loyalist_AllyTitanLost_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_ENEMYONTITANCREATION_0"
+	fileName "EventRemnant_Loyalist_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventRemnant_Loyalist_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventRemnant_Loyalist_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_PLAYERTITANLOST_0"
+	fileName "EventRemnant_Loyalist_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventRemnant_Loyalist_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTREMNANT_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EventRemnant_Loyalist_TitanHullSeverelyDamaged_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_ALLYCAPITALSHIPLOST_0"
+	fileName "EventRemnant_Rebel_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_ALLYONTITANCREATION_0"
+	fileName "EventRemnant_Rebel_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_ALLYTITANLOST_0"
+	fileName "EventRemnant_Rebel_AllyTitanLost_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_ENEMYONTITANCREATION_0"
+	fileName "EventRemnant_Rebel_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventRemnant_Rebel_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventRemnant_Rebel_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_PLAYERTITANLOST_0"
+	fileName "EventRemnant_Rebel_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventRemnant_Rebel_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTREMNANT_REBEL_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EventRemnant_Rebel_TitanHullSeverelyDamaged_0.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Titan_PsiLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Titan_PsiLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Titan_PsiLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONATTACKORDERISSUED_3"
+	fileName "Titan_PsiLoyalist_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONCREATION_0"
+	fileName "Titan_PsiLoyalist_OnCreation_0.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Titan_PsiLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Titan_PsiLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Titan_PsiLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONSELECTED_0"
+	fileName "Titan_PsiLoyalist_OnSelected_0.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONSELECTED_1"
+	fileName "Titan_PsiLoyalist_OnSelected_1.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONSELECTED_2"
+	fileName "Titan_PsiLoyalist_OnSelected_2.ogg"
+effect
+	name "TITAN_PSILOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Titan_PsiLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "TITAN_PSIREBEL_ONATTACKORDERISSUED_0"
+	fileName "Titan_PsiRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_PSIREBEL_ONATTACKORDERISSUED_1"
+	fileName "Titan_PsiRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_PSIREBEL_ONATTACKORDERISSUED_2"
+	fileName "Titan_PsiRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_PSIREBEL_ONATTACKORDERISSUED_3"
+	fileName "Titan_PsiRebel_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_PSIREBEL_ONCREATION_0"
+	fileName "Titan_PsiRebel_OnCreation_0.ogg"
+effect
+	name "TITAN_PSIREBEL_ONGENERALORDERISSUED_0"
+	fileName "Titan_PsiRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_PSIREBEL_ONGENERALORDERISSUED_1"
+	fileName "Titan_PsiRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_PSIREBEL_ONGENERALORDERISSUED_2"
+	fileName "Titan_PsiRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_PSIREBEL_ONSELECTED_0"
+	fileName "Titan_PsiRebel_OnSelected_0.ogg"
+effect
+	name "TITAN_PSIREBEL_ONSELECTED_1"
+	fileName "Titan_PsiRebel_OnSelected_1.ogg"
+effect
+	name "TITAN_PSIREBEL_ONSELECTED_2"
+	fileName "Titan_PsiRebel_OnSelected_2.ogg"
+effect
+	name "TITAN_PSIREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Titan_PsiRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_TechTransport_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_TechTransport_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_TechTransport_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONCREATION_0"
+	fileName "CapitalShip_TechTransport_OnCreation_0.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_TechTransport_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_TechTransport_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_TechTransport_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_0"
+	fileName "CapitalShip_TechTransport_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_1"
+	fileName "CapitalShip_TechTransport_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_2"
+	fileName "CapitalShip_TechTransport_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_TECHTRANSPORT_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_TechTransport_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_0"
+	fileName "Corvette_TechRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_1"
+	fileName "Corvette_TechRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_2"
+	fileName "Corvette_TechRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONCREATION_0"
+	fileName "Corvette_TechRebel_OnCreation_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_0"
+	fileName "Corvette_TechRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_1"
+	fileName "Corvette_TechRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_2"
+	fileName "Corvette_TechRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_TechRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONSELECTED_0"
+	fileName "Corvette_TechRebel_OnSelected_0.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONSELECTED_1"
+	fileName "Corvette_TechRebel_OnSelected_1.ogg"
+effect
+	name "CORVETTE_TECHREBEL_ONSELECTED_2"
+	fileName "Corvette_TechRebel_OnSelected_2.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Corvette_TechLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Corvette_TechLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Corvette_TechLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONCREATION_0"
+	fileName "Corvette_TechLoyalist_OnCreation_0.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Corvette_TechLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Corvette_TechLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Corvette_TechLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_TechLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONSELECTED_0"
+	fileName "Corvette_TechLoyalist_OnSelected_0.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONSELECTED_1"
+	fileName "Corvette_TechLoyalist_OnSelected_1.ogg"
+effect
+	name "CORVETTE_TECHLOYALIST_ONSELECTED_2"
+	fileName "Corvette_TechLoyalist_OnSelected_2.ogg"
+effect
+	name "EVENTTECH_LOYALIST_ALLYCAPITALSHIPLOST_0"
+	fileName "EventTech_Loyalist_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_ALLYONTITANCREATION_0"
+	fileName "EventTech_Loyalist_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_ALLYTITANLOST_0"
+	fileName "EventTech_Loyalist_AllyTitanLost_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_ENEMYONTITANCREATION_0"
+	fileName "EventTech_Loyalist_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventTech_Loyalist_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventTech_Loyalist_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_PLAYERTITANLOST_0"
+	fileName "EventTech_Loyalist_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventTech_Loyalist_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTTECH_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EventTech_Loyalist_TitanHullServerDamaged_0.ogg"
+effect
+	name "EVENTTECH_REBEL_ALLYCAPITALSHIPLOST_0"
+	fileName "EventTech_Rebel_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTTECH_REBEL_ALLYONTITANCREATION_0"
+	fileName "EventTech_Rebel_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTTECH_REBEL_ALLYTITANLOST_0"
+	fileName "EventTech_Rebel_AllyTitanLost_0.ogg"
+effect
+	name "EVENTTECH_REBEL_ENEMYONTITANCREATION_0"
+	fileName "EventTech_Rebel_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTTECH_REBEL_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventTech_Rebel_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTTECH_REBEL_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventTech_Rebel_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTTECH_REBEL_PLAYERTITANLOST_0"
+	fileName "EventTech_Rebel_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTTECH_REBEL_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventTech_Rebel_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTTECH_REBEL_TITANHULLSERVERDAMAGED_0"
+	fileName "EventTech_Rebel_TitanHullServerDamaged_0.ogg"
+effect
+	name "PIRATE_ONATTACKORDERISSUED_0"
+	fileName "Pirate_OnAttackOrderIssued_0.ogg"
+effect
+	name "PIRATE_ONATTACKORDERISSUED_1"
+	fileName "Pirate_OnAttackOrderIssued_1.ogg"
+effect
+	name "PIRATE_ONATTACKORDERISSUED_2"
+	fileName "Pirate_OnAttackOrderIssued_2.ogg"
+effect
+	name "PIRATE_ONATTACKORDERISSUED_3"
+	fileName "Pirate_OnAttackOrderIssued_3.ogg"
+effect
+	name "PIRATE_ONGENERALORDERISSUED_0"
+	fileName "Pirate_OnGeneralOrderIssued_0.ogg"
+effect
+	name "PIRATE_ONGENERALORDERISSUED_1"
+	fileName "Pirate_OnGeneralOrderIssued_1.ogg"
+effect
+	name "PIRATE_ONGENERALORDERISSUED_2"
+	fileName "Pirate_OnGeneralOrderIssued_2.ogg"
+effect
+	name "PIRATE_ONSELECTED_0"
+	fileName "Pirate_OnSelected_0.ogg"
+effect
+	name "PIRATE_ONSELECTED_1"
+	fileName "Pirate_OnSelected_1.ogg"
+effect
+	name "PIRATE_ONSELECTED_2"
+	fileName "Pirate_OnSelected_2.ogg"
+effect
+	name "PIRATE_ONSTARTPHASEJUMP_0"
+	fileName "Pirate_OnStartPhaseJump_0.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Titan_TechLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Titan_TechLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Titan_TechLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_3"
+	fileName "Titan_TechLoyalist_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONCREATION_0"
+	fileName "Titan_TechLoyalist_OnCreation_0.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Titan_TechLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Titan_TechLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Titan_TechLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONSELECTED_0"
+	fileName "Titan_TechLoyalist_OnSelected_0.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONSELECTED_1"
+	fileName "Titan_TechLoyalist_OnSelected_1.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONSELECTED_2"
+	fileName "Titan_TechLoyalist_OnSelected_2.ogg"
+effect
+	name "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Titan_TechLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "TITAN_TECHREBEL_ONATTACKORDERISSUED_0"
+	fileName "Titan_TechRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_TECHREBEL_ONATTACKORDERISSUED_1"
+	fileName "Titan_TechRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_TECHREBEL_ONATTACKORDERISSUED_2"
+	fileName "Titan_TechRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_TECHREBEL_ONATTACKORDERISSUED_3"
+	fileName "Titan_TechRebel_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_TECHREBEL_ONCREATION_0"
+	fileName "Titan_TechRebel_OnCreation_0.ogg"
+effect
+	name "TITAN_TECHREBEL_ONGENERALORDERISSUED_0"
+	fileName "Titan_TechRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_TECHREBEL_ONGENERALORDERISSUED_1"
+	fileName "Titan_TechRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_TECHREBEL_ONGENERALORDERISSUED_2"
+	fileName "Titan_TechRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_TECHREBEL_ONSELECTED_0"
+	fileName "Titan_TechRebel_OnSelected_0.ogg"
+effect
+	name "TITAN_TECHREBEL_ONSELECTED_1"
+	fileName "Titan_TechRebel_OnSelected_1.ogg"
+effect
+	name "TITAN_TECHREBEL_ONSELECTED_2"
+	fileName "Titan_TechRebel_OnSelected_2.ogg"
+effect
+	name "TITAN_TECHREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Titan_TechRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_0"
+	fileName "CapitalShip_PhaseBattleShip2_OnAttackOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_1"
+	fileName "CapitalShip_PhaseBattleShip2_OnAttackOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_2"
+	fileName "CapitalShip_PhaseBattleShip2_OnAttackOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONCREATION_0"
+	fileName "CapitalShip_PhaseBattleShip2_OnCreation_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_0"
+	fileName "CapitalShip_PhaseBattleShip2_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_1"
+	fileName "CapitalShip_PhaseBattleShip2_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_2"
+	fileName "CapitalShip_PhaseBattleShip2_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_0"
+	fileName "CapitalShip_PhaseBattleShip2_OnSelected_0.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_1"
+	fileName "CapitalShip_PhaseBattleShip2_OnSelected_1.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_2"
+	fileName "CapitalShip_PhaseBattleShip2_OnSelected_2.ogg"
+effect
+	name "CAPITALSHIP_PHASEBATTLESHIP2_ONSTARTPHASEJUMP_0"
+	fileName "CapitalShip_PhaseBattleShip2_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_0"
+	fileName "Corvette_PhaseRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_1"
+	fileName "Corvette_PhaseRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_2"
+	fileName "Corvette_PhaseRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONCREATION_0"
+	fileName "Corvette_PhaseRebel_OnCreation_0.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_0"
+	fileName "Corvette_PhaseRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_1"
+	fileName "Corvette_PhaseRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_2"
+	fileName "Corvette_PhaseRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONSELECTED_0"
+	fileName "Corvette_PhaseRebel_OnSelected_0.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONSELECTED_1"
+	fileName "Corvette_PhaseRebel_OnSelected_1.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONSELECTED_2"
+	fileName "Corvette_PhaseRebel_OnSelected_2.ogg"
+effect
+	name "CORVETTE_PHASEREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_PhaseRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Corvette_PhaseLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Corvette_PhaseLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Corvette_PhaseLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONCREATION_0"
+	fileName "Corvette_PhaseLoyalist_OnCreation_0.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Corvette_PhaseLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Corvette_PhaseLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Corvette_PhaseLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONSELECTED_0"
+	fileName "Corvette_PhaseLoyalist_OnSelected_0.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONSELECTED_1"
+	fileName "Corvette_PhaseLoyalist_OnSelected_1.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONSELECTED_2"
+	fileName "Corvette_PhaseLoyalist_OnSelected_2.ogg"
+effect
+	name "CORVETTE_PHASELOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Corvette_PhaseLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "EVENTPHASE_ONALLYFLAGSHIPLOST"
+	fileName "EventPhase_OnAllyFlagshipLostGeneral.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_ALLYCAPITALSHIPLOST_0"
+	fileName "EventPhase_Loyalist_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_ALLYONTITANCREATION_0"
+	fileName "EventPhase_Loyalist_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_ALLYTITANLOST_0"
+	fileName "EventPhase_Loyalist_AllyTitanLost_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_ENEMYONTITANCREATION_0"
+	fileName "EventPhase_Loyalist_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventPhase_Loyalist_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventPhase_Loyalist_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_PLAYERTITANLOST_0"
+	fileName "EventPhase_Loyalist_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventPhase_Loyalist_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTPHASE_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EventPhase_Loyalist_TitanHullSeverelyDamaged_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_ALLYCAPITALSHIPLOST_0"
+	fileName "EventPhase_Rebel_AllyCapitalShipLost_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_ALLYONTITANCREATION_0"
+	fileName "EventPhase_Rebel_AllyOnTitanCreation_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_ALLYTITANLOST_0"
+	fileName "EventPhase_Rebel_AllyTitanLost_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_ENEMYONTITANCREATION_0"
+	fileName "EventPhase_Rebel_EnemyOnTitanCreation_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EventPhase_Rebel_EnemyTitanConstructionDetected_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_PLAYERCAPITALSHIPLOST_0"
+	fileName "EventPhase_Rebel_PlayerCapitalShipLost_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_PLAYERTITANLOST_0"
+	fileName "EventPhase_Rebel_PlayerTitanLost_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EventPhase_Rebel_PlayerTitanShieldsDown_0.ogg"
+effect
+	name "EVENTPHASE_REBEL_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EventPhase_Rebel_TitanHullSeverelyDamaged_0.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_0"
+	fileName "Titan_PhaseLoyalist_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_1"
+	fileName "Titan_PhaseLoyalist_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_2"
+	fileName "Titan_PhaseLoyalist_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_3"
+	fileName "Titan_PhaseLoyalist_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONCREATION_0"
+	fileName "Titan_PhaseLoyalist_OnCreation_0.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_0"
+	fileName "Titan_PhaseLoyalist_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_1"
+	fileName "Titan_PhaseLoyalist_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_2"
+	fileName "Titan_PhaseLoyalist_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONSELECTED_0"
+	fileName "Titan_PhaseLoyalist_OnSelected_0.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONSELECTED_1"
+	fileName "Titan_PhaseLoyalist_OnSelected_1.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONSELECTED_2"
+	fileName "Titan_PhaseLoyalist_OnSelected_2.ogg"
+effect
+	name "TITAN_PHASELOYALIST_ONSTARTPHASEJUMP_0"
+	fileName "Titan_PhaseLoyalist_OnStartPhaseJump_0.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONATTACKORDERISSUED_0"
+	fileName "Titan_PhaseRebel_OnAttackOrderIssued_0.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONATTACKORDERISSUED_1"
+	fileName "Titan_PhaseRebel_OnAttackOrderIssued_1.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONATTACKORDERISSUED_2"
+	fileName "Titan_PhaseRebel_OnAttackOrderIssued_2.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONATTACKORDERISSUED_3"
+	fileName "Titan_PhaseRebel_OnAttackOrderIssued_3.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONCREATION_0"
+	fileName "Titan_PhaseRebel_OnCreation_0.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONGENERALORDERISSUED_0"
+	fileName "Titan_PhaseRebel_OnGeneralOrderIssued_0.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONGENERALORDERISSUED_1"
+	fileName "Titan_PhaseRebel_OnGeneralOrderIssued_1.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONGENERALORDERISSUED_2"
+	fileName "Titan_PhaseRebel_OnGeneralOrderIssued_2.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONSELECTED_0"
+	fileName "Titan_PhaseRebel_OnSelected_0.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONSELECTED_1"
+	fileName "Titan_PhaseRebel_OnSelected_1.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONSELECTED_2"
+	fileName "Titan_PhaseRebel_OnSelected_2.ogg"
+effect
+	name "TITAN_PHASEREBEL_ONSTARTPHASEJUMP_0"
+	fileName "Titan_PhaseRebel_OnStartPhaseJump_0.ogg"
+effect
+	name "Effect_RandomEventDetected"
+	fileName "soaseeventsound.ogg"

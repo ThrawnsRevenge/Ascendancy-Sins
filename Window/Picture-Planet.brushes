@@ -1,0 +1,218 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 43
+brush
+	name "PICTURE_RESOURCEASTEROIDMETAL"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_RESOURCEASTEROIDCRYSTAL"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_RESOURCEASTEROIDMETAL_DEPLETED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_RESOURCEASTEROIDCRYSTAL_DEPLETED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_UNKNOWN"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 201 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_PLASMASTORM"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 399 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_MAGNETICCLOUD"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 696 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_WORMHOLE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 696 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_OCCUPATION"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 201 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_TERRAN0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_TERRAN1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_TERRAN2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ICE0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ICE1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 172 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ICE2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ICE3"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_VOLCANIC0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_VOLCANIC1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 102 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_VOLCANIC2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 597 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DESERT0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DESERT1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 3 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DESERT2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_GASGIANT0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 201 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_GASGIANT1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 201 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROID0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 731 , 300 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_MOON0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 201 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROID1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 300 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROID2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 300 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROID3"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 300 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROID4"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 300 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDBELT"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 399 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDCRESCENT"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 399 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDFIELD"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 367 , 399 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDLINE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 549 , 399 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDSPACEJUNK0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDSPACEJUNK1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_ASTEROIDSPACEJUNK2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 185 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_PIRATEBASE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 3 , 498 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DEADASTEROID0"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 512 , 263 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DEADASTEROID1"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 512 , 263 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DEADASTEROID2"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 512 , 263 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DEADASTEROID3"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 512 , 263 , 177 , 94 ]
+brush
+	name "PICTURE_PLANET_DEADASTEROID4"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 512 , 263 , 177 , 94 ]

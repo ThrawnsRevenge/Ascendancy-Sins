@@ -1,0 +1,189 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+picture "PICTURE_FRIGATE_NEBULON"
+NameStringID "IDS_FRIGATE_NEBULON_NAME"
+DescriptionStringID "IDS_FRIGATE_NEBULON_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
+basePrice
+	credits 280.000000
+	metal 30.000000
+	crystal 0.000000
+slotCount 3.000000
+BuildTime 20.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 42.500000
+MaxHullPoints 800.000000
+MaxShieldPoints 800.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 3.500000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_NEBULON"
+smallHudIcon "HUDICONSMALL_FRIGATE_NEBULON"
+infoCardIcon "INFOCARDICON_FRIGATE_NEBULON"
+minZoomDistanceMult 7.500000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "LaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "TurbolaserRed_Single"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 30.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "LaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "LaserRed_Single"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "NR_Nebulon"
+renderShield TRUE
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 3.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 700.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PHASEAA_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PHASEAA_ONSELECTED_0"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_1"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PHASEAA_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "NR_Nebulon"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseAntiFighter"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityExplore"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityPassiveLowLife"
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 0.900000
+allegianceDecreasePerRoundtrip 0.000000

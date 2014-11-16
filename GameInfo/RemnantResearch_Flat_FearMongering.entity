@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_ALLEGIANCE"
+smallHudIcon "HUDICON_RESEARCH_ALLEGIANCE"
+infoCardIcon ""
+NameStringID "IDS_REMNANTRESEARCH_FEARMONGERING_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_FEARMONGERING_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 2 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Flat_VisibleThreat"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "AllegianceFromCultureMaxPerc"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

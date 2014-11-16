@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.500000
+		Level:1 1.500000
+		Level:2 1.500000
+		Level:3 1.500000
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffBombardEmpireTarget"
+	travelSpeed 5000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 1
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 0
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 0
+		hitShieldsEffectSounds
+			soundCount 0
+		projectileTravelEffectName "LaserGreen_Single"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

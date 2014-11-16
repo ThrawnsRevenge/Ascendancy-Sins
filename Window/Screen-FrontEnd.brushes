@@ -1,0 +1,3467 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 217
+brush
+	name "RaceSelectRandom"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 764 , 97 , 66 , 50 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 764 , 97 , 66 , 50 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 764 , 97 , 66 , 50 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 764 , 97 , 66 , 50 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 764 , 97 , 66 , 50 ]
+brush
+	name "RaceSelectTechLoyalist"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 0 , 0 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 0 , 0 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 0 , 0 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 0 , 0 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 0 , 0 , 230 , 105 ]
+brush
+	name "RaceSelectTechRebel"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 0 , 106 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 0 , 106 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 0 , 106 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 0 , 106 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 0 , 106 , 230 , 105 ]
+brush
+	name "RaceSelectPsiLoyalist"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 232 , 0 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 232 , 0 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 232 , 0 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 232 , 0 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 232 , 0 , 230 , 105 ]
+brush
+	name "RaceSelectPsiRebel"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 232 , 106 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 232 , 106 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 232 , 106 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 232 , 106 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 232 , 106 , 230 , 105 ]
+brush
+	name "RaceSelectPhaseLoyalist"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 464 , 0 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 464 , 0 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 464 , 0 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 464 , 0 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 464 , 0 , 230 , 105 ]
+brush
+	name "RaceSelectPhaseRebel"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 464 , 106 , 230 , 105 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 464 , 106 , 230 , 105 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 464 , 106 , 230 , 105 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 464 , 106 , 230 , 105 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 464 , 106 , 230 , 105 ]
+brush
+	name "RaceSelectLeftButton"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 763 , 46 , 64 , 40 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 763 , 46 , 64 , 40 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 763 , 46 , 64 , 40 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 763 , 46 , 64 , 40 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 763 , 46 , 64 , 40 ]
+brush
+	name "RaceSelectRightButton"
+	content "States"
+	Disabled
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 763 , 0 , 64 , 40 ]
+	Pressed
+		fileName "FactionSelectScreen_Buttons_Pressed"
+		pixelBox [ 763 , 0 , 64 , 40 ]
+	CursorOver
+		fileName "FactionSelectScreen_Buttons_CursorOver"
+		pixelBox [ 763 , 0 , 64 , 40 ]
+	Focused
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 763 , 0 , 64 , 40 ]
+	Normal
+		fileName "FactionSelectScreen_Buttons_Normal"
+		pixelBox [ 763 , 0 , 64 , 40 ]
+brush
+	name "RaceSelectSmallPortraitOverlay"
+	content "Simple"
+	fileName "BackdropInGame"
+	pixelBox [ 1048 , 1027 , 67 , 78 ]
+brush
+	name "RaceSelectDialogBackground"
+	content "Simple"
+	fileName "FactionSelectScreen_Normal"
+	pixelBox [ 41 , 27 , 946 , 717 ]
+brush
+	name "RaceSelectDialogTechLoyalistPortraitSmall"
+	content "Simple"
+	fileName "Player_Portrait_Small"
+	pixelBox [ 432 , 6 , 55 , 67 ]
+brush
+	name "RaceSelectDialogPsiLoyalistPortraitSmall"
+	content "Simple"
+	fileName "Player_Portrait_Small"
+	pixelBox [ 250 , 77 , 55 , 67 ]
+brush
+	name "RaceSelectDialogPhaseLoyalistPortraitSmall"
+	content "Simple"
+	fileName "Player_Portrait_Small"
+	pixelBox [ 127 , 150 , 55 , 67 ]
+brush
+	name "RaceSelectDialogTechLoyalistPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 1 , 195 , 219 ]
+brush
+	name "RaceSelectDialogTechRebelPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 1 , 195 , 219 ]
+brush
+	name "RaceSelectDialogPsiLoyalistPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 234 , 195 , 219 ]
+brush
+	name "RaceSelectDialogPsiRebelPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 234 , 195 , 219 ]
+brush
+	name "RaceSelectDialogPhaseLoyalistPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 467 , 195 , 219 ]
+brush
+	name "RaceSelectDialogPhaseRebelPortrait"
+	content "Simple"
+	fileName "Player_Portrait_Large"
+	pixelBox [ 1 , 467 , 195 , 219 ]
+brush
+	name "GalaxyTutorialTypeButtonBasicGameplay"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 211 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 211 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 211 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 211 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 211 , 43 , 42 , 42 ]
+brush
+	name "GalaxyTutorialTypeButtonResourcing"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 169 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 169 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 169 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 169 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 169 , 43 , 42 , 42 ]
+brush
+	name "GalaxyTutorialTypeButtonAdvancedInterface"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 127 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 127 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 127 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 127 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 127 , 43 , 42 , 42 ]
+brush
+	name "GalaxyTutorialTypeButtonAdvancedResourcing"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 85 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 85 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 85 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 85 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 85 , 43 , 42 , 42 ]
+brush
+	name "GalaxyTutorialTypeButtonAdvancedDiplomacy"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 43 , 42 , 42 ]
+brush
+	name "GalaxyTutorialTypeButtonAdvancedDefense"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 43 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 43 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 43 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 43 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 43 , 43 , 42 , 42 ]
+brush
+	name "GAMELOGO_OPENING"
+	content "Simple"
+	fileName "GameLogo_Opening"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "IRONCLADLOGO"
+	content "Simple"
+	fileName "IroncladLogo"
+	pixelBox [ 0 , 0 , 800 , 600 ]
+brush
+	name "STARDOCKLOGO"
+	content "Simple"
+	fileName "StardockLogo"
+	pixelBox [ 0 , 0 , 800 , 600 ]
+brush
+	name "SinglePlayerSetupScreenNewGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenLoadSavedGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenLoadRecordedGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenTutorialTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenPlayerSetupTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenAchievementsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenPlayNewGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenLoadGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerSetupScreenWatchGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenNewGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenLoadGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenJoinGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenPlayerSetupTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenGalaxyRandomizerTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenPlayNewGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenLoadGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenJoinGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerSetupScreenGameResetGameBroadcast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 2 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 2 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 2 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 2 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 2 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenSoundOptionsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 87 , 42 , 42 ]
+brush
+	name "OptionsScreenVideoOptionsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 44 , 42 , 42 ]
+brush
+	name "CinematicOptionsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 85 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 85 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 85 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 85 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 85 , 85 , 38 ]
+brush
+	name "OptionsScreenEffectOptionsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+brush
+	name "OptionsScreenKeyBindingsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 87 , 42 , 42 ]
+brush
+	name "OptionsScreenManageModsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 87 , 42 , 42 ]
+brush
+	name "OptionsScreenUserInterfaceOptionsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 87 , 42 , 42 ]
+brush
+	name "OptionsScreenKeyBindingsResetAllMappings"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]	
+brush
+	name "OptionsScreenKeyBindingsAddMapping"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenKeyBindingsClearMapping"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenVideoOptionsApplyChanges"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+brush
+	name "OptionsScreenVideoOptionsReset"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityLowPlanet"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityMediumPlanet"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighPlanet"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighestPlanet"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityLowShip"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityMediumShip"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighShip"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighestShip"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityLowModule"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityMediumModule"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighModule"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenTextureQualityHighestModule"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenSoundOptionsReset"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenSoundOptionsApplyChanges"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 249 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 249 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 249 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 249 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 249 , 85 , 38 ]
+brush
+	name "OptionsScreenEffectOptionsReset"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenUserInterfaceOptionsReset"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+brush
+	name "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOn"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+brush
+	name "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOff"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 1 , 42 , 42 ]
+brush
+	name "SinglePlayerGameLobbyScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 1240 , 1064 , 808 ]
+brush
+	name "SinglePlayerGameLobbyScreenStartGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "MultiPlayerGameLobbyScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 1240 , 1064 , 808 ]
+brush
+	name "MultiPlayerGameLobbyScreenStartGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "ICOLoginScreenLoginTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+brush
+	name "ICOLoginScreenAddAccountTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 167 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 167 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 167 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 167 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 167 , 85 , 38 ]
+brush
+	name "ICOLoginScreenManagePlayersTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+brush
+	name "ICOLoginScreenLoginButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 44 , 85 , 38 ]
+brush
+	name "ICOLoginScreenUsePlayerButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 208 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 208 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 208 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 208 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 208 , 85 , 38 ]
+brush
+	name "ICOLoginScreenAddAccountButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+brush
+	name "ICOLoginScreenAddPlayerButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 126 , 85 , 38 ]
+brush
+	name "ICOLoginScreenManageAccountButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+brush
+	name "ICOLoginScreenRecoverPasswordButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 495 , 85 , 38 ]
+brush
+	name "ICOLoginScreenRemovePlayerButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 864 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 864 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 864 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 864 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 864 , 85 , 38 ]
+brush
+	name "ICOLobbyScreenChatTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenHostNewGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenHostSavedGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenJoinGameTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenHostSetupTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenChangeChannelButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 44 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenShowPlayerInfoFromChatChannelButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsAddFriendButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 216 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsRemoveFriendButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 259 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 259 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 259 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 259 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 259 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsJoinFriendChannelButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 259 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 259 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 259 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 259 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 259 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsJoinFriendGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 216 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenManageFriendsSendWhisperButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 216 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenHostNewGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenHostSavedGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenTestHostCapabilityButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenJoinGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenRefreshGameNameListButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 130 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenGameForFriendsOnly"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+brush
+	name "ICOLobbyScreenGameForAnyone"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 216 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 216 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 216 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 216 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 216 , 42 , 42 ]
+brush
+	name "ICOGameLobbyScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 1240 , 1064 , 808 ]
+brush
+	name "ICOGameLobbyScreenStartGameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "GameOptionsAreTeamsLockedTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsAreTeamsLockedFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsArePiratesActiveTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsArePiratesActiveFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsUseQuickStartTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsDiplomaticVictoryEnabledTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsDiplomaticVictoryEnabledFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsUseQuickStartFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsBuildSpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsBuildSpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsBuildSpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsBuildSpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsResearchSpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsResearchSpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsResearchSpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsResearchSpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsCultureSpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsCultureSpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsCultureSpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsCultureSpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsIncomeSpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsIncomeSpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsIncomeSpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsIncomeSpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsShipPhysicsSpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsShipPhysicsSpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsShipPhysicsSpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsShipPhysicsSpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsFleetSupplyScalarSmall"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsFleetSupplyScalarNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsFleetSupplyScalarLarge"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsVictorySpeedSlow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsVictorySpeedNormal"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsVictorySpeedFast"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsVictorySpeedFaster"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 87 , 42 , 42 ]
+brush
+	name "GameOptionsDiplomaticVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsDiplomaticVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsFlagshipVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsFlagshipVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 44 , 42 , 42 ]
+brush
+	name "GameOptionsHomeworldVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsHomeworldVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 259 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsResearchVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsResearchVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 173 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsAlliedVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsAlliedVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsAlliedVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 846 , 167 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 167 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 846 , 167 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 167 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 167 , 85 , 38 ]
+brush
+	name "GameOptionsAlliedVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 846 , 208 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 208 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 846 , 208 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 208 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 846 , 208 , 85 , 38 ]
+brush
+	name "GameOptionsOccupationVictoryEnabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+brush
+	name "GameOptionsOccupationVictoryDisabled"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 173 , 42 , 42 ]
+brush
+	name "MainMenuScreenBackdrop"
+	content "Simple"
+	fileName "MainScreenBackdrop"
+	pixelBox [ 0 , 0 , 1000 , 800 ]
+brush
+	name "MainMenuScreenTitleOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 532 , 832 , 414 , 90 ]
+brush
+	name "MainMenuScreenLogo"
+	content "Simple"
+	fileName "Logo_Rebellion"
+	pixelBox [ 96 , 27 , 209 , 120 ]
+brush
+	name "PlayerInfoScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1069 , 617 , 693 , 645 ]
+brush
+	name "PlayerInfoScreenTitleOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 371 , 1147 , 693 , 90 ]
+brush
+	name "PlayerThemePickerScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1069 , 617 , 693 , 645 ]
+brush
+	name "PlayerThemePickerScreenTitleOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 371 , 1147 , 693 , 90 ]
+brush
+	name "GameOptionsScreenBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1069 , 617 , 693 , 645 ]
+brush
+	name "GameOptionsScreenTitleOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 371 , 1147 , 693 , 90 ]
+brush
+	name "MainMenuScreenSinglePlayerButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 249 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 249 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 249 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 249 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 249 , 85 , 38 ]
+brush
+	name "MainMenuScreenMultiPlayerButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 290 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 290 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 290 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 290 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 290 , 85 , 38 ]
+brush
+	name "MainMenuScreenIcoButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 331 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 331 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 331 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 331 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 331 , 85 , 38 ]
+brush
+	name "MainMenuScreenOptionsButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+brush
+	name "MainMenuScreenUpdateButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 905 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 905 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 905 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 905 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 905 , 85 , 38 ]
+brush
+	name "MainMenuScreenQuitButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 268 , 413 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 413 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 268 , 413 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 413 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 268 , 413 , 85 , 38 ]
+brush
+	name "MainMenuScreenSinsButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 737 , 266 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 737 , 266 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 737 , 266 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 737 , 266 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 737 , 266 , 85 , 38 ]
+brush
+	name "MainMenuScreenEntrenchmentButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 92 , 86 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 92 , 86 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 92 , 86 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 92 , 86 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 92 , 86 , 85 , 38 ]
+brush
+	name "ManageSaveGamesTabButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 87 , 42 , 42 ]
+brush
+	name "ManageSaveGamesEraseButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+brush
+	name "ManageSaveGamesEraseAllButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 302 , 130 , 42 , 42 ]
+brush
+	name "PlayerSetupChangeNameButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+brush
+	name "PlayerSetupChangeThemeButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+brush
+	name "PlayerSetupChangePictureButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 263 , 43 , 42 , 42 ]
+brush
+	name "PlayerSetupThemeBackdropTech"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 264 , 832 , 268 , 311 ]
+brush
+	name "PlayerSetupThemeBackdropPsi"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1764 , 619 , 268 , 311 ]
+brush
+	name "PlayerSetupThemeBackdropPhase"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1764 , 932 , 268 , 311 ]
+brush
+	name "PlayerSetupPicturePreviewWindowBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1067 , 1659 , 784 , 389 ]
+brush
+	name "PlayerSetupPicturePreviewWindowOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1067 , 1267 , 784 , 389 ]
+brush
+	name "OpenGameOptionsDialog"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 1 , 42 , 42 ]
+brush
+	name "ChangeMapTypeButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 130 , 1 , 42 , 42 ]
+brush
+	name "GalaxyRandomizerPreviewButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+brush
+	name "DialogScreenCloseButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+brush
+	name "DialogScreenAcceptButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+brush
+	name "ManageModsEnableModButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+brush
+	name "ManageModsDisableModButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 1 , 173 , 42 , 42 ]
+brush
+	name "ManageModsIncreaseModPriorityButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 345 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 345 , 130 , 42 , 42 ]
+brush
+	name "ManageModsDecreaseModPriorityButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 130 , 42 , 42 ]
+brush
+	name "ManageModsShowModPathButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 130 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 130 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 130 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 130 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 130 , 42 , 42 ]
+brush
+	name "ApplyModChangesButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 216 , 87 , 42 , 42 ]
+brush
+	name "NumberOfVictorsOneButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 167 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 167 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 167 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 167 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 167 , 85 , 38 ]
+brush
+	name "NumberOfVictorsTwoButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 209 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 209 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 209 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 209 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 209 , 85 , 38 ]
+brush
+	name "NumberOfVictorsThreeButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 250 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 250 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 250 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 250 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 250 , 85 , 38 ]
+brush
+	name "NumberOfVictorsFourButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 291 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 291 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 291 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 291 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 291 , 85 , 38 ]
+brush
+	name "NumberOfVictorsFiveButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 332 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 332 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 332 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 332 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 332 , 85 , 38 ]
+brush
+	name "NumberOfVictorsSixButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 373 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 373 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 373 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 373 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 373 , 85 , 38 ]
+brush
+	name "NumberOfVictorsSevenButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 638 , 414 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 414 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 638 , 414 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 414 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 638 , 414 , 85 , 38 ]
+brush
+	name "SinglePlayerFrontEndButton"
+	content "States"
+	Disabled
+		fileName "SinglePlayerFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Pressed
+		fileName "SinglePlayerFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	CursorOver
+		fileName "SinglePlayerFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Focused
+		fileName "SinglePlayerFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Normal
+		fileName "SinglePlayerFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+brush
+	name "InternetFrontEndButton"
+	content "States"
+	Disabled
+		fileName "InternetFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Pressed
+		fileName "InternetFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	CursorOver
+		fileName "InternetFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Focused
+		fileName "InternetFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Normal
+		fileName "InternetFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+brush
+	name "LanFrontEndButton"
+	content "States"
+	Disabled
+		fileName "LanFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Pressed
+		fileName "LanFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	CursorOver
+		fileName "LanFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Focused
+		fileName "LanFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Normal
+		fileName "LanFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+brush
+	name "OptionsFrontEndButton"
+	content "States"
+	Disabled
+		fileName "OptionsFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Pressed
+		fileName "OptionsFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	CursorOver
+		fileName "OptionsFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Focused
+		fileName "OptionsFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Normal
+		fileName "OptionsFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+brush
+	name "QuitFrontEndButton"
+	content "States"
+	Disabled
+		fileName "QuitFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Pressed
+		fileName "QuitFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	CursorOver
+		fileName "QuitFrontEndButtonHighlight"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Focused
+		fileName "QuitFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+	Normal
+		fileName "QuitFrontEndButton"
+		pixelBox [ 0 , 0 , 200 , 300 ]
+brush
+	name "FactionSelectNewRepublic"
+	content "Simple"
+	fileName "FactionSelectScreen_NewRepublic"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "FactionSelectEotH"
+	content "Simple"
+	fileName "FactionSelectScreen_EotH"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "FactionSelectRemnant"
+	content "Simple"
+	fileName "FactionSelectScreen_Remnant"
+	pixelBox [ 0 , 0 , 1024 , 768 ]

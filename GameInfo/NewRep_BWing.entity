@@ -1,0 +1,128 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_BWING"
+smallHudIcon "HUDICONSMALL_BWING"
+infoCardIcon "INFOCARDICON_BWING"
+minZoomDistanceMult 8.000000
+nameStringID "IDS_FIGHTERBWING_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 150.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 49.999992
+maxDecelerationAngular 99.999985
+maxSpeedLinear 900.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 25.500000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 8
+		burstDelay 0.150000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleGreen_Single_Fighter"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PROTON_MUZZLE"
+		hitEffectName "FighterImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "LaserRed_Single_Fighter"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 50.400002
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 13.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE"
+			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE_ALT1"
+		hitEffectName "Explosion1"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Proton_Torp"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "NR_Bwing"
+exhaustParticleSystemName ""
+ExplosionName "Fighter0"
+exhaustTrailTextureName ""
+exhaustTrailWidth 8.000000
+engineSoundID "ENGINE_TECHSUPPORTSHIP"
+maxHullPoints 100.000000
+hullPointRestoreRate 0.489000
+armorPoints 2.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 6.500000
+minShadow 0.000000
+maxShadow 0.500000

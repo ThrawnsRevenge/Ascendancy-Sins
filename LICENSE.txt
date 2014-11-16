@@ -1,0 +1,49 @@
+ParticleForge
+
+Copyright (C) 2008, Ironclad Games Corporation, All rights reserved
+http://www.ironcladgames.com
+Sins Of A Solar Empire: http://www.sinsofasolarempire.com
+
+SOFTWARE LICENSE AGREEMENT
+
+This user license agreement  (the "AGREEMENT") is an agreement between you
+(individual or single entity) and the Ironclad Games Corporation, for the Ironclad Games software 
+(the "SOFTWARE") that is accompanying this AGREEMENT. 
+
+The SOFTWARE is the property of the Ironclad Games Corporation and is protected by copyright laws
+and international copyright treaties. The SOFTWARE is free for usage under the conditions below.
+
+If you accepts the terms and conditions of this AGREEMENT, you have certain
+rights and obligations as follow:
+
+YOU MAY:
+
+1.	Install and use an unlimited number of copies of the SOFTWARE
+2.	Copy and distribute freely the SOFTWARE (see 'DISTRIBUTION').
+
+YOU MAY NOT:
+
+1.	License, sell, rent or lease the SOFTWARE or any portion of it.
+2.	Decompile, disassemble, reverse engineer or modify the software
+or any portion of it.
+
+DISTRIBUTION:
+
+You are hereby licensed to make as many copies of the SOFTWARE as you wish
+and distribute it to anyone provided that all files are intact.
+You are not allowed to sell the SOFTWARE (except for shipment
+and handling charges). Computer magazines are authorized to distribute it
+on any Cover Disk or CD-ROM without any permission. Please inform us by e-mail
+each time you distribute the SOFTWARE.
+
+WARRANTY DISCLAIMER
+
+The SOFTWARE is supplied "AS IS". Ironclad Games Corporation disclaims all warranties, expressed
+or implied, including, without limitation, the warranties of merchantability and
+of fitness for any purpose. The user must assume the entire risk of using the SOFTWARE. 
+
+DISCLAIMER OF DAMAGES
+
+Ironclad Games Corporation assumes no liability for damages, direct or consequential, which may
+result from the use of the SOFTWARE, even if Ironclad Games Corporation has been advised of the
+possibility of such damages. 

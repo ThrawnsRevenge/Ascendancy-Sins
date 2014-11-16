@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_TAXBREAKS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_TAXBREAKS"
+infoCardIcon ""
+NameStringID "IDS_NEWREPRESEARCH_TAXBREAKS_NAME"
+DescriptionStringID "IDS_NEWREPRESEARCH_TAXBREAKS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_Global_FreeTrade"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 600.000000
+	metal 50.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TradeGoodsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.400000
+researchModifier
+	modifierType "PopulationTaxRateAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

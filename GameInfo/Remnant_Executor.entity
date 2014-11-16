@@ -1,0 +1,285 @@
+﻿TXT
+entityType "Titan"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityPassiveLowLife"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 90.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 8
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_TITAN_EXECUTOR"
+basePrice
+	credits 8500.000000
+	metal 1000.000000
+	crystal 250.000000
+slotCount 75.000000
+BuildTime 200.000000
+MaxHullPoints
+	StartValue 40310.000000
+	ValueIncreasePerLevel 504.000000
+MaxShieldPoints
+	StartValue 40310.000000
+	ValueIncreasePerLevel 567.000000
+HullPointRestoreRate
+	StartValue 3.100000
+	ValueIncreasePerLevel 0.700000
+ShieldPointRestoreRate
+	StartValue 4.500000
+	ValueIncreasePerLevel 0.700000
+ArmorPointsFromExperience
+	StartValue 11.000000
+	ValueIncreasePerLevel 0.918000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 144.000000
+	ValueIncreasePerLevel 0.000000
+AntiMatterRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_TITAN_EXECUTOR_NAME"
+DescriptionStringID "IDS_TITAN_EXECUTOR_DESCRIPTION"
+picture "TITANPICTURE_EXECUTOR"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Executor"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 0
+numRandomDebrisLarge 80
+numRandomDebrisSmall 30
+numSpecificDebris 1
+specificDebrisMeshName "DebrisTechLarge"
+armorType "Titan"
+hudIcon "HUDICON_EXECUTOR"
+smallHudIcon "HUDICONSMALL_TITAN_EXECUTOR"
+infoCardIcon "INFOCARDICON_TITAN_EXECUTOR"
+minZoomDistanceMult 1.250000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 1550.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 1550.000000
+	DamagePerBank:RIGHT 1550.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 20
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleGreen_Single_Larger"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "TurbolaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "TurbolaserGreen_Single"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 250.000000
+	DamagePerBank:RIGHT 250.000000
+	Range 5500.000000
+	PreBuffCooldownTime 15.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 10
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Explosion_CapitalShip_mini2"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Conc_Missile"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 6.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "ION"
+	DamagePerBank:FRONT 1000.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 500.000000
+	DamagePerBank:RIGHT 500.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.400000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 5
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "IonImpact_Large"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Ion_Single"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
+canOnlyTargetStructures FALSE
+mass 100000.000000
+ShieldMeshName "IR_Executor"
+renderShield TRUE
+maxAccelerationLinear 80.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 0.900000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 450.000000
+maxRollRate 1.650000
+maxRollAngle 20.000000
+squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
+squadAntiMatterCost:0 12.000000
+squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
+squadAntiMatterCost:1 12.000000
+squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadAntiMatterCost:2 12.000000
+squadTypeEntityDef:3 "Remnant_TIEDefender_Squad"
+squadAntiMatterCost:3 24.000000
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_0"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_1"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_2"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "TITAN_TECHLOYALIST_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_0"
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_1"
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_0"
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_1"
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "IR_Executor"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "StarBase1"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

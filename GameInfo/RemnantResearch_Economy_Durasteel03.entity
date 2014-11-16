@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_DURASTEEL02"
+smallHudIcon "HUDICON_RESEARCH_DURASTEEL02"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_DURASTEEL_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Economy_Durasteel02"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1000.000000
+	metal 150.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ExtractionRateMetalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.033333
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

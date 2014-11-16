@@ -1,0 +1,78 @@
+TXT
+backdrop "MainMenuScreenBackdrop"
+logoIconRefArea [ 0 , 0 , 0 , 0 ]
+logoIcon "Null"
+titleRefArea [ 0 , 0 , 0 , 0 ]
+titleStringId "IDS_EMPTY"
+titleFont "TabbedScreenTitle"
+titleOverlayRefArea [ 0 , 0 ,  0 , 0 ]
+titleOverlay "Null"
+hasUpdateButton FALSE
+singlePlayerButton
+	area [ 8 , 450 , 200 , 300 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "SinglePlayerFrontEndButton"
+	overlay "Null"			
+	icon "Null"
+	text "IDS_EMPTY"
+multiPlayerButton
+	area [ 210 , 450 , 200 , 300 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "LanFrontEndButton"
+	overlay "Null"
+	icon "Null"
+	text "IDS_EMPTY"	
+icoButton
+	area [ 412 , 450 , 200 , 300 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "InternetFrontEndButton"
+	overlay "Null"				
+	icon "Null"
+	text "IDS_EMPTY"	
+optionsButton
+	area [ 614 , 450 , 200 , 300 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "OptionsFrontEndButton"
+	overlay "Null"				
+	icon "Null"
+	text "IDS_EMPTY"
+quitButton
+	area [ 816 , 450 , 200 , 300 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "QuitFrontEndButton"
+	overlay "Null"			
+	icon "Null"
+	text "IDS_EMPTY"
+dlcButton
+	area [23, 707, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDSMainMenuScreenDLCButton"
+soundtrackDLC1Button
+	area [5000, 5000, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDSMainMenuScreenSoundtrackDLC1Button"
+planetDLC1Back "DLCButtonBackgroundPlanetDLC1"
+phenomenaDLC1Back "DLCButtonBackgroundPhenomenaDLC1"
+soundtrackDLC1Back "DLCButtonBackgroundSoundtrackDLC1"
+dlcBackFrameRefArea [15, 545, 250, 213]
+dlcBackNoFrameRefArea [15, 624, 250, 213]

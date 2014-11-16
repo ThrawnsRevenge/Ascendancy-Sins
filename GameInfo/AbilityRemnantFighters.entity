@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffRemnantFighters"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasAntiMatterShortage"
+range
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_RepairPlatformTechActivate"
+	mediumEffectName "Ability_RepairPlatformTechActivate"
+	largeEffectName "Ability_RepairPlatformTechActivate"
+	soundID "EFFECT_REPAIR_TECH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "RemnantResearch_Global_RepairPlatform"
+improveSourceResearchSubject "RemnantResearch_Global_RepairPlatform"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 12.000000
+	Level:1 12.000000
+	Level:2 12.000000
+	Level:3 12.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_RepairPlatform"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
+descStringID "IDS_ABILITY_FIGHTERSUPPLY_DESCRIPTION"
+hudIcon "HUDICON_SUPPORTABILITY_REPAIRTECHPLANETMODULE"
+smallHudIcon "HUDICON_SUPPORTABILITY_REPAIRTECHPLANETMODULE"
+infoCardIcon ""

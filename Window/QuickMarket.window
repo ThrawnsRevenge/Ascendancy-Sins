@@ -1,0 +1,58 @@
+TXT
+topRightRefArea [-180, 60, 175, 114]
+highResTopRightRefArea [-180, 10, 175, 114]
+backdropArea [0, 0, 175, 114]
+noPiratesBackdropArea [0, 0, 175, 114]
+metalWindow
+	area [8, 13, 157, 41]
+	buyButton
+		area [12, 10, 63, 24]
+		fontId "PlayerName"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 10
+		underlay "Null"
+		overlay "Null"		
+		icon "Null"		
+	sellButton
+		area [83, 10, 63, 24]
+		fontId "PlayerName"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 10
+		underlay "Null"
+		overlay "Null"		
+		icon "Null"		
+crystalWindow
+	area [8, 66, 157, 41]
+	buyButton
+		area [12, 10, 63, 24]
+		fontId "PlayerName"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 10
+		underlay "Null"
+		overlay "Null"		
+		icon "Null"		
+	sellButton
+		area [83, 10, 63, 24]
+		fontId "PlayerName"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 10
+		underlay "Null"
+		overlay "Null"		
+		icon "Null"		
+pirateWindow
+	area [-5000, -5000, 300, 100]
+	wantedPictureArea [13, 22, 24, 29]
+	wantedNameArea [100, 0, 100, 100]
+	wantedAmountIconArea [37, 12, 30, 46]
+	wantedAmountTextArea [70, 12, 70, 46]
+	wantedAmountTextFont "Label"
+	timeBarArea [13, 56, 214, 3]
+	increaseBountyOnHighestEnemyButton
+		area [125, 16, 104, 38]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 35
+		underlay "ScreenButtonUnderlaySmall"
+		overlay "ScreenButtonOverlaySmall"		
+		icon "QuickPirateIncreaseBountyOnHighestEnemyButton"	
+	

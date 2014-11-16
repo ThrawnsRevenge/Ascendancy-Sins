@@ -1,0 +1,71 @@
+TXT
+size [1015, 57]
+creditsSummaryWindow
+	area [742, 5, 90, 30]
+	fontId "AssetAndResourceAmount"
+	iconArea [5, -1, 20, 31]
+	textArea [23, 0, 55, 31]
+metalSummaryWindow
+	area [838, 5, 80, 30]
+	fontId "AssetAndResourceAmount"
+	iconArea [0, -1, 20, 31]
+	textArea [17, 0, 50, 31]
+crystalSummaryWindow
+	area [919, 5, 80, 30]
+	fontId "AssetAndResourceAmount"
+	iconArea [0, -1, 20, 31]
+	textArea [20, 0, 50, 31]
+openEscapeMenuButton
+	area [188, 11, 40 , 18]
+	onBrush "ActionIconOpenEscapeMenuScreen"
+	offBrush "ActionIconOpenEscapeMenuScreen"
+openResearchButton
+	area [532, 6, 76, 38]
+	onBrush "ActionIconOpenResearchScreenEnabled"
+	offBrush "ActionIconOpenResearchScreenDisabled"
+openPlayersButton
+	area [372, 6, 76, 38]
+	onBrush "ActionIconOpenPlayerScreen"
+	offBrush "ActionIconOpenPlayerScreen"
+openRelationshipsButton
+	area [452, 6, 76, 38]
+	onBrush "ActionIconOpenRelationshipsScreen"
+	offBrush "ActionIconOpenRelationshipsScreen"
+openNPCButton
+	area [0, 0, 0, 0]
+	onBrush "Null"
+	offBrush "Null"
+toggleAttachedToEntityButton	
+	area [243, 11, 40, 18]
+	onBrush "BottomWindowButtonToggleZoomToCursorOn"
+	offBrush "BottomWindowButtonToggleZoomToCursorOff"	
+toggleScreenShotModeButton
+	area [293, 11, 40 , 18]
+	onBrush "BottomWindowButtonToggleScreenShotModeOn"
+	offBrush "BottomWindowButtonToggleScreenShotModeOff"	
+shipSlotSummaryWindow
+	area [690, 8, 40, 23]
+	fontId "AssetAndResourceAmount"
+capitalShipSlotSummaryWindow
+	area [646, 8, 30, 23]
+	fontId "AssetAndResourceAmount"
+leftCap
+	highResGapTolerance 189
+	lowResArea [200, -7, 15, 57]
+	highResArea [-9, -8, 189, 57]
+	playerIconArea [15, 12, 50, 30]
+	playerNameArea [62, 13, 130, 30]
+	playerNameFont "Label"
+rightCap
+	highResGapTolerance 200
+	lowResArea [-300, 0, 300, 39]
+	highResArea [-36, 0, 45, 39]
+	playerIconArea [0, 0, 30, 30]
+	playerNameArea [30, 0, 30, 30]
+	playerNameFont "Label"
+voiceChatActiveWindow
+	area [475, 100, 0, 0]
+	iconArea [0,0,0,0]
+	textArea [30,2,0,0]
+	fontId "NotificationPlayer"
+

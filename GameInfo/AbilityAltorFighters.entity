@@ -1,0 +1,73 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffRemnantFighters"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 3
+	constraint "NotSelf"
+	constraint "HasAntiMatterShortage"
+	constraint "CanHaveFighters"
+range
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_RepairPlatformTechActivate"
+	mediumEffectName "Ability_RepairPlatformTechActivate"
+	largeEffectName "Ability_RepairPlatformTechActivate"
+	soundID "EFFECT_REPAIR_TECH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 42.000000
+	Level:1 42.000000
+	Level:2 42.000000
+	Level:3 42.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_NAME"
+descStringID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_DESCRIPTION"
+hudIcon "HUDABILITYICON_RESTOCK"
+smallHudIcon "HUDABILITYICON_RESTOCK"
+infoCardIcon ""

@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "HUDICON_TIEFIGHTER"
+smallHudIcon "HUDICONSMALL_SQUADTECHCOMBAT"
+infoCardIcon "INFOCARDICON_SQUADTECHCOMBAT"
+fighterEntityDef "Remnant_TIEFighter"
+fighterIllusionEntityDef ""
+scuttleTime 10.000000
+fighterConstructionTime 22.000000
+decayWithoutOwnerRate 0.010000
+baseMaxNumFighters 2
+role "Combat"
+statCountType "SquadCombat"
+mainViewIcon "MAINVIEWICON_SQUADTECHCOMBAT"
+picture "PICTURE_SQUADTECHCOMBAT"
+launchIcon "HUDICONLAUNCH_SQUADTECHCOMBAT"
+dockIcon "HUDICONDOCK_SQUADTECHCOMBAT"
+nameStringID "IDS_SQUADTECHCOMBAT_NAME"
+descriptionStringID "IDS_SQUADTECHCOMBAT_DESC"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_0"
+SoundID "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_1"
+SoundID "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_2"
+SoundID "SQUAD_TECHCOMBAT_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_0"
+SoundID "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_1"
+SoundID "SQUAD_TECHCOMBAT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "SQUAD_TECHCOMBAT_ONSELECTED_0"
+SoundID "SQUAD_TECHCOMBAT_ONSELECTED_1"
+SoundID "SQUAD_TECHCOMBAT_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

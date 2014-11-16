@@ -1,0 +1,151 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Scout"
+frigateRoleType "ResourceCapturer"
+statCountType "FrigateScout"
+mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+picture "PICTURE_FRIGATE_TECHCOLONY"
+NameStringID "IDS_FRIGATE_ASCENT_NAME"
+DescriptionStringID "IDS_FRIGATE_ASCENT_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 100.000000
+	metal 10.000000
+	crystal 25.000000
+slotCount 1.000000
+BuildTime 20.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 6.000000
+MaxHullPoints 1150.000000
+MaxShieldPoints 125.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 0.000000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 9
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_ASCENT"
+smallHudIcon "HUDICONSMALL_FRIGATE_TECHSCOUT"
+infoCardIcon "INFOCARDICON_FRIGATE_TECHSCOUT"
+minZoomDistanceMult 4.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 10.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_LASER_MUZZLE"
+		hitEffectName "LaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Maser_Dual"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "EotH_Ascent"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.650000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_TECHSCOUT_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 4
+SoundID "FRIGATE_TECHSCOUT_ONSELECTED_0"
+SoundID "FRIGATE_TECHSCOUT_ONSELECTED_1"
+SoundID "FRIGATE_TECHSCOUT_ONSELECTED_2"
+SoundID "FRIGATE_TECHSCOUT_ONSELECTED_3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_TECHSCOUT_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "EotH_Ascent"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityExplore"
+ability:1 "AbilityCaptureNeutralEntity"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 5.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000
