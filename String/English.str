@@ -46,6 +46,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_MASSMIGRATION_DESCRIPTION"
 	Value "Increases the number of citizens moved by your dropships."
 StringInfo
+	ID "IDS_NEWREPRESEARCH_DAMAGEUPGRADE_NAME"
+	Value "Inspire"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DAMAGEUPGRADE_DESCRIPTION"
+	Value "New Republic ships do more damage in their own culture."	
+StringInfo
 	ID "IDS_NEWREPRESEARCH_DEVELOPMENTPROJECTS_NAME"
 	Value "Development Projects"
 StringInfo
@@ -17017,22 +17023,22 @@ StringInfo
 	ID "IDS_TECH_RESEARCHFIELD_FLEET"
 	Value "Fleet Logistics"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_COMBAT"
-	Value "Warfare"
+	ID "IDS_RESEARCHFIELD_COMBAT"
+	Value "Military"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_DEFENSE"
-	Value "Fortification"
+	ID "IDS_RESEARCHFIELD_DEFENSE"
+	Value "Defense"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_EMPIRE"
-	Value "Empire"
+	ID "IDS_RESEARCHFIELD_EMPIRE"
+	Value "Governance"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_ARTIFACT"
-	Value "Artifacts"
+	ID "IDS_RESEARCHFIELD_ARTIFACT"
+	Value "Holocrons"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_DIPLOMACY"
-	Value "Manipulation"
+	ID "IDS_RESEARCHFIELD_DIPLOMACY"
+	Value "Foreign Affairs"
 StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_FLEET"
+	ID "IDS_RESEARCHFIELD_FLEET"
 	Value "Fleet Logistics"
 StringInfo
 	ID "IDS_GameStat_CreditIncomeRate"

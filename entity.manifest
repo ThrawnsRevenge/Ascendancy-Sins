@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2157
+entityNameCount 2159
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -187,6 +187,8 @@ entityName "NewRepResearch_Global_DemocraticPeaceTheory.entity"
 entityName "NewRepResearch_Global_TaxBreaks.entity"
 entityName "NewRepResearch_Global_DefenseForce.entity"
 entityName "NewRepResearch_Global_CultureSpread.entity"
+entityName "NewRepResearch_Global_CultureDamage01.entity"
+entityName "NewRepResearch_Global_CultureDamage00.entity"
 entityName "NewRepResearch_Global_PlanetSpecialization00.entity"
 entityName "NewRepResearch_Global_PlanetSpecialization01.entity"
 entityName "NewRepResearch_ShipUnlock_Quasar.entity"
