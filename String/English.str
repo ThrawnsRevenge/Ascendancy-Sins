@@ -52,6 +52,18 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_DAMAGEUPGRADE_DESCRIPTION"
 	Value "New Republic ships do more damage in their own culture."	
 StringInfo
+	ID "IDS_NEWREPRESEARCH_CULTURECOST_NAME"
+	Value "Mass Culture"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_CULTURECOST_DESCRIPTION"
+	Value "Reduces the cost of all culture centers."	
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_NAME"
+	Value "Open Arms"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_DESCRIPTION"
+	Value "Enemy ships have a chance to defect to your fleet while leaving New Republic worlds."	
+StringInfo
 	ID "IDS_NEWREPRESEARCH_DEVELOPMENTPROJECTS_NAME"
 	Value "Development Projects"
 StringInfo
@@ -62,7 +74,13 @@ StringInfo
 	Value "Defensive Formation"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEFENSIVEFORMATION_DESCRIPTION"
-	Value "Ships exiting hyperspace have a defensive bonus for 25 seconds."
+	Value "Ships exiting hyperspace have a defensive bonus for 55 seconds."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_FIGHTERPOWER_NAME"
+	Value "Improved Lasers"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_FIGHTERPOWER_DESCRIPTION"
+	Value "Laser Cannons deal increased damage."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CITYPLANNING_NAME"
 	Value "Development Projects"

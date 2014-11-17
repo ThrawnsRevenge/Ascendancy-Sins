@@ -61,7 +61,7 @@ entities
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 72
+		count 76
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
@@ -103,6 +103,9 @@ entities
 		entityDefName "NewRepResearch_Global_ResponsibleGovernment"
 		entityDefName "NewRepResearch_Global_LogisticBuild"
 		entityDefName "NewRepResearch_Global_BomberSuperiority"
+		entityDefName "NewRepResearch_Global_BomberSuperiority02"
+		entityDefName "NewRepResearch_Global_FighterPower"
+		entityDefName "NewRepResearch_Global_DefectorIntegration"
 		entityDefName "NewRepResearch_Global_PellaeonGavrisom"
 		entityDefName "NewRepResearch_Global_PlanetSpecialization00"
 		entityDefName "NewRepResearch_Global_PlanetSpecialization01"
@@ -117,6 +120,7 @@ entities
 		entityDefName "NewRepResearch_Global_TaxBreaks"
 		entityDefName "NewRepResearch_Global_CultureDamage00"
 		entityDefName "NewRepResearch_Global_CultureDamage01"
+		entityDefName "NewRepResearch_Global_CultureCost"
 		entityDefName "NewRepResearch_MaxCapitalShips0"
 		entityDefName "NewRepResearch_MaxCapitalShips1"
 		entityDefName "NewRepResearch_MaxCapitalShips2"
