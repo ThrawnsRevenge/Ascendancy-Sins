@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2163
+entityNameCount 2164
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -176,6 +176,7 @@ entityName "NewRepResearch_Global_DefectorIntegration.entity"
 entityName "NewRepResearch_Global_DemocraticMessengers.entity"
 entityName "NewRepResearch_Global_ShieldsBase.entity"
 entityName "NewRepResearch_Global_ResponsibleGovernment.entity"
+entityName "NewRepResearch_Global_ExtendedReach.entity"
 entityName "NewRepResearch_Global_LocalDefenses.entity"
 entityName "NewRepResearch_Global_ShieldsMitigation.entity"
 entityName "NewRepResearch_Global_DefensiveFormation.entity"

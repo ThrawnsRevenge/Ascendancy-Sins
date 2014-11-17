@@ -61,7 +61,7 @@ entities
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 76
+		count 78
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
@@ -112,6 +112,8 @@ entities
 		entityDefName "NewRepResearch_Global_SlowProduction"
 		entityDefName "NewRepResearch_Global_ExpandedTrade"
 		entityDefName "NewRepResearch_Global_DemocraticPeaceTheory"
+		entityDefName "NewRepResearch_Global_ExtendedReach"
+		entityDefName "RemnantResearch_Global_Fortifications"
 		entityDefName "NewRepResearch_Global_CoalitionForPeace"
 		entityDefName "NewRepResearch_Global_FreeTrade"
 		entityDefName "NewRepResearch_Global_DefensiveFormation"

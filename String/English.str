@@ -82,6 +82,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_FIGHTERPOWER_DESCRIPTION"
 	Value "Laser Cannons deal increased damage."
 StringInfo
+	ID "IDS_NEWREPRESEARCH_EXTENDEDREACH_NAME"
+	Value "Extended Holonet"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_EXTENDEDREACH_DESCRIPTION"
+	Value "Your holonet broadcasts reach farther into the galaxy."
+StringInfo
 	ID "IDS_NEWREPRESEARCH_CITYPLANNING_NAME"
 	Value "Development Projects"
 StringInfo
@@ -19921,14 +19927,14 @@ StringInfo
 	ID "IDSResearchScreenBlockTitleDefense0Psi"
 	Value "Security"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat0Psi"
-	Value "PsiTech"
+	ID "IDSResearchScreenBlockTitleNonCombat0Remnant"
+	Value "Economy"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat1Psi"
-	Value "Perception"
+	ID "IDSResearchScreenBlockTitleNonCombat1Remnant"
+	Value "Development"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat2Psi"
-	Value "Materialism"
+	ID "IDSResearchScreenBlockTitleNonCombat2Remnant"
+	Value "Control"
 StringInfo
 	ID "IDSResearchScreenBlockTitleDiplomacy0Psi"
 	Value "Understanding"
