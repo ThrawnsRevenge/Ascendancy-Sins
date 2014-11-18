@@ -19876,55 +19876,55 @@ StringInfo
 	ID "IDSResearchScreenCloseButton"
 	Value "Close"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat0Tech"
-	Value "Structural Subsystems"
+	ID "IDSResearchScreenBlockTitleCombat0NewRep"
+	Value "Drydocks"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat1Tech"
-	Value "Ballistics & Rocketry"
+	ID "IDSResearchScreenBlockTitleCombat1NewRep"
+	Value "Subsystems"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat2Tech"
-	Value "Experimental Design"
+	ID "IDSResearchScreenBlockTitleCombat2NewRep"
+	Value "Naval Academy"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat3Tech"
+	ID "IDSResearchScreenBlockTitleCombat3NewRep"
 	Value "Mega-Engineering"
 StringInfo
-	ID "IDSResearchScreenBlockTitleDefense0Tech"
+	ID "IDSResearchScreenBlockTitleDefense0NewRep"
 	Value "Defense"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat0Tech"
-	Value "Industry"
+	ID "IDSResearchScreenBlockTitleNonCombat0NewRep"
+	Value "Economy"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
-	Value "Engineering"
+	ID "IDSResearchScreenBlockTitleNonCombat1NewRep"
+	Value "Development"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat2Tech"
-	Value "Policy"
+	ID "IDSResearchScreenBlockTitleNonCombat2NewRep"
+	Value "Democratic Outreach"
 StringInfo
-	ID "IDSResearchScreenBlockTitleDiplomacy0Tech"
+	ID "IDSResearchScreenBlockTitleDiplomacy0NewRep"
 	Value "Diplomacy"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFaction0Tech"
+	ID "IDSResearchScreenBlockTitleFaction0NewRep"
 	Value "Loyalist"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFaction1Tech"
+	ID "IDSResearchScreenBlockTitleFaction1NewRep"
 	Value "Rebel"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet0Tech"
+	ID "IDSResearchScreenBlockTitleFleet0NewRep"
 	Value ""
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet1Tech"
+	ID "IDSResearchScreenBlockTitleFleet1NewRep"
 	Value ""
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat0Psi"
-	Value "Energy"
+	ID "IDSResearchScreenBlockTitleCombat0Remnant"
+	Value "Drydock"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat1Psi"
-	Value "Ascension"
+	ID "IDSResearchScreenBlockTitleCombat1Remnant"
+	Value "System Upgrades"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat2Psi"
-	Value "Substance"
+	ID "IDSResearchScreenBlockTitleCombat2Remnant"
+	Value "Admiralty"
 StringInfo
-	ID "IDSResearchScreenBlockTitleDefense0Psi"
+	ID "IDSResearchScreenBlockTitleDefense0Remnant"
 	Value "Security"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat0Remnant"

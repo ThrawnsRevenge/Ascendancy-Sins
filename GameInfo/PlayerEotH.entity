@@ -624,56 +624,56 @@ researchScreenData
 		blockCount 3
 		block
 			area [ 50 , 69 , 690 , 240 ]
-			backdrop "ResearchScreenBlockBackdropCombat0Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleCombat0Phase"
 			picture "ResearchScreenBlockPictureCombat0Phase"
 		block
 			area [ 50 , 319 , 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Phase"
+				backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleCombat1Phase"
 			picture "ResearchScreenBlockPictureCombat1Phase"
 		block
 			area [ 50 , 473 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropCombat2Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleCombat2Phase"
 			picture "ResearchScreenBlockPictureCombat2Phase"
 	Defense
 		blockCount 1
 		block
 			area [ 50 , 93 , 690 , 235 ]
-			backdrop "ResearchScreenBlockBackdropDefense0Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorDefense0Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleDefense0Phase"
 			picture "ResearchScreenBlockPictureDefense0Phase"
 	NonCombat
 		blockCount 3
 		block
 			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleNonCombat0Phase"
 			picture "ResearchScreenBlockPictureNonCombat0Phase"
 		block
 			area [ 50 , 295 , 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat1Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleNonCombat1Phase"
 			picture "ResearchScreenBlockPictureNonCombat1Phase"
 		block
 			area [ 50 , 449 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat2Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleNonCombat2Phase"
 			picture "ResearchScreenBlockPictureNonCombat2Phase"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 50 , 93 , 690 , 238 ]
-			backdrop "ResearchScreenBlockBackdropDefense0Phase"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorDefense0Phase"
+			backdrop "ResearchScreenBlockBackdropCombat1Psi"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
 			title "IDSResearchScreenBlockTitleDiplomacy0Phase"
 			picture "ResearchScreenBlockPictureDiplomacyPhase"
 	Artifact

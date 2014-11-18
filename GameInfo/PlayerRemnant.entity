@@ -698,20 +698,20 @@ researchScreenData
 			area [ 50 , 93 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDS_RemnantResearch_ShipUnlocks"
+			title "IDSResearchScreenBlockTitleCombat0Remnant"
 			picture "ResearchScreenBlockPictureCombat1Psi"
 		block
 			area [ 50 , 343 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat1Psi"
-			picture "ResearchScreenBlockPictureNonCombat2Psi"
+			title "IDSResearchScreenBlockTitleCombat0Remnant"
+			picture "ResearchScreenBlockPictureNonCombat0Phase"
 		block
 			area [ 50 , 545, 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat2Psi"
-			picture "ResearchScreenBlockPictureNonCombat1Psi"
+			title "IDSResearchScreenBlockTitleCombat0Remnant"
+			picture "ResearchScreenBlockPictureCombat1Tech"
 	Defense
 		blockCount 1
 		block
