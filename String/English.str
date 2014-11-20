@@ -1,5 +1,5 @@
 TXT
-NumStrings 7446
+NumStrings 7447
 StringInfo
 	ID "IDS_FRIGATE_FERRET_NAME"
 	Value "Ferret"
@@ -6047,10 +6047,10 @@ StringInfo
 	Value "Pirate"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-	Value "Previous Race"
+	Value "Previous"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEXTRACE"
-	Value "Next Race"
+	Value "Next"
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_NEUTRAL"
 	Value "Neutral"
@@ -22281,6 +22281,9 @@ StringInfo
 StringInfo
 	ID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
 	Value "After the death of Palpatine at Endor, the Galactic Empire fractured into many groups of squabbling warlords, with the main group being led by figures such as Ysanne Isard, Thrawn, Natasi Daala and Gilad Pellaeon, as well as the Reborn Palpatine. The Remnant relies on large superships and superweapons supported by smaller Star Destroyers, and excels at the defense and control of its own territory."
+StringInfo
+	ID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
+	Value "To Be Defined"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 	Value "Random"

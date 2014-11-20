@@ -53,3 +53,26 @@ quitButton
 	overlay "Null"			
 	icon "Null"
 	text "IDS_EMPTY"
+dlcButton
+	area [-5000, -5000, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDS_EMPTY"
+soundtrackDLC1Button
+	area [-5000, -5000, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDS_EMPTY"
+planetDLC1Back "DLCButtonBackgroundPlanetDLC1"
+phenomenaDLC1Back "DLCButtonBackgroundPhenomenaDLC1"
+soundtrackDLC1Back "DLCButtonBackgroundSoundtrackDLC1"
+dlcBackFrameRefArea [-5000, -5000, 250, 213]
+dlcBackNoFrameRefArea [-5000, -5000, 250, 213]

@@ -24,11 +24,11 @@ numFactionWindows 3
 		raceDescriptionFont "ListItemSmall"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [180,100,0,0]
+		leftPlayerNameArea [755,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
 		playerDescriptionFont "ButtonLabel"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
-		leftPlayerDescriptionArea [75,25,400,500]
+		leftPlayerDescriptionArea [555,-150,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -36,8 +36,8 @@ numFactionWindows 3
 		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
 		frameOffset [0,-26]
 		backdropOffset [0,168]
-		leftPlayerPortraitBrush "RaceSelectDialogTechLoyalistPortrait"
-		leftPlayerPortraitArea [750,0,195,219]
+		leftPlayerPortraitBrush "Null"
+		leftPlayerPortraitArea [-5000,-5000,195,219]
 		rightPlayerPortraitBrush "Null"
 		rightPlayerPortraitArea [-5000, -5000,0,0]
 		techButtonDef
@@ -73,11 +73,11 @@ numFactionWindows 3
 			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
 			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
 		selectLeftButton
-			area [410, 500, 216 , 35]
+			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
-			buttonTextArea [ 0 , 0 ,216 , 35 ]
+			buttonTextArea [ 0 , 0 , 216 , 35 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
@@ -85,31 +85,31 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [450, 550, 132 , 35]
+			area [224, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [300, 550, 132 , 35]
+			area [135, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_EOTH"
+			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [600, 550, 132 , 35]
+			area [305, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_REMNANT"
+			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 	factionSelectWindowDef
 		backdropBrush "FactionSelectRemnant"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [0,0]
-		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
+		previousFactionPortraitBrush "Null"
 		previousFactionPortraitArea [-5000, -5000, 65, 40]
-		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
+		nextFactionPortraitBrush "Null"
 		nextFactionPortraitArea [-5000, -5000, 65, 40]
 		leftPlayer "PlayerRemnant"
 		rightPlayer "PlayerRemnant"
@@ -119,20 +119,20 @@ numFactionWindows 3
 		raceDescriptionFont "ListItemSmall"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [224,100,0,0]
+		leftPlayerNameArea [755,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
 		playerDescriptionFont "ButtonLabel"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
-		leftPlayerDescriptionArea [75,25,400,500]
+		leftPlayerDescriptionArea [555,-150,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
-		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
-		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		portraitUnderlayBrush "Null"
+		portraitBackdropBrush "Null"
 		frameOffset [0,-26]
 		backdropOffset [0,168]
-		leftPlayerPortraitBrush "RaceSelectDialogPsiLoyalistPortrait"
-		leftPlayerPortraitArea [750,0,195,219]
+		leftPlayerPortraitBrush "Null"
+		leftPlayerPortraitArea [-5000,-5000,195,219]
 		rightPlayerPortraitBrush "Null"
 		rightPlayerPortraitArea [-5000, -5000,0,0]
 		techButtonDef
@@ -168,7 +168,7 @@ numFactionWindows 3
 			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
 			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
 		selectLeftButton
-			area [410, 500, 216 , 35]
+			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
@@ -180,28 +180,28 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [450, 550, 132 , 35]
+			area [224, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [300, 550, 132 , 35]
+			area [135, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_NEWREP"
+			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [600, 550, 132 , 35]
+			area [305, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_EOTH"
+			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 	factionSelectWindowDef
 		backdropBrush "FactionSelectEotH"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
-		smallFactionPortraitOffset [0,0]
+		smallFactionPortraitOffset [-5000,-5000]
 		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
 		previousFactionPortraitArea [-5000, -5000, 65, 40]
 		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
@@ -214,11 +214,11 @@ numFactionWindows 3
 		raceDescriptionFont "ListItemSmall"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [237,100,0,0]
+		leftPlayerNameArea [755,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
 		playerDescriptionFont "ButtonLabel"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
-		leftPlayerDescriptionArea [75,25,400,500]
+		leftPlayerDescriptionArea [555,-150,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -226,8 +226,8 @@ numFactionWindows 3
 		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
 		frameOffset [0,-26]
 		backdropOffset [0,168]
-		leftPlayerPortraitBrush "RaceSelectDialogPhaseLoyalistPortrait"
-		leftPlayerPortraitArea [125,10,195,219]
+		leftPlayerPortraitBrush "Null"
+		leftPlayerPortraitArea [-5000,-5000,195,219]
 		rightPlayerPortraitBrush "Null"
 		rightPlayerPortraitArea [-5000, -5000,0,0]
 		techButtonDef
@@ -263,7 +263,7 @@ numFactionWindows 3
 			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
 			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
 		selectLeftButton
-			area [410, 500, 216 , 35]
+			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
@@ -275,21 +275,21 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [450, 550, 132 , 35]
+			area [224, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [300, 550, 132 , 35]
+			area [135, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_REMNANT"
+			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [600, 550, 132 , 35]
+			area [305, 355, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_PLAYERRACENAME_NEWREP"
+			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 	

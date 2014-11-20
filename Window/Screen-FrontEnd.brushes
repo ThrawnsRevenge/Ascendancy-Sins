@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 217
+brushCount 219
 brush
 	name "RaceSelectRandom"
 	content "States"
@@ -3465,3 +3465,39 @@ brush
 	content "Simple"
 	fileName "FactionSelectScreen_Remnant"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "BackButtonArrow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 87 , 259 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 259 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 259 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 259 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 87 , 259 , 42 , 42 ]
+brush
+	name "NextButtonArrow"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 1 , 42 , 42 ]
