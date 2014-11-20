@@ -61,7 +61,7 @@ entities
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 78
+		count 79
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
@@ -90,6 +90,7 @@ entities
 		entityDefName "NewRepResearch_Flat_CultureExport"
 		entityDefName "NewRepResearch_AbilityUnlock_Migration"
 		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
+		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePull"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePush"
 		entityDefName "NewRepResearch_Global_CommStation"
