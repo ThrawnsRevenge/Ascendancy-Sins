@@ -22277,13 +22277,13 @@ StringInfo
 	Value "Players lose the game if their Capital planet is destroyed. Capitals that you have detected are displayed here."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
-	Value "Formed out of the Rebel Alliance after their victory at Endor, the New Republic aims to implement democratic institutions throughout the galaxy. They specialize in spreading their message, and as they develop their technology their capital ships become more powerful than those of the Empire."
+	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is on spreading their democratic message throughout the galaxy.
 StringInfo
 	ID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
-	Value "After the death of Palpatine at Endor, the Galactic Empire fractured into many groups of squabbling warlords, with the main group being led by figures such as Ysanne Isard, Thrawn, Natasi Daala and Gilad Pellaeon, as well as the Reborn Palpatine. The Remnant relies on large superships and superweapons supported by smaller Star Destroyers, and excels at the defense and control of its own territory."
+	Value "The Imperial Remnant comprises various the splinter factions of what remained of the once-great Galactic Empire after the death of the Emperor at Endor. The Imperial Remnant relies on large superweapons like the Eclipse, Executor and Galaxy Gun to overwhelm their foes and reunite the galaxy under the firm hand of a new Emperor. The Imperial fleet is comprised of masses of Star Destroyers and TIE Fighters to support these superweapons, placing an emphasis on quantity over quality. Culturally, the Empire focuses on suppression."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
-	Value "To Be Defined"
+	Value "Created in secret by Emperor Palpatine and Grand Admiral Thrawn, the Empire of the Hand is an expansive political and military conglomeration loosely associated with the Chiss Ascendancy and Galactic Empire, aimed at pacifying the Unknown Regions and fortifying the galaxy against outside threats, primarily the Yuuzhan Vong. Because of the large territory which they must patrol, the Empire of the Hand relies on a fleet of fast and hard-hitting, yet fragile ships. Thrawn maintained several characteristics of the Imperial New Order, however in a more open and tolerant way towards non-humans; he also detested the use of superweapons."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 	Value "Random"
