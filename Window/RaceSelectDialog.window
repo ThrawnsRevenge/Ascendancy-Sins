@@ -85,7 +85,7 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [224, 690, 132 , 35]
+			area [217, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
@@ -180,7 +180,7 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [224, 690, 132 , 35]
+			area [217, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
@@ -275,7 +275,7 @@ numFactionWindows 3
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [224, 690, 132 , 35]
+			area [217, 690, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"

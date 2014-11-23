@@ -1,61 +1,64 @@
 TXT
 pipCloud(Modules)
-	segmentCount 10
+	segmentCount 11
 	segmentLayout
-		textureName "Unit_Main"
-		startTopLeft [394,318]
-		width 7
+		textureName "Planet_Cloud_Pips"
+		startTopLeft [0,69]
+		width 3
 		height 7
 		rowItemCount 1
 		horizontalStride 0
-		verticalStride 8	
-	segmentOffset [7, 5]
-	segmentOffset [10, 7]
-	segmentOffset [13, 9]
-	segmentOffset [17, 10]
-	segmentOffset [21, 10]
-	segmentOffset [24, 10]
-	segmentOffset [28, 10]
-	segmentOffset [31, 9]
-	segmentOffset [34, 7]
-	segmentOffset [37, 6]
+		verticalStride 0
+	segmentOffset [9, 8]
+	segmentOffset [12, 8]
+	segmentOffset [15, 8]
+	segmentOffset [18, 8]
+	segmentOffset [21, 8]
+	segmentOffset [24, 8]
+	segmentOffset [27, 8]
+	segmentOffset [30, 8]
+	segmentOffset [33, 8]
+	segmentOffset [36, 8]
+	segmentOffset [39, 8]
 pipCloud(FriendlyShips)
-	segmentCount 10
+	segmentCount 11
 	segmentLayout
-		textureName "Unit_Main"
-		startTopLeft [384,318]
+		textureName "Planet_Cloud_Pips"
+		startTopLeft [5, 72]
 		width 7
-		height 7
+		height 3
 		rowItemCount 1
 		horizontalStride 0
-		verticalStride 8	
-	segmentOffset [9, 9]
-	segmentOffset [8, 11]
-	segmentOffset [6, 15]
-	segmentOffset [5, 18]
-	segmentOffset [4, 22]
-	segmentOffset [4, 25]
-	segmentOffset [4, 29]
-	segmentOffset [5, 32]
-	segmentOffset [6, 35]
-	segmentOffset [8, 39]
+		verticalStride 0
+	segmentOffset [7, 40]
+	segmentOffset [7, 37]
+	segmentOffset [7, 34]
+	segmentOffset [7, 31]
+	segmentOffset [7, 28]
+	segmentOffset [7, 25]
+	segmentOffset [7, 22]
+	segmentOffset [7, 19]
+	segmentOffset [7, 16]
+	segmentOffset [7, 13]
+	segmentOffset [7, 10]
 pipCloud(EnemyShips)
-	segmentCount 10
+	segmentCount 11
 	segmentLayout
-		textureName "Unit_Main"
-		startTopLeft [404,318]
+		textureName "Planet_Cloud_Pips"
+		startTopLeft [5, 72]
 		width 7
-		height 7
+		height 3
 		rowItemCount 1
 		horizontalStride 0
-		verticalStride 8
-	segmentOffset [9, 9]
-	segmentOffset [10, 11]
-	segmentOffset [12, 15]
-	segmentOffset [13, 18]
-	segmentOffset [14, 22]
-	segmentOffset [14, 25]
-	segmentOffset [14, 29]
-	segmentOffset [13, 32]
-	segmentOffset [12, 35]
-	segmentOffset [10, 39]
+		verticalStride 0
+	segmentOffset [11, 40]
+	segmentOffset [11, 37]
+	segmentOffset [11, 34]
+	segmentOffset [11, 31]
+	segmentOffset [11, 28]
+	segmentOffset [11, 25]
+	segmentOffset [11, 22]
+	segmentOffset [11, 19]
+	segmentOffset [11, 16]
+	segmentOffset [11, 13]
+	segmentOffset [11, 10]
