@@ -4,8 +4,8 @@ brushCount 96
 brush
 	name "MAINVIEWICON_PLANET_UNKNOWN"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 969 , 770 , 50 , 50 ]
+	fileName "Icon_Planets_Pip_Unknown"
+	pixelBox [ 0 , 0 , 270, 75 ]
 brush
 	name "MAINVIEWICON_PLANET_PLASMASTORM"
 	content "Simple"
