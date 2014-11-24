@@ -1,31 +1,31 @@
 TXT
 pictureCount 3
 LargeScreenPicture
-	textureName "Player_Portrait_Large"
-	startTopLeft [ 1 , 234 ]
+	textureName "Player_Portrait_Ascendancy_Large"
+	startTopLeft [ 1 , 235 ]
 	width 203
 	height 232
 	rowItemCount 3
 	horizontalStride 204
 	verticalStride 233
 SmallScreenPicture
-	textureName "Player_Portrait_Small"
-	startTopLeft [5,77]
-	width 56
-	height 67
-	rowItemCount 8
-	horizontalStride 61
-	verticalStride 72
+	textureName "Player_Portrait_Ascendancy_Small"
+	startTopLeft [ 1 , 72 ]
+	width 59
+	height 70
+	rowItemCount 3
+	horizontalStride 60
+	verticalStride 71
 BottomBarPicture
-	textureName "Player_Portrait_Window.tga"
-	startTopLeft [1,100]
+	textureName "Player_Portrait_Ascendancy_Window"
+	startTopLeft [ 1 , 100 ]
 	width 181
 	height 98
 	rowItemCount 3
 	horizontalStride 182
 	verticalStride 99
 ButtonIcon
-	textureName "Player_Portrait_Button.tga"
+	textureName "Player_Portrait_Ascendancy_Button"
 	startTopLeft [ 1 , 30 ]
 	width 25
 	height 29
@@ -33,8 +33,8 @@ ButtonIcon
 	horizontalStride 26
 	verticalStride 32
 MediumScreenPicture
-	textureName "Player_Portrait_Medium.tga"
-	startTopLeft [1,110]
+	textureName "Player_Portrait_Ascendancy_Medium"
+	startTopLeft [ 1 , 110 ]
 	width 94
 	height 108
 	rowItemCount 3

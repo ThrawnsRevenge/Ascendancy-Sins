@@ -1,35 +1,35 @@
 TXT
-themeCount 6
+themeCount 3
 Icon
-	textureName "RaceLogos_Ascendancy.tga"
-	startTopLeft [638,2]
+	textureName "RaceLogos_Ascendancy"
+	startTopLeft [ 638 , 2 ]
 	width 32
 	height 32
-	rowItemCount 6
+	rowItemCount 3
 	horizontalStride 33
 	verticalStride 33
 IconOverlay
-	textureName "RaceLogos_Ascendancy.tga"
-	startTopLeft [638 , 62]
+	textureName "RaceLogos_Ascendancy"
+	startTopLeft [ 638 , 62 ]
 	width 14
 	height 14
-	rowItemCount 6
+	rowItemCount 3
 	horizontalStride 15
 	verticalStride 15
 Picture
-	textureName "RaceLogos_Ascendancy.tga"
-	startTopLeft [2,2]
+	textureName "RaceLogos_Ascendancy"
+	startTopLeft [ 2 , 2 ]
 	width 105
 	height 105
-	rowItemCount 6
+	rowItemCount 3
 	horizontalStride 106
 	verticalStride 106
 PlanetIcon
-	textureName "RaceLogos_Ascendancy.tga"
-	startTopLeft [638 , 36]
+	textureName "RaceLogos_Ascendancy"
+	startTopLeft [ 638 , 36 ]
 	width 23
 	height 23
-	rowItemCount 6
+	rowItemCount 3
 	horizontalStride 24
 	verticalStride 24
 	

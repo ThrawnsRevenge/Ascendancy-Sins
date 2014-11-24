@@ -805,7 +805,7 @@ field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
 field "IDS_RESEARCHFIELD_FLEET"
 playerThemeGroupName "PlayerNewRep"
-playerPictureGroupName "PlayerTech"
+playerPictureGroupName "PlayerNewRep"
 raceRelationsModCount 3
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_REMNANT"

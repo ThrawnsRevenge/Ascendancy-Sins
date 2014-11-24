@@ -1,9 +1,6 @@
 TXT
-fileCount 7
+fileCount 4
 fileName "NPC.playerPictures"
-fileName "PlayerPhase.playerPictures"
-fileName "PlayerPsi.playerPictures"
-fileName "PlayerTech.playerPictures"
 fileName "PlayerRemnant.playerPictures"
 fileName "PlayerEotH.playerPictures"
 fileName "PlayerNewRep.playerPictures"
