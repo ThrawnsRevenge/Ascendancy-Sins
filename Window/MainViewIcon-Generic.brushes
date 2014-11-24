@@ -234,8 +234,8 @@ brush
 brush
 	name "MainViewIconEntityUnderlayUnderCursorFrame"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 468 , 367 , 39 , 39 ]
+	fileName "UI_Misc"
+	pixelBox [ 1 , 1 , 46 , 46 ]
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFrame"
 	content "Simple"
@@ -259,8 +259,8 @@ brush
 brush
 	name "MainViewIconStarUnderlayUnderCursorFrame"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 1 , 631 , 85 , 85 ]
+	fileName "UI_Misc"
+	pixelBox [ 46 , 0 , 80 , 80 ]
 brush
 	name "MainViewIconStarUnderlaySubSelectedFrame"
 	content "Simple"
@@ -360,32 +360,32 @@ brush
 	name "MainViewIconPipCloudOverlayModules"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 0 , 35 , 12 ]
+	pixelBox [ 0 , 0 , 43 , 9 ]
 brush
 	name "MainViewIconPipCloudOverlayModulesUnderCursor"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 13 , 35 , 12 ]
+	pixelBox [ 44 , 0 , 43 , 9 ]
 brush
 	name "MainViewIconPipCloudOverlayFriendlyShips"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 27 , 12 , 35 ]
+	pixelBox [ 0 , 63 , 9 , 43 ]
 brush
 	name "MainViewIconPipCloudOverlayFriendlyShipsUnderCursor"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 14 , 27 , 12 , 35 ]
+	pixelBox [ 16 , 63 , 9 , 43 ]
 brush
 	name "MainViewIconPipCloudOverlayEnemyShips"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 29 , 27 , 12 , 35 ]
+	pixelBox [ 0 , 15 , 9 , 43 ]
 brush
 	name "MainViewIconPipCloudOverlayEnemyShipsUnderCursor"
 	content "Simple"
 	fileName "Planet_Cloud_Pips"
-	pixelBox [ 44 , 27 , 12 , 35 ]
+	pixelBox [ 16 , 15 , 9 , 43 ]
 brush
 	name "MainViewIconStarBaseTech"
 	content "Simple"
