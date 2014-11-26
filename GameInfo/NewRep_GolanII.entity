@@ -46,12 +46,12 @@ placementRadius 360.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
-swapMineType "UB_GolanII"
+swapMineType ""
 angularSpeed 4.999992
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName ""
+ShieldMeshName "UB_GolanII"
 renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0

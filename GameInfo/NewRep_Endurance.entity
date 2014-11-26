@@ -67,8 +67,8 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 270.000000
-	ValueIncreasePerLevel 30.000000
+	StartValue 84.000000
+	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 132.000000
 	ValueIncreasePerLevel 0.000000
