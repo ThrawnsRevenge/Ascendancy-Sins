@@ -14,8 +14,8 @@ brush
 brush
 	name "MainViewIconEntityOverlayHomePlanet"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 121 , 421 , 85 , 85 ]
+	fileName "UI_Misc"
+	pixelBox [ 0 , 164 , 452 , 75 ]
 brush
 	name "MainViewIconEntityOverlayArtifact"
 	content "Simple"
@@ -239,22 +239,22 @@ brush
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFrame"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 468 , 417 , 39 , 39 ]
+	fileName "Null"
+	pixelBox [ 1 , 47 , 46 , 46 ]
 brush
 	name "MainViewIconEntityUnderlaySelectedFrame"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 468 , 318 , 39 , 39 ]
+	fileName "Null"
+	pixelBox [ 1 , 47 , 46 , 46 ]
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFill"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 418 , 417 , 39 , 39 ]
+	fileName "UI_Misc"
+	pixelBox [ 1 , 47 , 46 , 46 ]
 brush
 	name "MainViewIconEntityUnderlaySelectedFill"
 	content "Simple"
-	fileName "Unit_Main"
+	fileName "Null"
 	pixelBox [ 418 , 318 , 39 , 39 ]
 brush
 	name "MainViewIconStarUnderlayUnderCursorFrame"
@@ -264,23 +264,23 @@ brush
 brush
 	name "MainViewIconStarUnderlaySubSelectedFrame"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 121 , 631 , 85 , 85 ]
+	fileName "Null"
+	pixelBox [ 46 , 79 , 80 , 80 ]
 brush
 	name "MainViewIconStarUnderlaySelectedFrame"
 	content "Simple"
-	fileName "Unit_Main"
+	fileName "Null"
 	pixelBox [ 241 , 631 , 85 , 85 ]
 brush
 	name "MainViewIconStarUnderlaySubSelectedFill"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 0 , 0 , 0 , 0 ]
+	fileName "UI_Misc"
+	pixelBox [ 46 , 79 , 80 , 80 ]
 brush
 	name "MainViewIconStarUnderlaySelectedFill"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 0 , 0 , 0 , 0 ]
+	fileName "Null"
+	pixelBox [ 46 , 79 , 80 , 80 ]
 brush
 	name "MainViewIconStarBaseUnderlayUnderCursorFrame"
 	content "Simple"

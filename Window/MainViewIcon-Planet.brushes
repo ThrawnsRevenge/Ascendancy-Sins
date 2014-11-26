@@ -5,7 +5,7 @@ brush
 	name "MAINVIEWICON_PLANET_UNKNOWN"
 	content "Simple"
 	fileName "Icon_Planets_Pip_Unknown"
-	pixelBox [ 0 , 0 , 270, 75 ]
+	pixelBox [ 0 , 0 , 272, 75 ]
 brush
 	name "MAINVIEWICON_PLANET_PLASMASTORM"
 	content "Simple"
