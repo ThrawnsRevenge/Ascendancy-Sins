@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2169
+entityNameCount 2172
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -370,6 +370,9 @@ entityName "AbilityPassiveLowLife.entity"
 entityName "AbilityBombardEmpire.entity"
 entityName "AbilityOverwhelm.entity"
 entityName "AbilityOverwhelmCapital.entity"
+entityName "AbilityPowerToShields.entity"
+entityName "AbilityPowerToShieldsCapital.entity"
+entityName "BuffPowerToShields.entity"
 entityName "AbilityTractorBeam.entity"
 entityName "AbilityThrawnDoctrine.entity"
 entityName "AbilityConsumeShip.entity"
