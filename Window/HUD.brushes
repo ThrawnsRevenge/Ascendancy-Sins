@@ -903,15 +903,15 @@ brush
 	stretchMargins
 		left 0
 		right 0
-		top 20
-		bottom 10
+		top 12
+		bottom 12
 	contentMargins
 		left 32
 		right 32
 		top 14
 		bottom 14
-	fileName "Skin_Tech"
-	pixelBox [ 716 , 225 , 297 , 29 ]
+	fileName "NR_Skin"
+	pixelBox [ 497 , 223 , 300 , 29 ]
 brush
 	name "InfoCardAttachedToScreenEdgeBackdropTech"
 	content "Margins"
@@ -933,15 +933,15 @@ brush
 	stretchMargins
 		left 0
 		right 0
-		top 20
-		bottom 10
+		top 12
+		bottom 12
 	contentMargins
 		left 32
 		right 32
 		top 14
 		bottom 14
 	fileName "IR_Skin"
-	pixelBox [ 716 , 225 , 297 , 29 ]
+	pixelBox [ 497 , 223 , 300 , 29 ]
 brush
 	name "InfoCardAttachedToScreenEdgeBackdropPsi"
 	content "Margins"
@@ -963,15 +963,15 @@ brush
 	stretchMargins
 		left 0
 		right 0
-		top 20
-		bottom 10
+		top 12
+		bottom 12
 	contentMargins
 		left 32
 		right 32
 		top 14
 		bottom 14
 	fileName "EotH_Skin"
-	pixelBox [ 716 , 225 , 297 , 29 ]
+	pixelBox [ 497 , 223 , 300 , 29 ]
 brush
 	name "InfoCardAttachedToScreenEdgeBackdropPhase"
 	content "Margins"

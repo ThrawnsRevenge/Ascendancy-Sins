@@ -437,38 +437,38 @@ brush
 	name "ResearchScreenTabButtonCombatTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Screens_Disabled"
-		pixelBox [ 268 , 741 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 741 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Screens_CursorOver"
-		pixelBox [ 268 , 741 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 741 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 741 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDefenseTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Screens2_Disabled"
-		pixelBox [ 4 , 331 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 331 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Screens2_CursorOver"
-		pixelBox [ 4 , 331 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 331 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 331 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonNonCombatTech"
 	content "States"
@@ -527,38 +527,38 @@ brush
 	name "ResearchScreenTabButtonCombatPsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Screens_Disabled"
-		pixelBox [ 268 , 536 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 536 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Screens_CursorOver"
-		pixelBox [ 268 , 536 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 536 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Screens_Normal"
-		pixelBox [ 268 , 536 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 388 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDefensePsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Screens2_Disabled"
-		pixelBox [ 4 , 290 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 290 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Screens2_CursorOver"
-		pixelBox [ 4 , 290 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 290 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Screens2_Normal"
-		pixelBox [ 4 , 290 , 85 , 38 ]
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 44 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonNonCombatPsi"
 	content "States"
@@ -1553,7 +1553,7 @@ brush
 brush
 	name "StatsScreenMinValueOverlay"
 	content "Simple"
-	fileName "Interface0"
+	fileName "Null"
 	pixelBox [ 381 , 39 , 81 , 34 ]
 brush
 	name "StatsScreenMaxValueUnderlay"
@@ -1563,7 +1563,7 @@ brush
 brush
 	name "StatsScreenMaxValueOverlay"
 	content "Simple"
-	fileName "Interface0"
+	fileName "Null"
 	pixelBox [ 381 , 2 , 81 , 34 ]
 brush
 	name "StatsScreenMaxTimeUnderlay"
@@ -1573,7 +1573,7 @@ brush
 brush
 	name "StatsScreenMaxTimeOverlay"
 	content "Simple"
-	fileName "Interface0"
+	fileName "Null"
 	pixelBox [ 381 , 75 , 81 , 34 ]
 brush
 	name "StatsScreenGraphUnderlay"
@@ -1583,7 +1583,7 @@ brush
 brush
 	name "StatsScreenGraphOverlay"
 	content "Simple"
-	fileName "Interface0"
+	fileName "Null"
 	pixelBox [ 0 , 140 , 730 , 442 ]
 brush
 	name "StatsScreenTabButtonCredits"
@@ -2302,12 +2302,12 @@ brush
 brush
 	name "ResearchScreenBlockBackdropFleet0Tech"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockBackdropFleet1Tech"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockBackdropCombat0Psi"
@@ -2527,12 +2527,12 @@ brush
 brush
 	name "ResearchScreenBlockBackdropFleet0Psi"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockBackdropFleet1Psi"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockBackdropCombat0Phase"
@@ -2752,12 +2752,12 @@ brush
 brush
 	name "ResearchScreenBlockBackdropFleet0Phase"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockBackdropFleet1Phase"
 	content "Simple"
-	fileName "BackdropInGame"
+	fileName "Null"
 	pixelBox [ 1068 , 510 , 784 , 308 ]
 brush
 	name "ResearchScreenBlockPictureCombat0Tech"

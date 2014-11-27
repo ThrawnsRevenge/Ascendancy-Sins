@@ -47,7 +47,7 @@ treeSharedDef
 		pictureBackdropArea [89, 62, 153 , 129]
 		pictureArea [89, 62, 153 , 129]
 		pictureBackdrop "ResearchScreenFleetLevelPictureBackdrop"
-		pictureOverlay "ResearchScreenFleetLevelPictureOverlay"
+		pictureOverlay "Null"
 		valueSharedDef
 			labelArea [20, 15, 100, 30]
 			valueArea [155, 15, 40, 30]
