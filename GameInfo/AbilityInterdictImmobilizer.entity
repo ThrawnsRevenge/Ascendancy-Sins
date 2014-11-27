@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffInterdictImmobilizerSelf"
 effectInfo
@@ -10,20 +10,32 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_INTERDICTON_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_INTERDICTOFF_DESCRIPTION"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+onlyAutoCastWhenDamageTakenExceedsPerc 0.800000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 0.000000
+	Level:3 0.000000
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
