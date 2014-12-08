@@ -17,7 +17,7 @@ entities
 			entityDefName "NewRep_TradeStation"
 			entityDefName "NewRep_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
-			entityDefName "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
+			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "NewRep_PolicyLab"
 			entityDefName "PLANETMODULE_TECHORBITALREFINERY"
 		Page:1

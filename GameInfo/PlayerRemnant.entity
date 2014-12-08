@@ -17,7 +17,7 @@ entities
 			entityDefName "Remnant_TradeStation"
 			entityDefName "Remnant_CommStation"
 			entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-			entityDefName "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
+			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "Remnant_PolicyLab"
 			entityDefName "Remnant_CommandStation"
 		Page:1

@@ -17,7 +17,7 @@ entities
 			entityDefName "PLANETMODULE_PHASEORBITALTRADEPORT"
 			entityDefName "PLANETMODULE_PHASEORBITALCULTURECENTER"
 			entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
-			entityDefName "PLANETMODULE_PHASEORBITALCAPITALSHIPFACTORY"
+			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "Remnant_CombatLab"
 		Page:1
 			count 4

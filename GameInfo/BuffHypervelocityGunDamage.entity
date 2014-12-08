@@ -7,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
 instantAction
 	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
@@ -20,6 +20,41 @@ instantAction
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "PHYSICAL"
 	isDamageShared FALSE
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffHyperVelocityGunDamageSplash"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 9000.000000
+		Level:1 900.000000
+		Level:2 900.000000
+		Level:3 900.000000
+	maxTargetCount
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

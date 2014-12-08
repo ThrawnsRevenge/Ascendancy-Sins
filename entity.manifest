@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2172
+entityNameCount 2174
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -258,6 +258,7 @@ entityName "Remnant_Lancer.entity"
 entityName "Remnant_WorldDevastator.entity"
 entityName "Remnant_Chimera.entity"
 entityName "Remnant_FrigateShipyard.entity"
+entityName "Remnant_CapitalShipyard.entity"
 entityName "Remnant_PolicyLab.entity"
 entityName "Remnant_GalaxyGun.entity"
 entityName "Remnant_CommStation.entity"
@@ -448,6 +449,7 @@ entityName "BuffSovereignSuperlaserDamage.entity"
 entityName "BuffMilitarySpecialization.entity"
 entityName "BuffMilitarySpecializationSelf.entity"
 entityName "BuffHypervelocityGunDamage.entity"
+entityName "BuffHypervelocityGunDamageSplash.entity"
 entityName "BuffHypervelocityGunSelf.entity"
 entityName "BuffHypervelocityGunPlanet.entity"
 entityName "BuffConsumeShipTarget.entity"
