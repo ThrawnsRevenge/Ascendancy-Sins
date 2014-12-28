@@ -56,9 +56,10 @@ entities
 			entityDefName "NewRep_AssaultFrigate"
 			entityDefName "NewRep_BAC"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "FrigateTechModuleConstructor"
 			entityDefName "NewRep_Stargalleon"
+			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
 		count 79
