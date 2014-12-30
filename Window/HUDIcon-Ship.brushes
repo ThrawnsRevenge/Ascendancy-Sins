@@ -1,6 +1,146 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 255
+brushCount 283
+brush
+	name "HUDICONSMALL_FIGHTER_EWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 150 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_KWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 120 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_BWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 90 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_AWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 60 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_YWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 30 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_XWING"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 0 , 90 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_PROFICIENT"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 270 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_HAJEN"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 240 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_GALLOFREE"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 210 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_QUASAR"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 180 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_NEBULON"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 150 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_CR90"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 120 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_MC40"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 90 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_FERRET"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 60 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 30 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 0 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_TIEBOMBER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 180 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_TIEDEFENDER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 150 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 120 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 90 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FIGHTER_TIEFIGHTER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 60 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_ESCORTCARRIER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 30 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_LANCER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 0 , 30 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_SENTINEL"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 270 , 0 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_CARRACK"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 240 , 0 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_ACCLAMATOR"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 210 , 0 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_STRIKECRUISER"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 180 , 0 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_MU2"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 150 , 0 , 30 , 30 ]
 brush
 	name "HUDICON_FERRET"
 	content "States"
@@ -1715,7 +1855,7 @@ brush
 	name "HUDICONSMALL_LAZY_FRIGATEHOLDER"
 	content "Simple"
 	fileName "Cruiser_Pips"
-	pixelBox [ 0 , 30 , 30 , 30 ]
+	pixelBox [ 0 , 120 , 30 , 30 ]
 brush
 	name "HUDICONSMALL_CAPITALSHIP_PSICOLONY"
 	content "Simple"

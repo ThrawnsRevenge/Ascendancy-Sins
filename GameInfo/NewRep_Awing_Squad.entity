@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_AWING"
-smallHudIcon "HUDICONSMALL_AWING"
-infoCardIcon "INFOCARDICON_AWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_AWING"
+infoCardIcon "HUDICONSMALL_FIGHTER_AWING"
 fighterEntityDef "NewRep_AWing"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_AWING"
-picture "PICTURE_AWING"
+mainViewIcon "HUDICONSMALL_FIGHTER_AWING"
+picture "HUDICONSMALL_FIGHTER_AWING"
 launchIcon "HUDICONLAUNCH_AWING"
 dockIcon "HUDICONDOCK_AWING"
 nameStringID "IDS_FIGHTERAWING_NAME"

@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_NEBULON"
+mainViewIcon "HUDICONSMALL_FRIGATE_NEBULON"
+picture "HUDICON_NEBULON"
 NameStringID "IDS_FRIGATE_NEBULON_NAME"
 DescriptionStringID "IDS_FRIGATE_NEBULON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
@@ -38,7 +38,7 @@ numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_NEBULON"
 smallHudIcon "HUDICONSMALL_FRIGATE_NEBULON"
-infoCardIcon "INFOCARDICON_FRIGATE_NEBULON"
+infoCardIcon "HUDICONSMALL_FRIGATE_NEBULON"
 minZoomDistanceMult 7.500000
 NumWeapons 2
 Weapon

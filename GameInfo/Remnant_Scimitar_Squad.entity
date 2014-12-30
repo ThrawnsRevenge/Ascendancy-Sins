@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_SCIMITAR"
-smallHudIcon "HUDICONSMALL_SQUADSCIMITAR"
-infoCardIcon "INFOCARDICON_SQUADSCIMITAR"
+smallHudIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
+infoCardIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 fighterEntityDef "Remnant_Scimitar"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Bomber"
 statCountType "SquadBomber"
-mainViewIcon "MAINVIEWICON_SQUADSCIMITAR"
-picture "PICTURE_SQUADSCIMITAR"
+mainViewIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
+picture "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 launchIcon "HUDICONLAUNCH_SQUADSCIMITAR"
 dockIcon "HUDICONDOCK_SQUADSCIMITAR"
 nameStringID "IDS_SQUADSCIMITAR_NAME"

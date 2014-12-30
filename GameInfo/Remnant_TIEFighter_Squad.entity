@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_TIEFIGHTER"
-smallHudIcon "HUDICONSMALL_SQUADTECHCOMBAT"
-infoCardIcon "INFOCARDICON_SQUADTECHCOMBAT"
+smallHudIcon "HUDICONSMALL_FIGHTER_TIEFIGHTER"
+infoCardIcon "HUDICONSMALL_FIGHTER_TIEFIGHTER"
 fighterEntityDef "Remnant_TIEFighter"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_SQUADTECHCOMBAT"
-picture "PICTURE_SQUADTECHCOMBAT"
+mainViewIcon "HUDICONSMALL_FIGHTER_TIEFIGHTER"
+picture "HUDICONSMALL_FIGHTER_TIEFIGHTER"
 launchIcon "HUDICONLAUNCH_SQUADTECHCOMBAT"
 dockIcon "HUDICONDOCK_SQUADTECHCOMBAT"
 nameStringID "IDS_SQUADTECHCOMBAT_NAME"

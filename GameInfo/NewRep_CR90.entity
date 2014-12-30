@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_CR90"
+mainViewIcon "HUDICONSMALL_FRIGATE_CR90"
+picture "HUDICON_CR90"
 NameStringID "IDS_FRIGATE_CR90_NAME"
 DescriptionStringID "IDS_FRIGATE_CR90_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
@@ -38,7 +38,7 @@ numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_CR90"
 smallHudIcon "HUDICONSMALL_FRIGATE_CR90"
-infoCardIcon "INFOCARDICON_FRIGATE_CR90"
+infoCardIcon "HUDICONSMALL_FRIGATE_CR90"
 minZoomDistanceMult 7.500000
 NumWeapons 2
 Weapon

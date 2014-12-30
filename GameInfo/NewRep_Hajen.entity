@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility0"
-mainViewIcon "MAINVIEWICON_FRIGATE_LAZY"
-picture "PICTURE_FRIGATE_HAJEN"
+mainViewIcon "HUDICONSMALL_FRIGATE_HAJEN"
+picture "HUDICON_HAJEN"
 NameStringID "IDS_FRIGATE_HAJEN_NAME"
 DescriptionStringID "IDS_FRIGATE_HAJEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_HAJEN"
-smallHudIcon "HUDICONSMALL_FRIGATE_ALARIA"
-infoCardIcon "INFOCARDICON_FRIGATE_ALARIA"
+smallHudIcon "HUDICONSMALL_FRIGATE_HAJEN"
+infoCardIcon "HUDICONSMALL_FRIGATE_HAJEN"
 minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon

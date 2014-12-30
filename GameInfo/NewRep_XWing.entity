@@ -9,8 +9,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
 hudIcon "HUDICON_XWING"
-smallHudIcon "HUDICONSMALL_XWING"
-infoCardIcon "INFOCARDICON_XWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_XWING"
+infoCardIcon "HUDICONSMALL_FIGHTER_XWING"
 minZoomDistanceMult 9.000000
 nameStringID "IDS_FIGHTERXWING_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"

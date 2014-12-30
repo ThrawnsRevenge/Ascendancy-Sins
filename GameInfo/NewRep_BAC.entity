@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_BAC"
+mainViewIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
+picture "HUDICON_BAC"
 NameStringID "IDS_FRIGATE_BAC_NAME"
 DescriptionStringID "IDS_FRIGATE_BAC_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_BAC"
-smallHudIcon "HUDICONSMALL_FRIGATE_BAC"
-infoCardIcon "INFOCARDICON_FRIGATE_BAC"
+smallHudIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
+infoCardIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
 minZoomDistanceMult 4.000000
 NumWeapons 4
 Weapon

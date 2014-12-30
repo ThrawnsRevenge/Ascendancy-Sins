@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_TIEBOMBER"
-smallHudIcon "HUDICONSMALL_SQUADPSIBOMBER"
-infoCardIcon "INFOCARDICON_SQUADPSIBOMBER"
+smallHudIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
+infoCardIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
 fighterEntityDef "Remnant_TIEBomber"
 fighterIllusionEntityDef "Remnant_TIEBomber"
 scuttleTime 9.000000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Bomber"
 statCountType "SquadBomber"
-mainViewIcon "MAINVIEWICON_SQUADPSIBOMBER"
-picture "PICTURE_SQUADPSIBOMBER"
+mainViewIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
+picture "HUDICONSMALL_FIGHTER_TIEBOMBER"
 launchIcon "HUDICONLAUNCH_SQUADPSIBOMBER"
 dockIcon "HUDICONDOCK_SQUADPSIBOMBER"
 nameStringID "IDS_SQUADPSIBOMBER_NAME"

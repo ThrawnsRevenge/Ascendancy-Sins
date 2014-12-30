@@ -10,8 +10,8 @@ typeCount 2
 frigateRoleType "Colony"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_TECHCOLONY"
+mainViewIcon "HUDICONSMALL_FRIGATE_GALLOFREE"
+picture "HUDICON_GALLOFREE"
 NameStringID "IDS_FRIGATE_GALLOFREE_NAME"
 DescriptionStringID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -38,8 +38,8 @@ numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_GALLOFREE"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHCOLONY"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHCOLONY"
+smallHudIcon "HUDICONSMALL_FRIGATE_GALLOFREE"
+infoCardIcon "HUDICONSMALL_FRIGATE_GALLOFREE"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

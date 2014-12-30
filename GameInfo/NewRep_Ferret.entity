@@ -10,8 +10,8 @@ typeCount 2
 frigateRoleType "Scout"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateScout"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_TECHCOLONY"
+mainViewIcon "HUDICONSMALL_FRIGATE_FERRET"
+picture "HUDICON_FERRET"
 NameStringID "IDS_FRIGATE_FERRET_NAME"
 DescriptionStringID "IDS_FRIGATE_FERRET_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -38,8 +38,8 @@ numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_FERRET"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHSCOUT"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHSCOUT"
+smallHudIcon "HUDICONSMALL_FRIGATE_FERRET"
+infoCardIcon "HUDICONSMALL_FRIGATE_FERRET"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

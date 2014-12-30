@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_BWING"
-smallHudIcon "HUDICONSMALL_BWING"
-infoCardIcon "INFOCARDICON_BWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_BWING"
+infoCardIcon "HUDICONSMALL_FIGHTER_BWING"
 fighterEntityDef "NewRep_Bwing"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 5
 role "Bomber"
 statCountType "SquadBomber"
-mainViewIcon "MAINVIEWICON_BWING"
-picture "PICTURE_BWING"
+mainViewIcon "HUDICONSMALL_FIGHTER_BWING"
+picture "HUDICONSMALL_FIGHTER_BWING"
 launchIcon "HUDICONLAUNCH_SQUADTECHBOMBER"
 dockIcon "HUDICONDOCK_SQUADTECHBOMBER"
 nameStringID "IDS_FIGHTERBWING_NAME"

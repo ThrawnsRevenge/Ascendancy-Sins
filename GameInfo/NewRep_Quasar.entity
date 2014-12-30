@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateUtility0"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_QUASAR"
+mainViewIcon "HUDICONSMALL_FRIGATE_QUASAR"
+picture "HUDICON_QUASAR"
 NameStringID "IDS_FRIGATE_QUASAR_NAME"
 DescriptionStringID "IDS_FRIGATE_QUASAR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -41,7 +41,7 @@ numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_QUASAR"
 smallHudIcon "HUDICONSMALL_FRIGATE_QUASAR"
-infoCardIcon "INFOCARDICON_FRIGATE_QUASAR"
+infoCardIcon "HUDICONSMALL_FRIGATE_QUASAR"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

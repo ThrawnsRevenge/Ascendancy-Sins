@@ -10,8 +10,8 @@ typeCount 2
 frigateRoleType "Colony"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_SENTINEL"
+mainViewIcon "HUDICONSMALL_FRIGATE_SENTINEL"
+picture "HUDICON_SENTINEL"
 NameStringID "IDS_FRIGATE_SENTINEL_NAME"
 DescriptionStringID "IDS_FRIGATE_SENTINEL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -39,7 +39,7 @@ numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_SENTINEL"
 smallHudIcon "HUDICONSMALL_FRIGATE_SENTINEL"
-infoCardIcon "INFOCARDICON_FRIGATE_SENTINEL"
+infoCardIcon "HUDICONSMALL_FRIGATE_SENTINEL"
 minZoomDistanceMult 5.000000
 NumWeapons 1
 Weapon

@@ -9,8 +9,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_BWING"
-smallHudIcon "HUDICONSMALL_BWING"
-infoCardIcon "INFOCARDICON_BWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_BWING"
+infoCardIcon "HUDICONSMALL_FIGHTER_BWING"
 minZoomDistanceMult 8.000000
 nameStringID "IDS_FIGHTERBWING_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"

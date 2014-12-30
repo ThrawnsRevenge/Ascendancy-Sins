@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_SQUADYWING"
-smallHudIcon "HUDICONSMALL_SQUADYWING"
-infoCardIcon "INFOCARDICON_SQUADYWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_YWING"
+infoCardIcon "HUDICONSMALL_FIGHTER_YWING"
 fighterEntityDef "NewRep_Ywing"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Bomber"
 statCountType "SquadBomber"
-mainViewIcon "MAINVIEWICON_YWING"
-picture "PICTURE_SQUADYWING"
+mainViewIcon "HUDICONSMALL_FIGHTER_YWING"
+picture "HUDICONSMALL_FIGHTER_YWING"
 launchIcon "HUDICONLAUNCH_YWING"
 dockIcon "HUDICONDOCK_YWING"
 nameStringID "IDS_FIGHTERYWING_NAME"

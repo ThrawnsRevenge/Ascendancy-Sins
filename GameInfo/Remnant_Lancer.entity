@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PICTURE_FRIGATE_LANCER"
+mainViewIcon "HUDICONSMALL_FRIGATE_LANCER"
+picture "HUDICON_LANCER"
 NameStringID "IDS_FRIGATE_LANCER_NAME"
 DescriptionStringID "IDS_FRIGATE_LANCER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
@@ -38,7 +38,7 @@ numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_LANCER"
 smallHudIcon "HUDICONSMALL_FRIGATE_LANCER"
-infoCardIcon "INFOCARDICON_FRIGATE_LANCER"
+infoCardIcon "HUDICONSMALL_FRIGATE_LANCER"
 minZoomDistanceMult 7.500000
 NumWeapons 1
 Weapon
