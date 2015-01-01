@@ -1511,7 +1511,7 @@ planetItemType
 	entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
 planetItemType
 	designName "Remnant:Module:CapitalShipyard"
-	entityDefName "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
+	entityDefName "Remnant_CapitalShipyard"
 planetItemType
 	designName "Remnant:Module:TitanFactory"
 	entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
@@ -1601,7 +1601,7 @@ planetItemType
 	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 planetItemType
 	designName "NewRep:Module:CapitalShipyard"
-	entityDefName "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
+	entityDefName "Remnant_CapitalShipyard"
 planetItemType
 	designName "NewRep:Module:TitanFactory"
 	entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
@@ -1670,7 +1670,7 @@ planetItemType
 	entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
 planetItemType
 	designName "EotH:Module:CapitalShipyard"
-	entityDefName "PLANETMODULE_PHASEORBITALCAPITALSHIPFACTORY"
+	entityDefName "Remnant_CapitalShipyard"
 planetItemType
 	designName "EotH:Capital:Ascenancy"
 	entityDefName "EotH_Ascendancy"
