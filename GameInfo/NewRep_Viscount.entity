@@ -49,14 +49,14 @@ basePrice
 slotCount 150.000000
 BuildTime 230.000000
 MaxHullPoints
-	StartValue 40300.000000
-	ValueIncreasePerLevel 504.000000
+	StartValue 20300.000000
+	ValueIncreasePerLevel 100.000000
 MaxShieldPoints
-	StartValue 45000.000000
-	ValueIncreasePerLevel 567.000000
+	StartValue 25000.000000
+	ValueIncreasePerLevel 100.000000
 HullPointRestoreRate
-	StartValue 3.100000
-	ValueIncreasePerLevel 0.700000
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
 ShieldPointRestoreRate
 	StartValue 4.500000
 	ValueIncreasePerLevel 0.700000
@@ -101,10 +101,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1550.000000
+	DamagePerBank:FRONT 1250.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 1550.000000
-	DamagePerBank:RIGHT 1550.000000
+	DamagePerBank:LEFT 1250.000000
+	DamagePerBank:RIGHT 1250.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -140,10 +140,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 250.000000
-	DamagePerBank:RIGHT 250.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 200.000000
 	Range 5500.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter TRUE
@@ -184,8 +184,8 @@ Weapon
 		WeaponClassType "ION"
 	DamagePerBank:FRONT 1000.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 500.000000
-	DamagePerBank:RIGHT 500.000000
+	DamagePerBank:LEFT 400.000000
+	DamagePerBank:RIGHT 400.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
