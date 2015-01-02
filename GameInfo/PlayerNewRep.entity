@@ -61,7 +61,13 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 79
+		count 85
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
