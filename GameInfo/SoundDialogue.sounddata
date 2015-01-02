@@ -241,122 +241,122 @@ effect
 	name "EVENTREMNANT_ALLIEDGAMEWIN"
 	fileName "EventRemnant_OnAlliedGameWin.ogg"
 effect
-	name "EVENTTECH_BUYNOTITANFACTORY"
-	fileName "EventTech_TitanFactoryNotFound.ogg"
+	name "EVENTNEWREP_BUYNOTITANFACTORY"
+	fileName "EVENTNEWREP_TitanFactoryNotFound.ogg"
 effect
-	name "EVENTTECH_RESEARCHVICTORYCOMPLETE"
-	fileName "EventTech_OnResearchVictoryWin.ogg"
+	name "EVENTNEWREP_RESEARCHVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnResearchVictoryWin.ogg"
 effect
-	name "EVENTTECH_RESEARCHVICTORYHALFWAY"
-	fileName "EventTech_OnResearchVictoryNear.ogg"
+	name "EVENTNEWREP_RESEARCHVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnResearchVictoryNear.ogg"
 effect
-	name "EVENTTECH_OCCUPATIONVICTORYCOMPLETE"
-	fileName "EventTech_OnOccupationPlanetVictoryWin.ogg"
+	name "EVENTNEWREP_OCCUPATIONVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnOccupationPlanetVictoryWin.ogg"
 effect
-	name "EVENTTECH_OCCUPATIONVICTORYHALFWAY"
-	fileName "EventTech_OnOccupationPlanetVictoryNear.ogg"
+	name "EVENTNEWREP_OCCUPATIONVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnOccupationPlanetVictoryNear.ogg"
 effect
-	name "EVENTTECH_GAMEWIN"
-	fileName "EventTech_OnGameWin.ogg"
+	name "EVENTNEWREP_GAMEWIN"
+	fileName "EVENTNEWREP_OnGameWin.ogg"
 effect
-	name "EVENTTECH_PLAYERFLAGSHIPDESTROYED"
-	fileName "EventTech_OnFlagshipVictoryLost.ogg"
+	name "EVENTNEWREP_PLAYERFLAGSHIPDESTROYED"
+	fileName "EVENTNEWREP_OnFlagshipVictoryLost.ogg"
 effect
-	name "EVENTTECH_PLAYERFLAGSHIPUNDERATTACK"
-	fileName "EventTech_OnFlagshipUnderAttack.ogg"
+	name "EVENTNEWREP_PLAYERFLAGSHIPUNDERATTACK"
+	fileName "EVENTNEWREP_OnFlagshipUnderAttack.ogg"
 effect
-	name "EVENTTECH_PLAYERFLAGSHIPSHIELDSDOWN"
-	fileName "EventTech_OnFlagshipShieldsFail.ogg"
+	name "EVENTNEWREP_PLAYERFLAGSHIPSHIELDSDOWN"
+	fileName "EVENTNEWREP_OnFlagshipShieldsFail.ogg"
 effect
-	name "EVENTTECH_PLAYERFLAGSHIPHULLSEVERELYDAMAGED"
-	fileName "EventTech_OnFlagshipHullDamaged.ogg"
+	name "EVENTNEWREP_PLAYERFLAGSHIPHULLSEVERELYDAMAGED"
+	fileName "EVENTNEWREP_OnFlagshipHullDamaged.ogg"
 effect
-	name "EVENTTECH_ENEMYRESEARCHVICTORYCOMPLETE"
-	fileName "EventTech_OnEnemyResearchVictoryWin.ogg"
+	name "EVENTNEWREP_ENEMYRESEARCHVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnEnemyResearchVictoryWin.ogg"
 effect
-	name "EVENTTECH_ENEMYRESEARCHVICTORYHALFWAY"
-	fileName "EventTech_OnEnemyResearchVictoryNear.ogg"
+	name "EVENTNEWREP_ENEMYRESEARCHVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnEnemyResearchVictoryNear.ogg"
 effect
-	name "EVENTTECH_ENEMYRESEARCHVICTORYSTARTED"
-	fileName "EventTech_OnEnemyResearchVictoryStart.ogg"
+	name "EVENTNEWREP_ENEMYRESEARCHVICTORYSTARTED"
+	fileName "EVENTNEWREP_OnEnemyResearchVictoryStart.ogg"
 effect
-	name "EVENTTECH_ENEMYOCCUPATIONVICTORYCOMPLETE"
-	fileName "EventTech_OnEnemyOccupationPlanetVictoryWin.ogg"
+	name "EVENTNEWREP_ENEMYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnEnemyOccupationPlanetVictoryWin.ogg"
 effect
-	name "EVENTTECH_ENEMYOCCUPATIONVICTORYHALFWAY"
-	fileName "EventTech_OnEnemyOccupationPlanetVictoryNear.ogg"
+	name "EVENTNEWREP_ENEMYOCCUPATIONVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnEnemyOccupationPlanetVictoryNear.ogg"
 effect
-	name "EVENTTECH_ENEMYOCCUPATIONVICTORYSTARTED"
-	fileName "EventTech_OnEnemyOccupationPlanetColonized.ogg"
+	name "EVENTNEWREP_ENEMYOCCUPATIONVICTORYSTARTED"
+	fileName "EVENTNEWREP_OnEnemyOccupationPlanetColonized.ogg"
 effect
-	name "EVENTTECH_ENEMYFLAGSHIPDESTROYED"
-	fileName "EventTech_OnEnemyFlagshipLost.ogg"
+	name "EVENTNEWREP_ENEMYFLAGSHIPDESTROYED"
+	fileName "EVENTNEWREP_OnEnemyFlagshipLost.ogg"
 effect
-	name "EVENTTECH_ENEMYDIPLOMATICVICTORYCOMPLETE"
-	fileName "EventTech_OnEnemyDiplomaticVictoryWin.ogg"
+	name "EVENTNEWREP_ENEMYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnEnemyDiplomaticVictoryWin.ogg"
 effect
-	name "EVENTTECH_ENEMYDIPLOMATICVICTORYHALFWAY"
-	fileName "EventTech_OnEnemyDiplomaticVictoryNear.ogg"
+	name "EVENTNEWREP_ENEMYDIPLOMATICVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnEnemyDiplomaticVictoryNear.ogg"
 effect
-	name "EVENTTECH_ENEMYCAPITALPLANETDESTROYED"
-	fileName "EventTech_OnEnemyCapitalPlanetLost.ogg"
+	name "EVENTNEWREP_ENEMYCAPITALPLANETDESTROYED"
+	fileName "EVENTNEWREP_OnEnemyCapitalPlanetLost.ogg"
 effect
-	name "EVENTTECH_DIPLOMATICVICTORYCOMPLETE"
-	fileName "EventTech_OnDiplomaticVictoryWin.ogg"
+	name "EVENTNEWREP_DIPLOMATICVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnDiplomaticVictoryWin.ogg"
 effect
-	name "EVENTTECH_DIPLOMATICVICTORYHALFWAY"
-	fileName "EventTech_OnDiplomaticVictoryNear.ogg"
+	name "EVENTNEWREP_DIPLOMATICVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnDiplomaticVictoryNear.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALPLANETDESTROYED"
-	fileName "EventTech_OnCapitalPlanetVictoryLost.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALPLANETDESTROYED"
+	fileName "EVENTNEWREP_OnCapitalPlanetVictoryLost.ogg"
 effect
-	name "EVENTTECH_ALLYCAPITALPLANETDESTROYED"
-	fileName "EventTech_OnAllyCapitalPlanetLost.ogg"
+	name "EVENTNEWREP_ALLYCAPITALPLANETDESTROYED"
+	fileName "EVENTNEWREP_OnAllyCapitalPlanetLost.ogg"
 effect
-	name "EVENTTECH_ENEMYCAPITALPLANETSEVERELYDAMAGED"
-	fileName "EventTech_OnEnemyCapitalPlanetLost.ogg"
+	name "EVENTNEWREP_ENEMYCAPITALPLANETSEVERELYDAMAGED"
+	fileName "EVENTNEWREP_OnEnemyCapitalPlanetLost.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALPLANETUNDERATTACK"
-	fileName "EventTech_OnCapitalPlanetUnderAttack.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALPLANETUNDERATTACK"
+	fileName "EVENTNEWREP_OnCapitalPlanetUnderAttack.ogg"
 effect
-	name "EVENTTECH_ALLYRESEARCHVICTORYCOMPLETE"
-	fileName "EventTech_OnAllyResearchVictoryWin.ogg"
+	name "EVENTNEWREP_ALLYRESEARCHVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnAllyResearchVictoryWin.ogg"
 effect
-	name "EVENTTECH_ALLYRESEARCHVICTORYHALFWAY"
-	fileName "EventTech_OnAllyResearchVictoryNear.ogg"
+	name "EVENTNEWREP_ALLYRESEARCHVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnAllyResearchVictoryNear.ogg"
 effect
-	name "EVENTTECH_ALLYRESEARCHVICTORYSTARTED"
-	fileName "EventTech_OnAllyResearchVictoryStart.ogg"
+	name "EVENTNEWREP_ALLYRESEARCHVICTORYSTARTED"
+	fileName "EVENTNEWREP_OnAllyResearchVictoryStart.ogg"
 effect
-	name "EVENTTECH_ALLYOCCUPATIONVICTORYCOMPLETE"
-	fileName "EventTech_OnAllyOccupationPlanetVictoryWin.ogg"
+	name "EVENTNEWREP_ALLYOCCUPATIONVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnAllyOccupationPlanetVictoryWin.ogg"
 effect
-	name "EVENTTECH_ALLYOCCUPATIONVICTORYHALFWAY"
-	fileName "EventTech_OnAllyOccupationPlanetVictoryNear.ogg"
+	name "EVENTNEWREP_ALLYOCCUPATIONVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnAllyOccupationPlanetVictoryNear.ogg"
 effect
-	name "EVENTTECH_ALLYOCCUPATIONPLANETUNDERATTACK"
-	fileName "EventTech_OnAllyOccupationPlanetUnderAttack.ogg"
+	name "EVENTNEWREP_ALLYOCCUPATIONPLANETUNDERATTACK"
+	fileName "EVENTNEWREP_OnAllyOccupationPlanetUnderAttack.ogg"
 effect
-	name "EVENTTECH_ALLYOCCUPATIONVICTORYSTARTED"
-	fileName "EventTech_OnAllyOccupationPlanetColonized.ogg"
+	name "EVENTNEWREP_ALLYOCCUPATIONVICTORYSTARTED"
+	fileName "EVENTNEWREP_OnAllyOccupationPlanetColonized.ogg"
 effect
-	name "EVENTTECH_ALLYFLAGSHIPDESTROYED"
-	fileName "EventTech_OnAllyFlagshipLostGeneral.ogg"
+	name "EVENTNEWREP_ALLYFLAGSHIPDESTROYED"
+	fileName "EVENTNEWREP_OnAllyFlagshipLostGeneral.ogg"
 effect
-	name "EVENTTECH_ALLYDIPLOMATICVICTORYCOMPLETE"
-	fileName "EventTech_OnAllyDiplomaticVictoryWin.ogg"
+	name "EVENTNEWREP_ALLYDIPLOMATICVICTORYCOMPLETE"
+	fileName "EVENTNEWREP_OnAllyDiplomaticVictoryWin.ogg"
 effect
-	name "EVENTTECH_ALLYDIPLOMATICVICTORYHALFWAY"
-	fileName "EventTech_OnAllyDiplomaticVictoryNear.ogg"
+	name "EVENTNEWREP_ALLYDIPLOMATICVICTORYHALFWAY"
+	fileName "EVENTNEWREP_OnAllyDiplomaticVictoryNear.ogg"
 effect
-	name "EVENTTECH_ALLYCAPITALPLANETUNDERATTACK"
-	fileName "EventTech_OnAllyCapitalPlanetUnderAttack.ogg"
+	name "EVENTNEWREP_ALLYCAPITALPLANETUNDERATTACK"
+	fileName "EVENTNEWREP_OnAllyCapitalPlanetUnderAttack.ogg"
 effect
-	name "EVENTTECH_ALLYCAPITALPLANETDESTROYED"
-	fileName "EventTech_OnAllyCapitalPlanetLost.ogg"
+	name "EVENTNEWREP_ALLYCAPITALPLANETDESTROYED"
+	fileName "EVENTNEWREP_OnAllyCapitalPlanetLost.ogg"
 effect
-	name "EVENTTECH_ALLIEDGAMEWIN"
-	fileName "EventTech_OnAlliedGameWin.ogg"
+	name "EVENTNEWREP_ALLIEDGAMEWIN"
+	fileName "EVENTNEWREP_OnAlliedGameWin.ogg"
 effect
 	name "COMMON_CANNONBUILT"
 	fileName "Common_CannonBuilt.ogg"
@@ -2023,173 +2023,173 @@ effect
 	name "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_2"
 	fileName "Squad_PhaseBomber_OnAttackOrderIssued_2.ogg"
 effect
-	name "EVENTTECH_ALLIANCECEASEFIREBROKEN"
-	fileName "EventTech_AllianceCeaseFireBroken.ogg"
+	name "EVENTNEWREP_ALLIANCECEASEFIREBROKEN"
+	fileName "EVENTNEWREP_AllianceCeaseFireBroken.ogg"
 effect
-	name "EVENTTECH_ALLIANCECEASEFIREFORMED"
-	fileName "EventTech_AllianceCeaseFireFormed.ogg"
+	name "EVENTNEWREP_ALLIANCECEASEFIREFORMED"
+	fileName "EVENTNEWREP_AllianceCeaseFireFormed.ogg"
 effect
-	name "EVENTTECH_ALLIANCECEASEFIREOFFERED"
-	fileName "EventTech_AllianceCeaseFireOffered.ogg"
+	name "EVENTNEWREP_ALLIANCECEASEFIREOFFERED"
+	fileName "EVENTNEWREP_AllianceCeaseFireOffered.ogg"
 effect
-	name "EVENTTECH_ALLIANCEOTHERBROKEN"
-	fileName "EventTech_AllianceOtherBroken.ogg"
+	name "EVENTNEWREP_ALLIANCEOTHERBROKEN"
+	fileName "EVENTNEWREP_AllianceOtherBroken.ogg"
 effect
-	name "EVENTTECH_ALLIANCEOTHERFORMED"
-	fileName "EventTech_AllianceOtherFormed.ogg"
+	name "EVENTNEWREP_ALLIANCEOTHERFORMED"
+	fileName "EVENTNEWREP_AllianceOtherFormed.ogg"
 effect
-	name "EVENTTECH_ALLIANCEOTHEROFFERED"
-	fileName "EventTech_AllianceOtherOffered.ogg"
+	name "EVENTNEWREP_ALLIANCEOTHEROFFERED"
+	fileName "EVENTNEWREP_AllianceOtherOffered.ogg"
 effect
-	name "EVENTTECH_ALLYBACKUPARRIVED"
-	fileName "EventTech_AllyBackUpArrived.ogg"
+	name "EVENTNEWREP_ALLYBACKUPARRIVED"
+	fileName "EVENTNEWREP_AllyBackUpArrived.ogg"
 effect
-	name "EVENTTECH_ALLYBACKUPENROUTE"
-	fileName "EventTech_AllyBackUpEnRoute.ogg"
+	name "EVENTNEWREP_ALLYBACKUPENROUTE"
+	fileName "EVENTNEWREP_AllyBackUpEnRoute.ogg"
 effect
-	name "EVENTTECH_ALLYCAPITALSHIPLOST"
-	fileName "EventTech_AllyCapitalShipLost.ogg"
+	name "EVENTNEWREP_ALLYCAPITALSHIPLOST"
+	fileName "EVENTNEWREP_AllyCapitalShipLost.ogg"
 effect
-	name "EVENTTECH_ALLYFLEETARRIVED"
-	fileName "EventTech_AllyFleetArrived.ogg"
+	name "EVENTNEWREP_ALLYFLEETARRIVED"
+	fileName "EVENTNEWREP_AllyFleetArrived.ogg"
 effect
-	name "EVENTTECH_ALLYPLANETLOST"
-	fileName "EventTech_AllyPlanetLost.ogg"
+	name "EVENTNEWREP_ALLYPLANETLOST"
+	fileName "EVENTNEWREP_AllyPlanetLost.ogg"
 effect
-	name "EVENTTECH_ALLYPLANETUNDERATTACK"
-	fileName "EventTech_AllyPlanetUnderAttack.ogg"
+	name "EVENTNEWREP_ALLYPLANETUNDERATTACK"
+	fileName "EVENTNEWREP_AllyPlanetUnderAttack.ogg"
 effect
-	name "EVENTTECH_ALLYUNITUNDERATTACK"
-	fileName "EventTech_AllyUnitUnderAttack.ogg"
+	name "EVENTNEWREP_ALLYUNITUNDERATTACK"
+	fileName "EVENTNEWREP_AllyUnitUnderAttack.ogg"
 effect
-	name "EVENTTECH_BOUNTYALLDEPLETED"
-	fileName "EventTech_BountyAllDepleted.ogg"
+	name "EVENTNEWREP_BOUNTYALLDEPLETED"
+	fileName "EVENTNEWREP_BountyAllDepleted.ogg"
 effect
-	name "EVENTTECH_BOUNTYINCREASEDOTHER"
-	fileName "EventTech_BountyIncreasedOther.ogg"
+	name "EVENTNEWREP_BOUNTYINCREASEDOTHER"
+	fileName "EVENTNEWREP_BountyIncreasedOther.ogg"
 effect
-	name "EVENTTECH_BOUNTYINCREASEDPLAYER"
-	fileName "EventTech_BountyIncreasedPlayer.ogg"
+	name "EVENTNEWREP_BOUNTYINCREASEDPLAYER"
+	fileName "EVENTNEWREP_BountyIncreasedPlayer.ogg"
 effect
-	name "EVENTTECH_BUYNOCREDITS"
-	fileName "EventTech_BuyNoCredits.ogg"
+	name "EVENTNEWREP_BUYNOCREDITS"
+	fileName "EVENTNEWREP_BuyNoCredits.ogg"
 effect
-	name "EVENTTECH_BUYNOMETAL"
-	fileName "EventTech_BuyNoMetal.ogg"
+	name "EVENTNEWREP_BUYNOMETAL"
+	fileName "EVENTNEWREP_BuyNoMetal.ogg"
 effect
-	name "EVENTTECH_BUYNOCRYSTAL"
-	fileName "EventTech_BuyNoCrystal.ogg"
+	name "EVENTNEWREP_BUYNOCRYSTAL"
+	fileName "EVENTNEWREP_BuyNoCrystal.ogg"
 effect
-	name "EVENTTECH_BUYNOFRIGATEFACTORY"
-	fileName "EventTech_BuyNoFrigateFactory.ogg"
+	name "EVENTNEWREP_BUYNOFRIGATEFACTORY"
+	fileName "EVENTNEWREP_BuyNoFrigateFactory.ogg"
 effect
-	name "EVENTTECH_BUYNOCAPITALSHIPFACTORY"
-	fileName "EventTech_BuyNoCapitalShipFactory.ogg"
+	name "EVENTNEWREP_BUYNOCAPITALSHIPFACTORY"
+	fileName "EVENTNEWREP_BuyNoCapitalShipFactory.ogg"
 effect
-	name "EVENTTECH_CANNONSHELLDETECTED"
-	fileName "EventTech_CannonShellDetected.ogg"
+	name "EVENTNEWREP_CANNONSHELLDETECTED"
+	fileName "EVENTNEWREP_CannonShellDetected.ogg"
 effect
-	name "EVENTTECH_PIRATEFLEETARRIVED"
-	fileName "EventTech_PirateFleetArrived.ogg"
+	name "EVENTNEWREP_PIRATEFLEETARRIVED"
+	fileName "EVENTNEWREP_PirateFleetArrived.ogg"
 effect
-	name "EVENTTECH_PIRATERAIDIMMINENT"
-	fileName "EventTech_PirateRaidImminent.ogg"
+	name "EVENTNEWREP_PIRATERAIDIMMINENT"
+	fileName "EVENTNEWREP_PirateRaidImminent.ogg"
 effect
-	name "EVENTTECH_PIRATERAIDLAUNCHED"
-	fileName "EventTech_PirateRaidLaunched.ogg"
+	name "EVENTNEWREP_PIRATERAIDLAUNCHED"
+	fileName "EVENTNEWREP_PirateRaidLaunched.ogg"
 effect
-	name "EVENTTECH_HOSTILEFLEETARRIVED"
-	fileName "EventTech_HostileFleetArrived.ogg"
+	name "EVENTNEWREP_HOSTILEFLEETARRIVED"
+	fileName "EVENTNEWREP_HostileFleetArrived.ogg"
 effect
-	name "EVENTTECH_HOSTILEFLEETENROUTE"
-	fileName "EventTech_HostileFleetEnRoute.ogg"
+	name "EVENTNEWREP_HOSTILEFLEETENROUTE"
+	fileName "EVENTNEWREP_HostileFleetEnRoute.ogg"
 effect
-	name "EVENTTECH_HOSTILEPLANETDESTROYED"
-	fileName "EventTech_HostilePlanetDestroyed.ogg"
+	name "EVENTNEWREP_HOSTILEPLANETDESTROYED"
+	fileName "EVENTNEWREP_HostilePlanetDestroyed.ogg"
 effect
-	name "EVENTTECH_MODULECOMPLETE"
-	fileName "EventTech_ModuleComplete.ogg"
+	name "EVENTNEWREP_MODULECOMPLETE"
+	fileName "EVENTNEWREP_ModuleComplete.ogg"
 effect
-	name "EVENTTECH_PLANETUPGRADECOMPLETE"
-	fileName "EventTech_PlanetUpgradeComplete.ogg"
+	name "EVENTNEWREP_PLANETUPGRADECOMPLETE"
+	fileName "EVENTNEWREP_PlanetUpgradeComplete.ogg"
 effect
-	name "EVENTTECH_ARTIFACTDISCOVERED"
-	fileName "EventTech_ArtifactDiscovered.ogg"
+	name "EVENTNEWREP_ARTIFACTDISCOVERED"
+	fileName "EVENTNEWREP_ArtifactDiscovered.ogg"
 effect
-	name "EVENTTECH_PLAYERPLANETCOLONIZED"
-	fileName "EventTech_PlayerPlanetColonized.ogg"
+	name "EVENTNEWREP_PLAYERPLANETCOLONIZED"
+	fileName "EVENTNEWREP_PlayerPlanetColonized.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALPLANETCHANGED"
-	fileName "EventTech_PlayerCapitalPlanetChanged.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALPLANETCHANGED"
+	fileName "EVENTNEWREP_PlayerCapitalPlanetChanged.ogg"
 effect
-	name "EVENTTECH_NEWPLANETDISCOVERED"
-	fileName "EventTech_NewPlanetDiscovered.ogg"
+	name "EVENTNEWREP_NEWPLANETDISCOVERED"
+	fileName "EVENTNEWREP_NewPlanetDiscovered.ogg"
 effect
-	name "EVENTTECH_BONUSDISCOVERED"
-	fileName "EventTech_BonusDiscovered.ogg"
+	name "EVENTNEWREP_BONUSDISCOVERED"
+	fileName "EVENTNEWREP_BonusDiscovered.ogg"
 effect
-	name "EVENTTECH_NOTHINGDISCOVERED"
-	fileName "EventTech_NothingDiscovered.ogg"
+	name "EVENTNEWREP_NOTHINGDISCOVERED"
+	fileName "EVENTNEWREP_NothingDiscovered.ogg"
 effect
-	name "EVENTTECH_PLAYERBACKUPARRIVED"
-	fileName "EventTech_PlayerBackUpArrived.ogg"
+	name "EVENTNEWREP_PLAYERBACKUPARRIVED"
+	fileName "EVENTNEWREP_PlayerBackUpArrived.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALSHIPLOST"
-	fileName "EventTech_PlayerCapitalShipLost.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALSHIPLOST"
+	fileName "EVENTNEWREP_PlayerCapitalShipLost.ogg"
 effect
-	name "EVENTTECH_PLAYERFLEETARRIVED"
-	fileName "EventTech_PlayerFleetArrived.ogg"
+	name "EVENTNEWREP_PLAYERFLEETARRIVED"
+	fileName "EVENTNEWREP_PlayerFleetArrived.ogg"
 effect
-	name "EVENTTECH_PLAYERPLANETLOST"
-	fileName "EventTech_PlayerPlanetLost.ogg"
+	name "EVENTNEWREP_PLAYERPLANETLOST"
+	fileName "EVENTNEWREP_PlayerPlanetLost.ogg"
 effect
-	name "EVENTTECH_PLAYERPLANETSOONLOSTTOCULTURE"
-	fileName "EventTech_PlayerPlanetSoonLostToCulture.ogg"
+	name "EVENTNEWREP_PLAYERPLANETSOONLOSTTOCULTURE"
+	fileName "EVENTNEWREP_PlayerPlanetSoonLostToCulture.ogg"
 effect
-	name "EVENTTECH_PLAYERPLANETUNDERATTACK"
-	fileName "EventTech_PlayerPlanetUnderAttack.ogg"
+	name "EVENTNEWREP_PLAYERPLANETUNDERATTACK"
+	fileName "EVENTNEWREP_PlayerPlanetUnderAttack.ogg"
 effect
-	name "EVENTTECH_PLAYERUNITUNDERATTACK"
-	fileName "EventTech_PlayerUnitUnderAttack.ogg"
+	name "EVENTNEWREP_PLAYERUNITUNDERATTACK"
+	fileName "EVENTNEWREP_PlayerUnitUnderAttack.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALSHIPSHIELDSDOWN"
-	fileName "EventTech_PlayerCapitalShipShieldsDown.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALSHIPSHIELDSDOWN"
+	fileName "EVENTNEWREP_PlayerCapitalShipShieldsDown.ogg"
 effect
-	name "EVENTTECH_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
-	fileName "EventTech_PlayerCapitalShipHullSeverelyDamaged.ogg"
+	name "EVENTNEWREP_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
+	fileName "EVENTNEWREP_PlayerCapitalShipHullSeverelyDamaged.ogg"
 effect
-	name "EVENTTECH_QUESTADDED"
-	fileName "EventTech_QuestAdded.ogg"
+	name "EVENTNEWREP_QUESTADDED"
+	fileName "EVENTNEWREP_QuestAdded.ogg"
 effect
-	name "EVENTTECH_QUESTCOMPLETED"
-	fileName "EventTech_QuestCompleted.ogg"
+	name "EVENTNEWREP_QUESTCOMPLETED"
+	fileName "EVENTNEWREP_QuestCompleted.ogg"
 effect
-	name "EVENTTECH_QUESTFAILED"
-	fileName "EventTech_QuestFailed.ogg"
+	name "EVENTNEWREP_QUESTFAILED"
+	fileName "EVENTNEWREP_QuestFailed.ogg"
 effect
-	name "EVENTTECH_RESEARCHCOMPLETE"
-	fileName "EventTech_ResearchComplete.ogg"
+	name "EVENTNEWREP_RESEARCHCOMPLETE"
+	fileName "EVENTNEWREP_ResearchComplete.ogg"
 effect
-	name "EVENTTECH_RESEARCHNEEDMORELABMODULES"
-	fileName "EventTech_ResearchNeedMoreLabModules.ogg"
+	name "EVENTNEWREP_RESEARCHNEEDMORELABMODULES"
+	fileName "EVENTNEWREP_ResearchNeedMoreLabModules.ogg"
 effect
-	name "EVENTTECH_RESEARCHNEEDPREREQUISITE"
-	fileName "EventTech_ResearchNeedPrerequisite.ogg"
+	name "EVENTNEWREP_RESEARCHNEEDPREREQUISITE"
+	fileName "EVENTNEWREP_ResearchNeedPrerequisite.ogg"
 effect
-	name "EVENTTECH_INVALIDMODULEPLACEMENTPOSITION"
-	fileName "EventTech_InvalidModulePlacementPosition.ogg"
+	name "EVENTNEWREP_INVALIDMODULEPLACEMENTPOSITION"
+	fileName "EVENTNEWREP_InvalidModulePlacementPosition.ogg"
 effect
-	name "EVENTTECH_USEABILITYNOANTIMATTER"
-	fileName "EventTech_UseAbilityNoAntimatter.ogg"
+	name "EVENTNEWREP_USEABILITYNOANTIMATTER"
+	fileName "EVENTNEWREP_UseAbilityNoAntimatter.ogg"
 effect
-	name "EVENTTECH_MOREMODULESLOTSNEEDED"
-	fileName "EventTech_MoreModuleSlotsNeeded.ogg"
+	name "EVENTNEWREP_MOREMODULESLOTSNEEDED"
+	fileName "EVENTNEWREP_MoreModuleSlotsNeeded.ogg"
 effect
-	name "EVENTTECH_ALLYREQUESTATTACK"
-	fileName "EventTech_AllyRequestAttack.ogg"
+	name "EVENTNEWREP_ALLYREQUESTATTACK"
+	fileName "EVENTNEWREP_AllyRequestAttack.ogg"
 effect
-	name "EVENTTECH_ALLYREQUESTDEFEND"
-	fileName "EventTech_AllyRequestDefend.ogg"
+	name "EVENTNEWREP_ALLYREQUESTDEFEND"
+	fileName "EVENTNEWREP_AllyRequestDefend.ogg"
 effect
 	name "EVENTREMNANT_ALLIANCECEASEFIREBROKEN"
 	fileName "EventRemnant_AllianceCeaseFireBroken.ogg"
@@ -2962,59 +2962,59 @@ effect
 	name "CORVETTE_TECHLOYALIST_ONSELECTED_2"
 	fileName "Corvette_TechLoyalist_OnSelected_2.ogg"
 effect
-	name "EVENTTECH_LOYALIST_ALLYCAPITALSHIPLOST_0"
-	fileName "EventTech_Loyalist_AllyCapitalShipLost_0.ogg"
+	name "EVENTNEWREP_LOYALIST_ALLYCAPITALSHIPLOST_0"
+	fileName "EVENTNEWREP_Loyalist_AllyCapitalShipLost_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_ALLYONTITANCREATION_0"
-	fileName "EventTech_Loyalist_AllyOnTitanCreation_0.ogg"
+	name "EVENTNEWREP_LOYALIST_ALLYONTITANCREATION_0"
+	fileName "EVENTNEWREP_Loyalist_AllyOnTitanCreation_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_ALLYTITANLOST_0"
-	fileName "EventTech_Loyalist_AllyTitanLost_0.ogg"
+	name "EVENTNEWREP_LOYALIST_ALLYTITANLOST_0"
+	fileName "EVENTNEWREP_Loyalist_AllyTitanLost_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_ENEMYONTITANCREATION_0"
-	fileName "EventTech_Loyalist_EnemyOnTitanCreation_0.ogg"
+	name "EVENTNEWREP_LOYALIST_ENEMYONTITANCREATION_0"
+	fileName "EVENTNEWREP_Loyalist_EnemyOnTitanCreation_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_ENEMYTITANCONSTRUCTIONDETECTED_0"
-	fileName "EventTech_Loyalist_EnemyTitanConstructionDetected_0.ogg"
+	name "EVENTNEWREP_LOYALIST_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EVENTNEWREP_Loyalist_EnemyTitanConstructionDetected_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_PLAYERCAPITALSHIPLOST_0"
-	fileName "EventTech_Loyalist_PlayerCapitalShipLost_0.ogg"
+	name "EVENTNEWREP_LOYALIST_PLAYERCAPITALSHIPLOST_0"
+	fileName "EVENTNEWREP_Loyalist_PlayerCapitalShipLost_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_PLAYERTITANLOST_0"
-	fileName "EventTech_Loyalist_PlayerTitanLost_0.ogg"
+	name "EVENTNEWREP_LOYALIST_PLAYERTITANLOST_0"
+	fileName "EVENTNEWREP_Loyalist_PlayerTitanLost_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
-	fileName "EventTech_Loyalist_PlayerTitanShieldsDown_0.ogg"
+	name "EVENTNEWREP_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EVENTNEWREP_Loyalist_PlayerTitanShieldsDown_0.ogg"
 effect
-	name "EVENTTECH_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
-	fileName "EventTech_Loyalist_TitanHullServerDamaged_0.ogg"
+	name "EVENTNEWREP_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
+	fileName "EVENTNEWREP_Loyalist_TitanHullServerDamaged_0.ogg"
 effect
-	name "EVENTTECH_REBEL_ALLYCAPITALSHIPLOST_0"
-	fileName "EventTech_Rebel_AllyCapitalShipLost_0.ogg"
+	name "EVENTNEWREP_REBEL_ALLYCAPITALSHIPLOST_0"
+	fileName "EVENTNEWREP_Rebel_AllyCapitalShipLost_0.ogg"
 effect
-	name "EVENTTECH_REBEL_ALLYONTITANCREATION_0"
-	fileName "EventTech_Rebel_AllyOnTitanCreation_0.ogg"
+	name "EVENTNEWREP_REBEL_ALLYONTITANCREATION_0"
+	fileName "EVENTNEWREP_Rebel_AllyOnTitanCreation_0.ogg"
 effect
-	name "EVENTTECH_REBEL_ALLYTITANLOST_0"
-	fileName "EventTech_Rebel_AllyTitanLost_0.ogg"
+	name "EVENTNEWREP_REBEL_ALLYTITANLOST_0"
+	fileName "EVENTNEWREP_Rebel_AllyTitanLost_0.ogg"
 effect
-	name "EVENTTECH_REBEL_ENEMYONTITANCREATION_0"
-	fileName "EventTech_Rebel_EnemyOnTitanCreation_0.ogg"
+	name "EVENTNEWREP_REBEL_ENEMYONTITANCREATION_0"
+	fileName "EVENTNEWREP_Rebel_EnemyOnTitanCreation_0.ogg"
 effect
-	name "EVENTTECH_REBEL_ENEMYTITANCONSTRUCTIONDETECTED_0"
-	fileName "EventTech_Rebel_EnemyTitanConstructionDetected_0.ogg"
+	name "EVENTNEWREP_REBEL_ENEMYTITANCONSTRUCTIONDETECTED_0"
+	fileName "EVENTNEWREP_Rebel_EnemyTitanConstructionDetected_0.ogg"
 effect
-	name "EVENTTECH_REBEL_PLAYERCAPITALSHIPLOST_0"
-	fileName "EventTech_Rebel_PlayerCapitalShipLost_0.ogg"
+	name "EVENTNEWREP_REBEL_PLAYERCAPITALSHIPLOST_0"
+	fileName "EVENTNEWREP_Rebel_PlayerCapitalShipLost_0.ogg"
 effect
-	name "EVENTTECH_REBEL_PLAYERTITANLOST_0"
-	fileName "EventTech_Rebel_PlayerTitanLost_0.ogg"
+	name "EVENTNEWREP_REBEL_PLAYERTITANLOST_0"
+	fileName "EVENTNEWREP_Rebel_PlayerTitanLost_0.ogg"
 effect
-	name "EVENTTECH_REBEL_PLAYERTITANSHIELDSDOWN_0"
-	fileName "EventTech_Rebel_PlayerTitanShieldsDown_0.ogg"
+	name "EVENTNEWREP_REBEL_PLAYERTITANSHIELDSDOWN_0"
+	fileName "EVENTNEWREP_Rebel_PlayerTitanShieldsDown_0.ogg"
 effect
-	name "EVENTTECH_REBEL_TITANHULLSERVERDAMAGED_0"
-	fileName "EventTech_Rebel_TitanHullServerDamaged_0.ogg"
+	name "EVENTNEWREP_REBEL_TITANHULLSERVERDAMAGED_0"
+	fileName "EVENTNEWREP_Rebel_TitanHullServerDamaged_0.ogg"
 effect
 	name "PIRATE_ONATTACKORDERISSUED_0"
 	fileName "Pirate_OnAttackOrderIssued_0.ogg"
