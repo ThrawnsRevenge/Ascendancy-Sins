@@ -94,7 +94,7 @@ armorType "CapitalShip"
 hudIcon "HUDICON_NEBULA"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHBATTLESHIP"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHBATTLESHIP"
-minZoomDistanceMult 1.750000
+minZoomDistanceMult 1.150000
 NumWeapons 4
 Weapon
 	WeaponType "Projectile"

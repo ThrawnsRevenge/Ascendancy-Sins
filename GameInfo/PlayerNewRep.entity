@@ -51,9 +51,10 @@ entities
 			entityDefName "NewRep_Gallofree"
 			entityDefName "NewRep_Hajen"
 		Page:1
-			count 2
+			count 3
 			entityDefName "NewRep_AssaultFrigate"
 			entityDefName "NewRep_BAC"
+			entityDefName "NewRep_MC30c"
 		NotOnPage
 			count 4
 			entityDefName "FrigateTechModuleConstructor"
@@ -61,7 +62,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 85
+		count 86
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -80,6 +81,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_AssaultFrigate"
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
+		entityDefName "NewRepResearch_ShipUnlock_Kwing"
 		entityDefName "NewRepResearch_ShipUnlock_Hajen"
 		entityDefName "NewRepResearch_ShipUnlock_Viscount"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"

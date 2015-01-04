@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2183
+entityNameCount 2185
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -146,6 +146,7 @@ entityName "NewRep_Quasar.entity"
 entityName "NewRep_BAC.entity"
 entityName "NewRep_Ferret.entity"
 entityName "NewRep_Hajen.entity"
+entityName "NewRep_MC30c.entity"
 entityName "NewRep_GolanI.entity"
 entityName "NewRep_GolanII.entity"
 entityName "NewRep_GolanIII.entity"
@@ -206,6 +207,7 @@ entityName "NewRepResearch_ShipUnlock_MC90.entity"
 entityName "NewRepResearch_ShipUnlock_MC80b.entity"
 entityName "NewRepResearch_ShipUnlock_Awing.entity"
 entityName "NewRepResearch_ShipUnlock_Bwing.entity"
+entityName "NewRepResearch_ShipUnlock_Kwing.entity"
 entityName "NewRepResearch_ShipUnlock_Nebula.entity"
 entityName "NewRepResearch_ShipUnlock_MC90_Command.entity"
 entityName "NewRepResearch_ShipUnlock_Nebula_Command.entity"

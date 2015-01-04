@@ -24,7 +24,7 @@ descriptionStringID "IDS_FIGHTERKWING_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_Bwing"
+		Subject "NewRepResearch_ShipUnlock_Kwing"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -11239,6 +11239,12 @@ StringInfo
 	ID "IDS_FRIGATE_ASSAULTFRIGATE_DESCRIPTION"
 	Value "A modified Dreadnaught Cruiser, giving it stronger shields and more manoeuvrability."
 StringInfo
+	ID "IDS_FRIGATE_MC30C_NAME"
+	Value "MC30c"
+StringInfo
+	ID "IDS_FRIGATE_ASSAULTFRIGATE_DESCRIPTION"
+	Value "A small Mon Calamari design which excels at seiging enemy structures."
+StringInfo
 	ID "IDS_FRIGATE_GALLOFREE_NAME"
 	Value "Gallofree Transport"
 StringInfo
