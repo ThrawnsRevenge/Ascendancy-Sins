@@ -1,5 +1,11 @@
 TXT
-NumStrings 7451
+NumStrings 7453
+StringInfo
+	ID "IDS_FRIGATE_CR90ENVOY_NAME"
+	Value "CR90 Envoy"
+StringInfo
+	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
+	Value "A CR90 model refitted for diplomatic missions"
 StringInfo
 	ID "IDS_FRIGATE_FERRET_NAME"
 	Value "Ferret"

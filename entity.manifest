@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2186
+entityNameCount 2187
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -145,6 +145,7 @@ entityName "NewRep_CR90.entity"
 entityName "NewRep_Quasar.entity"
 entityName "NewRep_BAC.entity"
 entityName "NewRep_Ferret.entity"
+entityName "NewRep_CR90Envoy.entity"
 entityName "NewRep_Hajen.entity"
 entityName "NewRep_MC30c.entity"
 entityName "NewRep_GolanI.entity"

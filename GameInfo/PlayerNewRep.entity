@@ -42,7 +42,7 @@ entities
 			entityDefName "NewRep_Command_Nebula"
 	frigateInfo
 		Page:0
-			count 7
+			count 8
 			entityDefName "NewRep_Ferret"
 			entityDefName "NewRep_MC40"
 			entityDefName "NewRep_CR90"
@@ -50,6 +50,7 @@ entities
 			entityDefName "NewRep_Quasar"
 			entityDefName "NewRep_Gallofree"
 			entityDefName "NewRep_Hajen"
+			entityDefName "NewRep_CR90Envoy"
 		Page:1
 			count 3
 			entityDefName "NewRep_AssaultFrigate"
