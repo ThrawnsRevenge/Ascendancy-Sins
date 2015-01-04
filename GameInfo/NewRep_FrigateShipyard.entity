@@ -13,8 +13,8 @@ numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_FRIGATESHIPYARD"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
-infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
+smallHudIcon "HUDICON_FRIGATESHIPYARD"
+infoCardIcon "HUDICON_FRIGATESHIPYARD"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -63,8 +63,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
-picture "PLANETMODULEPICTURE_TECHORBITALFRIGATEFACTORY"
+mainViewIcon "HUDICON_FRIGATESHIPYARD"
+picture "HUDICON_FRIGATESHIPYARD"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3

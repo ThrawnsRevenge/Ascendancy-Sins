@@ -16,7 +16,7 @@ baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "HUDICONSMALL_FIGHTER_AWING"
-picture "HUDICONSMALL_FIGHTER_AWING"
+picture "HUDICON_AWING"
 launchIcon "HUDICONLAUNCH_AWING"
 dockIcon "HUDICONDOCK_AWING"
 nameStringID "IDS_FIGHTERAWING_NAME"

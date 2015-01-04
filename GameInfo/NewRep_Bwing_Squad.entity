@@ -16,7 +16,7 @@ baseMaxNumFighters 5
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "HUDICONSMALL_FIGHTER_BWING"
-picture "HUDICONSMALL_FIGHTER_BWING"
+picture "HUDICON_BWING"
 launchIcon "HUDICONLAUNCH_SQUADTECHBOMBER"
 dockIcon "HUDICONDOCK_SQUADTECHBOMBER"
 nameStringID "IDS_FIGHTERBWING_NAME"

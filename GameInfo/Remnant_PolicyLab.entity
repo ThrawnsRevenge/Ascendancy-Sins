@@ -13,8 +13,8 @@ numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_POLICYLAB"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
-infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
+smallHudIcon "HUDICON_POLICYLAB"
+infoCardIcon "HUDICON_POLICYLAB"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 6.000000
 basePrice
@@ -63,8 +63,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
-picture "PLANETMODULEPICTURE_TECHORBITALNONCOMBATLABORATORY"
+mainViewIcon "HUDICON_POLICYLAB"
+picture "HUDICON_POLICYLAB"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3

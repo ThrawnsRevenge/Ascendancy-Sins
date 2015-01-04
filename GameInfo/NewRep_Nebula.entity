@@ -92,8 +92,8 @@ numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_NEBULA"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHBATTLESHIP"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHBATTLESHIP"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_NEBULA"
+infoCardIcon "HUDICONSMALL_CAPITALSHIP_NEBULA"
 minZoomDistanceMult 1.150000
 NumWeapons 4
 Weapon

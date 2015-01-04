@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_SQUADYWING"
+hudIcon "HUDICON_YWING"
 smallHudIcon "HUDICONSMALL_FIGHTER_YWING"
 infoCardIcon "HUDICONSMALL_FIGHTER_YWING"
 fighterEntityDef "NewRep_Ywing"
@@ -16,7 +16,7 @@ baseMaxNumFighters 2
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "HUDICONSMALL_FIGHTER_YWING"
-picture "HUDICONSMALL_FIGHTER_YWING"
+picture "HUDICON_YWING"
 launchIcon "HUDICONLAUNCH_YWING"
 dockIcon "HUDICONDOCK_YWING"
 nameStringID "IDS_FIGHTERYWING_NAME"

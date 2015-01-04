@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_NEBULA_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_NEBULA_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_TECHBATTLESHIP"
+picture "HUDICON_NEBULA"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

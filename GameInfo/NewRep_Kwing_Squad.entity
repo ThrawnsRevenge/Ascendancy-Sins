@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_BWING"
+hudIcon "HUDICON_KWING"
 smallHudIcon "HUDICONSMALL_FIGHTER_KWING"
 infoCardIcon "HUDICONSMALL_FIGHTER_KWING"
 fighterEntityDef "NewRep_Kwing"
@@ -16,7 +16,7 @@ baseMaxNumFighters 5
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "HUDICONSMALL_FIGHTER_KWING"
-picture "HUDICONSMALL_FIGHTER_KWING"
+picture "HUDICON_KWING"
 launchIcon "HUDICONLAUNCH_SQUADTECHBOMBER"
 dockIcon "HUDICONDOCK_SQUADTECHBOMBER"
 nameStringID "IDS_FIGHTERKWING_NAME"

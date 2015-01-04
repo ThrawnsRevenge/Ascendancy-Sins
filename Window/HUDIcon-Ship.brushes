@@ -1,6 +1,146 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 283
+brushCount 298
+brush
+	name "HUDICONSMALL_MC30C"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 180 , 90 , 30 , 30 ]
+brush
+	name "HUDICON_FRIGATE_MC30C"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 937 , 122 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 122 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 122 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 122 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 122 , 52 , 37 ]
+brush
+	name "HUDICON_TITAN_HOMEONE"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 882 , 122 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 122 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 122 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 122 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 122 , 52 , 37 ]
+brush
+	name "HUDICONSMALL_CR90ENVOY"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 270 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_ESCAPEPOD"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 240 , 30 , 30 , 30 ]
+brush
+	name "HUDICON_CAPITALSHIPYARD"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 772 , 42 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 42 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 42 , 52 , 37 ]
+brush
+	name "HUDICONSMALL_CAPITAL_FCISD"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 0 , 120 , 40 , 40 ]
+brush
+	name "HUDICONSMALL_CAPITAL_FCHOMEONE"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 80 , 40 , 40 , 40 ]
+brush
+	name "HUDICONSMALL_CAPITAL_FCMC90"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 40 , 40 , 40 , 40 ]
+brush
+	name "HUDICONSMALL_CAPITAL_FCNEBULA"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 0 , 40 , 40 , 40 ]
+brush
+	name "HUDICONSMALL_TITAN_HOMEONE"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 120 , 40 , 40 , 40 ]
+brush
+	name "HUDICONSMALL_TITAN_EXECUTOR"
+	content "Simple"
+	fileName "CapitalShip_Pip"
+	pixelBox [ 160 , 40 , 40 , 40 ]
+brush
+	name "HUDICON_KWING"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 552 , 2 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 2 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 2 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 2 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 2 , 52 , 37 ]
+brush
+	name "HUDICON_SPACETUG"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 607 , 2 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 2 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 2 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 2 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 2 , 52 , 37 ]
+brush
+	name "HUDICONSMALL_SPACETUG"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 270 , 30 , 30 , 30 ]
 brush
 	name "HUDICONSMALL_FIGHTER_EWING"
 	content "Simple"

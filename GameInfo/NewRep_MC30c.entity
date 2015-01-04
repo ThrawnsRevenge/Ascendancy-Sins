@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_MC30C"
-picture "HUDICON_MC30C"
+mainViewIcon "HUDICONSMALL_MC30C"
+picture "HUDICON_FRIGATE_MC30C"
 NameStringID "IDS_FRIGATE_MC30C_NAME"
 DescriptionStringID "IDS_FRIGATE_MC30C_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFRIGATE"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_MC30C"
-smallHudIcon "HUDICONSMALL_FRIGATE_MC30C"
-infoCardIcon "HUDICONSMALL_FRIGATE_MC30C"
+hudIcon "HUDICON_FRIGATE_MC30C"
+smallHudIcon "HUDICONSMALL_MC30C"
+infoCardIcon "HUDICONSMALL_MC30C"
 minZoomDistanceMult 2.500000
 NumWeapons 3
 Weapon

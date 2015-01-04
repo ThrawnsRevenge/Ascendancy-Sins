@@ -13,8 +13,8 @@ numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_COMMSTATION"
-smallHudIcon "HUDICONSMALL_COMMSTATION"
-infoCardIcon "INFOCARDICON_COMMSTATION"
+smallHudIcon "HUDICON_COMMSTATION"
+infoCardIcon "HUDICON_COMMSTATION"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -66,8 +66,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALCULTURECENTER"
-picture "PLANETMODULEPICTURE_TECHORBITALCULTURECENTER"
+mainViewIcon "HUDICON_COMMSTATION"
+picture "HUDICON_COMMSTATION"
 minShadow 0.000000
 maxShadow 0.400000
 formationRank 3

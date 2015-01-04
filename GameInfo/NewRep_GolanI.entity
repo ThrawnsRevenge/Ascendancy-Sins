@@ -13,8 +13,8 @@ numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_GOLANI"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_GOLANI"
-infoCardIcon "INFOCARDICON_PLANETMODULE_GOLANI"
+smallHudIcon "HUDICON_GOLANI"
+infoCardIcon "HUDICON_GOLANI"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
@@ -63,8 +63,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
-picture "PLANETMODULEPICTURE_GOLANI"
+mainViewIcon "HUDICON_GOLANI"
+picture "HUDICON_GOLANI"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3

@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Envoy"
 statCountType "FrigateEnvoy"
-mainViewIcon "HUDICONSMALL_FRIGATE_CR90ENVOY"
-picture "PICTURE_FRIGATE_CR90ENVOY"
+mainViewIcon "HUDICONSMALL_CR90ENVOY"
+picture "HUDICON_CR90"
 NameStringID "IDS_FRIGATE_CR90ENVOY_NAME"
 DescriptionStringID "IDS_FRIGATE_CR90_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_CR90ENVOY"
-smallHudIcon "HUDICONSMALL_FRIGATE_CR90ENVOY"
-infoCardIcon "INFOCARDICON_FRIGATE_CR90ENVOY"
+hudIcon "HUDICON_CR90"
+smallHudIcon "HUDICONSMALL_CR90ENVOY"
+infoCardIcon "HUDICONSMALL_CR90ENVOY"
 minZoomDistanceMult 4.000000
 NumWeapons 0
 m_weaponIndexForRange 0
