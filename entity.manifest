@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2189
+entityNameCount 2193
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -415,6 +415,10 @@ entityName "AbilityBoardingParty.entity"
 entityName "AbilityDetonateFuelCells.entity"
 entityName "AbilityEscapePodBoard.entity"
 entityName "AbilityClusterBombs.entity"
+entityName "AbilityCoordinate.entity"
+entityName "BuffCoordinateSelf.entity"
+entityName "BuffCoordinateParent.entity"
+entityName "BuffCoordinateChild.entity"
 entityName "BuffClusterBombs.entity"
 entityName "BuffEscapeSelf.entity"
 entityName "BuffEscapeTarget.entity"
