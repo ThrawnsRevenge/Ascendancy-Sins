@@ -6,7 +6,7 @@ size [ 1024 , 768 ]
 contentRefArea [ 0 , 0 , 1024 , 768 ]
 titleRefArea [90, 40, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
-numFactionWindows 3
+numFactionWindows 2
 	factionSelectWindowDef
 		backdropBrush "FactionSelectNewRepublic"
 		backdropArea [40,30,946,717]
@@ -178,101 +178,6 @@ numFactionWindows 3
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
-			buttonTextArea [162,-20,50,100]
-		selectRandomButton
-			area [217, 690, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
-			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
-		previousRaceButton
-			area [135, 355, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
-			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
-		nextRaceButton
-			area [305, 355, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
-			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
-	factionSelectWindowDef
-		backdropBrush "FactionSelectEotH"
-		backdropArea [40,30,946,717]
-		smallFactionPortraitOverlay "Null"
-		smallFactionPortraitOffset [-5000,-5000]
-		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
-		previousFactionPortraitArea [-5000, -5000, 65, 40]
-		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
-		nextFactionPortraitArea [-5000, -5000, 65, 40]
-		leftPlayer "PlayerEotH"
-		rightPlayer "PlayerEotH"
-		raceNameFont "GameOverTitle"
-		raceNameID "IDS_EMPTY"
-		raceNameArea [550,75,0,0]
-		raceDescriptionFont "ListItemSmall"
-		raceDescriptionID "IDS_EMPTY"
-		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [755,370,0,0]
-		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
-		playerDescriptionFont "ButtonLabel"
-		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
-		leftPlayerDescriptionArea [555,-150,400,500]
-		rightPlayerDescriptionID "IDS_EMPTY"
-		rightPlayerDescriptionArea [560,140,400,500]
-		portraitOverlayBrush "Null"
-		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
-		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
-		frameOffset [0,-26]
-		backdropOffset [0,168]
-		leftPlayerPortraitBrush "Null"
-		leftPlayerPortraitArea [-5000,-5000,195,219]
-		rightPlayerPortraitBrush "Null"
-		rightPlayerPortraitArea [-5000, -5000,0,0]
-		techButtonDef
-			backdrop "ResearchWindowButtonBackdrop"
-			overlay ""
-		sharedTechsStartPosition [-5000, -5000]
-		spaceBetweenSharedTechs 6
-			sharedTechOne "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-			sharedTechTwo "RESEARCHSUBJECT_REBELLION"
-			sharedTechThree "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
-			sharedTechFour "RESEARCHSUBJECT_CREDITSFROMPURCHASES"
-		sharedCapitalShipsStartPosition [560, 440]
-		spaceBetweenSharedCapitalShips 2
-			sharedCapitalShipOne "EotH_Ascendancy"
-			sharedCapitalShipTwo "EotH_Phalanx"
-			sharedCapitalShipThree "EotH_Syndic"
-			sharedCapitalShipFour "NewRep_Endurance"
-			sharedCapitalShipFive "NewRep_MC80B"
-			sharedCapitalShipSix "NewRep_Command_Nebula"
-		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [-5000, -5000]
-			leftFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			leftFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			leftFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			leftFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			leftFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		rightFactionTechsStartPosition [ -5000, -5000]
-			rightFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			rightFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			rightFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			rightFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		selectLeftButton
-			area [650, 690, 216 , 35]
-			underlayBrush "ScreenButtonUnderlayLargeShort"
-			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
-			buttonTextArea [ 0 , 0 ,216 , 35 ]
-		selectRightButton
-			area [-5000 , -5000 , 230 , 105]
-			underlayBrush "Null"
-			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
 			area [217, 690, 132 , 35]
