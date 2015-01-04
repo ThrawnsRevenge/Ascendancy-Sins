@@ -1,5 +1,5 @@
 TXT
-NumStrings 7453
+NumStrings 7455
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -348,6 +348,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_REMCOMDEFENSE_DESCRIPTION"
 	Value "This unit gives a bonus to the damage put out by defensive structures within range. This buff does not stack with another Commanders' ability."
+StringInfo
+	ID "IDS_ABILITY_CLUSTERBOMBS_NAME"
+	Value "Cluster Bombs"
+StringInfo
+	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
+	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
 StringInfo
 	ID "IDS_ABILITY_MIGRATIONSAP_NAME"
 	Value "Migration: Load"

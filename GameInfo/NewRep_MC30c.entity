@@ -188,7 +188,7 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 1
+maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_0"
 SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_1"
@@ -216,12 +216,12 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 ""
+ability:0 "AbilityClusterBombs"
 ability:1 ""
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityBombardEmpire"
 ability:4 "AbilityPassiveLowLifePods"
-MaxAntiMatter 24.000000
+MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
