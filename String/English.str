@@ -1,11 +1,17 @@
 TXT
-NumStrings 7447
+NumStrings 7451
 StringInfo
 	ID "IDS_FRIGATE_FERRET_NAME"
 	Value "Ferret"
 StringInfo
 	ID "IDS_FRIGATE_FERRET_DESCRIPTION"
 	Value "A scout ship used to explore and gather intelligence"
+StringInfo
+	ID "IDS_FRIGATE_CT11_NAME"
+	Value "CT11 Space Tug"
+StringInfo
+	ID "IDS_FRIGATE_CT11_DESCRIPTION"
+	Value "A small vessel used in the construction of structures."
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_PENTASTAR"
 	Value "Pentastar Alignment"

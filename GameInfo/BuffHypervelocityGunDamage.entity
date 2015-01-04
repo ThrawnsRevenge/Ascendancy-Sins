@@ -24,33 +24,31 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffHyperVelocityGunDamageSplash"
+	buffType "BuffHypervelocityGunDamageSplash"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 6
+		numObjects 4
 		object "CapitalShip"
 		object "Frigate"
 		object "PlanetModule"
-		object "StarBase"
 		object "Titan"
-		object "Corvette"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 9000.000000
-		Level:1 900.000000
-		Level:2 900.000000
-		Level:3 900.000000
+		Level:0 1000.000000
+		Level:1 1000.000000
+		Level:2 1000.000000
+		Level:3 1000.000000
 	maxTargetCount
-		Level:0 20.000000
-		Level:1 20.000000
-		Level:2 20.000000
-		Level:3 20.000000
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
+			attachType "Center"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

@@ -57,7 +57,7 @@ entities
 			entityDefName "NewRep_MC30c"
 		NotOnPage
 			count 4
-			entityDefName "FrigateTechModuleConstructor"
+			entityDefName "Remnant_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"

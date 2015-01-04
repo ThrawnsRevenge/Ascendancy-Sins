@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Dreadnaught"
 		NotOnPage
 			count 3
-			entityDefName "FrigatePsiModuleConstructor"
+			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo

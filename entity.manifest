@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2185
+entityNameCount 2186
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -260,6 +260,7 @@ entityName "Remnant_Sentinel.entity"
 entityName "Remnant_Mu.entity"
 entityName "Remnant_Sovereign.entity"
 entityName "Remnant_Lancer.entity"
+entityName "Remnant_CT11.entity"
 entityName "Remnant_WorldDevastator.entity"
 entityName "Remnant_Chimera.entity"
 entityName "Remnant_FrigateShipyard.entity"
