@@ -1,5 +1,5 @@
 TXT
-NumStrings 7455
+NumStrings 7459
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -354,6 +354,18 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
+StringInfo
+	ID "IDS_ABILITY_POINTDEFENSE_NAME"
+	Value "Point Defense"
+StringInfo
+	ID "IDS_ABILITY_POINTDEFENSE_DESCRIPTION"
+	Value "This unit instantly targets and annihilates several fighters within its vicinity."
+StringInfo
+	ID "IDS_ABILITY_BLOCKADERUNNER_NAME"
+	Value "Blockade Runner"
+StringInfo
+	ID "IDS_ABILITY_BLOCKADERUNNER_DESCRIPTION"
+	Value "Sacrifices shield and weapon power to increase speed temporarily."
 StringInfo
 	ID "IDS_ABILITY_MIGRATIONSAP_NAME"
 	Value "Migration: Load"
