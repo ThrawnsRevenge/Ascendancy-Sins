@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2200
+entityNameCount 2201
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -299,6 +299,7 @@ entityName "RemnantResearch_ShipUnlock_VSDII.entity"
 entityName "RemnantResearch_ShipUnlock_Acclamator.entity"
 entityName "RemnantResearch_ShipUnlock_Immobilizer.entity"
 entityName "RemnantResearch_ShipUnlock_MTC.entity"
+entityName "RemnantResearch_ShipUnlock_Sovereign.entity"
 entityName "RemnantResearch_ShipUnlock_ISDII.entity"
 entityName "RemnantResearch_ShipUnlock_Altor.entity"
 entityName "RemnantResearch_ShipUnlock_Executor.entity"

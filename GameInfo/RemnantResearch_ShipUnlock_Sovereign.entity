@@ -1,39 +1,39 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_DEFENSEFORCE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_DEFENSEFORCE"
+hudIcon "HUDICON_SOVEREIGN"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SOVEREIGN"
 infoCardIcon ""
-NameStringID "IDS_NEWREPRESEARCH_DEFENSEFORCE_NAME"
-DescriptionStringID "IDS_NEWREPRESEARCH_DEFENSEFORCE_DESCRIPTION"
+NameStringID "IDS_TITAN_SOVEREIGN_NAME"
+DescriptionStringID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 researchWindowLocation
-	block 1
-	pos [ 5 , 2 ]
-ResearchField "NonCombat"
+	block 0
+	pos [ 7 , 1 ]
+ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 50.000000
+BaseUpgradeTime 40.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 175.000000
+	credits 6000.000000
+	metal 1200.000000
+	crystal 500.000000
 PerLevelCostIncrease
 	credits 100.000000
-	metal 25.000000
+	metal 0.000000
 	crystal 25.000000
-Tier 5
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "ShipBuildRateAdjustmentWhenEnemyInGravityWell"
+	modifierType "TitanConstructionCap"
 	baseValue 0.000000
-	perLevelValue 0.450000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

@@ -7,8 +7,8 @@ NameStringID "IDS_NEWREPRESEARCH_LOCALDEFENSES_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_LOCALDEFENSES_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 3 , 2 ]
-ResearchField "NonCombat"
+	pos [ 3 , 3 ]
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

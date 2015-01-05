@@ -1,5 +1,5 @@
 TXT
-NumStrings 7459
+NumStrings 7465
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -45,6 +45,12 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_PELLAEONGAVRISOM_DESCRIPTION"
 	Value "The New Republic opens negotiates with all factions."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DEREGULATION_NAME"
+	Value "Deregulation"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DEREGULATION_DESCRIPTION"
+	Value "Competition leads to improved infrastructural project speeds."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_MIGRATION_NAME"
 	Value "Migration"
@@ -468,6 +474,24 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_DESCRIPTION"
 	Value "A station which grants defensive bonuses and abilities at the expense of economic ventures."
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANI_NAME"
+	Value "Golan I Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANI_DESCRIPTION"
+	Value "A lightly armed defensive structure, capable of fighting off light frigates."
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANII_NAME"
+	Value "Golan II Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANII_DESCRIPTION"
+	Value "A moderately armed defensive structure, capable of fighting off cruisers."
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANIII_NAME"
+	Value "Golan III Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_GOLANIII_DESCRIPTION"
+	Value "A heavily armed defensive structure, capable of defending against capital ships."
 StringInfo
 	ID "IDS_ABILITY_CONSUMESHIP_NAME"
 	Value "Assimilate"
