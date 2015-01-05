@@ -3546,7 +3546,7 @@ star
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 9
+playerCount 7
 player
 	designName "NewPlayer0"
 	inGameName "NewPlayer0"
@@ -3652,40 +3652,6 @@ player
 player
 	designName "NewPlayer6"
 	inGameName "NewPlayer6"
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 8000
-	startingMetal 2800
-	startingCrystal 750
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "NewPlayer7"
-	inGameName "NewPlayer7"
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 8000
-	startingMetal 2800
-	startingCrystal 750
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "NewPlayer8"
-	inGameName "NewPlayer8"
 	overrideRaceName ""
 	teamIndex -1
 	startingCredits 8000
