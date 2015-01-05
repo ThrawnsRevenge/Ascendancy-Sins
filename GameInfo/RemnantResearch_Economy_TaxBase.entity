@@ -33,7 +33,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "PopulationTaxRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "PopulationGrowthRateAdjustment"
 	baseValue 0.000000
