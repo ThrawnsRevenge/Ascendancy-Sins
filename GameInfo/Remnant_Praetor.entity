@@ -21,26 +21,23 @@ bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 1
-	burstDelay 0.000000
+	burstCount 6
+	burstDelay 0.200000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "MuzzleGreen_Single_Large"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
-		soundCount 1
-		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+		soundCount 2
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+	hitEffectName "TurbolaserImpact"
 	hitHullEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 	hitShieldsEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "TurbolaserGreen_Single"
 mainViewIcon "HUDICONSMALL_CAPITALSHIP_PRAETOR"
 basePrice
 	credits 2200.000000
