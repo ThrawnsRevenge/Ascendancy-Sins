@@ -6,8 +6,8 @@ infoCardIcon ""
 NameStringID "IDS_ABILITY_BOARDINGPARTY_NAME"
 DescriptionStringID "IDS_ABILITY_BOARDINGPARTY_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 2 , 2 ]
+	block 1
+	pos [ 2 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

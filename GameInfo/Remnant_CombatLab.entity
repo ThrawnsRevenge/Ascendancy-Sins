@@ -16,7 +16,7 @@ hudIcon "HUDICON_POLICYLAB"
 smallHudIcon "HUDICON_POLICYLAB"
 infoCardIcon "HUDICON_POLICYLAB"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 6.000000
+planetUpgradeSlotCount 4.000000
 basePrice
 	credits 750.000000
 	metal 60.000000

@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffNRMigrationPlace"
+buffType "BuffNRMigrationRemove"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -40,10 +40,10 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 5.000000
-	Level:1 5.000000
-	Level:2 5.000000
-	Level:3 5.000000
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 100.000000

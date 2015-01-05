@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2198
+entityNameCount 2200
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -444,8 +444,10 @@ entityName "BuffForcePullTarget.entity"
 entityName "BuffForcePushSelf.entity"
 entityName "BuffForcePushTarget.entity"
 entityName "BuffNRMigrationPlace.entity"
-entityName "BuffNRMigrationSapSelf.entity"
+entityName "BuffNRMigrationRemove.entity"
+entityName "BuffNRMigrationEndCheck.entity"
 entityName "BuffNRMigrationSapTarget.entity"
+entityName "BuffNRMigrationCheck.entity"
 entityName "BuffPlanetaryIonPlanet.entity"
 entityName "BuffPlanetaryIonSelf.entity"
 entityName "BuffPlanetaryIonDamage.entity"
