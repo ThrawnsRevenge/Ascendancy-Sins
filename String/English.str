@@ -361,6 +361,18 @@ StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
 StringInfo
+	ID "IDS_ABILITY_PROBEDROIDS_NAME"
+	Value "Probe Droids"
+StringInfo
+	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
+	Value "Deploys probe droids to the target system, revealing it."
+StringInfo
+	ID "IDS_ABILITY_PROBEDROIDS_NAME"
+	Value "Bothan Spy Network"
+StringInfo
+	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
+	Value "Deploys Bothan spies to the target system, revealing it."
+StringInfo
 	ID "IDS_ABILITY_POINTDEFENSE_NAME"
 	Value "Point Defense"
 StringInfo
@@ -3293,7 +3305,7 @@ StringInfo
 	Value "*VALUE0* Stealing Income: *SPACING170* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_BUFFPROXYSENSOR"
-	Value "Has Remote Sensor"
+	Value "Espionage In Process"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_CREDITRATE"
 	Value "Credits earned /sec"
