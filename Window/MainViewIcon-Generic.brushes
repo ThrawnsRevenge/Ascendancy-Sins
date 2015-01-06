@@ -254,8 +254,8 @@ brush
 brush
 	name "MainViewIconEntityUnderlaySelectedFill"
 	content "Simple"
-	fileName "Null"
-	pixelBox [ 418 , 318 , 39 , 39 ]
+	fileName "UI_Misc"
+	pixelBox [ 1 , 47 , 46 , 46 ]
 brush
 	name "MainViewIconStarUnderlayUnderCursorFrame"
 	content "Simple"
