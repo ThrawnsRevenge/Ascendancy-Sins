@@ -1,5 +1,5 @@
 TXT
-NumStrings 7465
+NumStrings 7467
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -366,6 +366,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "Deploys probe droids to the target system, revealing it."
+StringInfo
+	ID "IDS_ABILITY_HULLBREACH_NAME"
+	Value "Hull Breach"
+StringInfo
+	ID "IDS_ABILITY_HULLBREACH_DESCRIPTION"
+	Value "The BAC shoots a supercharged turboalser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
 StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Bothan Spy Network"
