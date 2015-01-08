@@ -5,7 +5,7 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffEscapeSelf"
 targetFilter
 	numOwnerships 1
-	ownership "Enemy"
+	ownership "Friendly"
     numObjects 5
     object "Titan"
     object "CapitalShip"
@@ -14,8 +14,7 @@ targetFilter
     object "StarBase"
 	numSpaces 1
 	space "Normal"
-	numConstraints 1
-	constraint "NotInvulnerable"
+	numConstraints 0
 range
 	Level:0 50.000000
 	Level:1 50.000000
@@ -32,14 +31,9 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget TRUE
 isUltimateAbility FALSE
-maxNumLevels 4
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 2.000000
-	Level:2 4.000000
-	Level:3 6.000000
-aiUseTime "OnlyWhenAboutToDie"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault FALSE
@@ -62,8 +56,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_RAM_NAME"
-descStringID "IDS_ABILITY_RAM_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_RAM"
-smallHudIcon "HUDICON_ABILITY_RAM"
+nameStringID "IDS_ABILITY_DOCK_NAME"
+descStringID "IDS_ABILITY_DOCK_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DOCK"
+smallHudIcon "HUDICON_ABILITY_DOCK"
 infoCardIcon ""
