@@ -41,7 +41,7 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PTS_NAME"
 descStringID "IDS_ABILITY_PTS_DESCRIPTION"
-hudIcon "HUDABILITYICON_PTS"
-smallHudIcon "HUDABILITYICON_PTS"
+hudIcon "HUDABILITYICON_POWERTOSHIELDS"
+smallHudIcon "HUDABILITYICON_POWERTOSHIELDS"
 infoCardIcon ""
 

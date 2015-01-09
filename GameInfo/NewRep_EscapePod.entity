@@ -11,7 +11,7 @@ frigateRoleType "Colony"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
 mainViewIcon "HUDICONSMALL_ESCAPEPOD"
-picture "PICTURE_FRIGATE_TECHCOLONY"
+picture "HUDICONSMALL_ESCAPEPOD"
 NameStringID "IDS_FRIGATE_GALLOFREE_NAME"
 DescriptionStringID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -37,7 +37,7 @@ numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_GALLOFREE"
+hudIcon "HUDICONSMALL_ESCAPEPOD"
 smallHudIcon "HUDICONSMALL_ESCAPEPOD"
 infoCardIcon "HUDICONSMALL_ESCAPEPOD"
 minZoomDistanceMult 4.000000
