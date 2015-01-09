@@ -1,23 +1,22 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTarget"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPlanetaryIonSelf"
+buffType "BuffReconstructShipSelf"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 3
-	object "CapitalShip"
+	numObjects 1
 	object "Frigate"
-	object "Titan"
 	numSpaces 1
 	space "Normal"
-	numConstraints 0
+	numConstraints 1
+	constraint "NotInvulnerable"
 range
-	Level:0 40000.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 200.000000
+	Level:1 200.000000
+	Level:2 200.000000
+	Level:3 200.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -25,13 +24,18 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-needsToFaceTarget FALSE
+needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "FixedLevel0"
-aiUseTime "Anytime"
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -45,20 +49,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 40.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 200.000000
+	Level:1 180.000000
+	Level:2 140.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "NewRepResearch_AbilityUnlock_PlanetaryIon"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_PLANETARYION_NAME"
-descStringID "IDS_ABILITY_PLANETARYION_DESCRIPTION"
-hudIcon "HUDABILITYICON_IONICDISRUPTION"
-smallHudIcon "HUDABILITYICON_IONICDISRUPTION"
+nameStringID "IDS_ABILITY_RECONSTRUCT_NAME"
+descStringID "IDS_ABILITY_RECONSTRUCT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CONSUMESHIP"
+smallHudIcon "HUDICON_ABILITY_CONSUMESHIP"
 infoCardIcon ""

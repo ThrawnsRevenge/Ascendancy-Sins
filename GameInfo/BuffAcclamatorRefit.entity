@@ -7,15 +7,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
-instantAction
-        buffInstantActionType "MakeDead"
-        instantActionTriggerType "OnDelay"
-        delayTime 1.000000
+numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "BonusMaxSquads"
+	value
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "OwnerChanged"

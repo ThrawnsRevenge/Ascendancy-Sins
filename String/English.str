@@ -1,5 +1,5 @@
 TXT
-NumStrings 7465
+NumStrings 7475
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -361,11 +361,29 @@ StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
 StringInfo
+	ID "IDS_ABILITY_REFIT_NAME"
+	Value "Fighter Support"
+StringInfo
+	ID "IDS_ABILITY_REFIT_DESCRIPTION"
+	Value "Refits the Acclamator with better fighter upkeep infrastructure, allowing it to field an additional squadron. Only usable once."
+StringInfo
+	ID "IDS_ABILITY_PROJECTFORCE_NAME"
+	Value "Force Projection"
+StringInfo
+	ID "IDS_ABILITY_PROJECTFORCE_DESCRIPTION"
+	Value "Jedi on board the ship use the force to trick enemies into perceiving multiple copies of this ship."
+StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Probe Droids"
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "Deploys probe droids to the target system, revealing it."
+StringInfo
+	ID "IDS_ABILITY_HULLBREACH_NAME"
+	Value "Hull Breach"
+StringInfo
+	ID "IDS_ABILITY_HULLBREACH_DESCRIPTION"
+	Value "The BAC shoots a high-powered turbolaser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
 StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Bothan Spy Network"
@@ -530,10 +548,16 @@ StringInfo
 	Value "Transfers engine and shield generator power to weapons, dealing more damage for a short time."
 StringInfo
 	ID "IDS_ABILITY_PTS_NAME"
-	Value "Overwhelm"
+	Value "Power to Shields"
 StringInfo
 	ID "IDS_ABILITY_PTS_DESCRIPTION"
 	Value "Transfers weapon and engine power to shields, increasing their recharge rate and entirely blocking some attacks."
+StringInfo
+	ID "IDS_ABILITY_RECONSTRUCT_NAME"
+	Value "Reconstruct"
+StringInfo
+	ID "IDS_ABILITY_RECONSTRUCT_DESCRIPTION"
+	Value "Consumes an enemy frigate and uses the resources to create a Dreadnaught."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TURBOLASERS_NAME"
 	Value "Improved Targeting Computers"
@@ -816,6 +840,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_RAM_DESCRIPTION"
 	Value "This ship will ram the target, doing large amounts of damage the target and destroying itself."
+StringInfo
+	ID "IDS_ABILITY_REINFORCE_NAME"
+	Value "Reinforce"
+StringInfo
+	ID "IDS_ABILITY_REINFORCE_DESCRIPTION"
+	Value "The World Devastator integrates nearby debris, restoring its own hull."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
 	Value "Resupply Fighters"
