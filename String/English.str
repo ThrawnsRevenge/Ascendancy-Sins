@@ -1,5 +1,5 @@
 TXT
-NumStrings 7471
+NumStrings 7473
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -366,6 +366,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_REFIT_DESCRIPTION"
 	Value "Refits the Acclamator with better fighter upkeep infrastructure, allowing it to field an additional squadron. Only usable once."
+StringInfo
+	ID "IDS_ABILITY_PROJECTFORCE_NAME"
+	Value "Force Projection"
+StringInfo
+	ID "IDS_ABILITY_PROJECTFORCE_DESCRIPTION"
+	Value "Jedi on board the ship use the force to trick enemies into perceiving multiple copies of this ship."
 StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Probe Droids"
