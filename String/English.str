@@ -1,5 +1,5 @@
 TXT
-NumStrings 7473
+NumStrings 7475
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -548,10 +548,16 @@ StringInfo
 	Value "Transfers engine and shield generator power to weapons, dealing more damage for a short time."
 StringInfo
 	ID "IDS_ABILITY_PTS_NAME"
-	Value "Overwhelm"
+	Value "Power to Shields"
 StringInfo
 	ID "IDS_ABILITY_PTS_DESCRIPTION"
 	Value "Transfers weapon and engine power to shields, increasing their recharge rate and entirely blocking some attacks."
+StringInfo
+	ID "IDS_ABILITY_RECONSTRUCT_NAME"
+	Value "Reconstruct"
+StringInfo
+	ID "IDS_ABILITY_RECONSTRUCT_DESCRIPTION"
+	Value "Consumes an enemy frigate and uses the resources to create a Dreadnaught."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TURBOLASERS_NAME"
 	Value "Improved Targeting Computers"
@@ -834,6 +840,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_RAM_DESCRIPTION"
 	Value "This ship will ram the target, doing large amounts of damage the target and destroying itself."
+StringInfo
+	ID "IDS_ABILITY_REINFORCE_NAME"
+	Value "Reinforce"
+StringInfo
+	ID "IDS_ABILITY_REINFORCE_DESCRIPTION"
+	Value "The World Devastator integrates nearby debris, restoring its own hull."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
 	Value "Resupply Fighters"
