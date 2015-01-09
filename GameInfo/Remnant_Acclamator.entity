@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Acclamator"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 1
@@ -214,7 +211,7 @@ ExplosionName "Frigate0"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 ""
+ability:0 "AbilityAcclamatorRefit"
 ability:1 ""
 ability:2 ""
 ability:3 "AbilityThrawnDoctrine"

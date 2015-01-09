@@ -53,7 +53,7 @@ orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_Global_ThrawnDoctrine"
+		Subject "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

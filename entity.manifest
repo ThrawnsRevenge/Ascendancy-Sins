@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2206
+entityNameCount 2208
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -423,6 +423,8 @@ entityName "AbilityBlockadeRunner.entity"
 entityName "AbilityBothanSpies.entity"
 entityName "AbilityProbeDroids.entity"
 entityName "AbilityHullBreach.entity"
+entityName "AbilityAcclamatorRefit.entity"
+entityName "BuffAcclamatorRefit.entity"
 entityName "BuffHullBreach.entity"
 entityName "BuffBothanSpies.entity"
 entityName "BuffBlockadeRunner.entity"

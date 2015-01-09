@@ -22,24 +22,16 @@ range
 	Level:1 5000.000000
 	Level:2 5000.000000
 	Level:3 5000.000000
-effectInfo
-	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
-travelSpeed 500.000000
-effectStaggerDelay 0.300000
+travelSpeed 1600.000000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"
 weaponEffectAttachInfo
 	attachType "Ability"
 	abilityIndex 0
 weaponEffectImpactOffsetType "RandomMesh"
-canWeaponEffectHitHull TRUE
-canWeaponEffectHitShields TRUE
-WeaponEffects
+canWeaponEffectHitHull FALSE
+canWeaponEffectHitShields FALSE
+weaponEffectsDef
 	weaponType "Projectile"
 	burstCount 1
 	burstDelay 0.200000
