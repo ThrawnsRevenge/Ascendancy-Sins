@@ -10,7 +10,7 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 3
+numEntityModifiers 4
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
@@ -32,6 +32,13 @@ entityModifier
 		Level:1 0.750000
 		Level:2 0.750000
 		Level:3 0.750000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 numEntityBoolModifiers 0
 numFinishConditions 3
 finishCondition

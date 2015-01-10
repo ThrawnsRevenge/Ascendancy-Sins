@@ -847,6 +847,12 @@ StringInfo
 	ID "IDS_ABILITY_REINFORCE_DESCRIPTION"
 	Value "The World Devastator integrates nearby debris, restoring its own hull."
 StringInfo
+	ID "IDS_ABILITY_SLIMPROFILE_NAME"
+	Value "Slim Profile"
+StringInfo
+	ID "IDS_ABILITY_SLIMPROFILE_DESCRIPTION"
+	Value "The Nebulon-B's slim shape makes it more difficult to hit."
+StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
 	Value "Resupply Fighters"
 StringInfo
