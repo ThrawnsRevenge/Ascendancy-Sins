@@ -367,6 +367,12 @@ StringInfo
 	ID "IDS_ABILITY_REFIT_DESCRIPTION"
 	Value "Refits the Acclamator with better fighter upkeep infrastructure, allowing it to field an additional squadron. Only usable once."
 StringInfo
+	ID "IDS_ABILITY_CRACKMANTLE_NAME"
+	Value "Crack Mantle"
+StringInfo
+	ID "IDS_ABILITY_CRACKMANTLE_DESCRIPTION"
+	Value "The Sovereign targets a planet with its superlaser, damaging the infrastructure."
+StringInfo
 	ID "IDS_ABILITY_PROJECTFORCE_NAME"
 	Value "Force Projection"
 StringInfo

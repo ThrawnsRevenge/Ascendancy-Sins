@@ -7,10 +7,13 @@ NameStringID "IDS_TITAN_SOVEREIGN_NAME"
 DescriptionStringID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 1 ]
+	pos [ 7 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Executor"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

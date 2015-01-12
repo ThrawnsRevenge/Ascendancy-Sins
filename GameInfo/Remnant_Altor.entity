@@ -49,10 +49,7 @@ NameStringID "IDS_CAPITALSHIP_ALTOR_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_ALTOR_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_TECHSUPPORT"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Altor"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
