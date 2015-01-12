@@ -30,7 +30,7 @@ bombEffectsDef
 		soundCount 2
 		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
 		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
-	hitEffectName "TurbolaserImpact"
+	hitEffectName "TurbolaserPlanetImpact"
 	hitHullEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"

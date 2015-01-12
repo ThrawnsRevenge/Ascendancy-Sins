@@ -75,7 +75,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
 			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
@@ -114,7 +114,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
 			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
