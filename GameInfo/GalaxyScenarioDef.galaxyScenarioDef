@@ -1643,7 +1643,7 @@ planetItemType
 	entityDefName "NewRep_AssaultFrigate"
 planetItemType
 	designName "NewRep:Frigate:Constructor"
-	entityDefName "FrigateTechModuleConstructor"
+	entityDefName "Remnant_CT11"
 planetItemType
 	designName "EotH:Module:FrigateFactory"
 	entityDefName "EotH_FrigateShipyard"
@@ -1800,7 +1800,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
@@ -1812,6 +1812,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"

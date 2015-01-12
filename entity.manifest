@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2215
+entityNameCount 2218
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -313,7 +313,6 @@ entityName "RemnantResearch_Diplomacy_Missions.entity"
 entityName "RemnantResearch_Global_ForcedProduction.entity"
 entityName "RemnantResearch_Global_StrengthInNumbers.entity"
 entityName "RemnantResearch_Global_Xenophobia.entity"
-entityName "RemnantResearch_Global_FearOfForce.entity"
 entityName "RemnantResearch_Global_ThrawnDoctrine.entity"
 entityName "RemnantResearch_Global_PrisonCamps.entity"
 entityName "RemnantResearch_Global_CompoundLoyalty.entity"
@@ -427,6 +426,8 @@ entityName "AbilityAcclamatorRefit.entity"
 entityName "AbilityProjectForce.entity"
 entityName "AbilityReconstructShip.entity"
 entityName "AbilitySlimProfile.entity"
+entityName "AbilityEnhancedTargetting.entity"
+entityName "BuffEnhancedTargetting.entity"
 entityName "BuffSlimProfile.entity"
 entityName "BuffReconstructShipSelf.entity"
 entityName "BuffProjectForceOnClone.entity"

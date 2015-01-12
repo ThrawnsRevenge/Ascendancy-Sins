@@ -179,7 +179,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
-ability:2 ""
+ability:2 "AbilityEnhancedTargetting"
 ability:3 "AbilityThrawnDoctrine"
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 12.000000
