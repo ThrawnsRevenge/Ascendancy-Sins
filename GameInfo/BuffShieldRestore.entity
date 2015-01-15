@@ -1,0 +1,77 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffShieldRestoreTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Friendly"
+		numObjects 8
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "Fighter"
+		object "StarBase"
+		object "SpaceMine"
+		object "Titan"
+		object "Corvette"
+		numSpaces 2
+		space "Normal"
+		space "Phase"
+		numConstraints 0
+	range
+		Level:0 8000.000000
+		Level:1 8000.000000
+		Level:2 8800.000000
+		Level:3 8800.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -5.150000
+		Level:1 -5.150000
+		Level:2 -5.150000
+		Level:3 -5.150000
+numEntityBoolModifiers 1
+entityBoolModifier "HasShieldMeshEffect"
+numFinishConditions 3
+finishCondition
+	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 8.000000
+		Level:1 8.000000
+		Level:2 8.000000
+		Level:3 8.000000

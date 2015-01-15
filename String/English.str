@@ -1,5 +1,5 @@
 TXT
-NumStrings 7475
+NumStrings 7627
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -360,6 +360,42 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
+StringInfo
+	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"
+	Value "Imposing Presence"
+StringInfo
+	ID "IDS_ABILITY_IMPOSINGPRESENCE_DESCRIPTION"
+	Value "The impressive size of the Praetor demoralizes enemy crews, decreasing their damage output."
+StringInfo
+	ID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
+	Value "Numerical Superiority"
+StringInfo
+	ID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	Value "This ship is able to field greater numbers of fighters."
+StringInfo
+	ID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	Value "Protector"
+StringInfo
+	ID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	Value "The Viscount drains its own shields to restore shields to all allied ships in its vicinity."
+StringInfo
+	ID "IDS_ABILITY_SIGNALINTERFERENCE_NAME"
+	Value "Signal Interference"
+StringInfo
+	ID "IDS_ABILITY_SIGNALINTERFERENCE_DESCRIPTION"
+	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, interfering with targetting and entering hyperspace."
+StringInfo
+	ID "IDS_ABILITY_ALPHASTRIKE_NAME"
+	Value "Fighter Sweep"
+StringInfo
+	ID "IDS_ABILITY_ALPHASTRIKE_DESCRIPTION"
+	Value "The Endurance temporarily increases the speed and damage of its own fighters."
+StringInfo
+	ID "IDS_ABILITY_PRAETORION_NAME"
+	Value "Ion Blast"
+StringInfo
+	ID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	Value "The Praetor's massive ion cannons temporarily disable an enemy ship."
 StringInfo
 	ID "IDS_ABILITY_REFIT_NAME"
 	Value "Fighter Support"
