@@ -1,5 +1,5 @@
 TXT
-NumStrings 7627
+NumStrings 7637
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -367,17 +367,47 @@ StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_DESCRIPTION"
 	Value "The impressive size of the Praetor demoralizes enemy crews, decreasing their damage output."
 StringInfo
+	ID "IDS_ABILITY_REFLECTIVESHIELDS_NAME"
+	Value "Reflective Shields"
+StringInfo
+	ID "IDS_ABILITY_REFLECTIVESHIELDS_DESCRIPTION"
+	Value "The shields of the MC80B passively reflect damage back at its attackers."
+StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETTING_NAME"
+	Value "Interrupt Targetting"
+StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETTING_DESCRIPTION"
+	Value "The Endurance sends out signals interfering with the targetting computers of nearby enemy fighters."
+StringInfo
 	ID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
 	Value "Numerical Superiority"
 StringInfo
 	ID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
 	Value "This ship is able to field greater numbers of fighters."
 StringInfo
+	ID "IDS_ABILITY_INCITEREBELLION_NAME"
+	Value "Incite Rebellion"
+StringInfo
+	ID "IDS_ABILITY_INCITEREBELLION_DESCRIPTION"
+	Value "The presence of the New Republic inspires dissident elements to take action on the planet, damaging infrastructure and reducing allegiance."
+StringInfo
 	ID "IDS_ABILITY_SHIELDRESTORE_NAME"
 	Value "Protector"
 StringInfo
 	ID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
 	Value "The Viscount drains its own shields to restore shields to all allied ships in its vicinity."
+StringInfo
+	ID "IDS_ABILITY_CONCUSSIONBARRAGE_NAME"
+	Value "Concussion Barrage"
+StringInfo
+	ID "IDS_ABILITY_CONCUSSIONBARRAGE_DESCRIPTION"
+	Value "The Executor begins firing concussion missiles at all targets around it."
+StringInfo
+	ID "IDS_ABILITY_TARGETHANGAR_NAME"
+	Value "Target Hangar"
+StringInfo
+	ID "IDS_ABILITY_TARGETHANGAR_DESCRIPTION"
+	Value "Targets the hangar on the target ship, temporarily disabling fighter launching and destroying fighters within."
 StringInfo
 	ID "IDS_ABILITY_SIGNALINTERFERENCE_NAME"
 	Value "Signal Interference"

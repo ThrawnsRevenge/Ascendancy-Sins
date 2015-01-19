@@ -2,8 +2,8 @@
 entityType "CapitalShip"
 ability:0 "AbilityForcePull"
 ability:1 "AbilityPowerToShieldsCapital"
-ability:2 ""
-ability:3 ""
+ability:2 "AbilityReflectiveShields"
+ability:3 "AbilityIonBlast"
 ability:4 "AbilityPassiveLowLifePods"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

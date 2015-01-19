@@ -10,28 +10,21 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 3
-entityModifier
-	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageTarget"
-	value
-		Level:0 -0.200000
-		Level:1 -0.300000
-		Level:2 -0.400000
-		Level:3 -0.500000
+numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 -0.100000
-		Level:1 -0.200000
-		Level:2 -0.250000
-		Level:3 -0.300000
+		Level:0 -0.800000
+		Level:1 -0.600000
+		Level:2 -0.40000
+		Level:3 -0.200000
 entityModifier
 	buffEntityModifierType "ShieldPointRestoreRate"
 	value
-		Level:0 3.150000
-		Level:1 3.150000
-		Level:2 3.150000
-		Level:3 3.150000
+		Level:0 4.150000
+		Level:1 6.150000
+		Level:2 8.150000
+		Level:3 10.150000
 numEntityBoolModifiers 1
 entityBoolModifier "HasShieldMeshEffect"
 numFinishConditions 3
@@ -42,7 +35,7 @@ finishCondition
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 6.000000
-		Level:1 6.000000
-		Level:2 6.000000
-		Level:3 6.000000
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000

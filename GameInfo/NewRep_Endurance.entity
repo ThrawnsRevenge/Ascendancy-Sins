@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityForcePush"
 ability:1 "AbilitySignalInterference"
 ability:2 "AbilityAlphaStrike"
-ability:3 ""
+ability:3 "AbilityScrambleTransmissions"
 ability:4 "AbilityPassiveLowLifePods"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
