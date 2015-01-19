@@ -10,7 +10,7 @@ targetFilter
 	object "Planet"
 	numSpaces 1
 	space "Normal"
-	numConstraints 2
+	numConstraints 3
 	constraint "IsExplored"
 	constraint "NotIsHomeworld"
 	constraint "NotIsOccupationPlanet"
