@@ -499,6 +499,18 @@ StringInfo
 	ID "IDS_ABILITY_FORCEPULL_DESCRIPTION"
 	Value "Allows Jedi aboard this ship use the force to pull in targets around it."
 StringInfo
+	ID "IDS_ABILITY_AURAOFFEAR_NAME"
+	Value "Iron Grip"
+StringInfo
+	ID "IDS_ABILITY_AURAOFFEAR_DESCRIPTION"
+	Value "The fear of failure causes Imperials to recklessly attack their enemies, dealing increased damage but also leacving themselves more vulnerable to attack."
+StringInfo
+	ID "IDS_ABILITY_POWERSYMBOL_NAME"
+	Value "Power Symbol"
+StringInfo
+	ID "IDS_ABILITY_POWERSYMBOL_DESCRIPTION"
+	Value "The sight of the Executor reignites Imperial pride, massively boosting planetary allegiance."
+StringInfo
 	ID "IDS_ABILITY_REMCOMASSAULT_NAME"
 	Value "Command: Assault"
 StringInfo
@@ -11012,7 +11024,7 @@ StringInfo
 	Value "Malice"
 StringInfo
 	ID "IDS_ABILITY_SPREADWEAPONDAMAGE_DESCRIPTION"
-	Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire.""
+	Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire."
 StringInfo
 	ID "IDS_ABILITY_SPRINT_NAME"
 	Value "Intercept"

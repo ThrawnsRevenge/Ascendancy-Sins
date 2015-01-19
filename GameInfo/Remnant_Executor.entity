@@ -2,8 +2,8 @@
 entityType "Titan"
 ability:0 "AbilityNumericalSuperiorityExecutor"
 ability:1 "AbilityConcussionBarrage"
-ability:2 ""
-ability:3 ""
+ability:2 "AbilityPowerSymbol"
+ability:3 "AbilityFearAura"
 ability:4 "AbilityPassiveLowLife"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -86,9 +86,11 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 2
+UpgradeTypeCount 4
 UpgradeType "RemnantUpgrade_Executor_AbilityA"
 UpgradeType "RemnantUpgrade_Executor_AbilityB"
+UpgradeType "RemnantUpgrade_Executor_AbilityC"
+UpgradeType "RemnantUpgrade_Executor_AbilityD"
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 1
