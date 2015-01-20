@@ -11,12 +11,12 @@ entities
 	planetModuleInfo
 		Page:0
 			count 9
-			entityDefName "PLANETMODULE_PSIORBITALMETALEXTRACTOR"
+			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "Remnant_FrigateShipyard"
 			entityDefName "Remnant_CombatLab"
 			entityDefName "Remnant_TradeStation"
 			entityDefName "Remnant_CommStation"
-			entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
+			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "Remnant_PolicyLab"
 			entityDefName "Remnant_CommandStation"
