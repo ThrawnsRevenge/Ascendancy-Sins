@@ -4805,10 +4805,10 @@ StringInfo
 	Value "Makes this planet your empire's Capital Planet, affecting the degree of allegiance of other planets belonging to your empire. Capital Planets also receive a bonus to tax income."
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEARTIFACTLEVEL_NAME"
-	Value "Enlistment Center"
+	Value "Search for Holocrons"
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEARTIFACTLEVEL_DESC"
-	Value "Citizens from this planet become eligible to join your forces, raising your supply cap."
+	Value "Examines the planet for useful holocrons."
 StringInfo
 	ID "IDS_INFOCARD_BUILDRESOURCEASTEROIDEXTRACTOR_NAME"
 	Value "Build Extractor"
