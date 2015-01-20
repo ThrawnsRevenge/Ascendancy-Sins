@@ -19,8 +19,8 @@ mainViewIcon "HUDICONSMALL_FIGHTER_TIEDEFENDER"
 picture "HUDICONSMALL_FIGHTER_TIEDEFENDER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SQUADTECHCOMBAT_NAME"
-descriptionStringID "IDS_SQUADTECHCOMBAT_DESC"
+nameStringID "IDS_TIEDEFENDER_NAME"
+descriptionStringID "IDS_TIEDEFENDER_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

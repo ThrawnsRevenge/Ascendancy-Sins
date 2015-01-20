@@ -57,15 +57,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-<<<<<<< HEAD
-nameStringID "IDS_ABILITY_RAM_NAME"
-descStringID "IDS_ABILITY_RAM_DESCRIPTION"
-hudIcon "HUDICONSMALL_ESCAPEPOD"
-smallHudIcon "HUDICONSMALL_ESCAPEPOD"
-=======
 nameStringID "IDS_ABILITY_DOCK_NAME"
 descStringID "IDS_ABILITY_DOCK_DESCRIPTION"
 hudIcon "HUDABILITYICON_DOCK"
 smallHudIcon "HUDABILITYICON_DOCK"
->>>>>>> origin/master
 infoCardIcon ""
