@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_LAMBDA"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_LAMBDA"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_LAMBDA_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_LAMBDA_DESCRIPTION"
+NameStringID "IDS_FRIGATE_LAMBDA_NAME"
+DescriptionStringID "IDS_FRIGATE_LAMBDA_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 0 , 4 ]

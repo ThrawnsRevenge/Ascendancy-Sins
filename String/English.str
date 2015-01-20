@@ -1,5 +1,5 @@
 TXT
-NumStrings 7637
+NumStrings 7549
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -7,11 +7,35 @@ StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 	Value "A CR90 model refitted for diplomatic missions"
 StringInfo
+	ID "IDS_FRIGATE_ESCAPEPOD_NAME"
+	Value "Escape Pod"
+StringInfo
+	ID "IDS_FRIGATE_ESCAPEPOD_DESCRIPTION"
+	Value "An escape pod containing the survivors of a destroyed vessel, which can be transferred to another vessel granting bonuses"
+StringInfo
 	ID "IDS_FRIGATE_FERRET_NAME"
 	Value "Ferret"
 StringInfo
 	ID "IDS_FRIGATE_FERRET_DESCRIPTION"
 	Value "A scout ship used to explore and gather intelligence"
+StringInfo
+	ID "IDS_FRIGATE_LAMBDA_NAME"
+	Value "Lambda"
+StringInfo
+	ID "IDS_FRIGATE_LAMBDA_DESCRIPTION"
+	Value "Diplomatic envoy vessel, used to carry Imperial ambassadors"
+StringInfo
+	ID "IDS_FRIGATE_MU2_NAME"
+	Value "Mu Scout"
+StringInfo
+	ID "IDS_FRIGATE_MU2_DESCRIPTION"
+	Value "A small scout which can quickly explore systems."
+StringInfo
+	ID "IDS_FRIGATE_SENTINEL_NAME"
+	Value "Sentinel Dropship"
+StringInfo
+	ID "IDS_FRIGATE_SENTINEL_DESCRIPTION"
+	Value "A dropship capable of launching planetary invasions."
 StringInfo
 	ID "IDS_FRIGATE_CT11_NAME"
 	Value "CT11 Space Tug"
@@ -289,6 +313,12 @@ StringInfo
 	ID "IDS_SUPPLYINCREASE_IGH_DESCRIPTION"
 	Value "Controlling this planet increases your fleet supply by 25."
 StringInfo
+	ID "IDS_PLANETUPGRADEPATHTYPE_SOCIAL"
+	Value "Social Specialization"
+StringInfo
+	ID "IDS_PLANETUPGRADEPATHTYPE_INDUSTRY"
+	Value "Industry Specialization"
+StringInfo
 	ID "IDS_SUPPLYINCREASE_ECUMENOPOLIS"
 	Value "Supply Increase - Ecumenopolis"
 StringInfo
@@ -300,6 +330,18 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PRAETOR_DESCRIPTION"
 	Value "A heavy ship filling the gap between the Imperial-class and Super Star Destroyers."
+StringInfo
+	ID "IDS_TIEDEFENDER_NAME"
+	Value "TIE Defender"
+StringInfo
+	ID "IDS_TIEDEFENDER_DESCRIPTION"
+	Value "A multi-purpose heavy fighter-bomber combination."
+StringInfo
+	ID "IDS_CAPITALSHIP_WORLDDEVASTATOR_NAME"
+	Value "World Devastator"
+StringInfo
+	ID "IDS_CAPITALSHIP_WORLDDEVASTATOR_DESCRIPTION"
+	Value "A giant ship which comsumes enemy ships to improve itself or produce new ships."
 StringInfo
 	ID "IDS_COMMANDERSHIP_PRAETOR_NAME"
 	Value "Fleet Officer: Praetor"
@@ -360,6 +402,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
 	Value "The MC30c shoots out high-payload proton bombs at up to eight nearby targets."
+StringInfo
+	ID "IDS_ABILITY_IONICDISRUPTION_NAME"
+	Value "Ionic Disruption"
+StringInfo
+	ID "IDS_ABILITY_IONICDISRUPTION_DESCRIPTION"
+	Value "This ship's ion cannons disrupt enemy electrical system, reducing firing rates."
 StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"
 	Value "Imposing Presence"
@@ -448,7 +496,7 @@ StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Probe Droids"
 StringInfo
-	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
+	ID "IDS_ABILITY_PROBEDROIDS_DESCRIPTION"
 	Value "Deploys probe droids to the target system, revealing it."
 StringInfo
 	ID "IDS_ABILITY_HULLBREACH_NAME"
@@ -457,10 +505,10 @@ StringInfo
 	ID "IDS_ABILITY_HULLBREACH_DESCRIPTION"
 	Value "The BAC shoots a high-powered turbolaser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
 StringInfo
-	ID "IDS_ABILITY_PROBEDROIDS_NAME"
+	ID "IDS_ABILITY_BOTHANSPIES_NAME"
 	Value "Bothan Spy Network"
 StringInfo
-	ID "IDS_ABILITY_CLUSTERBOMBS_DESCRIPTION"
+	ID "IDS_ABILITY_BOTHANSPIES_DESCRIPTION"
 	Value "Deploys Bothan spies to the target system, revealing it."
 StringInfo
 	ID "IDS_ABILITY_POINTDEFENSE_NAME"
@@ -571,6 +619,12 @@ StringInfo
 	ID "IDS_ABILITY_SHIELDAEGIS_DESCRIPTION"
 	Value "This ship boosts boosts the shield mitigation of ships around it."
 StringInfo
+	ID "IDS_ABILITY_DOCK_NAME"
+	Value "Dock"
+StringInfo
+	ID "IDS_ABILITY_DOCK_DESCRIPTION"
+	Value "Docks the Escape Pod with the target ship, transferring crew, repairing some of the hull and granting temporary bonuses."
+StringInfo
 	ID "IDS_ABILITY_MILITARYSPECIALIZATION_NAME"
 	Value "Defensive Specialization"
 StringInfo
@@ -622,7 +676,7 @@ StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "Degrading Systems"
 StringInfo
-	ID "IDS_ABILITY_LOWLIFE_DESCRIPTION"
+	ID "IDS_ABILITY_LOWLIFE_DESC"
 	Value "All ships have deteriorating performance as they take damage."
 StringInfo
 	ID "IDS_ABILITY_OVERWHELM_NAME"
@@ -688,7 +742,7 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_CITYPLANNING_NAME"
 	Value "Urban Zoning"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_CITYDEVELOPMENT_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_CITYPLANNING_DESCRIPTION"
 	Value "Imperial planning allows more population on Ecumenopolis planets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RURALDEVELOPMENT_NAME"
@@ -3323,7 +3377,7 @@ StringInfo
 	Value "Credits Summary"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_METAL"
-	Value "Metal Summary"
+	Value "Durasteel Summary"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CRYSTAL"
 	Value "Tibanna Summary"
@@ -4196,7 +4250,7 @@ StringInfo
 	Value "Trade Income"
 StringInfo
 	ID "IDSPlanetBonusValueMetalIncomePerc"
-	Value "Metal Extraction Rate"
+	Value "Durasteel Extraction Rate"
 StringInfo
 	ID "IDSPlanetBonusValueCRYSTALIncomePerc"
 	Value "Tibanna Extraction Rate"
@@ -5219,7 +5273,7 @@ StringInfo
 	Value "Insufficient Credits."
 StringInfo
 	ID "IDS_GAMEMESSAGE_NOMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Durasteel."
 StringInfo
 	ID "IDS_GAMEMESSAGE_NOCRYSTAL"
 	Value "Insufficient Tibanna"
@@ -5321,7 +5375,7 @@ StringInfo
 	Value "Ship production at %s complete."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PLAYERPLANETCOLONIZED"
-	Value "Planet colonized: %s"
+	Value "Planet invaded: %s"
 StringInfo
 	ID "IDS_GAMEMESSAGE_PLAYERPLANETSOONLOSTTOCULTURE"
 	Value "Cultural revolutionaries on %s threaten to overthrow our planetary goverment!"
@@ -5843,7 +5897,7 @@ StringInfo
 	Value "Credits"
 StringInfo
 	ID "IDS_RESOURCENAME_METAL"
-	Value "Metal"
+	Value "Durasteel"
 StringInfo
 	ID "IDS_RESOURCENAME_CRYSTAL"
 	Value "Tibanna"
@@ -5969,7 +6023,7 @@ StringInfo
 	Value "Insufficient Credits."
 StringInfo
 	ID "IDS_CANREQUESTSHIPSTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Durasteel."
 StringInfo
 	ID "IDS_CANREQUESTSHIPSTATUS_NOTENOUGHCRYSTAL"
 	Value "Insufficient Tibanna."
@@ -5996,7 +6050,7 @@ StringInfo
 	Value "Insufficient Credits."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Durasteel."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_NOTENOUGHCRYSTAL"
 	Value "Insufficient Tibanna."
@@ -6275,7 +6329,7 @@ StringInfo
 	Value "Expert Tibanna Miners"
 StringInfo
 	ID "IDS_PLANETBONUS_CRYSTALMINERS_DESC"
-	Value "Increases the income rate of all this planet's Tibanna Extractors."
+	Value "Increases the income rate of all this planet's Tibanna Refinerys."
 StringInfo
 	ID "IDS_PLANETBONUS_DUSTSTORMS_NAME"
 	Value "Persistent Dust Storms"
@@ -6338,10 +6392,10 @@ StringInfo
 	Value "Enormous herding animals migrate along the equitorial ring, reducing space for colonies but providing valuable furs for export."
 StringInfo
 	ID "IDS_PLANETBONUS_METALMINERS_NAME"
-	Value "Expert Metal Miners"
+	Value "Expert Durasteel Miners"
 StringInfo
 	ID "IDS_PLANETBONUS_METALMINERS_DESC"
-	Value "Increases the income rate of all this planet's Metal Extractors."
+	Value "Increases the income rate of all this planet's Durasteel Extractors."
 StringInfo
 	ID "IDS_PLANETBONUS_METEORITECRATERS_NAME"
 	Value "Frequent Meteorites"
@@ -8042,7 +8096,7 @@ StringInfo
 	Value "Improved accounting and logistics advances grant each faction the ability to field more ships at lower upkeep costs."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_METAL_NAME"
-	Value "Metal Pact"
+	Value "Durasteel Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_METAL_DESCRIPTION"
 	Value "Two factions share extraction secrets and techniques, mutually improving metal extraction rates for both peoples."
@@ -8771,97 +8825,97 @@ StringInfo
 	Value "Efficient Tibanna Sorting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0_DESCRIPTION"
-	Value "Improved mechanized sorting techniques allow unrefined CRYSTALs to be graded more quickly, improving the rate of income from Tibanna Extractors."
+	Value "Improved mechanized sorting techniques allow unrefined CRYSTALs to be graded more quickly, improving the rate of income from Tibanna Refinerys."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1_NAME"
 	Value "Automated Mining Rigs"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1_DESCRIPTION"
-	Value "Autonomous robots greatly improve the efficiency of Tibanna Extractors, yielding higher rates of Tibanna income."
+	Value "Autonomous robots greatly improve the efficiency of Tibanna Refinerys, yielding higher rates of Tibanna income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2_NAME"
 	Value "Shockwave Pulverization"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2_DESCRIPTION"
-	Value "Directed shockwaves rapidly break apart waste material around Tibanna deposits, further improving the rate harvesting by Tibanna Extractors."
+	Value "Directed shockwaves rapidly break apart waste material around Tibanna deposits, further improving the rate harvesting by Tibanna Refinerys."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0_NAME"
 	Value "Selective Harvesting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0_DESCRIPTION"
-	Value "High value Tibanna nodes are prioritized, improving the rate of Tibanna ore harvesting by Tibanna Extractors."
+	Value "High value Tibanna nodes are prioritized, improving the rate of Tibanna ore harvesting by Tibanna Refinerys."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1_NAME"
 	Value "Tibanna Enrichment"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1_DESCRIPTION"
-	Value "Harvested Tibanna is doped with additives to improve its yield, increasing the rate of income from Tibanna Extractors."
+	Value "Harvested Tibanna is doped with additives to improve its yield, increasing the rate of income from Tibanna Refinerys."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2_NAME"
 	Value "Telekinetic Separation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2_DESCRIPTION"
-	Value "Impurities are psionically removed from CRYSTALs to improve their potency, further improving the rate of income from Tibanna Extractors."
+	Value "Impurities are psionically removed from CRYSTALs to improve their potency, further improving the rate of income from Tibanna Refinerys."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0_NAME"
-	Value "Deep Core Metal Mining"
+	Value "Deep Core Durasteel Mining"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0_DESCRIPTION"
-	Value "New extraction and excavation machinery improves the rate of ore harvesting by Metal Extractor structures."
+	Value "New extraction and excavation machinery improves the rate of ore harvesting by Durasteel Refinery structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1_NAME"
 	Value "Rapid Hydrometallurgy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1_DESCRIPTION"
-	Value "New chemical solvents leach valuable metals from ore more quickly, further improving the rate of income from Metal Extractors."
+	Value "New chemical solvents leach valuable metals from ore more quickly, further improving the rate of income from Durasteel Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2_NAME"
 	Value "Nuclear Smelting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2_DESCRIPTION"
-	Value "Energy from nuclear reactions is harnessed to refine metal ore more rapidly, further improving the rate of income from Metal Extractors."
+	Value "Energy from nuclear reactions is harnessed to refine metal ore more rapidly, further improving the rate of income from Durasteel Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0_NAME"
 	Value "Rich Ore Scrying"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0_DESCRIPTION"
-	Value "Particularly valuable ore deposits are discovered more quickly, improving the rate of ore harvesting by Metal Extractors."
+	Value "Particularly valuable ore deposits are discovered more quickly, improving the rate of ore harvesting by Durasteel Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1_NAME"
 	Value "Telekinetic Extraction"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1_DESCRIPTION"
-	Value "The telekinetic abilities of low level Psintegrat added to Metal Extractor crews further improves the rate of ore harvesting."
+	Value "The telekinetic abilities of low level Psintegrat added to Durasteel Refinery crews further improves the rate of ore harvesting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_NAME"
 	Value "Enhanced Reclamation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_DESCRIPTION"
-	Value "Usable metals are recovered from processing waste more efficiently, further increasing the rate of income from Metal Extractors."
+	Value "Usable metals are recovered from processing waste more efficiently, further increasing the rate of income from Durasteel Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT0_NAME"
 	Value "Resource Sublimation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT0_DESCRIPTION"
-	Value "Atomizing raw materials is made more efficient, increasing the rate of metal and Tibanna ore harvesting by Metal and Tibanna Extractors, respectively."
+	Value "Atomizing raw materials is made more efficient, increasing the rate of metal and Tibanna ore harvesting by Durasteel and Tibanna Refinerys, respectively."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT1_NAME"
 	Value "Entanglement Filtering"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT1_DESCRIPTION"
-	Value "Undesirable types of matter are quantum mechanically filtered, further improving metal and Tibanna income rates from Metal and Tibanna Extractors, respectively."
+	Value "Undesirable types of matter are quantum mechanically filtered, further improving metal and Tibanna income rates from Durasteel and Tibanna Refinerys, respectively."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT2_NAME"
 	Value "Catalyzed Atomic Sorting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT2_DESCRIPTION"
-	Value "Secondary reactions allow resources to be harvested more quickly, further improving metal and Tibanna income rates from Metal and Tibanna Extractors, respectively."
+	Value "Secondary reactions allow resources to be harvested more quickly, further improving metal and Tibanna income rates from Durasteel and Tibanna Refinerys, respectively."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3_NAME"
 	Value "Matter Decompilation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3_DESCRIPTION"
-	Value "Raw resources are molecularly harvested, leaving all waste materials behind and further improving metal and Tibanna income rates from Metal and Tibanna Extractors, respectively."
+	Value "Raw resources are molecularly harvested, leaving all waste materials behind and further improving metal and Tibanna income rates from Durasteel and Tibanna Refinerys, respectively."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1_NAME"
 	Value "Kultorask Prototype I"
@@ -9524,10 +9578,10 @@ StringInfo
 	Value "Planet Exploration"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_CANNOTCOLONIZEASHASCULTURETAKEOVER"
-	Value "Cannot colonize because hostile culture is too strong here."
+	Value "Cannot secure planet because hostile culture is too strong here."
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_CANNOTCOLONIZEASHASDEBUFF"
-	Value "Cannot colonize due to strong bombardment radiation."
+	Value "Cannot invade due to strong bombardment radiation."
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_CANNOTCOLONIZEASPLANETISNOTCOLONIZABLE"
 	Value "%ss are not colonizable."
@@ -9968,7 +10022,7 @@ StringInfo
 	Value "Warheads with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
 StringInfo
 	ID "IDS_ABILITY_COLONIZE_NAME"
-	Value "Colonize"
+	Value "Drop Troops"
 StringInfo
 	ID "IDS_ABILITY_COLONIZEPHASE_DESCRIPTION"
 	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. For a brief time, this planet will also have access to additional construction frigates."
@@ -11428,8 +11482,8 @@ StringInfo
 	ID "IDS_FRIGATE_MC30C_NAME"
 	Value "MC30c"
 StringInfo
-	ID "IDS_FRIGATE_ASSAULTFRIGATE_DESCRIPTION"
-	Value "A small Mon Calamari design which excels at seiging enemy structures."
+	ID "IDS_FRIGATE_MC30C_DESCRIPTION"
+	Value "A small Mon Calamari design which excels at sieging enemy structures."
 StringInfo
 	ID "IDS_FRIGATE_GALLOFREE_NAME"
 	Value "Gallofree Transport"
@@ -11687,13 +11741,13 @@ StringInfo
 	Value "Refines raw resources gathered by refinery ships."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Durasteel Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_DESC"
 	Value "Extracts raw resources from metal asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Tibanna Extractor"
+	Value "Tibanna Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_DESC"
 	Value "Extracts raw resources from Tibanna asteroids."
@@ -11771,13 +11825,13 @@ StringInfo
 	Value "Allows the establishment of new trade routes."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Durasteel Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALMETALEXTRACTOR_DESC"
 	Value "Extracts raw resources from metal asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Tibanna Extractor"
+	Value "Tibanna Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_DESC"
 	Value "Extracts raw resources from Tibanna asteroids."
@@ -11873,13 +11927,13 @@ StringInfo
 	Value "Refines raw resources from trade ships."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Durasteel Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_DESC"
 	Value "Extracts raw resources from metal asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Tibanna Extractor"
+	Value "Tibanna Refinery"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR_DESC"
 	Value "Extracts raw resources from Tibanna asteroids."
@@ -12626,22 +12680,22 @@ StringInfo
 	Value "Open Research Window (Artifact)"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONBUYMETAL"
-	Value "Buy Metal"
+	Value "Buy Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONSELLMETAL"
-	Value "Sell Metal"
+	Value "Sell Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETAMOUNTMETAL"
-	Value "Increase Market Offer Amount - Metal"
+	Value "Increase Market Offer Amount - Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETAMOUNTMETAL"
-	Value "Decrease Market Offer Amount - Metal"
+	Value "Decrease Market Offer Amount - Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETPRICEMETAL"
-	Value "Increase Market Offer Price - Metal"
+	Value "Increase Market Offer Price - Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETPRICEMETAL"
-	Value "Decrease Market Offer Price - Metal"
+	Value "Decrease Market Offer Price - Durasteel"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONBUYCRYSTAL"
 	Value "Buy Tibanna"
@@ -16502,7 +16556,7 @@ StringInfo
 	Value "Welcome to the Economy and Production tutorial. You will learn about the resources in Sins of a Solar Empire: Rebellion, how to acquire them, and how to spend them on units and structures."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_INTRORESOURCES"
-	Value "There are three resources in Sins of a Solar Empire: Credits, Metal, and Tibanna. Credits are the most basic and universal resource. They are a part of the cost of all units, structures and research."
+	Value "There are three resources in Sins of a Solar Empire: Credits, Durasteel, and Tibanna. Credits are the most basic and universal resource. They are a part of the cost of all units, structures and research."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINCREDITS"
 	Value "Additionally, credits ease certain transactions between empires, whether it be through the buying and selling of resources on the Black Market, or in the form of bounty against other empires."
@@ -16523,10 +16577,10 @@ StringInfo
 	Value "Until a certain number of these upgrades are performed, these planets will be a drain on your empire's credit income."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINMETAL"
-	Value "Metal is one of two secondary resources, and is primarily used in the construction of ships and structures. It is acquired from asteroids rich in metal ore via a Metal Extractor structure."
+	Value "Durasteel is one of two secondary resources, and is primarily used in the construction of ships and structures. It is acquired from asteroids rich in metal ore via a Durasteel Refinery structure."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINCRYSTAL"
-	Value "More advanced units and structures require Tibanna, which is acquired from similar asteroids via a Tibanna Extractor structure."
+	Value "More advanced units and structures require Tibanna, which is acquired from similar asteroids via a Tibanna Refinery structure."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_HIGHLIGHTRESOURCEAREA"
 	Value "The amount of each resource your empire has is shown at the top right corner of the HUD. You can mouse over any of these amounts to see a breakdown of income rate of each resource."
@@ -16565,7 +16619,7 @@ StringInfo
 	Value "Now that proper defenses are underway, it's time to build an extractor to provide some metal income. Click the Build Logistics Structure button."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_BUILDMEX"
-	Value "Good. Extractors are slightly different from regular structures; they can only be placed on top of a resource asteroid of the appropriate type, so they are automatically placed for you. Click the Metal Extractor button now."
+	Value "Good. Extractors are slightly different from regular structures; they can only be placed on top of a resource asteroid of the appropriate type, so they are automatically placed for you. Click the Durasteel Refinery button now."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_BUILDMEXDONE"
 	Value "Good. As soon the construction frigate finishes the Gauss Defense Platform, it will automatically move and begin building the next queued structure."
@@ -17051,7 +17105,7 @@ StringInfo
 	Value "Units can move relatively far from the fleet."
 StringInfo
 	ID "IDS_RESOURCEASTEROIDMETAL_NAME"
-	Value "Metal Asteroid"
+	Value "Durasteel Asteroid"
 StringInfo
 	ID "IDS_RESOURCEASTEROIDMETAL_DESC"
 	Value "Contains common metal resources. Build Extractors here to acquire them. Harvest additional resources with Refineries."
@@ -17114,7 +17168,7 @@ StringInfo
 	Value "Insufficient Credits"
 StringInfo
 	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal"
+	Value "Insufficient Durasteel"
 StringInfo
 	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_NOTENOUGHCRYSTAL"
 	Value "Insufficient Tibanna"
@@ -17156,7 +17210,7 @@ StringInfo
 	Value "Tax rate bonus"
 StringInfo
 	ID "IDS_PLANETUPGRADEINFOCARD_HOMEPLANETMETALRATEBONUS"
-	Value "Metal income bonus"
+	Value "Durasteel income bonus"
 StringInfo
 	ID "IDS_PLANETUPGRADEINFOCARD_HOMEPLANETCRYSTALRATEBONUS"
 	Value "Tibanna income bonus"
@@ -17318,49 +17372,49 @@ StringInfo
 	Value "Credits lost to other sources"
 StringInfo
 	ID "IDS_GameStat_MetalIncomeRate"
-	Value "Metal income rate"
+	Value "Durasteel income rate"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromResourceAsteroid"
-	Value "Metal gained from asteroids"
+	Value "Durasteel gained from asteroids"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromRefineryShips"
-	Value "Metal gained from refinery ships"
+	Value "Durasteel gained from refinery ships"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromPlayerTransfer"
-	Value "Metal received from allies"
+	Value "Durasteel received from allies"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromStockMarket"
-	Value "Metal gained from the black market"
+	Value "Durasteel gained from the black market"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromOther"
-	Value "Metal gained from other sources"
+	Value "Durasteel gained from other sources"
 StringInfo
 	ID "IDS_GameStat_MetalLostToPlayerTransfer"
-	Value "Metal given to allies"
+	Value "Durasteel given to allies"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStockMarket"
-	Value "Metal sold on the black market"
+	Value "Durasteel sold on the black market"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStockMarketBucket"
-	Value "Metal to be sold to other players"
+	Value "Durasteel to be sold to other players"
 StringInfo
 	ID "IDS_GameStat_MetalLostToShipPurchase"
-	Value "Metal spent on ships"
+	Value "Durasteel spent on ships"
 StringInfo
 	ID "IDS_GameStat_MetalLostToModulePurchase"
-	Value "Metal spent on structures"
+	Value "Durasteel spent on structures"
 StringInfo
 	ID "IDS_GameStat_MetalLostToPlanetUpgradePurchase"
-	Value "Metal spent on planets"
+	Value "Durasteel spent on planets"
 StringInfo
 	ID "IDS_GameStat_MetalLostToResearchSubjectPurchase"
-	Value "Metal spent on research"
+	Value "Durasteel spent on research"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStarBaseUpgradePurchase"
-	Value "Metal spent on starbase upgrades"
+	Value "Durasteel spent on starbase upgrades"
 StringInfo
 	ID "IDS_GameStat_MetalLostToOther"
-	Value "Metal lost to other sources"
+	Value "Durasteel lost to other sources"
 StringInfo
 	ID "IDS_GameStat_CRYSTALIncomeRate"
 	Value "Tibanna income rate"
@@ -17567,10 +17621,10 @@ StringInfo
 	Value "Structure - Culture Center"
 StringInfo
 	ID "IDS_GameStat_ModuleCRYSTALExtractorBuilt"
-	Value "Structure - Tibanna Extractor"
+	Value "Structure - Tibanna Refinery"
 StringInfo
 	ID "IDS_GameStat_ModuleMetalExtractorBuilt"
-	Value "Structure - Metal Extractor"
+	Value "Structure - Durasteel Refinery"
 StringInfo
 	ID "IDS_GameStat_ModuleHangarDefenseBuilt"
 	Value "Structure - Hangar Defense"
@@ -17597,13 +17651,13 @@ StringInfo
 	Value "Credits available"
 StringInfo
 	ID "IDS_GameStat_MetalAvailable"
-	Value "Metal available"
+	Value "Durasteel available"
 StringInfo
 	ID "IDS_GameStat_CRYSTALAvailable"
 	Value "Tibanna available"
 StringInfo
 	ID "IDS_GameStat_PlanetsAcquiredWithColonization"
-	Value "Planets colonized"
+	Value "Planets Successfully Invaded"
 StringInfo
 	ID "IDS_GameStat_PlanetsOwned"
 	Value "Planets owned"
@@ -17723,7 +17777,7 @@ StringInfo
 	Value "Credits"
 StringInfo
 	ID "IDS_GameStatGroup_Metal"
-	Value "Metal"
+	Value "Durasteel"
 StringInfo
 	ID "IDS_GameStatGroup_CRYSTAL"
 	Value "Tibanna"
@@ -18380,7 +18434,7 @@ StringInfo
 	Value "Max trainable level bonus:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_EXTRACTIONRATEMETALADJUSTMENT"
-	Value "Metal extraction increase:"
+	Value "Durasteel extraction increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_EXTRACTIONRATECRYSTALADJUSTMENT"
 	Value "Tibanna extraction increase:"
@@ -18398,7 +18452,7 @@ StringInfo
 	Value "Credits gained:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_METALGAINEDONPLANETSTRIPPED"
-	Value "Metal gained:"
+	Value "Durasteel gained:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CRYSTALGAINEDONPLANETSTRIPPED"
 	Value "Tibanna gained:"
@@ -18623,7 +18677,7 @@ StringInfo
 	Value "Credits relations boost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_TEMPORARYRELATIONSHIPFROMGIVEMETALVALUEADJUSTMENT"
-	Value "Metal relations boost:"
+	Value "Durasteel relations boost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_TEMPORARYRELATIONSHIPFROMGIVECRYSTALVALUESMAXADJUSTMENT"
 	Value "Tibanna relations boost:"
@@ -18833,7 +18887,7 @@ StringInfo
 	Value "Insufficient Credits."
 StringInfo
 	ID "IDS_ISTARBASEUPGRADECANQUEUENEXTSTAGESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Durasteel."
 StringInfo
 	ID "IDS_ISTARBASEUPGRADECANQUEUENEXTSTAGESTATUS_NOTENOUGHCRYSTAL"
 	Value "Insufficient Tibanna."
@@ -20270,7 +20324,7 @@ StringInfo
 	Value "%s Credits"
 StringInfo
 	ID "IDSPlayerScreenPriceMetalButton"
-	Value "%s Metal"
+	Value "%s Durasteel"
 StringInfo
 	ID "IDSPlayerScreenPriceCRYSTALButton"
 	Value "%s Tibanna"
@@ -20279,7 +20333,7 @@ StringInfo
 	Value "%s Credits"
 StringInfo
 	ID "IDSPlayerScreenRewardMetalButton"
-	Value "%s Metal"
+	Value "%s Durasteel"
 StringInfo
 	ID "IDSPlayerScreenRewardCRYSTALButton"
 	Value "%s Tibanna"
@@ -20837,7 +20891,7 @@ StringInfo
 	Value "Credits"
 StringInfo
 	ID "IDSStatsScreenTabButtonMetal"
-	Value "Metal"
+	Value "Durasteel"
 StringInfo
 	ID "IDSStatsScreenTabButtonCRYSTAL"
 	Value "Tibanna"
@@ -20972,7 +21026,7 @@ StringInfo
 	Value "Give Tibanna"
 StringInfo
 	ID "IDSQuestGiveMetal"
-	Value "Give Metal"
+	Value "Give Durasteel"
 StringInfo
 	ID "IDSQuestKillCivilianModules"
 	Value "Destroy Civilian Structures"
@@ -20999,7 +21053,7 @@ StringInfo
 	Value "Give Tibanna to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescGiveMetal"
-	Value "Give Metal to this player to complete the mission."
+	Value "Give Durasteel to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescKillCivilianModules"
 	Value "Destroy civilian structures of the target player to complete the mission."
@@ -21632,10 +21686,10 @@ StringInfo
 	Value "Give %s Credits to other players."
 StringInfo
 	ID "IDSAchievementNameHasGivenMetal"
-	Value "Metal Lender"
+	Value "Durasteel Lender"
 StringInfo
 	ID "IDSAchievementDescHasGivenMetal"
-	Value "Give %s Metal to other players."
+	Value "Give %s Durasteel to other players."
 StringInfo
 	ID "IDSAchievementNameHasGivenCRYSTAL"
 	Value "Tibanna Lender"
@@ -21692,10 +21746,10 @@ StringInfo
 	Value "Collect %s Credits from trade ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeMetalIncome"
-	Value "Metal Miner"
+	Value "Durasteel Miner"
 StringInfo
 	ID "IDSAchievementDescHasMadeMetalIncome"
-	Value "Collect %s Metal from resource extractors in a single game."
+	Value "Collect %s Durasteel from resource extractors in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeCRYSTALIncome"
 	Value "Tibanna Miner"
@@ -21707,7 +21761,7 @@ StringInfo
 	Value "Refining Magnate"
 StringInfo
 	ID "IDSAchievementDescHasMadeRefineryIncome"
-	Value "Collect %s Metal or Tibanna from refinery ships in a single game."
+	Value "Collect %s Durasteel or Tibanna from refinery ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasUsedCulture"
 	Value "Pop Idol"
@@ -21782,16 +21836,16 @@ StringInfo
 	Value "Um... What?"
 StringInfo
 	ID "IDSAchievementNameHasBoughtMetal"
-	Value "Metal Speculator"
+	Value "Durasteel Speculator"
 StringInfo
 	ID "IDSAchievementDescHasBoughtMetal"
-	Value "Buy %s Metal from the Black Market"
+	Value "Buy %s Durasteel from the Black Market"
 StringInfo
 	ID "IDSAchievementNameHasSoldMetalToMarket"
-	Value "Metal Merchant"
+	Value "Durasteel Merchant"
 StringInfo
 	ID "IDSAchievementDescHasSoldMetalToMarket"
-	Value "Sell %s Metal directly to the Black Market"
+	Value "Sell %s Durasteel directly to the Black Market"
 StringInfo
 	ID "IDSAchievementNameHasBoughtCRYSTAL"
 	Value "Tibanna Speculator"
@@ -21863,7 +21917,7 @@ StringInfo
 	Value "Culture"
 StringInfo
 	ID "IDSPlayerRankingNamePlanetsOwned"
-	Value "Colonization"
+	Value "Territory"
 StringInfo
 	ID "IDSPlayerRankingNameResearch"
 	Value "Research"
@@ -21872,9 +21926,9 @@ StringInfo
 	Value "Credits"
 StringInfo
 	ID "IDSPlayerRankingNameMetalIncome"
-	Value "Metal"
+	Value "Durasteel"
 StringInfo
-	ID "IDSPlayerRankingNameCRYSTALIncome"
+	ID "IDSPlayerRankingNameCrystalIncome"
 	Value "Tibanna"
 StringInfo
 	ID "IDSPlayerRankingNameRelationship"
@@ -22145,7 +22199,7 @@ StringInfo
 	Value "Target Player: *VALUE0*"
 StringInfo
 	ID "IDS_QUESTINFOCARDSTATUS_GIVERESOURCES"
-	Value "Remaining Credits: %i Metal: %i Tibanna: %i"
+	Value "Remaining Credits: %i Durasteel: %i Tibanna: %i"
 StringInfo
 	ID "IDS_QUESTINFOCARDSTATUS_KILLSHIPS"
 	Value "Remaining Ships: %i"

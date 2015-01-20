@@ -12,8 +12,8 @@ frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
 mainViewIcon "HUDICONSMALL_ESCAPEPOD"
 picture "HUDICONSMALL_ESCAPEPOD"
-NameStringID "IDS_FRIGATE_GALLOFREE_NAME"
-DescriptionStringID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
+NameStringID "IDS_FRIGATE_ESCAPEPOD_NAME"
+DescriptionStringID "IDS_FRIGATE_ESCAPEPOD_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000
