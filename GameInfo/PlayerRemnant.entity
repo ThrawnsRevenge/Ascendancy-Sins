@@ -68,7 +68,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 100
+		count 99
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -141,7 +141,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_VSDII"
 		entityDefName "RemnantResearch_ShipUnlock_ISDII"
 		entityDefName "RemnantResearch_ShipUnlock_Praetor"
-		entityDefName "RemnantResearch_ShipUnlock_Altor"
 		entityDefName "RemnantResearch_ShipUnlock_Scimitar"
 		entityDefName "RemnantResearch_ShipUnlock_Executor"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"

@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MC30C"
-smallHudIcon "HUDICON_MC30C"
+hudIcon "HUDICON_FRIGATE_MC30C"
+smallHudIcon "HUDICON_FRIGATE_MC30C"
 infoCardIcon ""
 NameStringID "IDS_FRIGATE_MC30C_NAME"
-DescriptionStringID "IDS_FRIGATE_MC30C0_DESCRIPTION"
+DescriptionStringID "IDS_FRIGATE_MC30C_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 2 , 1 ]

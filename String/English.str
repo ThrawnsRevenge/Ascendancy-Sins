@@ -1,5 +1,5 @@
 TXT
-NumStrings 7551
+NumStrings 7555
 StringInfo
 	ID "IDS_RANDOMEVENT_WARLORDS_NAME"
 	Value "Independent Warlord"
@@ -12,6 +12,18 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 	Value "A CR90 model refitted for diplomatic missions"
+StringInfo
+	ID "IDS_HERO_THRAWN_NAME"
+	Value "Grand Admiral Thrawn"
+StringInfo
+	ID "IDS_HERO_THRAWN_DESCRIPTION"
+	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy."
+StringInfo
+	ID "IDS_HERO_ACKBAR_NAME"
+	Value "Admiral Ackbar"
+StringInfo
+	ID "IDS_HERO_ACKBAR_DESCRIPTION"
+	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor."
 StringInfo
 	ID "IDS_FRIGATE_ESCAPEPOD_NAME"
 	Value "Escape Pod"
@@ -247,7 +259,7 @@ StringInfo
 	ID "IDSScenarioPlayerNameHapans"
 	Value "Hapes Consortium"
 StringInfo
-	ID "IDSScenarioPlayerNameWarlord"
+	ID "IDS_PLAYERRACENAME_WARLORDS"
 	Value "Independent Warlord"
 StringInfo
 	ID "IDS_PLAYERRACENAME_HAPANS"
@@ -7562,289 +7574,289 @@ StringInfo
 	Value "Basic Officer Training"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH0_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH1_NAME"
 	Value "Formalized Training Plan"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH1_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH2_NAME"
 	Value "Basic Military Academy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH2_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH3_NAME"
 	Value "Recruiting Propaganda"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH3_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH4_NAME"
 	Value "Advanced War College"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH4_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH5_NAME"
 	Value "Crisis Training Funds"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH5_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH6_NAME"
 	Value "High Command Academy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH6_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH7_NAME"
 	Value "Military Conscription"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSTECH7_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI0_NAME"
-	Value "Warrior Ancestry"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS0_NAME"
+	Value "Capital Command Tier I"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI0_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS0_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI1_NAME"
-	Value "Omens Of Leadership"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS1_NAME"
+	Value "Capital Command Tier II"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI1_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS1_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI2_NAME"
-	Value "Ritualized Instruction"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS2_NAME"
+	Value "Capital Command Tier III"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI2_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS2_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI3_NAME"
-	Value "Prophetic Authority"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_NAME"
+	Value "Capital Command Tier IV"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI3_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI4_NAME"
-	Value "Rites Of Vengeance"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS4_NAME"
+	Value "Capital Command Tier V"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI4_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS4_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI5_NAME"
-	Value "Hierarch's Chosen Ones"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS5_NAME"
+	Value "Capital Command Tier VI"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI5_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS5_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI6_NAME"
-	Value "Higher Calling"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS6_NAME"
+	Value "Capital Command Tier VII"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI6_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS6_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI7_NAME"
-	Value "Ascension Rites"
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS7_NAME"
+	Value "Capital Command Tier VIII"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPSI7_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS7_DESCRIPTION"
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0_NAME"
 	Value "Directed Reproduction"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE1_NAME"
 	Value "Augmented Genome"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE1_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE2_NAME"
 	Value "Engineered Intelligence"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE2_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE3_NAME"
 	Value "Accelerated Maturity"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE3_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE4_NAME"
 	Value "Cognitive Programming"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE4_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE5_NAME"
 	Value "Rapid Analysis Training"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE5_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE6_NAME"
 	Value "Cerebral Data Mapping"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE6_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE7_NAME"
 	Value "Wide-scale Cloning"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE7_DESCRIPTION"
-	Value "Increases the number of Capital ships your empire is able to sustain at once."
+	Value "Increases the number of Capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH0_NAME"
 	Value "Basic Provisioning"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH0_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH1_NAME"
 	Value "Standardized Depots"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH1_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH2_NAME"
 	Value "Just In Time Supplies"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH2_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH3_NAME"
 	Value "Remote Resupply Protocol"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH3_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH4_NAME"
 	Value "Provisioning Doctrine"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH4_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5_NAME"
 	Value "Fuel Efficient Deployment"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH6_NAME"
 	Value "Advanced Supply Control"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH6_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH7_NAME"
 	Value "Interstellar Supply Lines"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH7_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI0_NAME"
-	Value "Subliminal Manipulation"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS0_NAME"
+	Value "Fleet Command I"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI0_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS0_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI1_NAME"
-	Value "Telepathic Signalling"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS1_NAME"
+	Value "Fleet Command II"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI1_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS1_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI2_NAME"
-	Value "Compelled Contribution"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS2_NAME"
+	Value "Fleet Command III"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI2_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS2_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI3_NAME"
-	Value "Fleet Communion"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS3_NAME"
+	Value "Fleet Command IV"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI3_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS3_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI4_NAME"
-	Value "Mass Congregation"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS4_NAME"
+	Value "Fleet Command V"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI4_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS4_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI5_NAME"
-	Value "Unity's Directive"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS5_NAME"
+	Value "Fleet Command VI"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI5_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS5_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI6_NAME"
-	Value "Collective Sacrifice"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS6_NAME"
+	Value "Fleet Command VII"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI6_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS6_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI7_NAME"
-	Value "One Mind, One Voice"
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_NAME"
+	Value "Fleet Command VIII"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPSI7_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_DESCRIPTION"
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE0_NAME"
 	Value "Captive Suppliers"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE0_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE1_NAME"
 	Value "Deployment Monitoring"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE1_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE2_NAME"
 	Value "Annexed Supply Chains"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE2_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE3_NAME"
 	Value "Battlegroup Coordination"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE3_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE4_NAME"
 	Value "Siezed Infrastructure"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE4_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE5_NAME"
 	Value "FTL Transmissions"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE5_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE6_NAME"
 	Value "Oppressive Taxation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE6_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE7_NAME"
 	Value "Fleetwide Communication"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSPHASE7_DESCRIPTION"
-	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
+	Value "Increases the maximum fleet capacity your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MILITIA_ARMOR_NAME"
 	Value "Militia Armor"
