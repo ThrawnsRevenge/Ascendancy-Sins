@@ -51,8 +51,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"
-descStringID "IDS_ABILITY_TECHORBITALCANNON_DESC"
+nameStringID "IDS_ABILITY_ANNIHILATEPLANET_NAME"
+descStringID "IDS_ABILITY_ANNIHILATEPLANET_DESC"
 hudIcon "HUDABILITYICON_CLUSTERBOMBS"
 smallHudIcon "HUDABILITYICON_CLUSTERBOMBS"
 infoCardIcon ""

@@ -63,7 +63,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 86
+		count 87
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -81,6 +81,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_Bwing"
 		entityDefName "NewRepResearch_ShipUnlock_AssaultFrigate"
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
+		entityDefName "NewRepResearch_ShipUnlock_MC30"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
 		entityDefName "NewRepResearch_ShipUnlock_Kwing"
 		entityDefName "NewRepResearch_ShipUnlock_Hajen"

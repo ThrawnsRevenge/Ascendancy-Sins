@@ -409,6 +409,12 @@ StringInfo
 	ID "IDS_ABILITY_IONICDISRUPTION_DESCRIPTION"
 	Value "This ship's ion cannons disrupt enemy electrical system, reducing firing rates."
 StringInfo
+	ID "IDS_ABILITY_ANNIHILATEPLANET_NAME"
+	Value "Destroy Planet"
+StringInfo
+	ID "IDS_ABILITY_ANNIHILATEPLANET_DESCRIPTION"
+	Value "Fires a warhead at the target planet, destroyign it entirely."
+StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"
 	Value "Imposing Presence"
 StringInfo
@@ -2867,10 +2873,10 @@ StringInfo
 	Value "Porta"
 StringInfo
 	ID "IDS_CANNONSHELLTECH_NAME"
-	Value "Novalith Warhead"
+	Value "Galaxy Gun Warhead"
 StringInfo
 	ID "IDS_CANNONSHELLTECH_DESC"
-	Value "The apex of TEC ordnance technology; it will cause tremendous damage to a planet's infrastructure on impact."
+	Value "A large warhead capable of utterly annihilating a planet."
 StringInfo
 	ID "IDS_CANNONSHELLPSI_NAME"
 	Value "Deliverance Signal"
@@ -20795,16 +20801,16 @@ StringInfo
 	Value "Capital Victory Off"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledTrue"
-	Value "Research Victory On"
+	Value "Keep Off: On"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledFalse"
-	Value "Research Victory Off"
+	Value "Keep Off: Off"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledTrue"
-	Value "Occupation Victory On"
+	Value "Keep Off: On"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledFalse"
-	Value "Occupation Victory Off"
+	Value "Keep Off: Off"
 StringInfo
 	ID "IDSGameOptionsAlliedVictoryEnabledTrue"
 	Value "Allied Victory On"
