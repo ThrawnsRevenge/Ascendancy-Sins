@@ -1,5 +1,11 @@
 TXT
-NumStrings 7549
+NumStrings 7551
+StringInfo
+	ID "IDS_RANDOMEVENT_WARLORDS_NAME"
+	Value "Independent Warlord"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDWARLORDS"
+	Value "An independent Warlord group has begun attacking the galaxy."
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
@@ -240,6 +246,9 @@ StringInfo
 StringInfo
 	ID "IDSScenarioPlayerNameHapans"
 	Value "Hapes Consortium"
+StringInfo
+	ID "IDSScenarioPlayerNameWarlord"
+	Value "Independent Warlord"
 StringInfo
 	ID "IDS_PLAYERRACENAME_HAPANS"
 	Value "Hapes Consortium"

@@ -5,4 +5,18 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
-randomEventDefCount 0
+randomEventDefCount 1
+	randomEventDef
+		id "WARLORDFLEET"
+		nameID "IDS_RANDOMEVENT_WARLORDS_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDWARLORDS"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventWarlords"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomNonHomeworld"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 1200.0
+		nextSpawnTimeMax 3000.0
+		spawnWeight 0.01

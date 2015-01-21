@@ -2196,8 +2196,8 @@ planetItemsTemplate
 			owner "Pirate"
 			colonizeChance 1
 			items 2
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:AntiFighter"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carracl"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
@@ -2811,7 +2811,7 @@ themeGroup "PlayerRemnant"
 themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "NPC"
-autoAddPlayers 4
+autoAddPlayers 5
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -2867,6 +2867,23 @@ player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
 	overrideRaceName "EotH"
+	teamIndex -1
+	startingCredits 0
+	startingMetal 0
+	startingCrystal 0
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer TRUE
+	themeGroup "PlayerRemnant"
+	themeIndex 15
+	pictureGroup "PlayerRemnant"
+	pictureIndex 15
+player
+	designName "InsurgentWarlord"
+	inGameName "IDS_PLAYERRACENAME_WARLORDS"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
