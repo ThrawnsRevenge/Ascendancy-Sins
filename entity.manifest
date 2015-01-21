@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2258
+entityNameCount 2259
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"
@@ -462,6 +462,7 @@ entityName "BuffTargetHangar.entity"
 entityName "BuffConcussionBarrageHit.entity"
 entityName "BuffConcussionBarrageFiring.entity"
 entityName "BuffShieldRestoreTarget.entity"
+entityName "BuffShieldRestore.entity"
 entityName "BuffAlphaStrike.entity"
 entityName "BuffSignalInterference.entity"
 entityName "BuffImposingPresence.entity"
