@@ -2337,7 +2337,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 11
+			items 12
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:NovaCruiser"
@@ -2346,6 +2346,7 @@ planetItemsTemplate
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:StarHome"
 				item "Remnant:Module:GolanI"
 				item "Remnant:Module:GolanI"
 				item "Remnant:Module:GolanI"
@@ -2796,22 +2797,24 @@ planetItemsTemplate
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:StarHome"
-validPictureGroups 6
+validPictureGroups 7
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
 pictureGroup "PlayerTech"
 pictureGroup "PlayerRemnant"
 pictureGroup "PlayerNewRep"
 pictureGroup "PlayerEotH"
-validThemeGroups 7
+pictureGroup "PlayerHapans"
+validThemeGroups 8
 themeGroup "PlayerPhase"
 themeGroup "PlayerPsi"
 themeGroup "PlayerTech"
 themeGroup "PlayerRemnant"
 themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
+themeGroup "PlayerHapans"
 themeGroup "NPC"
-autoAddPlayers 5
+autoAddPlayers 6
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -2897,6 +2900,23 @@ player
 	themeIndex 15
 	pictureGroup "PlayerRemnant"
 	pictureIndex 15
+player
+	designName "HapesConsortium"
+	inGameName "IDS_PLAYERRACENAME_HAPANS"
+	overrideRaceName "Hapans"
+	teamIndex -1
+	startingCredits 0
+	startingMetal 0
+	startingCrystal 0
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "PlayerHapans"
+	themeIndex 15
+	pictureGroup "PlayerHapans"
+	pictureIndex 15
 autoAddMiltiaPlayerCountPerGalaxy 5
 autoAddMilitiaPlayers 20
 player
@@ -2918,7 +2938,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia1"
-	inGameName "IDSScenarioPlayerNameMilitia1"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -2935,7 +2955,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia2"
-	inGameName "IDSScenarioPlayerNameMilitia2"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -2952,7 +2972,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia3"
-	inGameName "IDSScenarioPlayerNameMilitia3"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -2969,7 +2989,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia4"
-	inGameName "IDSScenarioPlayerNameMilitia4"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -2986,7 +3006,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia5"
-	inGameName "IDSScenarioPlayerNameMilitia5"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3003,7 +3023,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia6"
-	inGameName "IDSScenarioPlayerNameMilitia6"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3020,7 +3040,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia7"
-	inGameName "IDSScenarioPlayerNameMilitia7"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3037,7 +3057,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia8"
-	inGameName "IDSScenarioPlayerNameMilitia8"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3054,7 +3074,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia9"
-	inGameName "IDSScenarioPlayerNameMilitia9"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3071,7 +3091,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia10"
-	inGameName "IDSScenarioPlayerNameMilitia10"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3088,7 +3108,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia11"
-	inGameName "IDSScenarioPlayerNameMilitia11"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3105,7 +3125,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia12"
-	inGameName "IDSScenarioPlayerNameMilitia12"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3122,7 +3142,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia13"
-	inGameName "IDSScenarioPlayerNameMilitia13"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3139,7 +3159,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia14"
-	inGameName "IDSScenarioPlayerNameMilitia14"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3156,7 +3176,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia15"
-	inGameName "IDSScenarioPlayerNameMilitia15"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3173,7 +3193,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia16"
-	inGameName "IDSScenarioPlayerNameMilitia16"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3190,7 +3210,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia17"
-	inGameName "IDSScenarioPlayerNameMilitia17"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3207,7 +3227,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia18"
-	inGameName "IDSScenarioPlayerNameMilitia18"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -3224,7 +3244,7 @@ player
 	pictureIndex 2
 player
 	designName "Militia19"
-	inGameName "IDSScenarioPlayerNameMilitia19"
+	inGameName "IDSScenarioPlayerNameMilitia0"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000

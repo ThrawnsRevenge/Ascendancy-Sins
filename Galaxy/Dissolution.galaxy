@@ -914,7 +914,7 @@ star
 		pos [ 918 , 526 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -928,7 +928,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansMedium"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -3209,7 +3210,7 @@ star
 		pos [ 892 , 534 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3223,15 +3224,9 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
-			groups 1
-			group
-				condition
-					type "Always"
-					param ""
-				owner "PlanetOwner"
-				colonizeChance 0.000000
-				items 0
+			subTemplates 1
+			template "Template:HapansMedium"
+			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
 		entityCount 0
@@ -3243,7 +3238,7 @@ star
 		pos [ 914 , 522 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3257,7 +3252,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansMedium"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -3270,7 +3266,7 @@ star
 		pos [ 875 , 586 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3284,7 +3280,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansMedium"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -3297,7 +3294,7 @@ star
 		pos [ 859 , 580 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3325,7 +3322,7 @@ star
 		pos [ 847 , 573 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3339,7 +3336,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansMedium"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -3352,7 +3350,7 @@ star
 		pos [ 822 , 531 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3366,7 +3364,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansUnique"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -3379,7 +3378,7 @@ star
 		pos [ 868 , 519 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -3393,7 +3392,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "Template:HapansMedium"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
@@ -4081,7 +4081,7 @@ star
 		pos [ 845 , 610 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "HapesConsortium"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -5000,8 +5000,8 @@ star
 		pos [ 883 , 556 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
-		isHomePlanet FALSE
+		owner "HapesConsortium"
+		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
 		normalStartUpgradeLevelForTacticalModules 0
@@ -6390,7 +6390,7 @@ star
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 10
+playerCount 11
 player
 	designName "NewPlayer0"
 	inGameName "NewPlayer0"
@@ -6561,6 +6561,23 @@ player
 	themeIndex 0
 	pictureGroup ""
 	pictureIndex 0
+player
+	designName "HapesConsortium"
+	inGameName "IDS_PLAYERRACENAME_HAPANS"
+	overrideRaceName "Hapans"
+	teamIndex -1
+	startingCredits 0
+	startingMetal 0
+	startingCrystal 0
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "PlayerHapans"
+	themeIndex 15
+	pictureGroup "PlayerHapans"
+	pictureIndex 15
 templates 1
 template
 	templateName "NewTemplate0"

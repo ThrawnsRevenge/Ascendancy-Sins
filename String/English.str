@@ -3169,98 +3169,98 @@ StringInfo
 	ID "IDS_CAPITALSHIPNAME_REMNANT39"
 	Value "Judicator"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE00"
-	Value "Vatornas"
+	ID "IDS_CAPITALSHIPNAME_NEWREP00"
+	Value "Galactic Voyager"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE01"
-	Value "Astirka"
+	ID "IDS_CAPITALSHIPNAME_NEWREP01"
+	Value "Adamantine"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE02"
-	Value "Vornas"
+	ID "IDS_CAPITALSHIPNAME_NEWREP02"
+	Value "Antares Six"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE03"
-	Value "Larkitra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP03"
+	Value "Ralroost"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE04"
-	Value "Kintora"
+	ID "IDS_CAPITALSHIPNAME_NEWREP04"
+	Value "Brilliant"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE05"
-	Value "Sultra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP05"
+	Value "Defiance"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE06"
-	Value "Kratovas"
+	ID "IDS_CAPITALSHIPNAME_NEWREP06"
+	Value "Emancipator"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE07"
-	Value "LarrTul"
+	ID "IDS_CAPITALSHIPNAME_NEWREP07"
+	Value "Freedom's Reign"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE08"
-	Value "Korigul"
+	ID "IDS_CAPITALSHIPNAME_NEWREP08"
+	Value "Intrepid"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE09"
-	Value "Artorska"
+	ID "IDS_CAPITALSHIPNAME_NEWREP09"
+	Value "Illustrious"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE10"
-	Value "Sonrakus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP10"
+	Value "Harbinger"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE11"
-	Value "Tiraskus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP11"
+	Value "Independent"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE12"
-	Value "Ravustra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP12"
+	Value "Indomitable"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE13"
-	Value "Junakra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP13"
+	Value "Justice"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE14"
-	Value "Rakulas"
+	ID "IDS_CAPITALSHIPNAME_NEWREP14"
+	Value "Krakana"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE15"
-	Value "Vaskarus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP15"
+	Value "Liberator"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE16"
-	Value "Toruvak"
+	ID "IDS_CAPITALSHIPNAME_NEWREP16"
+	Value "Mon Mothma"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE17"
-	Value "Vanatorak"
+	ID "IDS_CAPITALSHIPNAME_NEWREP17"
+	Value "Mon Adapyne"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE18"
-	Value "Ruskovak"
+	ID "IDS_CAPITALSHIPNAME_NEWREP18"
+	Value "Mon Casima"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE19"
-	Value "Antarus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP19"
+	Value "Mon Delinda"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE20"
-	Value "Vakarus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP20"
+	Value "Mon Karren"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE21"
-	Value "Voskul"
+	ID "IDS_CAPITALSHIPNAME_NEWREP21"
+	Value "Mon Remonda"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE22"
-	Value "Tarsika"
+	ID "IDS_CAPITALSHIPNAME_NEWREP22"
+	Value "Monitor"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE23"
-	Value "Jikantra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP23"
+	Value "Monarch"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE24"
-	Value "Arankul"
+	ID "IDS_CAPITALSHIPNAME_NEWREP24"
+	Value "New Hope"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE25"
-	Value "Karakus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP25"
+	Value "Nova"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE26"
-	Value "Senvistra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP26"
+	Value "Obi-Wan"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE27"
-	Value "Voritul"
+	ID "IDS_CAPITALSHIPNAME_NEWREP27"
+	Value "Peregrine"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE28"
-	Value "Vilakus"
+	ID "IDS_CAPITALSHIPNAME_NEWREP28"
+	Value "Phaeda's Hope"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE29"
-	Value "Skukra"
+	ID "IDS_CAPITALSHIPNAME_NEWREP29"
+	Value "Orthavan"
 StringInfo
-	ID "IDS_CAPITALSHIPNAME_PHASE30"
-	Value "Jrakis"
+	ID "IDS_CAPITALSHIPNAME_NEWREP30"
+	Value "Pride of Selonia"
 StringInfo
 	ID "IDS_STARBASENAME_TECH00"
 	Value "Galvanov"
@@ -21314,7 +21314,7 @@ StringInfo
 	Value "Eta Sector Remnants"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia0"
-	Value "Aluxian Refugees"
+	Value "Sector Fleet"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia1"
 	Value "Mustrin Outlanders"

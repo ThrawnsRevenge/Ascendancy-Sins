@@ -48,11 +48,10 @@ entities
 			entityDefName "NewRep_AssaultFrigate"
 			entityDefName "Hapans_BattleDragon"
 		NotOnPage
-			count 4
+			count 3
 			entityDefName "FrigateTechModuleConstructor"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "FrigateTechRefineryShip"
-			entityDefName "Hapans_StarHome"
 	researchInfo
 		count 32
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
@@ -90,7 +89,7 @@ entities
 	starBaseInfo
 		count 1
 		entityDefName "StarBaseTech"
-	flagship "NewRep_HomeOne"
+	flagship "Hapans_StarHome"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"
