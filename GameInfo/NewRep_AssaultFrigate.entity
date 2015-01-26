@@ -42,7 +42,7 @@ armorType "Heavy"
 hudIcon "HUDICON_ASSAULTFRIGATE"
 smallHudIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
 infoCardIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
-minZoomDistanceMult 7.500000
+minZoomDistanceMult 2.500000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
