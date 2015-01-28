@@ -4,23 +4,23 @@ brushCount 115
 brush
 	name "HUDICON_RESOURCEASTEROIDMETAL"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 969 , 902 , 29 , 29 ]
+	fileName "smallicons"
+	pixelBox [ 125 , 31 , 22 , 22 ]
 brush
 	name "HUDICON_RESOURCEASTEROIDCRYSTAL"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 969 , 872 , 29 , 29 ]
+	fileName "smallicons"
+	pixelBox [ 155 , 31 , 22 , 22 ]
 brush
 	name "HUDICONSMALL_RESOURCEASTEROIDMETAL"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 175 , 969 , 28 , 23 ]
+	fileName "smallicons"
+	pixelBox [ 125 , 31 , 22 , 22 ]
 brush
 	name "HUDICONSMALL_RESOURCEASTEROIDCRYSTAL"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 175 , 945 , 28 , 23 ]
+	fileName "smallicons"
+	pixelBox [ 155 , 31 , 22 , 22 ]
 brush
 	name "HUDICON_PLANET_UNKNOWN"
 	content "Simple"

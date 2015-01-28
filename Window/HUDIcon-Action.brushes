@@ -520,307 +520,307 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 112 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 112 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 112 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 112 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 112 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_ATTACK"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 82 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 82 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 82 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_ATTACKRANGENONE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_ATTACKRANGELOCALAREA"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_ATTACKRANGEGRAVITYWELL"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 82 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 82 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 82 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_CHANGEAUTOATTACKRANGE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 772 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_COHESIONRANGENONE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_COHESIONRANGENEAR"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_COHESIONRANGEFAR"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_CHANGECOHESIONRANGE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_SINGLEMOVE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_PARTIALGROUPMOVE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 552 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 552 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 552 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 552 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 42 , 52 , 37 ]
 brush
 	name "ActionIconCreateFleet"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 brush
 	name "ActionIconDisbandFleet"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 2 , 52 , 37 ]
 brush
 	name "ActionIconRetreat"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 82 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 82 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 717 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 717 , 82 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_STOP"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 brush
 	name "ACTIONICON_TOGGLESCUTTLE"
 	content "States"
@@ -844,109 +844,109 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_CLOSESQUADRONMANAGEMENT"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_OPENCAPITALABILITYMANAGEMENT"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_CLOSECAPITALABILITYMANAGEMENT"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_OPENMANAGETACTICS"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 607 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_CLOSEMANAGETACTICS"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_USECAPITALABILITY"
 	content "States"
@@ -954,10 +954,10 @@ brush
 		fileName "Buttons_Main_Disabled"
 		pixelBox [ 2 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
+		fileName "Buttons_Main_Highlight"
 		pixelBox [ 2 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
+		fileName "Buttons_Main_Highlight"
 		pixelBox [ 2 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
@@ -970,19 +970,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 497 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 497 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_ABANDON"
 	content "States"
@@ -1006,19 +1006,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENTITANMANAGEMENT_TECHLOYALIST"
 	content "States"
@@ -1186,55 +1186,55 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENT0"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 2 , 42 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 2 , 42 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 2 , 42 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 2 , 42 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 2 , 42 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENT1"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
-		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		fileName "Buttons_Main_Highlight"
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENTPSI0"
 	content "States"
@@ -1312,37 +1312,37 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_CLOSEFRIGATEMANAGEMENT1"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENPLANETMODULEMANAGEMENT_ORBIT0"
 	content "States"
@@ -1366,19 +1366,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_OPENPLANETMODULEMANAGEMENT_ORBIT1"
 	content "States"
@@ -1402,19 +1402,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ACTIONICON_PLANET_BUILDCAPITALSHIP"
 	content "States"
@@ -1528,19 +1528,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 57 , 2 , 52 , 37 ]
 brush
 	name "ActionIconStarBaseOpenUpgradeManagement"
 	content "States"
@@ -1708,37 +1708,37 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 82 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 82 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 552 , 82 , 52 , 37 ]
 brush
 	name "ActionIconPingAllyStop"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Pressed
 		fileName "Buttons_Main_Pressed"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	CursorOver
 		fileName "Buttons_Main_CursorOver"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Focused
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 	Normal
 		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+		pixelBox [ 662 , 82 , 52 , 37 ]
 brush
 	name "ActionIconBuildResourceAsteroidExtractor"
 	content "States"
