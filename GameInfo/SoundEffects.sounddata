@@ -1,5 +1,5 @@
 TXT
-numEffects 384
+numEffects 390
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -5759,5 +5759,95 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.5
 	fadeOutTime 1.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_IONCANNON_MUZZLE"
+	fileName "Weapon_Capital_IonCannon_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
+	fileName "Weapon_Capital_IonCannon_Muzzle_Alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
+	fileName "Weapon_Capital_IonCannon_Muzzle_Alt2.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+	fileName "Weapon_Capital_TurboLaser_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+	fileName "Weapon_Capital_TurboLaser_Muzzle_Alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+	fileName "Weapon_Capital_TurboLaser_Muzzle_Alt2.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
 	alternateGroup ""
 	
