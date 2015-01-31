@@ -1,6 +1,114 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 35
+brushCount 41
+brush
+	name "HUDABILITYICON_PROJECTFORCE"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 277 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 277 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 277 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 277 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 277 , 82 , 52 , 37 ]
+brush
+	name "HUDABILITYICON_SLIMPROFILE"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 222 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 222 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 222 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 222 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 222 , 82 , 52 , 37 ]
+brush
+	name "HUDABILITYICON_COMMANDDEFENSE"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 167 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 167 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 167 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 167 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 167 , 82 , 52 , 37 ]
+brush
+	name "HUDABILITYICON_COMMANDASSAULT"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 112 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 112 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 112 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 112 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 112 , 82 , 52 , 37 ]
+brush
+	name "HUDABILITYICON_BOARDINGPARTY"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 57 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 57 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 57 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 57 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 57 , 82 , 52 , 37 ]
+brush
+	name "HUDABILITYICON_INCITEREBELLION"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 2 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 2 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 2 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 2 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 2 , 82 , 52 , 37 ]
 brush
 	name "HUDABILITYICON_BOMBARDMENT"
 	content "States"
