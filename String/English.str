@@ -1,5 +1,17 @@
 TXT
-NumStrings 7555
+NumStrings 7570
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_NAME"
+	Value "Social Specialization"
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_DESC"
+	Value "Dedicate this planet towards greater population and cultural influence at the cost of trade and industry. Choosing this path locks out Industry Specialization."
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_NAME"
+	Value "Industry Specialization"
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_DESC"
+	Value "Dedicate this planet towards trade income and ship building at the cost of culture and population. Choosing this path locks out Social Specialization."
 StringInfo
 	ID "IDS_RANDOMEVENT_WARLORDS_NAME"
 	Value "Independent Warlord"
@@ -430,6 +442,12 @@ StringInfo
 	ID "IDS_ABILITY_IONICDISRUPTION_DESCRIPTION"
 	Value "This ship's ion cannons disrupt enemy electrical system, reducing firing rates."
 StringInfo
+	ID "IDS_ABILITY_DETONATEFUELCELLS_NAME"
+	Value "Detonate Fuel Cells"
+StringInfo
+	ID "IDS_ABILITY_DETONATEFUELCELLS_DESCRIPTION"
+	Value "The Altor self destructs, doing damage to all targets around it."
+StringInfo
 	ID "IDS_ABILITY_ANNIHILATEPLANET_NAME"
 	Value "Destroy Planet"
 StringInfo
@@ -489,6 +507,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_SIGNALINTERFERENCE_DESCRIPTION"
 	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, interfering with targetting and entering hyperspace."
+StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETTING_NAME"
+	Value "Interrupt Targetting"
+StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETTING_DESCRIPTION"
+	Value "Enemy targetting computers in an area are scrambled, reducing their chance to hit their targets."
 StringInfo
 	ID "IDS_ABILITY_ALPHASTRIKE_NAME"
 	Value "Fighter Sweep"
@@ -579,6 +603,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_AURAOFFEAR_DESCRIPTION"
 	Value "The fear of failure causes Imperials to recklessly attack their enemies, dealing increased damage but also leacving themselves more vulnerable to attack."
+StringInfo
+	ID "IDS_ABILITY_COORDINATE_NAME"
+	Value "Coordinate Fighters"
+StringInfo
+	ID "IDS_ABILITY_COORDINATE_DESCRIPTION"
+	Value "Increases the damage output of allied fighters in a radius for a short time."
 StringInfo
 	ID "IDS_ABILITY_POWERSYMBOL_NAME"
 	Value "Power Symbol"
@@ -1163,7 +1193,7 @@ StringInfo
 	Value "Galaxy Gun"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_DESCRIPTION"
-	Value "Grants access to the Galaxy Gun."		
+	Value "A large stationary cannon capable of destroying an entire planet."		
 StringInfo
 	ID "IDSPlayerAINameTech0"
 	Value "Home Fleet"

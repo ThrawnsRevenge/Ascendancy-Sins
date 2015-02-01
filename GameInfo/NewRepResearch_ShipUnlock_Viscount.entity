@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_VISCOUNT"
-smallHudIcon "HUDICON_VISCOUNT"
+hudIcon "HUDICON_TITAN_HOMEONE"
+smallHudIcon "HUDICON_TITAN_HOMEONE"
 infoCardIcon ""
 NameStringID "IDS_TITAN_VISCOUNT_NAME"
 DescriptionStringID "IDS_TITAN_VISCOUNT_DESCRIPTION"

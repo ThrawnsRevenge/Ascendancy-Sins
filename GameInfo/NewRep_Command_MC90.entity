@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_COMMANDERSHIP_MC90COMMAND_NAME"
-DescriptionStringID "IDS_COMMANDERSHIP_MC90COMMAND_DESCRIPTION"
+NameStringID "IDS_COMMANDERSHIP_MC90_NAME"
+DescriptionStringID "IDS_COMMANDERSHIP_MC90_DESCRIPTION"
 picture "HUDICON_MC90"
 Prerequisites
 	NumResearchPrerequisites 1
