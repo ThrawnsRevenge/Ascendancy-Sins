@@ -728,13 +728,13 @@ researchScreenData
 			area [ 50 , 343 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat0Remnant"
+			title "IDSResearchScreenBlockTitleCombat1NewRep"
 			picture "ResearchScreenBlockPictureNonCombat0Phase"
 		block
 			area [ 50 , 545, 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat0Remnant"
+			title "IDSResearchScreenBlockTitleCombat2NewRep"
 			picture "ResearchScreenBlockPictureCombat1Tech"
 	Defense
 		blockCount 1
@@ -770,8 +770,8 @@ researchScreenData
 			area [ 50 , 93 , 690 , 292 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleDiplomacy0Psi"
-			picture "ResearchScreenBlockPictureDiplomacyPsi"
+			title "IDS_RESEARCHFIELD_DIPLOMACY"
+			picture "ResearchScreenBlockPictureDiplomacyTech"
 	Artifact
 		blockCount 1
 		block

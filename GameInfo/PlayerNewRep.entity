@@ -706,13 +706,13 @@ researchScreenData
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
 			title "IDSResearchScreenBlockTitleCombat1NewRep"
-			picture "ResearchScreenBlockPictureNonCombat2Psi"
+			picture "ResearchScreenBlockPictureNonCombat0Phase"
 		block
 			area [ 50 , 545, 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
 			title "IDSResearchScreenBlockTitleCombat2NewRep"
-			picture "ResearchScreenBlockPictureNonCombat1Psi"
+			picture "ResearchScreenBlockPictureCombat1Tech"
 	Defense
 		blockCount 1
 		block
@@ -720,7 +720,7 @@ researchScreenData
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
 			title "IDSResearchScreenBlockTitleDefense0NewRep"
-			picture "ResearchScreenBlockPictureDefense0Tech"
+			picture "ResearchScreenBlockPictureDefense0Psi"
 	NonCombat
 		blockCount 3
 		block
@@ -728,13 +728,13 @@ researchScreenData
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
 			title "IDSResearchScreenBlockTitleNonCombat0NewRep"
-			picture "ResearchScreenBlockPictureNonCombat0Tech"
+			picture "ResearchScreenBlockPictureNonCombat0Psi"
 		block
 			area [ 50 , 295 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
 			title "IDSResearchScreenBlockTitleNonCombat1NewRep"
-			picture "ResearchScreenBlockPictureNonCombat1Tech"
+			picture "ResearchScreenBlockPictureNonCombat1Psi"
 		block
 			area [ 50 , 497 , 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
@@ -747,7 +747,7 @@ researchScreenData
 			area [ 50 , 93 , 690 , 292 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Psi"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Psi"
-			title "IDSResearchScreenBlockTitleDiplomacy0Tech"
+			title "IDS_RESEARCHFIELD_DIPLOMACY"
 			picture "ResearchScreenBlockPictureDiplomacyTech"
 	Artifact
 		blockCount 1
