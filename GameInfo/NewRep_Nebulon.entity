@@ -39,7 +39,7 @@ armorType "Heavy"
 hudIcon "HUDICON_NEBULON"
 smallHudIcon "HUDICONSMALL_FRIGATE_NEBULON"
 infoCardIcon "HUDICONSMALL_FRIGATE_NEBULON"
-minZoomDistanceMult 7.500000
+minZoomDistanceMult 3.500000
 NumWeapons 2
 Weapon
 	WeaponType "Projectile"
