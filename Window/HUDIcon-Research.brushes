@@ -110,6 +110,24 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 883 , 43 , 50 , 37 ]
 brush
+	name "HUDICON_RESEARCH_ACKBAR"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 828 , 83 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 828 , 83 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 828 , 83 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 828 , 83 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 828 , 83 , 50 , 37 ]
+brush
 	name "HUDICON_RESEARCH_ADDWEAPONBANKS"
 	content "States"
 	Disabled

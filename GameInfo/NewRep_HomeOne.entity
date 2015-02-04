@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Invalid"
 statCountType "CapitalShipBattleship"
-mainViewIcon "HUDICONSMALL_HERO_ACKBAR"
-picture "HUDICON_HERO_ACKBAR"
+mainViewIcon "HUDICON_RESEARCH_ACKBAR"
+picture "HUDICON_RESEARCH_ACKBAR"
 NameStringID "IDS_HERO_ACKBAR_NAME"
 DescriptionStringID "IDS_HERO_ACKBAR_DESCRIPTION"
 counterDescriptionStringID ""
@@ -36,9 +36,9 @@ numRandomDebrisLarge 8
 numRandomDebrisSmall 25
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_TITAN_HOMEONE"
-smallHudIcon "HUDICONSMALL_HERO_ACKBAR"
-infoCardIcon "HUDICONSMALL_HERO_ACKBAR"
+hudIcon "HUDICON_RESEARCH_ACKBAR"
+smallHudIcon "HUDICON_RESEARCH_ACKBAR"
+infoCardIcon "HUDICON_RESEARCH_ACKBAR"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon
