@@ -39,7 +39,7 @@ armorType "Light"
 hudIcon "HUDICON_FRIGATE_TECHMODULECONSTRUCTOR"
 smallHudIcon "HUDICONSMALL_FRIGATE_TECHMODULECONSTRUCTOR"
 infoCardIcon "INFOCARDICON_FRIGATE_TECHMODULECONSTRUCTOR"
-minZoomDistanceMult 5.000000
+minZoomDistanceMult 7.500000
 NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"

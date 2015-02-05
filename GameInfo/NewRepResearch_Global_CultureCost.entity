@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "CultureModuleCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.550000
+	perLevelValue 0.250000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

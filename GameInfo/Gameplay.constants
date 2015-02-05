@@ -15,7 +15,7 @@ GameplayConstants
 	unexploredPhaseLaneWidth 0.5
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
-	cannonGravityWellRatioDenominator 10
+	cannonGravityWellRatioDenominator 15
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.30

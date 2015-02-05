@@ -1066,6 +1066,24 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_STRENGTHINNUMBERS_DESCRIPTION"
 	Value "Reduces fleet upkeep cost at the cost of passive hull regeneration."
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_DEREGULATION_NAME"
+	Value "Deregulation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_DEREGULATION_DESCRIPTION"
+	Value "Increaes the rate at which construction projects are completed."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TIBANNA_NAME"
+	Value "Tibanna Gas Production"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TIBANNA_DESCRIPTION"
+	Value "Increaes the rate at which Tibanna gas is refined."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
+	Value "Tibanna Gas Production"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_DURASTEEL_DESCRIPTION"
+	Value "Increaes the rate at which Durasteel is refined."
+StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTIFICATIONS_NAME"
 	Value "Fortifications"
 StringInfo
