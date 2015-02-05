@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "ModuleConstructor"
 statCountType "FrigateConstructor"
-mainViewIcon "MAINVIEWICON_FRIGATE_CT11"
-picture "PICTURE_FRIGATE_CT11"
+mainViewIcon "HUDICONSMALL_CT11"
+picture "HUDICON_CT11"
 NameStringID "IDS_FRIGATE_CT11_NAME"
 DescriptionStringID "IDS_FRIGATE_CT11_DESC"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_TECHMODULECONSTRUCTOR"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHMODULECONSTRUCTOR"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHMODULECONSTRUCTOR"
+hudIcon "HUDICON_CT11"
+smallHudIcon "HUDICONSMALL_CT11"
+infoCardIcon "HUDICON_CT11"
 minZoomDistanceMult 5.000000
 NumWeapons 0
 m_weaponIndexForRange 0

@@ -137,7 +137,7 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 552 , 2 , 52 , 37 ]
 brush
-	name "HUDICON_SPACETUG"
+	name "HUDICON_CT11"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -155,7 +155,7 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 607 , 2 , 52 , 37 ]
 brush
-	name "HUDICONSMALL_SPACETUG"
+	name "HUDICONSMALL_CT11"
 	content "Simple"
 	fileName "Cruiser_Pips"
 	pixelBox [ 270 , 30 , 30 , 30 ]

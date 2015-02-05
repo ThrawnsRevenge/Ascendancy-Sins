@@ -1,6 +1,168 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 583
+brushCount 592
+brush
+	name "HUDICON_RESEARCH_CULTURECOSTDECREASE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 443 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_CULTUREALLEGIANCE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 388 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 388 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 388 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 338 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 388 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 333 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 333 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 333 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 333 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 333 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_GAVRISOM"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 278 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 278 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 278 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 278 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 278 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_DEMOCRATICPEACE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 223 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 223 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 223 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 223 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 223 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_SHIPCONVERT"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 168 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 168 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 168 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 168 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 168 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_SHIPSHIELDINCREASE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 113 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 113 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 113 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 113 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 113 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_INSPIRE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 58 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 58 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 58 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 58 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 58 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_DEFENSIVEFORMATION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 3 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 3 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 3 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 3 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 3 , 123 , 50 , 37 ]
 brush
 	name "HUDICON_RESEARCH_ALLEGIANCE"
 	content "States"
