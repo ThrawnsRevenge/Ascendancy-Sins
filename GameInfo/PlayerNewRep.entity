@@ -763,13 +763,13 @@ researchScreenData
 			area [ 7 , 62 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet0Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Tech"
+			title "IDSResearchScreenBlockTitleFleet0"
 			picture ""
 		block
 			area [ 7 , 348 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet1Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Tech"
+			title "IDSResearchScreenBlockTitleFleet1"
 			picture ""
 	capitalShipSlotLevelPicture-0 "ResearchScreenCapitalShipSlotLevelPicture0Tech"
 	capitalShipSlotLevelPicture-1 "ResearchScreenCapitalShipSlotLevelPicture1Tech"
