@@ -14,7 +14,7 @@ numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_SHIELDGENERATOR"
 smallHudIcon "HUDICON_SHIELDGENERATOR"
-infoCardIcon ""
+infoCardIcon "HUDICON_SHIELDGENERATOR"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 3.000000
 basePrice
@@ -66,8 +66,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-picture "PLANETMODULEPICTURE_TECHORBITALSHIELDGENERATOR"
+mainViewIcon "HUDICON_SHIELDGENERATOR"
+picture "HUDICON_SHIELDGENERATOR"
 minShadow 0.000000
 maxShadow 0.500000
 formationRank 3
