@@ -103,7 +103,7 @@ tutorial
 		fontId "WindowSubTitle"
 		text "IDSSinglePlayerSetupScreenTutorialTitle"
 	basicGameplayButton
-		area [50, 152, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
@@ -112,7 +112,7 @@ tutorial
 		icon "GalaxyTutorialTypeButtonBasicGameplay"
 		text "IDSGalaxyTutorialTypeButtonBasicGameplay"			
 	resourcingButton
-		area [50, 204, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
@@ -121,7 +121,7 @@ tutorial
 		icon "GalaxyTutorialTypeButtonResourcing"
 		text "IDSGalaxyTutorialTypeButtonResourcing"			
 	advancedInterfaceButton
-		area [50, 258, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
@@ -130,7 +130,7 @@ tutorial
 		icon "GalaxyTutorialTypeButtonAdvancedInterface"
 		text "IDSGalaxyTutorialTypeButtonAdvancedInterface"			
 	advancedLogisticsButton
-		area [50, 310, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
@@ -139,7 +139,7 @@ tutorial
 		icon "GalaxyTutorialTypeButtonAdvancedResourcing"
 		text "IDSGalaxyTutorialTypeButtonAdvancedResourcing"
 	advancedDefenseButton
-		area [50, 364, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
@@ -148,7 +148,7 @@ tutorial
 		icon "GalaxyTutorialTypeButtonAdvancedDefense"
 		text "IDSGalaxyTutorialTypeButtonAdvancedDefense"
 	diplomacyButton
-		area [50, 416, 220 , 46]
+		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55

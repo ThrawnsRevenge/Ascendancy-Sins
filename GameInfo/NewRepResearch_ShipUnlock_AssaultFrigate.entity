@@ -3,7 +3,7 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_ASSAULTFRIGATE"
 smallHudIcon "HUDICON_ASSAULTFRIGATE"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_ASSAULTRIGATE_NAME"
+NameStringID "IDS_FRIGATE_ASSAULTFRIGATE_NAME"
 DescriptionStringID "IDS_FRIGATE_ASSAULTFRIGATE_DESCRIPTION"
 researchWindowLocation
 	block 0

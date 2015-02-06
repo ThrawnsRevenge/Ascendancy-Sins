@@ -1,5 +1,11 @@
 TXT
-NumStrings 7570
+NumStrings 7572
+StringInfo
+	ID "ResearchScreenBlockTitleFleet1"
+	Value "Fleet Command"
+StringInfo
+	ID "ResearchScreenBlockTitleFleet0"
+	Value "Capital Command"
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_NAME"
 	Value "Social Specialization"
@@ -442,6 +448,12 @@ StringInfo
 	ID "IDS_ABILITY_IONICDISRUPTION_DESCRIPTION"
 	Value "This ship's ion cannons disrupt enemy electrical system, reducing firing rates."
 StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETING_NAME"
+	Value "Scramble Transmissions"
+StringInfo
+	ID "IDS_ABILITY_INTERRUPTTARGETTING_DESCRIPTION"
+	Value "Interferes with the ability of enemy ships to effectively select targets."
+StringInfo
 	ID "IDS_ABILITY_DETONATEFUELCELLS_NAME"
 	Value "Detonate Fuel Cells"
 StringInfo
@@ -550,10 +562,10 @@ StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_DESCRIPTION"
 	Value "Deploys probe droids to the target system, revealing it."
 StringInfo
-	ID "IDS_ABILITY_HULLBREACH_NAME"
+	ID "IDS_ABILITY_BREACH_NAME"
 	Value "Hull Breach"
 StringInfo
-	ID "IDS_ABILITY_HULLBREACH_DESCRIPTION"
+	ID "IDS_ABILITY_BREACH_DESCRIPTION"
 	Value "The BAC shoots a high-powered turbolaser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
 StringInfo
 	ID "IDS_ABILITY_BOTHANSPIES_NAME"
