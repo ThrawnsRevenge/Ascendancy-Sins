@@ -93,7 +93,7 @@ ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "TradeCredits"
-maxCargoCapacity 50.000000
+maxCargoCapacity 125.000000
 formationRank 2
 minShadow 0.100000
 maxShadow 1.200000

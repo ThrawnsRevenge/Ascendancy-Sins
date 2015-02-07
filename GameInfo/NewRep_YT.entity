@@ -11,8 +11,8 @@ frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_PHASE"
 picture "PICTURE_TRADESHIP_PHASE"
-NameStringID "IDS_TRADESHIP_PHASE_NAME"
-DescriptionStringID "IDS_TRADESHIP_PHASE_DESCRIPTION"
+NameStringID "IDS_TRADESHIP_YT_NAME"
+DescriptionStringID "IDS_TRADESHIP_YT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000
@@ -50,7 +50,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "IR_Stargalleon"
+ShieldMeshName "IR_StarGalleon"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000

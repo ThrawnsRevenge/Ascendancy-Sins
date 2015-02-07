@@ -16,10 +16,10 @@ hudIcon "HUDICON_TRADESTATION"
 smallHudIcon "HUDICON_TRADESTATION"
 infoCardIcon "HUDICON_TRADESTATION"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 6.000000
 basePrice
-	credits 900.000000
-	metal 175.000000
+	credits 1200.000000
+	metal 205.000000
 	crystal 150.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_DESCRIPTION"
@@ -73,7 +73,7 @@ maxShadow 0.400000
 formationRank 3
 baseBuildTime 50.000000
 buildEffectName ""
-cargoShipType "NewRep_Stargalleon"
-maxCargoShipCount 5
-cargoShipRespawnTime 30.000000
+cargoShipType "NewRep_YT"
+maxCargoShipCount 2
+cargoShipRespawnTime 90.000000
 baseTradeIncomeRate 1.000000

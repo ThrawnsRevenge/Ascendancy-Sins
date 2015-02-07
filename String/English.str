@@ -6164,7 +6164,7 @@ StringInfo
 	Value "Space Mine limit reached."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_TOOMANYCANNONS"
-	Value "Superweapon limit reached."
+	Value "You may only build one superweapon per 15 planets controlled."
 StringInfo
 	ID "IDS_TARGETFILTER_START"
 	Value "Targets "
@@ -12049,8 +12049,8 @@ StringInfo
 	ID "IDS_TRADESHIP_PSI_DESCRIPTION"
 	Value "A small commercial vessel that carries merchant cargo between distant worlds."
 StringInfo
-	ID "IDS_TRADESHIP_PHASE_NAME"
-	Value "Trade Shuttle"
+	ID "IDS_TRADESHIP_YT_NAME"
+	Value "Smuggler"
 StringInfo
 	ID "IDS_TRADESHIP_PHASE_DESCRIPTION"
 	Value "A small commercial vessel that carries merchant cargo between distant worlds."
