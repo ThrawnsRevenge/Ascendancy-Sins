@@ -33,8 +33,8 @@ MaxHullPoints 4620.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
 MaxShieldPoints 4620.000000
-ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.000000
+ShieldPointRestoreRate 3.000000
+maxShieldMitigation 0.500000
 ExperiencePointsForDestroying 50.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -83,10 +83,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
-	DamagePerBank:BACK 200.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 200.000000
 	Range 7500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -157,8 +157,8 @@ Weapon
 		missileMaxSlowTurnTime 1.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE

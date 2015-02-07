@@ -1,0 +1,69 @@
+TXT
+MeshData
+	hasValidTangents TRUE
+	BoundingRadius -1.000000
+	MaxBoundingExtents [ -340282346638528860000000000000000000000.000000 -340282346638528860000000000000000000000.000000 -340282346638528860000000000000000000000.000000 ]
+	MinBoundingExtents [ 340282346638528860000000000000000000000.000000 340282346638528860000000000000000000000.000000 340282346638528860000000000000000000000.000000 ]
+	NumMaterials 1
+	Material
+		DiffuseTextureFileName ""
+		SelfIlluminationTextureFileName ""
+		NormalTextureFileName ""
+		DisplacementTextureFileName ""
+		TeamColorTextureFileName ""
+		Diffuse ffffffff
+		Ambient ffffffff
+		Specular ffffffff
+		Emissive ffffffff
+		Glossiness 50.000000
+	NumPoints 6
+	Point
+		DataString "Front"
+		Position [ 0.000001 0.000000 6.372319 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Back"
+		Position [ -0.000000 0.000000 -4.921710 ]
+		Orientation
+			 [ -1.000000 0.000000 -0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 -1.000000 ]
+	Point
+		DataString "Left"
+		Position [ -4.398128 0.000000 -0.051807 ]
+		Orientation
+			 [ -0.000000 0.000000 1.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -1.000000 0.000000 -0.000000 ]
+	Point
+		DataString "Right"
+		Position [ 5.898666 0.000000 -0.051808 ]
+		Orientation
+			 [ 0.000000 0.000000 -1.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 1.000000 0.000000 0.000000 ]
+	Point
+		DataString "Down"
+		Position [ -0.000000 -1.528347 -0.051807 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 1.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+	Point
+		DataString "Up"
+		Position [ -0.000000 1.905530 -0.051807 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 0.000000 -1.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+	NumVertices 0
+	NumTriangles 0
+	NumCachedVertexIndicesInDirection:UP 0
+	NumCachedVertexIndicesInDirection:DOWN 0
+	NumCachedVertexIndicesInDirection:LEFT 0
+	NumCachedVertexIndicesInDirection:RIGHT 0
+	NumCachedVertexIndicesInDirection:FRONT 0
+	NumCachedVertexIndicesInDirection:BACK 0

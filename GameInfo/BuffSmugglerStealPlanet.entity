@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "PerPlayer"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_Embargo"
+		mediumEffectName "Buff_Embargo"
+		largeEffectName "Buff_Embargo"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "StealPlanetProduction"
+	stolenPlanetProductionPerc
+		Level:0 0.400000
+		Level:1 0.600000
+		Level:2 0.800000
+		Level:3 1.000000
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "PlanetProductionStolen"
+	value
+		Level:0 0.150000
+		Level:1 0.200000
+		Level:2 0.800000
+		Level:3 1.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
+finishCondition
+	finishConditionType "OwnerChanged"

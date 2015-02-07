@@ -1,13 +1,13 @@
 ﻿TXT
-entityType "PlanetModuleWeaponDefense"
+entityType "PlanetModuleHangarDefense"
 minZoomDistanceMult 3.500000
 ability:0 ""
 ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.000000
+MaxAntiMatter 24.000000
+AntiMatterRestoreRate 0.020000
 numRandomDebrisLarge 3
 numRandomDebrisSmall 19
 numSpecificDebris 0
@@ -24,7 +24,7 @@ basePrice
 NameStringID "IDS_PLANETMODULE_GOLANIII_NAME"
 DescriptionStringID "IDS_PLANETMODULE_GOLANIII_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
-statCountType "ModulePointDefense"
+statCountType "ModuleHangarDefense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -36,8 +36,8 @@ MaxHullPoints 10010.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
 MaxShieldPoints 10010.000000
-ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.000000
+ShieldPointRestoreRate 3.000000
+maxShieldMitigation 0.500000
 ExperiencePointsForDestroying 50.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -73,10 +73,14 @@ maxShadow 0.600000
 formationRank 3
 baseBuildTime 65.000000
 buildEffectName ""
-defaultAutoAttackRange "None"
-defaultAutoAttackOn TRUE
-prefersToFocusFire TRUE
-usesFighterAttack FALSE
+squadTypeEntityDef:0 "Remnant_TIEFighter_Squad"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Remnant_TIEBomber_Squad"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
 NumWeapons 2
 Weapon
 	WeaponType "Projectile"
@@ -86,10 +90,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 400.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 400.000000
+	DamagePerBank:RIGHT 400.000000
 	Range 7500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -160,8 +164,13 @@ Weapon
 		missileMaxSlowTurnTime 1.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
+baseCommandPoints 2
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
