@@ -26,7 +26,7 @@ entities
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
 			entityDefName "Remnant_GalaxyGun"
-			entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
+			entityDefName "NewRep_TitanFactory"
 			entityDefName "Remnant_ShieldGenerator"
 			entityDefName "Remnant_RepairPlatform"
 	titanInfo
