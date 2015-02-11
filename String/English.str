@@ -19301,10 +19301,10 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "Quick Start"
+	Value "Heroes & G.Gun: On"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "Normal Start"
+	Value "Heroes & G.Gun: Off"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Slow Victory Speed"
@@ -21035,10 +21035,10 @@ StringInfo
 	Value "Determines the maximum number of ships any given player can have."
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_NAME"
-	Value "Quick Start"
+	Value "Heroes & Superweapons"
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_DESCRIPTION"
-	Value "Players will begin the game with a handful of frigates and planet modules at their Capital planet."
+	Value "Players will have access to hero units. Imperials will hae access to the Galaxy Gun."
 StringInfo
 	ID "IDS_GAMEOPTION_INCOMESPEED_NAME"
 	Value "Income Rate"
