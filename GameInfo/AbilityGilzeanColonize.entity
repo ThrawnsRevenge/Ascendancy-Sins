@@ -67,7 +67,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_COLONIZE_NAME"
-descStringID "IDS_ABILITY_COLONIZEPHASE_DESCRIPTION"
+descStringID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
 hudIcon "HUDABILITYICON_COLONIZE"
 smallHudIcon "HUDABILITYICON_COLONIZE"
 infoCardIcon ""

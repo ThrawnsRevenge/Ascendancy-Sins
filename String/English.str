@@ -1,5 +1,11 @@
 TXT
-NumStrings 7572
+NumStrings 7092
+StringInfo
+	ID "IDS_ABILITY_COLONIZE_NAME"
+	Value "Establish Garrison"
+StringInfo
+	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
+	Value "Sends military supplies o the surface of a planet to establish a new garrison, granting control of the planet."
 StringInfo
 	ID "ResearchScreenBlockTitleFleet1"
 	Value "Fleet Command"
@@ -3440,7 +3446,7 @@ StringInfo
 	Value "%d"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_ABILITYANTIMATTERCOST"
-	Value "Antimatter cost"
+	Value "Supply cost"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_ABILITYHULLCOST"
 	Value "Hull cost"
@@ -3587,7 +3593,7 @@ StringInfo
 	Value "Resources earned /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREANTIMATTER"
-	Value "Antimatter restored /sec"
+	Value "Supply restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTORESHIELDSRATE"
 	Value "Shields restored /sec"
@@ -3599,7 +3605,7 @@ StringInfo
 	Value "Damage taken /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DRAINANTIMATTERRATE"
-	Value "Antimatter drained /sec"
+	Value "Supply drained /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREALLEGIANCERATE"
 	Value "Allegiance restored /sec"
@@ -3755,7 +3761,7 @@ StringInfo
 	Value "Ability Cooldown rate"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ABILITYANTIMATTERCOST"
-	Value "Ability antimatter cost"
+	Value "Ability supply cost"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_HULLPOINTRESTORERATE"
 	Value "Hull restore rate"
@@ -3815,13 +3821,13 @@ StringInfo
 	Value "Extra strike craft per squadron"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERFROMENERGYDAMAGERATIO"
-	Value "Antimatter from energy damage"
+	Value "Supply from energy damage"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERRESTORERATE"
-	Value "Antimatter restore rate"
+	Value "Supply restore rate"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERRESTORATION"
-	Value "Antimatter restoration"
+	Value "Supply restoration"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_SHIELDPOINTRESTORATION"
 	Value "Shield point restoration"
@@ -3860,7 +3866,7 @@ StringInfo
 	Value "Population killed"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERRESTORED"
-	Value "Antimatter"
+	Value "Supply"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_DAMAGERETALIATIONPERC"
 	Value "Damage retaliation"
@@ -3878,10 +3884,10 @@ StringInfo
 	Value "Extra squadrons"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERREMOVED"
-	Value "Antimatter removed"
+	Value "Supply removed"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERSTOLEN"
-	Value "Antimatter stolen"
+	Value "Supply stolen"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_HULLPOINTSRESTORED"
 	Value "Hull Points repaired"
@@ -3959,7 +3965,7 @@ StringInfo
 	Value "Disabled"
 StringInfo
 	ID "IDS_CANUSEABILITYSTATUS_NOTENOUGHANTIMATTER"
-	Value "Not enough Antimatter."
+	Value "Not enough supply."
 StringInfo
 	ID "IDS_CANUSEABILITYSTATUS_CANTUSEATSTAR"
 	Value "Can't use this ability at a star."
@@ -4163,7 +4169,7 @@ StringInfo
 	Value "Shields:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXANTIMATTER"
-	Value "Antimatter:*SPACING170* *VALUE0*"
+	Value "Supply:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_EXPERIENCEFORDESTROYING"
 	Value "Experience value:*SPACING100* *VALUE0*"
@@ -4376,7 +4382,7 @@ StringInfo
 	Value "*VALUE0*: *SPACING150* *VALUE1* seconds"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipAntiMatter"
-	Value "Antimatter"
+	Value "Supply"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNamePlanetHealth"
 	Value "Planet Health"
@@ -5654,7 +5660,7 @@ StringInfo
 	Value "That ability has been disabled by another entity's ability."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYNOANTIMATTER"
-	Value "Need more Antimatter."
+	Value "Need more Supply."
 StringInfo
 	ID "IDS_GAMEMESSAGE_CANTUSEATSTAR"
 	Value "Can't use this ability at a star."
@@ -5711,7 +5717,7 @@ StringInfo
 	Value "Target must have non-passive ability."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTER"
-	Value "Target must have antimatter."
+	Value "Target must have supply."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASPHASEMISSILES"
 	Value "Target must have Phase Missiles."
@@ -5753,7 +5759,7 @@ StringInfo
 	Value "Target's shields are already at full strength."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTERSHORTAGE"
-	Value "Target's antimatter is already full."
+	Value "Target's supply is already full."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASWEAPONS"
 	Value "Target must have weapons."
@@ -6245,7 +6251,7 @@ StringInfo
 	Value "be not self"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_ANTIMATTERSHORTAGE"
-	Value "be missing antimatter"
+	Value "be missing supply"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASWEAPONS"
 	Value "have weapons"
@@ -6278,7 +6284,7 @@ StringInfo
 	Value "have a non-passive ability"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASANTMATTERPOOL"
-	Value "have Antimatter pool"
+	Value "have supply pool"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASPHASEMISSILES"
 	Value "have Phase Missiles"
@@ -9934,687 +9940,6 @@ StringInfo
 	ID "IDS_ABILITY_PSIMODULECONSTRUCTION_DESC"
 	Value "Finish constructing unbuilt structures."
 StringInfo
-	ID "IDS_ABILITY_PHASEMODULECONSTRUCTION_NAME"
-	Value "Construction"
-StringInfo
-	ID "IDS_ABILITY_PHASEMODULECONSTRUCTION_DESC"
-	Value "Finish constructing unbuilt structures."
-StringInfo
-	ID "IDS_ABILITY_TECHORBITALCANNON_NAME"
-	Value "Fire Novalith Cannon"
-StringInfo
-	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-	Value "Launches a devastating nuclear payload at a hostile empire's planet within this star system, causing massive loss of life and damage to infrastructure. The planet's max population cap is also greatly reduced for a long duration."
-StringInfo
-	ID "IDS_ABILITY_PSIORBITALCANNON_NAME"
-	Value "Activate Deliverance"
-StringInfo
-	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
-	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Friendly ships in orbit of this planet also deal additional damage."
-StringInfo
-	ID "IDS_ABILITY_PHASEORBITALCANNON_NAME"
-	Value "Fire Kostura Cannon"
-StringInfo
-	ID "IDS_ABILITY_PHASEORBITALCANNON_DESC"
-	Value "Launches a powerful pulse of energy at a hostile empire's planet. An energy shockwave disables and damages all ships and orbital structures upon impact and also briefly makes the targeted planet a Phase Stabilizer Node."
-StringInfo
-	ID "IDS_ABILITY_ABILITYGUIDANCE_NAME"
-	Value "Guidance"
-StringInfo
-	ID "IDS_ABILITY_ABILITYGUIDANCE_DESCRIPTION"
-	Value "Boosts the mental focus of nearby crews, allowing them to reduce ability cooldowns by operating more efficiently."
-StringInfo
-	ID "IDS_ABILITY_ADAPTIVESHIELD_NAME"
-	Value "Adaptive Forcefield"
-StringInfo
-	ID "IDS_ABILITY_ADAPTIVESHIELD_DESCRIPTION"
-	Value "An experimental forcefield greatly reduces the damage taken by this ship for a limited time and can even block phase missile attacks."
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERDETONATE_NAME"
-	Value "Detonate Antimatter"
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERDETONATE_DESCRIPTION"
-	Value "De-stabilizes the antimatter reserves on the target, causing a portion of it to combust and deal damage over time. The target is also unable to use antimatter for abilities over this time period."
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERRECHARGEMODULE_NAME"
-	Value "Recharge Antimatter"
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERRECHARGEMODULE_DESCRIPTION"
-	Value "Recharges the antimatter of friendly targets within range over a short duration."
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERRESTORE_NAME"
-	Value "Antimatter Restoration"
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTERRESTORE_DESCRIPTION"
-	Value "Restores some antimatter to friendly ships within range."
-StringInfo
-	ID "IDS_ABILITY_ANTIMODULETORPEDOES_NAME"
-	Value "Neutron Torpedoes"
-StringInfo
-	ID "IDS_ABILITY_ANTIMODULETORPEDOES_DESCRIPTION"
-	Value "Launches a pair of long-range torpedoes at enemy structures, dealing immense damage on impact."
-StringInfo
-	ID "IDS_ABILITY_ARBITRATETARIFF_NAME"
-	Value "Arbitrate Tariff"
-StringInfo
-	ID "IDS_ABILITY_ARBITRATETARIFF_DESCRIPTION"
-	Value "Special free trade policies are enforced by the envoy, generating a boost to trade and refinery income to foster improved relations."
-StringInfo
-	ID "IDS_ABILITY_ASTEROIDBELT_NAME"
-	Value "Erratic Debris"
-StringInfo
-	ID "IDS_ABILITY_ASTEROIDBELT_DESCRIPTION"
-	Value "Chaotic motion of fine debris complicates target acquisition, reducing the accuracy of weapons fire while in the gravity well."
-StringInfo
-	ID "IDS_ABILITY_BATTLEMEDITATION_NAME"
-	Value "Concentration Aura"
-StringInfo
-	ID "IDS_ABILITY_BATTLEMEDITATION_DESCRIPTION"
-	Value "Increases the damage output of strike craft hosted by nearby friendly forces."
-StringInfo
-	ID "IDS_ABILITY_BIDIRECTIONAL_JAMMING_NAME"
-	Value "Bidirectional Jamming"
-StringInfo
-	ID "IDS_ABILITY_BIDIRECTIONAL_JAMMING_DESCRIPTION"
-	Value "Prevents enemy forces from hyperspacing to this planet for a short time."
-StringInfo
-	ID "IDS_ABILITY_BLACKOUT_NAME"
-	Value "Reverie"
-StringInfo
-	ID "IDS_ABILITY_BLACKOUT_DESCRIPTION"
-	Value "Enthralls the crew of the target ship for a period of time, preventing them from taking any action. They will be shaken out of this trance state if enough damage is dealt to them."
-StringInfo
-	ID "IDS_ABILITY_BEAMBLAST_NAME"
-	Value "Cleansing Brilliance"
-StringInfo
-	ID "IDS_ABILITY_BEAMBLAST_DESCRIPTION"
-	Value "All targets within a column are consumed in a devastating pillar of light."
-StringInfo
-	ID "IDS_ABILITY_BOARDINGPARTY_NAME"
-	Value "Boarding Party"
-StringInfo
-	ID "IDS_ABILITY_BOARDINGPARTY_DESCRIPTION"
-	Value "Sends a boarding party to attack an enemy frigate, cruiser or structure. If a target ship would be destroyed while boarded, the ship is instead healed for a portion of its shields and hull and brought under your control."
-StringInfo
-	ID "IDS_ABILITY_BONUSMODULEDAMAGE_NAME"
-	Value "Assault Specialization"
-StringInfo
-	ID "IDS_ABILITY_BONUSMODULEDAMAGE_DESCRIPTION"
-	Value "Implosive payloads are used in this ship's phase missiles when attacking orbital structures, allowing it to deal extra damage when attacking them. Additionally, this ship's planetary bombardment is enhanced."
-StringInfo
-	ID "IDS_ABILITY_BOOSTMORALE_NAME"
-	Value "Embolden"
-StringInfo
-	ID "IDS_ABILITY_BOOSTMORALE_DESCRIPTION"
-	Value "Grants a bonus to shield regeneration and rate of fire to damaged friendly ships."
-StringInfo
-	ID "IDS_ABILITY_BOOSTRESOURCEEXTRACTION_NAME"
-	Value "Start Resource Focus"
-StringInfo
-	ID "IDS_ABILITY_BOOSTRESOURCEEXTRACTION_DESCRIPTION"
-	Value "The trade drone Anima divert their attention to amplifying the extraction rate of any resource extractors within this structure's gravity well at the expense of disabling trade ship traffic to and from this structure."
-StringInfo
-	ID "IDS_ABILITY_BOOSTRESOURCEEXTRACTIONACTIVE_NAME"
-	Value "Stop Resource Focus"
-StringInfo
-	ID "IDS_ABILITY_BOOSTRESOURCEEXTRACTIONACTIVE_DESCRIPTION"
-	Value "Trade traffic to and from this structure resumes at the expense of decreased resource extraction."
-StringInfo
-	ID "IDS_ABILITY_CAPTURENEUTRALENTITY_NAME"
-	Value "Crew Extractor"
-StringInfo
-	ID "IDS_ABILITY_CAPTURENEUTRALENTITY_DESCRIPTION"
-	Value "Sends a work crew to operate extractors found in neutral territory."
-StringInfo
-	ID "IDS_ABILITY_CAPTURENEUTRALENTITYPHASE_NAME"
-	Value "Capture Extractor"
-StringInfo
-	ID "IDS_ABILITY_CAPTURENEUTRALENTITYPHASE_DESCRIPTION"
-	Value "Sends a strike team to take possession of extractors found in neutral territory."
-StringInfo
-	ID "IDS_ABILITY_CEASEFIRE_NAME"
-	Value "Armistice"
-StringInfo
-	ID "IDS_ABILITY_CEASEFIRE_DESCRIPTION"
-	Value "All nearby ships and structures are persuaded to agree to a temporary cease fire."
-StringInfo
-	ID "IDS_ABILITY_CHARGEDMISSILES_NAME"
-	Value "Discharging Missiles"
-StringInfo
-	ID "IDS_ABILITY_CHARGEDMISSILES_DESCRIPTION"
-	Value "Channels power from the ship's engine system into its missile's warhead, granting the ship increased weapon range and an area effect attack at the expense of mobility."
-StringInfo
-	ID "IDS_ABILITY_CHARGEDMISSILESACTIVE_NAME"
-	Value "Normal Missiles"
-StringInfo
-	ID "IDS_ABILITY_CHARGEDMISSILESACTIVE_DESCRIPTION"
-	Value "Resume normal movement at the loss of area effect attacks."
-StringInfo
-	ID "IDS_ABILITY_CHASTICBURST_NAME"
-	Value "Chastic Burst"
-StringInfo
-	ID "IDS_ABILITY_CHASTICBURST_DESCRIPTION"
-	Value "A powerful burst of energy deals damage to all enemy ships near the target."
-StringInfo
-	ID "IDS_ABILITY_CLONEFRIGATE_NAME"
-	Value "Replicate Forces"
-StringInfo
-	ID "IDS_ABILITY_CLONEFRIGATE_DESCRIPTION"
-	Value "Construction nanites quickly reproduce copies of a targeted unit, instantly bolstering your fleet."
-StringInfo
-	ID "IDS_ABILITY_CLUSTERWARHEADS_NAME"
-	Value "Cluster Warheads"
-StringInfo
-	ID "IDS_ABILITY_CLUSTERWARHEADS_DESCRIPTION"
-	Value "Warheads with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
-StringInfo
-	ID "IDS_ABILITY_COLONIZE_NAME"
-	Value "Drop Troops"
-StringInfo
-	ID "IDS_ABILITY_COLONIZEPHASE_DESCRIPTION"
-	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. For a brief time, this planet will also have access to additional construction frigates."
-StringInfo
-	ID "IDS_ABILITY_COLONIZEPSI_DESCRIPTION"
-	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. For a brief time, upgrades at this planet can be purchased more cheaply."
-StringInfo
-	ID "IDS_ABILITY_COLONIZETECH_DESCRIPTION"
-	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. Additionally, free resource extractors will be built and the extraction rate increased."
-StringInfo
-	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
-	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost."
-StringInfo
-	ID "IDS_ABILITY_CONVERTFIGHTERSTOMINES_NAME"
-	Value "Deploy Fighter Mines"
-StringInfo
-	ID "IDS_ABILITY_CONVERTFIGHTERSTOMINES_DESCRIPTION"
-	Value "The strike craft in this squadron deploy themselves as mines at their current respective locations."
-StringInfo
-	ID "IDS_ABILITY_CREATECOMBATNANITES_NAME"
-	Value "Spawn Combat Swarm"
-StringInfo
-	ID "IDS_ABILITY_CREATECOMBATNANITES_DESCRIPTION"
-	Value "Creates a combat oriented nanite swarm at target location which has a basic pulse beam weapon. Hull, armor and weapon damage increase with the level of the capital ship."
-StringInfo
-	ID "IDS_ABILITY_CREATESUPPORTNANITES_NAME"
-	Value "Spawn Support Swarm"
-StringInfo
-	ID "IDS_ABILITY_CREATESUPPORTNANITES_DESCRIPTION"
-	Value "Creates a support oriented nanite swarm at target location which has a potent repair beam. Hull, armor and repair amount increase with level of the capital ship."
-StringInfo
-	ID "IDS_ABILITY_CREATEASSAULTNANITES_NAME"
-	Value "Spawn Assault Swarm"
-StringInfo
-	ID "IDS_ABILITY_CREATEASSAULTNANITES_DESCRIPTION"
-	Value "Creates an assault oriented nanite swarm which has a long range, anti-module assault beam. Hull, armor and anti-module damage increase with level of the capital ship."
-StringInfo
-	ID "IDS_ABILITY_CRIPPLEABILITIES_NAME"
-	Value "Interference"
-StringInfo
-	ID "IDS_ABILITY_CRIPPLEABILITIES_DESCRIPTION"
-	Value "Disrupts the electronics of the target, causing abilities to require greater amounts of antimatter and to take longer to cooldown."
-StringInfo
-	ID "IDS_ABILITY_CRIPPLEDEFENSE_NAME"
-	Value "Cripple Defenses"
-StringInfo
-	ID "IDS_ABILITY_CRIPPLEDEFENSE_DESCRIPTION"
-	Value "The Stilat's weapons have a chance to cripple the enemy's defensive systems, causing greater physical weapon damage."
-StringInfo
-	ID "IDS_ABILITY_CULTURALASSISTANCE_NAME"
-	Value "Cutural Assistance"
-StringInfo
-	ID "IDS_ABILITY_CULTURALINTEGRITY_NAME"
-	Value "Cultural Integrity"
-StringInfo
-	ID "IDS_ABILITY_CULTURALINTEGRITY_DESCRIPTION"
-	Value "By projecting the Unity's will throughout the system, the envoy is able to put a temporary halt to all planetary bombardment."
-StringInfo
-	ID "IDS_ABILITY_CULTURALASSISTANCE_DESCRIPTION"
-	Value "The envoy sends teams to optimize the planet's work flow, decreasing upgrade costs and build time, resulting in improved relations."
-StringInfo
-	ID "IDS_ABILITY_DARKCOMBATFLEET_NAME"
-	Value "Dark Combat Fleet"
-StringInfo
-	ID "IDS_ABILITY_DARKCOMBATFLEET_DESCRIPTION"
-	Value "A group of combat ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides."
-StringInfo
-	ID "IDS_ABILITY_DARKSUPPORTFLEET_NAME"
-	Value "Dark Support Fleet"
-StringInfo
-	ID "IDS_ABILITY_DARKSUPPORTFLEET_DESCRIPTION"
-	Value "A group of support ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides."
-StringInfo
-	ID "IDS_ABILITY_DARKCAPITALSHIP_NAME"
-	Value "Dark Capital Ship"
-StringInfo
-	ID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
-	Value "A capital ship is summoned from the Dark Fleet and will arrive at at the gravity well where the Phase Stabilizer resides."
-StringInfo
-	ID "IDS_ABILITY_DEBRISVACUUM_NAME"
-	Value "Debris Vortex"
-StringInfo
-	ID "IDS_ABILITY_DEBRISVACUUM_DESCRIPTION"
-	Value "Pulls debris within reach towards this starbase, allowing it to be quickly deconstructed and used to repair the starbase's hull."
-StringInfo
-	ID "IDS_ABILITY_DEFEATSHIELDS_NAME"
-	Value "Shield Disruption"
-StringInfo
-	ID "IDS_ABILITY_DEFEATSHIELDS_DESCRIPTION"
-	Value "Reduces the shield mitigation of the target and makes it more likely for phase missiles to bypass its shields."
-StringInfo
-	ID "IDS_ABILITY_DEFENSESYNERGY_NAME"
-	Value "Synergy"
-StringInfo
-	ID "IDS_ABILITY_DEFENSESYNERGY_DESCRIPTION"
-	Value "Nearby Beam Defense Platforms jointly reinforce each other, granting a stacking attack and shield bonus."
-StringInfo
-	ID "IDS_ABILITY_DEMOLITIONTEAM_NAME"
-	Value "Demolition Team"
-StringInfo
-	ID "IDS_ABILITY_DEMOLITIONTEAM_DESCRIPTION"
-	Value "Sends a demolition team to scuttle target friendly frigate or structure, dealing damage to nearby enemy ships related to the targets remaining hull.  Deals bonus damage if the target was boarded with Boarding Parties."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASETECH_NAME"
-	Value "Construct Starbase"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASETECH_DESC"
-	Value "Begins construction of an Argonev class starbase at the cruiser's present location. The cruiser is consumed in the process."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_NAME"
-	Value "Chrysalis"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_DESC"
-	Value "Begins deployment of a Transcencia class starbase at the cruiser's present location. The cruiser is consumed in the process."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASEPHASE_NAME"
-	Value "Deploy Starbase"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSTARBASEPHASE_DESC"
-	Value "Begins construction of an Orkulus class starbase at the frigate's present location. The frigate is consumed in the process."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYCOMBATTURRET_NAME"
-	Value "Missile Batteries"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYCOMBATTURRET_DESCRIPTION"
-	Value "Deploys a stationary weapons platform that attacks enemies within the area for a brief time."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSIEGETURRET_NAME"
-	Value "Deploy Siege Platform"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSIEGETURRET_DESCRIPTION"
-	Value "Deploys a stationary weapons platform equipped with a planet sieging beam."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSPACEMINEPHASEEXPLOSIVE_NAME"
-	Value "Lay Explosive Mine"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSPACEMINEPHASEEXPLOSIVE_DESCRIPTION"
-	Value "Deploys a mine loaded with nanomolecular explosives, which damages all nearby enemy ships."
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSPACEMINEPHASEGRAVITY_NAME"
-	Value "Lay Gravity Mine"
-StringInfo
-	ID "IDS_ABILITY_DEPLOYSPACEMINEPHASEGRAVITY_DESCRIPTION"
-	Value "Deploys a mine armed with a gravity pulse discharger, which will slow movement and disable the jump drives of nearby enemy ships."
-StringInfo
-	ID "IDS_ABILITY_DESIGNATETARGET_NAME"
-	Value "Designate Target"
-StringInfo
-	ID "IDS_ABILITY_DESIGNATETARGET_DESCRIPTION"
-	Value "Paints a target's weak points with targeting lasers, allowing friendly ships to deal additional damage against it."
-StringInfo
-	ID "IDS_ABILITY_DESPERATION_NAME"
-	Value "Desperation"
-StringInfo
-	ID "IDS_ABILITY_DESPERATION_DESCRIPTION"
-	Value "Negates some of the damage that the Titan takes and grants the Titan splash damage. When the Titan is dealt damage, it gains a stacking bonus to weapon cooldown for some time."
-StringInfo
-	ID "IDS_ABILITY_DESTABILIZEHYPERSPACE_NAME"
-	Value "Jump Destabilization"
-StringInfo
-	ID "IDS_ABILITY_DESTABILIZEHYPERSPACE_DESCRIPTION"
-	Value "The starbase disrupts the outbound phase lanes of its gravity well, causing hostile ships that are jumping away to take damage and lose antimatter."
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESTECH_NAME"
-	Value "Reveal Mines"
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESTECH_DESCRIPTION"
-	Value "Countermeasure systems disrupt the simple phase space cloaking field of enemy mines within a small radius of the frigate."
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESPSI_NAME"
-	Value "Sense Mines"
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESPSI_DESCRIPTION"
-	Value "Psionic Adepts aboard the Seeker manipulate the phase space cloaking field of enemy mines to reveal themselves within a small radius of the frigate."
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESPHASE_NAME"
-	Value "Decloak Mines"
-StringInfo
-	ID "IDS_ABILITY_DETECTMINESPHASE_DESCRIPTION"
-	Value "Phase space inversion systems about the Navigator pull enemy mines back into real space within a small radius of the frigate."
-StringInfo
-	ID "IDS_ABILITY_DETECTPHASEJUMP_NAME"
-	Value "Mobile Phase Detection"
-StringInfo
-	ID "IDS_ABILITY_DETECTPHASEJUMP_DESCRIPTION"
-	Value "Allows detection of hostile incoming starships towards the planet around which this ship orbits."
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATIC_IMMUNITY_NAME"
-	Value "Diplomatic Immunity"
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATIC_IMMUNITY_DESCRIPTION"
-	Value "Broadcasts of peace prevent the envoy from being the target of enemy fire for a short duration."
-StringInfo
-	ID "IDS_ABILITY_DIRECTIONALSHIELD_NAME"
-	Value "Frontal Deflector Shield"
-StringInfo
-	ID "IDS_ABILITY_DIRECTIONALSHIELD_DESCRIPTION"
-	Value "Grants the starbase a temporary protective shield that greatly reduces incoming attacks directed at its forward surfaces."
-StringInfo
-	ID "IDS_ABILITY_DISABLEHULLREPAIR_NAME"
-	Value "Disable Hull Repair"
-StringInfo
-	ID "IDS_ABILITY_DISABLEHULLREPAIR_DESCRIPTION"
-	Value "The Tosurak's weapons contain a nanite payload which can prevent an enemy ship's hull from being repaired."
-StringInfo
-	ID "IDS_ABILITY_DISABLEIMMUNE_NAME"
-	Value "Perseverance"
-StringInfo
-	ID "IDS_ABILITY_DISABLEIMMUNE_DESCRIPTION"
-	Value "Invokes a divine aura around a friendly target, which makes it immune to disablement and restores its hull over time. This is a channeling ability."
-StringInfo
-	ID "IDS_ABILITY_DISABLETARGETINGSYSTEMS_NAME"
-	Value "Disable Targeting"
-StringInfo
-	ID "IDS_ABILITY_DISABLETARGETINGSYSTEMS_DESCRIPTION"
-	Value "The Acolyte's weapons have a chance to damage its enemy's targeting computers."
-StringInfo
-	ID "IDS_ABILITY_DISABLESHIELDEMITTERS_NAME"
-	Value "Disable Shield Emitters"
-StringInfo
-	ID "IDS_ABILITY_DISABLESHIELDEMITTERS_DESCRIPTION"
-	Value "The Sulsurak's weapons contain a nanite payload that can reduce shield regeneration."
-StringInfo
-	ID "IDS_ABILITY_DISSEVER_NAME"
-	Value "Dissever"
-StringInfo
-	ID "IDS_ABILITY_DISSEVER_DESCRIPTION"
-	Value "The Titan damages all nearby enemy ships with destructive nanites. Those affected by Nano Leech take additional damage over time for the duration."
-StringInfo
-	ID "IDS_ABILITY_DISINTEGRATION_NAME"
-	Value "Disintegration"
-StringInfo
-	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
-	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Vulkoras, replenishing it in turn."
-StringInfo
-	ID "IDS_ABILITY_DISRUPTIVESTRIKES_NAME"
-	Value "Disruptive Strikes"
-StringInfo
-	ID "IDS_ABILITY_DISRUPTIVESTRIKES_DESCRIPTION"
-	Value "Has a chance to increase ability cooldowns and deplete antimatter when this ship's energy weapons hit enemy ships."
-StringInfo
-	ID "IDS_ABILITY_DISRUPTIONMATRIX_NAME"
-	Value "Disruption Matrix"
-StringInfo
-	ID "IDS_ABILITY_DISRUPTIONMATRIX_DESCRIPTION"
-	Value "A powerful burst of electromagnetic interference deals damage over time to nearby enemy ships and prevents them from using abilities for a short period."
-StringInfo
-	ID "IDS_ABILITY_DOMINATION_NAME"
-	Value "Domination"
-StringInfo
-	ID "IDS_ABILITY_DOMINATION_DESCRIPTION"
-	Value "Overpowers the minds of the crew aboard the targeted frigate, forcing them to permanently serve this ship's empire."
-StringInfo
-	ID "IDS_ABILITY_ELITECREWS_NAME"
-	Value "Elite Crews"
-StringInfo
-	ID "IDS_ABILITY_ELITECREWS_DESCRIPTION"
-	Value "An elite crew is sent to the target friendly capital ship which gains increased weapon damage, shield regeneration and movement speed for a period of time."
-StringInfo
-	ID "IDS_ABILITY_EXPLORE_NAME"
-	Value "Explore"
-StringInfo
-	ID "IDS_ABILITY_EXPLORE_DESC"
-	Value "Automatically pilots the ship to another planet when it has finished its normal movement."
-StringInfo
-	ID "IDS_ABILITY_EMBARGO_NAME"
-	Value "Embargo"
-StringInfo
-	ID "IDS_ABILITY_EMBARGO_DESCRIPTION"
-	Value "Steals income from the planet's production, slows construction of ships and structures, and prevents enemy civilian merchant ships from leaving the gravity well."
-StringInfo
-	ID "IDS_ABILITY_EMPBLAST_NAME"
-	Value "EMP Charge"
-StringInfo
-	ID "IDS_ABILITY_EMPBLAST_DESCRIPTION"
-	Value "Fires a high energy radio frequency bomb at the target ship, depleting shields and antimatter from it and nearby ships when the bomb explodes."
-StringInfo
-	ID "IDS_ABILITY_ENERGYABSORB_NAME"
-	Value "Energy Absorption"
-StringInfo
-	ID "IDS_ABILITY_ENERGYABSORB_DESCRIPTION"
-	Value "Provides a slight increase to armor and converts part of any energy attacks against this capital ship into antimatter."
-StringInfo
-	ID "IDS_ABILITY_ENERGYDISRUPTION_NAME"
-	Value "Energy Disruption"
-StringInfo
-	ID "IDS_ABILITY_ENERGYDISRUPTION_DESCRIPTION"
-	Value "Allows the Vespa to disrupt energy restoration, preventing antimatter regeneration and slowing energy weapons."
-StringInfo
-	ID "IDS_ABILITY_ENERGYWEAPONBOOST_NAME"
-	Value "Amplify Energy Aura"
-StringInfo
-	ID "IDS_ABILITY_ENERGYWEAPONBOOST_DESCRIPTION"
-	Value "Reduces the weapon cooldown of all ships with energy based weapons."
-StringInfo
-	ID "IDS_ABILITY_EVASIVEMANEOUVERS_NAME"
-	Value "Evasive Maneuvers"
-StringInfo
-	ID "IDS_ABILITY_EVASIVEMANEOUVERS_DESCRIPTION"
-	Value "An optimizing evasion algorithm sends data to nearby friendly strike craft, increasing their ability to dodge over time."
-StringInfo
-	ID "IDS_ABILITY_EXPLOSIVESHOT_NAME"
-	Value "Explosive Shot"
-StringInfo
-	ID "IDS_ABILITY_EXPLOSIVESHOT_DESCRIPTION"
-	Value "The Titan fires an explosive shell at the target ship which explodes, dealing damage and knocking back nearby enemies."
-StringInfo
-	ID "IDS_ABILITY_FARSIGHT_NAME"
-	Value "Clairvoyance"
-StringInfo
-	ID "IDS_ABILITY_FARSIGHT_DESCRIPTION"
-	Value "Allows the viewing of a distant planet for a brief period of time."
-StringInfo
-	ID "IDS_ABILITY_FIGHTERBLINK_NAME"
-	Value "Microphasing Aura"
-StringInfo
-	ID "IDS_ABILITY_FIGHTERBLINK_DESCRIPTION"
-	Value "Nearby friendly strike craft may periodically be pulled into phase space and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
-StringInfo
-	ID "IDS_ABILITY_FINALATTACK_NAME"
-	Value "Martyrdom"
-StringInfo
-	ID "IDS_ABILITY_FINALATTACK_DESCRIPTION"
-	Value "This ship will sacrifice itself to deal damage to a nearby enemy target."
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIP_NAME"
-	Value "Flagship"
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIP_DESCRIPTION"
-	Value "Your empire's Flagship, which has been modified with extra durability and unique abilities. You lose the game if your Flagship is destroyed."
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPINVULNERABILITY_NAME"
-	Value "Invulnerability Shield"
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPINVULNERABILITY_DESCRIPTION"
-	Value "The Flagship becomes completely immune to damage for a short duration."
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPSPRINT_NAME"
-	Value "Overload Engines"
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPSPRINT_DESCRIPTION"
-	Value "Ths Flagship gains increased engine speed for a short duration."
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPPURGE_NAME"
-	Value "Purge Systems"
-StringInfo
-	ID "IDS_ABILITY_FLAGSHIPPURGE_DESCRIPTION"
-	Value "The Flagship becomes immune to most disabling abilities for a short duration."
-StringInfo
-	ID "IDS_ABILITY_FLAKBURST_NAME"
-	Value "Flak Burst"
-StringInfo
-	ID "IDS_ABILITY_FLAKBURST_DESCRIPTION"
-	Value "Fragmentation ordnance is launched and detonated nearby, dealing physical damage to all enemy strike craft within a short range."
-StringInfo
-	ID "IDS_ABILITY_FLEETBEACON_NAME"
-	Value "Returning Armada"
-StringInfo
-	ID "IDS_ABILITY_FLEETBEACON_DESCRIPTION"
-	Value "Other remnants of the Dark Fleet are contacted and summoned, causing them to arrive via Phase Stabilizers constructed by your empire."
-StringInfo
-	ID "IDS_ABILITY_TITANFLEETBEACON_NAME"
-	Value "Vorastra Dark Fleet"
-StringInfo
-	ID "IDS_ABILITY_TITANFLEETBEACON_DESCRIPTION"
-	Value "Other remnants of the Dark Fleet can be contacted via Phase Stabilizers, allowing them to be summoned directly to your Titan."
-StringInfo
-	ID "IDS_ABILITY_PIRATEMERCENARIES_NAME"
-	Value "Pirate Mercenaries"
-StringInfo
-	ID "IDS_ABILTIY_PIRATEMERCENARIES_DESCRIPTION"
-	Value "A purchase order is sent out, summoning a pirate mercenary fleet to this gravity well."
-StringInfo
-	ID "IDS_ABILITY_FRACTURE_NAME"
-	Value "Fracture"
-StringInfo
-	ID "IDS_ABILITY_FRACTURE_DESCRIPTION"
-	Value "Enemy frigates and capital ships within a radius of the target ship have their armor telekinetically weakened for a short period of time."
-StringInfo
-	ID "IDS_ABILITY_FURIOUSDEFENSE_NAME"
-	Value "Furious Defense"
-StringInfo
-	ID "IDS_ABILITY_FURIOUSDEFENSE_DESCRIPTION"
-	Value "Greatly increases the titan's weapon damage and hull repair rate. The effect is greater when the titan is in a friendly gravity well."
-StringInfo
-	ID "IDS_ABILITY_GAUSSBLAST_NAME"
-	Value "Gauss Rail Gun"
-StringInfo
-	ID "IDS_ABILITY_GAUSSBLAST_DESCRIPTION"
-	Value "Fires a high velocity armor piercing slug at the target, which deals a high amount of physical damage and cripples its engine systems."
-StringInfo
-	ID "IDS_ABILITY_GAUSSDEFENSEMISSILEBURST_NAME"
-	Value "Burst Rockets"
-StringInfo
-	ID "IDS_ABILITY_GAUSSDEFENSEMISSILEBURST_DESCRIPTION"
-	Value "Small volleys of rockets independently target multiple enemies within range."
-StringInfo
-	ID "IDS_ABILITY_GAUSSDEFENSERAILGUN_NAME"
-	Value "Meson Bolt Cannon"
-StringInfo
-	ID "IDS_ABILITY_GAUSSDEFENSERAILGUN_DESCRIPTION"
-	Value "Fires a bolt of high energy particles, which deals damage and pierces the target's hull, reducing its armor strength for a period of time."
-StringInfo
-	ID "IDS_ABILITY_GIVEMODULESHIELDS_NAME"
-	Value "Shield Bestowal"
-StringInfo
-	ID "IDS_ABILITY_GIVEMODULESHIELDS_DESCRIPTION"
-	Value "Grants shields to nearby friendly structures."
-StringInfo
-	ID "IDS_ABILITY_GOODWILL_NAME"
-	Value "Goodwill"
-StringInfo
-	ID "IDS_ABILITY_GOODWILL_DESCRIPTION"
-	Value "Goodwill missions are sent to the surface, generating higher relations with the planet's owner. The bonus degrades if the envoy leaves the gravity well."
-StringInfo
-	ID "IDS_ABILITY_GRANTAMNESTY_NAME"
-	Value "Grant Amnesty"
-StringInfo
-	ID "IDS_ABILITY_GRANTAMNESTY_DESCRIPTION"
-	Value "Target enemy or allied planet is unable to be bombed for a short duration."
-StringInfo
-	ID "IDS_ABILITY_GRAVITYFIELD_NAME"
-	Value "Inertial Field"
-StringInfo
-	ID "IDS_ABILITY_GRAVITYFIELD_DESCRIPTION"
-	Value "Slows the sublight movement of nearby enemy ships."
-StringInfo
-	ID "IDS_ABILITY_GRAVITYPULSE_NAME"
-	Value "Gravity Pulse"
-StringInfo
-	ID "IDS_ABILITY_GRAVITYPULSE_DESCRIPTION"
-	Value "The titan unleases a powerful gravimetric wave, slowing nearby enemies. Ships that are affected by Nano Leech are instead disabled."
-StringInfo
-	ID "IDS_ABILITY_GRAVITYWARHEAD_NAME"
-	Value "Gravity Warhead"
-StringInfo
-	ID "IDS_ABILITY_GRAVITYWARHEAD_DESCRIPTION"
-	Value "Slows the sublight movement of targetted enemy ships and prevents them from Phase Jumping for a short period of time."
-StringInfo
-	ID "IDS_ABILITY_HARMONY_NAME"
-	Value "Harmony"
-StringInfo
-	ID "IDS_ABILITY_HARMONY_DESCRIPTION"
-	Value "The Unity's psionic focus emanates from the envoy, increasing passive regeneration rates throughout the gravity well."
-StringInfo
-	ID "IDS_ABILITY_GROUPSHIELD_NAME"
-	Value "Group Shield"
-StringInfo
-	ID "IDS_ABILITY_GROUPSHIELD_DESCRIPTION"
-	Value "The titan emits a powerful shield around a group of allied vessels, reducing some of the damage they take for a short period."
-StringInfo
-	ID "IDS_ABILITY_HEAVYFIGHTERS_NAME"
-	Value "Heavy Strike Craft"
-StringInfo
-	ID "IDS_ABILITY_HEAVYFIGHTERS_DESCRIPTION"
-	Value "Increases the armor and damage output of this capital ship's fighters and bombers."
-StringInfo
-	ID "IDS_ABILITY_HIDEMINES_NAME"
-	Value "Phasic Cloaking"
-StringInfo
-	ID "IDS_ABILITY_HIDEMINES_DESCRIPTION"
-	Value "Hides the mine in phase space until it is triggered by nearby hostile forces."
-StringInfo
-	ID "IDS_ABILITY_HYPERSPACEDISRUPTION_NAME"
-	Value "Phase Jump Disruption"
-StringInfo
-	ID "IDS_ABILITY_HYPERSPACEDISRUPTION_DESCRIPTION"
-	Value "Inteferes with the phase drives of enemy ships within range, causing them to require additional time to charge for a phase jump."
-StringInfo
-	ID "IDS_ABILITY_ILLUSIONSELFCOPY_NAME"
-	Value "Deceptive Illusion"
-StringInfo
-	ID "IDS_ABILITY_ILLUSIONSELFCOPY_DESCRIPTION"
-	Value "Projects a false image of the ship into the minds of nearby enemies, allowing it to be less likely to be attacked."
-StringInfo
-	ID "IDS_ABILITY_ILLUSIONSHIPS_NAME"
-	Value "Anima Tempest"
-StringInfo
-	ID "IDS_ABILITY_ILLUSIONSHIPS_DESCRIPTION"
-	Value "A veritable swarm of additional drones are deployed by the Anima in a brief act of fury. This carrier's drones additionally become more difficult to hit."
-StringInfo
-	ID "IDS_ABILITY_INCENDIARYSHELLS_NAME"
-	Value "Incendiary Shells"
-StringInfo
-	ID "IDS_ABILITY_INCENDIARYSHELLS_DESCRIPTION"
-	Value "Autocannons and missiles on this ship carry an igniting payload, which have a chance to deal additional damage for a brief duration on impact."
-StringInfo
-	ID "IDS_ABILITY_INSPIREANDIMPAIR_NAME"
-	Value "Inspire and Impair"
-StringInfo
-	ID "IDS_ABILITY_INSPIREANDIMPAIR_DESCRIPTION"
-	Value "The Titan broadcasts a powerful message to all ships in the gravity well. Friendly ships receive a weapon cooldown bonus while enemy ships receive a weapon cooldown penalty."
-StringInfo
-	ID "IDS_ABILITY_INSTANTBUILDFIGHTERS_NAME"
-	Value "Rapid Manufacturing"
-StringInfo
-	ID "IDS_ABILITY_INSTANTBUILDFIGHTERS_DESCRIPTION"
-	Value "For a brief duration, this ship's replacement strike craft are built instantly. Additionally, friendly structures and ships in orbit build more quickly."
-StringInfo
-	ID "IDS_ABILITY_DAMAGEOVERTIMEAURA_NAME"
-	Value "Ruthlessness"
-StringInfo
-	ID "IDS_ABILITY_DAMAGEOVERTIMEAURA_DESCRIPTION"
-	Value "The Unity's hostility is expressed as a palpable aura about the Crusader, causing it to deal damage to nearby enemy units and structures."
-StringInfo
 	ID "IDS_ABILITY_IONBLAST_NAME"
 	Value "Ion Bolt"
 StringInfo
@@ -10623,807 +9948,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_IONBURST_NAME"
 	Value "Ion Burst"
-StringInfo
-	ID "IDS_ABILITY_LASTSTAND_NAME"
-	Value "Finest Hour"
-StringInfo
-	ID "IDS_ABILITY_LASTSTAND_DESCRIPTION"
-	Value "In a desperate move, the crew stress themselves and this ship's engineering to the limit, granting the ship splash damage attacks, increased repair rates, and increased antimatter regeneration."
-StringInfo
-	ID "IDS_ABILITY_LETHARGY_NAME"
-	Value "Lethargy"
-StringInfo
-	ID "IDS_ABILITY_LETHARGY_DESCRIPTION"
-	Value "Psintegrat trick a target enemy ship into a state of lethargy, resulting in increased weapon and ability cooldowns for a short duration."
-StringInfo
-	ID "IDS_ABILITY_LOWCOSTABILITIES_NAME"
-	Value "Flux Field"
-StringInfo
-	ID "IDS_ABILITY_LOWCOSTABILITIES_DESCRIPTION"
-	Value "Greatly reduces the antimatter cost of regular abilities for nearby friendly ships and structures."
-StringInfo
-	ID "IDS_ABILITY_MAGNETICCLOUD_NAME"
-	Value "Magnetic Cloud"
-StringInfo
-	ID "IDS_ABILITY_MAGNETICCLOUD_DESCRIPTION"
-	Value "Strong magnetic radiation in this gaseous environment destabilizes all abilities."
-StringInfo
-	ID "IDS_ABILITY_MAGNETIZE_NAME"
-	Value "Magnetize"
-StringInfo
-	ID "IDS_ABILITY_MAGNETIZE_DESCRIPTION"
-	Value "Induces a strong magnetic field on the target which disables any abilities. Also makes it strongly attractive to strike craft, causing them to violently collide into it."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_MASS_COMMUNION_NAME"
-	Value "Mass Communion"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_MASS_COMMUNION_DESCRIPTION"
-	Value "Lowers the cost of constructing new Temples of Communion in order to more rapidly spread the true word of the Unity."
-StringInfo
-	ID "IDS_ABILITY_MASSDISORIENTATION_NAME"
-	Value "Mass Disorientation"
-StringInfo
-	ID "IDS_ABILITY_MASSDISORIENTATION_DESCRIPTION"
-	Value "Enemy ships within the affected area are cast adrift by legions of psionics aboard the starbase, preventing them from moving and making it more difficult for them to acquire targets."
-StringInfo
-	ID "IDS_ABILITY_METEORSTRIKEPLANET_NAME"
-	Value "Final Judgement"
-StringInfo
-	ID "IDS_ABILITY_METEORSTRIKEPLANET_DESCRIPTION"
-	Value "Many telekinetically propelled meteors strike the planet, causing massive damage."
-StringInfo
-	ID "IDS_ABILITY_METEORSTRIKESHIPS_NAME"
-	Value "Meteor Storm"
-StringInfo
-	ID "IDS_ABILITY_METEORSTRIKESHIPS_DESCRIPTION"
-	Value "Bombards enemy ships within a radius of the target with telekinetically thrown meteroids, causing immense damage."
-StringInfo
-	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
-	Value "Micro-Phase Jump"
-StringInfo
-	ID "IDS_ABILITY_MICROPHASEJUMP_DESCRIPTION"
-	Value "Instantly transports the titan to the targeted position."
-StringInfo
-	ID "IDS_ABILITY_MINE_CONTROL_NAME"
-	Value "Mine Control"
-StringInfo
-	ID "IDS_ABILITY_MINE_CONTROL_DESCRIPTION"
-	Value "Novice Psintegrat are able to bring nearby enemy mines under your control."
-StringInfo
-	ID "IDS_ABILITY_MISSILEBARRAGE_NAME"
-	Value "Missile Barrage"
-StringInfo
-	ID "IDS_ABILITY_MISSILEBARRAGE_DESCRIPTION"
-	Value "Bombards the target area with volleys of missiles, dealing damage to all objects within the blast radius."
-StringInfo
-	ID "IDS_ABILITY_MISSILEPHASEBOOST_NAME"
-	Value "Amplify Missile Phasing"
-StringInfo
-	ID "IDS_ABILITY_MISSILEPHASEBOOST_DESCRIPTION"
-	Value "Increases the likelihood of the phase missiles being able to phase through enemy shields."
-StringInfo
-	ID "IDS_ABILITY_MUTUALTHREAT_NAME"
-	Value "Mutual Threat"
-StringInfo
-	ID "IDS_ABILITY_MUTUALTHREAT_DESCRIPTION"
-	Value "Special nano-bots are released from the envoy, speeding ship production and resource extraction for improved relations."
-StringInfo
-	ID "IDS_ABILITY_GREATERNANITESWARM_NAME"
-	Value "Greater Nanite Swarm"
-StringInfo
-	ID "IDS_ABILITY_GREATERNANITESWARM_DESCRIPTION"
-	Value "All nearby nanite swarms have coalesced into a single, powerful warship."
-StringInfo
-	ID "IDS_ABILITY_NANITESWARM_NAME"
-	Value "Nanite Swarm"
-StringInfo
-	ID "IDS_ABILITY_NANITESWARM_DESCRIPTION"
-	Value "This unit is part of a nanite swarm."
-StringInfo
-	ID "IDS_ABILITY_COMBATNANITE_NAME"
-	Value "Combat Swarm"
-StringInfo
-	ID "IDS_ABILITY_COMBATNANITE_DESCRIPTION"
-	Value "This swarm of nanites features basic attack capabilities."
-StringInfo
-	ID "IDS_ABILITY_SUPPORTNANITE_NAME"
-	Value "Support Swarm"
-StringInfo
-	ID "IDS_ABILITY_SUPPORTNANITE_DESCRIPTION"
-	Value "This swarm of nanites is able to support friendly ships by restoring hull points and increasing armor."
-StringInfo
-	ID "IDS_ABILITY_ASSAULTNANITE_NAME"
-	Value "Assault Swarm"
-StringInfo
-	ID "IDS_ABILITY_ASSAULTNANITE_DESCRIPTION"
-	Value "This swarm of nanites is able to project a long-range anti-structure weapon, slicing through their heavier armor."
-StringInfo
-	ID "IDS_ABILITY_NANITEASSAULTBEAM_NAME"
-	Value "Nanite Assault Beam"
-StringInfo
-	ID "IDS_ABILITY_NANITEASSAULTBEAM_DESCRIPTION"
-	Value "Enemy planet modules targeted by this swarm suffer from reduced armor for a short duration."
-StringInfo
-	ID "IDS_ABILITY_NANITEREPAIRBEAM_NAME"
-	Value "Nanite Repair Beam"
-StringInfo
-	ID "IDS_ABILITY_NANITEREPAIRBEAM_DESCRIPTION"
-	Value "Target friendly ship's hull is regenerated and receives increased armor for a short duration."
-StringInfo
-	ID "IDS_ABILITY_NANODISASSEMBLER_NAME"
-	Value "Nano-Disassembler"
-StringInfo
-	ID "IDS_ABILITY_NANODISASSEMBLER_DESCRIPTION"
-	Value "Nanites eat away at the target's hull, reducing armor and dealing damage over time."
-StringInfo
-	ID "IDS_ABILITY_NANOMEDICINEOUTREACH_NAME"
-	Value "Nanomedicine Outreach"
-StringInfo
-	ID "IDS_ABILITY_NANOMEDICINEOUTREACH_DESCRIPTION"
-	Value "Planetary engineers are deployed from the envoy, speeding repairs to the surface to improve relations."
-StringInfo
-	ID "IDS_ABILITY_NANONANODISRUPTOR_NAME"
-	Value "Molecular Disruptor"
-StringInfo
-	ID "IDS_ABILITY_NANONANODISRUPTOR_DESCRIPTION"
-	Value "A shockwave of energy fractures the molecular bonds of the target, dealing physical damage."
-StringInfo
-	ID "IDS_ABILITY_NANOHULLREPAIR_NAME"
-	Value "Repair Cloud"
-StringInfo
-	ID "IDS_ABILITY_NANOHULLREPAIR_DESCRIPTION"
-	Value "A field of repair nanites is dispersed, restoring a modest amount of hull damage over time on all friendly ships within range."
-StringInfo
-	ID "IDS_ABILITY_NANOLEECH_NAME"
-	Value "Nano Leech"
-StringInfo
-	ID "IDS_ABILITY_NANOLEECH_DESCRIPTION"
-	Value "The titan unleashes a nanite swarm, stealing hull and antimatter from nearby enemy ships while they remain in range."
-StringInfo
-	ID "IDS_ABILITY_NANOREMIT_NAME"
-	Value "Nano Remit"
-StringInfo
-	ID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
-	Value "The Titan sacrifices some of its own hull and antimatter to restore the hull and antimatter to nearby friendly ships. You must have enough hull and antimatter for this effect to take place."
-StringInfo
-	ID "IDS_ABILITY_OVERCHARGE_NAME"
-	Value "Overcharge"
-StringInfo
-	ID "IDS_ABILITY_OVERCHARGE_DESCRIPTION"
-	Value "The next ability the titan uses will be enhanced for far greater effect."
-StringInfo
-	ID "IDS_ABILITY_PHASECLOAK_NAME"
-	Value "Selective Phasing"
-StringInfo
-	ID "IDS_ABILITY_PHASECLOAK_DESCRIPTION"
-	Value "Allows this ship to shift itself into phase space, where it becomes immune to all attacks at the expense of weapons and movement. Antimatter is consumed while in phase space."
-StringInfo
-	ID "IDS_ABILITY_PHASECLOAKACTIVE_NAME"
-	Value "Decloak"
-StringInfo
-	ID "IDS_ABILITY_PHASECLOAKACTIVE_DESCRIPTION"
-	Value "Returns the ship to real space, restoring its movement and weapons, but making it vulnerable to attacks."
-StringInfo
-	ID "IDS_ABILITY_PHASEEXPLOSIVEMINEDETONATE_NAME"
-	Value "Detonate"
-StringInfo
-	ID "IDS_ABILITY_PHASEEXPLOSIVEMINEDETONATE_DESCRIPTION"
-	Value "Causes the mine to explode when enemy targets are nearby, dealing physical damage to all of them."
-StringInfo
-	ID "IDS_ABILITY_PHASEGRAVITYMINEDETONATE_NAME"
-	Value "Detonate"
-StringInfo
-	ID "IDS_ABILITY_PHASEGRAVITYMINEDETONATE_DESCRIPTION"
-	Value "Causes the mine to explode when enemy targets are nearby, slowing their subspace movement and making phase jumping impossible."
-StringInfo
-	ID "IDS_ABILITY_PHASEGATE_NAME"
-	Value "Stabilize Phase Space"
-StringInfo
-	ID "IDS_ABILITY_PHASEGATE_DESCRIPTION"
-	Value "Creates a Phase Stabilizer node, allowing your empire's ships to travel directly between this node and another Phase Stabilizer node within the same star system."
-StringInfo
-	ID "IDS_ABILITY_PHASEMISSILESWARM_NAME"
-	Value "Phase Missile Swarm"
-StringInfo
-	ID "IDS_ABILITY_PHASEMISSILESWARM_DESCRIPTION"
-	Value "Launches a large volley of phase missiles, hitting multiple targets simultaneously."
-StringInfo
-	ID "IDS_ABILITY_PHASEOUTFIGHTERS_NAME"
-	Value "Phasic Trap"
-StringInfo
-	ID "IDS_ABILITY_PHASEOUTFIGHTERS_DESCRIPTION"
-	Value "Projects a phase inversion field around the hangar, which traps enemy strike craft in phase space for a period of time."
-StringInfo
-	ID "IDS_ABILITY_PHASEOUTHULL_NAME"
-	Value "Phase Out Hull"
-StringInfo
-	ID "IDS_ABILITY_PHASEOUTHULL_DESCRIPTION"
-	Value "Shifts the target into phase space, making it invulnerable but also preventing it from attacking."
-StringInfo
-	ID "IDS_ABILITY_PHASESTARBASESAMEORBITBODYDEBUFF_NAME"
-	Value "Starbases beyond one are disabled"
-StringInfo
-	ID "IDS_ABILITY_PLANETCRIPPLE_NAME"
-	Value "Induce Apathy"
-StringInfo
-	ID "IDS_ABILITY_PLANETCRIPPLE_DESCRIPTION"
-	Value "The planet's population succumbs to overwhelming lethargy, resulting in severely reduced production activity."
-StringInfo
-	ID "IDS_ABILITY_PLANETMANIA_NAME"
-	Value "Provoke Hysteria"
-StringInfo
-	ID "IDS_ABILITY_PLANETMANIA_DESCRIPTION"
-	Value "Instills frenzied psychosis among the planet's population, leading to violence and riots that damage infrastructure."
-StringInfo
-	ID "IDS_ABILITY_PLANETSHIELD_NAME"
-	Value "Planet Shield"
-StringInfo
-	ID "IDS_ABILITY_PLANETSHIELD_DESCRIPTION"
-	Value "Shields the planet in a powerful forcefield, greatly reducing damage from hostile forces bombarding it."
-StringInfo
-	ID "IDS_ABILITY_PLASMABOMBARDMENT_NAME"
-	Value "Condemnation"
-StringInfo
-	ID "IDS_ABILITY_PLASMABOMBARDMENT_DESCRIPTION"
-	Value "The cruiser lobs a constant stream of energy projectiles at all hostile structures near the target."
-StringInfo
-	ID "IDS_ABILITY_PLASMASTORM_NAME"
-	Value "Plasma Storm"
-StringInfo
-	ID "IDS_ABILITY_PLASMASTORM_DESCRIPTION"
-	Value "Violent fields of energy ebb and flow throughout the gravity well. Squadrons are grounded until more favorable conditions exist."
-StringInfo
-	ID "IDS_ABILITY_POWERSURGE_NAME"
-	Value "Power Surge"
-StringInfo
-	ID "IDS_ABILITY_POWERSURGE_DESCRIPTION"
-	Value "Greatly increases this ship's weapons fire and shield regeneration rates."
-StringInfo
-	ID "IDS_ABILITY_PROBE_NAME"
-	Value "Probe"
-StringInfo
-	ID "IDS_ABILITY_PROBE_DESCRIPTION"
-	Value "Allows visibility of the affected target and anything it detects. Lasts for a long period of time."
-StringInfo
-	ID "IDS_ABILITY_PROTECTEDSHUTDOWN_NAME"
-	Value "Phasic Barrier"
-StringInfo
-	ID "IDS_ABILITY_PROTECTEDSHUTDOWN_DESCRIPTION"
-	Value "This structure shuts down its normal operation to raise a protective field in order to reduce damage dealt to it."
-StringInfo
-	ID "IDS_ABILITY_PROTECTEDSHUTDOWNACTIVE_NAME"
-	Value "Deactivate Barrier"
-StringInfo
-	ID "IDS_ABILITY_PROTECTEDSHUTDOWNACTIVE_DESCRIPTION"
-	Value "Lowers the protective barrier in order to resume normal operation."
-StringInfo
-	ID "IDS_ABILITY_PSICOMMAND_NAME"
-	Value "Adept Drone Anima"
-StringInfo
-	ID "IDS_ABILITY_PSICOMMAND_DESCRIPTION"
-	Value "Increases the number of strike craft squadrons the carrier can support."
-StringInfo
-	ID "IDS_ABILITY_PSIONICSCREAM_NAME"
-	Value "Psionic Scream"
-StringInfo
-	ID "IDS_ABILITY_PSIONICSCREAM_DESCRIPTION"
-	Value "Enemy frigates and capital ships near by target are afflicted by a powerful psionic wave dealing moderate damage and preventing them from using abilities for some time. Enemies afflicted by Fracture take bonus damage."
-StringInfo
-	ID "IDS_ABILITY_PSISPACEMINEDETONATE_NAME"
-	Value "Detonate"
-StringInfo
-	ID "IDS_ABILITY_PSISPACEMINEDETONATE_DESCRIPTION"
-	Value "Causes the mine to explode against the nearest target."
-StringInfo
-	ID "IDS_ABILITY_PURIFICATION_NAME"
-	Value "Purification"
-StringInfo
-	ID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
-	Value "Destroys target owned frigate or cruiser, allowing the titan to absorb its remaining hull, shields and antimatter."
-StringInfo
-	ID "IDS_ABILITY_QUELLUNREST_NAME"
-	Value "Quell Unrest"
-StringInfo
-	ID "IDS_ABILITY_QUELLUNREST_DESCRIPTION"
-	Value "Diplomats aboard the envoy cruiser manipulate the population on the target planet to cool unrest and increase allegiance over a short period."
-StringInfo
-	ID "IDS_ABILITY_RADIATION_NAME"
-	Value "Radiation Bomb"
-StringInfo
-	ID "IDS_ABILITY_RADIATION_DESCRIPTION"
-	Value "A small nuclear explosion contaminates the target with radiation, causing it and nearby units to receive damage over time."
-StringInfo
-	ID "IDS_ABILITY_RAZEPLANET_NAME"
-	Value "Raze Planet"
-StringInfo
-	ID "IDS_ABILITY_RAZEPLANET_DESCRIPTION"
-	Value "Large siege guns fire upon the planet, inflicting massive destruction."
-StringInfo
-	ID "IDS_ABILITY_REACTIVENANITEARMOR_NAME"
-	Value "Reactive Nanite Armor"
-StringInfo
-	ID "IDS_ABILITY_REACTIVENANITEARMOR_DESCRIPTION"
-	Value "Increases the target's armor and current and maximum hullpoints for a brief period of time, or until the added hull points are depleted through damage."
-StringInfo
-	ID "IDS_ABILITY_REASSEMBLE_NAME"
-	Value "Reassemble"
-StringInfo
-	ID "IDS_ABILITY_REASSEMBLE_DESCRIPTION"
-	Value "All currently active friendly nanite swarms are converted into a massive greater swarm which get bonus hull, shields and weapon damage based on the number of nanites converted."
-StringInfo
-	ID "IDS_ABILITY_RECHARGESHIELDS_NAME"
-	Value "Recharge Shields"
-StringInfo
-	ID "IDS_ABILITY_RECHARGESHIELDS_DESCRIPTION"
-	Value "Target friendly ship gains greatly increased shield regeneration over a short time."
-StringInfo
-	ID "IDS_ABILITY_REINFORCEDARMOR_NAME"
-	Value "Fortified Civilian Ships"
-StringInfo
-	ID "IDS_ABILITY_REINFORCEDARMOR_DESCRIPTION"
-	Value "Grants this ship additional armor and hull strength."
-StringInfo
-	ID "IDS_ABILITY_REPAIRDROIDS_NAME"
-	Value "Repair Drones"
-StringInfo
-	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
-	Value "Sends a group of autonomous repair drones to repair hull points over time."
-StringInfo
-	ID "IDS_ABILITY_REPOSSESSION_NAME"
-	Value "Repossession"
-StringInfo
-	ID "IDS_ABILITY_REPOSSESSION_DESCRIPTION"
-	Value "Target enemy planet is instantly brought under your control through the will of the Unity."
-StringInfo
-	ID "IDS_ABILITY_REPULSIONFIELD_NAME"
-	Value "Repulsion"
-StringInfo
-	ID "IDS_ABILITY_REPULSIONFIELD_DESCRIPTION"
-	Value "A powerful telekinetic field is projected from this ship, pushing away and slowing the movement of all hostile ships within range. Maintaining the field drains antimatter over time."
-StringInfo
-	ID "IDS_ABILITY_REPULSIONFIELDACTIVE_NAME"
-	Value "Deactivate Repulsion"
-StringInfo
-	ID "IDS_ABILITY_REPULSIONFIELDACTIVE_DESCRIPTION"
-	Value "Stops the channelling of Repulsion, ceasing the consumption of antimatter."
-StringInfo
-	ID "IDS_ABILITY_RESOURCEDRAIN_NAME"
-	Value "Drain Planet"
-StringInfo
-	ID "IDS_ABILITY_RESOURCEDRAIN_DESCRIPTION"
-	Value "A powerful vortex sucks resources off a planet, giving credits to your empire and dealing damage to any structures on the surface."
-StringInfo
-	ID "IDS_ABILITY_RESURRECTION_NAME"
-	Value "Resurrection"
-StringInfo
-	ID "IDS_ABILITY_RESURRECTION_DESCRIPTION"
-	Value "The spirits of a destroyed ship's crew are psionically transfered to the crew of a lower level target ship, boosting the target ship's level to that of the destroyed one."
-StringInfo
-	ID "IDS_ABILITY_RESUPPLY_NAME"
-	Value "Resupply"
-StringInfo
-	ID "IDS_ABILITY_RESUPPLY_DESCRIPTION"
-	Value "Repairs damage and replenishes antimatter of friendly forces over a short duration."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
-	Value "Return of the Fallen"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The power of the purified Unity causes frigates, cruisers and corvettes to be revived from time to time at your capital."
-StringInfo
-	ID "IDS_ABILITY_REVENGEBOUNTY_NAME"
-	Value "Karmic Retribution"
-StringInfo
-	ID "IDS_ABILITY_REVENGEBOUNTY_DESCRIPTION"
-	Value "Killing this ship twists fate for the attacker's empire by placing bounty against it as punishment for the ship's death."
-StringInfo
-	ID "IDS_SUPPORTABILITY_REVENGEFROMBEYOND_NAME"
-	Value "Revenge From Beyond"
-StringInfo
-	ID "IDS_SUPPORTABILITY_REVENGEFROMBEYOND_DESCRIPTION"
-	Value "Nearby friendly frigates become marked. When destroyed, they will deal damage to a nearby random enemy ship."
-StringInfo
-	ID "IDS_ABILITY_SABOTAGEANTIMATTER_NAME"
-	Value "Sabotage Reactor"
-StringInfo
-	ID "IDS_ABILITY_SABOTAGEANTIMATTER_DESCRIPTION"
-	Value "Destabilizes the target with a bolt of energy, causing it to take damage when any abilities are used. When such damage is taken, the target cannot use abilities for a brief time."
-StringInfo
-	ID "IDS_ABILITY_SABOTAGEENGINES_NAME"
-	Value "Demolition Bots"
-StringInfo
-	ID "IDS_ABILITY_SABOTAGEENGINES_DESCRIPTION"
-	Value "Sends a team of small autonomous robots to the target enemy ship, where they will attach and detonate explosives to cripple the ship's engines and weapons."
-StringInfo
-	ID "IDS_ABILITY_SALVAGEOPERATIONS_NAME"
-	Value "Salvage Operations"
-StringInfo
-	ID "IDS_ABILITY_SALVAGEOPERATIONS_DESCRIPTION"
-	Value "Whenever a nearby friendly ship is destroyed, the capital ship gains hull points proportional to the destroyed ship's maximum hull points. The amount restored is increased if the destroyed ship was Boarded."
-StringInfo
-	ID "IDS_ABILITY_SCATTERSHOT_NAME"
-	Value "Scattershot"
-StringInfo
-	ID "IDS_ABILITY_SCATTERSHOT_DESCRIPTION"
-	Value "The titan fires a salvo of projectiles, dealing damage and lowering armor in a cone in front of the ship."
-StringInfo
-	ID "IDS_ABILITY_SELFDESTRUCT_NAME"
-	Value "Last Resort"
-StringInfo
-	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
-	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does immense damage to all objects within the blast area."
-StringInfo
-	ID "IDS_ABILITY_SELFREPAIR_NAME"
-	Value "Reintegration"
-StringInfo
-	ID "IDS_ABILITY_SELFREPAIR_DESCRIPTION"
-	Value "The ship enters a repair cycle, shutting down its engines and weapon systems in order to quickly regenerate its hull."
-StringInfo
-	ID "IDS_ABILITY_SETTLERS_NAME"
-	Value "Settlers"
-StringInfo
-	ID "IDS_ABILITY_SETTLERS_DESCRIPTION"
-	Value "Engineers aboard the envoy assist in constructing higher capacity cities for the planet, increasing maximum population."
-StringInfo
-	ID "IDS_ABILITY_SHIELDPROJECTION_NAME"
-	Value "Shield Projection"
-StringInfo
-	ID "IDS_ABILITY_SHIELDPROJECTION_DESCRIPTION"
-	Value "Extends its own shield to nearby friendly targets, absorbing a portion of the damage that they would have received."
-StringInfo
-	ID "IDS_ABILITY_SHIELDREGENERATE_NAME"
-	Value "Shield Regeneration"
-StringInfo
-	ID "IDS_ABILITY_SHIELDREGENERATE_DESCRIPTION"
-	Value "Regenerates the shields of nearby friendly targets over time."
-StringInfo
-	ID "IDS_ABILITY_SHIELDRESTORE_NAME"
-	Value "Shield Restore"
-StringInfo
-	ID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
-	Value "Instantly restores shield points to a friendly target."
-StringInfo
-	ID "IDS_ABILITY_SHIPCRIPPLE_NAME"
-	Value "Vertigo"
-StringInfo
-	ID "IDS_ABILITY_SHIPCRIPPLE_DESCRIPTION"
-	Value "Reduces affected vessels ability to hit targets and increases weapon cooldown of affected enemy forces."
-StringInfo
-	ID "IDS_ABILITY_SLOWENEMYHYPERSPACE_NAME"
-	Value "Jump Degradation"
-StringInfo
-	ID "IDS_ABILITY_SLOWENEMYHYPERSPACE_DESCRIPTION"
-	Value "Causes enemy ships phase jumping to the gravity well this ship occupies to travel there more slowly."
-StringInfo
-	ID "IDS_ABILITY_SLOWPOPULATIONGROWTH_NAME"
-	Value "Heavy Fallout"
-StringInfo
-	ID "IDS_ABILITY_SLOWPOPULATIONGROWTH_DESCRIPTION"
-	Value "The after effects of planetary bombardment are made more severe, causing population growth to be reduced more sharply for a period of time."
-StringInfo
-	ID "IDS_ABILITY_SNIPE_NAME"
-	Value "Snipe"
-StringInfo
-	ID "IDS_ABILITY_SNIPE_DESCRIPTION"
-	Value "The titan fires an extremely powerful, long-range shell, dealing massive damage to a single target."
-StringInfo
-	ID "IDS_ABILITY_SOLARFLARES_NAME"
-	Value "Solar Flares"
-StringInfo
-	ID "IDS_ABILITY_SOLARFLARES_DESCRIPTION"
-	Value "The star has reached its solar maximum, allowing ships to harness the extra power to regenerate their shields more quickly."
-StringInfo
-	ID "IDS_ABILITY_SOLARGAMMA_NAME"
-	Value "Gamma Exposure"
-StringInfo
-	ID "IDS_ABILITY_SOLARGAMMA_DESCRIPTION"
-	Value "Energetic bursts of gamma radiation damage shield generators, lowering overall mitigation levels."
-StringInfo
-	ID "IDS_ABILITY_SOLARINTERFERENCE_NAME"
-	Value "Solar Interference"
-StringInfo
-	ID "IDS_ABILITY_SOLARINTERFERENCE_DESCRIPTION"
-	Value "Electro-magnetic interference from the star impairs weapon systems, decreasing their range and rate of fire."
-StringInfo
-	ID "IDS_ABILITY_SOLARREGENERATION_NAME"
-	Value "Solar Radiation"
-StringInfo
-	ID "IDS_ABILITY_SOLARREGENERATION_DESCRIPTION"
-	Value "Grants capital ships and frigates within the star's gravity well increased antimatter regeneration and makes them harder to detect when jumping to their next destination."
-StringInfo
-	ID "IDS_ABILITY_SOLARSTORM_NAME"
-	Value "Solar Storms"
-StringInfo
-	ID "IDS_ABILITY_SOLARSTORM_DESCRIPTION"
-	Value "Energetic solar activity around this star prevents ship crews from initiating regular repairs."
-StringInfo
-	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_NAME"
-	Value "Spawn Phase Stabilizer"
-StringInfo
-	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_DESCRIPTION"
-	Value "Spawns a phase stabilizer module in the current gravity well. When used with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
-StringInfo
-	ID "IDS_ABILITY_SPAWNSQUAD_NAME"
-	Value "Scramble Bombers"
-StringInfo
-	ID "IDS_ABILITY_SPAWNSQUAD_DESCRIPTION"
-	Value "Deploys additional squadrons of bombers that will fight for a brief duration. Higher levels increases the number of squadrons launched."
-StringInfo
-	ID "IDS_ABILITY_SPEEDBOOST_NAME"
-	Value "Distort Gravity"
-StringInfo
-	ID "IDS_ABILITY_SPEEDBOOST_DESCRIPTION"
-	Value "Alters the effects of gravity on nearby friendly ships, granting increased sub-light movement speed."
-StringInfo
-	ID "IDS_ABILITY_SPEEDBUILDMODULE_NAME"
-	Value "Communal Labor"
-StringInfo
-	ID "IDS_ABILITY_SPEEDBUILDMODULE_DESC"
-	Value "Allows assisted construction of orbital structures, accelerating their completion."
-StringInfo
-	ID "IDS_ABILITY_SPREADWEAPONDAMAGE_NAME"
-	Value "Malice"
-StringInfo
-	ID "IDS_ABILITY_SPREADWEAPONDAMAGE_DESCRIPTION"
-	Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire."
-StringInfo
-	ID "IDS_ABILITY_SPRINT_NAME"
-	Value "Intercept"
-StringInfo
-	ID "IDS_ABILITY_SPRINT_DESCRIPTION"
-	Value "A short duration afterburner is fired when closing in on a target, allowing for a brief surge in speed and acceleration."
-StringInfo
-	ID "IDS_ABILITY_SPYINGATTACKS_NAME"
-	Value "Lingering Presence"
-StringInfo
-	ID "IDS_ABILITY_SPYINGATTACKS_DESCRIPTION"
-	Value "Grants vision of the location where this ship is destroyed for a moderate period of time afterwards."
-StringInfo
-	ID "IDS_ABILITY_STEALANTIMATTER_NAME"
-	Value "Steal Antimatter"
-StringInfo
-	ID "IDS_ABILITY_STEALANTIMATTER_DESCRIPTION"
-	Value "Takes antimatter from a target enemy ship and adds it to this ship's antimatter reserves."
-StringInfo
-	ID "IDS_ABILITY_STOPREGEN_NAME"
-	Value "Disruptor Nanites"
-StringInfo
-	ID "IDS_ABILITY_STOPREGEN_DESCRIPTION"
-	Value "A mix of specialized nanites compose part of the turret's phase missile warheads, halting repair and regeneration when they strike their target."
-StringInfo
-	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_NAME"
-	Value "Strength of the Fallen"
-StringInfo
-	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_DESCRIPTION"
-	Value "Friendly ships that are destroyed near the titan increase its weapon damage for a short period of time. This stacks for each ship destroyed."
-StringInfo
-	ID "IDS_ABILITY_TIMEDCHARGES_NAME"
-	Value "Timed Explosives"
-StringInfo
-	ID "IDS_ABILITY_TIMEDCHARGES_DESCRIPTION"
-	Value "Places a high explosive charge on a target enemy structure, which will detonate after its timer expires."
-StringInfo
-	ID "IDS_ABILITY_STEALRESOURCES_NAME"
-	Value "Plunder"
-StringInfo
-	ID "IDS_ABILITY_STEALRESOURCES_DESC"
-	Value "Steals credits from a target enemy ship."
-StringInfo
-	ID "IDS_ABILITY_STUNBURST_NAME"
-	Value "E.M.P."
-StringInfo
-	ID "IDS_ABILITY_STUNBURST_DESCRIPTION"
-	Value "Unleashes a large shockwave that disables all enemy ships within its radius for a brief time."
-StringInfo
-	ID "IDS_ABILITY_SUBJUGATINGASSAULT_NAME"
-	Value "Subjugation"
-StringInfo
-	ID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
-	Value "Psionic energy is channeled into the titan's weapons, giving them a chance to permanently mind control enemy ships. Weapons fire depletes antimatter and deals decreased damage while this ability is active."
-StringInfo
-	ID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_NAME"
-	Value "Stop Subjugation"
-StringInfo
-	ID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_DESCRIPTION"
-	Value "Resume normal weapons fire."
-StringInfo
-	ID "IDS_ABILITY_SUBVERSION_NAME"
-	Value "Subversion"
-StringInfo
-	ID "IDS_ABILITY_SUBVERSION_DESCRIPTION"
-	Value "Sends an espionage team to the planet's surface to perform reconnaissance and tamper with construction."
-StringInfo
-	ID "IDS_ABILITY_SUFFUSION_NAME"
-	Value "Suffusion"
-StringInfo
-	ID "IDS_ABILITY_SUFFUSION_DESCRIPTION"
-	Value "The titan's weapons become overcharged, dealing splash damage for a short period of time."
-StringInfo
-	ID "IDS_ABILITY_SUPPRESSION_NAME"
-	Value "Suppression"
-StringInfo
-	ID "IDS_ABILITY_SUPPRESSION_DESCRIPTION"
-	Value "Telekinetically overpowers the crew and systems of the target ship, preventing them from moving, attacking, or using abilities."
-StringInfo
-	ID "IDS_ABILITY_SUPPRESSIONAURA_NAME"
-	Value "Suppression Aura"
-StringInfo
-	ID "IDS_ABILITY_SUPPRESSIONAURA_DESCRIPTION"
-	Value "Nearby enemy ships are telekinetically suppressed, lowering weapon damage and movement speed."
-StringInfo
-	ID "IDS_ABILITY_TARGETINGUPLINK_NAME"
-	Value "Targeting Uplink"
-StringInfo
-	ID "IDS_ABILITY_TARGETINGUPLINK_DESCRIPTION"
-	Value "This ship's advanced targeting computer provides improved trajectory information to nearby vessels, allowing them to target more accurately and increase the effective range of their weapons."
-StringInfo
-	ID "IDS_ABILITY_TARGETANTIMATTERTANKS_NAME"
-	Value "Target Antimatter"
-StringInfo
-	ID "IDS_ABILITY_TARGETANTIMATTERTANKS_DESCRIPTION"
-	Value "The corvette's weapons have a chance to deplete its target's antimatter reserves."
-StringInfo
-	ID "IDS_ABILITY_TARGETCOMPUTERCORE_NAME"
-	Value "Target Computer Core"
-StringInfo
-	ID "IDS_ABILITY_TARGETCOMPUTERCORE_DESCRIPTION"
-	Value "The corvette's weapons have a chance to reduce its target's chance to hit for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETENGINES_NAME"
-	Value "Target Engines"
-StringInfo
-	ID "IDS_ABILITY_TARGETENGINES_DESCRIPTION"
-	Value "The corvette's weapons have a chance to reduce its target's movement speed for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETBACKUPGENERATORS_NAME"
-	Value "Target Backup Generators"
-StringInfo
-	ID "IDS_ABILITY_TARGETBACKUPGENERATORS_DESCRIPTION"
-	Value "The corvette's weapons have a chance to reduce its target's shield mitigation for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETWEAPONS_NAME"
-	Value "Target Weapons"
-StringInfo
-	ID "IDS_ABILITY_TARGETWEAPONS_DESCRIPTION"
-	Value "The corvette's weapons have a chance to increase its target's weapon cooldowns for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETHANGARBAYS_NAME"
-	Value "Target Hangar Bays"
-StringInfo
-	ID "IDS_ABILITY_TARGETHANGARBAYS_DESCRIPTION"
-	Value "The corvette's weapons have a chance to prevent its target from launching strikecraft for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETBRIDGE_NAME"
-	Value "Target Bridge"
-StringInfo
-	ID "IDS_ABILITY_TARGETBRIDGE_DESCRIPTION"
-	Value "The corvette's weapons have a chance to prevent its target from using abilities for some time."
-StringInfo
-	ID "IDS_ABILITY_TAUNT_NAME"
-	Value "Animosity"
-StringInfo
-	ID "IDS_ABILITY_TAUNT_DESCRIPTION"
-	Value "Antagonizes nearby hostile forces into attacking this ship over their current targets."
-StringInfo
-	ID "IDS_ABILITY_TECHSPACEMINEDETONATE_NAME"
-	Value "Detonate"
-StringInfo
-	ID "IDS_ABILITY_TECHSPACEMINEDETONATE_DESCRIPTION"
-	Value "Causes the mine to explode when enemy targets are nearby, dealing physical damage to all of them."
-StringInfo
-	ID "IDS_ABILITY_TELEKINETICPUSH_NAME"
-	Value "Telekinetic Push"
-StringInfo
-	ID "IDS_ABILITY_TELEKINETICPUSH_DESCRIPTION"
-	Value "Violently throws enemy strike craft within range away from this ship, dealing physical damage."
-StringInfo
-	ID "IDS_ABILITY_TELEPORTDISABLE_NAME"
-	Value "Distortion Field"
-StringInfo
-	ID "IDS_ABILITY_TELEPORTDISABLE_DESCRIPTION"
-	Value "The ship performs an in-grav phase jump, teleporting it towards an enemy target before it channels a disabling field of energy."
-StringInfo
-	ID "IDS_ABILITY_THEMAW_NAME"
-	Value "The Maw"
-StringInfo
-	ID "IDS_ABILITY_THEMAW_DESCRIPTION"
-	Value "The titan becomes immobile and begins to attract nearby enemy ships in a frontal cone. Enemy ships that are drawn into the titan's maw are destroyed and converted into resources for your cause."
-StringInfo
-	ID "IDS_ABILITY_TRANSFERANTIMATTER_NAME"
-	Value "Transfer Antimatter"
-StringInfo
-	ID "IDS_ABILITY_TRANSFERANTIMATTER_DESCRIPTION"
-	Value "Tranfers antimatter from this ship to a target friendly ship or structure."
-StringInfo
-	ID "IDS_ABILITY_UNITYMASS_NAME"
-	Value "Unity Mass"
-StringInfo
-	ID "IDS_ABILITY_UNITYMASS_DESCRIPTION"
-	Value "The will of all nearby friendly ships is focused into a beam of hatred against an enemy target."
-StringInfo
-	ID "IDS_ABILITY_UNSTABLEGAS_NAME"
-	Value "Unstable Gas Pockets"
-StringInfo
-	ID "IDS_ABILITY_UNSTABLEGAS_DESCRIPTION"
-	Value "Volatile gases from the planet's upper atmosphere permeate the gravity well. Large explosions will cause it to combust and deal further damage to nearby ships."
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPTECH_NAME"
-	Value "Infallible Jump Drive"
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPTECH_DESCRIPTION"
-	Value "Prevents this ship's jump drive from being disabled."
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPPSI_NAME"
-	Value "Infallible Jump Drive"
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPPSI_DESCRIPTION"
-	Value "Prevents this ship's jump drive from being disabled."
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPPHASE_NAME"
-	Value "Infallible Jump Drive"
-StringInfo
-	ID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPPHASE_DESCRIPTION"
-	Value "Prevents this ship's jump drive from being disabled."
-StringInfo
-	ID "IDS_ABILITY_UNYIELDINGWILL_NAME"
-	Value "Unyielding Will"
-StringInfo
-	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
-	Value "When the titan's hull is depleted, it will become invulnerable for a short period of time before being destroyed. Ability cooldowns are greatly reduced and antimatter regeneration is massively increased."
-StringInfo
-	ID "IDS_ABILITY_VENGEANCE_NAME"
-	Value "Vengeance"
-StringInfo
-	ID "IDS_ABILITY_VENGEANCE_DESCRIPTION"
-	Value "Whenever this ship is dealt damage, the attacker suffer a multiple of that damage in return."
-StringInfo
-	ID "IDS_ABILITY_VOLLEYFIRE_NAME"
-	Value "Onslaught"
-StringInfo
-	ID "IDS_ABILITY_VOLLEYFIRE_DESCRIPTION"
-	Value "Diverts power from this ship's engine systems to boost the range and rate of fire of its weapons."
-StringInfo
-	ID "IDS_ABILITY_VOLLEYFIREACTIVE_NAME"
-	Value "Disable Onslaught"
-StringInfo
-	ID "IDS_ABILITY_VOLLEYFIREACTIVE_DESCRIPTION"
-	Value "Resumes normal movement at the loss of the rate of fire increase."
-StringInfo
-	ID "IDS_ABILITY_VOLATILENANITES_NAME"
-	Value "Volatile Nanites"
-StringInfo
-	ID "IDS_ABILITY_VOLATILENANITES_DESCRIPTION"
-	Value "Afflicts enemy forces with a film of explosive nanites, causing increased damage when attacked and dealing damage to nearby enemies upon the target's death."
-StringInfo
-	ID "IDS_ABILITY_WAILOFTHESACRIFICED_NAME"
-	Value "Wail of the Sacrificed"
-StringInfo
-	ID "IDS_ABILITY_WAILOFTHESACRIFICED_DESCRIPTION"
-	Value "This planet is destroyed and all enemy ships and structures in nearby gravity wells take massive damage proportional to the planet's population."
-StringInfo
-	ID "IDS_ABILITY_WEAPONJAM_NAME"
-	Value "Jam Weapons"
-StringInfo
-	ID "IDS_ABILITY_WEAPONJAM_DESCRIPTION"
-	Value "Disables weapons on all hostile strike craft within range, preventing them from attacking for a period of time."
-StringInfo
-	ID "IDS_ABILITY_WORMHOLE_NAME"
-	Value "Wormhole"
-StringInfo
-	ID "IDS_ABILITY_WORMHOLE_DESCRIPTION"
-	Value "Instantly transports ships to a distant location."
-StringInfo
-	ID "IDS_ABILITY_WORTHYCAUSE_NAME"
-	Value "Worthy Cause"
-StringInfo
-	ID "IDS_ABILITY_WORTHYCAUSE_DESCRIPTION"
-	Value "Labor teams housed aboard the envoy assist in the construction of new structures within the gravity well, generating positive relations."
-StringInfo
-	ID "IDS_ABILITY_XENODEFENSE_NAME"
-	Value "Xeno Defense"
-StringInfo
-	ID "IDS_ABILITY_XENODEFENSE_DESCRIPTION"
-	Value "The envoy uses advanced defensive technology to harden the planet's surface from bombardment."
 StringInfo
 	ID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 	Value "Strong vs. fighter strike craft."
@@ -18428,10 +16952,10 @@ StringInfo
 	Value "Max allegiance increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERCAPACITYADJUSTMENT"
-	Value "Max antimatter increase:"
+	Value "Max supply increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERREGENADJUSTMENT"
-	Value "Antimatter regeneration:"
+	Value "Supply regeneration:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ARMORBASEADJUSTMENT"
 	Value "Armor increase:"
@@ -18479,7 +17003,7 @@ StringInfo
 	Value "Additional target banks:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CULTUREANTIMATTERREGENAMOUNT"
-	Value "Antimatter restored in culture:"
+	Value "Supply restored in culture:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CULTURESPREADRATEADJUSTMENT"
 	Value "Culture spread rate increase:"
@@ -22740,3 +21264,15 @@ StringInfo
 StringInfo
 	ID "IDS_RANDOMEVENT_OPENREBELLION_NAME"
 	Value "Open Rebellion"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDALLLOCATIONSRANDOMPLAYER"
+	Value "A %s heading toward all worlds belonging to %s!"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
+	Value "A %s is taking place in %s territory!"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATETITAN"
+	Value "A mad Vasari titan is marauding the system!"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
+	Value "The galaxy is undergoing an %s!"

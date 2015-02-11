@@ -83,8 +83,8 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
 	DamagePerBank:LEFT 200.000000
 	DamagePerBank:RIGHT 200.000000
 	Range 7500.000000
@@ -122,8 +122,8 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
+	DamagePerBank:FRONT 30.000000
+	DamagePerBank:BACK 30.000000
 	DamagePerBank:LEFT 30.000000
 	DamagePerBank:RIGHT 30.000000
 	Range 7500.000000
@@ -157,8 +157,8 @@ Weapon
 		missileMaxSlowTurnTime 1.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 0
-TargetCountPerBank:BACK 0
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
