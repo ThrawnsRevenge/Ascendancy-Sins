@@ -21,13 +21,11 @@ entities
 			entityDefName "Remnant_PolicyLab"
 			entityDefName "Remnant_CommandStation"
 		Page:1
-			count 7
+			count 5
 			entityDefName "Remnant_GolanI"
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
-			entityDefName "Remnant_GalaxyGun"
 			entityDefName "NewRep_TitanFactory"
-			entityDefName "Remnant_ShieldGenerator"
 			entityDefName "Remnant_RepairPlatform"
 	titanInfo
 		Page:0

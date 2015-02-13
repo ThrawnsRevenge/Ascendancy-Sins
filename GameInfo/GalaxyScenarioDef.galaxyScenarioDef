@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 264
+planetItemTypeCount 265
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1498,6 +1498,9 @@ planetItemType
 	designName "Remnant:Module:GalaxyGun"
 	entityDefName "Remnant_GalaxyGun"
 planetItemType
+	designName "Remnant:Module:HeroBase"
+	entityDefName "Remnant_HeroBase"
+planetItemType
 	designName "Remnant:Module:ShieldGenerator"
 	entityDefName "Remnant_ShieldGenerator"
 planetItemType
@@ -1756,44 +1759,75 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4
+			items 12
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4	
+			items 12
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
+				item "NewRep:Module:CapitalShipyard"
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Tibanna"
+				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:AssaultFrigate"
+				item "NewRep:Frigate:AssaultFrigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4		
+			items 11
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Frigate:Constructor"
+				item "EotH:Module:CapitalShipyard"
+				item "EotH:Module:Durasteel"
+				item "EotH:Module:Durasteel"
+				item "EotH:Module:Tibanna"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Budirech"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
 				param "Hapans"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4	
+			items 12
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
+				item "NewRep:Module:CapitalShipyard"
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Tibanna"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1811,7 +1845,7 @@ planetItemsTemplate
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:VSDII"
+				item "Remnant:Module:HeroBase"
 				item "Remnant:Frigate:Dreadnaught"
 		group
 			condition
