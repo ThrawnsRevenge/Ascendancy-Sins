@@ -12,10 +12,10 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	damage
-		Level:0 20.000000
-		Level:1 20.000000
-		Level:2 20.000000
-		Level:3 20.000000
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
 	populationKilled
 		Level:0 0.000000
 		Level:1 0.000000

@@ -37,7 +37,7 @@ ShieldPointRestoreRate 0.000000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 25.000000
 resourceExtractionType "Invalid"
-cultureSpreadRate 1.100000
+cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
 placementRadius 825.000000
 nearPlacementDistOffset 0.000000

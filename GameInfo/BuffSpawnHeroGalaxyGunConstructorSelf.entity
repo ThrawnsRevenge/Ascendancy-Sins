@@ -10,8 +10,10 @@ isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "BuffSpawnHeroGalaxyGunDisabler"
+	conditionBuffShortName ""
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
@@ -27,8 +29,8 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffHeroSpawnCooldownIncrease"
+	delayTime 3.000000
+	buffType "BuffSpawnHeroGalaxyGunDisablerSpawner"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

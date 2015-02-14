@@ -585,11 +585,11 @@ GameplayConstants
 	incomeSpeedData-Faster
 		incomeRateGameSpeedScalar 0.75
 	fleetSupplyData-Small
-		fleetSupplyScalar 0.75
+		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 1.25
+		fleetSupplyScalar 2.5
 	shipPhysicsSpeedData-Slow
 		shipLinearMaxSpeedGameSpeedScalar 0.0
 		shipLinearAccelerationGameSpeedScalar 0.0

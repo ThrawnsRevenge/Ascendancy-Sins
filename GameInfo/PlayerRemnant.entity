@@ -168,7 +168,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
 	starBaseInfo
 		count 1
-		entityDefName "StarBasePsi"
+		entityDefName "Remnant_GalaxyGun"
 	flagship "Remnant_Chimera"
 debrisData
 	numRandomMeshNamesLarge 10

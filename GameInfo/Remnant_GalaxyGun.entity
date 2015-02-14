@@ -1,75 +1,81 @@
 ﻿TXT
-entityType "PlanetModuleStandard"
-minZoomDistanceMult 1.200000
+entityType "StarBase"
 ability:0 "AbilityDestroyPlanet"
 ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 300.000000
-AntiMatterRestoreRate 0.500000
-numRandomDebrisLarge 5
-numRandomDebrisSmall 11
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+numRandomDebrisLarge 12
+numRandomDebrisSmall 24
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_GALAXYGUN"
 smallHudIcon "HUDICON_GALAXYGUN"
 infoCardIcon "HUDICON_GALAXYGUN"
-planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 18.000000
-basePrice
-	credits 8000.000000
-	metal 600.000000
-	crystal 500.000000
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_DESCRIPTION"
-planetModuleRoleType "CANNON"
-statCountType "ModuleCannon"
-Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_GalaxyGun"
-		Level 1
-	RequiredFactionNameID ""
-	RequiredCompletedResearchSubjects 0
-MaxHullPoints 4000.000000
-HullPointRestoreRate 2.000000
-BaseArmorPoints 5.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.600000
-ExperiencePointsForDestroying 150.000000
-resourceExtractionType "Invalid"
-cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 2775.000000
-nearPlacementDistOffset 0.000000
-farPlacementDistOffset 9000.000000
-spawnCount 1
-swapMineType ""
-angularSpeed 0.750000
-rotateSoundName "WEAPON_PSIORBITALCANNONROTATE_LOOP"
-rotateFacingType "None"
-rotateConstantly FALSE
-ShieldMeshName ""
+minZoomDistanceMult 2.000000
+NumWeapons 0
+m_weaponIndexForRange 2
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+ShieldMeshName "IR_GalaxyGun"
 renderShield TRUE
-NumSoundsFor:ONATTACKORDERISSUED 0
-NumSoundsFor:ONCREATION 0
-NumSoundsFor:ONGENERALORDERISSUED 0
-NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PSIORBITALCANNON_ONSELECTION_0"
-NumSoundsFor:ONSTARTPHASEJUMP 0
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+mainViewIcon "HUDICON_GALAXYGUN"
+experiencePointsForDestroying 150.000000
+nameStringID "IDS_STARBASETECH_NAME"
+picture "PICTURE_STARBASETECH"
+statCountType "StarBase"
+creationSourceAbility "AbilityCreateGalaxyGun"
+maxUpgradeLevelCount 1
+UpgradeTypeCount 0
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "IR_GalaxyGun"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExplosionName "PlanetModuleLarge"
-mainViewIcon "HUDICON_GALAXYGUN"
-picture "HUDICON_GALAXYGUN"
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "STARBASE_TECH_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+ExplosionName "StarBase0"
+formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-formationRank 3
-baseBuildTime 50.000000
+cargoShipType "FrigateTechTradeShip"
+maxCargoShipCount 5
+cargoShipRespawnTime 25.000000
+baseBuildTime 120.000000
 buildEffectName ""
+angularSpeed 0.500000
+rotateSoundName ""
+rotateFacingType "AwayFromOrbitBody"
+rotateConstantly FALSE
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear -1.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+mass 10000.000000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"

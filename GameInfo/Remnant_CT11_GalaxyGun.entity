@@ -7,39 +7,39 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "StarBaseConstructor"
+statCountType "FrigateStarBaseConstructor"
 mainViewIcon "HUDICONSMALL_CT11"
-picture "HUDICON_CT11_GALAXYGUN"
-NameStringID "IDS_FRIGATE_CT11_GALAXYGUN_NAME"
-DescriptionStringID "IDS_FRIGATE_CT11_GALAXYGUN_DESC"
+picture "HUDICON_CT11"
+NameStringID "IDS_FRIGATE_CT11_NAME"
+DescriptionStringID "IDS_FRIGATE_CT11_DESC"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 240.000000
-	metal 50.000000
-	crystal 0.000000
+	credits 2000.000000
+	metal 350.000000
+	crystal 250.000000
 slotCount 1.000000
 BuildTime 25.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1200.000000
-MaxShieldPoints 1200.000000
-HullPointRestoreRate 1.000000
+ExperiencePointsForDestroying 30.000000
+MaxHullPoints 1500.000000
+MaxShieldPoints 505.000000
+HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 1.000000
-BaseArmorPoints 2.000000
+BaseArmorPoints 3.000000
 maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
-numRandomDebrisSmall 5
+numRandomDebrisSmall 1
 numSpecificDebris 0
-armorType "Medium"
+armorType "Heavy"
 hudIcon "HUDICON_CT11"
 smallHudIcon "HUDICONSMALL_CT11"
 infoCardIcon "HUDICON_CT11"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.500000
 NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
@@ -50,7 +50,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "UV_CT11"
+ShieldMeshName "IR_Carrack"
 renderShield TRUE
 maxAccelerationLinear 340.000000
 maxAccelerationStrafe 10.000000
@@ -69,40 +69,31 @@ squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
-NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
-NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHLIGHT_ONCREATION"
-NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_0"
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_1"
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_2"
-NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "FRIGATE_PSISTARBASECONSTRUCTOR_ONSELECTED"
+NumSoundsFor:ONSELECTED 1
+SoundID "FRIGATE_PSISTARBASECONSTRUCTOR_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "UV_CT11"
+	meshName "IR_Carrack"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName ""
+ExhaustParticleSystemName "Exhaust_TechTradeShip"
 ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
-EngineSoundID "ENGINE_TECHCAPITALSHIP"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 "AbilityCreateGalaxyGun"
 ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 200.000000
-AntiMatterRestoreRate 0.500000
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0
