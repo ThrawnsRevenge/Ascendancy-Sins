@@ -25,7 +25,7 @@ entities
 			entityDefName "Remnant_GolanI"
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
-			entityDefName "NewRep_TitanFactory"
+			entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
 			entityDefName "Remnant_RepairPlatform"
 	titanInfo
 		Page:0

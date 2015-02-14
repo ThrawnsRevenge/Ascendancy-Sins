@@ -12,9 +12,9 @@ numRandomDebrisLarge 3
 numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_TECH_TITAN_FOUNDRY"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALTITANFACTORY"
-infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALTITANFACTORY"
+hudIcon "HUDICON_TITANFOUNDRY"
+smallHudIcon "HUDICON_TITANFOUNDRY"
+infoCardIcon "HUDICON_TITANFOUNDRY"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 12.000000
 basePrice
@@ -66,8 +66,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALTITANFACTORY"
-picture "PLANETMODULEPICTURE_TECHORBITALTITANFACTORY"
+mainViewIcon "HUDICON_TITANFOUNDRY"
+picture "HUDICON_TITANFOUNDRY"
 minShadow 0.000000
 maxShadow 0.200000
 formationRank 3
