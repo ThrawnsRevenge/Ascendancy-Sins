@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2270
+entityNameCount 2274
 entityName "RandomEventWarlords.entity"
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
@@ -295,6 +295,10 @@ entityName "RemnantUpgrade_Sovereign_AbilityB.entity"
 entityName "RemnantUpgrade_Sovereign_AbilityC.entity"
 entityName "RemnantUpgrade_Sovereign_AbilityD.entity"
 entityName "RemnantUpgrade_Sovereign_Abilities.entity"
+entityName "AIHelperCapitalsRemnant.entity"
+entityName "AiHelperCapitalsRemnantTwo.entity"
+entityName "RemnantResearch_AIHelp_CapitalsOne.entity"
+entityName "RemnantResearch_AIHelp_CapitalsTwo.entity"
 entityName "RemnantResearch_AbilityUnlock_MissileInterference.entity"
 entityName "RemnantResearch_AbilityUnlock_Overwhelm.entity"
 entityName "RemnantResearch_AbilityUnlock_DentingStrike.entity"

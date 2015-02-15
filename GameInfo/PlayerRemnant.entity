@@ -66,7 +66,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 99
+		count 101
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -166,6 +166,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI5"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "Remnant_GalaxyGun"
