@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_AURIETTE_NAME"
 DescriptionStringID "IDS_FRIGATE_AURIETTE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 8.000000
+	credits 400.000000
 	metal 1.000000
 	crystal 1.000000
-slotCount 14.000000
-BuildTime 1.000000
+slotCount 4.000000
+BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 1500.000000
-MaxShieldPoints 1500.000000
+MaxHullPoints 1900.000000
+MaxShieldPoints 1900.000000
 HullPointRestoreRate 1.500000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
