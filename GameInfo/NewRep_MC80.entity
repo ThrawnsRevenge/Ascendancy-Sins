@@ -79,7 +79,7 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-roleType "Invalid"
+roleType "COLONY"
 statCountType "CapitalShipBattleship"
 numRandomDebrisLarge 10
 numRandomDebrisSmall 25

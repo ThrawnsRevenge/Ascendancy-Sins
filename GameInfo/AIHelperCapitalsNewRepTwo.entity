@@ -4,18 +4,15 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 10.000000
+	minFleetPoints 11.000000
 	maxFleetPoints 21.000000
 	requiredShipCount 0
-	randomShipCount 3
+	randomShipCount 2
 	randomShip
-		type "Remnant_ISDI"
+		type "NewRep_Nebula"
 		weight 1
 	randomShip
-		type "Remnant_ISDII"
-		weight 1
-	randomShip
-		type "Remnant_Altor"
+		type "NewRep_Endurance"
 		weight 1
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -24,9 +21,9 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
-baseSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
-improveSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "NewRepResearch_AIHelp_CapitalsTwo"
+improveSourceResearchSubject "NewRepResearch_AIHelp_CapitalsTwo"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -36,19 +33,19 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 610.000000
-	metal 50.000000
-	crystal 50.000000
+	credits 1610.000000
+	metal 250.000000
+	crystal 150.000000
 cooldownTime
-	Level:0 120.000000
-	Level:1 120.000000
+	Level:0 500.000000
+	Level:1 500.000000
 	Level:2 0.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_AIHelp_CapitalsOne"
+		Subject "NewRepResearch_AIHelp_CapitalsTwo"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

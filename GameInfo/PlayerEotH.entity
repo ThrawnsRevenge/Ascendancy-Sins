@@ -3,7 +3,7 @@ entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_EOTH"
 canColonize TRUE
 isPsi FALSE
-isSelectable FALSE
+isSelectable TRUE
 selectablePriorty 3
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_EOTH"
 randomStarBaseNamePrefix "IDS_STARBASENAME_EOTH"
@@ -57,7 +57,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 37
+		count 39
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -95,6 +95,8 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
+		entityDefName "EotHResearch_AIHelp_CapitalsOne"
+		entityDefName "EotHResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "StarBasePhase"

@@ -7,15 +7,12 @@ spawnShips
 	minFleetPoints 10.000000
 	maxFleetPoints 21.000000
 	requiredShipCount 0
-	randomShipCount 3
+	randomShipCount 2
 	randomShip
-		type "Remnant_ISDI"
+		type "EotH_Ascendancy"
 		weight 1
 	randomShip
-		type "Remnant_ISDII"
-		weight 1
-	randomShip
-		type "Remnant_Altor"
+		type "EotH_Syndic"
 		weight 1
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -25,8 +22,8 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-baseSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
-improveSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
+baseSourceResearchSubject "EotHResearch_AIHelp_CapitalsOne"
+improveSourceResearchSubject "EotHResearch_AIHelp_CapitalsOne"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -48,7 +45,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_AIHelp_CapitalsOne"
+		Subject "EotHResearch_AIHelp_CapitalsOne"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
