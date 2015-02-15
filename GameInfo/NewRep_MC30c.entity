@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_MC30C_NAME"
 DescriptionStringID "IDS_FRIGATE_MC30C_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFRIGATE"
 basePrice
-	credits 400.000000
+	credits 600.000000
 	metal 70.000000
 	crystal 50.000000
 slotCount 5.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000
-MaxHullPoints 2000.000000
-MaxShieldPoints 2560.000000
+MaxHullPoints 2600.000000
+MaxShieldPoints 2660.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 2.000000
 BaseArmorPoints 3.500000

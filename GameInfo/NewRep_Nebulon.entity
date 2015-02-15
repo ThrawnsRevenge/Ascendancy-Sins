@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_NEBULON_NAME"
 DescriptionStringID "IDS_FRIGATE_NEBULON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 280.000000
+	credits 300.000000
 	metal 30.000000
 	crystal 0.000000
 slotCount 2.000000

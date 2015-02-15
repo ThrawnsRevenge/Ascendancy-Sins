@@ -44,7 +44,7 @@ basePrice
 	metal 300.000000
 	crystal 180.000000
 slotCount 20.000000
-BuildTime 125.000000
+BuildTime 200.000000
 MaxHullPoints
 	StartValue 12700.000000
 	ValueIncreasePerLevel 144.000000

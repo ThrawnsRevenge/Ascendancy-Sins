@@ -40,16 +40,16 @@ bombEffectsDef
 	projectileTravelEffectName "TurbolaserRed_Single"
 mainViewIcon "HUDICONSMALL_CAPITALSHIP_MC80"
 basePrice
-	credits 600.000000
+	credits 1100.000000
 	metal 40.000000
 	crystal 20.000000
 slotCount 4.000000
-BuildTime 50.000000
+BuildTime 75.000000
 MaxHullPoints
-	StartValue 2520.000000
+	StartValue 4020.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 3150.000000
+	StartValue 4050.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000

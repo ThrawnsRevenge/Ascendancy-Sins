@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_QUASAR_NAME"
 DescriptionStringID "IDS_FRIGATE_QUASAR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 300.000000
+	credits 350.000000
 	metal 40.000000
 	crystal 15.000000
 slotCount 4.000000
-BuildTime 25.000000
+BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 600.000000
-MaxShieldPoints 600.000000
+MaxHullPoints 1400.000000
+MaxShieldPoints 1400.000000
 HullPointRestoreRate 1.500000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000

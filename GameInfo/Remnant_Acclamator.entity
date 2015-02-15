@@ -15,10 +15,10 @@ NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 410.000000
+	credits 350.000000
 	metal 35.000000
 	crystal 75.000000
-slotCount 5.000000
+slotCount 4.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000

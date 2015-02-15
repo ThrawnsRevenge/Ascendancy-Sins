@@ -15,10 +15,10 @@ NameStringID "IDS_CAPITALSHIP_VSDII_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_VSDII_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 760.000000
+	credits 860.000000
 	metal 75.000000
 	crystal 40.000000
-slotCount 5.000000
+slotCount 8.000000
 BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000

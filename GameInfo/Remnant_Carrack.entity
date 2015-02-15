@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_CARRACK_NAME"
 DescriptionStringID "IDS_FRIGATE_CARRACK_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 240.000000
+	credits 200.000000
 	metal 50.000000
 	crystal 0.000000
 slotCount 3.000000

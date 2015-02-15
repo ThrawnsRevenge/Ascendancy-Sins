@@ -545,17 +545,17 @@ GameplayConstants
 		raidCost:3 10100
 		raidCost:4 13600
 	buildSpeedData-Slow
-		shipBuildRateGameSpeedScalar 0.0
-		moduleBuildRateGameSpeedScalar 0.0
+		shipBuildRateGameSpeedScalar -0.3
+		moduleBuildRateGameSpeedScalar -0.3
 	buildSpeedData-Normal
+		shipBuildRateGameSpeedScalar 0.00
+		moduleBuildRateGameSpeedScalar 0.00
+	buildSpeedData-Fast
 		shipBuildRateGameSpeedScalar 0.10
 		moduleBuildRateGameSpeedScalar 0.10
-	buildSpeedData-Fast
+	buildSpeedData-Faster
 		shipBuildRateGameSpeedScalar 0.20
 		moduleBuildRateGameSpeedScalar 0.20
-	buildSpeedData-Faster
-		shipBuildRateGameSpeedScalar 0.40
-		moduleBuildRateGameSpeedScalar 0.40
 	cultureSpeedData-Slow
 		cultureConnectionReferenceLength 250000
 		allegianceShiftRateScalar 0.75
@@ -577,13 +577,13 @@ GameplayConstants
 	researchSpeedData-Faster
 		researchRateGameSpeedScalar -0.05
 	incomeSpeedData-Slow
-		incomeRateGameSpeedScalar 0.0
+		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar 0.15
+		incomeRateGameSpeedScalar -0.15
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.30
+		incomeRateGameSpeedScalar 0.10
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 0.75
+		incomeRateGameSpeedScalar 0.50
 	fleetSupplyData-Small
 		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal
@@ -591,9 +591,9 @@ GameplayConstants
 	fleetSupplyData-Large
 		fleetSupplyScalar 2.5
 	shipPhysicsSpeedData-Slow
-		shipLinearMaxSpeedGameSpeedScalar 0.0
-		shipLinearAccelerationGameSpeedScalar 0.0
-		shipLinearDecelerationGameSpeedScalar 0.0
+		shipLinearMaxSpeedGameSpeedScalar -0.30
+		shipLinearAccelerationGameSpeedScalar -0.30
+		shipLinearDecelerationGameSpeedScalar -0.30
 	shipPhysicsSpeedData-Normal
 		shipLinearMaxSpeedGameSpeedScalar 0.30
 		shipLinearAccelerationGameSpeedScalar 0.30
