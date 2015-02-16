@@ -52,12 +52,13 @@ entities
 			entityDefName "EotH_Alaria"
 			entityDefName "EotH_Warlord"
 		NotOnPage
-			count 3
+			count 4
+			entityDefName "EotH_FrigateResearch"
 			entityDefName "FrigatePhaseModuleConstructor"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 39
+		count 46
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -68,6 +69,13 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Alaria"
 		entityDefName "EotHResearch_ShipUnlock_Phalanx"
 		entityDefName "EotHResearch_ShipUnlock_Massias"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
+		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "NewRepResearch_AbilityUnlock_Migration"
 		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "RemnantResearch_Global_RepairPlatform"

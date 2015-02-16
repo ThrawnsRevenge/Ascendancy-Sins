@@ -16,8 +16,8 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "ResearchWithBase"
-baseSourceResearchSubject "NewRepResearch_ShipUnlock_Quasar"
-improveSourceResearchSubject "NewRepResearch_ShipUnlock_AssaultFrigate"
+baseSourceResearchSubject "RemnantResearch_Global_ShieldGenerator"
+improveSourceResearchSubject "RemnantResearch_Global_ShieldGenerator"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

@@ -4,18 +4,15 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 10.000000
-	maxFleetPoints 21.000000
+	minFleetPoints 4.000000
+	maxFleetPoints 12.000000
 	requiredShipCount 0
-	randomShipCount 3
+	randomShipCount 2
 	randomShip
 		type "Remnant_ISDI"
 		weight 1
 	randomShip
 		type "Remnant_ISDII"
-		weight 1
-	randomShip
-		type "Remnant_Altor"
 		weight 1
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -24,7 +21,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
+levelSourceType "ResearchWithBase"
 baseSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
 improveSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
 aiUseTime "Anytime"
@@ -40,8 +37,8 @@ resourceCost
 	metal 50.000000
 	crystal 50.000000
 cooldownTime
-	Level:0 120.000000
-	Level:1 120.000000
+	Level:0 180.000000
+	Level:1 180.000000
 	Level:2 0.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"

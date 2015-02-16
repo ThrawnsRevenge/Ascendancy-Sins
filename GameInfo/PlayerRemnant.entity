@@ -61,7 +61,8 @@ entities
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_Dreadnaught"
 		NotOnPage
-			count 3
+			count 4
+			entityDefName "Remnant_FrigateResearch"
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
