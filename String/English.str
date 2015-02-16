@@ -1307,19 +1307,19 @@ StringInfo
 	Value "Expeditionary Command"
 StringInfo
 	ID "IDSPlayerAINamePhase5"
-	Value "General Fel"
+	Value "Baron Soontir Fel"
 StringInfo
 	ID "IDSPlayerAINamePhase6"
-	Value "Home Defense"
+	Value "Admiral Ar'alani"
 StringInfo
 	ID "IDSPlayerAINamePhase7"
-	Value "Adjun Imperials"
+	Value "House Nuruodo"
 StringInfo
 	ID "IDSPlayerAINamePhase8"
-	Value "Rakorun Survivors"
+	Value "House Mitth"
 StringInfo
 	ID "IDSPlayerAINamePhase9"
-	Value "Slave Kar Majistra"
+	Value "Hand of Thrawn"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_EASY"
 	Value "Recruit"
@@ -9857,13 +9857,13 @@ StringInfo
 	Value "A refined subclass of the Victory, the Mk II's greater speed and laser armament allow it to pursue and engage enemies in ship-to-ship action."
 StringInfo
 	ID "IDS_TITAN_EXECUTOR_NAME"
-	Value "Executor Super Star Destroyer"
+	Value "Executor Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_EXECUTOR_DESCRIPTION"
 	Value "A massive and fear-inspiring starship with more firepower than entire fleets."
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_NAME"
-	Value "Sovereign Super Star Destroyer"
+	Value "Sovereign Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 	Value "A titanic warship armed with a superlaser capable of melting the surface of planets."
