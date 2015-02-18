@@ -60,11 +60,11 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 200.0
+			ExperienceNeededForNextLevel 10.0
 			ExperienceGainedForDestroying 100.0
 			UpgradePriceForNextLevel 1250.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 500.0
+			ExperienceNeededForNextLevel 30.0
 			ExperienceGainedForDestroying 120.0
 			UpgradePriceForNextLevel 1500.0
 		ExperienceLevelData:2
@@ -638,18 +638,18 @@ GameplayConstants
 		netChangeForBoom 0.3
 	playerAISharedDef
 		table-Aggressive
-			BuildShip 27
+			BuildShip 23
 			BuildModuleTactical 2
-			BuildModuleCivilian 1
-			BuildModuleResearch 3
-			UpgradeResearch 3
-			UpgradePlanetArtifactLevel 1
+			BuildModuleCivilian 2
+			BuildModuleResearch 5
+			UpgradeResearch 5
+			UpgradePlanetArtifactLevel 2
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 1
-			UpgradePlanetIndustry 3
+			UpgradePlanetSocial 2
+			UpgradePlanetIndustry 2
 			MaxBountyBidCount 3
-			UpgradeStarBase 2
+			UpgradeStarBase 1
 			BuildMines 1
 		table-Defensive
 			BuildShip 23
@@ -951,7 +951,7 @@ GameplayConstants
 		incomeRateBonusPerLongestNodeDistanceNode .075
 	targetTypeCounterData
 	aiData
-		aiRetreatThreshold 0.25
+		aiRetreatThreshold 0.15
 	victoryData
 		occupationVictoryStarType "STAR_RED"
 		occupationVictoryStarName "OccupationStar"

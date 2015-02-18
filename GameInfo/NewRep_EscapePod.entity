@@ -6,10 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
-typeCount 2
-frigateRoleType "Colony"
-frigateRoleType "ResourceCapturer"
-statCountType "FrigateColony"
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
 mainViewIcon "HUDICONSMALL_ESCAPEPOD"
 picture "HUDICONSMALL_ESCAPEPOD"
 NameStringID "IDS_FRIGATE_ESCAPEPOD_NAME"

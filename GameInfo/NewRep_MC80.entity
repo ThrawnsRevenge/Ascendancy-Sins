@@ -80,7 +80,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
-statCountType "CapitalShipBattleship"
+statCountType "CapitalShipUtility2"
 numRandomDebrisLarge 10
 numRandomDebrisSmall 25
 numSpecificDebris 0
