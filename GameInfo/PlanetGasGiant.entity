@@ -50,7 +50,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "PuffySparse"
-	meshName "Planet_Gas_0"
+	meshName "Planet_GasGiant"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""

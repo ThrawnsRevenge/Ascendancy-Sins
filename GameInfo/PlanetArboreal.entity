@@ -5,7 +5,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Arboreal""
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -20,7 +20,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Arboreal""
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -35,7 +35,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
 	asteroidTemplate "Wall"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Arboreal""
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -50,7 +50,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Arboreal""
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -65,7 +65,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "Dense"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Arboreal""
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
