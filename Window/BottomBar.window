@@ -1,7 +1,7 @@
 TXT
 size [1024, 123]
 userInputGridWindow
-	area [733, 35, 271, 80]
+	area [733, 27, 271, 80]
 	slotSize [53, 37]
 	slotGap [1, 4]
 	barOffsetFromTop 7
@@ -12,35 +12,35 @@ userInputGridWindow
 	autoCastBrushAnimation "AutoCastEnabledOverlay"
 	passiveAbilityOverlay "ActionGridSlotPassiveAbilityOverlay"
 pictureWindow
-	area [425, 23, 170, 90]
+	area [425, 17, 170, 90]
 openEntityDetailsButton
-	area [480, 3, 58 , 18]
+	area [480, 2, 58 , 18]
 	onBrush "BottomWindowButtonOpenRenameWindow"
 	offBrush "BottomWindowButtonOpenRenameWindow"	
 toggleScuttleButton
-	area [483, 111, 53, 8]
+	area [483, 109, 53, 8]
 	onBrush "BottomWindowButtonToggleScuttleOn"
 	offBrush "BottomWindowButtonToggleScuttleOff"	
 pingButton
-	area [666, 76, 52, 37]
+	area [666, 69, 52, 37]
 	onBrush "BottomWindowButtonPing"
 	offBrush "BottomWindowButtonPing"	
 increaseGameSpeedButton
-	area [557, 3, 23 , 18]
+	area [557, 1, 23 , 18]
 	onBrush "BottomWindowButtonIncreaseGameSpeed"
 	offBrush "BottomWindowButtonIncreaseGameSpeed_Off"	
 decreaseGameSpeedButton
-	area [440, 3, 23 , 18]
+	area [440, 1, 23 , 18]
 	onBrush "BottomWindowButtonDecreaseGameSpeed"
 	offBrush "BottomWindowButtonDecreaseGameSpeed_Off"			
 toggleIsAutoPlaceModuleActiveButton
-	area [666, 35, 52, 37]
+	area [666, 29, 52, 37]
 	onBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOn"
 	offBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"		
 entityInfoWindow
-	area [300, 0, 120, 100]	
+	area [300, -4, 120, 100]	
 	iconArea [5, -4, 30, 30]
-	textArea [40, 2, 35, 30]
+	textArea [40, 3, 35, 30]
 	ShipHull [0, 29, 100, 30]
 	ShipShield [0, 60, 100, 30]
 	ShipAntimatter [0, 91, 100, 30]
@@ -71,10 +71,10 @@ gameEventCategoryButtonDef
 	categoryUnderlayBrush-Threat "GameEventButtonEmptyCategoryThreat"
 	achievementIconArea [0, 0, 56, 67]
 pingGameEventsButton
-	area [44, 35, 56 , 67 ]
+	area [44, 31, 56 , 67 ]
 productionGameEventsButton
-	area [102, 35, 56 , 67 ]
+	area [102, 31, 56 , 67 ]
 allianceGameEventsButton
-	area [160, 35, 56 , 67 ]
+	area [160, 31, 56 , 67 ]
 threatGameEventsButton
-	area [218, 35, 56 , 67 ]
+	area [218, 31, 56 , 67 ]

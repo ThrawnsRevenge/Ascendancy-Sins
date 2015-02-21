@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 88
+brushCount 89
 brush
 	name "CheckBoxBackdrop"
 	content "States"
@@ -992,17 +992,17 @@ brush
 	name "ScrollBarHorizontal"
 	content "Margins"
 	stretchMargins
-		left 20
-		right 20
+		left 0
+		right 0
 		top 0
 		bottom 0
 	contentMargins
-		left 8
-		right 8
+		left -10
+		right -10
 		top 0
 		bottom 0
 	fileName "Interface0"
-	pixelBox [ 794 , 131 , 195 , 32 ]
+	pixelBox [ 800 , 131 , 175 , 32 ]
 brush
 	name "ScrollBarHorizontalBeginArrow"
 	content "States"
@@ -1281,3 +1281,8 @@ brush
 	Normal
 		fileName "BackButton"
 		pixelBox [ 0 , 0 , 200 , 50 ]
+brush
+	name "MenuButtonOverlay"
+	content "Simple"
+	fileName "AscendancyButtonOverlay"
+	pixelBox [ -32 , 8, 169 , 47 ]

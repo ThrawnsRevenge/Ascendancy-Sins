@@ -2,7 +2,7 @@ TXT
 tabWindow
 	topLeftOffset [0, -20]
 	buttonTopLeftOffset [ 55 , 97]
-	buttonSize [ 170 , 52 ]
+	buttonSize [ 175 , 57 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSSinglePlayerSetupScreenTitle"
@@ -10,7 +10,7 @@ tabWindow
 	titleArea [50, 40, 190, 40]	
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropArea [0, 0, 220, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
 	contentArea [230, 0, 814, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
@@ -21,20 +21,20 @@ tabWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "TabButtonOverlayNonActive"						
+		overlay "MenuButtonOverlay"						
 	activeButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
-		overlay "TabButtonOverlayActive"							
+		overlay "MenuButtonOverlay"							
 	closeButton
 		area [55, 724, 170 , 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "TabButtonOverlayNonActive"					
+		overlay "MenuButtonOverlay"					
 		icon "ScreenBackButton"
 		text "IDSOptionsScreenBackButton"
 newGame
@@ -48,7 +48,7 @@ newGame
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "Null"				
 		icon "SinglePlayerSetupScreenPlayNewGameButton"
 		text "IDSSinglePlayerSetupScreenPlayNewGameButton"	
 loadSavedGame

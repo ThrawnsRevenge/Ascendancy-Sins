@@ -24,8 +24,8 @@ brush
 brush
 	name "LoadScreenBarOverlay"
 	content "Simple"
-	fileName "Null"
-	pixelBox [ -5000 , -5000 , 0 , 0 ]
+	fileName "Ascendancy_Loadscreen"
+	pixelBox [ 5 , 78 , 635 , 34 ]
 brush
 	name "LoadScreenBarProgress"
 	content "Margins"

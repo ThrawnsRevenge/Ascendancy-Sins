@@ -1,17 +1,17 @@
 TXT
 size [1015, 57]
 creditsSummaryWindow
-	area [742, 5, 90, 30]
+	area [742, 9, 90, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [5, -1, 20, 31]
 	textArea [23, 0, 55, 31]
 metalSummaryWindow
-	area [838, 5, 80, 30]
+	area [838, 9, 80, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [0, -1, 20, 31]
 	textArea [17, 0, 50, 31]
 crystalSummaryWindow
-	area [919, 5, 80, 30]
+	area [919, 9, 80, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [0, -1, 20, 31]
 	textArea [20, 0, 50, 31]
@@ -20,15 +20,15 @@ openEscapeMenuButton
 	onBrush "ActionIconOpenEscapeMenuScreen"
 	offBrush "ActionIconOpenEscapeMenuScreen"
 openResearchButton
-	area [532, 6, 76, 38]
+	area [532, 9, 76, 38]
 	onBrush "ActionIconOpenResearchScreenEnabled"
 	offBrush "ActionIconOpenResearchScreenDisabled"
 openPlayersButton
-	area [372, 6, 76, 38]
+	area [372, 9, 76, 38]
 	onBrush "ActionIconOpenPlayerScreen"
 	offBrush "ActionIconOpenPlayerScreen"
 openRelationshipsButton
-	area [452, 6, 76, 38]
+	area [452, 9, 76, 38]
 	onBrush "ActionIconOpenRelationshipsScreen"
 	offBrush "ActionIconOpenRelationshipsScreen"
 openNPCButton
@@ -44,10 +44,10 @@ toggleScreenShotModeButton
 	onBrush "BottomWindowButtonToggleScreenShotModeOn"
 	offBrush "BottomWindowButtonToggleScreenShotModeOff"	
 shipSlotSummaryWindow
-	area [690, 8, 40, 23]
+	area [690, 12, 40, 23]
 	fontId "AssetAndResourceAmount"
 capitalShipSlotSummaryWindow
-	area [646, 8, 30, 23]
+	area [646, 12, 30, 23]
 	fontId "AssetAndResourceAmount"
 leftCap
 	highResGapTolerance 189

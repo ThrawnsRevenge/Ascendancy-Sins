@@ -21,20 +21,20 @@ tabWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "TabButtonOverlayNonActive"						
+		overlay "MenuButtonOverlay"						
 	activeButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
-		overlay "TabButtonOverlayActive"						
+		overlay "MenuButtonOverlay"						
 	closeButton
 		area [33, 724, 170 , 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "TabButtonOverlayNonActive"				
+		overlay "MenuButtonOverlay"				
 		icon "ScreenBackButton"
   		text "IDSMultiPlayerSetupScreenBackButton"
 sharedScreenTextEntryDef
