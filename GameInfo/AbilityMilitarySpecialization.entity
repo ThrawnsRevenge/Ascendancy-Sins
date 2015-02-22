@@ -14,8 +14,9 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "FixedLevel0"
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityALevel"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

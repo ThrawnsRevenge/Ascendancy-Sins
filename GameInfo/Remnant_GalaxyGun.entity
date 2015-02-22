@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "StarBase"
 ability:0 "AbilityDestroyPlanet"
-ability:1 ""
+ability:1 "AbilityMilitarySpecialization"
 ability:2 ""
 ability:3 ""
 ability:4 ""
@@ -41,8 +41,8 @@ nameStringID "IDS_STARBASETECH_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateGalaxyGun"
-maxUpgradeLevelCount 1
-UpgradeTypeCount 0
+UpgradeTypeCount 1
+UpgradeType "StarBaseUpgradeRemComToughness"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "IR_GalaxyGun"
