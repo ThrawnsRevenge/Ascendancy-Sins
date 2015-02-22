@@ -29,7 +29,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "Anytime"
+aiUseTime "NoEnemyShipsInGravityWell"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

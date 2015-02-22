@@ -1,42 +1,34 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadius"
+buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRemnantFighters"
+buffType "BuffAltorProtect"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
-	numObjects 6
+	numObjects 5
 	object "CapitalShip"
 	object "Frigate"
 	object "PlanetModule"
 	object "StarBase"
-	object "Titan"
 	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 3
+	numConstraints 1
 	constraint "NotSelf"
-	constraint "HasAntiMatterShortage"
-	constraint "CanHaveFighters"
 range
-	Level:0 1000.000000
-	Level:1 1200.000000
-	Level:2 1400.000000
-	Level:3 1600.000000
-maxTargetCount
-	Level:0 10.000000
-	Level:1 12.000000
-	Level:2 14.000000
-	Level:3 16.000000
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName "Ability_RepairPlatformTechActivate"
-	mediumEffectName "Ability_RepairPlatformTechActivate"
-	largeEffectName "Ability_RepairPlatformTechActivate"
-	soundID "EFFECT_REPAIR_TECH"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -48,7 +40,7 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "Anytime"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -62,17 +54,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 70.000000
-	Level:1 65.000000
-	Level:2 60.000000
-	Level:3 55.000000
+	Level:0 60.000000
+	Level:1 50.000000
+	Level:2 40.000000
+	Level:3 30.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_ALTORRESTORE_NAME"
-descStringID "IDS_ABILITY_ALTORRESTORE_DESCRIPTION"
-hudIcon "HUDABILITYICON_RESTOCK"
-smallHudIcon "HUDABILITYICON_RESTOCK"
+nameStringID "IDS_ABILITY_ALTORPROTECT_NAME"
+descStringID "IDS_ABILITY_ALTORPROTECT_DESCRIPTION"
+hudIcon "HUDABILITYICON_PROTECT"
+smallHudIcon "HUDABILITYICON_PROTECT"
 infoCardIcon ""

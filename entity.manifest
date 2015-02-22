@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2298
+entityNameCount 2300
 entityName "StarBaseUpgradeRemComHangar.entity"
 entityName "StarBaseUpgradeRemComWeapons.entity"
 entityName "StarBaseUpgradeRemComToughness.entity"
@@ -484,6 +484,7 @@ entityName "AbilityScrambleTransmissions.entity"
 entityName "AbilityReflectiveShields.entity"
 entityName "AbilityFearAura.entity"
 entityName "AbilityPowerSymbol.entity"
+entityName "AbilityAltorProtect.entity"
 entityName "AbilitySpawnHeroGalaxyGunConstructor.entity"
 entityName "BuffSpawnHeroGalaxyGunConstructorSelf.entity"
 entityName "BuffSpawnHeroGalaxyGunDisabler.entity"
@@ -492,6 +493,7 @@ entityName "AbilityCreateGalaxyGun.entity"
 entityName "AbilityCreateCommandStationIR.entity"
 entityName "BuffPowerSymbol.entity"
 entityName "BuffFearAura.entity"
+entityName "BuffAltorProtect.entity"
 entityName "BuffReflectiveShields.entity"
 entityName "BuffScrambleTransmissions.entity"
 entityName "BuffInciteRebellionActivated.entity"

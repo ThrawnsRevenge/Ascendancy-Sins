@@ -490,6 +490,24 @@ StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_DESCRIPTION"
 	Value "The impressive size of the Praetor demoralizes enemy crews, decreasing their damage output."
 StringInfo
+	ID "IDS_ABILITY_REPAIRALTOR_NAME"
+	Value "Repair"
+StringInfo
+	ID "IDS_ABILITY_REPAIRALTOR_DESCRIPTION"
+	Value "The Altor restores health to its target."
+StringInfo
+	ID "IDS_ABILITY_ALTORRESTORE_NAME"
+	Value "Resupply"
+StringInfo
+	ID "IDS_ABILITY_ALTORRESTORE_DESCRIPTION"
+	Value "The Altor restores fighter supply to its target."
+StringInfo
+	ID "IDS_ABILITY_ALTORPROTECT_NAME"
+	Value "Protect"
+StringInfo
+	ID "IDS_ABILITY_ALTORPROTECT_DESCRIPTION"
+	Value "The Altor makes its target invulnerable to damage for several seconds."
+StringInfo
 	ID "IDS_ABILITY_REFLECTIVESHIELDS_NAME"
 	Value "Reflective Shields"
 StringInfo
