@@ -66,7 +66,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 102
+		count 103
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -145,6 +145,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
+		entityDefName "RemnantResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
@@ -170,9 +171,10 @@ entities
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 2
+		count 3
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
+		entityDefName "Remnant_Esseles"
 	flagship "Remnant_Chimera"
 debrisData
 	numRandomMeshNamesLarge 10

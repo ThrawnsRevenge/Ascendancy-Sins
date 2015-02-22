@@ -139,7 +139,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityExplore"
 ability:1 "AbilityCaptureNeutralEntity"
 ability:2 "AbilityCreateEmpress"
-ability:3 ""
+ability:3 "AbilityCreateEsseles"
 ability:4 ""
 MaxAntiMatter 5.000000
 AntiMatterRestoreRate 0.000000

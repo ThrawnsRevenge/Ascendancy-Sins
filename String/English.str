@@ -67,6 +67,12 @@ StringInfo
 	ID "IDS_PLANETMODULE_EMPRESS_DESCRIPTION"
 	Value "A large military space station capable of engaging multiple enemy targets"
 StringInfo
+	ID "IDS_PLANETMODULE_ESSELES_NAME"
+	Value "Esseles Civilian Station"
+StringInfo
+	ID "IDS_PLANETMODULE_ESSELES_DESCRIPTION"
+	Value "A large civilian station usually built around existing orbiting bodies which provides economic and cultural bonuses."
+StringInfo
 	ID "IDS_PLANETMODULE_XQ_NAME"
 	Value "XQ Platform"
 StringInfo

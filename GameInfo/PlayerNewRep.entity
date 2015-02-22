@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_FrigateResearch"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 92
+		count 93
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -90,6 +90,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
 		entityDefName "NewRepResearch_ShipUnlock_MC30"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
+		entityDefName "NewRepResearch_ShipUnlock_Esseles"
 		entityDefName "NewRepResearch_ShipUnlock_Kwing"
 		entityDefName "NewRepResearch_ShipUnlock_Hajen"
 		entityDefName "NewRepResearch_ShipUnlock_Viscount"
@@ -161,8 +162,9 @@ entities
 		entityDefName "NewRepResearch_AIHelp_CapitalsOne"
 		entityDefName "NewRepResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 1
+		count 2
 		entityDefName "NewRep_Empress"
+		entityDefName "NewRep_Esseles"
 	flagship "NewRep_HomeOne"
 debrisData
 	numRandomMeshNamesLarge 8
