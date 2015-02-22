@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_ASSAULTFRIGATE_NAME"
 DescriptionStringID "IDS_FRIGATE_ASSAULTFRIGATE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 500.000000
+	credits 600.000000
 	metal 60.000000
 	crystal 30.000000
 slotCount 5.000000
-BuildTime 40.000000
+BuildTime 45.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000
-MaxHullPoints 1890.000000
-MaxShieldPoints 2360.000000
+MaxHullPoints 2090.000000
+MaxShieldPoints 3060.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 2.000000
 BaseArmorPoints 3.500000

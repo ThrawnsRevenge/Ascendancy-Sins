@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_BAC_NAME"
 DescriptionStringID "IDS_FRIGATE_BAC_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 480.000000
-	metal 50.000000
+	credits 800.000000
+	metal 60.000000
 	crystal 30.000000
 slotCount 5.000000
-BuildTime 40.000000
+BuildTime 50.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1520.000000
-MaxShieldPoints 1900.000000
+MaxHullPoints 3420.000000
+MaxShieldPoints 3400.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 2.000000

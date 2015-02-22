@@ -60,11 +60,11 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 200.0
+			ExperienceNeededForNextLevel 10.0
 			ExperienceGainedForDestroying 100.0
 			UpgradePriceForNextLevel 1250.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 500.0
+			ExperienceNeededForNextLevel 30.0
 			ExperienceGainedForDestroying 120.0
 			UpgradePriceForNextLevel 1500.0
 		ExperienceLevelData:2
@@ -545,17 +545,17 @@ GameplayConstants
 		raidCost:3 10100
 		raidCost:4 13600
 	buildSpeedData-Slow
-		shipBuildRateGameSpeedScalar 0.0
-		moduleBuildRateGameSpeedScalar 0.0
+		shipBuildRateGameSpeedScalar -0.3
+		moduleBuildRateGameSpeedScalar -0.3
 	buildSpeedData-Normal
+		shipBuildRateGameSpeedScalar 0.00
+		moduleBuildRateGameSpeedScalar 0.00
+	buildSpeedData-Fast
 		shipBuildRateGameSpeedScalar 0.10
 		moduleBuildRateGameSpeedScalar 0.10
-	buildSpeedData-Fast
+	buildSpeedData-Faster
 		shipBuildRateGameSpeedScalar 0.20
 		moduleBuildRateGameSpeedScalar 0.20
-	buildSpeedData-Faster
-		shipBuildRateGameSpeedScalar 0.40
-		moduleBuildRateGameSpeedScalar 0.40
 	cultureSpeedData-Slow
 		cultureConnectionReferenceLength 250000
 		allegianceShiftRateScalar 0.75
@@ -577,23 +577,23 @@ GameplayConstants
 	researchSpeedData-Faster
 		researchRateGameSpeedScalar -0.05
 	incomeSpeedData-Slow
-		incomeRateGameSpeedScalar 0.0
+		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar 0.15
+		incomeRateGameSpeedScalar -0.15
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.30
+		incomeRateGameSpeedScalar 0.10
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 0.75
+		incomeRateGameSpeedScalar 0.50
 	fleetSupplyData-Small
-		fleetSupplyScalar 0.75
+		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 1.25
+		fleetSupplyScalar 2.5
 	shipPhysicsSpeedData-Slow
-		shipLinearMaxSpeedGameSpeedScalar 0.0
-		shipLinearAccelerationGameSpeedScalar 0.0
-		shipLinearDecelerationGameSpeedScalar 0.0
+		shipLinearMaxSpeedGameSpeedScalar -0.30
+		shipLinearAccelerationGameSpeedScalar -0.30
+		shipLinearDecelerationGameSpeedScalar -0.30
 	shipPhysicsSpeedData-Normal
 		shipLinearMaxSpeedGameSpeedScalar 0.30
 		shipLinearAccelerationGameSpeedScalar 0.30
@@ -638,18 +638,18 @@ GameplayConstants
 		netChangeForBoom 0.3
 	playerAISharedDef
 		table-Aggressive
-			BuildShip 27
+			BuildShip 23
 			BuildModuleTactical 2
-			BuildModuleCivilian 1
-			BuildModuleResearch 3
-			UpgradeResearch 3
-			UpgradePlanetArtifactLevel 1
+			BuildModuleCivilian 2
+			BuildModuleResearch 5
+			UpgradeResearch 5
+			UpgradePlanetArtifactLevel 2
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 1
-			UpgradePlanetIndustry 3
+			UpgradePlanetSocial 2
+			UpgradePlanetIndustry 2
 			MaxBountyBidCount 3
-			UpgradeStarBase 2
+			UpgradeStarBase 1
 			BuildMines 1
 		table-Defensive
 			BuildShip 23
@@ -951,7 +951,7 @@ GameplayConstants
 		incomeRateBonusPerLongestNodeDistanceNode .075
 	targetTypeCounterData
 	aiData
-		aiRetreatThreshold 0.25
+		aiRetreatThreshold 0.15
 	victoryData
 		occupationVictoryStarType "STAR_RED"
 		occupationVictoryStarName "OccupationStar"

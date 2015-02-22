@@ -1,0 +1,56 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 11.000000
+	maxFleetPoints 21.000000
+	requiredShipCount 0
+	randomShipCount 2
+	randomShip
+		type "Remnant_Praetor"
+		weight 1
+	randomShip
+		type "Remnant_WorldDevastator"
+		weight 1
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "RemnantResearch_AIHelp_CapitalsTwo"
+improveSourceResearchSubject "RemnantResearch_AIHelp_CapitalsTwo"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveCapitalCrew"
+resourceCost
+	credits 1610.000000
+	metal 250.000000
+	crystal 150.000000
+cooldownTime
+	Level:0 500.000000
+	Level:1 500.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_AIHelp_CapitalsTwo"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKCAPITALSHIP_NAME"
+descStringID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DARKCAPITALSHIP"
+smallHudIcon "HUDICON_ABILITY_DARKCAPITALSHIP"
+infoCardIcon ""

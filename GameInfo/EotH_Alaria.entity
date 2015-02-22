@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_ALARIA_NAME"
 DescriptionStringID "IDS_FRIGATE_ALARIA_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 40.000000
-	metal 8.000000
-	crystal 8.000000
-slotCount 5.000000
-BuildTime 7.000000
+	credits 600.000000
+	metal 80.000000
+	crystal 80.000000
+slotCount 3.000000
+BuildTime 55.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 35.799999
-MaxHullPoints 600.000000
-MaxShieldPoints 300.000000
+MaxHullPoints 2500.000000
+MaxShieldPoints 2500.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 0.500000
 BaseArmorPoints 3.000000

@@ -15,11 +15,11 @@ NameStringID "IDS_FRIGATE_ASDONI_NAME"
 DescriptionStringID "IDS_FRIGATE_ASDONI_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 30.000000
-	metal 5.000000
+	credits 200.000000
+	metal 50.000000
 	crystal 0.000000
-slotCount 5.000000
-BuildTime 4.000000
+slotCount 1.000000
+BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
 MaxHullPoints 700.000000

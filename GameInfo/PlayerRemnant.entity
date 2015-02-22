@@ -21,13 +21,11 @@ entities
 			entityDefName "Remnant_PolicyLab"
 			entityDefName "Remnant_CommandStation"
 		Page:1
-			count 7
+			count 5
 			entityDefName "Remnant_GolanI"
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
-			entityDefName "Remnant_GalaxyGun"
-			entityDefName "NewRep_TitanFactory"
-			entityDefName "Remnant_ShieldGenerator"
+			entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
 			entityDefName "Remnant_RepairPlatform"
 	titanInfo
 		Page:0
@@ -63,12 +61,13 @@ entities
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_Dreadnaught"
 		NotOnPage
-			count 3
+			count 4
+			entityDefName "Remnant_FrigateResearch"
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 99
+		count 101
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -168,9 +167,11 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI5"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
-		entityDefName "StarBasePsi"
+		entityDefName "Remnant_GalaxyGun"
 	flagship "Remnant_Chimera"
 debrisData
 	numRandomMeshNamesLarge 10

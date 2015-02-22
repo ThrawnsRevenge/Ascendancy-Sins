@@ -3,7 +3,7 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_EXECUTOR"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_EXECUTOR"
 infoCardIcon ""
-NameStringID "IDS_TITAN_EXECUTOR_"
+NameStringID "IDS_TITAN_EXECUTOR_NAME"
 DescriptionStringID "IDS_TITAN_EXECUTOR_DESCRIPTION"
 researchWindowLocation
 	block 0

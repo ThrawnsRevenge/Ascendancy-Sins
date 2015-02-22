@@ -3,7 +3,7 @@ entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_EOTH"
 canColonize TRUE
 isPsi FALSE
-isSelectable FALSE
+isSelectable TRUE
 selectablePriorty 3
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_EOTH"
 randomStarBaseNamePrefix "IDS_STARBASENAME_EOTH"
@@ -52,12 +52,13 @@ entities
 			entityDefName "EotH_Alaria"
 			entityDefName "EotH_Warlord"
 		NotOnPage
-			count 3
+			count 4
+			entityDefName "EotH_FrigateResearch"
 			entityDefName "FrigatePhaseModuleConstructor"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 37
+		count 46
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -68,6 +69,13 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Alaria"
 		entityDefName "EotHResearch_ShipUnlock_Phalanx"
 		entityDefName "EotHResearch_ShipUnlock_Massias"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
+		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
+		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "NewRepResearch_AbilityUnlock_Migration"
 		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
@@ -95,6 +103,8 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
+		entityDefName "EotHResearch_AIHelp_CapitalsOne"
+		entityDefName "EotHResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "StarBasePhase"

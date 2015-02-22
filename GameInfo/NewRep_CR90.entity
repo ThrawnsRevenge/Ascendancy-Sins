@@ -6,9 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "AntiFighter"
-statCountType "FrigateAntiFighter"
+typeCount 2
+frigateRoleType "Scout"
+frigateRoleType "ResourceCapturer"
+statCountType "FrigateScout"
 mainViewIcon "HUDICONSMALL_FRIGATE_CR90"
 picture "HUDICON_CR90"
 NameStringID "IDS_FRIGATE_CR90_NAME"
@@ -18,7 +19,7 @@ basePrice
 	credits 200.000000
 	metal 25.000000
 	crystal 0.000000
-slotCount 2.000000
+slotCount 1.000000
 BuildTime 20.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000

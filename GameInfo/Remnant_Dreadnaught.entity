@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_DREADNAUGHT_NAME"
 DescriptionStringID "IDS_FRIGATE_DREADNAUGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 440.000000
+	credits 540.000000
 	metal 60.000000
 	crystal 0.000000
 slotCount 5.000000
 BuildTime 45.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 2310.000000
-MaxShieldPoints 1848.000000
+MaxHullPoints 2610.000000
+MaxShieldPoints 2648.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 2.000000

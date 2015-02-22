@@ -40,16 +40,16 @@ bombEffectsDef
 	projectileTravelEffectName "TurbolaserGreen_Single"
 mainViewIcon "HUDICONSMALL_CAPITALSHIP_WD"
 basePrice
-	credits 1500.000000
+	credits 3000.000000
 	metal 250.000000
 	crystal 120.000000
-slotCount 8.000000
-BuildTime 95.000000
+slotCount 12.000000
+BuildTime 180.000000
 MaxHullPoints
-	StartValue 4000.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 6000.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000

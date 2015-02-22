@@ -1307,19 +1307,19 @@ StringInfo
 	Value "Expeditionary Command"
 StringInfo
 	ID "IDSPlayerAINamePhase5"
-	Value "General Fel"
+	Value "Baron Soontir Fel"
 StringInfo
 	ID "IDSPlayerAINamePhase6"
-	Value "Home Defense"
+	Value "Admiral Ar'alani"
 StringInfo
 	ID "IDSPlayerAINamePhase7"
-	Value "Adjun Imperials"
+	Value "House Nuruodo"
 StringInfo
 	ID "IDSPlayerAINamePhase8"
-	Value "Rakorun Survivors"
+	Value "House Mitth"
 StringInfo
 	ID "IDSPlayerAINamePhase9"
-	Value "Slave Kar Majistra"
+	Value "Hand of Thrawn"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_EASY"
 	Value "Recruit"
@@ -4345,7 +4345,7 @@ StringInfo
 	ID "IDSPlanetBonusValueMetalIncomePerc"
 	Value "Durasteel Extraction Rate"
 StringInfo
-	ID "IDSPlanetBonusValueCRYSTALIncomePerc"
+	ID "IDSPlanetBonusValueCrystalIncomePerc"
 	Value "Tibanna Extraction Rate"
 StringInfo
 	ID "IDSPlanetBonusValueGravityWellRadiusPerc"
@@ -4952,10 +4952,10 @@ StringInfo
 	Value "Makes this planet your empire's Capital Planet, affecting the degree of allegiance of other planets belonging to your empire. Capital Planets also receive a bonus to tax income."
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEARTIFACTLEVEL_NAME"
-	Value "Enlistment Center"
+	Value "Search for Holocrons"
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEARTIFACTLEVEL_DESC"
-	Value "Citizens from this planet become eligible to join your forces, raising your supply cap."
+	Value "Search the planet for holocrons. Work in progress."
 StringInfo
 	ID "IDS_INFOCARD_BUILDRESOURCEASTEROIDEXTRACTOR_NAME"
 	Value "Build Extractor"
@@ -9857,13 +9857,13 @@ StringInfo
 	Value "A refined subclass of the Victory, the Mk II's greater speed and laser armament allow it to pursue and engage enemies in ship-to-ship action."
 StringInfo
 	ID "IDS_TITAN_EXECUTOR_NAME"
-	Value "Executor Super Star Destroyer"
+	Value "Executor Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_EXECUTOR_DESCRIPTION"
 	Value "A massive and fear-inspiring starship with more firepower than entire fleets."
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_NAME"
-	Value "Sovereign Super Star Destroyer"
+	Value "Sovereign Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 	Value "A titanic warship armed with a superlaser capable of melting the surface of planets."
@@ -11032,10 +11032,10 @@ StringInfo
 	ID "IDSAllianceTypeDescResearchPact"
 	Value "Empires sharing a Research Pact pool their research assets and both gain a considerable bonus in research times."
 StringInfo
-	ID "IDSAllianceTypeNameCRYSTALPact"
+	ID "IDSAllianceTypeNameCrystalPact"
 	Value "Tibanna Pact"
 StringInfo
-	ID "IDSAllianceTypeDescCRYSTALPact"
+	ID "IDSAllianceTypeDescCrystalPact"
 	Value "Empires sharing a Tibanna Pact will help each other to harvest CRYSTALs more effectively."
 StringInfo
 	ID "IDSAllianceTypeNameTradePact"
@@ -12355,7 +12355,7 @@ StringInfo
 	ID "IDS_TAUNT_TECH_AllianceAcceptResearchPact"
 	Value "Let's put our great minds together."
 StringInfo
-	ID "IDS_TAUNT_TECH_AllianceAcceptCRYSTALPact"
+	ID "IDS_TAUNT_TECH_AllianceAcceptCrystalPact"
 	Value "Together we'll gather all the Tibanna in the galaxy!"
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceAcceptEfficiencyPact"
@@ -12460,8 +12460,8 @@ StringInfo
 	ID "IDS_TAUNT_TECH_AllianceOfferResearchPact"
 	Value "I believe our researchers could work together for a better future."
 StringInfo
-	ID "IDS_TAUNT_TECH_AllianceOfferCRYSTALPact"
-	Value "We could both benefit from helping each other gather CRYSTALs."
+	ID "IDS_TAUNT_TECH_AllianceOfferCrystalPact"
+	Value "We could both benefit from helping each other gather Tibanna."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceOfferEfficiencyPact"
 	Value "We could begin a beneficial relationship starting with manufacturing assistance."
@@ -12703,7 +12703,7 @@ StringInfo
 	ID "IDS_TAUNT_TECH_AllianceBreakResearchPact"
 	Value "I've gotten all the help I need from your researchers."
 StringInfo
-	ID "IDS_TAUNT_TECH_AllianceBreakCRYSTALPact"
+	ID "IDS_TAUNT_TECH_AllianceBreakCrystalPact"
 	Value "Helping you to amass a Tibanna horde is not in our best interests."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceBreakEfficiencyPact"
@@ -16027,49 +16027,49 @@ StringInfo
 	ID "IDS_GameStat_MetalLostToOther"
 	Value "Durasteel lost to other sources"
 StringInfo
-	ID "IDS_GameStat_CRYSTALIncomeRate"
+	ID "IDS_GameStat_CrystalIncomeRate"
 	Value "Tibanna income rate"
 StringInfo
-	ID "IDS_GameStat_CRYSTALGainedFromResourceAsteroid"
+	ID "IDS_GameStat_CrystalGainedFromResourceAsteroid"
 	Value "Tibanna gained from asteroids"
 StringInfo
-	ID "IDS_GameStat_CRYSTALGainedFromRefineryShips"
+	ID "IDS_GameStat_CrystalGainedFromRefineryShips"
 	Value "Tibanna gained from refinery ships"
 StringInfo
-	ID "IDS_GameStat_CRYSTALGainedFromPlayerTransfer"
+	ID "IDS_GameStat_CrystalGainedFromPlayerTransfer"
 	Value "Tibanna received from allies"
 StringInfo
-	ID "IDS_GameStat_CRYSTALGainedFromStockMarket"
+	ID "IDS_GameStat_CrystalGainedFromStockMarket"
 	Value "Tibanna gained from the black market"
 StringInfo
-	ID "IDS_GameStat_CRYSTALGainedFromOther"
+	ID "IDS_GameStat_CryystalGainedFromOther"
 	Value "Tibanna gained from other sources"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToPlayerTransfer"
+	ID "IDS_GameStat_CrystalLostToPlayerTransfer"
 	Value "Tibanna given to allies"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToStockMarket"
+	ID "IDS_GameStat_CrystalLostToStockMarket"
 	Value "Tibanna sold on the black market"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToStockMarketBucket"
+	ID "IDS_GameStat_CrystalLostToStockMarketBucket"
 	Value "Tibanna to be sold to other players"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToShipPurchase"
+	ID "IDS_GameStat_CrystalLostToShipPurchase"
 	Value "Tibanna spent on ships"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToModulePurchase"
+	ID "IDS_GameStat_CrystalLostToModulePurchase"
 	Value "Tibanna spent on structures"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToPlanetUpgradePurchase"
+	ID "IDS_GameStat_CrystalLostToPlanetUpgradePurchase"
 	Value "Tibanna spent on planets"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToResearchSubjectPurchase"
+	ID "IDS_GameStat_CrystalLostToResearchSubjectPurchase"
 	Value "Tibanna spent on research"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToStarBaseUpgradePurchase"
+	ID "IDS_GameStat_CrystalLostToStarBaseUpgradePurchase"
 	Value "Tibanna spent on starbase upgrades"
 StringInfo
-	ID "IDS_GameStat_CRYSTALLostToOther"
+	ID "IDS_GameStat_CrystalLostToOther"
 	Value "Tibanna lost to other sources"
 StringInfo
 	ID "IDS_GameStat_AllSquadsBuilt"
@@ -16231,7 +16231,7 @@ StringInfo
 	ID "IDS_GameStat_ModuleCultureCenterBuilt"
 	Value "Structure - Culture Center"
 StringInfo
-	ID "IDS_GameStat_ModuleCRYSTALExtractorBuilt"
+	ID "IDS_GameStat_ModuleCrystalExtractorBuilt"
 	Value "Structure - Tibanna Refinery"
 StringInfo
 	ID "IDS_GameStat_ModuleMetalExtractorBuilt"
@@ -16264,7 +16264,7 @@ StringInfo
 	ID "IDS_GameStat_MetalAvailable"
 	Value "Durasteel available"
 StringInfo
-	ID "IDS_GameStat_CRYSTALAvailable"
+	ID "IDS_GameStat_CrystalAvailable"
 	Value "Tibanna available"
 StringInfo
 	ID "IDS_GameStat_PlanetsAcquiredWithColonization"
@@ -16390,7 +16390,7 @@ StringInfo
 	ID "IDS_GameStatGroup_Metal"
 	Value "Durasteel"
 StringInfo
-	ID "IDS_GameStatGroup_CRYSTAL"
+	ID "IDS_GameStatGroup_Crystal"
 	Value "Tibanna"
 StringInfo
 	ID "IDS_GameStatGroup_Ships"
@@ -18883,7 +18883,7 @@ StringInfo
 	ID "IDSPlayerScreenTradeMetal"
 	Value "Give %d"
 StringInfo
-	ID "IDSPlayerScreenTradeCRYSTAL"
+	ID "IDSPlayerScreenTradeCrystal"
 	Value "Give %d"
 StringInfo
 	ID "IDSPlayerScreenChangeAllianceButtonMutual"
@@ -18937,7 +18937,7 @@ StringInfo
 	ID "IDSPlayerScreenPriceMetalButton"
 	Value "%s Durasteel"
 StringInfo
-	ID "IDSPlayerScreenPriceCRYSTALButton"
+	ID "IDSPlayerScreenPriceCrystalButton"
 	Value "%s Tibanna"
 StringInfo
 	ID "IDSPlayerScreenRewardCreditsButton"
@@ -18946,7 +18946,7 @@ StringInfo
 	ID "IDSPlayerScreenRewardMetalButton"
 	Value "%s Durasteel"
 StringInfo
-	ID "IDSPlayerScreenRewardCRYSTALButton"
+	ID "IDSPlayerScreenRewardCrystalButton"
 	Value "%s Tibanna"
 StringInfo
 	ID "IDSPlayerScreenKillShipsButton"
@@ -19301,10 +19301,10 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "Quick Start"
+	Value "Heroes & G.Gun: On"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "Normal Start"
+	Value "Heroes & G.Gun: Off"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Slow Victory Speed"
@@ -19504,7 +19504,7 @@ StringInfo
 	ID "IDSStatsScreenTabButtonMetal"
 	Value "Durasteel"
 StringInfo
-	ID "IDSStatsScreenTabButtonCRYSTAL"
+	ID "IDSStatsScreenTabButtonCrystal"
 	Value "Tibanna"
 StringInfo
 	ID "IDSStatsScreenTabButtonShips"
@@ -19633,7 +19633,7 @@ StringInfo
 	ID "IDSQuestGiveCredits"
 	Value "Give Credits"
 StringInfo
-	ID "IDSQuestGiveCRYSTAL"
+	ID "IDSQuestGiveCrystal"
 	Value "Give Tibanna"
 StringInfo
 	ID "IDSQuestGiveMetal"
@@ -19660,7 +19660,7 @@ StringInfo
 	ID "IDSQuestInfoCardDescGiveCredits"
 	Value "Give Credits to this player to complete the mission."
 StringInfo
-	ID "IDSQuestInfoCardDescGiveCRYSTAL"
+	ID "IDSQuestInfoCardDescGiveCrystal"
 	Value "Give Tibanna to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescGiveMetal"
@@ -20302,10 +20302,10 @@ StringInfo
 	ID "IDSAchievementDescHasGivenMetal"
 	Value "Give %s Durasteel to other players."
 StringInfo
-	ID "IDSAchievementNameHasGivenCRYSTAL"
+	ID "IDSAchievementNameHasGivenCrystal"
 	Value "Tibanna Lender"
 StringInfo
-	ID "IDSAchievementDescHasGivenCRYSTAL"
+	ID "IDSAchievementDescHasGivenCrystal"
 	Value "Give %s Tibanna to other players."
 StringInfo
 	ID "IDSAchievementNameHasFormedAllianceCeaseFire"
@@ -20362,10 +20362,10 @@ StringInfo
 	ID "IDSAchievementDescHasMadeMetalIncome"
 	Value "Collect %s Durasteel from resource extractors in a single game."
 StringInfo
-	ID "IDSAchievementNameHasMadeCRYSTALIncome"
+	ID "IDSAchievementNameHasMadeCrystalIncome"
 	Value "Tibanna Miner"
 StringInfo
-	ID "IDSAchievementDescHasMadeCRYSTALIncome"
+	ID "IDSAchievementDescHasMadeCrystalIncome"
 	Value "Collect %s Tibanna from resource extractors in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeRefineryIncome"
@@ -20458,16 +20458,16 @@ StringInfo
 	ID "IDSAchievementDescHasSoldMetalToMarket"
 	Value "Sell %s Durasteel directly to the Black Market"
 StringInfo
-	ID "IDSAchievementNameHasBoughtCRYSTAL"
+	ID "IDSAchievementNameHasBoughtCrystal"
 	Value "Tibanna Speculator"
 StringInfo
-	ID "IDSAchievementDescHasBoughtCRYSTAL"
+	ID "IDSAchievementDescHasBoughtCrystal"
 	Value "Buy %s Tibanna from the Black Market"
 StringInfo
-	ID "IDSAchievementNameHasSoldCRYSTALToMarket"
+	ID "IDSAchievementNameHasSoldCrystalToMarket"
 	Value "Tibanna Merchant"
 StringInfo
-	ID "IDSAchievementDescHasSoldCRYSTALToMarket"
+	ID "IDSAchievementDescHasSoldCrystalLToMarket"
 	Value "Sell %s Tibanna directly to the Black Market"
 StringInfo
 	ID "IDSAchievementNameHasSoldResourcesToPlayers"
@@ -21035,10 +21035,10 @@ StringInfo
 	Value "Determines the maximum number of ships any given player can have."
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_NAME"
-	Value "Quick Start"
+	Value "Heroes & Superweapons"
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_DESCRIPTION"
-	Value "Players will begin the game with a handful of frigates and planet modules at their Capital planet."
+	Value "Players will have access to hero units. Imperials will hae access to the Galaxy Gun."
 StringInfo
 	ID "IDS_GAMEOPTION_INCOMESPEED_NAME"
 	Value "Income Rate"
@@ -21276,3 +21276,6 @@ StringInfo
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 	Value "The galaxy is undergoing an %s!"
+StringInfo
+	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_DLCNOTAVAILABLE"
+	Value "DLC required for this upgrade."

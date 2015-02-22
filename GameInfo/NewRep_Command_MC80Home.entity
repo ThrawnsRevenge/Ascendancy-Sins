@@ -44,12 +44,12 @@ basePrice
 	metal 105.000000
 	crystal 55.000000
 slotCount 15.000000
-BuildTime 75.000000
+BuildTime 105.000000
 MaxHullPoints
-	StartValue 5000.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 5200.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000

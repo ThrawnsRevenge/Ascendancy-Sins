@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_MASSIAS_NAME"
 DescriptionStringID "IDS_FRIGATE_MASSIAS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 800.000000
+	credits 600.000000
 	metal 50.000000
 	crystal 100.000000
 slotCount 5.000000
-BuildTime 4.000000
+BuildTime 50.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1800.000000
-MaxShieldPoints 1800.000000
+MaxHullPoints 2200.000000
+MaxShieldPoints 2200.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 2.000000

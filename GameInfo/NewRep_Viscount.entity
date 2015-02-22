@@ -43,16 +43,16 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
 mainViewIcon "HUDICONSMALL_TITAN_HOMEONE"
 basePrice
-	credits 7000.000000
+	credits 12000.000000
 	metal 1200.000000
 	crystal 250.000000
 slotCount 50.000000
 BuildTime 230.000000
 MaxHullPoints
-	StartValue 20300.000000
+	StartValue 27300.000000
 	ValueIncreasePerLevel 100.000000
 MaxShieldPoints
-	StartValue 25000.000000
+	StartValue 27000.000000
 	ValueIncreasePerLevel 100.000000
 HullPointRestoreRate
 	StartValue 0.000000

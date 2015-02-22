@@ -17,7 +17,7 @@ entities
 			entityDefName "NewRep_TradeStation"
 			entityDefName "NewRep_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
-			entityDefName "Remnant_CapitalShipyard"
+			entityDefName "NewRep_CapitalShipyard"
 			entityDefName "NewRep_PolicyLab"
 			entityDefName "NewRep_SmugglerDen"
 		Page:1
@@ -58,20 +58,22 @@ entities
 			entityDefName "NewRep_BAC"
 			entityDefName "NewRep_MC30c"
 		NotOnPage
-			count 5
+			count 6
 			entityDefName "Remnant_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
+			entityDefName "NewRep_FrigateResearch"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 86
+		count 89
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
+		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
@@ -152,6 +154,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
+		entityDefName "NewRepResearch_AIHelp_CapitalsOne"
+		entityDefName "NewRepResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "StarBaseTech"

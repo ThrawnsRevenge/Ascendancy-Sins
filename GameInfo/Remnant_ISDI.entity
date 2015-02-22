@@ -43,8 +43,8 @@ basePrice
 	credits 1180.000000
 	metal 100.000000
 	crystal 50.000000
-slotCount 5.000000
-BuildTime 70.000000
+slotCount 6.000000
+BuildTime 80.000000
 MaxHullPoints
 	StartValue 5000.000000
 	ValueIncreasePerLevel 144.000000
@@ -79,8 +79,8 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-roleType "Invalid"
-statCountType "CapitalShipBattleship"
+roleType "COLONY"
+statCountType "CapitalShipUtility2"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 35
 numSpecificDebris 0
