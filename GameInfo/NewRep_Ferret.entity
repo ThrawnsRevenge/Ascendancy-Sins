@@ -138,7 +138,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityExplore"
 ability:1 "AbilityCaptureNeutralEntity"
-ability:2 ""
+ability:2 "AbilityCreateEmpress"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 5.000000

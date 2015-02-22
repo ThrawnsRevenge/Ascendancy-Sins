@@ -21,11 +21,12 @@ entities
 			entityDefName "NewRep_PolicyLab"
 			entityDefName "NewRep_SmugglerDen"
 		Page:1
-			count 4
+			count 5
 			entityDefName "NewRep_GolanI"
 			entityDefName "NewRep_GolanII"
 			entityDefName "NewRep_GolanIII"
 			entityDefName "NewRep_TitanFactory"
+			entityDefName "NewRep_XQ"
 	titanInfo
 		Page:0
 			count 1
@@ -66,7 +67,7 @@ entities
 			entityDefName "NewRep_FrigateResearch"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 90
+		count 92
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -80,6 +81,8 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_MC80b"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula"
 		entityDefName "NewRepResearch_ShipUnlock_MC90_Command"
+		entityDefName "NewRepResearch_ShipUnlock_Empress"
+		entityDefName "NewRepResearch_ShipUnlock_XQ"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula_Command"
 		entityDefName "NewRepResearch_ShipUnlock_Endurance"
 		entityDefName "NewRepResearch_ShipUnlock_Bwing"
@@ -159,7 +162,7 @@ entities
 		entityDefName "NewRepResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
-		entityDefName "StarBaseTech"
+		entityDefName "NewRep_Empress"
 	flagship "NewRep_HomeOne"
 debrisData
 	numRandomMeshNamesLarge 8

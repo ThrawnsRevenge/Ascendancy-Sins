@@ -41,8 +41,9 @@ nameStringID "IDS_STARBASETECH_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateGalaxyGun"
-UpgradeTypeCount 1
+UpgradeTypeCount 2
 UpgradeType "StarBaseUpgradeRemComToughness"
+UpgradeType "StarBaseUpgradeRemnantMilitarySpecialization"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "IR_GalaxyGun"

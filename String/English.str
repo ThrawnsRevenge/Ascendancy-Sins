@@ -1,5 +1,5 @@
 TXT
-NumStrings 7093
+NumStrings 7095
 StringInfo
 	ID "IDS_ABILITY_COLONIZE_NAME"
 	Value "Establish Garrison"
@@ -60,6 +60,18 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_FERRET_DESCRIPTION"
 	Value "A scout ship used to explore and gather intelligence"
+StringInfo
+	ID "IDS_PLANETMODULE_EMPRESS_NAME"
+	Value "Empress Space Station"
+StringInfo
+	ID "IDS_PLANETMODULE_EMPRESS_DESCRIPTION"
+	Value "A large military space station capable of engaging multiple enemy targets"
+StringInfo
+	ID "IDS_PLANETMODULE_XQ_NAME"
+	Value "XQ Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_XQ_DESCRIPTION"
+	Value "A small space station which can repair and resupply ships"
 StringInfo
 	ID "IDS_FRIGATE_LAMBDA_NAME"
 	Value "Lambda"
