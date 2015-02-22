@@ -9751,11 +9751,29 @@ StringInfo
 	ID "IDS_SQUADPHASECOMBAT_DESC"
 	Value "Squadron of fighters good at taking out bombers."
 StringInfo
-	ID "IDS_SQUADTIEFIGHTER_NAME"
-	Value "TIE Fighter Squadron"
+	ID "IDS_FIGHTERTIEFIGHTER_NAME"
+	Value "TIE Fighter"
 StringInfo
-	ID "IDS_SQUADTIEFIGHTER_DESC"
-	Value "A squadron of Imperial TIE Fighters."
+	ID "IDS_FIGTERTIEFIGHTER_DESC"
+	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
+StringInfo
+	ID "IDS_FIGHTERTIEBOMBER_NAME"
+	Value "TIE Bomber"
+StringInfo
+	ID "IDS_FIGTERTIEBOMBER_DESC"
+	Value "A squadron of bombers meant to assault enemy cruisers and capital ships."
+StringInfo
+	ID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
+	Value "TIE Interceptor"
+StringInfo
+	ID "IDS_FIGTERTIEINTERCEPTOR_DESC"
+	Value "A superiority fighter which can intercept and destroy enemy fighters and bombers."
+StringInfo
+	ID "IDS_FIGHTERTIEDEFENDER_NAME"
+	Value "TIE Defender"
+StringInfo
+	ID "IDS_FIGTERTIEDEFENDER_DESC"
+	Value "A heavy specialty fighter, and the strongest in the Imperial arsenal. It can function effectively as a fighter and bomber."
 StringInfo
 	ID "IDS_CANADDSQUADREQUEST_CANADD"
 	Value "Can queue"
@@ -10151,7 +10169,7 @@ StringInfo
 	Value "A fast, manoeuvrable escort equipped with exceptionally strong shields."
 StringInfo
 	ID "IDS_FRIGATE_QUASAR_NAME"
-	Value "Quasar Fire-class Bulk Cruiser"
+	Value "Quasar Carrier"
 StringInfo
 	ID "IDS_FRIGATE_QUASAR_DESCRIPTION"
 	Value "A modified cargo vessel designated as a fighter carrier, fitted with light defensive weapons only."

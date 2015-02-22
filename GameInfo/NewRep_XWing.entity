@@ -22,14 +22,14 @@ maxAccelerationStrafe 100.000000
 maxDecelerationLinear 1000.000000
 maxAccelerationAngular 49.999992
 maxDecelerationAngular 99.999985
-maxSpeedLinear 900.000000
+maxSpeedLinear 950.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -79,7 +79,7 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName ""
 exhaustTrailWidth 9.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 60.000000
+maxHullPoints 30.000000
 hullPointRestoreRate 0.332000
 armorPoints 1.000000
 maxMitigation 0.600000

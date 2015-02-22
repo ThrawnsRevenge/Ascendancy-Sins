@@ -12,15 +12,15 @@ fighterIllusionEntityDef ""
 scuttleTime 10.000000
 fighterConstructionTime 22.000000
 decayWithoutOwnerRate 0.010000
-baseMaxNumFighters 2
+baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
 picture "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SQUADTECHCOMBAT_NAME"
-descriptionStringID "IDS_SQUADTECHCOMBAT_DESC"
+nameStringID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
+descriptionStringID "IDS_FIGHTERTIEINTERCEPTOR_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

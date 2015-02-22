@@ -12,15 +12,15 @@ fighterIllusionEntityDef ""
 scuttleTime 12.500000
 fighterConstructionTime 27.500000
 decayWithoutOwnerRate 0.010000
-baseMaxNumFighters 2
+baseMaxNumFighters 6
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 picture "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SQUADSCIMITAR_NAME"
-descriptionStringID "IDS_SQUADSCIMITAR_DESC"
+nameStringID "IDS_FIGHTERSCIMITAR_NAME"
+descriptionStringID "IDS_FIGHTERSCIMITAR_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

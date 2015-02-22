@@ -22,7 +22,7 @@ maxAccelerationStrafe 100.000000
 maxDecelerationLinear 1000.000000
 maxAccelerationAngular 49.999992
 maxDecelerationAngular 99.999985
-maxSpeedLinear 900.000000
+maxSpeedLinear 1000.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 NumWeapons 3
@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 5.000000
+	DamagePerBank:FRONT 50.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -68,12 +68,12 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 25.500000
+	DamagePerBank:FRONT 20.500000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -158,7 +158,7 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName ""
 exhaustTrailWidth 8.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 150.000000
+maxHullPoints 50.000000
 hullPointRestoreRate 0.489000
 armorPoints 2.000000
 maxMitigation 0.600000
