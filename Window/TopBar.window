@@ -1,34 +1,34 @@
 TXT
 size [1015, 57]
 creditsSummaryWindow
-	area [742, 9, 90, 30]
+	area [738, 11, 90, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [5, -1, 20, 31]
 	textArea [23, 0, 55, 31]
 metalSummaryWindow
-	area [838, 9, 80, 30]
+	area [834, 11, 80, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [0, -1, 20, 31]
 	textArea [17, 0, 50, 31]
 crystalSummaryWindow
-	area [919, 9, 80, 30]
+	area [915, 11, 80, 30]
 	fontId "AssetAndResourceAmount"
 	iconArea [0, -1, 20, 31]
 	textArea [20, 0, 50, 31]
 openEscapeMenuButton
-	area [188, 11, 40 , 18]
+	area [185, 16, 40 , 18]
 	onBrush "ActionIconOpenEscapeMenuScreen"
 	offBrush "ActionIconOpenEscapeMenuScreen"
 openResearchButton
-	area [532, 9, 76, 38]
+	area [528, 11, 76, 38]
 	onBrush "ActionIconOpenResearchScreenEnabled"
 	offBrush "ActionIconOpenResearchScreenDisabled"
 openPlayersButton
-	area [372, 9, 76, 38]
+	area [368, 11, 76, 38]
 	onBrush "ActionIconOpenPlayerScreen"
 	offBrush "ActionIconOpenPlayerScreen"
 openRelationshipsButton
-	area [452, 9, 76, 38]
+	area [448, 11, 76, 38]
 	onBrush "ActionIconOpenRelationshipsScreen"
 	offBrush "ActionIconOpenRelationshipsScreen"
 openNPCButton
@@ -36,25 +36,25 @@ openNPCButton
 	onBrush "Null"
 	offBrush "Null"
 toggleAttachedToEntityButton	
-	area [243, 11, 40, 18]
+	area [239, 16, 40, 18]
 	onBrush "BottomWindowButtonToggleZoomToCursorOn"
 	offBrush "BottomWindowButtonToggleZoomToCursorOff"	
 toggleScreenShotModeButton
-	area [293, 11, 40 , 18]
+	area [289, 16, 40 , 18]
 	onBrush "BottomWindowButtonToggleScreenShotModeOn"
 	offBrush "BottomWindowButtonToggleScreenShotModeOff"	
 shipSlotSummaryWindow
-	area [690, 12, 40, 23]
+	area [686, 15, 40, 23]
 	fontId "AssetAndResourceAmount"
 capitalShipSlotSummaryWindow
-	area [646, 12, 30, 23]
+	area [643, 15, 30, 23]
 	fontId "AssetAndResourceAmount"
 leftCap
 	highResGapTolerance 189
-	lowResArea [200, -7, 15, 57]
-	highResArea [-9, -8, 189, 57]
-	playerIconArea [15, 12, 50, 30]
-	playerNameArea [62, 13, 130, 30]
+	lowResArea [407, 54, 189, 57]
+	highResArea [407, 54, 189, 57]
+	playerIconArea [0, 2, 50, 30]
+	playerNameArea [40, 4, 130, 30]
 	playerNameFont "Label"
 rightCap
 	highResGapTolerance 200

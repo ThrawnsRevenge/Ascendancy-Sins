@@ -1,8 +1,8 @@
 TXT
-width 185
+width 200
 maxRowIconCount 5
 rowHeight 30
-itemOffsetFromTop 20
+itemOffsetFromTop 30
 rowScrollBarUnitHeight 20
 scrollBarOffsetFromLeft 1
 scrollBarOffsetFromTop 39
@@ -34,15 +34,15 @@ iconOverlayDef
 	fleetLeader "HUDIconEntityOverlayFleetLeader"
 optionsWindowDef
 	toggleSelectionMenuButton
-		area [40, 6, 98, 27]
+		area [62, 14, 35, 27]
 		openIcon "EmpireWindowOptionsWindowSelectionMenuOpenButton"
 		closedIcon "EmpireWindowOptionsWindowSelectionMenuClosedButton"
 		infoCardIcon "EmpireWindowOptionsWindowSelectionMenuInfoCardIcon"
 	toggleIsPinnedButton
-		area [2, 6, 35, 27]
+		area [24, 14, 35, 27]
 		icon "EmpireWindowOptionsWindowToggleIsPinnedButton"
 	toggleIsStackedButton
-		area [143, 6, 35, 27]
+		area [100, 14, 35, 27]
 		isStackedIcon "EmpireWindowOptionsWindowIsStackedButton"
 		isNotStackedIcon "EmpireWindowOptionsWindowIsNotStackedButton"
 selectionWindowDef

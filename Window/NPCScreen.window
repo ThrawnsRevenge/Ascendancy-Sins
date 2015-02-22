@@ -439,7 +439,7 @@ marketContentWindow
 		priceFont "Label"				
 	metalWindowDef
 		area [62, 466, 220 , 150]
-		backdropArea [-55 , -56 , 392 , 257]
+		backdropArea [-0 , -56 , 392 , 257]
 		backdropBrush "MarketScreenButtonsBackdropMetal"
 		buyButtonIcon "MarketScreenBuyButtonIconMetal"
 		sellButtonIcon "MarketScreenSellButtonIconMetal"

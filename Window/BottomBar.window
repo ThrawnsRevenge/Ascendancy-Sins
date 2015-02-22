@@ -14,11 +14,11 @@ userInputGridWindow
 pictureWindow
 	area [425, 17, 170, 90]
 openEntityDetailsButton
-	area [480, 2, 58 , 18]
+	area [605, 25, 58 , 18]
 	onBrush "BottomWindowButtonOpenRenameWindow"
 	offBrush "BottomWindowButtonOpenRenameWindow"	
 toggleScuttleButton
-	area [483, 109, 53, 8]
+	area [607, 67, 53, 37]
 	onBrush "BottomWindowButtonToggleScuttleOn"
 	offBrush "BottomWindowButtonToggleScuttleOff"	
 pingButton
@@ -26,11 +26,11 @@ pingButton
 	onBrush "BottomWindowButtonPing"
 	offBrush "BottomWindowButtonPing"	
 increaseGameSpeedButton
-	area [557, 1, 23 , 18]
+	area [636, 44, 25 , 21]
 	onBrush "BottomWindowButtonIncreaseGameSpeed"
 	offBrush "BottomWindowButtonIncreaseGameSpeed_Off"	
 decreaseGameSpeedButton
-	area [440, 1, 23 , 18]
+	area [607, 44, 25 , 21]
 	onBrush "BottomWindowButtonDecreaseGameSpeed"
 	offBrush "BottomWindowButtonDecreaseGameSpeed_Off"			
 toggleIsAutoPlaceModuleActiveButton
