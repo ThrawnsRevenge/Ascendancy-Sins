@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 2

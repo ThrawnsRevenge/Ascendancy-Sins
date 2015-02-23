@@ -31,7 +31,7 @@ maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
+		Subject "RemnantResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -10,9 +10,12 @@ researchWindowLocation
 	pos [ 4 , 0 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "NewRepResearch_ShipUnlock_XQ"
+		Level 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

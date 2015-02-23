@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 1 ]
+	pos [ 3 , 3 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
