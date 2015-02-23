@@ -32,7 +32,7 @@ Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "NewRepResearch_AIHelp_CapitalsOne"
-		Level 1
+		Level 2
 	ResearchPrerequisite
 		Subject "NewRepResearch_AIHelp_CapitalsTwo"
 		Level 1

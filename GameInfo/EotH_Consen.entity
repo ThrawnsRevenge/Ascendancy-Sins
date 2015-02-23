@@ -90,7 +90,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechColony"
+ShieldMeshName "EotH_Consen"
 renderShield FALSE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000

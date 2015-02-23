@@ -1,5 +1,8 @@
 TXT
-entityNameCount 2313
+entityNameCount 2316
+entityName "Remnant_SentinelConstructor.entity"
+entityName "NewRep_GallofreeConstructor.entity"
+entityName "EotH_ConsenConstructor.entity"
 entityName "StarBaseUpgradeRemComHangar.entity"
 entityName "StarBaseUpgradeRemComWeapons.entity"
 entityName "StarBaseUpgradeRemComToughness.entity"

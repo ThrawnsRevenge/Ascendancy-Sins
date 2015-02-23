@@ -61,6 +61,12 @@ StringInfo
 	ID "IDS_FRIGATE_FERRET_DESCRIPTION"
 	Value "A scout ship used to explore and gather intelligence"
 StringInfo
+	ID "IDS_FRIGATE_CONSTRUCTOR_NAME"
+	Value "Starbase Constructor"
+StringInfo
+	ID "IDS_FRIGATE_CONSTRUCTOR_DESCRIPTION"
+	Value "This shuttle is used to construct space stations."
+StringInfo
 	ID "IDS_PLANETMODULE_EMPRESS_NAME"
 	Value "Empress Space Station"
 StringInfo

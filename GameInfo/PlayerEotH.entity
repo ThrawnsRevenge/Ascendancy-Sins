@@ -45,12 +45,13 @@ entities
 			entityDefName "EotH_Consen"
 			entityDefName "EotH_Vigilance"
 		Page:1
-			count 5
+			count 6
 			entityDefName "EotH_Chaf"
 			entityDefName "EotH_Budirech"
 			entityDefName "EotH_Massias"
 			entityDefName "EotH_Alaria"
 			entityDefName "EotH_Warlord"
+			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
 			count 4
 			entityDefName "EotH_FrigateResearch"

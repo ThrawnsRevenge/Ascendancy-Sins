@@ -60,11 +60,11 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 10.0
+			ExperienceNeededForNextLevel 90.0
 			ExperienceGainedForDestroying 100.0
 			UpgradePriceForNextLevel 1250.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 30.0
+			ExperienceNeededForNextLevel 90.0
 			ExperienceGainedForDestroying 120.0
 			UpgradePriceForNextLevel 1500.0
 		ExperienceLevelData:2
@@ -638,19 +638,19 @@ GameplayConstants
 		netChangeForBoom 0.3
 	playerAISharedDef
 		table-Aggressive
-			BuildShip 23
+			BuildShip 27
 			BuildModuleTactical 2
-			BuildModuleCivilian 2
-			BuildModuleResearch 5
-			UpgradeResearch 5
-			UpgradePlanetArtifactLevel 2
+			BuildModuleCivilian 1
+			BuildModuleResearch 3
+			UpgradeResearch 3
+			UpgradePlanetArtifactLevel 1
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 2
-			UpgradePlanetIndustry 2
+			UpgradePlanetSocial 1
+			UpgradePlanetIndustry 3
 			MaxBountyBidCount 3
-			UpgradeStarBase 1
-			BuildMines 1
+			UpgradeStarBase 2
+			BuildMines 0
 		table-Defensive
 			BuildShip 23
 			BuildModuleTactical 4
@@ -664,7 +664,7 @@ GameplayConstants
 			UpgradePlanetIndustry 2
 			MaxBountyBidCount 3
 			UpgradeStarBase 3
-			BuildMines 3
+			BuildMines 0
 		table-Research
 			BuildShip 23
 			BuildModuleTactical 2
@@ -678,7 +678,7 @@ GameplayConstants
 			UpgradePlanetIndustry 2
 			MaxBountyBidCount 3
 			UpgradeStarBase 1
-			BuildMines 1
+			BuildMines 0
 		table-Economic
 			BuildShip 24
 			BuildModuleTactical 2
@@ -692,7 +692,7 @@ GameplayConstants
 			UpgradePlanetIndustry 3
 			MaxBountyBidCount 3
 			UpgradeStarBase 1
-			BuildMines 1
+			BuildMines 0
 	playerDiplomacyAIDef
 		breakRelationshipThreshold:Trade 1.0
 		breakRelationshipThreshold:ExternalVision 5.0

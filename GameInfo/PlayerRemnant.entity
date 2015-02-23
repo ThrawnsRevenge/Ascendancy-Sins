@@ -53,12 +53,13 @@ entities
 			entityDefName "Remnant_Lancer"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 5
+			count 6
 			entityDefName "Remnant_Immobilizer"
 			entityDefName "Remnant_Vindicator"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_Dreadnaught"
+			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
 			count 4
 			entityDefName "Remnant_FrigateResearch"
