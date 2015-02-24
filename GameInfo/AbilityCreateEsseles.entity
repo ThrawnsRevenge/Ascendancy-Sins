@@ -35,7 +35,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_Empress"
+		Subject "NewRepResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

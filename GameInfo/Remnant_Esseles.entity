@@ -17,7 +17,7 @@ hudIcon "HUDICON_ESSELES"
 smallHudIcon "HUDICON_ESSELES"
 infoCardIcon "HUDICON_ESSELES"
 minZoomDistanceMult 2.000000
-NumWeapons 3
+NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -64,13 +64,13 @@ TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-ShieldMeshName "IR_Bilbringi"
+ShieldMeshName "UB_Esseles"
 renderShield TRUE
-squadTypeEntityDef:0 "NewRep_XWing_Squad"
+squadTypeEntityDef:0 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "NewRep_BWing_Squad"
+squadTypeEntityDef:1 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 "NewRep_AWing_Squad"
+squadTypeEntityDef:2 "Remnant_TIEInterceptor_Squad"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
@@ -91,7 +91,7 @@ UpgradeType "StarBaseUpgradeEsselesMaxAllegiance"
 UpgradeType "StarBaseUpgradeEsselesPopulation"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Bilbringi"
+	meshName "UB_Esseles"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -105,7 +105,7 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "NewRep_StarGalleon"
+cargoShipType "Remnant_StarGalleon"
 maxCargoShipCount 5
 cargoShipRespawnTime 25.000000
 baseBuildTime 120.000000
