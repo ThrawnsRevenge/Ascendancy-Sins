@@ -311,92 +311,92 @@ brush
 	name "ActionIconOpenEscapeMenuScreen"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 1 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 112 , 49 , 15 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 1 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 112 , 49 , 15 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 1 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 112 , 49 , 15 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 1 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 112 , 49 , 15 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 1 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 112 , 49 , 15 ]
 brush
 	name "ActionIconOpenPlayerScreen"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 2 , 2 , 76 , 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 2 , 76 , 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 37 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 2 , 76 , 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 2 , 2 , 76 , 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 2 , 2 , 76 , 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 1 , 50 , 35 ]
 brush
 	name "ActionIconOpenRelationshipsScreen"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 160, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 160, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 37 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 160, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 160, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 160, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 1 , 50 , 35 ]
 brush
 	name "ActionIconOpenResearchScreenEnabled"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 81, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 81, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 37 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 81, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 81, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 81, 2, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 1 , 50 , 35 ]
 brush
 	name "ActionIconOpenResearchScreenDisabled"
 	content "States"
 	Disabled
-		fileName "HUD_Common"
-		pixelBox [ 81, 43, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 	Pressed
-		fileName "HUD_Common"
-		pixelBox [ 81, 43, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 	CursorOver
-		fileName "HUD_Common"
-		pixelBox [ 81, 43, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 	Focused
-		fileName "HUD_Common"
-		pixelBox [ 81, 43, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 	Normal
-		fileName "HUD_Common"
-		pixelBox [ 81, 43, 76, 38 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 73 , 50 , 35 ]
 brush
 	name "ActionIconOpenNPCScreen"
 	content "States"

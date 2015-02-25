@@ -129,12 +129,12 @@ brush
 	name "BottomWindowBackdropTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 0 , 389 , 1024 , 123 ]
+	pixelBox [ 107 , 381 , 810 , 150 ]
 brush
 	name "BottomWindowBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 0 , 389 , 1024 , 123 ]
+	pixelBox [ 107 , 381 , 810 , 150 ]
 brush
 	name "BottomWindowBackdropPhase"
 	content "Simple"
@@ -225,20 +225,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 129 , 131 , 26 , 18 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 27 , 131 , 26 , 18 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 27 , 131 , 26 , 18 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 27 , 131 , 26 , 18 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 78 , 131 , 26 , 18 ]
 brush
 	name "BottomWindowButtonToggleZoomToCursorOff"
 	content "MarginsAndStates"
@@ -253,20 +253,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
+		fileName "Buttons_Ascendancy_HUD_Common"
 		pixelBox [ 45 , 43 , 40 , 18 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 78 , 131 , 26 , 18 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 78 , 131 , 26 , 18 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 78 , 131 , 26 , 18 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 45 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 27 , 131 , 26 , 18 ]
 brush
 	name "BottomWindowButtonToggleScreenShotModeOn"
 	content "MarginsAndStates"
@@ -281,20 +281,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "HUD_Common"
-		pixelBox [ 387 , 66 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 131 , 24 , 18 ]
 	Pressed
-		fileName "HUD_Common"
-		pixelBox [ 387 , 66 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 131 , 24 , 18 ]
 	CursorOver
-		fileName "HUD_Common"
-		pixelBox [ 387 , 66 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 131 , 24 , 18 ]
 	Focused
-		fileName "HUD_Common"
-		pixelBox [ 387 , 66 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 131 , 24 , 18 ]
 	Normal
-		fileName "HUD_Common"
-		pixelBox [ 387 , 66 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 131 , 24 , 18 ]
 brush
 	name "BottomWindowButtonToggleScreenShotModeOff"
 	content "MarginsAndStates"
@@ -309,20 +309,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 87 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 131 , 24 , 18 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 87 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 131 , 24 , 18 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 87 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 131 , 24 , 18 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 87 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 131 , 24 , 18 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 87 , 43 , 40 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 131 , 24 , 18 ]
 brush
 	name "BottomWindowButtonToggleFreeLookOn"
 	content "MarginsAndStates"
@@ -393,20 +393,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 112 , 108 , 52 , 15 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 151 , 50 , 14 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 108 , 52 , 15 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 151 , 50 , 14 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 108 , 52 , 15 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 151 , 50 , 14 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 108 , 52 , 15 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 52 , 151 , 50 , 14 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 112 , 108 , 52 , 15 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 151 , 50 , 14 ]
 brush
 	name "BottomWindowButtonToggleScuttleOn"
 	content "MarginsAndStates"
@@ -421,20 +421,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 109 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 109 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 brush
 	name "BottomWindowButtonToggleScuttleOff"
 	content "MarginsAndStates"
@@ -449,20 +449,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 109 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Alert"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Alert"
-		pixelBox [ 166 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 109 , 50 , 35 ]
 brush
 	name "BottomWindowButtonPing"
 	content "MarginsAndStates"
@@ -477,56 +477,56 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 2 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 211 , 109 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 211 , 37 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 211 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 211 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 2 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 211 , 1 , 50 , 35 ]
 brush
 	name "BottomWindowButtonIncreaseGameSpeed"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 139 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 130 , 170 , 23 , 17 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 139 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 79 , 170 , 23 , 17 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 139 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 79 , 170 , 23 , 17 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 139 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 79 , 170 , 23 , 17 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 139 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 29 , 170 , 23 , 17 ]
 brush
 	name "BottomWindowButtonDecreaseGameSpeed"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 112 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 102 , 170 , 23 , 17 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 51 , 170 , 23 , 17 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 51 , 170 , 23 , 17 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 112 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 51 , 170 , 23 , 17 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 112 , 125 , 25 , 21 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 170 , 23 , 17 ]
 brush
 	name "BottomWindowButtonIncreaseGameSpeed_Off"
 	content "Simple"
@@ -775,20 +775,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 1 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 1 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 1 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 37 , 50 , 35 ]
 brush
 	name "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"
 	content "MarginsAndStates"
@@ -803,20 +803,20 @@ brush
 		top 2
 		bottom 2
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 37 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 37 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 37 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 57 , 108 , 52 , 37 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 265 , 1 , 50 , 35 ]
 brush
 	name "HUDIconResearch"
 	content "Simple"
@@ -1323,22 +1323,22 @@ brush
 	name "EmpireWindowOptionsWindowBackdropTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowHighResBackdropTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowHighResBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropPhase"
 	content "Simple"
@@ -1353,38 +1353,38 @@ brush
 	name "EmpireWindowOptionsWindowSelectionMenuOpenButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 51 , 33 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 1 , 33 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 1 , 33 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 1 , 33 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 26 , 33 , 24 ]
 brush
 	name "EmpireWindowOptionsWindowSelectionMenuClosedButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 51 , 33 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 26 , 33 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 26 , 33 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 26 , 33 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 41 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 356 , 1 , 33 , 24 ]
 brush
 	name "EmpireWindowOptionsWindowSelectionMenuInfoCardIcon"
 	content "Simple"
@@ -1394,56 +1394,56 @@ brush
 	name "EmpireWindowOptionsWindowToggleIsPinnedButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 2 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 319 , 51 , 33 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 319 , 26 , 33 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 319 , 26 , 33 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 2 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 319 , 26 , 33 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 2 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 319 , 1 , 33 , 24 ]
 brush
 	name "EmpireWindowOptionsWindowIsStackedButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 183 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 51 , 33 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 183 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 1 , 33 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 183 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 1 , 33 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 183 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 1 , 33 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 183 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 26 , 33 , 24 ]
 brush
 	name "EmpireWindowOptionsWindowIsNotStackedButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Interface_Disabled"
-		pixelBox [ 143 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 51 , 33 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 143 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 26 , 33 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 143 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 26 , 33 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Interface_Highlight"
-		pixelBox [ 143 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 26 , 33 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Interface_Normal"
-		pixelBox [ 143 , 64 , 35 , 27 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 392 , 1 , 33 , 24 ]
 brush
 	name "EmpireWindowSelectionWindowBackdrop"
 	content "Simple"
@@ -1993,12 +1993,12 @@ brush
 	name "TopWindowBackdropTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 3 , -2 , 1024 , 60 ]
+	pixelBox [ 285 , -2 , 455 , 85 ]
 brush
 	name "TopWindowBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 3 , -2 , 1024 , 60 ]
+	pixelBox [ 285 , -2 , 455 , 85 ]
 brush
 	name "TopWindowBackdropPhase"
 	content "Simple"
@@ -2023,12 +2023,12 @@ brush
 	name "TopWindowLeftCapLowResTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowLeftCapHighResTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowRightCapLowResTech"
 	content "Simple"
@@ -2043,12 +2043,12 @@ brush
 	name "TopWindowLeftCapLowResPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowLeftCapHighResPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowRightCapLowResPsi"
 	content "Simple"
@@ -2155,32 +2155,32 @@ brush
 	name "QuickMarketBackdropTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropNoPiratesTech"
 	content "Simple"
 	fileName "NR_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropNoPiratesPsi"
 	content "Simple"
 	fileName "IR_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 119 , 186 , 95 ]
 brush
 	name "QuickMarketBackdropNoPiratesPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 817 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 119 , 186 , 95 ]
 brush
 	name "QuickPirateIncreaseBountyOnHighestEnemyButton"
 	content "States"

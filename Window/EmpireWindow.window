@@ -34,15 +34,15 @@ iconOverlayDef
 	fleetLeader "HUDIconEntityOverlayFleetLeader"
 optionsWindowDef
 	toggleSelectionMenuButton
-		area [62, 14, 35, 27]
+		area [38, 2, 33, 24]
 		openIcon "EmpireWindowOptionsWindowSelectionMenuOpenButton"
 		closedIcon "EmpireWindowOptionsWindowSelectionMenuClosedButton"
 		infoCardIcon "EmpireWindowOptionsWindowSelectionMenuInfoCardIcon"
 	toggleIsPinnedButton
-		area [24, 14, 35, 27]
+		area [1, 2, 33, 24]
 		icon "EmpireWindowOptionsWindowToggleIsPinnedButton"
 	toggleIsStackedButton
-		area [100, 14, 35, 27]
+		area [75, 2, 33, 24]
 		isStackedIcon "EmpireWindowOptionsWindowIsStackedButton"
 		isNotStackedIcon "EmpireWindowOptionsWindowIsNotStackedButton"
 selectionWindowDef

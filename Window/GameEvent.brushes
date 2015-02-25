@@ -1,1013 +1,298 @@
-	TXT
+TXT
 onlyLoadOnDemand FALSE
 brushCount 59
 brush
 	name "GameEventButtonFlagshipVictory"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1 , 179 , 24 ]
 brush
 	name "GameEventButtonCapitalVictory"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 26 , 179 , 24 ]
 brush
 	name "GameEventButtonDiplomacyVictory"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 51 , 179 , 24 ]
 brush
 	name "GameEventButtonResearchVictory"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 76 , 179 , 24 ]
 brush
 	name "GameEventButtonOccupationVictory"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 101 , 179 , 24 ]
 brush
 	name "GameEventCategoryInfoCardIconPing"
 	content "Simple"
-	fileName "Buttons_Events"
-	pixelBox [ 332 , 197 , 52 , 62 ]
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 126 , 179 , 24 ]
 brush
 	name "GameEventCategoryInfoCardIconProduction"
 	content "Simple"
-	fileName "Buttons_Events"
-	pixelBox [ 332 , 197 , 52 , 62 ]
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 151 , 179 , 24 ]
 brush
 	name "GameEventCategoryInfoCardIconAlliance"
 	content "Simple"
-	fileName "Buttons_Events"
-	pixelBox [ 332 , 197 , 52 , 62 ]
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 176 , 179 , 24 ]
 brush
 	name "GameEventCategoryInfoCardIconThreat"
 	content "Simple"
-	fileName "Buttons_Events"
-	pixelBox [ 332 , 197 , 52 , 62 ]
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 201 , 179 , 24 ]
 brush
 	name "GameEventButtonEmptyCategoryPing"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 126 , 179 , 24 ]
 brush
 	name "GameEventButtonEmptyCategoryAlliance"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 176 , 179 , 24 ]
 brush
 	name "GameEventButtonEmptyCategoryProduction"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 151 , 179 , 24 ]
 brush
 	name "GameEventButtonEmptyCategoryThreat"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 201 , 179 , 24 ]
 brush
 	name "GameEventButtonAllianceEmptyFrame"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 197 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 826 , 179 , 24 ]
 brush
 	name "GameEventButtonAllyCapitalShipLost"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 226 , 179 , 24 ]
 brush
 	name "GameEventButtonAllyPlanetLost"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 251 , 179 , 24 ]
 brush
 	name "GameEventButtonCannonShellDetected"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 276 , 179 , 24 ]
 brush
 	name "GameEventButtonCannonUnderConstruction"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 116 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 301 , 179 , 24 ]
 brush
 	name "GameEventButtonAllyPlanetUnderAttack"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 326 , 179 , 24 ]
 brush
 	name "GameEventButtonAllyUnitUnderAttack"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 351 , 179 , 24 ]
 brush
 	name "GameEventButtonBountyAllDepleted"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 376 , 179 , 24 ]
 brush
 	name "GameEventButtonBountyIncreasedOther"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 401 , 179 , 24 ]
 brush
 	name "GameEventButtonBountyIncreasedPlayer"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 426 , 179 , 24 ]
 brush
 	name "GameEventButtonPirateFleetArrived"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 451 , 179 , 24 ]
 brush
 	name "GameEventButtonPirateRaidImminent"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 476 , 179 , 24 ]
 brush
 	name "GameEventButtonPirateRaidLaunched"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 501 , 179 , 24 ]
 brush
 	name "GameEventButtonHostileFleetArrived"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 526 , 179 , 24 ]
 brush
 	name "GameEventButtonHostileFleetEnRoute"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 67 , 52 , 62 ]
-	Normal
-		fileName "2"
-		pixelBox [ 57 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 551 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerFleetArrivedToFleetBeacon"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 576 , 179 , 24 ]
 brush
 	name "GameEventButtonPing"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 601 , 179 , 24 ]
 brush
 	name "GameEventButtonPlanetUpgradeComplete"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 626 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCapitalShipCreated"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 651 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerTitanCreated"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 676 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCapitalShipLost"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 701 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerStarbaseLost"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 726 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerFrigateCreated"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 751 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerPlanetColonized"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 776 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerPlanetLost"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 801 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerPlanetLostToCulture"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 826 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerPlanetSoonLostToCulture"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 851 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerPlanetUnderAttack"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 332 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 876 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerReceivedResourcesFromAlly"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 222 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 901 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerUnitUnderAttack"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 926 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCapitalShipShieldsDown"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 951 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCapitalShipHullSeverelyDamaged"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 976 , 179 , 24 ]
 brush
 	name "GameEventButtonAchievementCompleted"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1001 , 179 , 24 ]
 brush
 	name "GameEventButtonResearchComplete"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 277 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1026 , 179 , 24 ]
 brush
 	name "GameEventButtonNewPlanetDiscovered"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1051 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCapitalPlanetChanged"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 57 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1076 , 179 , 24 ]
 brush
 	name "GameEventButtonCapitalShipLevelUp"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1101 , 179 , 24 ]
 brush
 	name "GameEventButtonGameStart"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 2 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1126 , 179 , 24 ]
 brush
 	name "GameEventButtonArtifactDiscovered"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1151 , 179 , 24 ]
 brush
 	name "GameEventButtonArtifactDiscoveredOther"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1176 , 179 , 24 ]
 brush
 	name "GameEventButtonBonusDiscovered"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1201 , 179 , 24 ]
 brush
 	name "GameEventButtonScuttleShipStarted"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 2 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1226 , 179 , 24 ]
 brush
 	name "GameEventButtonScuttlePlanetStarted"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 112 , 67 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1251 , 179 , 24 ]
 brush
 	name "GameEventButtonMarketBoom"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 442 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1276 , 179 , 24 ]
 brush
 	name "GameEventButtonMarketCrash"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 387 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1301 , 179 , 24 ]
 brush
 	name "GameEventButtonPlayerCultureFlippedEnemyPlanet"
-	content "States"
-	Disabled
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Pressed
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	CursorOver
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Focused
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
-	Normal
-		fileName "Buttons_Events"
-		pixelBox [ 167 , 132 , 52 , 62 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_Events"
+	pixelBox [ 1 , 1326 , 179 , 24 ]
