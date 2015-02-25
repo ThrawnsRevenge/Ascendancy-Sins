@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
 quickStartHomePlanetUpgradeLevel:Infrastructure 3
 recommendedGameTypeCount 0
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 13.639997
+pixelsPerGalaxyUnit 11.359997
 useRandomGenerator FALSE
 galaxyWidth 1600.000000
 galaxyHeight 813.000000
@@ -43,7 +43,7 @@ star
 		designName "Planet0"
 		inGameName "Corellia"
 		type "TerranHome"
-		pos [ 187 , 134 ]
+		pos [ 188 , 133 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer0"
@@ -70,7 +70,7 @@ star
 		designName "Planet1"
 		inGameName "Nubia"
 		type "TerranHome"
-		pos [ 217 , 115 ]
+		pos [ 212 , 121 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer1"
@@ -97,7 +97,7 @@ star
 		designName "Planet2"
 		inGameName "Duro"
 		type "DesertHome"
-		pos [ 223 , 145 ]
+		pos [ 211 , 153 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer2"
@@ -124,7 +124,7 @@ star
 		designName "Planet3"
 		inGameName "Talfaglio"
 		type "Terran"
-		pos [ 213 , 109 ]
+		pos [ 212 , 114 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -151,7 +151,7 @@ star
 		designName "Planet4"
 		inGameName "Phemis"
 		type "Mountainous"
-		pos [ 188 , 111 ]
+		pos [ 193 , 113 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -178,7 +178,7 @@ star
 		designName "Planet5"
 		inGameName "Altawar"
 		type "Terran"
-		pos [ 183 , 129 ]
+		pos [ 185 , 128 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -205,7 +205,7 @@ star
 		designName "Planet6"
 		inGameName "Truuzdann"
 		type "TerranTwo"
-		pos [ 210 , 121 ]
+		pos [ 206 , 126 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -232,7 +232,7 @@ star
 		designName "Planet7"
 		inGameName "Goorla"
 		type "Mountainous"
-		pos [ 202 , 106 ]
+		pos [ 206 , 110 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -259,7 +259,7 @@ star
 		designName "Planet8"
 		inGameName "Sileria"
 		type "Arboreal"
-		pos [ 204 , 113 ]
+		pos [ 205 , 116 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -313,7 +313,7 @@ star
 		designName "Planet10"
 		inGameName "New Plympto"
 		type "Arboreal"
-		pos [ 212 , 145 ]
+		pos [ 205 , 150 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -340,7 +340,7 @@ star
 		designName "Planet11"
 		inGameName "Xyuine II"
 		type "Terran"
-		pos [ 208 , 154 ]
+		pos [ 200 , 155 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -367,7 +367,7 @@ star
 		designName "Planet12"
 		inGameName "Polanis"
 		type "TerranThree"
-		pos [ 197 , 113 ]
+		pos [ 199 , 114 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -394,7 +394,7 @@ star
 		designName "Planet13"
 		inGameName "Corfai"
 		type "TerranThree"
-		pos [ 213 , 133 ]
+		pos [ 206 , 140 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -421,7 +421,7 @@ star
 		designName "Planet14"
 		inGameName "Jumus"
 		type "Arboreal"
-		pos [ 204 , 160 ]
+		pos [ 193 , 159 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -448,7 +448,7 @@ star
 		designName "Planet15"
 		inGameName "Forvand"
 		type "TerranTwo"
-		pos [ 220 , 136 ]
+		pos [ 212 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -475,7 +475,7 @@ star
 		designName "Planet16"
 		inGameName "Khomr"
 		type "Terran"
-		pos [ 199 , 135 ]
+		pos [ 199 , 139 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -529,7 +529,7 @@ star
 		designName "Planet18"
 		inGameName "Velx-Shel"
 		type "Desert"
-		pos [ 181 , 164 ]
+		pos [ 185 , 159 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -556,7 +556,7 @@ star
 		designName "Planet19"
 		inGameName "Graland"
 		type "Arboreal"
-		pos [ 187 , 157 ]
+		pos [ 188 , 153 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -583,7 +583,7 @@ star
 		designName "Planet20"
 		inGameName "Plympto"
 		type "Terran"
-		pos [ 206 , 141 ]
+		pos [ 202 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -610,7 +610,7 @@ star
 		designName "Planet21"
 		inGameName "Tanthior"
 		type "Terran"
-		pos [ 204 , 128 ]
+		pos [ 202 , 133 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -637,7 +637,7 @@ star
 		designName "Planet22"
 		inGameName "Dorsis"
 		type "Terran"
-		pos [ 178 , 154 ]
+		pos [ 178 , 152 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -664,7 +664,7 @@ star
 		designName "Planet23"
 		inGameName "Sacorria"
 		type "TerranThree"
-		pos [ 198 , 157 ]
+		pos [ 194 , 153 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -691,7 +691,7 @@ star
 		designName "Planet24"
 		inGameName "Craeen"
 		type "Mountainous"
-		pos [ 183 , 147 ]
+		pos [ 184 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -718,7 +718,7 @@ star
 		designName "Planet25"
 		inGameName "Vagran"
 		type "TerranTwo"
-		pos [ 202 , 149 ]
+		pos [ 197 , 147 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -745,7 +745,7 @@ star
 		designName "Planet26"
 		inGameName "Keral"
 		type "TerranThree"
-		pos [ 181 , 123 ]
+		pos [ 184 , 121 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -772,7 +772,7 @@ star
 		designName "Planet27"
 		inGameName "Govia"
 		type "Terran"
-		pos [ 184 , 117 ]
+		pos [ 187 , 116 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -822,7 +822,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 40
+	connectionCount 41
 	connection
 		planetIndexA 2
 		planetIndexB 15
@@ -1021,6 +1021,11 @@ star
 	connection
 		planetIndexA 25
 		planetIndexB 16
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 28
+		planetIndexB 0
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
