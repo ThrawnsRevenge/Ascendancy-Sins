@@ -2,8 +2,8 @@
 versionNumber 4
 isBrowsable TRUE
 browsePictureName ""
-browseName ""
-browseDescription "Who will control the Arkanis sector?"
+browseName "Corellian Sector"
+browseDescription "TODO - Add Description Here."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.150000
@@ -22,28 +22,28 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
 quickStartHomePlanetUpgradeLevel:Infrastructure 3
 recommendedGameTypeCount 0
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 12.680001
+pixelsPerGalaxyUnit 13.639997
 useRandomGenerator FALSE
 galaxyWidth 1600.000000
 galaxyHeight 813.000000
 nextStarNameUniqueId 1
-nextPlanetNameUniqueId 18
+nextPlanetNameUniqueId 29
 triggerCount 0
 starCount 1
 star
 	designName "Star0"
 	inGameName ""
-	type "RandomStar"
-	pos [ 150 , 150 ]
+	type "BlackHoleStar"
+	pos [ 159 , 158 ]
 	radius 100.000000
 	moveAreaRadius 60000.000000
 	hyperspaceExitRadius 40000.000000
-	planetCount 16
+	planetCount 29
 	planet
-		designName "Tatooine"
-		inGameName "Tatooine"
-		type "DesertHome"
-		pos [ 205 , 182 ]
+		designName "Planet0"
+		inGameName "Corellia"
+		type "TerranHome"
+		pos [ 187 , 134 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer0"
@@ -67,10 +67,10 @@ star
 		entityCount 0
 		asteroidCount 0
 	planet
-		designName "Geonosis"
-		inGameName "Geonosis"
-		type "DesertHome"
-		pos [ 205 , 185 ]
+		designName "Planet1"
+		inGameName "Nubia"
+		type "TerranHome"
+		pos [ 217 , 115 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer1"
@@ -95,13 +95,13 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet2"
-		inGameName "A-Foroon"
-		type "Terran"
-		pos [ 212 , 170 ]
+		inGameName "Duro"
+		type "DesertHome"
+		pos [ 223 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
-		isHomePlanet FALSE
+		owner "NewPlayer2"
+		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
 		normalStartUpgradeLevelForTacticalModules 0
@@ -122,9 +122,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet3"
-		inGameName "Najiba"
-		type "Swamp"
-		pos [ 203 , 192 ]
+		inGameName "Talfaglio"
+		type "Terran"
+		pos [ 213 , 109 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -149,9 +149,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet4"
-		inGameName "C-Foroon"
-		type "Terran"
-		pos [ 208 , 178 ]
+		inGameName "Phemis"
+		type "Mountainous"
+		pos [ 188 , 111 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -176,9 +176,36 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet5"
-		inGameName "Vor Deo"
+		inGameName "Altawar"
 		type "Terran"
-		pos [ 211 , 190 ]
+		pos [ 183 , 129 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet6"
+		inGameName "Truuzdann"
+		type "TerranTwo"
+		pos [ 210 , 121 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -203,9 +230,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet7"
-		inGameName "Andooweel"
-		type "Terran"
-		pos [ 201 , 188 ]
+		inGameName "Goorla"
+		type "Mountainous"
+		pos [ 202 , 106 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -230,9 +257,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet8"
-		inGameName "Khubeaie"
-		type "Terran"
-		pos [ 216 , 194 ]
+		inGameName "Sileria"
+		type "Arboreal"
+		pos [ 204 , 113 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -257,9 +284,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet9"
-		inGameName "Vasch"
-		type "Arboreal"
-		pos [ 208 , 195 ]
+		inGameName "Vasar"
+		type "TerranTwo"
+		pos [ 183 , 140 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -284,9 +311,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet10"
-		inGameName "Piroket"
-		type "Terran"
-		pos [ 216 , 168 ]
+		inGameName "New Plympto"
+		type "Arboreal"
+		pos [ 212 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -311,9 +338,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet11"
-		inGameName "Issor"
-		type "Oceanic"
-		pos [ 198 , 191 ]
+		inGameName "Xyuine II"
+		type "Terran"
+		pos [ 208 , 154 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -338,9 +365,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet12"
-		inGameName "Arkanis"
-		type "Terran"
-		pos [ 193 , 194 ]
+		inGameName "Polanis"
+		type "TerranThree"
+		pos [ 197 , 113 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -365,9 +392,36 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet13"
-		inGameName "B-Foroon"
-		type "Swamp"
-		pos [ 210 , 174 ]
+		inGameName "Corfai"
+		type "TerranThree"
+		pos [ 213 , 133 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet14"
+		inGameName "Jumus"
+		type "Arboreal"
+		pos [ 204 , 160 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -392,9 +446,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet15"
-		inGameName "Utaruun"
-		type "Terran"
-		pos [ 201 , 179 ]
+		inGameName "Forvand"
+		type "TerranTwo"
+		pos [ 220 , 136 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -419,9 +473,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet16"
-		inGameName "Vuzsa"
+		inGameName "Khomr"
 		type "Terran"
-		pos [ 206 , 167 ]
+		pos [ 199 , 135 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -446,9 +500,9 @@ star
 		asteroidCount 0
 	planet
 		designName "Planet17"
-		inGameName "Pii IV"
-		type "Mountainous"
-		pos [ 196 , 172 ]
+		inGameName "Saberhing"
+		type "Polluted"
+		pos [ 177 , 145 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -471,106 +525,508 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 19
+	planet
+		designName "Planet18"
+		inGameName "Velx-Shel"
+		type "Desert"
+		pos [ 181 , 164 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet19"
+		inGameName "Graland"
+		type "Arboreal"
+		pos [ 187 , 157 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet20"
+		inGameName "Plympto"
+		type "Terran"
+		pos [ 206 , 141 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet21"
+		inGameName "Tanthior"
+		type "Terran"
+		pos [ 204 , 128 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet22"
+		inGameName "Dorsis"
+		type "Terran"
+		pos [ 178 , 154 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet23"
+		inGameName "Sacorria"
+		type "TerranThree"
+		pos [ 198 , 157 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet24"
+		inGameName "Craeen"
+		type "Mountainous"
+		pos [ 183 , 147 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet25"
+		inGameName "Vagran"
+		type "TerranTwo"
+		pos [ 202 , 149 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet26"
+		inGameName "Keral"
+		type "TerranThree"
+		pos [ 181 , 123 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet27"
+		inGameName "Govia"
+		type "Terran"
+		pos [ 184 , 117 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet28"
+		inGameName "Aurea"
+		type "Oceanic"
+		pos [ 192 , 144 ]
+		moveAreaRadius 40000.000000
+		hyperspaceExitRadius 30000.000000
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 40
 	connection
-		planetIndexA 11
+		planetIndexA 2
 		planetIndexB 15
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 7
-		planetIndexB 9
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 11
-		planetIndexB 8
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 8
-		planetIndexB 7
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 14
-		planetIndexB 9
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 15
-		planetIndexB 14
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 9
-		planetIndexB 2
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 2
-		planetIndexB 12
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 12
-		planetIndexB 4
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 0
 		planetIndexB 13
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 0
-		planetIndexB 4
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 22
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 1
-		planetIndexB 6
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 1
-		planetIndexB 5
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 8
 		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 3
-		planetIndexB 10
+		planetIndexA 23
+		planetIndexB 14
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 6
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 13
-		planetIndexB 15
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 10
+		planetIndexA 14
 		planetIndexB 11
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
+		planetIndexA 23
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 18
+		planetIndexB 14
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 18
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 16
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
 		planetIndexA 5
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 27
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 11
+		planetIndexB 25
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 22
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 13
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 15
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 16
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 25
+		planetIndexB 23
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 18
+		planetIndexB 22
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
 		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 16
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 11
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 25
+		planetIndexB 16
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 2
+playerCount 3
 player
 	designName "NewPlayer0"
 	inGameName "NewPlayer0"
@@ -591,6 +1047,23 @@ player
 player
 	designName "NewPlayer1"
 	inGameName "NewPlayer1"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 3000
+	startingMetal 800
+	startingCrystal 250
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+player
+	designName "NewPlayer2"
+	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex -1
 	startingCredits 3000
