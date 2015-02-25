@@ -27,10 +27,7 @@ stage
 	nameStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_NAME"
 	descStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_DESC"
 	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_CITYPOPULATION"
-			Level 1
+		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"

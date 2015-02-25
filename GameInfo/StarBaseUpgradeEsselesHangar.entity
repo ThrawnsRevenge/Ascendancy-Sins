@@ -76,6 +76,6 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "MaxNumSquads"
-		value 3.000000
+		value 4.000000
 	upgradeBoolPropertyCount 0
 xpModifier 75.000000

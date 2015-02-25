@@ -75,7 +75,7 @@ MeshData
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
-		DataString "Weapon-0"
+		DataString "Hangar"
 		Position [ 0.000032 0.000000 364.726349 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

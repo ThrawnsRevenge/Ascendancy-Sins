@@ -30,7 +30,7 @@ Weapon
 	DamagePerBank:BACK 100.000000
 	DamagePerBank:LEFT 100.000000
 	DamagePerBank:RIGHT 100.000000
-	Range 5000.000000
+	Range 6500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -66,11 +66,11 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 ShieldMeshName "UB_Esseles"
 renderShield TRUE
-squadTypeEntityDef:0 "NewRep_XWing_Squad"
+squadTypeEntityDef:0 "NewRep_Xwing_Squad"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "NewRep_BWing_Squad"
+squadTypeEntityDef:1 "NewRep_Awing_Squad"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 "NewRep_AWing_Squad"
+squadTypeEntityDef:2 "NewRep_Bwing_Squad"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
@@ -113,7 +113,7 @@ buildEffectName ""
 angularSpeed 0.500000
 rotateSoundName ""
 rotateFacingType "AwayFromOrbitBody"
-rotateConstantly FALSE
+rotateConstantly TRUE
 maxAccelerationLinear 0.000000
 maxAccelerationStrafe 0.000000
 maxDecelerationLinear 500.000000
