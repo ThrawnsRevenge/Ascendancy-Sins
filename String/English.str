@@ -10621,17 +10621,17 @@ StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCANNON_DESC"
 	Value "A powerful weapon capable of launching a massive energy shockwave at nearby planets."
 StringInfo
-	ID "IDS_TRADESHIP_TECH_NAME"
-	Value "Trade Ship"
+	ID "IDS_TRADESHIP_QUASAR_NAME"
+	Value "Quasar Freighter"
 StringInfo
-	ID "IDS_TRADESHIP_TECH_DESCRIPTION"
-	Value "A small commercial vessel that carries merchant cargo between distant worlds."
+	ID "IDS_TRADESHIP_QUASAR_DESCRIPTION"
+	Value "The original civilian loadout of the carrier, used to trade between worlds."
 StringInfo
-	ID "IDS_TRADESHIP_PSI_NAME"
-	Value "Trade Drone"
+	ID "IDS_TRADESHIP_STARGALLEON_NAME"
+	Value "Stargalleon Freighter"
 StringInfo
-	ID "IDS_TRADESHIP_PSI_DESCRIPTION"
-	Value "A small commercial vessel that carries merchant cargo between distant worlds."
+	ID "IDS_TRADESHIP_STARGALLEON_DESCRIPTION"
+	Value "A military-grade freighter used to transport goods."
 StringInfo
 	ID "IDS_TRADESHIP_YT_NAME"
 	Value "Smuggler"
