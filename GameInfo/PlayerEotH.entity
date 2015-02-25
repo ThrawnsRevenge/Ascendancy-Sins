@@ -45,20 +45,20 @@ entities
 			entityDefName "EotH_Consen"
 			entityDefName "EotH_Vigilance"
 		Page:1
-			count 5
+			count 6
 			entityDefName "EotH_Chaf"
 			entityDefName "EotH_Budirech"
 			entityDefName "EotH_Massias"
 			entityDefName "EotH_Alaria"
 			entityDefName "EotH_Warlord"
+			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
-			count 4
-			entityDefName "EotH_FrigateResearch"
+			count 3
 			entityDefName "FrigatePhaseModuleConstructor"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 46
+		count 43
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -76,9 +76,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "NewRepResearch_AbilityUnlock_Migration"
-		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
+		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
 		entityDefName "EotHResearch_Economy_Durasteel01"
@@ -103,8 +102,6 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
-		entityDefName "EotHResearch_AIHelp_CapitalsOne"
-		entityDefName "EotHResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "StarBasePhase"

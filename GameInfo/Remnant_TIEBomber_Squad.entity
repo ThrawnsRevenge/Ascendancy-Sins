@@ -12,15 +12,15 @@ fighterIllusionEntityDef "Remnant_TIEBomber"
 scuttleTime 9.000000
 fighterConstructionTime 19.799999
 decayWithoutOwnerRate 0.010000
-baseMaxNumFighters 2
+baseMaxNumFighters 6
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
 picture "HUDICONSMALL_FIGHTER_TIEBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SQUADPSIBOMBER_NAME"
-descriptionStringID "IDS_SQUADPSIBOMBER_DESC"
+nameStringID "IDS_FIGHTERTIEBOMBER_NAME"
+descriptionStringID "IDS_FIGHTERTIEBOMBER_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

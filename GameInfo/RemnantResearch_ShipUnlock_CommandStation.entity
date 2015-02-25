@@ -7,12 +7,15 @@ NameStringID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_NAME"
 DescriptionStringID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 3 ]
+	pos [ 5 , 1 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RemnantResearch_ShipUnlock_GolanIII"
+		Level 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -30,7 +33,7 @@ PerLevelCostIncrease
 Tier 5
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
-priority 0.000000
+priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 0
 artifactPicture ""

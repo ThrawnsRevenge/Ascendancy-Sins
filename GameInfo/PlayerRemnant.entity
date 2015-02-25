@@ -10,7 +10,7 @@ randomStarBaseNamePrefix "IDS_STARBASENAME_REMNANT"
 entities
 	planetModuleInfo
 		Page:0
-			count 9
+			count 8
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "Remnant_FrigateShipyard"
 			entityDefName "Remnant_CombatLab"
@@ -19,7 +19,6 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "Remnant_PolicyLab"
-			entityDefName "Remnant_CommandStation"
 		Page:1
 			count 5
 			entityDefName "Remnant_GolanI"
@@ -54,20 +53,20 @@ entities
 			entityDefName "Remnant_Lancer"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 5
+			count 6
 			entityDefName "Remnant_Immobilizer"
 			entityDefName "Remnant_Vindicator"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_Dreadnaught"
+			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
-			count 4
-			entityDefName "Remnant_FrigateResearch"
+			count 3
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 101
+		count 99
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -115,8 +114,7 @@ entities
 		entityDefName "RemnantResearch_Global_Rationing"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
-		entityDefName "NewRepResearch_AbilityUnlock_Migration"
-		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
+		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
 		entityDefName "RemnantResearch_Flat_HangarRefit"
@@ -145,6 +143,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
+		entityDefName "RemnantResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
@@ -167,11 +166,11 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI5"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 1
+		count 3
 		entityDefName "Remnant_GalaxyGun"
+		entityDefName "Remnant_CommandStation"
+		entityDefName "Remnant_Esseles"
 	flagship "Remnant_Chimera"
 debrisData
 	numRandomMeshNamesLarge 10

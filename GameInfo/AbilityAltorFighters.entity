@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTarget"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffRemnantFighters"
 targetFilter
@@ -20,10 +20,15 @@ targetFilter
 	constraint "HasAntiMatterShortage"
 	constraint "CanHaveFighters"
 range
-	Level:0 400.000000
-	Level:1 400.000000
-	Level:2 400.000000
-	Level:3 400.000000
+	Level:0 1000.000000
+	Level:1 1200.000000
+	Level:2 1400.000000
+	Level:3 1600.000000
+maxTargetCount
+	Level:0 10.000000
+	Level:1 12.000000
+	Level:2 14.000000
+	Level:3 16.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -57,17 +62,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 42.000000
-	Level:1 42.000000
-	Level:2 42.000000
-	Level:3 42.000000
+	Level:0 70.000000
+	Level:1 65.000000
+	Level:2 60.000000
+	Level:3 55.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_NAME"
-descStringID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_DESCRIPTION"
+nameStringID "IDS_ABILITY_ALTORRESTORE_NAME"
+descStringID "IDS_ABILITY_ALTORRESTORE_DESCRIPTION"
 hudIcon "HUDABILITYICON_RESTOCK"
 smallHudIcon "HUDABILITYICON_RESTOCK"
 infoCardIcon ""

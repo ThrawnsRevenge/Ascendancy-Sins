@@ -90,7 +90,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechColony"
+ShieldMeshName "EotH_Consen"
 renderShield FALSE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -139,8 +139,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityFrigateColonize"
 ability:1 "AbilityCaptureNeutralEntity"
-ability:2 "AbilityNRMigrationSap"
-ability:3 "AbilityNRMigrationPlace"
+ability:2 ""
+ability:3 ""
 ability:4 ""
 MaxAntiMatter 5.000000
 AntiMatterRestoreRate 0.000000

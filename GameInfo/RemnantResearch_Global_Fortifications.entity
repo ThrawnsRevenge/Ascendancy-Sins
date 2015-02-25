@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 1 ]
+	pos [ 3 , 3 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 Tier 3
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
-priority 0.000000
+priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier

@@ -1,5 +1,5 @@
 TXT
-NumStrings 7092
+NumStrings 7095
 StringInfo
 	ID "IDS_ABILITY_COLONIZE_NAME"
 	Value "Establish Garrison"
@@ -60,6 +60,30 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_FERRET_DESCRIPTION"
 	Value "A scout ship used to explore and gather intelligence"
+StringInfo
+	ID "IDS_FRIGATE_CONSTRUCTOR_NAME"
+	Value "Starbase Constructor"
+StringInfo
+	ID "IDS_FRIGATE_CONSTRUCTOR_DESCRIPTION"
+	Value "This shuttle is used to construct space stations."
+StringInfo
+	ID "IDS_PLANETMODULE_EMPRESS_NAME"
+	Value "Empress Space Station"
+StringInfo
+	ID "IDS_PLANETMODULE_EMPRESS_DESCRIPTION"
+	Value "A large military space station capable of engaging multiple enemy targets"
+StringInfo
+	ID "IDS_PLANETMODULE_ESSELES_NAME"
+	Value "Esseles Civilian Station"
+StringInfo
+	ID "IDS_PLANETMODULE_ESSELES_DESCRIPTION"
+	Value "A large civilian station usually built around existing orbiting bodies which provides economic and cultural bonuses."
+StringInfo
+	ID "IDS_PLANETMODULE_XQ_NAME"
+	Value "XQ Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_XQ_DESCRIPTION"
+	Value "A small space station which can repair and resupply ships"
 StringInfo
 	ID "IDS_FRIGATE_LAMBDA_NAME"
 	Value "Lambda"
@@ -478,6 +502,24 @@ StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_DESCRIPTION"
 	Value "The impressive size of the Praetor demoralizes enemy crews, decreasing their damage output."
 StringInfo
+	ID "IDS_ABILITY_REPAIRALTOR_NAME"
+	Value "Repair"
+StringInfo
+	ID "IDS_ABILITY_REPAIRALTOR_DESCRIPTION"
+	Value "The Altor restores health to its target."
+StringInfo
+	ID "IDS_ABILITY_ALTORRESTORE_NAME"
+	Value "Resupply"
+StringInfo
+	ID "IDS_ABILITY_ALTORRESTORE_DESCRIPTION"
+	Value "The Altor restores fighter supply to its target."
+StringInfo
+	ID "IDS_ABILITY_ALTORPROTECT_NAME"
+	Value "Protect"
+StringInfo
+	ID "IDS_ABILITY_ALTORPROTECT_DESCRIPTION"
+	Value "The Altor makes its target invulnerable to damage for several seconds."
+StringInfo
 	ID "IDS_ABILITY_REFLECTIVESHIELDS_NAME"
 	Value "Reflective Shields"
 StringInfo
@@ -757,7 +799,7 @@ StringInfo
 	ID "IDS_ABILITY_OVERWHELM_NAME"
 	Value "Overwhelm"
 StringInfo
-	ID "IDS_ABILITY_OVERHWELM_DESCRIPTION"
+	ID "IDS_ABILITY_OVERHWHELM_DESCRIPTION"
 	Value "Transfers engine and shield generator power to weapons, dealing more damage for a short time."
 StringInfo
 	ID "IDS_ABILITY_PTS_NAME"
@@ -1229,7 +1271,7 @@ StringInfo
 	Value "Galaxy Gun"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_DESCRIPTION"
-	Value "A large stationary cannon capable of destroying an entire planet."		
+	Value "A large stationary cannon capable of destroying an entire planet. Only available when enabled in pregame options."		
 StringInfo
 	ID "IDSPlayerAINameTech0"
 	Value "Home Fleet"
@@ -9604,11 +9646,11 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION_DESCRIPTION"
 	Value "Grants the ability to offer missions to other factions."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_OVERTURES_NAME"
-	Value "Overtures"
+	ID "IDS_RESEARCHSUBJECT_HELPINGHAND_NAME"
+	Value "Foreign Aid"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_OVERTURES_DESCRIPTION"
-	Value "Allows you to offer and demand gifts of credits, metal and Tibanna to opposing factions."
+	ID "IDS_RESEARCHSUBJECT_HELPINGHAND_DESCRIPTION"
+	Value "Allows you to offer and demand gifts of credits, ddurasteel and Tibanna to opposing factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_VENDETTA_NAME"
 	Value "Vendetta"
@@ -9721,11 +9763,29 @@ StringInfo
 	ID "IDS_SQUADPHASECOMBAT_DESC"
 	Value "Squadron of fighters good at taking out bombers."
 StringInfo
-	ID "IDS_SQUADTIEFIGHTER_NAME"
-	Value "TIE Fighter Squadron"
+	ID "IDS_FIGHTERTIEFIGHTER_NAME"
+	Value "TIE Fighter"
 StringInfo
-	ID "IDS_SQUADTIEFIGHTER_DESC"
-	Value "A squadron of Imperial TIE Fighters."
+	ID "IDS_FIGTERTIEFIGHTER_DESC"
+	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
+StringInfo
+	ID "IDS_FIGHTERTIEBOMBER_NAME"
+	Value "TIE Bomber"
+StringInfo
+	ID "IDS_FIGTERTIEBOMBER_DESC"
+	Value "A squadron of bombers meant to assault enemy cruisers and capital ships."
+StringInfo
+	ID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
+	Value "TIE Interceptor"
+StringInfo
+	ID "IDS_FIGTERTIEINTERCEPTOR_DESC"
+	Value "A superiority fighter which can intercept and destroy enemy fighters and bombers."
+StringInfo
+	ID "IDS_FIGHTERTIEDEFENDER_NAME"
+	Value "TIE Defender"
+StringInfo
+	ID "IDS_FIGTERTIEDEFENDER_DESC"
+	Value "A heavy specialty fighter, and the strongest in the Imperial arsenal. It can function effectively as a fighter and bomber."
 StringInfo
 	ID "IDS_CANADDSQUADREQUEST_CANADD"
 	Value "Can queue"
@@ -10121,7 +10181,7 @@ StringInfo
 	Value "A fast, manoeuvrable escort equipped with exceptionally strong shields."
 StringInfo
 	ID "IDS_FRIGATE_QUASAR_NAME"
-	Value "Quasar Fire-class Bulk Cruiser"
+	Value "Quasar Carrier"
 StringInfo
 	ID "IDS_FRIGATE_QUASAR_DESCRIPTION"
 	Value "A modified cargo vessel designated as a fighter carrier, fitted with light defensive weapons only."
@@ -10561,17 +10621,17 @@ StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCANNON_DESC"
 	Value "A powerful weapon capable of launching a massive energy shockwave at nearby planets."
 StringInfo
-	ID "IDS_TRADESHIP_TECH_NAME"
-	Value "Trade Ship"
+	ID "IDS_TRADESHIP_QUASAR_NAME"
+	Value "Quasar Freighter"
 StringInfo
-	ID "IDS_TRADESHIP_TECH_DESCRIPTION"
-	Value "A small commercial vessel that carries merchant cargo between distant worlds."
+	ID "IDS_TRADESHIP_QUASAR_DESCRIPTION"
+	Value "The original civilian loadout of the carrier, used to trade between worlds."
 StringInfo
-	ID "IDS_TRADESHIP_PSI_NAME"
-	Value "Trade Drone"
+	ID "IDS_TRADESHIP_STARGALLEON_NAME"
+	Value "Stargalleon Freighter"
 StringInfo
-	ID "IDS_TRADESHIP_PSI_DESCRIPTION"
-	Value "A small commercial vessel that carries merchant cargo between distant worlds."
+	ID "IDS_TRADESHIP_STARGALLEON_DESCRIPTION"
+	Value "A military-grade freighter used to transport goods."
 StringInfo
 	ID "IDS_TRADESHIP_YT_NAME"
 	Value "Smuggler"

@@ -21,11 +21,12 @@ entities
 			entityDefName "NewRep_PolicyLab"
 			entityDefName "NewRep_SmugglerDen"
 		Page:1
-			count 4
+			count 5
 			entityDefName "NewRep_GolanI"
 			entityDefName "NewRep_GolanII"
 			entityDefName "NewRep_GolanIII"
 			entityDefName "NewRep_TitanFactory"
+			entityDefName "NewRep_XQ"
 	titanInfo
 		Page:0
 			count 1
@@ -53,17 +54,17 @@ entities
 			entityDefName "NewRep_Hajen"
 			entityDefName "NewRep_CR90Envoy"
 		Page:1
-			count 3
+			count 4
 			entityDefName "NewRep_AssaultFrigate"
 			entityDefName "NewRep_BAC"
 			entityDefName "NewRep_MC30c"
+			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
-			count 6
+			count 5
 			entityDefName "Remnant_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
-			entityDefName "NewRep_FrigateResearch"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
 		count 89
@@ -80,6 +81,8 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_MC80b"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula"
 		entityDefName "NewRepResearch_ShipUnlock_MC90_Command"
+		entityDefName "NewRepResearch_ShipUnlock_Empress"
+		entityDefName "NewRepResearch_ShipUnlock_XQ"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula_Command"
 		entityDefName "NewRepResearch_ShipUnlock_Endurance"
 		entityDefName "NewRepResearch_ShipUnlock_Bwing"
@@ -87,6 +90,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
 		entityDefName "NewRepResearch_ShipUnlock_MC30"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
+		entityDefName "NewRepResearch_ShipUnlock_Esseles"
 		entityDefName "NewRepResearch_ShipUnlock_Kwing"
 		entityDefName "NewRepResearch_ShipUnlock_Hajen"
 		entityDefName "NewRepResearch_ShipUnlock_Viscount"
@@ -102,11 +106,10 @@ entities
 		entityDefName "NewRepResearch_Economy_TradeStation"
 		entityDefName "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		entityDefName "NewRepResearch_Flat_CultureExport"
-		entityDefName "NewRepResearch_AbilityUnlock_Migration"
-		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePull"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePush"
+		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "NewRepResearch_Global_CommStation"
 		entityDefName "NewRepResearch_Global_ShieldsBase"
 		entityDefName "NewRepResearch_Global_ShieldsMitigation"
@@ -154,11 +157,10 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
-		entityDefName "NewRepResearch_AIHelp_CapitalsOne"
-		entityDefName "NewRepResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 1
-		entityDefName "StarBaseTech"
+		count 2
+		entityDefName "NewRep_Empress"
+		entityDefName "NewRep_Esseles"
 	flagship "NewRep_HomeOne"
 debrisData
 	numRandomMeshNamesLarge 8

@@ -11,8 +11,8 @@ frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_PHASE"
 picture "PICTURE_TRADESHIP_PHASE"
-NameStringID "IDS_TRADESHIP_PHASE_NAME"
-DescriptionStringID "IDS_TRADESHIP_PHASE_DESCRIPTION"
+NameStringID "IDS_TRADESHIP_STARGALLEON_NAME"
+DescriptionStringID "IDS_TRADESHIP_STARGALLEON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 3
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_TRADESHIP_PHASE"
-smallHudIcon "HUDICONSMALL_TRADESHIP_PHASE"
-infoCardIcon "INFOCARDICON_TRADESHIP_PHASE"
+hudIcon "HUDICON_TRADESHIP_STARGALLEON"
+smallHudIcon "HUDICONSMALL_TRADESHIP_STARGALLEON"
+infoCardIcon "INFOCARDICON_TRADESHIP_STARGALLEON"
 minZoomDistanceMult 3.500000
 NumWeapons 0
 m_weaponIndexForRange 0

@@ -32,11 +32,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
-researchModifier
-	modifierType "TitanConstructionCap"
-	baseValue 0.000000
-	perLevelValue 1.000000
+researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

@@ -26,10 +26,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 2
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
-priority 0.000000
+MaxNumResearchLevels 2
+priority 2.000000
 researchBoolModifiers 0
-researchFloatModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PopulationGrowthRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

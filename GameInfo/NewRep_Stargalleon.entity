@@ -11,8 +11,8 @@ frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_PHASE"
 picture "PICTURE_TRADESHIP_PHASE"
-NameStringID "IDS_TRADESHIP_PHASE_NAME"
-DescriptionStringID "IDS_TRADESHIP_PHASE_DESCRIPTION"
+NameStringID "IDS_TRADESHIP_QUASAR_NAME"
+DescriptionStringID "IDS_TRADESHIP_QUASAR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 3
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_TRADESHIP_PHASE"
-smallHudIcon "HUDICONSMALL_TRADESHIP_PHASE"
-infoCardIcon "INFOCARDICON_TRADESHIP_PHASE"
+hudIcon "HUDICON_TRADESHIP_QUASAR"
+smallHudIcon "HUDICONSMALL_TRADESHIP_QUASAR"
+infoCardIcon "INFOCARDICON_TRADESHIP_QUASAR"
 minZoomDistanceMult 3.500000
 NumWeapons 0
 m_weaponIndexForRange 0
@@ -50,7 +50,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "IR_Stargalleon"
+ShieldMeshName "NR_Quasar"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -76,7 +76,7 @@ NumSoundsFor:ONSELECTED 0
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Stargalleon"
+	meshName "NR_Quasar"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
