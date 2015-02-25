@@ -61,13 +61,12 @@ entities
 			entityDefName "Remnant_Dreadnaught"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
-			count 4
-			entityDefName "Remnant_FrigateResearch"
+			count 3
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 103
+		count 99
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -116,8 +115,6 @@ entities
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
 		entityDefName "NewRepResearch_Global_HelpingHand"
-		entityDefName "NewRepResearch_AbilityUnlock_Migration"
-		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
 		entityDefName "RemnantResearch_Flat_HangarRefit"
@@ -169,8 +166,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI5"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 3
 		entityDefName "Remnant_GalaxyGun"

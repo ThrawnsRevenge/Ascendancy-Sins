@@ -60,15 +60,14 @@ entities
 			entityDefName "NewRep_MC30c"
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
-			count 6
+			count 5
 			entityDefName "Remnant_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
-			entityDefName "NewRep_FrigateResearch"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 93
+		count 89
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -107,8 +106,6 @@ entities
 		entityDefName "NewRepResearch_Economy_TradeStation"
 		entityDefName "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		entityDefName "NewRepResearch_Flat_CultureExport"
-		entityDefName "NewRepResearch_AbilityUnlock_Migration"
-		entityDefName "NewRepResearch_AbilityUnlock_MassMigration"
 		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePull"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePush"
@@ -160,8 +157,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
-		entityDefName "NewRepResearch_AIHelp_CapitalsOne"
-		entityDefName "NewRepResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 2
 		entityDefName "NewRep_Empress"
