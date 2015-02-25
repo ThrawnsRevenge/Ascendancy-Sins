@@ -139,7 +139,7 @@ brush
 	name "BottomWindowBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 0 , 389 , 1024 , 123 ]
+	pixelBox [ 107 , 381 , 810 , 150 ]
 brush
 	name "BottomWindowOverlayTech"
 	content "Simple"
@@ -1343,12 +1343,12 @@ brush
 	name "EmpireWindowOptionsWindowBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowHighResBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 0 , 60 , 200 , 70 ]
+	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowSelectionMenuOpenButton"
 	content "States"
@@ -2003,7 +2003,7 @@ brush
 	name "TopWindowBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 3 , -2 , 1024 , 60 ]
+	pixelBox [ 285 , -2 , 455 , 85 ]
 brush
 	name "TopWindowOverlayTech"
 	content "Simple"
@@ -2063,12 +2063,12 @@ brush
 	name "TopWindowLeftCapLowResPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowLeftCapHighResPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 414 , 57 , 190 , 53 ]
+	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowRightCapLowResPhase"
 	content "Simple"
@@ -2175,12 +2175,12 @@ brush
 	name "QuickMarketBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 781 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropNoPiratesPhase"
 	content "Simple"
 	fileName "EotH_Skin"
-	pixelBox [ 781 , 119 , 186 , 95 ]
+	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickPirateIncreaseBountyOnHighestEnemyButton"
 	content "States"
