@@ -4,38 +4,38 @@ highResTopRightRefArea [-200, 7, 178 , 54]
 backdropArea [0, 0, 186 , 95]
 noPiratesBackdropArea [0, -5, 178 , 54]
 metalWindow
-	area [57, 1, 131, 24]
+	area [29, 1, 148, 24]
 	buyButton
-		area [1, 0, 45, 24]
+		area [0, 0, 73, 24]
 		fontId "PlayerName"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 10
+		textOffsetFromLeft 32
 		underlay "Null"
 		overlay "Null"		
 		icon "Null"		
 	sellButton
-		area [78, 1, 45, 24]
+		area [76, 1, 73, 24]
 		fontId "PlayerName"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 10
+		textOffsetFromLeft 32
 		underlay "Null"
 		overlay "Null"		
 		icon "Null"		
 crystalWindow
-	area [57, 30, 131, 24]
+	area [29, 30, 148, 24]
 	buyButton
-		area [1, 0, 45, 24]
+		area [0, 0, 73, 24]
 		fontId "PlayerName"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 10
+		textOffsetFromLeft 32
 		underlay "Null"
 		overlay "Null"		
 		icon "Null"		
 	sellButton
-		area [78, 1, 45, 24]
+		area [76, 1, 73, 24]
 		fontId "PlayerName"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 10
+		textOffsetFromLeft 32
 		underlay "Null"
 		overlay "Null"		
 		icon "Null"		
