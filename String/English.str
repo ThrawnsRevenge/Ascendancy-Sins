@@ -1,5 +1,11 @@
 TXT
-NumStrings 8148
+NumStrings 8150
+StringInfo
+	ID "IDS_PLANETMODULE_REMNANT_COMMANDCENTER_NAME"
+	Value "Imperial Command Center"
+StringInfo
+	ID "IDS_PLANETMODULE_REMNANT_COMMANDCENTER_DESCRIPTION"
+	Value "This structure is used to summon heroes and the Galaxy Gun constructor"
 StringInfo
 	ID "IDSResearchScreenBlockTitleCombat0NewRep"
 	Value "Drydocks"
@@ -19205,13 +19211,13 @@ StringInfo
 	Value "Faster"
 StringInfo
 	ID "IDSFleetSupplyScalarSmall"
-	Value "Small"
+	Value "Small 0.5X"
 StringInfo
 	ID "IDSFleetSupplyScalarNormal"
-	Value "Normal"
+	Value "Normal 1X"
 StringInfo
 	ID "IDSFleetSupplyScalarLarge"
-	Value "Large"
+	Value "Large 2.5X"
 StringInfo
 	ID "IDSResearchSpeedSlow"
 	Value "Slow"
@@ -22352,10 +22358,10 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "Quick Start"
+	Value "Galaxy Gun: On"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "Normal Start"
+	Value "Galaxy Gun: Off"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledTrue"
 	Value "Random Events"
@@ -24191,10 +24197,10 @@ StringInfo
 	Value "Determines the maximum number of ships any given player can have."
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_NAME"
-	Value "Quick Start"
+	Value "Galaxy Gun"
 StringInfo
 	ID "IDS_GAMEOPTION_QUICKSTART_DESCRIPTION"
-	Value "Players will begin the game with a handful of frigates and planet modules at their Capital planet."
+	Value "Allows the use of the galaxy gun."
 StringInfo
 	ID "IDS_GAMEOPTION_RANDOMEVENTSENABLED_NAME"
 	Value "Random Events"
