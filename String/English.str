@@ -1279,6 +1279,9 @@ StringInfo
 	ID "IDS_ABILITY_MILITARYSPECIALIZATION_NAME"
 	Value "Defensive Specialization"
 StringInfo
+	ID "IDS_ABILITY_MILITARYSPECIALIZATION_DESCRIPTION"
+	Value "Redirects economic output to planet defense, both military and cultural"
+StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_DESCRIPTION"
 	Value "Fires a Hypervelocity cannon at the target from the planet's surface."
 StringInfo
@@ -20384,10 +20387,13 @@ StringInfo
 	Value "Weapon Systems"
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHWEAPONS_DESC0"
-	Value "Heavy beam turret emplacments are added to the starbase, granting it a new closer range, high damage attack."
+	Value "Ion Cannons are added to the station, increasing damage against shields."
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHWEAPONS_DESC1"
-	Value "Missile batteries are built into the starbase's dorsal surfaces, adding an extreme range weapon to its arsenal."
+	Value "Dual Turbolaser banks are installed on the station."
+StringInfo
+	ID "IDS_STARBASEUPGRADETECHWEAPONS_DESC2"
+	Value "Proton Torpedo launchers are installed on the station."
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHTOUGHNESS_NAME"
 	Value "Structural Integrity"
@@ -20399,7 +20405,7 @@ StringInfo
 	Value "Hangar Capacity"
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHHANGAR_DESC"
-	Value "Additional strike craft construction, maintenance and launch facilities are built, allowing the starbase to host more squadrons of strike craft."
+	Value "Additional hangar space is installed, allowing more fighters to be based on the space station."
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHTRADEPORT_NAME"
 	Value "Trade Facilities"
@@ -20459,16 +20465,16 @@ StringInfo
 	Value "Cargo loading and storage facilities are added to the starbase, allowing it to extend your empire's trade network into the starbase's gravity well."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSICULTURE_NAME"
-	Value "Evangelization Nodes"
+	Value "Holonet Transmitter"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
-	Value "PsiTech telepathy equipment is installed into the starbase, allowing it to broadcast your empire's culture and repel enemy culture."
+	Value "A holonet transmitter is installed, broadcasting your culture."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSIMAXALLEGIANCE_NAME"
-	Value "Induced Reverence"
+	Value "Pacification"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSIMAXALLEGIANCE_DESC"
-	Value "Psionics aboard the starbase compel the planet's population to be more devout to your empire, resulting in a higher max allegiance from the planet when it is under your empire's control."
+	Value "The space station increases allegiance on the planet."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSIMASSDISORIENTATION_NAME"
 	Value "Mass Disorientation"
@@ -20492,7 +20498,7 @@ StringInfo
 	Value "Assault Systems"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC0"
-	Value "Disintegrator Arrays are added to the starbase, giving it a potent short range attack that is especially effective against structures."
+	Value "Additional banks of existing weapons are installed, increasing their damage."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC1"
 	Value "Phase Missile launchers add extreme range to the starbase's reach, allowing it to strike distant targets with ease."

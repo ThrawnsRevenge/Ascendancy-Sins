@@ -89,7 +89,7 @@ planetUpgradeDef
 				crystal 0.000000
 			upgradeTime 0.000000
 			maxPopulation 10.000000
-			populationGrowthRate 0.025000
+			populationGrowthRate 0.125000
 			developmentTaxPenalty -2.000000
 		stage
 			price
@@ -98,7 +98,7 @@ planetUpgradeDef
 				crystal 75.000000
 			upgradeTime 45.000000
 			maxPopulation 30.000000
-			populationGrowthRate 0.025000
+			populationGrowthRate 0.125000
 			developmentTaxPenalty -0.500000
 		stage
 			price
@@ -107,7 +107,7 @@ planetUpgradeDef
 				crystal 125.000000
 			upgradeTime 60.000000
 			maxPopulation 100.000000
-			populationGrowthRate 0.025000
+			populationGrowthRate 0.125000
 			developmentTaxPenalty 0.000000
 		stage
 			price
@@ -116,7 +116,7 @@ planetUpgradeDef
 				crystal 175.000000
 			upgradeTime 75.000000
 			maxPopulation 190.000000
-			populationGrowthRate 0.025000
+			populationGrowthRate 0.125000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
 		stageCount 2

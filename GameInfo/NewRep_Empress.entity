@@ -162,9 +162,11 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateEmpress"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 2
+UpgradeTypeCount 4
 UpgradeType "StarBaseUpgradeEmpressToughness"
 UpgradeType "StarBaseUpgradeEmpressHangar"
+UpgradeType "StarBaseUpgradeEmpressWeapons"
+UpgradeType "StarBaseUpgradeEmpressDamage"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "IR_Bilbringi"

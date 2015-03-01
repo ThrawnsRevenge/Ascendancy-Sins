@@ -1,14 +1,17 @@
 TXT
-entityNameCount 2318
+entityNameCount 2321
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
 entityName "StarBaseUpgradeRemComHangar.entity"
 entityName "StarBaseUpgradeRemComWeapons.entity"
+entityName "StarBaseUpgradeRemComDamage.entity"
 entityName "StarBaseUpgradeRemComToughness.entity"
 entityName "StarBaseUpgradeRemnantMilitarySpecialization.entity"
 entityName "StarBaseUpgradeEmpressHangar.entity"
 entityName "StarBaseUpgradeEmpressToughness.entity"
+entityName "StarBaseUpgradeEmpressWeapons.entity"
+entityName "StarBaseUpgradeEmpressDamage.entity"
 entityName "StarBaseUpgradeEsselesMaxAllegiance.entity"
 entityName "StarBaseUpgradeEsselesToughness.entity"
 entityName "StarBaseUpgradeEsselesTradePort.entity"
