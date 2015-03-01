@@ -21,7 +21,7 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 1
+	levelRequirement 0
 	hudIcon "HUDICON_ABILITY_NUMERICALSUPERIORITY"
 	smallHudIcon "HUDICON_ABILITY_NUMERICALSUPERIORITY"
 	infoCardIcon ""
@@ -37,7 +37,7 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 2
+	levelRequirement 1
 	hudIcon "HUDICON_ABILITY_NUMERICALSUPERIORITY"
 	smallHudIcon "HUDICON_ABILITY_NUMERICALSUPERIORITY"
 	infoCardIcon ""

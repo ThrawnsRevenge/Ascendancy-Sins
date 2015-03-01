@@ -988,6 +988,12 @@ StringInfo
 	ID "IDS_ABILITY_ESCAPEPODSELF_DESC"
 	Value "This unit is an escape pod. It cannot jump to hyperspace, and if it does not dock within 90 seconds, it will be destroyed."
 StringInfo
+	ID "IDS_ABILITY_INTERDICTIMMOBILIZER_NAME"
+	Value "Interdict"
+StringInfo
+	ID "IDS_ABILITY_INTERDICTIMMOBILIZER_DESCRIPTION"
+	Value "Prevents enemy ships from entering hyperspace."
+StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_NAME"
 	Value "Cluster Bombs"
 StringInfo
@@ -1215,6 +1221,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MASSEFFECT_DESCRIPTION"
 	Value "The Sovereign uses its massive gravity well generators to pull enemies towards it, dealing damage over time as they travel."
+StringInfo
+	ID "IDS_ABILITY_SUPERLASER_NAME"
+	Value "Superlaser"
+StringInfo
+	ID "IDS_ABILITY_SUPERLASER_DESCRIPTION"
+	Value "Fires a powerful superlaser at the target, damaging it and any enemies caught in the beam."
 StringInfo
 	ID "IDS_ABILITY_BOMBARDMENT_NAME"
 	Value "Orbital Bombardment"
