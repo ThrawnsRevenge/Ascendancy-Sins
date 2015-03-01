@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2325
+entityNameCount 2328
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -395,6 +395,7 @@ entityName "RemnantResearch_Global_Infrastructure.entity"
 entityName "RemnantResearch_Global_CommStation.entity"
 entityName "RemnantResearch_Global_RepairPlatform.entity"
 entityName "RemnantResearch_Global_ShieldGenerator.entity"
+entityName "RemnantResearch_Global_ShieldGeneratorUpgrade.entity"
 entityName "RemnantResearch_Global_ClosedBorders.entity"
 entityName "RemnantResearch_Global_Rationing.entity"
 entityName "RemnantResearch_Global_MixedRaceMilitary.entity"
@@ -510,6 +511,8 @@ entityName "AbilityPowerSymbol.entity"
 entityName "AbilityAltorProtect.entity"
 entityName "AbilityImAnEscapePod.entity"
 entityName "BuffImAnEscapePod.entity"
+entityName "AbilityEmpressRestore.entity"
+entityName "BuffEmpressRestore.entity"
 entityName "AbilitySpawnHeroGalaxyGunConstructor.entity"
 entityName "BuffSpawnHeroGalaxyGunConstructorSelf.entity"
 entityName "BuffSpawnHeroGalaxyGunDisabler.entity"

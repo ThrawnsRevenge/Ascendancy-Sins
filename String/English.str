@@ -1012,6 +1012,12 @@ StringInfo
 	ID "IDS_ABILITY_REMCOMDEFENSE_DESCRIPTION"
 	Value "This unit gives a bonus to the damage put out by defensive structures within range. This buff does not stack with another Commanders' ability."
 StringInfo
+	ID "IDS_ABILITY_EMPRESSRESTORE_NAME"
+	Value "Rejuvenate"
+StringInfo
+	ID "IDS_ABILITY_EMPRESSRESTORE_DESCRIPTION"
+	Value "The Empress repairs and resupplies several ships around it."
+StringInfo
 	ID "IDS_ABILITY_ESCAPEPODSELF_NAME"
 	Value "Escape Pod"
 StringInfo
