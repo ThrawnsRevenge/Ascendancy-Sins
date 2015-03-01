@@ -982,6 +982,12 @@ StringInfo
 	ID "IDS_ABILITY_REMCOMDEFENSE_DESCRIPTION"
 	Value "This unit gives a bonus to the damage put out by defensive structures within range. This buff does not stack with another Commanders' ability."
 StringInfo
+	ID "IDS_ABILITY_ESCAPEPODSELF_NAME"
+	Value "Escape Pod"
+StringInfo
+	ID "IDS_ABILITY_ESCAPEPODSELF_DESC"
+	Value "This unit is an escape pod. It cannot jump to hyperspace, and if it does not dock within 90 seconds, it will be destroyed."
+StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_NAME"
 	Value "Cluster Bombs"
 StringInfo

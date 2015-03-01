@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2316
+entityNameCount 2318
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -501,6 +501,8 @@ entityName "AbilityReflectiveShields.entity"
 entityName "AbilityFearAura.entity"
 entityName "AbilityPowerSymbol.entity"
 entityName "AbilityAltorProtect.entity"
+entityName "AbilityImAnEscapePod.entity"
+entityName "BuffImAnEscapePod.entity"
 entityName "AbilitySpawnHeroGalaxyGunConstructor.entity"
 entityName "BuffSpawnHeroGalaxyGunConstructorSelf.entity"
 entityName "BuffSpawnHeroGalaxyGunDisabler.entity"
