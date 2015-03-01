@@ -41,7 +41,6 @@ nameStringID "IDS_STARBASETECH_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateGalaxyGun"
-maxUpgradeLevelCount 8
 UpgradeTypeCount 2
 UpgradeType "StarBaseUpgradeRemComToughness"
 UpgradeType "StarBaseUpgradeRemnantMilitarySpecialization"

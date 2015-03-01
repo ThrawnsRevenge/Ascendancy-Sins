@@ -32,7 +32,7 @@ researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "CapitalShipMaxSlots"
-	baseValue 5.000000
+	baseValue 10.000000
 	perLevelValue 5.000000
 researchModifier
 	modifierType "CapitalShipMaxSlotLevel"
