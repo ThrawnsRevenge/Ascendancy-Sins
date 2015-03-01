@@ -19,8 +19,8 @@ mainViewIcon "MAINVIEWICON_MIYTILBOMBER"
 picture "PICTURE_MIYTILBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_MIYTILBOMBER_NAME"
-descriptionStringID "IDS_MIYTILBOMBER_DESC"
+nameStringID "IDS_FIGHTERMIYTILBOMBER_NAME"
+descriptionStringID "IDS_FIGHTERMIYTILBOMBER_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

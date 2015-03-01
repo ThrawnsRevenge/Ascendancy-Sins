@@ -10,12 +10,9 @@ researchWindowLocation
 	pos [ 5 , 1 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RemnantResearch_ShipUnlock_GolanIII"
-		Level 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

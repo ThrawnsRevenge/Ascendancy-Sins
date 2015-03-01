@@ -1,5 +1,29 @@
 TXT
-NumStrings 8150
+NumStrings 8168
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_NAME"
+	Value "Foreign Aid"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_DESCRIPTION"
+	Value "Allows giving financial aid to and demanding aid from other factions ."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_NAME"
+	Value "Bought Loyalty"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_DESCRIPTION"
+	Value "Allows the giving and demanding of financial aid."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERSALLIANCE_NAME"
+	Value "Smuggler's Alliance"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERSALLIANCE_DESCRIPTION"
+	Value "Connections with smuggling groups gives the New Repiblic cheaper access to underground tibanna and durasteel markets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_BIDDING_NAME"
+	Value "Open Bidding"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_BIDDING_DESCRIPTION"
+	Value "Allowing companies to bid freely on development projects theoretically makes them build faster."
 StringInfo
 	ID "IDS_PLANETMODULE_REMNANT_COMMANDCENTER_NAME"
 	Value "Imperial Command Center"
@@ -870,6 +894,12 @@ StringInfo
 StringInfo
 	ID "IDS_FIGHTERXWING_DESCRIPTION"
 	Value "The workhorse fighter of the New Republic, capable of combating enemy fighters as well as assaulting larger vessels, although not as effective at either job as dedicated interceptors or bombers."
+StringInfo
+	ID "IDS_FIGHTERMIYTILBOMBER_NAME"
+	Value "Miy'til Bomber"
+StringInfo
+	ID "IDS_FIGHTERMIYTILBOMBER_DESCRIPTION"
+	Value "A heavy bomber able to assault frigates and capital ships."
 StringInfo
 	ID "IDS_FIGHTERBWING_NAME"
 	Value "B-Wing"

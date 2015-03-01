@@ -114,7 +114,7 @@ entities
 		entityDefName "RemnantResearch_Global_Rationing"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
-		entityDefName "NewRepResearch_Global_HelpingHand"
+		entityDefName "RemnantResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
 		entityDefName "RemnantResearch_Flat_HangarRefit"
