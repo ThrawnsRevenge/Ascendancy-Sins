@@ -11947,6 +11947,12 @@ StringInfo
 	ID "IDS_ABILITY_PLANETSHIELD_DESCRIPTION"
 	Value "Shields the planet in a powerful forcefield, greatly reducing damage from hostile forces bombarding it."
 StringInfo
+	ID "IDS_ABILITY_PLANETSHIELDUPGRADE_NAME"
+	Value "Upgraded Generators"
+StringInfo
+	ID "IDS_ABILITY_PLANETSHIELDUPGRADE_DESCRIPTION"
+	Value "Upgrades the shield generators on planets."
+StringInfo
 	ID "IDS_ABILITY_PLASMABOMBARDMENT_NAME"
 	Value "Condemnation"
 StringInfo
