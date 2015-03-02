@@ -103,8 +103,8 @@ brush
 brush
 	name "ActionGridSlotPassiveAbilityOverlay"
 	content "Simple"
-	fileName "Interface0"
-	pixelBox [ 827 , 2 , 50 , 36 ]
+	fileName "UI_Misc"
+	pixelBox [ 47 , 159 , 52 , 37 ]
 brush
 	name "BANDBOX"
 	content "Margins"

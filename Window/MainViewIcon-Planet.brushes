@@ -4,8 +4,8 @@ brushCount 96
 brush
 	name "MAINVIEWICON_PLANET_UNKNOWN"
 	content "Simple"
-	fileName "Icon_Planets_Pip_Unknown"
-	pixelBox [ 0 , 0 , 272, 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 996 , 138 , 200, 70 ]
 brush
 	name "MAINVIEWICON_PLANET_PLASMASTORM"
 	content "Simple"
@@ -24,228 +24,228 @@ brush
 brush
 	name "MAINVIEWICON_PLANET_OCCUPATION"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
+	fileName "Ascendancy_Planet_Pips"
 	pixelBox [ 1 , 1 , 200 , 75 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_TERRAN0"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 1 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_ARIDOCEAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 450 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_DESERT"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 375 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_ECUMENOPOLIS"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 75 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_GASGIANT"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 797 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_ICE"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 300 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 996 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_BLACKHOLE"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_MOUNTAINOUS"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_NEBULA"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 225 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 600 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_POLLUTED"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 300 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 797 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 225 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 996 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_TERRAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 0 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_URBAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 600 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_TERRANTWO"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 525 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_VOLCANIC"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 375 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_ARBOREAL"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 0 , 525 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_ASTEROID0"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 0 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICONUNDETECTED_PLANET_BARREN"
 	content "Simple"
-	fileName "Icons_Planets_Pips_Undetected"
-	pixelBox [ 200 , 450 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_TERRAN0"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 1 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ARIDOCEAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 450 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_DESERT"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 375 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ECUMENOPOLIS"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 75 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_GASGIANT"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 797 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ICE"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 300 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 996 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_BLACKHOLE"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_MOUNTAINOUS"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 150 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_NEBULA"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 225 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_OCEANIC"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 600 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_POLLUTED"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 300 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 797 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_SWAMP"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 225 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 996 , 69 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_TERRAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 0 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_URBAN"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 600 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_TERRANTWO"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 525 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 0 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_VOLCANIC"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 375 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ARBOREAL"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 0 , 525 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROID0"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 0 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_BARREN"
 	content "Simple"
-	fileName "Icons_Planets_Pips"
-	pixelBox [ 200 , 450 , 200 , 75 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROID3"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 918 , 668 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROID4"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 969 , 668 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROIDBELT"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 867 , 923 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROIDCRESCENT"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 867 , 974 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROIDFIELD"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 918 , 974 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROIDLINE"
 	content "Simple"
-	fileName "Mainview_planets"
-	pixelBox [ 969 , 974 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 138 , 200 , 70 ]
 brush
 	name "MAINVIEWICON_PLANET_ASTEROIDSPACEJUNK0"
 	content "Simple"

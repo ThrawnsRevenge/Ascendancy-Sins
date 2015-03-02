@@ -1,61 +1,46 @@
 TXT
 pipCloud(Modules)
-	segmentCount 10
+	segmentCount 5
 	segmentLayout
-		textureName "Planet_Cloud_Pips"
-		startTopLeft [61,15]
-		width 7
-		height 7
-		rowItemCount 1
-		horizontalStride 0
-		verticalStride 8	
-	segmentOffset [8, 8]
-	segmentOffset [11, 10]
-	segmentOffset [14, 12]
-	segmentOffset [18, 13]
-	segmentOffset [22, 13]
-	segmentOffset [25, 13]
-	segmentOffset [29, 13]
-	segmentOffset [32, 12]
-	segmentOffset [35, 10]
-	segmentOffset [38, 9]
+		textureName "Ascendancy_Circle_Planet_Pips"
+		startTopLeft [6,6]
+		width 20
+		height 20
+		rowItemCount 5
+		horizontalStride 21
+		verticalStride 0
+	segmentOffset [-10, -45]
+	segmentOffset [-10, -45]
+	segmentOffset [-10, -45]
+	segmentOffset [-10, -45]
+	segmentOffset [-10, -45]
 pipCloud(FriendlyShips)
-	segmentCount 10
+	segmentCount 5
 	segmentLayout
-		textureName "Planet_Cloud_Pips"
-		startTopLeft [51,15]
-		width 7
-		height 7
-		rowItemCount 1
-		horizontalStride 0
-		verticalStride 8	
-	segmentOffset [6, 9]
-	segmentOffset [5, 11]
-	segmentOffset [3, 15]
-	segmentOffset [2, 18]
-	segmentOffset [1, 22]
-	segmentOffset [1, 25]
-	segmentOffset [1, 29]
-	segmentOffset [2, 32]
-	segmentOffset [3, 35]
-	segmentOffset [5, 39]
+		textureName "Ascendancy_Circle_Planet_Pips"
+		startTopLeft [6,6]
+		width 20
+		height 20
+		rowItemCount 5
+		horizontalStride 21
+		verticalStride 0
+	segmentOffset [-13, 16]
+	segmentOffset [-13, 16]
+	segmentOffset [-13, 16]
+	segmentOffset [-13, 16]
+	segmentOffset [-13, 16]
 pipCloud(EnemyShips)
-	segmentCount 10
+	segmentCount 5
 	segmentLayout
-		textureName "Planet_Cloud_Pips"
-		startTopLeft [71,15]
-		width 7
-		height 7
-		rowItemCount 1
-		horizontalStride 0
-		verticalStride 8
-	segmentOffset [12, 9]
-	segmentOffset [13, 11]
-	segmentOffset [15, 15]
-	segmentOffset [16, 18]
-	segmentOffset [17, 22]
-	segmentOffset [17, 25]
-	segmentOffset [17, 29]
-	segmentOffset [16, 32]
-	segmentOffset [15, 35]
-	segmentOffset [13, 39]
+		textureName "Ascendancy_Circle_Planet_Pips"
+		startTopLeft [6,6]
+		width 20
+		height 20
+		rowItemCount 5
+		horizontalStride 21
+		verticalStride 0
+	segmentOffset [-44, 38]
+	segmentOffset [3, 59]
+	segmentOffset [3, 59]
+	segmentOffset [3, 59]
+	segmentOffset [3, 59]

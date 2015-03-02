@@ -15,7 +15,7 @@ brush
 	name "MainViewIconEntityOverlayHomePlanet"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 0 , 164 , 452 , 75 ]
+	pixelBox [ 126 , 0 , 200 , 70 ]
 brush
 	name "MainViewIconEntityOverlayArtifact"
 	content "Simple"
@@ -359,33 +359,33 @@ brush
 brush
 	name "MainViewIconPipCloudOverlayModules"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 0 , 43 , 9 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconPipCloudOverlayModulesUnderCursor"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 44 , 0 , 43 , 9 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconPipCloudOverlayFriendlyShips"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 63 , 9 , 43 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconPipCloudOverlayFriendlyShipsUnderCursor"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 16 , 63 , 9 , 43 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconPipCloudOverlayEnemyShips"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 0 , 15 , 9 , 43 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconPipCloudOverlayEnemyShipsUnderCursor"
 	content "Simple"
-	fileName "Planet_Cloud_Pips"
-	pixelBox [ 16 , 15 , 9 , 43 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MainViewIconStarBaseTech"
 	content "Simple"
