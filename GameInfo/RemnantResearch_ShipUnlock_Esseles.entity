@@ -6,9 +6,9 @@ infoCardIcon ""
 NameStringID "IDS_PLANETMODULE_ESSELES_NAME"
 DescriptionStringID "IDS_PLANETMODULE_ESSELES_DESCRIPTION"
 researchWindowLocation
-	block 0
+	block 1
 	pos [ 4 , 0 ]
-ResearchField "Defense"
+ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

@@ -51,7 +51,7 @@ angularSpeed 0.000000
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName ""
+ShieldMeshName "NR_XQ"
 renderShield FALSE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALREPAIRPLATFORM_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_NavalStation"
+	meshName "NR_XQ"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

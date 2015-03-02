@@ -145,7 +145,7 @@ TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-ShieldMeshName "IR_Bilbringi"
+ShieldMeshName "NR_Empress"
 renderShield TRUE
 squadTypeEntityDef:0 "NewRep_XWing_Squad"
 squadAntiMatterCost:0 0.000000
@@ -162,12 +162,14 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateEmpress"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 2
+UpgradeTypeCount 4
 UpgradeType "StarBaseUpgradeEmpressToughness"
 UpgradeType "StarBaseUpgradeEmpressHangar"
+UpgradeType "StarBaseUpgradeEmpressWeapons"
+UpgradeType "StarBaseUpgradeEmpressDamage"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Bilbringi"
+	meshName "NR_Empress"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

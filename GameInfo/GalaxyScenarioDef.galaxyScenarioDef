@@ -1583,7 +1583,7 @@ planetItemType
 	entityDefName "NewRep_TradeStation"
 planetItemType
 	designName "NewRep:Module:CommStation"
-	entityDefName "PLANETMODULE_TECHORBITALCULTURECENTER"
+	entityDefName "NewRep_CommStation"
 planetItemType
 	designName "NewRep:Module:PolicyLab"
 	entityDefName "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
@@ -1761,7 +1761,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "Remnant:Module:FrigateFactory"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Module:CapitalShipyard"
@@ -1780,7 +1780,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "NewRep:Module:FrigateFactory"
-				item "NewRep:Module:FrigateFactory"
+				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Module:CapitalShipyard"
@@ -1799,7 +1799,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 11
 				item "EotH:Module:FrigateFactory"
-				item "EotH:Module:FrigateFactory"
+				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
@@ -1817,7 +1817,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "NewRep:Module:FrigateFactory"
-				item "NewRep:Module:FrigateFactory"
+				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Module:CapitalShipyard"
@@ -1836,7 +1836,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "Remnant:Module:FrigateFactory"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Module:CapitalShipyard"
@@ -1855,7 +1855,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "NewRep:Module:FrigateFactory"
-				item "NewRep:Module:FrigateFactory"
+				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Module:CapitalShipyard"
@@ -1874,7 +1874,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 12
 				item "NewRep:Module:FrigateFactory"
-				item "NewRep:Module:FrigateFactory"
+				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Module:CapitalShipyard"
@@ -1893,7 +1893,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 11
 				item "EotH:Module:FrigateFactory"
-				item "EotH:Module:FrigateFactory"
+				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
@@ -2203,13 +2203,10 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 6
-				item "Tech:Frigate:Light"
-				item "Tech:Frigate:Light"
-				item "Tech:Frigate:Light"
-				item "Tech:Module:CrystalExtractor"
-				item "Tech:Module:MetalExtractor"
-				item "Tech:Module:GaussDefense"
+			items 3
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2217,8 +2214,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Tech:Frigate:Light"
-				item "Tech:Frigate:Siege"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
@@ -2231,7 +2228,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 2
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carracl"
+				item "Remnant:Frigate:Carrack"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
@@ -2305,24 +2302,15 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 7
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
+			items 1
 				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 4
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:NovaCruiser"
+			items 1
 				item "Hapans:Frigate:NovaCruiser"
 planetItemsTemplate
 	templateName "Template:HapansMedium"
@@ -2334,32 +2322,17 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 11
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:BattleDragon"
+			items 2
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 8
+			items 2
 				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
 planetItemsTemplate
 	templateName "Template:HapansUnique"

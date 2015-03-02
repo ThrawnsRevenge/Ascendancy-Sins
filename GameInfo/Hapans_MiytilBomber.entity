@@ -12,7 +12,7 @@ hudIcon "HUDICON_MIYTILBOMBER"
 smallHudIcon "HUDICONSMALL_MIYTILBOMBER"
 infoCardIcon "INFOCARDICON_MIYTILBOMBER"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_MIYTILBOMBER_NAME"
+nameStringID "IDS_FIGHTERMIYTILBOMBER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000

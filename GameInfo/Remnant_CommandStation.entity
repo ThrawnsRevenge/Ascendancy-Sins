@@ -160,10 +160,11 @@ picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateCommandStationIR"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 4
+UpgradeTypeCount 5
 UpgradeType "StarBaseUpgradeRemComWeapons"
 UpgradeType "StarBaseUpgradeRemComToughness"
 UpgradeType "StarBaseUpgradeRemComHangar"
+UpgradeType "StarBaseUpgradeRemComDamage"
 UpgradeType "StarBaseUpgradeRemnantMilitarySpecialization"
 MeshNameInfoCount 1
 MeshNameInfo
