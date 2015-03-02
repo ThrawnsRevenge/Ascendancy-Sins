@@ -994,40 +994,14 @@ brush
 	pixelBox [ 451 , 271 , 28 , 28 ]
 brush
 	name "EmpireWindowToggleChildrenVisibleOn"
-	content "States"
-	Disabled
-		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Pressed
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Focused
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Normal
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+	content "Simple"
+	fileName "UI_Misc"
+	pixelBox [ 47 , 197 , 52 , 27 ]
 brush
 	name "EmpireWindowToggleChildrenVisibleOff"
-	content "States"
-	Disabled
-		fileName "Buttons_Main_Disabled"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Pressed
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	CursorOver
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Focused
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
-	Normal
-		fileName "Buttons_Main_Normal"
-		pixelBox [ 2 , 2 , 52 , 37 ]
+	content "Simple"
+	fileName "UI_Misc"
+	pixelBox [ 100 , 197 , 52 , 27 ]
 brush
 	name "EmpireWindowIsPinnedIconOverlay"
 	content "Simple"
