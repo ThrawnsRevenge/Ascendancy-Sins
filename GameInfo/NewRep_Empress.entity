@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 ""
+ability:0 "AbilityEmpressRestore"
 ability:1 ""
 ability:2 ""
 ability:3 ""
@@ -162,11 +162,12 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateEmpress"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 4
+UpgradeTypeCount 5
 UpgradeType "StarBaseUpgradeEmpressToughness"
 UpgradeType "StarBaseUpgradeEmpressHangar"
 UpgradeType "StarBaseUpgradeEmpressWeapons"
 UpgradeType "StarBaseUpgradeEmpressDamage"
+UpgradeType "StarBaseUpgradeEmpressRestore"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "NR_Empress"

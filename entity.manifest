@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2328
+entityNameCount 2329
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -12,6 +12,7 @@ entityName "StarBaseUpgradeEmpressHangar.entity"
 entityName "StarBaseUpgradeEmpressToughness.entity"
 entityName "StarBaseUpgradeEmpressWeapons.entity"
 entityName "StarBaseUpgradeEmpressDamage.entity"
+entityName "StarBaseUpgradeEmpressRestore.entity"
 entityName "StarBaseUpgradeEsselesMaxAllegiance.entity"
 entityName "StarBaseUpgradeEsselesToughness.entity"
 entityName "StarBaseUpgradeEsselesTradePort.entity"
