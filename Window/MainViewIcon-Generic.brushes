@@ -235,7 +235,7 @@ brush
 	name "MainViewIconEntityUnderlayUnderCursorFrame"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 1 , 1 , 46 , 46 ]
+	pixelBox [ 330 , 34 , 110 , 32 ]
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFrame"
 	content "Simple"
@@ -250,17 +250,17 @@ brush
 	name "MainViewIconEntityUnderlaySubSelectedFill"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 1 , 47 , 46 , 46 ]
+	pixelBox [ 330 , 1 , 110 , 32 ]
 brush
 	name "MainViewIconEntityUnderlaySelectedFill"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 1 , 47 , 46 , 46 ]
+	pixelBox [ 330 , 1 , 110 , 32 ]
 brush
 	name "MainViewIconStarUnderlayUnderCursorFrame"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 46 , 0 , 80 , 80 ]
+	pixelBox [ 330 , 34 , 110 , 32 ]
 brush
 	name "MainViewIconStarUnderlaySubSelectedFrame"
 	content "Simple"
@@ -275,7 +275,7 @@ brush
 	name "MainViewIconStarUnderlaySubSelectedFill"
 	content "Simple"
 	fileName "UI_Misc"
-	pixelBox [ 46 , 79 , 80 , 80 ]
+	pixelBox [ 330 , 1 , 110 , 32 ]
 brush
 	name "MainViewIconStarUnderlaySelectedFill"
 	content "Simple"
