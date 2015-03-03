@@ -9,11 +9,11 @@ pipCloud(Modules)
 		rowItemCount 5
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [-10, -45]
-	segmentOffset [-10, -45]
-	segmentOffset [-10, -45]
-	segmentOffset [-10, -45]
-	segmentOffset [-10, -45]
+	segmentOffset [14, -2]
+	segmentOffset [14, -2]
+	segmentOffset [14, -2]
+	segmentOffset [14, -2]
+	segmentOffset [14, -2]
 pipCloud(FriendlyShips)
 	segmentCount 5
 	segmentLayout
@@ -24,11 +24,11 @@ pipCloud(FriendlyShips)
 		rowItemCount 5
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [-13, 16]
-	segmentOffset [-13, 16]
-	segmentOffset [-13, 16]
-	segmentOffset [-13, 16]
-	segmentOffset [-13, 16]
+	segmentOffset [2, 16]
+	segmentOffset [2, 16]
+	segmentOffset [2, 16]
+	segmentOffset [2, 16]
+	segmentOffset [2, 16]
 pipCloud(EnemyShips)
 	segmentCount 5
 	segmentLayout
@@ -39,8 +39,8 @@ pipCloud(EnemyShips)
 		rowItemCount 5
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [-44, 38]
-	segmentOffset [3, 59]
-	segmentOffset [3, 59]
-	segmentOffset [3, 59]
-	segmentOffset [3, 59]
+	segmentOffset [1, 16]
+	segmentOffset [1, 16]
+	segmentOffset [1, 16]
+	segmentOffset [1, 16]
+	segmentOffset [1, 16]
