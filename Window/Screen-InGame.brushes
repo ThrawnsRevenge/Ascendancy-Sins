@@ -724,28 +724,28 @@ brush
 brush
 	name "ResearchScreenFleetLevelPictureBackdrop"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 1849 , 607 , 199 , 148 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 1 , 1 , 198 , 148 ]
 brush
 	name "ResearchScreenFleetLevelPictureOverlay"
 	content "Simple"
 	fileName "Null"
-	pixelBox [ 1849 , 758 , 199 , 148 ]
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "ResearchScreenFleetLevelValueBackdrop"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 1647 , 965 , 199 , 56 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 0 , 150 , 189 , 41 ]
 brush
 	name "ResearchScreenFleetLevelValueOverlay"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 1849 , 965 , 199 , 56 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "ResearchScreenNextLevelIcon"
 	content "Simple"
-	fileName "Buttons_Main_Normal"
-	pixelBox [ 2 , 2 , 52 , 37 ]
+	fileName "Buttons_Ascendancy_Icons"
+	pixelBox [ 431 , 1 , 42 , 42 ]
 brush
 	name "PlayerScreenCloseButton"
 	content "States"
@@ -1796,8 +1796,8 @@ brush
 brush
 	name "ArtifactPictureUnknown"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 1249 , 3 , 199 , 100 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 200 , 1 , 195 , 96 ]
 brush
 	name "ArtifactPictureGalaxyTravel"
 	content "States"
@@ -2297,8 +2297,8 @@ brush
 brush
 	name "ResearchScreenBlockBackdropArtifact0Tech"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 471 , 0 , 776 , 631 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "ResearchScreenBlockBackdropFleet0Tech"
 	content "Simple"
@@ -2522,8 +2522,8 @@ brush
 brush
 	name "ResearchScreenBlockBackdropArtifact0Psi"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 471 , 0 , 776 , 631 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "ResearchScreenBlockBackdropFleet0Psi"
 	content "Simple"
@@ -2747,8 +2747,8 @@ brush
 brush
 	name "ResearchScreenBlockBackdropArtifact0Phase"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 471 , 0 , 776 , 631 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "ResearchScreenBlockBackdropFleet0Phase"
 	content "Simple"
@@ -2882,8 +2882,8 @@ brush
 brush
 	name "ResearchScreenCapitalShipSlotLevelPicture0Tech"
 	content "Simple"
-	fileName "Research"
-	pixelBox [ 0 , 0 , 0 , 0 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 1 , 214 , 68 , 51 ]
 brush
 	name "ResearchScreenCapitalShipSlotLevelPicture1Tech"
 	content "Simple"

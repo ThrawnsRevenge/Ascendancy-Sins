@@ -456,20 +456,20 @@ brush
 	name "ScreenButtonUnderlaySupply"
 	content "States"
 	Disabled
-		fileName "Buttons_Backgrounds"
-		pixelBox [ 471 , 948 , 83 , 72 ]
+		fileName "Buttons_Ascendancy"
+		pixelBox [ 569 , 56 , 70 , 51 ]
 	Pressed
-		fileName "Buttons_Backgrounds"
-		pixelBox [ 643 , 948 , 83 , 72 ]
+		fileName "Buttons_Ascendancy"
+		pixelBox [ 569 , 110 , 70 , 51 ]
 	CursorOver
-		fileName "Buttons_Backgrounds"
-		pixelBox [ 557 , 948 , 83 , 72 ]
+		fileName "Buttons_Ascendancy"
+		pixelBox [ 569 , 110 , 70 , 51 ]
 	Focused
-		fileName "Buttons_Backgrounds"
-		pixelBox [ 385 , 948 , 83 , 72 ]
+		fileName "Buttons_Ascendancy"
+		pixelBox [ 569 , 164 , 70 , 51 ]
 	Normal
-		fileName "Buttons_Backgrounds"
-		pixelBox [ 299 , 948 , 83 , 72 ]
+		fileName "Buttons_Ascendancy"
+		pixelBox [ 569 , 2 , 70 , 51 ]
 brush
 	name "ScreenButtonOverlaySupply"
 	content "States"

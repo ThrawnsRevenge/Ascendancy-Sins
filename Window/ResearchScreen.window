@@ -51,7 +51,7 @@ treeSharedDef
 		valueSharedDef
 			labelArea [20, 15, 100, 30]
 			valueArea [155, 15, 40, 30]
-			iconArea [130, 15, 20, 30]
+			iconArea [125, 15, 20, 30]
 			labelFont "Label"
 			valueFont "Label"
 			backdrop "ResearchScreenFleetLevelValueBackdrop"
