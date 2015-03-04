@@ -1,46 +1,61 @@
 TXT
 pipCloud(Modules)
-	segmentCount 5
+	segmentCount 10
 	segmentLayout
 		textureName "Ascendancy_Circle_Planet_Pips"
 		startTopLeft [6,6]
 		width 20
 		height 20
-		rowItemCount 5
+		rowItemCount 10
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [14, -2]
-	segmentOffset [14, -2]
-	segmentOffset [14, -2]
-	segmentOffset [14, -2]
-	segmentOffset [14, -2]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
+	segmentOffset [14, -3]
 pipCloud(FriendlyShips)
-	segmentCount 5
+	segmentCount 10
 	segmentLayout
 		textureName "Ascendancy_Circle_Planet_Pips"
 		startTopLeft [6,6]
 		width 20
 		height 20
-		rowItemCount 5
+		rowItemCount 10
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [2, 16]
-	segmentOffset [2, 16]
-	segmentOffset [2, 16]
-	segmentOffset [2, 16]
-	segmentOffset [2, 16]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
+	segmentOffset [2, 15]
 pipCloud(EnemyShips)
-	segmentCount 5
+	segmentCount 10
 	segmentLayout
 		textureName "Ascendancy_Circle_Planet_Pips"
 		startTopLeft [6,6]
 		width 20
 		height 20
-		rowItemCount 5
+		rowItemCount 10
 		horizontalStride 21
 		verticalStride 0
-	segmentOffset [1, 16]
-	segmentOffset [1, 16]
-	segmentOffset [1, 16]
-	segmentOffset [1, 16]
-	segmentOffset [1, 16]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
+	segmentOffset [1, 15]
