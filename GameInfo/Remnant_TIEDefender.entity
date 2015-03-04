@@ -11,7 +11,7 @@ armorType "VeryLight"
 hudIcon "HUDICON_TIEDEFENDER"
 smallHudIcon "HUDICONSMALL_FIGHTER_TIEDEFENDER"
 infoCardIcon "HUDICONSMALL_FIGHTER_TIEDEFENDER"
-minZoomDistanceMult 9.000000
+minZoomDistanceMult 15.000000
 nameStringID "IDS_TIEDEFENDER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"

@@ -40,7 +40,7 @@ armorType "Light"
 hudIcon "HUDICON_FERRET"
 smallHudIcon "HUDICONSMALL_FRIGATE_FERRET"
 infoCardIcon "HUDICONSMALL_FRIGATE_FERRET"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 4.550000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"

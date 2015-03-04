@@ -11,7 +11,7 @@ armorType "Light"
 hudIcon "HUDICON_TIEBOMBER"
 smallHudIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
 infoCardIcon "HUDICONSMALL_FIGHTER_TIEBOMBER"
-minZoomDistanceMult 8.000000
+minZoomDistanceMult 9.000000
 nameStringID "IDS_FIGHTERPSIBOMBER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
 statCountType "FighterBomber"

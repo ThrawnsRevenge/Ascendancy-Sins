@@ -39,7 +39,7 @@ armorType "Light"
 hudIcon "HUDICON_CT11"
 smallHudIcon "HUDICONSMALL_CT11"
 infoCardIcon "HUDICON_CT11"
-minZoomDistanceMult 5.000000
+minZoomDistanceMult 6.95000
 NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
