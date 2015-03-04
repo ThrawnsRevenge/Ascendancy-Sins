@@ -11,7 +11,7 @@ armorType "Light"
 hudIcon "HUDICON_SCIMITAR"
 smallHudIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 infoCardIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
-minZoomDistanceMult 8.000000
+minZoomDistanceMult 9.000000
 nameStringID "IDS_SCIMITAR_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
 statCountType "FighterBomber"

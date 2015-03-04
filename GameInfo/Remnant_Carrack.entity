@@ -127,7 +127,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "IR_Carrack"
+ShieldMeshName "PA_Venator"
 renderShield TRUE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
@@ -164,7 +164,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Carrack"
+	meshName "PA_Venator"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
