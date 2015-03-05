@@ -8,7 +8,7 @@ autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
-statCountType "FrigateUtility0"
+statCountType "FrigateUtility1"
 mainViewIcon "HUDICONSMALL_FRIGATE_HAJEN"
 picture "HUDICON_HAJEN"
 NameStringID "IDS_FRIGATE_HAJEN_NAME"

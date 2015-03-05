@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
 mainViewIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
 picture "HUDICON_STRIKECRUISER"
 NameStringID "IDS_FRIGATE_STRIKECRUISER_NAME"

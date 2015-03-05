@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateUtility0"
+frigateRoleType "Carrier"
+statCountType "FrigateCarrier"
 mainViewIcon "HUDICONSMALL_FRIGATE_QUASAR"
 picture "HUDICON_QUASAR"
 NameStringID "IDS_FRIGATE_QUASAR_NAME"

@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
 typeCount 1
-frigateRoleType "AntiFighter"
-statCountType "FrigateAntiFighter"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
 mainViewIcon "HUDICONSMALL_ESCAPEPOD"
 picture "HUDICONSMALL_ESCAPEPOD"
 NameStringID "IDS_FRIGATE_ESCAPEPOD_NAME"

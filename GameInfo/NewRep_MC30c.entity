@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Heavy"
-statCountType "FrigateHeavy"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
 mainViewIcon "HUDICONSMALL_MC30C"
 picture "HUDICON_FRIGATE_MC30C"
 NameStringID "IDS_FRIGATE_MC30C_NAME"

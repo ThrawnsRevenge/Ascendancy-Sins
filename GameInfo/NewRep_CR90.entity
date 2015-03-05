@@ -6,10 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 2
-frigateRoleType "Scout"
-frigateRoleType "ResourceCapturer"
-statCountType "FrigateScout"
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
 mainViewIcon "HUDICONSMALL_FRIGATE_CR90"
 picture "HUDICON_CR90"
 NameStringID "IDS_FRIGATE_CR90_NAME"
