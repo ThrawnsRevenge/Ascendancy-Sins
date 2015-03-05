@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_VSDII"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_VSDII"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_VSDII"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"

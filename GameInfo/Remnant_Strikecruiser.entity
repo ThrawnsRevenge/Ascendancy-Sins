@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_STRIKECRUISER"
 smallHudIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
 infoCardIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 2
 Weapon
 	WeaponType "Projectile"

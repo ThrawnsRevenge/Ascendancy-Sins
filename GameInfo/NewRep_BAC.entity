@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_BAC"
 smallHudIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
 infoCardIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 4
 Weapon
 	WeaponType "Projectile"

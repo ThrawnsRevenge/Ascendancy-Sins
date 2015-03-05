@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_VINDICATOR"
 smallHudIcon "HUDICONSMALL_FRIGATE_VINDICATOR"
 infoCardIcon "INFOCARDICON_FRIGATE_VINDICATOR"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"

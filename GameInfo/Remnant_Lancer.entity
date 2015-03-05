@@ -39,7 +39,7 @@ armorType "Heavy"
 hudIcon "HUDICON_LANCER"
 smallHudIcon "HUDICONSMALL_FRIGATE_LANCER"
 infoCardIcon "HUDICONSMALL_FRIGATE_LANCER"
-minZoomDistanceMult 7.500000
+minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"

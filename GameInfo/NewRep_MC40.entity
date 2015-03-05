@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_MC40"
 smallHudIcon "HUDICONSMALL_FRIGATE_MC40"
 infoCardIcon "HUDICONSMALL_FRIGATE_MC40"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"

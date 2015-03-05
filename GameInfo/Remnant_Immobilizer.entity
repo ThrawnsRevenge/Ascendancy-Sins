@@ -42,7 +42,7 @@ armorType "Medium"
 hudIcon "HUDICON_IMMOBILIZER"
 smallHudIcon "HUDICONSMALL_FRIGATE_IMMOBILIZER"
 infoCardIcon "INFOCARDICON_FRIGATE_IMMOBILIZER"
-minZoomDistanceMult 4.000000
+minZoomDistanceMult 2.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
