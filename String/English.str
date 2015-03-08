@@ -8,7 +8,7 @@ StringInfo
 	Value "Allows giving financial aid to and demanding aid from other factions ."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_NAME"
-	Value "Bought Loyalty"
+	Value "Purchased Loyalty"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_DESCRIPTION"
 	Value "Allows the giving and demanding of financial aid."
@@ -1428,6 +1428,12 @@ StringInfo
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FIELDTRAINING_DESCRIPTION"
 	Value "Imperial capital ships gain more experience."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_FIELDTRAINING_NAME"
+	Value "Field Training"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_FIELDTRAINING_DESCRIPTION"
+	Value "Capital ships can passively gain higher levels."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CITYPLANNING_NAME"
 	Value "Urban Zoning"
