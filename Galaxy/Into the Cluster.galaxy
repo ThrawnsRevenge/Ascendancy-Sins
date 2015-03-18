@@ -46,7 +46,7 @@ star
 		pos [ 916 , 523 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -74,7 +74,7 @@ star
 		pos [ 886 , 555 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -102,7 +102,7 @@ star
 		pos [ 897 , 569 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -130,7 +130,7 @@ star
 		pos [ 876 , 564 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -158,7 +158,7 @@ star
 		pos [ 852 , 535 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -186,7 +186,7 @@ star
 		pos [ 884 , 545 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -214,7 +214,7 @@ star
 		pos [ 870 , 559 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -242,7 +242,7 @@ star
 		pos [ 862 , 541 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -270,7 +270,7 @@ star
 		pos [ 882 , 534 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -298,7 +298,7 @@ star
 		pos [ 878 , 524 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -353,7 +353,7 @@ star
 		pos [ 880 , 562 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -381,7 +381,7 @@ star
 		pos [ 883 , 567 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -409,7 +409,7 @@ star
 		pos [ 890 , 556 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -437,7 +437,7 @@ star
 		pos [ 869 , 551 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -465,7 +465,7 @@ star
 		pos [ 897 , 556 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -493,7 +493,7 @@ star
 		pos [ 867 , 546 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -521,7 +521,7 @@ star
 		pos [ 848 , 541 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -549,7 +549,7 @@ star
 		pos [ 892 , 534 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -577,7 +577,7 @@ star
 		pos [ 847 , 555 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -605,7 +605,7 @@ star
 		pos [ 855 , 562 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -633,7 +633,7 @@ star
 		pos [ 865 , 543 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -661,7 +661,7 @@ star
 		pos [ 888 , 530 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -689,7 +689,7 @@ star
 		pos [ 883 , 526 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -717,7 +717,7 @@ star
 		pos [ 883 , 559 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -745,7 +745,7 @@ star
 		pos [ 911 , 519 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -800,7 +800,7 @@ star
 		pos [ 891 , 513 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -828,7 +828,7 @@ star
 		pos [ 932 , 558 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -856,7 +856,7 @@ star
 		pos [ 915 , 579 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -884,7 +884,7 @@ star
 		pos [ 925 , 569 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -912,7 +912,7 @@ star
 		pos [ 875 , 586 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -967,7 +967,7 @@ star
 		pos [ 859 , 580 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -995,7 +995,7 @@ star
 		pos [ 847 , 573 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1023,7 +1023,7 @@ star
 		pos [ 840 , 565 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1051,7 +1051,7 @@ star
 		pos [ 821 , 579 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1106,7 +1106,7 @@ star
 		pos [ 822 , 571 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1134,7 +1134,7 @@ star
 		pos [ 822 , 554 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1162,7 +1162,7 @@ star
 		pos [ 821 , 562 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1190,7 +1190,7 @@ star
 		pos [ 839 , 546 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1218,7 +1218,7 @@ star
 		pos [ 822 , 531 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1246,7 +1246,7 @@ star
 		pos [ 832 , 535 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1274,7 +1274,7 @@ star
 		pos [ 831 , 550 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1302,7 +1302,7 @@ star
 		pos [ 816 , 541 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1330,7 +1330,7 @@ star
 		pos [ 814 , 529 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1358,7 +1358,7 @@ star
 		pos [ 830 , 519 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1386,7 +1386,7 @@ star
 		pos [ 840 , 537 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1441,7 +1441,7 @@ star
 		pos [ 835 , 541 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1469,7 +1469,7 @@ star
 		pos [ 861 , 509 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1497,7 +1497,7 @@ star
 		pos [ 868 , 519 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1525,7 +1525,7 @@ star
 		pos [ 865 , 514 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1553,7 +1553,7 @@ star
 		pos [ 844 , 516 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1581,7 +1581,7 @@ star
 		pos [ 907 , 548 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner "HapesConsortium"
+		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1

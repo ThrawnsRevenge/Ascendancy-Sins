@@ -64,11 +64,11 @@ StringInfo
 	ID "IDSResearchScreenBlockTitleFaction1NewRep"
 	Value "Rebel"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet0NewRep"
-	Value ""
+	ID "IDSResearchScreenBlockTitleFleet0"
+	Value "Capital Command"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet1NewRep"
-	Value ""
+	ID "IDSResearchScreenBlockTitleFleet1"
+	Value "Fleet Command"
 StringInfo
 	ID "IDSResearchScreenBlockTitleCombat0Remnant"
 	Value "Drydock"
@@ -390,6 +390,12 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
 	Value "The largest and most powerful ship in the Empire of the Hand's navy."
+StringInfo
+	ID "IDS_CAPITALSHIP_ALTOR_NAME"
+	Value "Altor Fleet Tender"
+StringInfo
+	ID "IDS_CAPITALSHIP_ALTOR_DESCRIPTION"
+	Value "This ship repairs and resupplies allied ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_ASCENDANCY_NAME"
 	Value "Ascendancy Star Destroyer"
@@ -1785,6 +1791,12 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_DESCRIPTION"
 	Value "Grants access to the Scimitar Assault Bomber."	
+StringInfo
+	ID "IDS_SCIMITAR_NAME"
+	Value "Scimitar Bomber"	
+StringInfo
+	ID "IDS_SCIMITAR_DESC"
+	Value "A heavy fighter which excels at assaulting capital ships."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_NAME"
 	Value "Strike Cruiser"	

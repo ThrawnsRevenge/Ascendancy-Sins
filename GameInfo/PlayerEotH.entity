@@ -3,7 +3,7 @@ entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_EOTH"
 canColonize TRUE
 isPsi FALSE
-isSelectable TRUE
+isSelectable FALSE
 selectablePriorty 3
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_EOTH"
 randomStarBaseNamePrefix "IDS_STARBASENAME_EOTH"

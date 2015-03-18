@@ -19,8 +19,8 @@ mainViewIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 picture "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_FIGHTERSCIMITAR_NAME"
-descriptionStringID "IDS_FIGHTERSCIMITAR_DESC"
+nameStringID "IDS_SCIMITAR_NAME"
+descriptionStringID "IDS_SCIMITAR_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

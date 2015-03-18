@@ -1759,7 +1759,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 13
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1772,13 +1772,14 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 13
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
@@ -1789,6 +1790,7 @@ planetItemsTemplate
 				item "NewRep:Module:Tibanna"
 				item "NewRep:Frigate:Nebulon"
 				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:Gallofree"
 				item "NewRep:Frigate:AssaultFrigate"
 				item "NewRep:Frigate:AssaultFrigate"
 		group
@@ -1797,7 +1799,7 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
@@ -1808,6 +1810,7 @@ planetItemsTemplate
 				item "EotH:Module:Tibanna"
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Consen"
 				item "EotH:Frigate:Budirech"
 		group
 			condition
@@ -1834,7 +1837,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 13
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1847,13 +1850,14 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Module:HeroBase"
 				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 13
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
@@ -1864,6 +1868,7 @@ planetItemsTemplate
 				item "NewRep:Module:Tibanna"
 				item "NewRep:Frigate:Nebulon"
 				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:Gallofree"
 				item "NewRep:Frigate:AssaultFrigate"
 				item "NewRep:Frigate:AssaultFrigate"
 		group
@@ -1891,12 +1896,13 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
+				item "EotH:Frigate:Consen"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Tibanna"

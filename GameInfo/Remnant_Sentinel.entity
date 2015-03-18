@@ -16,9 +16,9 @@ NameStringID "IDS_FRIGATE_SENTINEL_NAME"
 DescriptionStringID "IDS_FRIGATE_SENTINEL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 200.000000
-	metal 35.000000
-	crystal 50.000000
+	credits 100.000000
+	metal 10.000000
+	crystal 25.000000
 slotCount 1.000000
 BuildTime 22.000000
 hasLevels FALSE
