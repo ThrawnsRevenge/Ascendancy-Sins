@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechBlockColonize0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechBlockColonize0"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechBlockColonize0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechBlockColonize0"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 2

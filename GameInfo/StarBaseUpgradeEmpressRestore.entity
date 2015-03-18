@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	hudIcon "HUDABILITYICON_RESTOCK"
+	smallHudIcon "HUDABILITYICON_RESTOCK"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	hudIcon "HUDABILITYICON_RESTOCK"
+	smallHudIcon "HUDABILITYICON_RESTOCK"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -50,8 +50,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
+	hudIcon "HUDABILITYICON_RESTOCK"
+	smallHudIcon "HUDABILITYICON_RESTOCK"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -70,8 +70,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	hudIcon "HUDABILITYICON_RESTOCK"
+	smallHudIcon "HUDABILITYICON_RESTOCK"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -90,8 +90,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
+	hudIcon "HUDABILITYICON_RESTOCK"
+	smallHudIcon "HUDABILITYICON_RESTOCK"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

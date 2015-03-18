@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance0"
-	smallHudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance0"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance0"
-	smallHudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance0"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -50,8 +50,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance1"
-	smallHudIcon "HUDIconStarBaseUpgradePsiMaxAllegiance1"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

@@ -90,7 +90,7 @@ brush
 		pixelBox [ 883 , 42 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 883 , 2 , 52 , 37 ]
+		pixelBox [ 883 , 42 , 52 , 37 ]
 brush
 	name "HUDICON_EWING"
 	content "States"

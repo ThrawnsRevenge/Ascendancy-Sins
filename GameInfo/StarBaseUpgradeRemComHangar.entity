@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechHangar0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechHangar0"
+	hudIcon "HUDICON_TIEFIGHTER"
+	smallHudIcon "HUDICON_TIEFIGHTER"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -50,8 +50,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechHangar1"
-	smallHudIcon "HUDIconStarBaseUpgradeTechHangar1"
+	hudIcon "HUDICON_TIEFIGHTER"
+	smallHudIcon "HUDICON_TIEFIGHTER"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -70,8 +70,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechHangar2"
-	smallHudIcon "HUDIconStarBaseUpgradeTechHangar2"
+	hudIcon "HUDICON_TIEFIGHTER"
+	smallHudIcon "HUDICON_TIEFIGHTER"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

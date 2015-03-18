@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiCulture0"
-	smallHudIcon "HUDIconStarBaseUpgradePsiCulture0"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 3
 	upgradeProperty
@@ -56,8 +56,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiCulture1"
-	smallHudIcon "HUDIconStarBaseUpgradePsiCulture1"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 3
 	upgradeProperty
@@ -82,8 +82,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePsiCulture2"
-	smallHudIcon "HUDIconStarBaseUpgradePsiCulture2"
+	hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+	smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
 	infoCardIcon ""
 	upgradePropertyCount 3
 	upgradeProperty

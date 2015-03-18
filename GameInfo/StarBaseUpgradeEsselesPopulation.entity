@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
+	hudIcon "HUDICON_RESEARCH_POPCAPINCREASE0"
+	smallHudIcon "HUDICON_RESEARCH_POPCAPINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
+	hudIcon "HUDICON_RESEARCH_POPCAPINCREASE0"
+	smallHudIcon "HUDICON_RESEARCH_POPCAPINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -50,8 +50,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation1"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseCityPopulation1"
+	hudIcon "HUDICON_RESEARCH_POPCAPINCREASE0"
+	smallHudIcon "HUDICON_RESEARCH_POPCAPINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

@@ -12,9 +12,9 @@ numRandomDebrisLarge 3
 numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_REMNANTCOMMAND"
-smallHudIcon "HUDICON_REMNANTCOMMAND"
-infoCardIcon "HUDICON_REMNANTCOMMAND"
+hudIcon "HUDICON_NAVALCOMMAND"
+smallHudIcon "HUDICON_NAVALCOMMAND"
+infoCardIcon "HUDICON_NAVALCOMMAND"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -63,8 +63,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_REMNANTCOMMAND"
-picture "HUDICON_REMNANTCOMMAND"
+mainViewIcon "HUDICON_NAVALCOMMAND"
+picture "HUDICON_NAVALCOMMAND"
 minShadow 0.000000
 maxShadow 0.400000
 formationRank 3

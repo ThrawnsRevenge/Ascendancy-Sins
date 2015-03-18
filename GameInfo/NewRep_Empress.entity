@@ -30,7 +30,7 @@ Weapon
 	DamagePerBank:BACK 250.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 5000.000000
+	Range 8000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -69,7 +69,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 5000.000000
+	Range 8000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -108,7 +108,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 2400.000000
+	Range 5000.000000
 	PreBuffCooldownTime 13.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -138,7 +138,7 @@ Weapon
 		missileStartTurningDistance 10.000000
 		missileSlowTurnRate 3.141593
 		missileMaxSlowTurnTime 1.000000
-m_weaponIndexForRange 2
+m_weaponIndexForRange 1
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 1
@@ -147,11 +147,11 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 ShieldMeshName "NR_Empress"
 renderShield TRUE
-squadTypeEntityDef:0 "NewRep_XWing_Squad"
+squadTypeEntityDef:0 "NewRep_Xwing_Squad"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "NewRep_BWing_Squad"
+squadTypeEntityDef:1 "NewRep_Awing_Squad"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 "NewRep_AWing_Squad"
+squadTypeEntityDef:2 "NewRep_Bwing_Squad"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000

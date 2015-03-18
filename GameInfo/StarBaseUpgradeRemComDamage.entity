@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseWeapons0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseWeapons0"
+	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -30,8 +30,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseWeapons0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseWeapons0"
+	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -50,8 +50,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseWeapons1"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseWeapons1"
+	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -70,8 +70,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseWeapons1"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseWeapons1"
+	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

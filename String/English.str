@@ -1798,6 +1798,18 @@ StringInfo
 	ID "IDS_SCIMITAR_DESC"
 	Value "A heavy fighter which excels at assaulting capital ships."	
 StringInfo
+	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_NAME"
+	Value "Galaxy Gun Constructor"	
+StringInfo
+	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_DESCRIPTION"
+	Value "Calls in a constructor which can build the galaxy gun. Can only be used once."
+StringInfo
+	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
+	Value "Galaxy Gun"	
+StringInfo
+	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_DESCRIPTION"
+	Value "Begins construction on the Galaxy Gun."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_NAME"
 	Value "Strike Cruiser"	
 StringInfo
