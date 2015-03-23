@@ -16,7 +16,7 @@ hudIcon "HUDICON_GOLANI"
 smallHudIcon "HUDICON_GOLANI"
 infoCardIcon "HUDICON_GOLANI"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 2.000000
+planetUpgradeSlotCount 1.000000
 basePrice
 	credits 300.000000
 	metal 40.000000

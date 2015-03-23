@@ -16,7 +16,7 @@ hudIcon "HUDICON_GOLANIII"
 smallHudIcon "HUDICON_GOLANIII"
 infoCardIcon "HUDICON_GOLANIII"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 6.000000
+planetUpgradeSlotCount 5.000000
 basePrice
 	credits 700.000000
 	metal 60.000000

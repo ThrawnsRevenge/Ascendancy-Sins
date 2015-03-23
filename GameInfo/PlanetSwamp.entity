@@ -154,7 +154,7 @@ planetUpgradeDef
 				metal 175.000000
 				crystal 125.000000
 			upgradeTime 60.000000
-			maxModuleSlotCount:Civilian 16.000000
+			maxModuleSlotCount:Civilian 20.000000
 			maxModuleConstructorCount 1
 	path:TacticalModules
 		stageCount 4
