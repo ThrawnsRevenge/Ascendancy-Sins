@@ -57,7 +57,7 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "TurbolaserRed_Single"
-m_weaponIndexForRange 2
+m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 1
