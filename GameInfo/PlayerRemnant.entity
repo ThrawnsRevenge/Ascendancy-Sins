@@ -33,29 +33,26 @@ entities
 			entityDefName "Remnant_Sovereign"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Remnant_ISDI"
 			entityDefName "Remnant_ISDII"
 			entityDefName "Remnant_Altor"
-			entityDefName "Remnant_Praetor"
 			entityDefName "Remnant_WorldDevastator"	
 			entityDefName "Remnant_Command_ISDI"
 			entityDefName "Remnant_Command_ISDII"
 			entityDefName "Remnant_Command_Praetor"
 	frigateInfo
 		Page:0
-			count 7
+			count 6
 			entityDefName "Remnant_Mu"
 			entityDefName "Remnant_Strikecruiser"
-			entityDefName "Remnant_Acclamator"
 			entityDefName "Remnant_Carrack"
 			entityDefName "Remnant_Sentinel"
 			entityDefName "Remnant_Lancer"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 6
+			count 5
 			entityDefName "Remnant_Immobilizer"
-			entityDefName "Remnant_Vindicator"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_Dreadnaught"
@@ -66,7 +63,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 100
+		count 97
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -128,9 +125,7 @@ entities
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "RemnantResearch_AbilityUnlock_DentingStrike"
 		entityDefName "RemnantResearch_ShipUnlock_Dreadnaught"
-		entityDefName "RemnantResearch_ShipUnlock_Acclamator"
 		entityDefName "RemnantResearch_ShipUnlock_StrikeCruiser"
-		entityDefName "RemnantResearch_ShipUnlock_Vindicator"
 		entityDefName "RemnantResearch_ShipUnlock_Sovereign"
 		entityDefName "RemnantResearch_ShipUnlock_Immobilizer"
 		entityDefName "RemnantResearch_ShipUnlock_TIEInterceptor"
@@ -138,7 +133,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "RemnantResearch_ShipUnlock_VSDII"
 		entityDefName "RemnantResearch_ShipUnlock_ISDII"
-		entityDefName "RemnantResearch_ShipUnlock_Praetor"
 		entityDefName "RemnantResearch_ShipUnlock_Scimitar"
 		entityDefName "RemnantResearch_ShipUnlock_Executor"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"

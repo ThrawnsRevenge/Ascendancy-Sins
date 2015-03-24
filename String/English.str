@@ -151,6 +151,9 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_REMNANT"
 	Value "Imperial Remnant"
 StringInfo
+	ID "IDS_PLAYERRACENAME_ALIGNMENT"
+	Value "Pentastar Alignment"
+StringInfo
 	ID "IDS_PLAYERRACENAME_NEWREP"
 	Value "New Republic"
 StringInfo
@@ -175,8 +178,8 @@ StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTREMNANT"
 	Value "Select Imperial Remnant"
 StringInfo
-	ID "IDS_RACESELECTDIALOG_SELECTPSILOYALIST"
-	Value "Select Advent Loyalist"
+	ID "IDS_RACESELECTDIALOG_SELECTALIGNMENT"
+	Value "Select Pentastar Alignment"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTPHASEREBEL"
 	Value "Select Vasari Rebel"
@@ -258,6 +261,18 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_VIGILANCE_DESCRIPTION"
 	Value "An incredibly fast missile boat able to pursue and destroy enemy starfighters with ease."
+StringInfo
+	ID "IDS_FRIGATE_VENATOR_NAME"
+	Value "Venator"
+StringInfo
+	ID "IDS_FRIGATE_VENATOR_DESCRIPTION"
+	Value "A relic of the Clone Wars, the Venator still saw use as a carrier in Rim worlds of the Empire and its splinter factions."
+StringInfo
+	ID "IDS_CAPITAL_SECUTOR_NAME"
+	Value "Venator"
+StringInfo
+	ID "IDS_CAPITAL_SECUTOR_DESCRIPTION"
+	Value "An early Imperial design which can carry vast amounts of starfighters."
 StringInfo
 	ID "IDS_FRIGATE_ACCLAMATOR_NAME"
 	Value "Acclamator I"

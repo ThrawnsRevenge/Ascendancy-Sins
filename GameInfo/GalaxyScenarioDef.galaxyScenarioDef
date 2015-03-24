@@ -1567,8 +1567,8 @@ planetItemType
 	designName "Remnant:Frigate:Immobilizer"
 	entityDefName "Remnant_Immobilizer"
 planetItemType
-	designName "Remnant:Frigate:Vindicator"
-	entityDefName "Remnant_Vindicator"
+	designName "Alignment:Frigate:Vindicator"
+	entityDefName "Alignment_Vindicator"
 planetItemType
 	designName "Remnant:Frigate:VSDI"
 	entityDefName "Remnant_VSDI"
