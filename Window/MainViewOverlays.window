@@ -13,7 +13,7 @@ iconSizes
 	solarSystem [50, 50]
 	solarSystemPlanet [10, 10]
 	fleet [40, 40]
-planetPlayerThemeOffsetFromCenter -43
+planetPlayerThemeOffsetFromCenter -60
 planetNameOffsetFromTop -35
 planetNameFontId "PlanetNameMainView"
 meshBarsMinWidth 10
