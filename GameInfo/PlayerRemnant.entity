@@ -43,18 +43,20 @@ entities
 			entityDefName "Remnant_Command_Praetor"
 	frigateInfo
 		Page:0
-			count 6
+			count 7
 			entityDefName "Remnant_Mu"
 			entityDefName "Remnant_Strikecruiser"
 			entityDefName "Remnant_Carrack"
 			entityDefName "Remnant_Sentinel"
 			entityDefName "Remnant_Lancer"
+			entityDefName "Remnant_EscortCarrier"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 5
+			count 6
 			entityDefName "Remnant_Immobilizer"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
+			entityDefName "Remnant_MTC"
 			entityDefName "Remnant_Dreadnaught"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
@@ -63,7 +65,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 97
+		count 99
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -133,6 +135,8 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "RemnantResearch_ShipUnlock_VSDII"
 		entityDefName "RemnantResearch_ShipUnlock_ISDII"
+		entityDefName "RemnantResearch_ShipUnlock_MTC"
+		entityDefName "RemnantResearch_ShipUnlock_EscortCarrier"
 		entityDefName "RemnantResearch_ShipUnlock_Scimitar"
 		entityDefName "RemnantResearch_ShipUnlock_Executor"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
