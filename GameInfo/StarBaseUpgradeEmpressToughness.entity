@@ -130,7 +130,7 @@ stage
 		value 6.750000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 1750.000000
+		value 15500.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 13.500000

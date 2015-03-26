@@ -73,9 +73,9 @@ maxShadow 0.600000
 formationRank 3
 baseBuildTime 65.000000
 buildEffectName ""
-squadTypeEntityDef:0 "Remnant_TIEFighter_Squad"
+squadTypeEntityDef:0 "NewRep_Xwing_Squad"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Remnant_TIEBomber_Squad"
+squadTypeEntityDef:1 "NewRep_Bwing_Squad"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000

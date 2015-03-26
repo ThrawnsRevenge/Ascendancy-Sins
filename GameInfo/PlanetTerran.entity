@@ -281,7 +281,7 @@ planetUpgradeDef
 				metal 175.000000
 				crystal 125.000000
 			upgradeTime 60.000000
-			maxHealth 900.000000
+			maxHealth 9000.000000
 		stage
 			price
 				credits 650.000000

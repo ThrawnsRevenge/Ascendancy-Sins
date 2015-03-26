@@ -1016,7 +1016,7 @@ StringInfo
 	Value "A naval officer whose presence buffs the strength of other units around it. Commands an Imperial-I Star Destroyer."
 StringInfo
 	ID "IDS_COMMANDERSHIP_ISDII_NAME"
-	Value "Fleet Officer: ISDI"
+	Value "Fleet Officer: ISDII"
 StringInfo
 	ID "IDS_COMMANDERSHIP_ISDII_DESCRIPTION"
 	Value "A naval officer whose presence buffs the strength of other units around it. Commands an Imperial-II Star Destroyer."

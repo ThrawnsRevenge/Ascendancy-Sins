@@ -65,7 +65,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 99
+		count 98
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -100,7 +100,6 @@ entities
 		entityDefName "RemnantResearch_Global_Xenophobia"
 		entityDefName "RemnantResearch_Global_PrisonCamps"
 		entityDefName "RemnantResearch_Global_Fortifications"
-		entityDefName "RemnantResearch_Global_Academy"
 		entityDefName "RemnantResearch_Global_Infrastructure"
 		entityDefName "RemnantResearch_Global_SpreadFire"
 		entityDefName "RemnantResearch_Global_FieldTraining"
