@@ -1284,5 +1284,5 @@ brush
 brush
 	name "MenuButtonOverlay"
 	content "Simple"
-	fileName "AscendancyButtonOverlay"
+	fileName "Null"
 	pixelBox [ -32 , 8, 169 , 47 ]

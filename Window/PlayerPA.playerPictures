@@ -1,11 +1,11 @@
 TXT
-pictureCount 5
+pictureCount 1
 LargeScreenPicture
 	textureName "Player_Portrait_Ascendancy_Large"
 	startTopLeft [ 1 , 700 ]
 	width 203
 	height 232
-	rowItemCount 2
+	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0
 SmallScreenPicture

@@ -803,8 +803,8 @@ field "IDS_RESEARCHFIELD_EMPIRE"
 field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
 field "IDS_RESEARCHFIELD_FLEET"
-playerThemeGroupName "PlayerRemnant"
-playerPictureGroupName "PlayerRemnant"
+playerThemeGroupName "PlayerPA"
+playerPictureGroupName "PlayerPA"
 raceRelationsModCount 3
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_ALIGNMENT"

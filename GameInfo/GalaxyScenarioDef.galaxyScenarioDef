@@ -1728,7 +1728,7 @@ planetItemType
 planetItemType
 	designName "Hapans:Frigate:NovaCruiser"
 	entityDefName "Hapans_NovaCruiser"
-playerTypeCount 5
+playerTypeCount 6
 playerType
 	designName "Remnant"
 	entityDefName "PlayerRemnant"
@@ -1744,6 +1744,9 @@ playerType
 playerType
 	designName "Hapans"
 	entityDefName "PlayerHapans"
+playerType
+	designName "Alignment"
+	entityDefName "PlayerAlignment"
 planetItemsTemplateCount 72
 planetItemsTemplate
 	templateName "Empty"
