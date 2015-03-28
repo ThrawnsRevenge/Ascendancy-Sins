@@ -1,19 +1,19 @@
 TXT
-pictureCount 3
+pictureCount 5
 LargeScreenPicture
 	textureName "Player_Portrait_Ascendancy_Large.tga"
 	startTopLeft [ 1 , 1 ]
 	width 203
 	height 232
-	rowItemCount 3
-	horizontalStride 204
-	verticalStride 233
+	rowItemCount 2
+	horizontalStride 0
+	verticalStride 0
 SmallScreenPicture
 	textureName "Player_Portrait_Ascendancy_Small.tga"
 	startTopLeft [ 1 , 1 ]
 	width 59
 	height 70
-	rowItemCount 3
+	rowItemCount 1
 	horizontalStride 60
 	verticalStride 71
 BottomBarPicture
@@ -21,7 +21,7 @@ BottomBarPicture
 	startTopLeft [ 1 , 1 ]
 	width 181
 	height 98
-	rowItemCount 3
+	rowItemCount 1
 	horizontalStride 182
 	verticalStride 99
 ButtonIcon
@@ -29,7 +29,7 @@ ButtonIcon
 	startTopLeft [ 1 , 1 ]
 	width 25
 	height 29
-	rowItemCount 3
+	rowItemCount 1
 	horizontalStride 26
 	verticalStride 32
 MediumScreenPicture
@@ -37,7 +37,7 @@ MediumScreenPicture
 	startTopLeft [ 1 , 1 ]
 	width 94
 	height 108
-	rowItemCount 3
+	rowItemCount 1
 	horizontalStride 95
 	verticalStride 109
 	

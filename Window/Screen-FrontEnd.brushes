@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 219
+brushCount 220
 brush
 	name "RaceSelectRandom"
 	content "States"
@@ -3464,6 +3464,11 @@ brush
 	name "FactionSelectRemnant"
 	content "Simple"
 	fileName "FactionSelectScreen_Remnant"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "FactionSelectPA"
+	content "Simple"
+	fileName "FactionSelectScreen_PA"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
 	name "BackButtonArrow"

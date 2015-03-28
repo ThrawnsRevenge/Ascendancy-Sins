@@ -1266,8 +1266,8 @@ brush
 brush
 	name "EmpireWindowIconEntityOverlayHomePlanet"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 61 , 451 , 35 , 34 ]
+	fileName "UI_MIsc"
+	pixelBox [ 100 , 159 , 52 , 37 ]
 brush
 	name "EmpireWindowIconEntityOverlayArtifact"
 	content "Simple"

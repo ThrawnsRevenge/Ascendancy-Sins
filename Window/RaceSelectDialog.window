@@ -293,7 +293,7 @@ numFactionWindows 4
 			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 	factionSelectWindowDef
-		backdropBrush "FactionSelectEotH"
+		backdropBrush "FactionSelectPA"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [-5000,-5000]
