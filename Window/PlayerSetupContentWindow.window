@@ -39,7 +39,7 @@ bigNameAndIconWindow
 	iconArea [61, 8, 106, 106]
 	nameArea [180, 8, 300, 106]
 	nameFont "TabbedScreenTitle"
-	iconBackdropDefCount 3
+	iconBackdropDefCount 4
 	iconBackdropDef
 		backdropBrush "PlayerSetupThemeBackdropTech"
 		themeIndexStart 28

@@ -9,7 +9,7 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
+	hudIcon "HUDICON_PLANET_ARBOREAL"
 	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
 	mainViewIcon "MAINVIEWICON_PLANET_ARBOREAL"
@@ -24,7 +24,7 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
+	hudIcon "HUDICON_PLANET_ARBOREAL"
 	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
 	mainViewIcon "MAINVIEWICON_PLANET_ARBOREAL"
@@ -39,7 +39,7 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_ARBOREAL"
 	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
 	mainViewIcon "MAINVIEWICON_PLANET_ARBOREAL"
@@ -54,7 +54,7 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_ARBOREAL"
 	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
 	mainViewIcon "MAINVIEWICON_PLANET_ARBOREAL"
@@ -69,7 +69,7 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_ARBOREAL"
 	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
 	mainViewIcon "MAINVIEWICON_PLANET_ARBOREAL"

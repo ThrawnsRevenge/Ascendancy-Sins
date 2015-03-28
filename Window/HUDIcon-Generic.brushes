@@ -173,8 +173,8 @@ brush
 brush
 	name "HUDIconEntityOverlayHomePlanet"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 1 , 451 , 55 , 55 ]
+	fileName "UI_MIsc"
+	pixelBox [ 100 , 159 , 52 , 37 ]
 brush
 	name "HUDIconEntityOverlayArtifact"
 	content "Simple"
