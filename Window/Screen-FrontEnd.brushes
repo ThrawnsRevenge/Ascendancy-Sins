@@ -1909,19 +1909,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Ascendancy_Icons_Disabled"
-		pixelBox [ 130 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Pressed
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 130 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	CursorOver
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 130 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Focused
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 130 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Normal
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 130 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 brush
 	name "GameOptionsDiplomaticVictoryEnabledTrue"
 	content "States"
@@ -1963,19 +1963,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Ascendancy_Icons_Disabled"
-		pixelBox [ 87 , 173 , 42 , 42 ]
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 87 , 173 , 42 , 42 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 87 , 173 , 42 , 42 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 87 , 173 , 42 , 42 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 259 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 87 , 173 , 42 , 42 ]
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 216 , 259 , 42 , 42 ]
 brush
 	name "GameOptionsBuildSpeedSlow"
 	content "States"
