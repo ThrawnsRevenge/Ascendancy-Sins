@@ -46,9 +46,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_CRUISER_TURBOLASER_MUZZLE"
+			sound "WEAPON_CRUISER_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CRUISER_TURBOLASER_MUZZLE_ALT2"
 		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1

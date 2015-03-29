@@ -54,8 +54,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_PROTON_MUZZLE"
+			soundCount 3
+			sound "WEAPON_FIGHTER_TIEFIGHTER_LASER_MUZZLE"
+			sound "WEAPON_FIGHTER_TIEFIGHTER_LASER_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_TIEFIGHTER_LASER_MUZZLE_ALT2"
 		hitEffectName "FighterImpact"
 		hitHullEffectSounds
 			soundCount 1

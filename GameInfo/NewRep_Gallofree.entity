@@ -71,9 +71,9 @@ Weapon
 		muzzleSoundMinRespawnTime 0.400000
 		muzzleSounds
 			soundCount 3
-			sound "AA_WEAPON_LIGHT_BLASTER"
-			sound "AA_WEAPON_LIGHT_BLASTER_ALT1"
-			sound "AA_WEAPON_LIGHT_BLASTER_ALT2"
+			sound "WEAPON_CORVETT_LASER_MUZZLE"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT1"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT2"
 		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
 		hitHullEffectSounds
 			soundCount 1

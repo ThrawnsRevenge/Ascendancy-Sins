@@ -72,8 +72,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_LASER_MUZZLE"
+			soundCount 3
+			sound "WEAPON_CORVETT_LASER_MUZZLE"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT1"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT2"
 		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1

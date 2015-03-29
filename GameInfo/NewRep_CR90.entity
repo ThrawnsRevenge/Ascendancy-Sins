@@ -69,9 +69,10 @@ Weapon
 		muzzleEffectName "MuzzleRed_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_CORVETT_LASER_MUZZLE"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT1"
+			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT2"
 		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -108,9 +109,10 @@ Weapon
 		muzzleEffectName "MuzzleRed_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE"
+			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE_ALT2"
 		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1

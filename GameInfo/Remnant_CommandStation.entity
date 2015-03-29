@@ -46,9 +46,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
 		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -86,8 +87,10 @@ Weapon
 		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_IONCANNON_MUZZLE"
+			soundCount 3
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
 		hitEffectName "IonImpact_Large"
 		hitHullEffectSounds
 			soundCount 1
@@ -125,9 +128,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
 		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1

@@ -54,9 +54,10 @@ Weapon
 		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_FRIGATE_LASER_MUZZLE"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT1"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT2"
 		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
 		hitHullEffectSounds
 			soundCount 1
@@ -93,8 +94,10 @@ Weapon
 		muzzleEffectName "MuzzleGreen_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_PROTON_MUZZLE"
+			soundCount 3
+			sound "WEAPON_FIGHTER_YWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_YWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_YWING_LASERBURST_MUZZLE_ALT2"
 		hitEffectName "FighterImpact"
 		hitHullEffectSounds
 			soundCount 1
