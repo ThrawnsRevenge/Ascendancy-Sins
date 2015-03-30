@@ -24,11 +24,12 @@ entities
 			entityDefName "Remnant_GolanI"
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
-			entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
+			entityDefName "Alignment_TitanFactory"
 			entityDefName "Remnant_RepairPlatform"
 	titanInfo
 		Page:0
-			count 0
+			count 1
+			entityDefName "Alignment_Bellator"
 	capitalShipInfo
 		Page:0
 			count 4
@@ -57,7 +58,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 50
+		count 51
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -84,6 +85,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "AlignmentResearch_ShipUnlock_ISDII"
 		entityDefName "AlignmentResearch_ShipUnlock_Praetor"
+		entityDefName "AlignmentResearch_ShipUnlock_Bellator"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
