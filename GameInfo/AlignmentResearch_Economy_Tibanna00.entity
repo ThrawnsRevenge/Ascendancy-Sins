@@ -10,10 +10,7 @@ researchWindowLocation
 	pos [ 1 , 3 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EoTHResearch_Economy_Durasteel01"
-		Level 2
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_TIBANNA00"
-smallHudIcon "HUDICON_RESEARCH_TIBANNA00"
+hudIcon "HUDICON_RESEARCH_DURASTEEL01"
+smallHudIcon "HUDICON_RESEARCH_DURASTEEL01"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_TIBANNA_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_TIBANNA_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_DURASTEEL_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 3 ]
+	pos [ 3 , 3 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EoTHResearch_Economy_Durasteel01"
+		Subject "AlignmentResearch_Economy_Durasteel01"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -27,14 +27,14 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 3
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "ExtractionRateCrystalAdjustment"
+	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.033333
 artifactPicture ""
