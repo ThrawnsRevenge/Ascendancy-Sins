@@ -58,7 +58,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 51
+		count 60
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -80,7 +80,16 @@ entities
 		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "RemnantResearch_Global_HelpingHand"
 		entityDefName "AlignmentResearch_ShipUnlock_Acclamator"
+		entityDefName "AlignmentResearch_ShipUnlock_Venator"
 		entityDefName "AlignmentResearch_ShipUnlock_Vindicator"
+		entityDefName "AlignmentResearch_ShipUnlock_Enforcer"
+		entityDefName "AlignmentResearch_ShipUnlock_Munificent"
+		entityDefName "AlignmentResearch_ShipUnlock_Secutor"
+		entityDefName "AlignmentResearch_ShipUnlock_Procursator"
+		entityDefName "AlignmentResearch_ShipUnlock_Dominator"
+		entityDefName "AlignmentResearch_ShipUnlock_StarGalleon"
+		entityDefName "AlignmentResearch_ShipUnlock_SkiprayBlastboat"
+		entityDefName "AlignmentResearch_ShipUnlock_V19Torrent"
 		entityDefName "RemnantResearch_ShipUnlock_TIEInterceptor"
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "AlignmentResearch_ShipUnlock_ISDII"

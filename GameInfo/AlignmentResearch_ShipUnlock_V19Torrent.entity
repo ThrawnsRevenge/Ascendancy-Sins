@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ACCLAMATOR"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ACCLAMATOR"
+hudIcon "HUDICON_V19TORRENT"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_V19TORRENT"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
-DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 1 ]
+	pos [ 2 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_SkiprayBlastboat"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

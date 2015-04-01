@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ACCLAMATOR"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ACCLAMATOR"
+hudIcon "HUDICON_STARGALLEON"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_STARGALLEON"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
-DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 1 ]
+	pos [ 2 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

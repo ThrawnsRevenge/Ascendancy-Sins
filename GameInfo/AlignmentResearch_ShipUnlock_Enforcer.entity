@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ACCLAMATOR"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ACCLAMATOR"
+hudIcon "HUDICON_ENFORCER"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ENFORCER"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
-DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 1 ]
+	pos [ 1 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_VINDICATOR"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 1
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

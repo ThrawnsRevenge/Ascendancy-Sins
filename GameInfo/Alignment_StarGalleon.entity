@@ -29,7 +29,10 @@ ShieldPointRestoreRate 0.500000
 BaseArmorPoints 3.000000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_StarGalleon"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 1

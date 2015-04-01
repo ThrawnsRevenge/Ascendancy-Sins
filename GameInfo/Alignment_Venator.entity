@@ -29,7 +29,10 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_VENATOR"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

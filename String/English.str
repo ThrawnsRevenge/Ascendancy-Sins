@@ -1,5 +1,5 @@
 TXT
-NumStrings 8182
+NumStrings 8200
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_NAME"
 	Value "Foreign Aid"
@@ -274,10 +274,10 @@ StringInfo
 	ID "IDS_FRIGATE_ENFORCER_DESCRIPTION"
 	Value "A multi-purpose picket ship designed on the same hull as the Vindicator and Immobilizer-418, the Enforcer became a workhorse of the Pentastar fleet."
 StringInfo
-	ID "IDS_CAPITAL_SECUTOR_NAME"
-	Value "Venator"
+	ID "IDS_CAPITALSHIP_SECUTOR_NAME"
+	Value "Secutor"
 StringInfo
-	ID "IDS_CAPITAL_SECUTOR_DESCRIPTION"
+	ID "IDS_CAPITALSHIP_SECUTOR_DESCRIPTION"
 	Value "An early Imperial design which can carry vast amounts of starfighters."
 StringInfo
 	ID "IDS_FRIGATE_ACCLAMATOR_NAME"
@@ -1805,7 +1805,67 @@ StringInfo
 	Value "Modular Taskforce Cruiser"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_DESCRIPTION"
-	Value "Grants access to the Modular Taskforce Cruiser."	
+	Value "Grants access to the Modular Taskforce Cruiser."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_NAME"
+	Value "Venator"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_DESCRIPTION"
+	Value "Grants access to the Venator."	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_NAME"
+	Value "Enforcer"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_DESCRIPTION"
+	Value "Grants access to the Enforcer."	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
+	Value "Munificent"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_DESCRIPTION"
+	Value "Grants access to the Munificent."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_BELLATOR_NAME"
+	Value "Bellator"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_BELLATOR_DESCRIPTION"
+	Value "Grants access to the Bellator."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_SECUTOR_NAME"
+	Value "Secutor"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_SECUTOR_DESCRIPTION"
+	Value "Grants access to the Secutor."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_PROCURSATOR_NAME"
+	Value "Procursator"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_PROCURSATOR_DESCRIPTION"
+	Value "Grants access to the Procursator."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_DOMINATOR_NAME"
+	Value "Dominator"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_DOMINATOR_DESCRIPTION"
+	Value "Grants access to the Dominator."		
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_NAME"
+	Value "Star Galleon"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_DESCRIPTION"
+	Value "Grants access to the Star Galleon."	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_NAME"
+	Value "Skipray Blastboat"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_DESCRIPTION"
+	Value "Grants access to the Skipray Blastboat."		
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_NAME"
+	Value "V-19 Torrent"	
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_DESCRIPTION"
+	Value "Grants access to the V-19 Torrent."				
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_NAME"
 	Value "Scimitar Assault Bomber"	

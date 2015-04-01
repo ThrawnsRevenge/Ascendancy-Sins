@@ -76,7 +76,10 @@ NameStringID "IDS_CAPITALSHIP_SECUTOR_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_SECUTOR_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_SECUTOR"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_Secutor"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
