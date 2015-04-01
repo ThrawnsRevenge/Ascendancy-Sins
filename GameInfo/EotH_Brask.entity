@@ -26,10 +26,7 @@ DescriptionStringID "IDS_PLANETMODULE_BRASK_DESCRIPTION"
 planetModuleRoleType "HANGARDEFENSE"
 statCountType "ModuleHangarDefense"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Brask"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 4000.000000

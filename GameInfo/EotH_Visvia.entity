@@ -26,10 +26,7 @@ DescriptionStringID "IDS_PLANETMODULE_VISVIA_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
 statCountType "ModulePointDefense"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Visvia"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 10010.000000
