@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ChanceToConvertFrigatesHyperspacingFromPlanet"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.010000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

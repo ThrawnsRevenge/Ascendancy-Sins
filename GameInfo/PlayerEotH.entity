@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 48
+		count 49
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -79,6 +79,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
 		entityDefName "EotHResearch_Global_PlanetSpecialization00"
 		entityDefName "EotHResearch_Global_PlanetSpecialization01"
+		entityDefName "EotHResearch_Flat_Afterburn"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
 		entityDefName "NewRepResearch_Global_HelpingHand"

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2363
+entityNameCount 2365
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -110,6 +110,7 @@ entityName "AIHelperCapitalsEotH.entity"
 entityName "AiHelperCapitalsEotHTwo.entity"
 entityName "EotHResearch_AIHelp_CapitalsOne.entity"
 entityName "EotHResearch_AIHelp_CapitalsTwo.entity"
+entityName "EotHResearch_Flat_Afterburn.entity"
 entityName "EotHResearch_Economy_Durasteel01.entity"
 entityName "EotHResearch_Economy_Durasteel02.entity"
 entityName "EotHResearch_Economy_Durasteel03.entity"
@@ -547,6 +548,7 @@ entityName "AbilityImAnEscapePod.entity"
 entityName "BuffImAnEscapePod.entity"
 entityName "AbilityEmpressRestore.entity"
 entityName "BuffEmpressRestore.entity"
+entityName "BuffAfterburn.entity"
 entityName "AbilitySpawnHeroGalaxyGunConstructor.entity"
 entityName "BuffSpawnHeroGalaxyGunConstructorSelf.entity"
 entityName "BuffSpawnHeroGalaxyGunDisabler.entity"
