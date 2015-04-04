@@ -1,5 +1,5 @@
 TXT
-NumStrings 8200
+NumStrings 8202
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_NAME"
 	Value "Foreign Aid"
@@ -1538,7 +1538,7 @@ StringInfo
 	Value "Expanded Hangars"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_HANGARREFIT_DESCRIPTION"
-	Value "All Imperial hangars are expanded to fit an extra squadron."
+	Value "All Alignment hangars are expanded to fit an extra squadron."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_THRAWNDOCTRINE_NAME"
 	Value "Thrawn Doctrine"
@@ -1785,6 +1785,12 @@ StringInfo
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORCEDPRODUCTION_DESCRIPTION"
 	Value "Increases ship build rates at the expense of hull integrity. Ships previously built retain current health, but cannot regenerate to old levels."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXTRAFIGHTERS_NAME"
+	Value "Extra Fighters"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXTRAFIGHTERS_DESCRIPTION"
+	Value "Each Alignment squad can have up to 2 extra fighters"
 StringInfo
 	ID "IDS_RemnantResearch_ShipUnlocks"
 	Value "Ship Designs"

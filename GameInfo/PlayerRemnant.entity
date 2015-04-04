@@ -65,7 +65,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 98
+		count 95
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -91,7 +91,6 @@ entities
 		entityDefName "RemnantResearch_Global_ClosedBorders"
 		entityDefName "RemnantResearch_Global_MawInstallation"
 		entityDefName "RemnantResearch_Global_ForcedProduction"
-		entityDefName "RemnantResearch_Global_StrengthInNumbers"
 		entityDefName "RemnantResearch_Global_PellaeonDoctrine"
 		entityDefName "RemnantResearch_Global_DaalaDoctrine"
 		entityDefName "RemnantResearch_Global_Integration"
@@ -110,13 +109,11 @@ entities
 		entityDefName "RemnantResearch_Global_RepairPlatform"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
-		entityDefName "RemnantResearch_Global_Rationing"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
 		entityDefName "RemnantResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
-		entityDefName "RemnantResearch_Flat_HangarRefit"
 		entityDefName "RemnantResearch_Flat_FearMongering"
 		entityDefName "RemnantResearch_Flat_ShockAndAwe"
 		entityDefName "RemnantResearch_Flat_HolonetMonitoring"
