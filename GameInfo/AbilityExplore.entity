@@ -11,7 +11,7 @@ levelSourceType "FixedLevel0"
 aiUseTime "OnlyWithNoOrder"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000

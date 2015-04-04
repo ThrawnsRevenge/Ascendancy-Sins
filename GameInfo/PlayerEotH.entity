@@ -13,12 +13,12 @@ entities
 			count 8
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "EotH_FrigateShipyard"
-			entityDefName "Remnant_PolicyLab"
+			entityDefName "EotH_PolicyLab"
 			entityDefName "EotH_TradeStation"
-			entityDefName "PLANETMODULE_PHASEORBITALCULTURECENTER"
+			entityDefName "EotH_HolonetRelay"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Remnant_CapitalShipyard"
-			entityDefName "Remnant_CombatLab"
+			entityDefName "EotH_CombatLab"
 		Page:1
 			count 4
 			entityDefName "EotH_Visvia"
@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 49
+		count 51
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -83,6 +83,7 @@ entities
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
 		entityDefName "NewRepResearch_Global_HelpingHand"
+		entityDefName "EotHResearch_Global_CommStation"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
 		entityDefName "EotHResearch_Economy_Durasteel01"
@@ -92,6 +93,7 @@ entities
 		entityDefName "EotHResearch_Economy_Tibanna01"
 		entityDefName "EotHResearch_Economy_Tibanna02"
 		entityDefName "EotHResearch_Economy_TradeStation"
+		entityDefName "EotHResearch_Economy_TradeIncrease"
 		entityDefName "EotHResearch_MaxCapitalShips0"
 		entityDefName "EotHResearch_MaxCapitalShips1"
 		entityDefName "EotHResearch_MaxCapitalShips2"
