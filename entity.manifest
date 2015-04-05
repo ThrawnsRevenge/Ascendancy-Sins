@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2377
+entityNameCount 2382
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -158,6 +158,11 @@ entityName "EotHResearch_ShipUnlock_Syndic.entity"
 entityName "EotHResearch_ShipUnlock_Phalanx.entity"
 entityName "EotHResearch_ShipUnlock_Visvia.entity"
 entityName "EotHResearch_ShipUnlock_Brask.entity"
+entityName "EotHResearch_ShipUnlock_Krsiss.entity"
+entityName "EotHResearch_ShipUnlock_Furion.entity"
+entityName "EotHResearch_ShipUnlock_Gilzean.entity"
+entityName "EotHResearch_ShipUnlock_Nirauan.entity"
+entityName "EotHResearch_ShipUnlock_Scarsiss.entity"
 entityName "NewRep_FrigateResearch.entity"
 entityName "NewRep_HomeOne.entity"
 entityName "NewRep_EscapePod.entity"

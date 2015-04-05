@@ -1,32 +1,32 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_EOTHRESEARCH_MICROJUMP"
-smallHudIcon "HUDICON_EOTHRESEARCH_MICROJUMP"
+hudIcon "HUDICON_NIRAUAN"
+smallHudIcon "HUDICON_NIRAUAN"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_MICROJUMP_NAME"
-DescriptionStringID "IDS_ABILITY_MICROJUMP_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_NIRAUAN_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_NIRAUAN_DESCRIPTION"
 researchWindowLocation
-	block 1
-	pos [ 7 , 1 ]
+	block 0
+	pos [ 5 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 10.000000
-PerLevelUpgradeTime 10.000000
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 1600.000000
-	metal 300.000000
-	crystal 475.000000
+	credits 800.000000
+	metal 100.000000
+	crystal 175.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 7
-onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 3
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 0
