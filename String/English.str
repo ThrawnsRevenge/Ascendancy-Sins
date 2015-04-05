@@ -1964,64 +1964,64 @@ StringInfo
 	Value "A large stationary cannon capable of destroying an entire planet. Only available when enabled in pregame options."		
 StringInfo
 	ID "IDSPlayerAINameTech0"
-	Value "Home Fleet"
+	Value "Han Solo"
 StringInfo
 	ID "IDSPlayerAINameTech1"
-	Value "Second Fleet"
+	Value "Firmus Nantz"
 StringInfo
 	ID "IDSPlayerAINameTech2"
-	Value "Third Fleet"
+	Value "Mon Mothma"
 StringInfo
 	ID "IDSPlayerAINameTech3"
 	Value "Leia Organa-Solo"
 StringInfo
 	ID "IDSPlayerAINameTech4"
-	Value "Admiral Bel Iblis"
+	Value "Garm Bel-Iblis"
 StringInfo
 	ID "IDSPlayerAINameTech5"
 	Value "Admiral Ackbar"
 StringInfo
 	ID "IDSPlayerAINameTech6"
-	Value "Fourth Fleet"
+	Value "Ponc Gavrisom"
 StringInfo
 	ID "IDSPlayerAINameTech7"
-	Value "Admiral Antilles"
+	Value "Wedge Antilles"
 StringInfo
 	ID "IDSPlayerAINameTech8"
-	Value "Admiral Kre'fay"
+	Value "Traest Kre'fay"
 StringInfo
 	ID "IDSPlayerAINameTech9"
-	Value "Admiral Sovv"
+	Value "Sien Sovv"
 StringInfo
 	ID "IDSPlayerAINamePsi0"
-	Value "Zsinj's Empire"
+	Value "Sate Pestage"
 StringInfo
 	ID "IDSPlayerAINamePsi1"
-	Value "Admiral Isard"
+	Value "Ysanne Isard"
 StringInfo
 	ID "IDSPlayerAINamePsi2"
 	Value "Emperor Palpatine"
 StringInfo
 	ID "IDSPlayerAINamePsi3"
-	Value "Admiral Pellaeon"
+	Value "Gilad Pellaeon"
 StringInfo
 	ID "IDSPlayerAINamePsi4"
-	Value "Admiral Daala"
+	Value "Natasi Daala"
 StringInfo
 	ID "IDSPlayerAINamePsi5"
-	Value "Executor Sedriss"
+	Value "Sedriss Qaga Lok"
 StringInfo
 	ID "IDSPlayerAINamePsi6"
 	Value "Second Imperium"
 StringInfo
 	ID "IDSPlayerAINamePsi7"
-	Value "Greater Maldrood"
+	Value "Vilim Disra"
 StringInfo
 	ID "IDSPlayerAINamePsi8"
 	Value "Ciutric Hegemony"
 StringInfo
 	ID "IDSPlayerAINamePsi9"
-	Value "Pentastar Alignment"
+	Value "Carnor Jax"
 StringInfo
 	ID "IDSPlayerAINamePhase0"
 	Value "Commander Stent"
@@ -2052,6 +2052,36 @@ StringInfo
 StringInfo
 	ID "IDSPlayerAINamePhase9"
 	Value "Hand of Thrawn"
+StringInfo
+	ID "IDSPlayerAINameAlignment0"
+	Value "Ardus Kaine"
+StringInfo
+	ID "IDSPlayerAINameAlignment1"
+	Value "Jerec"
+StringInfo
+	ID "IDSPlayerAINameAlignment2"
+	Value "Octavian Grant"
+StringInfo
+	ID "IDSPlayerAINameAlignment3"
+	Value "Josef Grunger"
+StringInfo
+	ID "IDSPlayerAINameAlignment4"
+	Value "Velcar Free Commerce"
+StringInfo
+	ID "IDSPlayerAINameAlignment5"
+	Value "Oversector Outer"
+StringInfo
+	ID "IDSPlayerAINameAlignment6"
+	Value "Gregor Raquoran"
+StringInfo
+	ID "IDSPlayerAINameAlignment7"
+	Value "Braxant Sector"
+StringInfo
+	ID "IDSPlayerAINameAlignment8"
+	Value "Afsheen Makati"
+StringInfo
+	ID "IDSPlayerAINameAlignment9"
+	Value "Zero Command"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_EASY"
 	Value "Recruit"
