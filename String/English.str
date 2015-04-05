@@ -7,6 +7,12 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_DESCRIPTION"
 	Value "Allows giving financial aid to and demanding aid from other factions ."
 StringInfo
+	ID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_NAME"
+	Value "Primary Industry"
+StringInfo
+	ID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_DESCRIPTION"
+	Value "Generates extra credits directly from resource extractors."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_NAME"
 	Value "Purchased Loyalty"
 StringInfo

@@ -1,0 +1,40 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffEotHPrimaryIndustry"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "EotHResearch_Economy_PrimaryIndustry"
+improveSourceResearchSubject "EotHResearch_Economy_PrimaryIndustryUpgrade"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_Economy_PrimaryIndustry"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_NAME"
+descStringID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PRIMARYINDUSTRY"
+smallHudIcon "HUDICON_ABILITY_PRIMARYINDUSTRY"
+infoCardIcon ""

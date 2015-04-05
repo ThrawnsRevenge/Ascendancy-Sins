@@ -11,12 +11,12 @@ entities
 	planetModuleInfo
 		Page:0
 			count 8
-			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+			entityDefName "EotH_DurasteelExtractor"
 			entityDefName "EotH_FrigateShipyard"
 			entityDefName "EotH_PolicyLab"
 			entityDefName "EotH_TradeStation"
 			entityDefName "EotH_HolonetRelay"
-			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+			entityDefName "EotH_TibannaExtractor"
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "EotH_CombatLab"
 		Page:1
@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 51
+		count 53
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -94,6 +94,8 @@ entities
 		entityDefName "EotHResearch_Economy_Tibanna02"
 		entityDefName "EotHResearch_Economy_TradeStation"
 		entityDefName "EotHResearch_Economy_TradeIncrease"
+		entityDefName "EotHResearch_Economy_PrimaryIndustry"
+		entityDefName "EotHResearch_Economy_PrimaryIndustryUpgrade"
 		entityDefName "EotHResearch_MaxCapitalShips0"
 		entityDefName "EotHResearch_MaxCapitalShips1"
 		entityDefName "EotHResearch_MaxCapitalShips2"
