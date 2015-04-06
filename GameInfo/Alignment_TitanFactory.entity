@@ -26,7 +26,10 @@ DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTITANFACTORY_DESCRIPTION"
 planetModuleRoleType "TITANFACTORY"
 statCountType "ModuleCapitalShipFactory"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_Bellator"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 9000.000000

@@ -83,11 +83,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 4
-UpgradeType "RemnantUpgrade_Executor_AbilityA"
-UpgradeType "RemnantUpgrade_Executor_AbilityB"
-UpgradeType "RemnantUpgrade_Executor_AbilityC"
-UpgradeType "RemnantUpgrade_Executor_AbilityD"
+UpgradeTypeCount 0
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 1
