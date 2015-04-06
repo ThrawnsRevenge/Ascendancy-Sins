@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 265
+planetItemTypeCount 268
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1561,6 +1561,9 @@ planetItemType
 	designName "Remnant:Frigate:Lancer"
 	entityDefName "Remnant_Lancer"
 planetItemType
+	designName "Remnant:Frigate:Mu"
+	entityDefName "Remnant_Mu"
+planetItemType
 	designName "Remnant:Frigate:Lambda"
 	entityDefName "Remnant_Lambda"
 planetItemType
@@ -1648,6 +1651,9 @@ planetItemType
 	designName "NewRep:Frigate:Constructor"
 	entityDefName "Remnant_CT11"
 planetItemType
+	designName "NewRep:Frigate:Ferret"
+	entityDefName "NewRep_Ferret"
+planetItemType
 	designName "EotH:Module:FrigateFactory"
 	entityDefName "EotH_FrigateShipyard"
 planetItemType
@@ -1689,6 +1695,9 @@ planetItemType
 planetItemType
 	designName "EotH:Frigate:Nuruodo"
 	entityDefName "EotH_Nuruodo"
+planetItemType
+	designName "EotH:Frigate:Ascent"
+	entityDefName "EotH_Ascent"
 planetItemType
 	designName "EotH:Frigate:Kariek"
 	entityDefName "EotH_Kariek"
@@ -1762,7 +1771,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 13
+			items 15
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1773,6 +1782,8 @@ planetItemsTemplate
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Mu"
+				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Sentinel"
@@ -1782,7 +1793,7 @@ planetItemsTemplate
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 13
+			items 15
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
@@ -1793,6 +1804,8 @@ planetItemsTemplate
 				item "NewRep:Module:Tibanna"
 				item "NewRep:Frigate:Nebulon"
 				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:Ferret"
+				item "NewRep:Frigate:Ferret"
 				item "NewRep:Frigate:Gallofree"
 				item "NewRep:Frigate:AssaultFrigate"
 				item "NewRep:Frigate:AssaultFrigate"
@@ -1802,7 +1815,7 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 14
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
@@ -1813,6 +1826,8 @@ planetItemsTemplate
 				item "EotH:Module:Tibanna"
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Ascent"
+				item "EotH:Frigate:Ascent"
 				item "EotH:Frigate:Consen"
 				item "EotH:Frigate:Budirech"
 		group
@@ -1840,7 +1855,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 13
+			items 15
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1851,6 +1866,8 @@ planetItemsTemplate
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Mu"
+				item "Remnant:Frigate:Mu"
 				item "Remnant:Module:HeroBase"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Sentinel"
@@ -1860,7 +1877,7 @@ planetItemsTemplate
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 13
+			items 15
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
@@ -1871,6 +1888,8 @@ planetItemsTemplate
 				item "NewRep:Module:Tibanna"
 				item "NewRep:Frigate:Nebulon"
 				item "NewRep:Frigate:Nebulon"
+				item "NewRep:Frigate:Ferret"
+				item "NewRep:Frigate:Ferret"
 				item "NewRep:Frigate:Gallofree"
 				item "NewRep:Frigate:AssaultFrigate"
 				item "NewRep:Frigate:AssaultFrigate"
@@ -1899,7 +1918,7 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 12
+			items 14
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
@@ -1908,6 +1927,8 @@ planetItemsTemplate
 				item "EotH:Frigate:Consen"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
+				item "EotH:Frigate:Ascent"
+				item "EotH:Frigate:Ascent"
 				item "EotH:Module:Tibanna"
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Kariek"

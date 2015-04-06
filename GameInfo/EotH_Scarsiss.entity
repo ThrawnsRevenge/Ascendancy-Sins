@@ -8,21 +8,21 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
-hudIcon "HUDICON_CLAWCRAFT"
-smallHudIcon "HUDICONSMALL_CLAWCRAFT"
-infoCardIcon "INFOCARDICON_CLAWCRAFT"
+hudIcon "HUDICON_SCARSISS"
+smallHudIcon "HUDICONSMALL_SCARSISS"
+infoCardIcon "INFOCARDICON_SCARSISS"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_CLAWCRAFT_NAME"
+nameStringID "IDS_SCARSISS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
 mass 100.000000
-maxAccelerationLinear 250.000000
+maxAccelerationLinear 300.000000
 maxAccelerationStrafe 100.000000
 maxDecelerationLinear 1000.000000
 maxAccelerationAngular 49.999992
 maxDecelerationAngular 99.999985
-maxSpeedLinear 850.000000
+maxSpeedLinear 1200.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 NumWeapons 1
@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 19.500000
+	DamagePerBank:FRONT 35.500000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -55,9 +55,9 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE"
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT1"
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT2"
+			sound "WEAPON_FIGHTER_SCARSISS_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_SCARSISS_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_SCARSISS_LASERBURST_MUZZLE_ALT2"
 		hitEffectName "FighterImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -73,7 +73,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "EotH_Clawcraft"
+meshName "EotH_Scarsiss"
 exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""

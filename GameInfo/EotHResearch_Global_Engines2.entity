@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_SHIPENGINEINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+infoCardIcon ""
+NameStringID "IDS_EOTHRESEARCH_HYPERCHARGE_NAME"
+DescriptionStringID "IDS_EOTHRESEARCH_HYPERCHARGE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 4 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_Global_Engines"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "HyperspaceChargeUpRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,34 +1,31 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_FURION"
-smallHudIcon "HUDICON_FURION"
+hudIcon "HUDICON_RESEARCH_SHIPENGINEINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 infoCardIcon ""
-NameStringID "IDS_FIGHTER_FURION_NAME"
-DescriptionStringID "IDS_FIGHTER_FURION_DESCRIPTION"
+NameStringID "IDS_EOTHRESEARCH_HYPERCHARGE_NAME"
+DescriptionStringID "IDS_EOTHRESEARCH_HYPERCHARGE_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 4 , 4 ]
+	block 1
+	pos [ 1 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Krsiss"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 50.000000
-PerLevelUpgradeTime 5.000000
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 175.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
-onlyWorksIfTierLabsExist TRUE
+Tier 1
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

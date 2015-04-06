@@ -1,0 +1,40 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_NIRAUANARCHIVES"
+smallHudIcon "HUDICON_RESEARCH_NIRAUANARCHIVES"
+infoCardIcon ""
+NameStringID "IDS_REMNANTRESEARCH_NIRAUANARCHIVES_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_NIRAUANARCHIVES_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 7 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_Global_MonitorJumps2"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "HyperspaceDetectionAnyJumps"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880
