@@ -24,7 +24,7 @@ entities
 			entityDefName "EotH_Visvia"
 			entityDefName "EotH_Brask"
 			entityDefName "Remnant_ShieldGenerator"
-			entityDefName "Remnant_RepairPlatform"
+			entityDefName "EotH_RepairPlatform"
 	titanInfo
 		Page:0
 			count 0
@@ -93,7 +93,7 @@ entities
 		entityDefName "EotHResearch_Global_MonitorJumps3"
 		entityDefName "EotHResearch_Flat_Afterburn"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "RemnantResearch_Global_RepairPlatform"
+		entityDefName "EotHResearch_Global_RepairPlatform"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "EotHResearch_Global_CommStation"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
