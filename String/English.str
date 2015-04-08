@@ -1,5 +1,5 @@
 TXT
-NumStrings 8202
+NumStrings 8204
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_NAME"
 	Value "Foreign Aid"
@@ -273,6 +273,12 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_VENATOR_DESCRIPTION"
 	Value "A relic of the Clone Wars, the Venator still saw use as a carrier in Rim worlds of the Empire and its splinter factions."
+StringInfo
+	ID "IDS_FRIGATE_PROCURSATOR_NAME"
+	Value "Procursator"
+StringInfo
+	ID "IDS_FRIGATE_PROCURSATOR_DESCRIPTION"
+	Value "An Imperial warship in the Star Destroyer design family"
 StringInfo
 	ID "IDS_FRIGATE_ENFORCER_NAME"
 	Value "Enforcer"

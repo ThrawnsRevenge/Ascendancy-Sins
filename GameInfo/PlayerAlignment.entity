@@ -46,11 +46,12 @@ entities
 			entityDefName "Remnant_Sentinel"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 5
+			count 6
 			entityDefName "Alignment_Vindicator"
 			entityDefName "Alignment_Venator"
 			entityDefName "Alignment_Enforcer"
 			entityDefName "Remnant_VSDI"
+			entityDefName "Alignment_Procursator"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
 			count 3

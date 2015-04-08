@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2398
+entityNameCount 2399
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
 entityName "EotH_ConsenConstructor.entity"
@@ -464,6 +464,7 @@ entityName "Alignment_ISDI.entity"
 entityName "Alignment_Secutor.entity"
 entityName "Alignment_Venator.entity"
 entityName "Alignment_Bellator.entity"
+entityName "Alignment_Procursator.entity"
 entityName "Alignment_StarGalleon.entity"
 entityName "Alignment_TitanFactory.entity"
 entityName "Alignment_Enforcer.entity"
