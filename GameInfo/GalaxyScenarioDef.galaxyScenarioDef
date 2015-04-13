@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 268
+planetItemTypeCount 294
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1573,6 +1573,84 @@ planetItemType
 	designName "Alignment:Frigate:Vindicator"
 	entityDefName "Alignment_Vindicator"
 planetItemType
+	designName "Alignment:Frigate:Enforcer"
+	entityDefName "Alignment_Enforcer"
+planetItemType
+	designName "Alignment:Frigate:Arquitens"
+	entityDefName "Alignment_Arquitens"
+planetItemType
+	designName "Alignment:Frigate:Acclamator"
+	entityDefName "Alignment_Acclamator"
+planetItemType
+	designName "Alignment:Frigate:Gladiator"
+	entityDefName "Alignment_Gladiator"
+planetItemType
+	designName "Alignment:Frigate:Munificent"
+	entityDefName "Alignment_Munificent"
+planetItemType
+	designName "Alignment:Frigate:Venator"
+	entityDefName "Alignment_Venator"
+planetItemType
+	designName "Alignment:Frigate:VSDI"
+	entityDefName "Alignment_VSDI"
+planetItemType
+	designName "Alignment:Frigate:Procursator"
+	entityDefName "Alignment_Procursator"
+planetItemType
+	designName "Alignment:Capital:ISDI"
+	entityDefName "Alignment_ISDI"
+planetItemType
+	designName "Alignment:Capital:ISDII"
+	entityDefName "Alignment_ISDII"
+planetItemType
+	designName "Alignment:Capital:Dominator"
+	entityDefName "Alignment_Dominator"
+planetItemType
+	designName "Alignment:Capital:Secutor"
+	entityDefName "Alignment_"
+planetItemType
+	designName "Alignment:Capital:Praetor"
+	entityDefName "Alignment_Praetor"
+planetItemType
+	designName "Alignment:Frigate:StarGalleon"
+	entityDefName "Alignment_StarGalleon"
+planetItemType
+	designName "Alignment:SSD:Bellator"
+	entityDefName "Alignment_Bellator"
+planetItemType
+	designName "Alignment:Module:FrigateFactory"
+	entityDefName "Remnant_FrigateShipyard"
+planetItemType
+	designName "Alignment:Module:TradeStation"
+	entityDefName "Remnant_TradeStation"
+planetItemType
+	designName "alignment:Module:CommStation"
+	entityDefName "Remnant_CommStation"
+planetItemType
+	designName "Alignment:Module:PolicyLab"
+	entityDefName "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
+planetItemType
+	designName "Alignment:Module:GolanI"
+	entityDefName "Remnant_GolanI"
+planetItemType
+	designName "Alignment:Module:GolanII"
+	entityDefName "Remnant_GolanII"
+planetItemType
+	designName "Alignment:Module:GolanIII"
+	entityDefName "Remnant_GolanIII"
+planetItemType
+	designName "Alignment:Module:Durasteel"
+	entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+planetItemType
+	designName "Alignment:Module:Tibanna"
+	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+planetItemType
+	designName "Alignment:Module:CapitalShipyard"
+	entityDefName "Remnant_CapitalShipyard"
+planetItemType
+	designName "Alignment:Module:TitanFactory"
+	entityDefName "PLANETMODULE_TECHLOYALISTORBITALTITANFACTORY"
+planetItemType
 	designName "Remnant:Frigate:VSDI"
 	entityDefName "Remnant_VSDI"
 planetItemType
@@ -1764,7 +1842,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
 	subTemplates 0
-	groups 8
+	groups 10
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1786,6 +1864,28 @@ planetItemsTemplate
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "Alignment"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 15
+				item "Alignment:Module:FrigateFactory"
+				item "Alignment:Module:CommStation"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Alignment:Module:CapitalShipyard"
+				item "Alignment:Module:Durasteel"
+				item "Alignment:Module:Durasteel"
+				item "Alignment:Module:Tibanna"
+				item "Alignment:Frigate:Gladiator"
+				item "Alignment:Frigate:Gladiator"
+				item "Remnant:Frigate:Mu"
+				item "Remnant:Frigate:Mu"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Venator"
 				item "Remnant:Frigate:Sentinel"
 		group
 			condition
@@ -1870,6 +1970,28 @@ planetItemsTemplate
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Module:HeroBase"
 				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Alignment"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 15
+				item "Alignment:Module:FrigateFactory"
+				item "Alignment:Module:CommStation"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Alignment:Module:CapitalShipyard"
+				item "Alignment:Module:Durasteel"
+				item "Alignment:Module:Durasteel"
+				item "Alignment:Module:Tibanna"
+				item "Alignment:Frigate:Gladiator"
+				item "Alignment:Frigate:Gladiator"
+				item "Remnant:Frigate:Mu"
+				item "Remnant:Frigate:Mu"
+				item "Remnant:Module:HeroBase"
+				item "Alignment:Frigate:Venator"
 				item "Remnant:Frigate:Sentinel"
 		group
 			condition
