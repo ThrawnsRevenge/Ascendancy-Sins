@@ -763,6 +763,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_HEIGHTENEDRESOLVE_DESCRIPTION"
 	Value "The loss of one of our worlds inspires our troops to double their efforts, increasing firing rates and shield recharge rates for all ships."
 StringInfo
+	ID "IDS_EOTHRESEARCH_EXITDISTANCE_NAME"
+	Value "Proximity Jumps"
+StringInfo
+	ID "IDS_EOTHRESEARCH_EXITDISTANCE_DESCRIPTION"
+	Value "Improvements to navigation computers allows Empire of the Hand ships to exit hyperspace farther into a system."
+StringInfo
 	ID "IDS_NEWREPRESEARCH_SHIELDUPGRADE_NAME"
 	Value "Shielding"
 StringInfo
