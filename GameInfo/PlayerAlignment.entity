@@ -32,16 +32,20 @@ entities
 			entityDefName "Alignment_Bellator"
 	capitalShipInfo
 		Page:0
-			count 4
+			count 5
 			entityDefName "Alignment_ISDI"
 			entityDefName "Alignment_ISDII"
+			entityDefName "Alignment_Dominator"
 			entityDefName "Alignment_Secutor"
 			entityDefName "Alignment_Praetor"
 	frigateInfo
 		Page:0
-			count 5
+			count 8
 			entityDefName "Remnant_Mu"
+			entityDefName "Alignment_arquitens"
 			entityDefName "Alignment_Acclamator"
+			entityDefName "Alignment_Gladiator"
+			entityDefName "Alignment_Munificent"
 			entityDefName "Alignment_StarGalleon"
 			entityDefName "Remnant_Sentinel"
 			entityDefName "Remnant_Lambda"
