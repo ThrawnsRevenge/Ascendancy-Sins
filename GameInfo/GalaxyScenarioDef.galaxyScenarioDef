@@ -2233,71 +2233,80 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 3
+			items 5
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
+			items 5
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
-	groups 1
-		group
-			condition
-				type "Always"
-				param ""
-			owner "Pirate"
-			colonizeChance 1
-			items 2
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-planetItemsTemplate
-	templateName "Template:LocalMilitiaWeak"
-	subTemplates 0
-	groups 4
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 2
+			items 5
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Module:GolanI"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 1
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 1
+			items 5
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
+planetItemsTemplate
+	templateName "Template:LocalMilitiaWeak"
+	subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 5
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 5
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
@@ -2311,16 +2320,20 @@ planetItemsTemplate
 			items 5
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 1
+			items 5
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:HapansWeak"
@@ -2409,54 +2422,35 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
-	groups 5
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
+			items 7
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanII"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"			
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
+			items 7
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Module:GolanI"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 1
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 1
-				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
@@ -2467,131 +2461,99 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 8
+			items 7
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanII"
-				item "Remnant:Module:GolanII"			
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Dreadnaught"	
+			items 7
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrong"
 	subTemplates 0
-	groups 8
+		groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
+			items 9
+				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:VSDI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanII"													
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 2
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Module:GolanII"					
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanII"	
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 2
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 1
-				item "Remnant:Frigate:Lancer"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 1
-				item "Remnant:Frigate:Carrack"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 2
-				item "Remnant:Frigate:Vindicator"
 				item "Remnant:Frigate:Dreadnaught"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 1
-				item "Remnant:Frigate:Carrack"
-planetItemsTemplate
-	templateName "Template:LocalMilitiaStrongFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 11
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Frigate:Immobilizer"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanI"
-				item "Remnant:Module:GolanII"
-				item "Remnant:Module:GolanII"
-				item "Remnant:Module:GolanIII"				
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
-				item "Remnant:Frigate:Vindicator"
+			items 9
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+planetItemsTemplate
+	templateName "Template:LocalMilitiaStrongFair"
+	subTemplates 0
+		groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 9
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 9
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
+				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Terran"
@@ -2684,20 +2646,20 @@ planetItemsTemplate
 			owner "Pirate"
 			colonizeChance 1
 			items 66
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
@@ -2802,16 +2764,16 @@ planetItemsTemplate
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
-				item "Remnant:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Vindicator"
 planetItemsTemplate
 	templateName "Template:HapesHome"
 	subTemplates 0
