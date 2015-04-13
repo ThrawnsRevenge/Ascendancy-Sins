@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 65
+		count 66
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -108,6 +108,7 @@ entities
 		entityDefName "EotHResearch_Economy_TradeIncrease"
 		entityDefName "EotHResearch_Economy_PrimaryIndustry"
 		entityDefName "EotHResearch_Economy_PrimaryIndustryUpgrade"
+		entityDefName "EotHResearch_Economy_RapidExtraction"
 		entityDefName "EotHResearch_MaxCapitalShips0"
 		entityDefName "EotHResearch_MaxCapitalShips1"
 		entityDefName "EotHResearch_MaxCapitalShips2"

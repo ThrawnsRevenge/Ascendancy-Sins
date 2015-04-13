@@ -733,6 +733,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_CUTUREEXPORT_DESCRIPTION"
 	Value "The growth of the New Republic's culture opens worlds to outsiders, granting information about activities at those worlds."
 StringInfo
+	ID "IDS_NEWREPRESEARCH_HEIGHTENEDRESOLVE_NAME"
+	Value "Heightened Resolve"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_HEIGHTENEDRESOLVE_DESCRIPTION"
+	Value "The loss of one of our worlds inspires our troops to double their efforts, increasing firing rates and shield recharge rates for all ships."
+StringInfo
 	ID "IDS_NEWREPRESEARCH_SHIELDUPGRADE_NAME"
 	Value "Shielding"
 StringInfo
@@ -1442,7 +1448,7 @@ StringInfo
 	Value "Hyperspace Monitors"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_MONITORJUMPS_DESCRIPTION"
-	Value "Imperial agents monitor all hyperspace jumps to your planets."
+	Value "Intelligence agents monitor all hyperspace jumps to your planets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_SPREADFIRE_NAME"
 	Value "Spread Fire"

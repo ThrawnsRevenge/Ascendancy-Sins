@@ -66,7 +66,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 93
+		count 94
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -113,6 +113,7 @@ entities
 		entityDefName "NewRepResearch_Global_CommStation"
 		entityDefName "NewRepResearch_Global_ShieldsBase"
 		entityDefName "NewRepResearch_Global_ShieldsMitigation"
+		entityDefName "NewRepResearch_Global_HeightenedResolve"
 		entityDefName "NewRepResearch_Global_PervasiveMessage"
 		entityDefName "NewRepResearch_Global_DemocraticMessengers"
 		entityDefName "NewRepResearch_Global_TradeRevenue"

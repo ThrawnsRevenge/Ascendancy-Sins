@@ -1,0 +1,46 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CapitalBuff_PlanetCripple"
+		mediumEffectName "CapitalBuff_PlanetCripple"
+		largeEffectName "CapitalBuff_PlanetCripple"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "PlanetResourceOutput"
+	value
+		Level:0 0.150000
+		Level:1 0.300000
+		Level:2 0.450000
+		Level:3 0.450000
+entityModifier
+	buffEntityModifierType "PlanetModuleBuildTime"
+	value
+		Level:0 0.200000
+		Level:1 0.300000
+		Level:2 3.000000
+		Level:3 3.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 120.000000
+		Level:1 180.000000
+		Level:2 120.000000
+		Level:3 120.000000
