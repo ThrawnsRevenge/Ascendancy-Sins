@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 72
+		count 74
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -77,6 +77,8 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
 		entityDefName "EotHResearch_ShipUnlock_Furion"
 		entityDefName "EotHResearch_ShipUnlock_Krsiss"
+		entityDefName "EotHResearch_ShipUnlock_Syndic_Command"
+		entityDefName "EotHResearch_ShipUnlock_Phalanx_Command"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"

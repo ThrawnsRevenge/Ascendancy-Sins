@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityPhalanxMicroJump"
-ability:1 ""
+ability:0 "AbilityRemComAssault"
+ability:1 "AbilityRemComDefense"
 ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
@@ -43,16 +43,16 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
 mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
 basePrice
-	credits 1500.000000
-	metal 90.000000
+	credits 1900.000000
+	metal 120.000000
 	crystal 40.000000
-slotCount 6.000000
-BuildTime 70.000000
+slotCount 9.000000
+BuildTime 110.000000
 MaxHullPoints
-	StartValue 4810.000000
+	StartValue 6500.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4810.000000
+	StartValue 6500.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -67,21 +67,21 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 60.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
-	StartValue 0.000000
+	StartValue 0.750000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_Syndic"
+NameStringID "IDS_CAPITALSHIP_PHALANX_COMMAND_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_Phalanx"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Syndic"
+		Subject "EotHResearch_ShipUnlock_Phalanx_Command"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -92,11 +92,53 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_SYNDIC"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_Syndic"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_Syndic"
+hudIcon "HUDICON_PHALANX"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_Phalanx"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_Phalanx"
 minZoomDistanceMult 1.750000
 NumWeapons 4
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 120.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5500.000000
+	PreBuffCooldownTime 15.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Explosion_CapitalShip_mini2"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Conc_Missile"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 6.000000
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -105,10 +147,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 182.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:LEFT 182.000000
+	DamagePerBank:RIGHT 182.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -119,7 +161,47 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 7
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "MegaMaser_Quad"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 120.000000
+	DamagePerBank:RIGHT 120.000000
+	Range 5000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
@@ -145,54 +227,14 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 125.000000
+	DamagePerBank:FRONT 312.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 125.000000
-	DamagePerBank:RIGHT 125.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 5
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Single"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 108.000000
-	DamagePerBank:RIGHT 108.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.400000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
 	Duration 0.000000
@@ -206,46 +248,6 @@ Weapon
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Ion_Single"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 5
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
@@ -256,7 +258,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Quad"
+		projectileTravelEffectName "MegaMaser_Dual"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -265,7 +267,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Hand_Syndic"
+ShieldMeshName "Hand_Phalanx"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -302,7 +304,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Hand_Syndic"
+	meshName "Hand_Phalanx"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
