@@ -1,39 +1,39 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
-smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+hudIcon "HUDICON_RESEARCH_CIVILIANINCREASE"
+smallHudIcon "HUDICON_RESEARCH_CIVILIANINCREASE"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_POWERSYMBOL_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_POWERSYMBOL_DESCRIPTION"
+NameStringID "IDS_NEWREPRESEARCH_INFRASTRUCTURE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_CIVILIANSLOTINCREASE_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 4 , 0 ]
+	block 1
+	pos [ 3 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 10.000000
+BaseUpgradeTime 90.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1600.000000
-	metal 300.000000
-	crystal 475.000000
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 3
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "CapitalShipCultureProtectRateAdjustment"
+	modifierType "PlanetSlotsCivilianIncrease"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 6.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

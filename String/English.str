@@ -13,6 +13,18 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_DESCRIPTION"
 	Value "Generates extra credits directly from resource extractors."
 StringInfo
+	ID "IDS_EOTHRESEARCH_UNITEDFRONT_NAME"
+	Value "United Front"
+StringInfo
+	ID "IDS_EOTHRESEARCH_UNITEDFRONT_DESCRIPTION"
+	Value "The need to protect the galaxy keeps the Empire of the Hand's citizens loyal."
+StringInfo
+	ID "IDS_EOTHRESEARCH_BULWARKDEFENSE_NAME"
+	Value "Defensive Bulwark"
+StringInfo
+	ID "IDS_EOTHRESEARCH_BULWARKDEFENSE_DESCRIPTION"
+	Value "Increases the number of starbases allowed per gravity well."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDIR_NAME"
 	Value "Purchased Loyalty"
 StringInfo

@@ -58,7 +58,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 67
+		count 72
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -74,6 +74,7 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Gilzean"
 		entityDefName "EotHResearch_ShipUnlock_Nirauan"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
+		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
 		entityDefName "EotHResearch_ShipUnlock_Furion"
 		entityDefName "EotHResearch_ShipUnlock_Krsiss"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -87,6 +88,8 @@ entities
 		entityDefName "EotHResearch_Global_Engines"
 		entityDefName "EotHResearch_Global_Engines2"
 		entityDefName "EotHResearch_Global_ExitDistance"
+		entityDefName "EotHResearch_Global_Infrastructure"
+		entityDefName "EotHResearch_Global_Bulwark"
 		entityDefName "EotHResearch_Global_SpeedBoost"
 		entityDefName "EotHResearch_Global_SpeedBoost2"
 		entityDefName "EotHResearch_Global_MonitorJumps1"
@@ -97,6 +100,8 @@ entities
 		entityDefName "EotHResearch_Global_RepairPlatform"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "EotHResearch_Global_CommStation"
+		entityDefName "EotHResearch_Global_CultureSpread"
+		entityDefName "EotHResearch_Global_UnitedFront"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
 		entityDefName "EotHResearch_Economy_Durasteel01"
@@ -128,7 +133,7 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots7"
 	starBaseInfo
 		count 1
-		entityDefName "StarBasePhase"
+		entityDefName "EotH_Esseles"
 	flagship "FrigatePhaseFlagship"
 debrisData
 	numRandomMeshNamesLarge 8
