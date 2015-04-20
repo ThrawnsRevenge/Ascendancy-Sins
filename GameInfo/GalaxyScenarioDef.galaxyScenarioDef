@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 294
+planetItemTypeCount 295
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1501,6 +1501,9 @@ planetItemType
 	designName "Remnant:Module:HeroBase"
 	entityDefName "Remnant_HeroBase"
 planetItemType
+	designName "Warlords:Hero:Zsinj"
+	entityDefName "Warlords_Zsinj"
+planetItemType
 	designName "Remnant:Module:ShieldGenerator"
 	entityDefName "Remnant_ShieldGenerator"
 planetItemType
@@ -1834,7 +1837,7 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 72
+planetItemsTemplateCount 73
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -2678,6 +2681,26 @@ planetItemsTemplate
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
+	templateName "Template:ZsinjHome"
+	subTemplates 0
+		groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Zsinj"
+			colonizeChance 0
+			items 9
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Alignment:Frigate:Vindicator"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:StrikeCruiser"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Warlords:Hero:Zsinj"
+planetItemsTemplate
 	templateName "Template:LocalMilitia_Terran"
 	subTemplates 1
 		template "Template:LocalMilitiaStrong"
@@ -2935,7 +2958,7 @@ themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "PlayerHapans"
 themeGroup "NPC"
-autoAddPlayers 6
+autoAddPlayers 7
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3038,6 +3061,23 @@ player
 	themeIndex 15
 	pictureGroup "PlayerHapans"
 	pictureIndex 15
+player
+	designName "Zsinj"
+	inGameName "IDS_PLAYERRACENAME_ZSINJ"
+	overrideRaceName "Remnant"
+	teamIndex -1
+	startingCredits 0
+	startingMetal 0
+	startingCrystal 0
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "PlayerRemnant"
+	themeIndex 3
+	pictureGroup "PlayerRemnant"
+	pictureIndex 3
 autoAddMiltiaPlayerCountPerGalaxy 5
 autoAddMilitiaPlayers 20
 player

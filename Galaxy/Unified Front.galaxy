@@ -263,7 +263,7 @@ star
 		pos [ 896 , 347 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
-		owner ""
+		owner "Zsinj"
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -276,9 +276,33 @@ star
 		quickStartUpgradeLevelForArtifacts 10
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
+			templateName "Template:ZsinjHome"
+		subTemplates 0
+			groups 1
+			group
+				condition
+					type "Always"
+					param ""
+				owner "Zsinj"
+				colonizeChance 0
+				items 17
+					item "Remnant:Frigate:Lancer"
+					item "Remnant:Frigate:Carrack"
+					item "Remnant:Frigate:Lancer"
+					item "Remnant:Frigate:Carrack"
+					item "Alignment:Frigate:Vindicator"
+					item "Remnant:Frigate:VSDII"
+					item "Remnant:Frigate:StrikeCruiser"
+					item "Remnant:Frigate:Dreadnaught"
+					item "Remnant:Capital:ISDII"
+					item "Remnant:Capital:ISDI"
+					item "Remnant:Module:GolanII"
+					item "Remnant:Module:GolanII"
+					item "Remnant:Module:GolanIII"
+					item "Remnant:Module:GolanIII"
+					item "Alignment:Capital:Secutor"
+					item "Alignment:Capital:Secutor"
+					item "Warlords:Hero:Zsinj"
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
 		entityCount 0

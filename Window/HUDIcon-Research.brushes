@@ -1,6 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 592
+brushCount 593
+brush
+	name "HUDICON_ZSINJ"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 883 , 83 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 83 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 83 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 83 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 83 , 50 , 37 ]
 brush
 	name "HUDICON_RESEARCH_CULTURECOSTDECREASE"
 	content "States"

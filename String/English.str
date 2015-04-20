@@ -1,6 +1,12 @@
 TXT
 NumStrings 8212
 StringInfo
+	ID "IDS_WARLORDS_ZSINJ_NAME"
+	Value "Zsinj - Iron Fist"
+StringInfo
+	ID "IDS_WARLORDS_ZSINJ_DESCRIPTION"
+	Value "A warlord who controlled a vast portion of the galaxy after the Emperor's death from the bridge of his Executor Star Destroyer, Iron Fist."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_HELPINGHANDNR_NAME"
 	Value "Foreign Aid"
 StringInfo
@@ -159,6 +165,9 @@ StringInfo
 StringInfo
 	ID "IDS_PLAYERRACENAME_EOTH"
 	Value "Empire of the Hand"
+StringInfo
+	ID "IDS_PLAYERRACENAME_ZSINJ"
+	Value "Zsinj's Empire"
 StringInfo
 	ID "IDS_PLAYERRACENAME_NEWREP"
 	Value "New Republic"
