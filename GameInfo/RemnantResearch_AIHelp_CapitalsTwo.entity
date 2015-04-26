@@ -29,7 +29,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 2.000000
 researchBoolModifiers 0
-researchFloatModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ExperienceConstantGainRate"
+	baseValue 0.000000
+	perLevelValue 3.916666
+researchModifier
+	modifierType "ExperienceConstantGainLevelCap"
+	baseValue 0.000000
+	perLevelValue 3.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
