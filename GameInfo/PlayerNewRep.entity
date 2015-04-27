@@ -59,14 +59,15 @@ entities
 			entityDefName "NewRep_MC30c"
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
-			count 5
+			count 6
 			entityDefName "Remnant_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
+			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 94
+		count 96
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -161,6 +162,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 	starBaseInfo
 		count 2
 		entityDefName "NewRep_Empress"

@@ -53,12 +53,13 @@ entities
 			entityDefName "EotH_Warlord"
 			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "FrigatePhaseModuleConstructor"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
+			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 74
+		count 76
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -133,6 +134,8 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 	starBaseInfo
 		count 1
 		entityDefName "EotH_Esseles"

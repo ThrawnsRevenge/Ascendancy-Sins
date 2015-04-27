@@ -58,12 +58,13 @@ entities
 			entityDefName "Alignment_Procursator"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
+			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 64
+		count 66
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -128,6 +129,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI5"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 	starBaseInfo
 		count 3
 		entityDefName "Remnant_GalaxyGun"
