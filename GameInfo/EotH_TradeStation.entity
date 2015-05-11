@@ -16,7 +16,7 @@ hudIcon "HUDICON_TRADESTATION"
 smallHudIcon "HUDICON_TRADESTATION"
 infoCardIcon "HUDICON_TRADESTATION"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 6.000000
 basePrice
 	credits 900.000000
 	metal 175.000000

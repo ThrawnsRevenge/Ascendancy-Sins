@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_EXPULSION_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 1 ]
+	pos [ 4 , 3 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0

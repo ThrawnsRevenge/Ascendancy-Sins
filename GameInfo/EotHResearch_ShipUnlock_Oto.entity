@@ -1,16 +1,22 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ESSELES"
-smallHudIcon "HUDICON_ESSELES"
+hudIcon "HUDICON_VISVIA"
+smallHudIcon "HUDICON_VISVIA"
 infoCardIcon ""
-NameStringID "IDS_PLANETMODULE_ESSELES_NAME"
-DescriptionStringID "IDS_PLANETMODULE_ESSELES_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_VISVIA_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_VISVIA_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 2 ]
+	pos [ 6 , 2 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Visvia"
+		Level 1
+	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Esseles"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +30,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 6
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
