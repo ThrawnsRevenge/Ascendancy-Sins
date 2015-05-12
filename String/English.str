@@ -1,5 +1,5 @@
 TXT
-NumStrings 8212
+NumStrings 8214
 StringInfo
 	ID "IDS_WARLORDS_ZSINJ_NAME"
 	Value "Zsinj - Iron Fist"
@@ -18,6 +18,12 @@ StringInfo
 StringInfo
 	ID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_DESCRIPTION"
 	Value "Generates extra credits directly from resource extractors."
+StringInfo
+	ID "IDS_EOTHRESEARCH_COOPERATION_NAME"
+	Value "Confederation"
+StringInfo
+	ID "IDS_EOTHRESEARCH_COOPERATION_DESCRIPTION"
+	Value "The Empire of the Hand can build strong alliances with any faction, regardless of historical enmities."
 StringInfo
 	ID "IDS_EOTHRESEARCH_UNITEDFRONT_NAME"
 	Value "United Front"
