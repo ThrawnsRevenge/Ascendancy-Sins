@@ -76,10 +76,7 @@ NameStringID "IDS_CAPITALSHIP_ISDII_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_ISDII_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ISDII"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_ISDII"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -101,10 +98,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 180.000000
-	DamagePerBank:RIGHT 180.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -141,10 +138,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 200.000000
-	DamagePerBank:RIGHT 200.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
@@ -181,10 +178,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 240.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 160.000000
-	DamagePerBank:RIGHT 160.000000
+	DamagePerBank:LEFT 40.000000
+	DamagePerBank:RIGHT 40.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -215,7 +212,7 @@ Weapon
 		projectileTravelEffectName "TurbolaserGreen_Octuple"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 0
+TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
