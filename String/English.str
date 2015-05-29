@@ -19,6 +19,72 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_PRIMARYINDUSTRY_DESCRIPTION"
 	Value "Generates extra credits directly from resource extractors."
 StringInfo
+	ID "IDS_EOTHRESEARCH_AFTERBURN_NAME"
+	Value "Afterburn"
+StringInfo
+	ID "IDS_EOTHRESEARCH_AFTERBURN_DESCRIPTION"
+	Value "Hand ships quickly shunt power from hyperdrives to sublight engines after exiting hyperspace, giving them a speed boost after completing a jump."
+StringInfo
+	ID "IDS_EOTHRESEARCH_COMPOUNDLOYALTY_NAME"
+	Value "Mosaic"
+StringInfo
+	ID "IDS_EOTHRESEARCH_COMPOUNDLOYALTY_DESCRIPTION"
+	Value "The inclusion of local cultures into Hand holonet broadcasts increases loyalty to the Empire."
+StringInfo
+	ID "IDS_EOTHRESEARCH_CULTURESPREAD_NAME"
+	Value "Redundant Transmitters"
+StringInfo
+	ID "IDS_EOTHRESEARCH_CULTURESPREAD_DESCRIPTION"
+	Value "Adding mechanical redundancies to holonet transmitters increases the spread of their broadcasts."
+StringInfo
+	ID "IDS_EOTHRESEARCH_HYPERCHARGE_NAME"
+	Value "Nav-Com Upgrade"
+StringInfo
+	ID "IDS_EOTHRESEARCH_HYPERCHARGE_DESCRIPTION"
+	Value "Upgrades to navigational computers allow Empire of the Hand ships to calculate more efficient hyperspace routes."
+StringInfo
+	ID "IDS_EOTHRESEARCH_HYPERCHARGEONE_NAME"
+	Value "Hyperdrive Upgrade"
+StringInfo
+	ID "IDS_EOTHRESEARCH_HYPERCHARGEONE_DESCRIPTION"
+	Value "State-of-the-art hyperdrives are installed in all Empire of the Hand ships, allowing them to complete the Kessel Run in fewer parsecs apparently."
+StringInfo
+	ID "IDS_EOTHRESEARCH_EXITDISTANCE_NAME"
+	Value "Gravitational Compensators"
+StringInfo
+	ID "IDS_EOTHRESEARCH_EXITDISTANCE_DESCRIPTION"
+	Value "Hyperdrives are upgraded in order to enter and exit hyperspace closer to planets."
+StringInfo
+	ID "IDS_EOTHRESEARCH_CITYPLANNING_NAME"
+	Value "Arctic Roots"
+StringInfo
+	ID "IDS_EOTHRESEARCH_CITYPLANNING_DESCRIPTION"
+	Value "The Chiss origins on arctic Csilla allow them to support much higher populations on ice worlds."
+StringInfo
+	ID "IDS_EOTHRESEARCH_COOPERATION_NAME"
+	Value "Enemy of My Enemy"
+StringInfo
+	ID "IDS_EOTHRESEARCH_COOPERATION_DESCRIPTION"
+	Value "The Empire of the Hand is willing to overlook historic differences for the greater purpose of uniting the galaxy."
+StringInfo
+	ID "IDS_EOTHRESEARCH_SPEEDBOOST_NAME"
+	Value "Reactor Cooling"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SPEEDBOOST_DESCRIPTION"
+	Value "Improvements to reactor cooling allows engines to draw more power."
+StringInfo
+	ID "IDS_BULWARK_NAME"
+	Value "Bulwark"
+StringInfo
+	ID "IDS_BULWARK_DESCRIPTION"
+	Value "The Empire of the Hand can establish multiple starbases per system."
+StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDEXTRACTION_NAME"
+	Value "Rapid Expansion"
+StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDEXTRACTION_DESCRIPTION"
+	Value "Hand operatives take advantage of local infrastructure and pre-fabricated bases to quickly take advantage of local resources, boosting module build times and resource extraction for a short period after capturing a planet."
+StringInfo
 	ID "IDS_EOTHRESEARCH_COOPERATION_NAME"
 	Value "Confederation"
 StringInfo
