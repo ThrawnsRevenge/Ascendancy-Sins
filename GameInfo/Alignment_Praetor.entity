@@ -78,7 +78,7 @@ picture "CAPITALSHIPPICTURE_PRAETOR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Praetor"
+		Subject "AlignmentResearch_ShipUnlock_Praetor"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
