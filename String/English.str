@@ -1621,6 +1621,12 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_COMMANDSTATION_DESCRIPTION"
 	Value "Gives access to the Imperial Command Station, a structure which massively boosts defensive capabilities at the expense of its economic output."
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"
+	Value "Oto Military Outpost"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_DESCRIPTION"
+	Value "Grants access to the Oto Military Outpost, a heavily armed and defense-oriented starbase"."
+StringInfo
 	ID "IDS_NEWREPRESEARCH_SLOWPRODUCTION_NAME"
 	Value "Public Demonstrations"
 StringInfo
