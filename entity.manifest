@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2425
+entityNameCount 2424
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -82,7 +82,6 @@ entityName "Vong_MiidRoik.entity"
 entityName "Vong_AvekIiluuno.entity"
 entityName "Ssi_Swarm.entity"
 entityName "Ssi_Swarm_Squad.entity"
-entityName "Ssi_Wurrif.entity"
 entityName "Ssi_Wurrif.entity"
 entityName "Ssi_Shree.entity"
 entityName "EotH_FrigateResearch.entity"
