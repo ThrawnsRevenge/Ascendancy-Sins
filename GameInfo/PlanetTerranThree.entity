@@ -422,7 +422,7 @@ planetUpgradeDef
 			cultureSpreadRateModifier -0.666680
 ringsChance 0.050000
 isColonizable TRUE
-planetTypeForResearch "Terran"
+planetTypeForResearch "Iron"
 skyboxScalarsCount 5
 skyboxScalars
 	diffuseScalar 1.000000

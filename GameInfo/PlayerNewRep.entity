@@ -67,7 +67,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 96
+		count 100
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -76,6 +76,10 @@ entities
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "RemnantResearch_Conquer_Forest"
+		entityDefName "NewRepResearch_Conquer_Ecumenopolis"
+		entityDefName "NewRepResearch_Conquer_Ice"
+		entityDefName "NewRepResearch_Conquer_Volcanic"
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"

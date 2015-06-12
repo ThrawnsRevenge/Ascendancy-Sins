@@ -1,6 +1,60 @@
 TXT
 NumStrings 8214
 StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_URBAN_NAME"
+	Value "Urban Operations"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_URBAN_DESCRIPTION"
+	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planmets with high populations."
+StringInfo
+	ID "IDS_EOTHRESEARCH_CONQUER_URBAN_NAME"
+	Value "Urban Operations"
+StringInfo
+	ID "IDS_EOTHRESEARCH_CONQUER_URBAN_DESCRIPTION"
+	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planmets with high populations."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_DESERT_NAME"
+	Value "Sandtroopers"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_DESERT_DESCRIPTION"
+	Value "Equips Stormtroopers with Sandtrooper armour, allowing them to operate in desert environments."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_ICE_NAME"
+	Value "Snowtroopers"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_ICE_DESCRIPTION"
+	Value "Equips Stormtroopers with Snowtrooper armour, allowing them to operate in desert environments."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_NAME"
+	Value "Echo Base"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_DESCRIPTION"
+	Value "Allows the establishment of New Republic bases on arctic worlds."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_VOLCANIC_NAME"
+	Value "Extreme Conditioning"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_VOLCANIC_DESCRIPTION"
+	Value "New Republic troops are equipped with gas masks, allowing them to function in unbreathable atmospheres."
+StringInfo
+	ID "IDS_EOTHRESEARCH_CONQUER_VOLCANIC_NAME"
+	Value "Extreme Conditioning"
+StringInfo
+	ID "IDS_EOTHRESEARCH_CONQUER_VOLCANIC_DESCRIPTION"
+	Value "Empire of the Hand troops are equipped with gas masks, allowing them to function in unbreathable atmospheres."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_FOREST_NAME"
+	Value "Sensor Ping"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_FOREST_DESCRIPTION"
+	Value "Imperial military units are capable of operating in forested environments."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_OCEANS_NAME"
+	Value "Amphibious Assault"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_CONQUER_OCEANS_DESCRIPTION"
+	Value "Imperial military units are capable of operating in oceanic environments."
+StringInfo
 	ID "IDS_WARLORDS_ZSINJ_NAME"
 	Value "Zsinj - Iron Fist"
 StringInfo
