@@ -1,6 +1,18 @@
 TXT
 NumStrings 8214
 StringInfo
+	ID "IDS_EOTHRESEARCH_HIDDENBASES_NAME"
+	Value "Hidden Bases"
+StringInfo
+	ID "IDS_EOTHRESEARCH_HIDDENBASES_NAME"
+	Value "Hand military bases being moved to secret locations makes them more difficult to target during orbital bombardment."
+StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDFIRE_NAME"
+	Value "Overcharge"
+StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDFIRE_NAME"
+	Value "Empire of the Hand ships are able to fire at faster rates."
+StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_URBAN_NAME"
 	Value "Urban Operations"
 StringInfo
@@ -30,6 +42,12 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_DESCRIPTION"
 	Value "Allows the establishment of New Republic bases on arctic worlds."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFORCES_NAME"
+	Value "Supporting Fire"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFORCES_DESCRIPTION"
+	Value "When in a gravity well with allied forces the New Republic's ships do more damage."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_VOLCANIC_NAME"
 	Value "Extreme Conditioning"
