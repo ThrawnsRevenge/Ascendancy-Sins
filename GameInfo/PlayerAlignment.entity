@@ -40,10 +40,11 @@ entities
 			entityDefName "Alignment_Praetor"
 	frigateInfo
 		Page:0
-			count 5
+			count 6
 			entityDefName "Remnant_Mu"
 			entityDefName "Alignment_Acclamator"
 			entityDefName "Alignment_StarGalleon"
+			entityDefName "Alignment_Gladiator"
 			entityDefName "Remnant_Sentinel"
 			entityDefName "Remnant_Lambda"
 		Page:1
