@@ -1,6 +1,24 @@
 TXT
 NumStrings 8214
 StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
+	Value "Rapid Deployment"
+StringInfo
+	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
+	Value "Prefabricated parts allow Empire of the Hand orbital structures to be built more quickly."
+StringInfo
+	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
+	Value "Relocation"
+StringInfo
+	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
+	Value "The vast territory under the Empire of the Hand's influence allows them to relocate population as necessary."
+StringInfo
+	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
+	Value "Recovery"
+StringInfo
+	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
+	Value "Delegation of recovery efforts after bombardment to local population allows quicker health regeneration."
+StringInfo
 	ID "IDS_EOTHRESEARCH_HIDDENBASES_NAME"
 	Value "Hidden Bases"
 StringInfo
@@ -8393,10 +8411,10 @@ StringInfo
 	Value "Ground infrastructure becomes more fortified against bombardment, lessening the loss of life and damage taken when under siege."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_NAME"
-	Value "Atomic Lattice Armor"
+	Value "Light Duralloy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_DESCRIPTION"
-	Value "Capital ship and strike craft armor is switched to a molecular lattice design, slightly increasing its strength while significantly decreasing its mass."
+	Value "Capital ship and fighter armour is switched to a lighter Duralloy, slightly increasing its strength while significantly decreasing its mass."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_BOUNTYMULTIPLIERBUY_NAME"
 	Value "Persuasive Offers"
