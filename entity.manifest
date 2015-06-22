@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2436
+entityNameCount 2438
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -141,8 +141,10 @@ entityName "EotHResearch_Global_PlanetSpecialization01.entity"
 entityName "EotHResearch_Global_Engines.entity"
 entityName "EotHResearch_Global_Engines2.entity"
 entityName "EotHResearch_Global_SpeedBoost.entity"
+entityName "EotHResearch_Global_SpeedBoostArmour.entity"
 entityName "EotHResearch_Global_SpeedBoost2.entity"
 entityName "EotHResearch_Global_SpreadFire.entity"
+entityName "EotHResearch_Global_GalacticAlliance.entity"
 entityName "EotHResearch_Global_ExitDistance.entity"
 entityName "EotHResearch_Global_CultureSpread.entity"
 entityName "EotHResearch_Global_RepairPlatform.entity"

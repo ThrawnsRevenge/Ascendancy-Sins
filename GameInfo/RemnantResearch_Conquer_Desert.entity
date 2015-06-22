@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_CONQUER_DESERT_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_CONQUER_DESERT_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 1 , 2 ]
+	pos [ 0 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

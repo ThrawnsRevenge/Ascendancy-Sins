@@ -67,7 +67,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 100
+		count 101
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -115,6 +115,7 @@ entities
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePull"
 		entityDefName "NewRepResearch_AbilityUnlock_ForcePush"
 		entityDefName "NewRepResearch_Global_HelpingHand"
+		entityDefName "NewRepResearch_Global_RebelRoots"
 		entityDefName "NewRepResearch_Global_CommStation"
 		entityDefName "NewRepResearch_Global_ShieldsBase"
 		entityDefName "NewRepResearch_Global_ShieldsMitigation"

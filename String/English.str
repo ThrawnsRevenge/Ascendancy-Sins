@@ -49,6 +49,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFORCES_DESCRIPTION"
 	Value "When in a gravity well with allied forces the New Republic's ships do more damage."
 StringInfo
+	ID "IDS_NEWREPRESEARCH_REBELROOTS_NAME"
+	Value "Rebellion Reborn"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_REBELROOTS_DESCRIPTION"
+	Value "When the New Republic loses their final planet, they can move their government to capital ships, titans and starbases, allowing their continued survival."
+StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_VOLCANIC_NAME"
 	Value "Extreme Conditioning"
 StringInfo
