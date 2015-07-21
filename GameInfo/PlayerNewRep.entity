@@ -53,10 +53,11 @@ entities
 			entityDefName "NewRep_Hajen"
 			entityDefName "NewRep_CR90Envoy"
 		Page:1
-			count 4
+			count 5
 			entityDefName "NewRep_AssaultFrigate"
 			entityDefName "NewRep_BAC"
 			entityDefName "NewRep_MC30c"
+			entityDefName "NewRep_Dauntless"
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
 			count 6

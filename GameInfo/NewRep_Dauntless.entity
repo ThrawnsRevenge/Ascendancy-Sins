@@ -1,0 +1,191 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+picture "HUDICON_ASSAULTFRIGATE"
+NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
+DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFRIGATE"
+basePrice
+	credits 1200.000000
+	metal 60.000000
+	crystal 30.000000
+slotCount 8.000000
+BuildTime 65.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 42.500000
+MaxHullPoints 3290.000000
+MaxShieldPoints 3260.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 3.500000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_ASSAULTFRIGATE"
+smallHudIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+minZoomDistanceMult 2.500000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_FRIGATE_LASER_MUZZLE"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT1"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "TurbolaserRed_Single"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
+	Range 5000.000000
+	PreBuffCooldownTime 4.400000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CRUISER_IONCANNON_MUZZLE"
+			sound "WEAPON_CRUISER_IONCANNON_MUZZLE_ALT1"
+			sound "WEAPON_CRUISER_IONCANNON_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Ion_Single"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "NR_Dauntless"
+renderShield TRUE
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 3.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 700.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "NewRep_Xwing_Squad"
+squadAntiMatterCost:0 12.000000
+squadTypeEntityDef:1 "NewRep_Awing_Squad"
+squadAntiMatterCost:1 12.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PHASEAA_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PHASEAA_ONSELECTED_0"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_1"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PHASEAA_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "NR_Dauntless"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseAntiFighter"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 "AbilityBombardEmpire"
+ability:4 "AbilityPassiveLowLifePods"
+MaxAntiMatter 12.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 0.900000
+allegianceDecreasePerRoundtrip 0.000000

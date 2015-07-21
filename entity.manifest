@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2442
+entityNameCount 2443
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -231,6 +231,7 @@ entityName "NewRep_Viscount.entity"
 entityName "NewRep_Gallofree.entity"
 entityName "NewRep_CR90.entity"
 entityName "NewRep_Quasar.entity"
+entityName "NewRep_Dauntless.entity"
 entityName "NewRep_BAC.entity"
 entityName "NewRep_Ferret.entity"
 entityName "NewRep_CR90Envoy.entity"
