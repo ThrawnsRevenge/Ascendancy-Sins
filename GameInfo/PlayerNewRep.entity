@@ -68,7 +68,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 101
+		count 102
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -87,6 +87,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_MC80b"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula"
 		entityDefName "NewRepResearch_ShipUnlock_MC90_Command"
+		entityDefName "NewRepResearch_ShipUnlock_Dauntless"
 		entityDefName "NewRepResearch_ShipUnlock_Empress"
 		entityDefName "NewRepResearch_ShipUnlock_XQ"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula_Command"

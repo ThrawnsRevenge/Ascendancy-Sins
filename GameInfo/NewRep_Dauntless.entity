@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
-picture "HUDICON_ASSAULTFRIGATE"
+mainViewIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
+picture "HUDICON_DAUNTLESS"
 NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
 DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFRIGATE"
@@ -29,7 +29,10 @@ ShieldPointRestoreRate 2.000000
 BaseArmorPoints 3.500000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_ShipUnlock_Dauntless"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

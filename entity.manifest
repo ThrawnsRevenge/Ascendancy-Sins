@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2443
+entityNameCount 2444
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -325,6 +325,7 @@ entityName "NewRepResearch_ShipUnlock_Nebula_Command.entity"
 entityName "NewRepResearch_ShipUnlock_Endurance.entity"
 entityName "NewRepResearch_ShipUnlock_AssaultFrigate.entity"
 entityName "NewRepResearch_ShipUnlock_Hajen.entity"
+entityName "NewRepResearch_ShipUnlock_Dauntless.entity"
 entityName "NewRepResearch_ShipUnlock_BAC.entity"
 entityName "NewRepResearch_ShipUnlock_MC30.entity"
 entityName "NewRepResearch_ShipUnlock_Viscount.entity"

@@ -36,8 +36,8 @@ researchModifier
 	perLevelValue 1.16666
 researchModifier
 	modifierType "ExperienceConstantGainLevelCap"
-	baseValue 0.000000
-	perLevelValue 3.000000
+	baseValue 3.000000
+	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
