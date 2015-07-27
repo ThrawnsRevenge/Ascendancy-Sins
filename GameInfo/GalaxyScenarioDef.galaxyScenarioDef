@@ -1610,7 +1610,7 @@ planetItemType
 	entityDefName "Alignment_Dominator"
 planetItemType
 	designName "Alignment:Capital:Secutor"
-	entityDefName "Alignment_"
+	entityDefName "Alignment_Secutor"
 planetItemType
 	designName "Alignment:Capital:Praetor"
 	entityDefName "Alignment_Praetor"
@@ -1627,7 +1627,7 @@ planetItemType
 	designName "Alignment:Module:TradeStation"
 	entityDefName "Remnant_TradeStation"
 planetItemType
-	designName "alignment:Module:CommStation"
+	designName "Alignment:Module:CommStation"
 	entityDefName "Remnant_CommStation"
 planetItemType
 	designName "Alignment:Module:PolicyLab"

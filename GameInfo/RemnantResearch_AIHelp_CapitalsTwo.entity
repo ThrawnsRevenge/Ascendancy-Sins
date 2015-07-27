@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ExperienceConstantGainRate"
 	baseValue 0.000000
-	perLevelValue 2.116666
+	perLevelValue 0.116666
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

@@ -63,7 +63,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 70
+		count 66
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -73,10 +73,6 @@ entities
 		entityDefName "RemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
-		entityDefName "RemnantResearch_Conquer_Desert"
-		entityDefName "RemnantResearch_Conquer_Ice"
-		entityDefName "RemnantResearch_Conquer_Forest"
-		entityDefName "RemnantResearch_Conquer_Oceans"
 		entityDefName "AlignmentResearch_Economy_Durasteel01"
 		entityDefName "AlignmentResearch_Economy_Durasteel02"
 		entityDefName "AlignmentResearch_Economy_Durasteel03"
