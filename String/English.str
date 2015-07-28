@@ -7,6 +7,24 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
 	Value "Prefabricated parts allow Empire of the Hand orbital structures to be built more quickly."
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
+	Value "Velcar Free Commerce"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
+	Value "Incorporates the Velcar Free Commerce Zone into the Pentastar Alignment, raising trade revenues but lowering loyalty because of slave labour."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
+	Value "Institutionalized Slavery"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
+	Value "Contracting Velcar companies saves credits on upgrading planetary infrastructure."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_NAME"
+	Value "InQuestors of Justice"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_NAME"
+	Value "An order of judiciary agents and secret police including the dark jedi Jerec who work to weed out dissident elements within the Alignment."
+StringInfo
 	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
 	Value "Relocation"
 StringInfo

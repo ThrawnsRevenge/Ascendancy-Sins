@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2444
+entityNameCount 2447
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -530,6 +530,9 @@ entityName "AlignmentResearch_Economy_Tibanna00.entity"
 entityName "AlignmentResearch_Economy_Tibanna01.entity"
 entityName "AlignmentResearch_Economy_Tibanna02.entity"
 entityName "AlignmentResearch_Global_ExtraFighters.entity"
+entityName "AlignmentResearch_Global_Velcar.entity"
+entityName "AlignmentResearch_Global_VelcarUpgrade.entity"
+entityName "AlignmentResearch_Global_InQuestors.entity"
 entityName "AlignmentResearch_ShipUnlock_Vindicator.entity"
 entityName "AlignmentResearch_ShipUnlock_Bellator.entity"
 entityName "AlignmentResearch_ShipUnlock_Acclamator.entity"
