@@ -1,28 +1,58 @@
 TXT
 NumStrings 8214
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
+	Value "Open Markets"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
+	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_REACH_NAME"
+	Value "Extended Reach"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_REACH_DESCRIPTION"
+	Value "Pentastar controlling interests in galactic corporations redirect a portion of their revenues from purchases across the galaxy into the Alignment."
+StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
 	Value "Rapid Deployment"
 StringInfo
-	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
+	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_DESCRIPTION"
 	Value "Prefabricated parts allow Empire of the Hand orbital structures to be built more quickly."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
 	Value "Velcar Free Commerce"
 StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
+	ID "IDS_ALIGNMENTRESEARCH_VELCAR_DESCRIPTION"
 	Value "Incorporates the Velcar Free Commerce Zone into the Pentastar Alignment, raising trade revenues but lowering loyalty because of slave labour."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
 	Value "Institutionalized Slavery"
 StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
+	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_DESCRIPTION"
 	Value "Contracting Velcar companies saves credits on upgrading planetary infrastructure."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PAYOFF_NAME"
+	Value "Proxy War"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PAYOFF_DESCRIPTION"
+	Value "Preferring to leave the fighting to others, the Pentastar Alignment builds relationships with other factions by funding their military ventures."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DYNAMICAUTOMATA_NAME"
+	Value "Dynamic Automata"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DYNAMICAUTOMATA_DESCRIPTION"
+	Value "Contracts ship system design to the droid manufacturer Dynamic Automata, a company headed by Metron Besk, reducing crew requirements via increased use of AI."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_POWERON_NAME"
+	Value "PowerOn"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_POWERON_DESCRIPTION"
+	Value "Contracts subsystems to PowerOn Conglomerate, a power company which equips Alignment ships with more efficient power systems, allowing increased rates of fire."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_NAME"
 	Value "InQuestors of Justice"
 StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_NAME"
+	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_DESCRIPTION"
 	Value "An order of judiciary agents and secret police including the dark jedi Jerec who work to weed out dissident elements within the Alignment."
 StringInfo
 	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
