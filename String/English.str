@@ -1939,6 +1939,12 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_INTEGRATION_DESCRIPTION"
 	Value "Aliens are allowed into human society, decreasing the allegiance of xenophobes but making others more receptive to the Imperial message."
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_INTEGRATION_NAME"
+	Value "Opening"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_INTEGRATION_DESCRIPTION"
+	Value "Despite uneasiness with citizens and Velcar slavery, the Alignment allows further integration of aliens into society, increasing the receptiveness of planets to Alignment culture."
+StringInfo
 	ID "IDS_REMNANTRESEARCH_SPAARTI_NAME"
 	Value "Spaarti Cylinders"
 StringInfo
@@ -1992,6 +1998,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_RAM_DESCRIPTION"
 	Value "This ship will ram the target, doing large amounts of damage the target and destroying itself."
+StringInfo
+	ID "IDS_ABILITY_RHAZERSEDGE_NAME"
+	Value "Rhazer's Edge"
+StringInfo
+	ID "IDS_ABILITY_RHAZERSEDGE_DESCRIPTION"
+	Value "Fires a salvo of heavy Rhazer missiles at all targets in range of the Phalanx's left and right missile banks."
 StringInfo
 	ID "IDS_ABILITY_REINFORCE_NAME"
 	Value "Reinforce"

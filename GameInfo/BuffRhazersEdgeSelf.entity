@@ -1,0 +1,98 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffRhazersEdgeTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "NotInvulnerable"
+	weaponBank "LEFT"
+	range
+		Level:0 6000.000000
+		Level:1 6000.000000
+		Level:2 6000.000000
+		Level:3 6000.000000
+	coneAngle
+		Level:0 1.570000
+		Level:1 1.570000
+		Level:2 1.570000
+		Level:3 1.570000
+	maxTargetCount
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_FragmentationScattershot_Travel"
+		mediumEffectName "TitanAbility_FragmentationScattershot_Travel"
+		largeEffectName "TitanAbility_FragmentationScattershot_Travel"
+		soundID "EFFECT_SCATTERSHOT"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffRhazersEdgeTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "NotInvulnerable"
+	weaponBank "RIGHT"
+	range
+		Level:0 6000.000000
+		Level:1 6000.000000
+		Level:2 6000.000000
+		Level:3 6000.000000
+	coneAngle
+		Level:0 1.570000
+		Level:1 1.570000
+		Level:2 1.570000
+		Level:3 1.570000
+	maxTargetCount
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_FragmentationScattershot_Travel"
+		mediumEffectName "TitanAbility_FragmentationScattershot_Travel"
+		largeEffectName "TitanAbility_FragmentationScattershot_Travel"
+		soundID "EFFECT_SCATTERSHOT"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
