@@ -1,6 +1,12 @@
 TXT
 NumStrings 8214
 StringInfo
+	ID "IDS_ABILITY_RESILIENT_NAME"
+	Value "Resilient"
+StringInfo
+	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
+	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
 	Value "Open Markets"
 StringInfo
@@ -612,6 +618,12 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
 	Value "A small transport used to drop troops on the planet's surface."
+StringInfo
+	ID "IDS_FRIGATE_DAUNTLESS_NAME"
+	Value "Dauntless Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_BAC_DESCRIPTION"
+	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates ."
 StringInfo
 	ID "IDS_FRIGATE_BAC_NAME"
 	Value "Bothan Assault Cruiser"
