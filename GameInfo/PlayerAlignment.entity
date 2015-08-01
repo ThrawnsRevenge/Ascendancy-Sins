@@ -14,7 +14,7 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "Remnant_FrigateShipyard"
 			entityDefName "Remnant_CombatLab"
-			entityDefName "Remnant_TradeStation"
+			entityDefName "Alignment_TradeStation"
 			entityDefName "Remnant_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Remnant_CapitalShipyard"

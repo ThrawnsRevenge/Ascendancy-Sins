@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2466
+entityNameCount 2468
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -232,6 +232,7 @@ entityName "NewRep_Gallofree.entity"
 entityName "NewRep_CR90.entity"
 entityName "NewRep_Quasar.entity"
 entityName "NewRep_Dauntless.entity"
+entityName "NewRep_Proficient.entity"
 entityName "NewRep_BAC.entity"
 entityName "NewRep_Ferret.entity"
 entityName "NewRep_CR90Envoy.entity"
@@ -508,6 +509,7 @@ entityName "Alignment_Venator.entity"
 entityName "Alignment_Bellator.entity"
 entityName "Alignment_Procursator.entity"
 entityName "Alignment_StarGalleon.entity"
+entityName "Alignment_TradeStation.entity"
 entityName "Alignment_TitanFactory.entity"
 entityName "Alignment_Enforcer.entity"
 entityName "Alignment_Vindicator.entity"
