@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2468
+entityNameCount 2469
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -576,6 +576,7 @@ entityName "AbilityGilzeanColonize.entity"
 entityName "AbilityRam.entity"
 entityName "AbilityPhalanxMicroJump.entity"
 entityName "AbilityInterdictImmobilizer.entity"
+entityName "AbilityInterdictCapital.entity"
 entityName "AbilityKatanaSpawn.entity"
 entityName "AbilityPassiveLowLife.entity"
 entityName "AbilityPassiveLowLifePods.entity"

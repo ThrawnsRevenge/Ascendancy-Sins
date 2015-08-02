@@ -481,6 +481,12 @@ StringInfo
 	ID "IDS_FRIGATE_ASDRONI_DESCRIPTION"
 	Value "A compact escort frigate designed primarily for anti-starfighter duties."
 StringInfo
+	ID "IDS_FRIGATE_PROFICIENT_NAME"
+	Value "Proficient"
+StringInfo
+	ID "IDS_FRIGATE_PROFICIENT_DESCRIPTION"
+	Value "An old Corellian vessel with moderate firepower whose main use comes from its adaptability."
+StringInfo
 	ID "IDS_FRIGATE_AURIETTE_NAME"
 	Value "Au'riette Fleet Carrier"
 StringInfo
@@ -1353,6 +1359,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_INTERDICTIMMOBILIZER_DESCRIPTION"
 	Value "Prevents enemy ships from entering hyperspace."
+StringInfo
+	ID "IDS_ABILITY_INTERDICTIMMOBILIZERON_NAME"
+	Value "Interdict - Off"
+StringInfo
+	ID "IDS_ABILITY_INTERDICTIMMOBILIZERON_DESCRIPTION"
+	Value "Turns off gravity well generators."
 StringInfo
 	ID "IDS_ABILITY_CLUSTERBOMBS_NAME"
 	Value "Cluster Bombs"
