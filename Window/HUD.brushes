@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 162
+brushCount 174
 brush
 	name "RebellionResearchOverlay"
 	content "Simple"
@@ -136,6 +136,11 @@ brush
 	fileName "IR_Skin"
 	pixelBox [ 107 , 381 , 810 , 150 ]
 brush
+	name "BottomWindowBackdropPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 107 , 381 , 810 , 150 ]
+brush
 	name "BottomWindowBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
@@ -149,6 +154,11 @@ brush
 	name "BottomWindowOverlayPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
 	name "BottomWindowOverlayPhase"
@@ -958,6 +968,21 @@ brush
 	fileName "BackdropInGame"
 	pixelBox [ 2016 , 11 , 29 , 295 ]
 brush
+	name "InfoCardAttachedToBottomBackdropPA"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "PA_Skin"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
 	name "InfoCardAttachedToBottomBackdropPhase"
 	content "Margins"
 	stretchMargins
@@ -1312,6 +1337,16 @@ brush
 	name "EmpireWindowOptionsWindowHighResBackdropPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 5 , 5 , 200 , 36 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropPhase"
@@ -1974,6 +2009,11 @@ brush
 	fileName "IR_Skin"
 	pixelBox [ 285 , -2 , 455 , 85 ]
 brush
+	name "TopWindowBackdropPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 285 , -2 , 455 , 85 ]
+brush
 	name "TopWindowBackdropPhase"
 	content "Simple"
 	fileName "EotH_Skin"
@@ -1987,6 +2027,11 @@ brush
 	name "TopWindowOverlayPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 0 , 0 , 0 , 0 ]
+brush
+	name "TopWindowOverlayPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "TopWindowOverlayPhase"
@@ -2019,9 +2064,19 @@ brush
 	fileName "IR_Skin"
 	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
+	name "TopWindowLeftCapLowResPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 522 , 107 , 220 , 43 ]
+brush
 	name "TopWindowLeftCapHighResPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+	name "TopWindowLeftCapHighResPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 522 , 107 , 220 , 43 ]
 brush
 	name "TopWindowRightCapLowResPsi"
@@ -2029,9 +2084,19 @@ brush
 	fileName "IR_Skin"
 	pixelBox [ 1 , 180 , 15 , 42 ]
 brush
+	name "TopWindowRightCapLowResPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 1 , 180 , 15 , 42 ]
+brush
 	name "TopWindowRightCapHighResPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+	name "TopWindowRightCapHighResPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 1 , 180 , 15 , 42 ]
 brush
 	name "TopWindowLeftCapLowResPhase"
@@ -2141,9 +2206,19 @@ brush
 	fileName "IR_Skin"
 	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
+	name "QuickMarketBackdropPA"
+	content "Simple"
+	fileName "PA_Skin"
+	pixelBox [ 781 , 0 , 178 , 63 ]
+brush
 	name "QuickMarketBackdropNoPiratesPsi"
 	content "Simple"
 	fileName "IR_Skin"
+	pixelBox [ 781 , 0 , 178 , 63 ]
+brush
+	name "QuickMarketBackdropNoPiratesPA"
+	content "Simple"
+	fileName "PA_Skin"
 	pixelBox [ 781 , 0 , 178 , 63 ]
 brush
 	name "QuickMarketBackdropPhase"
