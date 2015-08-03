@@ -7,11 +7,11 @@ MeshData
 	MinBoundingExtents [ -44.908855 -13.735283 -99.091560 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName "NR_Nebulon-cl.dds"
-		SelfIlluminationTextureFileName "NR_Nebulon-da.dds"
-		NormalTextureFileName "NR_Nebulon-nm.dds"
-		DisplacementTextureFileName ""
-		TeamColorTextureFileName ""
+		DiffuseTextureFileName "NR_Proficient-cl.dds"
+		SelfIlluminationTextureFileName "NR_Proficient-da.dds"
+		NormalTextureFileName "NR_Proficient-nm.dds"
+		DisplacementTextureFileName "NR_Proficient-nm.dds"
+		TeamColorTextureFileName "NR_Proficient-cl.dds"
 		Diffuse ffffffff
 		Ambient ffffffff
 		Specular ffffffff
