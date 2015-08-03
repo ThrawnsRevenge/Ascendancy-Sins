@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2469
+entityNameCount 2472
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -551,6 +551,10 @@ entityName "AlignmentResearch_ShipUnlock_Bellator.entity"
 entityName "AlignmentResearch_ShipUnlock_Acclamator.entity"
 entityName "AlignmentResearch_ShipUnlock_Praetor.entity"
 entityName "AlignmentResearch_ShipUnlock_ISDII.entity"
+entityName "AbilityProtonSplit.entity"
+entityName "BuffProtonSplitDamage.entity"
+entityName "BuffProtonSplitInitial.entity"
+entityName "BuffRhazersEdgeTarget.entity"
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "BuffDissidentExpulsion.entity"
 entityName "BuffRapidExpansion.entity"

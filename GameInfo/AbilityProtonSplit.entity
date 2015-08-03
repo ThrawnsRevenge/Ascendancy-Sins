@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+instantActionTriggerType "OnWeaponFired"
+numWeaponClasses 1
+weaponClassForWeaponPassive "PHASEMISSILE"
+passiveWeaponEffectChance
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+buffType "BuffProtonSplitInitial"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "PlanetModule"
+	object "StarBase"
+	object "CapitalShip"
+	object "Frigate"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PROTONSPLIT_NAME"
+descStringID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
+hudIcon "HUDABILITYICON_PROTONSPLIT"
+smallHudIcon "HUDABILITYICON_PROTONSPLIT"
+infoCardIcon ""
