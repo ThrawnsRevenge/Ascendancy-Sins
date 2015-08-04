@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 305
+brushCount 307
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -307,6 +307,11 @@ brush
 	content "Simple"
 	fileName "Cruiser_Pips"
 	pixelBox [ 240 , 60 , 30 , 30 ]
+brush
+	name "HUDICONSMALL_FRIGATE_DAUNTLESS"
+	content "Simple"
+	fileName "Cruiser_Pips"
+	pixelBox [ 240 , 90 , 30 , 30 ]
 brush
 	name "HUDICONSMALL_FRIGATE_GALLOFREE"
 	content "Simple"
@@ -983,6 +988,24 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 57 , 121 , 52 , 37 ]
+brush
+	name "HUDICON_DAUNTLESS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 57 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 57 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 57 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 57 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 57 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_BAC"
 	content "States"

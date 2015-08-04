@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2473
+entityNameCount 2474
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -565,6 +565,7 @@ entityName "BuffRhazersEdgeSelf.entity"
 entityName "BuffRhazersEdgeTarget.entity"
 entityName "AbilityResilient.entity"
 entityName "BuffResilientCheck.entity"
+entityName "BuffResilientPassive.entity"
 entityName "BuffResilientCooldown.entity"
 entityName "BuffResilientSelf.entity"
 entityName "AbilityEotHPrimaryIndustry.entity"
