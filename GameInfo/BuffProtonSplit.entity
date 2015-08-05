@@ -23,11 +23,11 @@ instantAction
 		numOwnerships 1
 		ownership "Enemy"
 		numObjects 5
+		object "PlanetModule"
+		object "StarBase"
 		object "CapitalShip"
 		object "Frigate"
 		object "Titan"
-		object "StarBase"
-		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0

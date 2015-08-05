@@ -1,27 +1,15 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
-instantActionTriggerType "OnWeaponFired"
-numWeaponClasses 1
-weaponClassForWeaponPassive "PHASEMISSILE"
-passiveWeaponEffectChance
-	Level:0 1.000000
-	Level:1 1.000000
-	Level:2 1.000000
-	Level:3 1.000000
-buffType "BuffProtonSplitInitial"
-targetFilter
-	numOwnerships 1
-	ownership "Enemy"
-	numObjects 5
-	object "PlanetModule"
-	object "StarBase"
-	object "CapitalShip"
-	object "Frigate"
-	object "Titan"
-	numSpaces 1
-	space "Normal"
-	numConstraints 0
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffProtonSplit"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_FRIGATE_DAUNTLESS"
-smallHudIcon "HUDICON_FRIGATE_DAUNTLESS"
+hudIcon "HUDICON_DAUNTLESS"
+smallHudIcon "HUDICON_DAUNTLESS"
 infoCardIcon ""
 NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
 DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 1 ]
+	pos [ 3 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 3
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

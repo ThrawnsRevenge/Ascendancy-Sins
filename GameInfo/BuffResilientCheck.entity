@@ -14,7 +14,7 @@ instantAction
 	instantActionConditionType "IfOwnerDoesNotHaveBuff"
 	conditionBuffType "BuffResilientCooldown"
 	conditionBuffShortName ""
-	buffType "BuffResilientSelfCheck"
+	buffType "BuffResilientSelf"
 	effectInfo
 		effectAttachInfo
 			attachType "Center"

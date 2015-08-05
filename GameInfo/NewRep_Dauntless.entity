@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_ASSAULTFRIGATE"
-smallHudIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
-infoCardIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+hudIcon "HUDICON_DAUNTLESS"
+smallHudIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
+infoCardIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
 minZoomDistanceMult 2.500000
 NumWeapons 2
 Weapon
