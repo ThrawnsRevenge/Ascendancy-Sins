@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2474
+entityNameCount 2478
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
@@ -555,6 +555,10 @@ entityName "AbilityProtonSplit.entity"
 entityName "BuffProtonSplitDamage.entity"
 entityName "BuffProtonSplitInitial.entity"
 entityName "BuffProtonSplit.entity"
+entityName "AbilitySmugglers.entity"
+entityName "BuffSmugglersMoney.entity"
+entityName "BuffSmugglersPlanet.entity"
+entityName "BuffSmugglersSelf.entity"
 entityName "BuffRhazersEdgeTarget.entity"
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "BuffDissidentExpulsion.entity"

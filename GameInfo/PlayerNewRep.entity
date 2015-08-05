@@ -10,7 +10,7 @@ randomStarBaseNamePrefix "IDS_STARBASENAME_NEWREP"
 entities
 	planetModuleInfo
 		Page:0
-			count 8
+			count 9
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "NewRep_FrigateShipyard"
 			entityDefName "NewRep_CombatLab"
@@ -19,6 +19,7 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "NewRep_CapitalShipyard"
 			entityDefName "NewRep_PolicyLab"
+			entityDefName "NewRep_SmugglerDen"
 		Page:1
 			count 5
 			entityDefName "NewRep_GolanI"
