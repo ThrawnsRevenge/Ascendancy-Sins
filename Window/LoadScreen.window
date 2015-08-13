@@ -4,8 +4,8 @@ pictureBackdropArea [0, 0,  1024 , 768]
 pictureArea [0, 0,  1024 , 768]
 tipBackdropArea [180, 450, 803 , 176]
 tipTextArea [-5000, -5000, 550 , 100]
-barBackdropArea [189, 633, 635, 55]
-barProgressArea [190, 633, 633, 55]
+barBackdropArea [230, 633, 602, 34]
+barProgressArea [212, 633, 602, 34]
 barBackdrop "LoadScreenBarBackdrop"
 barOverlay "LoadScreenBarOverlay"
 barProgress "LoadScreenBarProgress"
@@ -14,8 +14,11 @@ tipOverlay "LoadScreenTipOverlay"
 pictureBackdrop "LoadScreenPictureBackdrop"
 pictureOverlay "LoadScreenPictureOverlay"
 tipTextFont "Label"
-pictureCount 1
-pictureBrush "LoadScreenPicture0"
+pictureCount 4
+pictureBrush "LoadScreenPicture_Faction_IR"
+pictureBrush "LoadScreenPicture_Faction_NR"
+pictureBrush "LoadScreenPicture_Faction_EOTH"
+pictureBrush "LoadScreenPicture_Faction_PA"
 exclusivePictureBrush ""
 tipCount 36
 tip "IDSLoadScreenTip00"
