@@ -17,15 +17,17 @@ periodicAction
 		Level:2 100.000000
 		Level:3 100.000000
 	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "IndentifierTradeStation"
+	conditionBuffShortName ""
 	buffType "BuffSmugglersPlanet"
 	targetFilter
 		numOwnerships 2
 		ownership "Enemy"
 		ownership "NoOwner"
 		numObjects 1
-		object "Planet"
+		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
