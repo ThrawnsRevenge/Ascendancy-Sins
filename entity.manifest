@@ -1,7 +1,7 @@
 TXT
 entityNameCount 2480
-entityName "IdentifierTradeStation.entity"
-entityName "IdentifierTradeStationAbility.entity"
+entityName "BuffTradeStation.entity"
+entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
 entityName "Remnant_SentinelConstructor.entity"
 entityName "NewRep_GallofreeConstructor.entity"
