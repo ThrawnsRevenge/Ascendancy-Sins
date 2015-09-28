@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2480
+entityNameCount 2483
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -165,6 +165,9 @@ entityName "EotHResearch_Global_CommStation.entity"
 entityName "EotHResearch_Global_UnitedFront.entity"
 entityName "EotHResearch_Global_Bulwark.entity"
 entityName "EotHResearch_Global_Infrastructure.entity"
+entityName "EotHResearch_Global_RulingFamilies.entity"
+entityName "EotHResearch_Global_Irokini.entity"
+entityName "EotHResearch_Global_Csapla.entity"
 entityName "EotHResearch_MaxCapitalShips0.entity"
 entityName "EotHResearch_MaxCapitalShips1.entity"
 entityName "EotHResearch_MaxCapitalShips2.entity"

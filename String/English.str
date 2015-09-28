@@ -64,25 +64,43 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
 	Value "Relocation"
 StringInfo
-	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
+	ID "IDS_EOTHRESEARCH_GROWTH_DESCRIPTION"
 	Value "The vast territory under the Empire of the Hand's influence allows them to relocate population as necessary."
+StringInfo
+	ID "IDS_EOTHRESEARCH_RULINGFAMILIES_NAME"
+	Value "Ruling Families"
+StringInfo
+	ID "IDS_EOTHRESEARCH_RULINGFAMILIES_DESCRIPTION"
+	Value "The empire of the Hand begins to re-establish closer ties with the Chiss Ascendancy, allowing the filtering of Ascendancy resources and personnel into the Hand."
+StringInfo
+	ID "IDS_EOTHRESEARCH_IROKINI_NAME"
+	Value "Irokini Family"
+StringInfo
+	ID "IDS_EOTHRESEARCH_IROKINI_DESCRIPTION"
+	Value "The Empire of the Hand begins cooperation witht he Irokini family, providing bonuses to research speed and cost."
+StringInfo
+	ID "IDS_EOTHRESEARCH_CSAPLA_NAME"
+	Value "Irokini Family"
+StringInfo
+	ID "IDS_EOTHRESEARCH_CSAPLA_DESCRIPTION"
+	Value "The Csapla family takes over responsibility for Hand colony worlds and primary industry."
 StringInfo
 	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
 	Value "Recovery"
 StringInfo
-	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
+	ID "IDS_EOTHRESEARCH_RECOVERY_DESCRIPTION"
 	Value "Delegation of recovery efforts after bombardment to local population allows quicker health regeneration."
 StringInfo
 	ID "IDS_EOTHRESEARCH_HIDDENBASES_NAME"
 	Value "Hidden Bases"
 StringInfo
-	ID "IDS_EOTHRESEARCH_HIDDENBASES_NAME"
+	ID "IDS_EOTHRESEARCH_HIDDENBASES_DESCRIPTION"
 	Value "Hand military bases being moved to secret locations makes them more difficult to target during orbital bombardment."
 StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDFIRE_NAME"
 	Value "Overcharge"
 StringInfo
-	ID "IDS_EOTHRESEARCH_RAPIDFIRE_NAME"
+	ID "IDS_EOTHRESEARCH_RAPIDFIRE_DESCRIPTION"
 	Value "Empire of the Hand ships are able to fire at faster rates."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_URBAN_NAME"
@@ -1845,6 +1863,12 @@ StringInfo
 StringInfo
 	ID "IDS_REMNANTRESEARCH_HOLONETMONITORING_DESCRIPTION"
 	Value "Imperial agents will monitor all enemy holonet transmissions to determine their reach in the galaxy."
+StringInfo
+	ID "IDS_EOTHRESEARCH_NIRAUANARCHIVES_NAME"
+	Value "Nirauan Archives"
+StringInfo
+	ID "IDS_EOTHRESEARCH_NIRAUANARCHIVESDESCRIPTION"
+	Value "Monitoring technology along with the vast galactic information archives stored in the Hand of Thrawn on Nirauan allow the tracking of all military movements."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_VISIBLETHREAT_NAME"
 	Value "Visible Threat"

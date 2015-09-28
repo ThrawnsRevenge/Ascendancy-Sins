@@ -31,9 +31,9 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
-	modifierType "BombingDamageAsDamageTargetAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.150000
+	perLevelValue 0.050000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

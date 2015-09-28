@@ -7,7 +7,7 @@ NameStringID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
 DescriptionStringID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 1 , 1 ]
+	pos [ 0 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -24,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
