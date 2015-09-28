@@ -7,9 +7,9 @@ MeshData
 	MinBoundingExtents [ -156.116745 -43.595726 -251.682083 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName ""
-		SelfIlluminationTextureFileName ""
-		NormalTextureFileName ""
+		DiffuseTextureFileName "Allegiance-cl.dds"
+		SelfIlluminationTextureFileName "Allegiance-da.dds"
+		NormalTextureFileName "Allegiance-nm.dds"
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
 		Diffuse ffffffff
