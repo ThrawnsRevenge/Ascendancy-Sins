@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2483
+entityNameCount 2484
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -358,6 +358,7 @@ entityName "Remnant_VSDI.entity"
 entityName "Remnant_VSDII.entity"
 entityName "Remnant_Immobilizer.entity"
 entityName "Remnant_Altor.entity"
+entityName "Remnant_Allegiance.entity"
 entityName "Remnant_Strikecruiser.entity"
 entityName "Remnant_Dreadnaught.entity"
 entityName "Remnant_Katana.entity"

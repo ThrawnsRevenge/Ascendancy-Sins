@@ -748,6 +748,12 @@ StringInfo
 	ID "IDS_CAPITALSHIP_ISDII_DESCRIPTION"
 	Value "Stronger and more powerful than the venerable Imperial Star Destroyer, the ImpStar Deuce has near unmatched versatility."
 StringInfo
+	ID "IDS_CAPITALSHIP_ALLEGIANCE_NAME"
+	Value "Allegiance Star Destroyer"
+StringInfo
+	ID "IDS_CAPITALSHIP_ALLEGIANCE_DESCRIPTION"
+	Value "An large offense-oriented Star Destroyer model which sacrifices hangar capacity for extra armour plating."
+StringInfo
 	ID "IDS_CAPITALSHIP_WORLDEVASTATOR_NAME"
 	Value "World Devastator"
 StringInfo
