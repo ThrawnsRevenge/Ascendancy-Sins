@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityInterdictCapital"
-ability:1 ""
-ability:2 ""
+ability:1 "AbilityOverwhelmCapital"
+ability:2 "AbilityEmbargo"
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 defaultAutoAttackRange "GravityWell"

@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityPhalanxMicroJump"
 ability:1 "AbilityRhazersEdge"
-ability:2 ""
+ability:2 "AbilityCloseQuarters"
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 defaultAutoAttackRange "GravityWell"

@@ -13,6 +13,12 @@ StringInfo
 	ID "IDS_ABILITY_IMPERIALFUROR_DESCRIPTION"
 	Value "As the Allegiance fires, it increases its firing speed by up to 15 percent. This bonus falls off after 5 seconds of not firing."
 StringInfo
+	ID "IDS_ABILITY_CLOSEQUARTERS_NAME"
+	Value "Close Quarters"
+StringInfo
+	ID "IDS_ABILITY_CLOSEQUARTERS_DESCRIPTION"
+	Value "This ship calculates a microjump to its target and, upon exiting hyperspace, directs power to its weapons."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
 	Value "Open Markets"
 StringInfo
@@ -11972,7 +11978,7 @@ StringInfo
 	Value "Embargo"
 StringInfo
 	ID "IDS_ABILITY_EMBARGO_DESCRIPTION"
-	Value "Steals income from the planet's production, slows construction of ships and structures, and prevents enemy civilian merchant ships from leaving the gravity well."
+	Value "Sets up a blockade which steals income from the planet's production, slows construction of ships and structures, and prevents enemy civilian merchant ships from leaving the gravity well."
 StringInfo
 	ID "IDS_ABILITY_EMPBLAST_NAME"
 	Value "EMP Charge"

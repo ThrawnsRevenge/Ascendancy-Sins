@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2488
+entityNameCount 2490
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -559,6 +559,8 @@ entityName "AlignmentResearch_ShipUnlock_Praetor.entity"
 entityName "AlignmentResearch_ShipUnlock_ISDII.entity"
 entityName "AbilityImperialFuror.entity"
 entityName "BuffImperialFurorSelf.entity"
+entityName "AbilityCloseQuarters.entity"
+entityName "BuffCloseQuartersInitial.entity"
 entityName "BuffImperialFurorTarget.entity"
 entityName "BuffImperialFurorBonus.entity"
 entityName "AbilityProtonSplit.entity"
