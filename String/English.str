@@ -7,6 +7,12 @@ StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo
+	ID "IDS_ABILITY_IMPERIALFUROR_NAME"
+	Value "Imperial Furor"
+StringInfo
+	ID "IDS_ABILITY_IMPERIALFUROR_DESCRIPTION"
+	Value "As the Allegiance fires, it increases its firing speed by up to 15 percent. This bonus falls off after 5 seconds of not firing."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
 	Value "Open Markets"
 StringInfo
