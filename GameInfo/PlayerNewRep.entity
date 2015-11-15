@@ -70,7 +70,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 98
+		count 99
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -92,6 +92,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_Endurance"
 		entityDefName "NewRepResearch_ShipUnlock_Bwing"
 		entityDefName "NewRepResearch_ShipUnlock_AssaultFrigate"
+		entityDefName "NewRepResearch_ShipUnlock_Proficient"
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
 		entityDefName "NewRepResearch_ShipUnlock_MC30"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
