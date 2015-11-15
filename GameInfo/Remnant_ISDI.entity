@@ -255,7 +255,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_ISDI"
+	meshName "IR_Allegiance"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
