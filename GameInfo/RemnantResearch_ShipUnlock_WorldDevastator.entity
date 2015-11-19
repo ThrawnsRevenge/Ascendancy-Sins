@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_WORLDDEVASTATOR"
 smallHudIcon "HUDICON_WORLDDEVASTATOR"
 infoCardIcon ""
-NameStringID "IDS_CAPITALSHIP_WORLDDEVASTATOR_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_WORLDDEVASTATOR_DESCRIPTION"
+NameStringID "IDS_UNLOCK_WORLDDEVASTATOR_NAME"
+DescriptionStringID "IDS_UNLOCK_WORLDDEVASTATOR_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 6 , 3 ]
@@ -28,7 +28,12 @@ Tier 6
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
+researchBoolModifiers 2
+researchModifier
+	modifierType "StripPlanetsOnScuttle"
+researchModifier
+	modifierType "ApplyBuffToPlanetsAfterScuttle"
+	buffToApply "BuffStrippedToTheCoreSelf"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

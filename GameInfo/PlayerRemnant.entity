@@ -33,12 +33,11 @@ entities
 			entityDefName "Remnant_Sovereign"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Remnant_ISDI"
 			entityDefName "Remnant_ISDII"
 			entityDefName "Remnant_Altor"
 			entityDefName "Remnant_Allegiance"	
-			entityDefName "Remnant_WorldDevastator"	
 			entityDefName "Remnant_Command_ISDI"
 			entityDefName "Remnant_Command_ISDII"
 			entityDefName "Remnant_Command_Praetor"
