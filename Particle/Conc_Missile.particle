@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 999.000000
-	NumEmitters 4
+	NumEmitters 6
 	EmitterType "Point"
 	EmitterContents
 		Name "Core"
@@ -23,9 +23,9 @@ ParticleSimulation
 		ParticleStartMass 1.000000
 		ParticleStartColor ff7f6040
 		ParticleWidth 3.000000
-		ParticleHeight 175.000000
+		ParticleHeight 200.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -15.000000 ]
+		Position [ 0.000000 0.000000 -30.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -70,10 +70,10 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ff501400
-		ParticleWidth 30.000000
-		ParticleHeight 200.000000
+		ParticleWidth 20.000000
+		ParticleHeight 250.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -15.000000 ]
+		Position [ 0.000000 0.000000 -30.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -117,9 +117,9 @@ ParticleSimulation
 		ParticleMinStartRotation -1.570796
 		ParticleMaxStartRotation 1.047198
 		ParticleStartMass 1.000000
-		ParticleStartColor ff7f3214
-		ParticleWidth 50.000000
-		ParticleHeight 50.000000
+		ParticleStartColor ffc04000
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
 		Orientation
@@ -195,7 +195,103 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 3.141593
-	NumAffectors 2
+	EmitterType "Point"
+	EmitterContents
+		Name "FireTrail"
+		Enabled TRUE
+		EmitRate 40.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 0
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 1.000000
+		ParticleMinStartAngularSpeed 1.745329
+		ParticleMaxStartAngularSpeed 8.726646
+		ParticleMinStartRotation -1.570796
+		ParticleMaxStartRotation 1.047198
+		ParticleStartMass 1.000000
+		ParticleStartColor ffe0e0e0
+		ParticleWidth 12.000000
+		ParticleHeight 12.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\exexplo03.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "GlowBar"
+		Enabled TRUE
+		EmitRate 50.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 2
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 100.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 10.471975
+		ParticleMaxStartAngularSpeed 17.453293
+		ParticleMinStartRotation -1.570796
+		ParticleMaxStartRotation 1.047198
+		ParticleStartMass 1.000000
+		ParticleStartColor ff402000
+		ParticleWidth 100.000000
+		ParticleHeight 1.500000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	NumAffectors 4
 	AffectorType "Fade"
 	AffectorContents
 		Name "fade"
@@ -208,9 +304,10 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 3
 		attachedEmitterName "Core"
 		attachedEmitterName "Glow"
+		attachedEmitterName "FireTrail"
 		DoFadeOut TRUE
 		FadeOutTime 0.500000
 		DoFadeIn TRUE
@@ -232,4 +329,37 @@ ParticleSimulation
 		attachedEmitterName "Glow"
 		WidthInflateRate -5.000000
 		HeightInflateRate -8.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "FlameShrink"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "FireTrail"
+		WidthInflateRate -12.000000
+		HeightInflateRate -12.000000
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "FireBackwards"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "FireTrail"
+		MinForce 1000.000000
+		MaxForce 2000.000000
+		Direction [ 0.000000 0.000000 -1.000000 ]
 	length 0.000000
