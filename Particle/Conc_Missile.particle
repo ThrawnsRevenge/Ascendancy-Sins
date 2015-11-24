@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 999.000000
-	NumEmitters 6
+	NumEmitters 7
 	EmitterType "Point"
 	EmitterContents
 		Name "Core"
@@ -109,7 +109,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 100.000000
+		ParticleLifeTime 1000.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 10.471975
@@ -117,9 +117,9 @@ ParticleSimulation
 		ParticleMinStartRotation -1.570796
 		ParticleMaxStartRotation 1.047198
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc04000
-		ParticleWidth 60.000000
-		ParticleHeight 60.000000
+		ParticleStartColor ff5a2000
+		ParticleWidth 80.000000
+		ParticleHeight 80.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
 		Orientation
@@ -150,14 +150,14 @@ ParticleSimulation
 	EmitterType "Point"
 	EmitterContents
 		Name "Missile Model"
-		Enabled FALSE
+		Enabled TRUE
 		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 300.000000
+		ParticleLifeTime 30000.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -166,23 +166,23 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 0.300000
-		ParticleHeight 0.300000
-		MeshName "Weapon_TechCruiserMissile.mesh"
-		Position [ 0.000000 0.000000 0.000000 ]
+		ParticleWidth 1.000000
+		ParticleHeight 1.000000
+		MeshName "Weapon_TechCapitalMissile.MESH"
+		Position [ 0.000000 0.000000 -5.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
+			 [ 0.000000 0.999848 0.017452 ]
+			 [ 0.000000 -0.017452 0.999848 ]
+		RotateAboutForward 1.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_MeshOld.fx"
+		ParticleFacing 1
+		PipelineEffectID "GS_Ship.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName ""
@@ -192,9 +192,9 @@ ParticleSimulation
 		textureAnimationOnParticleFPS 0.000000
 		ParticlesRotate FALSE
 		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		MeshParticleRotationAxis [ 0.000000 1.000000 0.000000 ]
 		RotationDirectionType 0
-		AngleVariance 3.141593
+		AngleVariance 0.000000
 	EmitterType "Point"
 	EmitterContents
 		Name "FireTrail"
@@ -214,8 +214,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.047198
 		ParticleStartMass 1.000000
 		ParticleStartColor ffe0e0e0
-		ParticleWidth 12.000000
-		ParticleHeight 12.000000
+		ParticleWidth 8.000000
+		ParticleHeight 8.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
 		Orientation
@@ -291,6 +291,54 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "GlowPoint - White"
+		Enabled TRUE
+		EmitRate 50.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 2
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 1000.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 10.471975
+		ParticleMaxStartAngularSpeed 17.453293
+		ParticleMinStartRotation -1.570796
+		ParticleMaxStartRotation 1.047198
+		ParticleStartMass 1.000000
+		ParticleStartColor ffc0c0c0
+		ParticleWidth 25.000000
+		ParticleHeight 25.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.80\ascendancy\Textures\W_SPARKLE.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
 	NumAffectors 4
 	AffectorType "Fade"
 	AffectorContents
@@ -343,8 +391,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "FireTrail"
-		WidthInflateRate -12.000000
-		HeightInflateRate -12.000000
+		WidthInflateRate -10.000000
+		HeightInflateRate -10.000000
 	AffectorType "LinearForceInDirection"
 	AffectorContents
 		Name "FireBackwards"
