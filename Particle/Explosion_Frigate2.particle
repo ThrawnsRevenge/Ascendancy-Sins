@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 4.000000
-	NumEmitters 9
+	NumEmitters 10
 	EmitterType "Sphere"
 	EmitterContents
 		Name "smoke ring"
@@ -69,13 +69,13 @@ ParticleSimulation
 		Enabled TRUE
 		EmitRate 1000.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 25
+		MaxEmitCount 40
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
 		ParticleLifeTime 2.000000
 		ParticleMinStartLinearSpeed 50.000000
-		ParticleMaxStartLinearSpeed 300.000000
+		ParticleMaxStartLinearSpeed 600.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
@@ -175,7 +175,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 80.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 20
 		hasEmitIntervals FALSE
@@ -201,7 +201,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.400000
+		StartTime 0.200000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
@@ -235,11 +235,11 @@ ParticleSimulation
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
+		ParticleMaxStartRotation 2.617994
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 0.000000
-		ParticleHeight 0.000000
+		ParticleWidth 10.000000
+		ParticleHeight 10.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -277,7 +277,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.400000
+		ParticleLifeTime 0.300000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -286,8 +286,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
 		ParticleStartColor ffc06400
-		ParticleWidth 500.000000
-		ParticleHeight 500.000000
+		ParticleWidth 700.000000
+		ParticleHeight 700.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -373,7 +373,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.000000
+		ParticleLifeTime 1.600000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -415,13 +415,13 @@ ParticleSimulation
 	EmitterContents
 		Name "(copy) Flash!-2"
 		Enabled TRUE
-		EmitRate 15.000000
+		EmitRate 1500.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 1
+		MaxEmitCount 2
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.400000
+		ParticleLifeTime 0.300000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -430,8 +430,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 300.000000
-		ParticleHeight 300.000000
+		ParticleWidth 500.000000
+		ParticleHeight 500.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -459,7 +459,55 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 3.141593
-	NumAffectors 8
+	EmitterType "Point"
+	EmitterContents
+		Name "QuickFire"
+		Enabled TRUE
+		EmitRate 100.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 10
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.300000
+		ParticleMinStartLinearSpeed 50.000000
+		ParticleMaxStartLinearSpeed 100.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 40.000000
+		ParticleHeight 40.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.400000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	NumAffectors 9
 	AffectorType "LinearInflate"
 	AffectorContents
 		Name ""
@@ -472,9 +520,10 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 3
 		attachedEmitterName "smoke ring"
 		attachedEmitterName "Fire"
+		attachedEmitterName "QuickFire"
 		WidthInflateRate 150.000000
 		HeightInflateRate 150.000000
 	AffectorType "Fade"
@@ -489,10 +538,11 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
+		numAttachedEmitters 4
 		attachedEmitterName "shock out"
 		attachedEmitterName "cloud out"
 		attachedEmitterName "Fire"
+		attachedEmitterName "QuickFire"
 		DoFadeOut TRUE
 		FadeOutTime 1.500000
 		DoFadeIn TRUE
@@ -597,10 +647,25 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
+		numAttachedEmitters 1
 		attachedEmitterName "Flash!"
-		attachedEmitterName "(copy) Flash!-1"
-		attachedEmitterName "(copy) Flash!-2"
 		WidthInflateRate 1000.000000
 		HeightInflateRate 1000.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(copy) (new) LinearInflate-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "(copy) Flash!-2"
+		attachedEmitterName "(copy) Flash!-1"
+		WidthInflateRate 1500.000000
+		HeightInflateRate 1500.000000
 	length 0.000000

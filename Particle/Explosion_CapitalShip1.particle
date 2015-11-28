@@ -113,7 +113,7 @@ ParticleSimulation
 		AngleVariance 3.141593
 	EmitterType "Point"
 	EmitterContents
-		Name "(copy) BigFLASH-1"
+		Name "LingeringGlow"
 		Enabled TRUE
 		EmitRate 40.000000
 		HasInfiniteEmitCount FALSE
@@ -163,9 +163,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Tails"
 		Enabled TRUE
-		EmitRate 25.000000
+		EmitRate 80.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 5
+		MaxEmitCount 6
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -217,7 +217,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.200000
+		ParticleLifeTime 0.300000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -367,15 +367,15 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 150.000000
+		EmitRate 80.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 40
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.100000
+		ParticleLifeTime 1.500000
 		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 200.000000
+		ParticleMaxStartLinearSpeed 100.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.523599
 		ParticleMinStartRotation -0.785398
@@ -523,9 +523,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Streaks"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 25.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 5
+		MaxEmitCount 3
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -549,7 +549,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.200000
+		StartTime 0.300000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
@@ -679,9 +679,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Sparks"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 160.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 30
+		MaxEmitCount 20
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -693,7 +693,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffc0c0c0
 		ParticleWidth 50.000000
 		ParticleHeight 50.000000
 		MeshName ""
@@ -739,7 +739,7 @@ ParticleSimulation
 	EmitterContents
 		Name "SmallSparks"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 30
 		hasEmitIntervals FALSE
@@ -805,7 +805,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.200000
+		ParticleLifeTime 0.300000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -814,8 +814,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.186824
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 3000.000000
-		ParticleHeight 3000.000000
+		ParticleWidth 5000.000000
+		ParticleHeight 5000.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -875,13 +875,13 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 8
 		attachedEmitterName "Smoke"
-		attachedEmitterName "(copy) BigFLASH-1"
 		attachedEmitterName "SparkPlane"
 		attachedEmitterName "(copy) Fire-1"
 		attachedEmitterName "Fire"
 		attachedEmitterName "Streaks"
 		attachedEmitterName "Sparks"
 		attachedEmitterName "SmallSparks"
+		attachedEmitterName "LingeringGlow"
 		DoFadeOut TRUE
 		FadeOutTime 3.000000
 		DoFadeIn TRUE
@@ -978,7 +978,7 @@ ParticleSimulation
 		attachedEmitterName "Flash!"
 		attachedEmitterName "FlashWhite"
 		WidthInflateRate 5000.000000
-		HeightInflateRate 100.000000
+		HeightInflateRate 5000.000000
 	AffectorType "LinearInflate"
 	AffectorContents
 		Name "FasterScale"
