@@ -12,7 +12,7 @@ ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_MaxShipSlot3"
+		Subject "NewRepResearch_MaxShipSlots3"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
