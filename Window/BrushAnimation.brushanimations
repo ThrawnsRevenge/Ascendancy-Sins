@@ -13,8 +13,8 @@ animation-ResearchButtonOverlay
 	numFrames 16
 	textureName "Animation_TopGlow.tga"
 	startTopLeft [0,0]
-	width 123
-	height 93
+	width 170
+	height 110
 	numPerRow 4
 	horizontalStride 125
 	verticalStride 94

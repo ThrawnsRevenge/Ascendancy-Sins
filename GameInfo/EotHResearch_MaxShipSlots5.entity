@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5"
-infoCardIcon ""
+hudIcon "Hand_FleetResearchCommand_Icon6"
+smallHudIcon "Hand_FleetResearchCommand_Icon6"
+infoCardIcon "EOTH_FleetResearchCommand6"
 NameStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTSTECH5_DESCRIPTION"
 researchWindowLocation

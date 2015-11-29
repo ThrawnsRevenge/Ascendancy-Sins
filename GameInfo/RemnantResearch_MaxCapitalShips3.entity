@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_MAXCAPITALSHIPS3"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_MAXCAPITALSHIPS3"
-infoCardIcon ""
+hudIcon "Imperial_FleetResearchCommand_Icon4"
+smallHudIcon "Imperial_FleetResearchCommand_Icon4"
+infoCardIcon "IR_FleetResearchCommand4"
 NameStringID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_DESCRIPTION"
 researchWindowLocation

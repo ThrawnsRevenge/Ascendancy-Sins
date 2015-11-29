@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 344
+brushCount 404
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -3623,3 +3623,303 @@ brush
 	Normal
 		fileName "Buttons_Screens2_Normal"
 		pixelBox [ 638 , 4 , 85 , 38 ]
+brush
+	name "IR_FleetResearchCommand0"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand1"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 200 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand2"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 399 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand3"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 598 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand4"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 797 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand5"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 996 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand6"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1195 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand7"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1394 , 150 , 198 , 148 ]
+brush
+	name "IR_FleetResearchCommand8"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1593 , 150 , 198 , 148 ]
+brush
+	name "PA_FleetResearchCommand0"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand1"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 200 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand2"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 399 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand3"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 598 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand4"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 797 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand5"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 996 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand6"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1195 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand7"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1394 , 447 ,  198 , 148 ]
+brush
+	name "PA_FleetResearchCommand8"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1593 , 447 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand0"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand1"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 200 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand2"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 399 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand3"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 598 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand4"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 797 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand5"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 996 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand6"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1195 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand7"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1394 , 1 ,  198 , 148 ]
+brush
+	name "NR_FleetResearchCommand8"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1593 , 1 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand0"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand1"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 200 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand2"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 399 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand3"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 598 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand4"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 797 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand5"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 996 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand6"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1195 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand7"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1394 , 299 ,  198 , 148 ]
+brush
+	name "EOTH_FleetResearchCommand8"
+	content "Simple"
+	fileName "FleetCommandResearchPictures"
+	pixelBox [ 1593 , 299 ,  198 , 148 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon1"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 1 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon2"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 48 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon3"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 95 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon4"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 142 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon5"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 189 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon6"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 236 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon7"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 283 , 1 ,  46 , 34 ]
+brush
+	name "Imperial_FleetResearchCommand_Icon8"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 330 , 1 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon1"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 1 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon2"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 48 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon3"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 95 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon4"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 142 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon5"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 189 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon6"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 236 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon7"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 283 , 36 ,  46 , 34 ]
+brush
+	name "NewRepublic_FleetResearchCommand_Icon8"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 330 , 36 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon1"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 1 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon2"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 48 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon3"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 95 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon4"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 142 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon5"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 189 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon6"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 236 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon7"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 283 , 71 ,  46 , 34 ]
+brush
+	name "Hand_FleetResearchCommand_Icon8"
+	content "Simple"
+	fileName "FleetCommandResearchIcons"
+	pixelBox [ 330 , 71 ,  46 , 34 ]
