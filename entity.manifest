@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2490
+entityNameCount 2491
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -330,6 +330,7 @@ entityName "NewRepResearch_ShipUnlock_MC90_Command.entity"
 entityName "NewRepResearch_ShipUnlock_Nebula_Command.entity"
 entityName "NewRepResearch_ShipUnlock_Endurance.entity"
 entityName "NewRepResearch_ShipUnlock_AssaultFrigate.entity"
+entityName "NewRepResearch_ShipUnlock_Proficient.entity"
 entityName "NewRepResearch_ShipUnlock_Hajen.entity"
 entityName "NewRepResearch_ShipUnlock_Dauntless.entity"
 entityName "NewRepResearch_ShipUnlock_BAC.entity"

@@ -7,9 +7,9 @@ MeshData
 	MinBoundingExtents [ -16.244141 -4.814391 -27.764366 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName "PA_Secutor-cl.dda"
-		SelfIlluminationTextureFileName "PA_Secutor-da.dda"
-		NormalTextureFileName "PA_Secutor-nm.dda"
+		DiffuseTextureFileName "PA_Arquitens-cl.dds"
+		SelfIlluminationTextureFileName "PA_Arquitens-da.dds"
+		NormalTextureFileName "PA_Arquitens-nm.dds"
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
 		Diffuse ffffffff

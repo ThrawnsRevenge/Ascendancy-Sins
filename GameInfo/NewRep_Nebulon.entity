@@ -167,7 +167,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_PHASEAA_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "HC_BattleDragon"
+	meshName "NR_Nebulon"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
