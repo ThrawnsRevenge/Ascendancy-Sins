@@ -12,7 +12,7 @@ ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_MAXSHIPSLOTSPSI0"
+		Subject "AlignmentResearch_MaxShipSlots0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

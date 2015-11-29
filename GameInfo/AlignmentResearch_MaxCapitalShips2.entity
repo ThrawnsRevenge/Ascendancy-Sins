@@ -12,7 +12,7 @@ ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_MaxCapitalShips1"
+		Subject "AlignmentResearch_MaxCapitalShips1"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
