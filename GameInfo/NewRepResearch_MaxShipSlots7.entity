@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "Republic_FleetResearchCommand_Icon8"
-smallHudIcon "Republic_FleetResearchCommand_Icon8"
+hudIcon "NewRepublic_FleetResearchCommand_Icon8"
+smallHudIcon "NewRepublic_FleetResearchCommand_Icon8"
 infoCardIcon "NR_FleetResearchCommand8"
 NameStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_DESCRIPTION"
