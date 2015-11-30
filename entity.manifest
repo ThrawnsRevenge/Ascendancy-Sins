@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2523
+entityNameCount 2524
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -649,6 +649,7 @@ entityName "AbilityMilitarySpecialization.entity"
 entityName "AbilitySovereignSuperlaser.entity"
 entityName "AbilityRepairPlatformRemnant.entity"
 entityName "AbilityRemnantFighters.entity"
+entityName "AbilityMTCHangar.entity"
 entityName "AbilityAltorRepair.entity"
 entityName "AbilityAltorFighters.entity"
 entityName "AbilityHajenRepair.entity"

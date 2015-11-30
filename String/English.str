@@ -1375,6 +1375,12 @@ StringInfo
 	ID "IDS_FRIGATE_VINDICATOR_DESCRIPTION"
 	Value "A light picket frigate."
 StringInfo
+	ID "IDS_FRIGATE_MTC_NAME"
+	Value "Modular Taskforce Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_MTC_DESCRIPTION"
+	Value "This modular frigate resupplies other ships in your fleet, and can have different modules installed for other effects. Can only support one additional module."
+StringInfo
 	ID "IDS_FRIGATE_HAJEN_NAME"
 	Value "Hajen Fleet Tender"
 StringInfo
@@ -1535,7 +1541,7 @@ StringInfo
 	Value "Fighter Support"
 StringInfo
 	ID "IDS_ABILITY_REFIT_DESCRIPTION"
-	Value "Refits the Acclamator with better fighter upkeep infrastructure, allowing it to field an additional squadron. Only usable once."
+	Value "Refits this ship with better fighter upkeep infrastructure, allowing it to field an additional squadron. Only usable once."
 StringInfo
 	ID "IDS_ABILITY_CRACKMANTLE_NAME"
 	Value "Crack Mantle"

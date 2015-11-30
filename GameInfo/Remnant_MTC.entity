@@ -139,10 +139,10 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 ""
-ability:1 ""
+ability:0 "AbilityHajenFighters"
+ability:1 "AbilityMTCHangar"
 ability:2 ""
-ability:3 "AbilityThrawnDoctrine"
+ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 36.000000
 AntiMatterRestoreRate 0.000000
