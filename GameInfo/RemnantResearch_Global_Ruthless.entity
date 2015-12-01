@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_RUTHLESS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 3 ]
+	pos [ 5 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1

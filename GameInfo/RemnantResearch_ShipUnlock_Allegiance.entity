@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ESCORTCARRIER"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER"
+hudIcon "HUDICON_ALLEGIANCE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_ALLEGIANCE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_ALLEGIANCE_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_ALLEGIANCE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 0 ]
+	pos [ 5 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_ISDII"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 0
+Tier 5
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
