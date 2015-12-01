@@ -40,15 +40,15 @@ animation-OpenPlayersWindowButtonOverlay
 	verticalStride 94
 	framesPerSecond 15
 animation-ResearchSubjectButtonTopOfQueueOverlay
-	numFrames 12
-	textureName "Animation_ResearchInProgress.tga"
-	startTopLeft [3,3]
-	width 74
-	height 62
-	numPerRow 3
-	horizontalStride 77
-	verticalStride 63
-	framesPerSecond 10
+	numFrames 16
+	textureName "Animation_TopGlow.tga"
+	startTopLeft [0,0]
+	width 170
+	height 103
+	numPerRow 4
+	horizontalStride 125
+	verticalStride 94
+	framesPerSecond 15
 animation-ResearchSubjectButtonRequiredAsPrerequisiteOverlay
 	numFrames 12
 	textureName "Animation_PreRec.tga"

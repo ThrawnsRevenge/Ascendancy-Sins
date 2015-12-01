@@ -703,59 +703,59 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 93 , 690 , 240 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 50 , 710 , 280 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleCombat0Remnant"
-			picture "ResearchScreenBlockPictureCombat1Psi"
+			picture "Null"
 		block
-			area [ 50 , 343 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 340, 710 , 170 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleCombat1NewRep"
-			picture "ResearchScreenBlockPictureNonCombat0Phase"
+			picture "Null"
 		block
-			area [ 50 , 545, 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 520, 710 , 60 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleCombat2NewRep"
-			picture "ResearchScreenBlockPictureCombat1Tech"
+			picture "Null"
 	Defense
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 235 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 50 , 710 , 260 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleDefense0Psi"
-			picture "ResearchScreenBlockPictureDefense0Psi"
+			picture "Null"
 	NonCombat
 		blockCount 3
 		block
-			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 50 , 710 , 210 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleNonCombat0Remnant"
-			picture "ResearchScreenBlockPictureNonCombat0Psi"
+			picture "Null"
 		block
-			area [ 50 , 295 , 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 270 , 710 , 160 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleNonCombat1Remnant"
-			picture "ResearchScreenBlockPictureNonCombat1Psi"
+			picture "Null"
 		block
-			area [ 50 , 449 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 440 , 710 , 210 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleNonCombat2Remnant"
-			picture "ResearchScreenBlockPictureNonCombat2Psi"
+			picture "Null"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 292 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			area [ 30 , 50 , 710 , 310 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Null"
 			title "IDS_RESEARCHFIELD_DIPLOMACY"
-			picture "ResearchScreenBlockPictureDiplomacyTech"
+			picture "Null"
 	Artifact
 		blockCount 1
 		block

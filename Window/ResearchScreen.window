@@ -1,6 +1,6 @@
 TXT
 tabWindow
-	topLeftOffset [0, 60]
+	topLeftOffset [0, 100]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
 	buttonIndicatorArea [148, -2, 72, 52]
@@ -94,15 +94,15 @@ treeSharedDef
 		BlockDown1 "ResearchWindowArrowBlockDown1"
 		BlockUp1 "ResearchWindowArrowBlockUp1"
 		OtherTab "ResearchTreeArrowOtherTab"
-	tierStartOffset 242
-	tierStride 64
+	tierStartOffset 135
+	tierStride 65
 combatContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -112,11 +112,11 @@ combatContentWindow
 		isBackdropStretched TRUE
 defenseContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 5]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -126,11 +126,11 @@ defenseContentWindow
 		isBackdropStretched TRUE
 nonCombatContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 5]
 		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -140,11 +140,11 @@ nonCombatContentWindow
 		isBackdropStretched TRUE
 diplomacyContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 5]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5

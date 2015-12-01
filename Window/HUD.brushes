@@ -4,8 +4,8 @@ brushCount 174
 brush
 	name "RebellionResearchOverlay"
 	content "Simple"
-	fileName "Animation_PreRec_White"
-	pixelBox [ 158 , 68 , 74 , 62 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "MicBrush"
 	content "Simple"
