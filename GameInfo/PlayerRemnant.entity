@@ -66,7 +66,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 100
+		count 103
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -112,12 +112,15 @@ entities
 		entityDefName "RemnantResearch_Global_RepairPlatform"
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "RemnantResearch_Global_BombingDamage"
+		entityDefName "RemnantResearch_Global_Inexorable"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
 		entityDefName "RemnantResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Global_DissidentExpulsion"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
+		entityDefName "RemnantResearch_Flat_Turbolasers3"
 		entityDefName "RemnantResearch_Flat_FearMongering"
 		entityDefName "RemnantResearch_Flat_ShockAndAwe"
 		entityDefName "RemnantResearch_Flat_HolonetMonitoring"

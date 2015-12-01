@@ -12635,10 +12635,10 @@ StringInfo
 	Value "Repairs damage and replenishes antimatter of friendly forces over a short duration."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
-	Value "Return of the Fallen"
+	Value "Inexorable"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The power of the purified Unity causes frigates, cruisers and corvettes to be revived from time to time at your capital."
+	Value "The massive industrial capacity of the Empire allows the creation of ships almost as fast as the Rebel scum can destroy them."
 StringInfo
 	ID "IDS_ABILITY_REVENGEBOUNTY_NAME"
 	Value "Karmic Retribution"

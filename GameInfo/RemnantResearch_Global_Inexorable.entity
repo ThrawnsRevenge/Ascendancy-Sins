@@ -1,19 +1,16 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_BOMBARDMENTINCREASE"
-smallHudIcon "HUDICON_RESEARCH_BOMBARDMENTINCREASE"
+hudIcon "HUDICON_RESEARCH_SHIPCONSTRUCTIONINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPCONSTRUCTIONINCREASE"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_RUTHLESS_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 3 ]
+	pos [ 0 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-		ResearchPrerequisite
-		Subject "RemnantResearch_Global_BombingDamage"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -27,20 +24,16 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 5
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 3
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 1
 researchModifier
-	modifierType "BombingPopulationKilledAsDamageDealerAdjustment"
+	modifierType "ChanceToRespawnFrigateAtHomeworldUponDeath"
 	baseValue 0.000000
-	perLevelValue 0.150000
-researchModifier
-	modifierType "BombingDamageAsDamageDealerAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.050000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

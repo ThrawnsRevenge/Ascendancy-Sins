@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_BOMBARDMENTINCREASE"
-smallHudIcon "HUDICON_RESEARCH_BOMBARDMENTINCREASE"
+hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_RUTHLESS_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
+NameStringID "IDS_REMNANTRESEARCH_TURBOLASERSTWO_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_TURBOLASERSTWO_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 3 ]
+	pos [ 5 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
-		ResearchPrerequisite
-		Subject "RemnantResearch_Global_BombingDamage"
+	ResearchPrerequisite
+		Subject "RemnantResearch_Flat_Turbolasers2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -29,18 +29,15 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 5
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 3
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 1
 researchModifier
-	modifierType "BombingPopulationKilledAsDamageDealerAdjustment"
+	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
-researchModifier
-	modifierType "BombingDamageAsDamageDealerAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.050000
+	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
