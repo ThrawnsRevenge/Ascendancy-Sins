@@ -64,7 +64,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 85
+		count 77
 		entityDefName "RemnantResearch_Global_CityPlanning"
 		entityDefName "RemnantResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -132,14 +132,6 @@ entities
 		entityDefName "AlignmentResearch_ShipUnlock_Bellator"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "NewRepResearch_Global_PellaeonGavrisom"
-		entityDefName "AlignmentResearch_MaxCapitalShips0"
-		entityDefName "AlignmentResearch_MaxCapitalShips1"
-		entityDefName "AlignmentResearch_MaxCapitalShips2"
-		entityDefName "AlignmentResearch_MaxCapitalShips3"
-		entityDefName "AlignmentResearch_MaxCapitalShips4"
-		entityDefName "AlignmentResearch_MaxCapitalShips5"
-		entityDefName "AlignmentResearch_MaxCapitalShips6"
-		entityDefName "AlignmentResearch_MaxCapitalShips7"
 		entityDefName "AlignmentResearch_MaxShipSlots0"
 		entityDefName "AlignmentResearch_MaxShipSlots1"
 		entityDefName "AlignmentResearch_MaxShipSlots2"
@@ -715,7 +707,7 @@ researchScreenData
 			title "IDSResearchScreenBlockTitleCombat1NewRep"
 			picture "Null"
 		block
-			area [ 30 , 520, 710 , 60 ]
+			area [ 30 , 520, 710 , 130 ]
 			backdrop "Alignment_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
 			title "IDSResearchScreenBlockTitleCombat2NewRep"

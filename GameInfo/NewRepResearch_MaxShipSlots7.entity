@@ -6,13 +6,13 @@ infoCardIcon "NR_FleetResearchCommand8"
 NameStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS7_DESCRIPTION"
 researchWindowLocation
-	block 1
-	pos [ 7 , 0 ]
-ResearchField "Fleet"
+	block 2
+	pos [ 7 , 2 ]
+ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_MaxShipSlots7"
+		Subject "NewRepResearch_MaxShipSlots6"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -32,7 +32,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 5
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
@@ -43,6 +43,14 @@ researchModifier
 	perLevelValue 0.093750
 researchModifier
 	modifierType "ShipMaxSlotLevel"
+	baseValue 0.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "CapitalShipMaxSlots"
+	baseValue 0.000000
+	perLevelValue 6.000000
+researchModifier
+	modifierType "CapitalShipMaxSlotLevel"
 	baseValue 0.000000
 	perLevelValue 1.000000
 artifactPicture ""

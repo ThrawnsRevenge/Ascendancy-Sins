@@ -42,7 +42,7 @@ buttonSharedDef
 	unknownArtifactPicture "ArtifactPictureUnknown"		
 treeSharedDef
 	basicTreeDef
-		pictureTopLeft [17, 54]
+		pictureTopLeft [0, 0]
 	fleetTreeDef
 		pictureBackdropArea [89, 62, 153 , 129]
 		pictureArea [89, 62, 153 , 129]

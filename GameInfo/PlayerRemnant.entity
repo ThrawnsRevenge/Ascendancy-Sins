@@ -66,7 +66,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 103
+		count 95
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -152,14 +152,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_CommanderISDII"
 		entityDefName "RemnantResearch_ShipUnlock_CommanderPraetor"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
-		entityDefName "RemnantResearch_MaxCapitalShips0"
-		entityDefName "RemnantResearch_MaxCapitalShips1"
-		entityDefName "RemnantResearch_MaxCapitalShips2"
-		entityDefName "RemnantResearch_MaxCapitalShips3"
-		entityDefName "RemnantResearch_MaxCapitalShips4"
-		entityDefName "RemnantResearch_MaxCapitalShips5"
-		entityDefName "RemnantResearch_MaxCapitalShips6"
-		entityDefName "RemnantResearch_MaxCapitalShips7"
 		entityDefName "RemnantResearch_MaxShipSlots0"
 		entityDefName "RemnantResearch_MaxShipSlots1"
 		entityDefName "RemnantResearch_MaxShipSlots2"
@@ -723,59 +715,59 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 280 ]
+			area [ 30 , 20 , 710 , 230 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat0Remnant"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Fleet"
 		block
-			area [ 30 , 335 , 710 , 170 ]
-			backdrop "Remnant_Research_Block_Background"
+			area [ 30 , 260 , 710 , 230 ]
+			backdrop "Null"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat1NewRep"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Subsystems"
 		block
-			area [ 30 , 510, 710 , 115 ]
+			area [ 30 , 500, 710 , 170 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat2NewRep"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 260 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleDefense0Psi"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
 			area [ 30 , 50 , 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat0Remnant"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Economy"
 		block
 			area [ 30 , 265 , 710 , 160 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat1Remnant"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Development"
 		block
 			area [ 30 , 430 , 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat2Remnant"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 310 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDS_RESEARCHFIELD_DIPLOMACY"
-			picture "Null"
+			title ""
+			picture "IR_Research_Block_ForeignAffairs"
 	Artifact
 		blockCount 1
 		block

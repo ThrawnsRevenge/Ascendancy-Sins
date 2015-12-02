@@ -70,7 +70,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 99
+		count 91
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -151,14 +151,6 @@ entities
 		entityDefName "NewRepResearch_Global_CultureDamage00"
 		entityDefName "NewRepResearch_Global_CultureDamage01"
 		entityDefName "NewRepResearch_Global_CultureCost"
-		entityDefName "NewRepResearch_MaxCapitalShips0"
-		entityDefName "NewRepResearch_MaxCapitalShips1"
-		entityDefName "NewRepResearch_MaxCapitalShips2"
-		entityDefName "NewRepResearch_MaxCapitalShips3"
-		entityDefName "NewRepResearch_MaxCapitalShips4"
-		entityDefName "NewRepResearch_MaxCapitalShips5"
-		entityDefName "NewRepResearch_MaxCapitalShips6"
-		entityDefName "NewRepResearch_MaxCapitalShips7"
 		entityDefName "NewRepResearch_MaxShipSlots0"
 		entityDefName "NewRepResearch_MaxShipSlots1"
 		entityDefName "NewRepResearch_MaxShipSlots2"
@@ -720,56 +712,56 @@ researchScreenData
 			area [ 30 , 50 , 710 , 225 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat0NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Fleet"
 		block
 			area [ 30 , 285 , 710 , 225 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat1NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Subsystems"
 		block
 			area [ 30 , 520, 710 , 175 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat2NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 260 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleDefense0NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
 			area [ 30 , 50 , 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat0NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Economy"
 		block
 			area [ 30 , 270 , 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat1NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Development"
 		block
 			area [ 30 , 490 , 710 , 160 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat2NewRep"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_Democracy"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 310 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDS_RESEARCHFIELD_DIPLOMACY"
-			picture "Null"
+			title ""
+			picture "NR_Research_Block_ForeignAffairs"
 	Artifact
 		blockCount 1
 		block

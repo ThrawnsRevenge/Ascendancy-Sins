@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 4 ]
+	pos [ 1 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
