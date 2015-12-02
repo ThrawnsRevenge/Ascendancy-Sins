@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2527
+entityNameCount 2528
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -444,6 +444,7 @@ entityName "RemnantResearch_ShipUnlock_Immobilizer.entity"
 entityName "RemnantResearch_ShipUnlock_MTC.entity"
 entityName "RemnantResearch_ShipUnlock_Sovereign.entity"
 entityName "RemnantResearch_ShipUnlock_ISDII.entity"
+entityName "RemnantResearch_ShipUnlock_Allegiance.entity"
 entityName "RemnantResearch_ShipUnlock_Altor.entity"
 entityName "RemnantResearch_ShipUnlock_Executor.entity"
 entityName "RemnantResearch_ShipUnlock_GalaxyGun.entity"

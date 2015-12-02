@@ -149,6 +149,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
+		entityDefName "RemnantResearch_ShipUnlock_Allegiance"
 		entityDefName "RemnantResearch_ShipUnlock_CommanderISDII"
 		entityDefName "RemnantResearch_ShipUnlock_CommanderPraetor"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
