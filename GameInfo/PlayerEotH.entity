@@ -60,7 +60,7 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 96
+		count 88
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -139,14 +139,6 @@ entities
 		entityDefName "EotHResearch_Economy_PrimaryIndustry"
 		entityDefName "EotHResearch_Economy_PrimaryIndustryUpgrade"
 		entityDefName "EotHResearch_Economy_RapidExtraction"
-		entityDefName "EotHResearch_MaxCapitalShips0"
-		entityDefName "EotHResearch_MaxCapitalShips1"
-		entityDefName "EotHResearch_MaxCapitalShips2"
-		entityDefName "EotHResearch_MaxCapitalShips3"
-		entityDefName "EotHResearch_MaxCapitalShips4"
-		entityDefName "EotHResearch_MaxCapitalShips5"
-		entityDefName "EotHResearch_MaxCapitalShips6"
-		entityDefName "EotHResearch_MaxCapitalShips7"
 		entityDefName "EotHResearch_MaxShipSlots0"
 		entityDefName "EotHResearch_MaxShipSlots1"
 		entityDefName "EotHResearch_MaxShipSlots2"
@@ -584,7 +576,7 @@ hudSkinData
 	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePhase"
 	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPhase"
 	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPhase"
-	ResearchFieldButtonIconFleet "ResearchScreenTabButtonFleetPhase"
+	ResearchFieldButtonIconFleet "Civilopedia_Icon"
 	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
@@ -747,18 +739,12 @@ researchScreenData
 			title ""
 			picture ""
 	Fleet
-		blockCount 2
+		blockCount 1
 		block
-			area [ 7 , 62 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet0Phase"
+			area [ 0 , 10 , 800 , 700 ]
+			backdrop "Civilopedia"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Phase"
-			picture ""
-		block
-			area [ 7 , 348 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet1Phase"
-			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Phase"
+			title ""
 			picture ""
 	capitalShipSlotLevelPicture-0 "EOTH_FleetResearchCommand0"
 	capitalShipSlotLevelPicture-1 "EOTH_FleetResearchCommand1"
@@ -769,7 +755,7 @@ researchScreenData
 	capitalShipSlotLevelPicture-6 "EOTH_FleetResearchCommand6"
 	capitalShipSlotLevelPicture-7 "EOTH_FleetResearchCommand7"
 	capitalShipSlotLevelPicture-8 "EOTH_FleetResearchCommand8"
-	shipSlotLevelPicture-0 "EOTH_FleetResearchCommand0"
+	shipSlotLevelPicture-0 "Civilopedia"
 	shipSlotLevelPicture-1 "EOTH_FleetResearchCommand1"
 	shipSlotLevelPicture-2 "EOTH_FleetResearchCommand2"
 	shipSlotLevelPicture-3 "EOTH_FleetResearchCommand3"
@@ -826,7 +812,7 @@ field "IDS_RESEARCHFIELD_DEFENSE"
 field "IDS_RESEARCHFIELD_EMPIRE"
 field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
-field "IDS_RESEARCHFIELD_FLEET"
+field "IDS_RESEARCHFIELD_CIVILOPEDIA"
 playerThemeGroupName "PlayerEotH"
 playerPictureGroupName "PlayerEotH"
 raceRelationsModCount 3

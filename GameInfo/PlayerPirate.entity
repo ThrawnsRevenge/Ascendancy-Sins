@@ -472,7 +472,7 @@ hudSkinData
 	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefenseTech"
 	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatTech"
 	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyTech"
-	ResearchFieldButtonIconFleet "ResearchScreenTabButtonFleetTech"
+	ResearchFieldButtonIconFleet "Civilopedia_Icon"
 	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"

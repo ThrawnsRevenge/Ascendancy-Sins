@@ -1,5 +1,5 @@
 TXT
-NumStrings 8214
+NumStrings 8458
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
@@ -25047,3 +25047,6 @@ StringInfo
 StringInfo
 	ID "IDS_RANDOMEVENT_OPENREBELLION_NAME"
 	Value "Open Rebellion"
+StringInfo
+	ID "IDS_RESEARCHFIELD_CIVILOPEDIA"
+	Value "Civilopedia"

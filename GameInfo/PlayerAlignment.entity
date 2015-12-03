@@ -594,7 +594,7 @@ hudSkinData
 	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePsi"
 	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPsi"
 	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPsi"
-	ResearchFieldButtonIconFleet "ResearchScreenTabButtonFleetPsi"
+	ResearchFieldButtonIconFleet "Civilopedia_Icon"
 	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
@@ -757,18 +757,12 @@ researchScreenData
 			title ""
 			picture ""
 	Fleet
-		blockCount 2
+		blockCount 1
 		block
-			area [ 7 , 62 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet0Psi"
+			area [ 0 , 10 , 800 , 700 ]
+			backdrop "Civilopedia"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0"
-			picture ""
-		block
-			area [ 7 , 348 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet1Psi"
-			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1"
+			title ""
 			picture ""
 	capitalShipSlotLevelPicture-0 "PA_FleetResearchCommand0"
 	capitalShipSlotLevelPicture-1 "PA_FleetResearchCommand1"
@@ -836,7 +830,7 @@ field "IDS_RESEARCHFIELD_DEFENSE"
 field "IDS_RESEARCHFIELD_EMPIRE"
 field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
-field "IDS_RESEARCHFIELD_FLEET"
+field "IDS_RESEARCHFIELD_CIVILOPEDIA"
 playerThemeGroupName "PlayerPA"
 playerPictureGroupName "PlayerPA"
 raceRelationsModCount 3

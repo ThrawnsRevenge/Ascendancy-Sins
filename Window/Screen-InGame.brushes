@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 441
+brushCount 443
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -690,19 +690,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Ascendancy_Icons_Disabled"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Pressed
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	CursorOver
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Focused
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Normal
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonArtifact"
 	content "States"
@@ -4143,3 +4143,26 @@ brush
 	content "Simple"
 	fileName "EOTH_Research"
 	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "Civilopedia"
+	content "Simple"
+	fileName "Civilopedia"
+	pixelBox [ 0 , 0 , 800 , 700 ]
+brush
+	name "Civilopedia_Icon"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
