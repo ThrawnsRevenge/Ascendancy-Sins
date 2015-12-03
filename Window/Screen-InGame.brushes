@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 425
+brushCount 441
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -4062,4 +4062,84 @@ brush
 	name "NR_Research_Block_ForeignAffairs"
 	content "Simple"
 	fileName "NR_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Fleet"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Subsystems"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Academy"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Defense"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Economy"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Development"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Control"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "PA_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Fleet"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Subsystems"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Academy"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Defense"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Economy"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Development"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Control"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "EOTH_Research"
 	pixelBox [ 412 , 484 , 410 , 160 ]

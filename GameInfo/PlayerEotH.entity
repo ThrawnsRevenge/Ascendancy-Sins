@@ -688,56 +688,56 @@ researchScreenData
 			area [ 30 , 50 , 710 , 280 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat0Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Fleet"
 		block
 			area [ 30 , 340 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat1Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Subsystems"
 		block
-			area [ 30 , 520 , 710 , 60 ]
+			area [ 30 , 520 , 710 , 130 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleCombat2Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 260 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleDefense0Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
 			area [ 30 , 50 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat0Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Economy"
 		block
 			area [ 30 , 270 , 710 , 160 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat1Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Development"
 		block
 			area [ 30 , 440 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleNonCombat2Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 30 , 50 , 710 , 310 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Null"
-			title "IDSResearchScreenBlockTitleDiplomacy0Phase"
-			picture "Null"
+			title ""
+			picture "EOTH_Research_Block_ForeignAffairs"
 	Artifact
 		blockCount 1
 		block
