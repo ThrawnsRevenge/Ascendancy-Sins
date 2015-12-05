@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_HOLONETMONITORING_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_HOLONETMONITORING_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 6 , 3 ]
+	pos [ 6 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

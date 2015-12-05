@@ -561,10 +561,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -716,57 +716,57 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 230 ]
+			area [ 30 , 20 , 710 , 250 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Fleet"
 		block
-			area [ 30 , 260 , 710 , 230 ]
-			backdrop "Null"
-			tierIndicatorBackdrop "Null"
+			area [ 30 , 280 , 710 , 190 ]
+			backdrop "Remnant_Research_Block_Background"
+			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Subsystems"
 		block
-			area [ 30 , 500, 710 , 170 ]
+			area [ 30 , 480, 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
 			picture "IR_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 260 ]
+			area [ 30 , 50 , 710 , 330 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
 			picture "IR_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 30 , 50 , 710 , 250 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Economy"
 		block
-			area [ 30 , 265 , 710 , 160 ]
+			area [ 30 , 310 , 710 , 160 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Development"
 		block
-			area [ 30 , 430 , 710 , 210 ]
+			area [ 30 , 480 , 710 , 160 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
 			picture "IR_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 310 ]
+			area [ 30 , 50 , 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
 			picture "IR_Research_Block_ForeignAffairs"
 	Artifact

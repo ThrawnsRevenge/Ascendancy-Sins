@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2528
+entityNameCount 25347
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -2528,3 +2528,9 @@ entityName "RandomEventPirateTitan.entity"
 entityName "STAR_BLACKHOLE.entity"
 entityName "STAR_NEUTRON.entity"
 entityName "STAR_PULSAR.entity"
+entityName "EotHResearch_Global_ShieldGenerator.entity"
+entityName "EotHResearch_Global_ShieldGeneratorUpgrade.entity"
+entityName "AlignmentResearch_Global_ShieldGenerator.entity"
+entityName "AlignmentResearch_Global_ShieldGeneratorUpgrade.entity"
+entityName "AlignmentResearch_Global_CityPlanning.entity"
+entityName "AlignmentResearch_Global_RuralDevelopment.entity"

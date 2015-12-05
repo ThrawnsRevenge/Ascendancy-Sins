@@ -495,26 +495,26 @@ brush
 brush
 	name "ACTIONICON_TOGGLEZOOMTOCURSOR"
 	content "Simple"
-	fileName "Buttons_Interface"
-	pixelBox [ 68 , 72 , 43 , 19 ]
+	fileName "Buttons_Ascendancy_HUD_Common"
+	pixelBox [ 27 , 131 , 26 , 18 ]
 brush
 	name "ACTIONICON_OPENRENAMEWINDOW"
 	content "States"
 	Disabled
-		fileName "Buttons_Interface"
-		pixelBox [ 86 , 0 , 59 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 103 , 151 , 50 , 14 ]
 	Pressed
-		fileName "Buttons_Interface"
-		pixelBox [ 228 , 0 , 59 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 151 , 50 , 14 ]
 	CursorOver
-		fileName "Buttons_Interface"
-		pixelBox [ 157 , 0 , 59 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 151 , 50 , 14 ]
 	Focused
-		fileName "Buttons_Interface"
-		pixelBox [ 15 , 0 , 59 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 151 , 50 , 14 ]
 	Normal
-		fileName "Buttons_Interface"
-		pixelBox [ 15 , 0 , 59 , 18 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 1 , 151 , 50 , 14 ]
 brush
 	name "ACTIONICON_SETRALLYPOINT"
 	content "States"
@@ -825,20 +825,20 @@ brush
 	name "ACTIONICON_TOGGLESCUTTLE"
 	content "States"
 	Disabled
-		fileName "Buttons_Interface"
-		pixelBox [ 86 , 21 , 61 , 13 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 73 , 50 , 35 ]
 	Pressed
-		fileName "Buttons_Interface"
-		pixelBox [ 228 , 21 , 61 , 13 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 	CursorOver
-		fileName "Buttons_Interface"
-		pixelBox [ 157 , 21 , 61 , 13 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 	Focused
-		fileName "Buttons_Interface"
-		pixelBox [ 15 , 21 , 61 , 13 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 	Normal
-		fileName "Buttons_Interface"
-		pixelBox [ 15 , 21 , 61 , 13 ]
+		fileName "Buttons_Ascendancy_HUD_Common"
+		pixelBox [ 157 , 1 , 50 , 35 ]
 brush
 	name "ACTIONICON_CAPITALSHIP_OPENSQUADRONMANAGEMENT"
 	content "States"
@@ -1857,10 +1857,10 @@ brush
 brush
 	name "ActionIconIncreaseGameSpeed"
 	content "Simple"
-	fileName "Buttons_Interface"
-	pixelBox [ 375 , 456 , 42 , 18 ]
+	fileName "Buttons_Ascendancy_HUD_Common"
+	pixelBox [ 29 , 170 , 23 , 17 ]
 brush
 	name "ActionIconDecreaseGameSpeed"
 	content "Simple"
-	fileName "Buttons_Interface"
-	pixelBox [ 328 , 456 , 42 , 18 ]
+	fileName "Buttons_Ascendancy_HUD_Common"
+	pixelBox [ 1 , 170 , 23 , 17 ]

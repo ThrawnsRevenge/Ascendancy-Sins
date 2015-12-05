@@ -7,7 +7,7 @@ NameStringID "IDS_EOTHRESEARCH_NIRAUANARCHIVES_NAME"
 DescriptionStringID "IDS_EOTHRESEARCH_NIRAUANARCHIVES_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 7 , 3 ]
+	pos [ 7 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

@@ -65,8 +65,8 @@ entities
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
 		count 77
-		entityDefName "RemnantResearch_Global_CityPlanning"
-		entityDefName "RemnantResearch_Global_RuralDevelopment"
+		entityDefName "AlignmentResearch_Global_CityPlanning"
+		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -95,8 +95,8 @@ entities
 		entityDefName "AlignmentResearch_Economy_Tibanna02"
 		entityDefName "RemnantResearch_Global_CommStation"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "AlignmentResearch_Global_ShieldGenerator"
+		entityDefName "AlignmentResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "RemnantResearch_Global_HelpingHand"
 		entityDefName "AlignmentResearch_Global_ExtraFighters"
 		entityDefName "AlignmentResearch_Global_DynamicAutomata"
@@ -540,10 +540,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -695,57 +695,57 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 280 ]
+			area [ 30 , 20 , 710 , 280 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
 			title ""
 			picture "PA_Research_Block_Fleet"
 		block
-			area [ 30 , 340, 710 , 170 ]
+			area [ 30 , 310, 710 , 170 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
 			title ""
 			picture "PA_Research_Block_Subsystems"
 		block
-			area [ 30 , 520, 710 , 130 ]
+			area [ 30 , 490, 710 , 150 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
 			title ""
 			picture "PA_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 260 ]
+			area [ 30 , 20 , 710 , 210 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
 			title ""
 			picture "PA_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 30 , 20 , 710 , 170 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
 			title ""
 			picture "PA_Research_Block_Economy"
 		block
-			area [ 30 , 270 , 710 , 160 ]
+			area [ 30 , 200 , 710 , 120 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
 			title ""
 			picture "PA_Research_Block_Development"
 		block
-			area [ 30 , 440 , 710 , 210 ]
+			area [ 30 , 330 , 710 , 150 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
 			title ""
 			picture "PA_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 310 ]
+			area [ 30 , 50 , 710 , 210 ]
 			backdrop "Alignment_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
 			title ""
 			picture "PA_Research_Block_ForeignAffairs"
 	Artifact

@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_VISVIA_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_VISVIA_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 1 ]
+	pos [ 3 , 2 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1

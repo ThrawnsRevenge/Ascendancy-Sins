@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_DURASTEEL_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 2 ]
+	pos [ 1 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0

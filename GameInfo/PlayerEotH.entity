@@ -60,7 +60,7 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 88
+		count 87
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -118,15 +118,14 @@ entities
 		entityDefName "EotHResearch_Global_Csapla"
 		entityDefName "EotHResearch_Global_Irokini"
 		entityDefName "EotHResearch_Flat_Afterburn"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "EotHResearch_Global_ShieldGenerator"
+		entityDefName "EotHResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "EotHResearch_Global_RepairPlatform"
 		entityDefName "EotHResearch_Global_HiddenBases"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "EotHResearch_Global_CommStation"
 		entityDefName "EotHResearch_Global_CultureSpread"
 		entityDefName "EotHResearch_Global_UnitedFront"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
 		entityDefName "EotHResearch_Economy_Durasteel01"
 		entityDefName "EotHResearch_Economy_Durasteel02"
@@ -522,10 +521,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -677,57 +676,57 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 280 ]
+			area [ 30 , 20 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Fleet"
 		block
-			area [ 30 , 340 , 710 , 170 ]
+			area [ 30 , 200 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Subsystems"
 		block
-			area [ 30 , 520 , 710 , 130 ]
+			area [ 30 , 380 , 710 , 150 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
 			picture "EOTH_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 260 ]
+			area [ 30 , 20 , 710 , 260 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
 			picture "EOTH_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 30 , 20 , 710 , 230 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Economy"
 		block
-			area [ 30 , 270 , 710 , 160 ]
+			area [ 30 , 260 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Development"
 		block
 			area [ 30 , 440 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
 			picture "EOTH_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 310 ]
+			area [ 30 , 50 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
 			picture "EOTH_Research_Block_ForeignAffairs"
 	Artifact

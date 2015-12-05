@@ -554,10 +554,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -709,57 +709,57 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 225 ]
+			area [ 30 , 20 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Fleet"
 		block
-			area [ 30 , 285 , 710 , 225 ]
+			area [ 30 , 260 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Subsystems"
 		block
-			area [ 30 , 520, 710 , 175 ]
+			area [ 30 , 500, 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
 			picture "NR_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 260 ]
+			area [ 30 , 20 , 710 , 310 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
 			picture "NR_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 30 , 20 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Economy"
 		block
-			area [ 30 , 270 , 710 , 210 ]
+			area [ 30 , 260 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Development"
 		block
-			area [ 30 , 490 , 710 , 160 ]
+			area [ 30 , 500 , 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
 			picture "NR_Research_Block_Democracy"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 310 ]
+			area [ 30 , 20 , 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
-			tierIndicatorBackdrop "Null"
+			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
 			picture "NR_Research_Block_ForeignAffairs"
 	Artifact

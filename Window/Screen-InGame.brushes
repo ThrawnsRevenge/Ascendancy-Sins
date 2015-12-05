@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 443
+brushCount 450
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -1770,16 +1770,16 @@ brush
 	content "States"
 	Disabled
 		fileName "Ascendancy_Research"
-		pixelBox [ 114 , 197 , 55 , 45 ]
+		pixelBox [ 115 , 197 , 55 , 45 ]
 	Pressed
 		fileName "Ascendancy_Research"
-		pixelBox [ 57 , 197 , 55 , 45 ]
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	CursorOver
 		fileName "Ascendancy_Research"
-		pixelBox [ 57 , 197 , 55 , 45 ]
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	Focused
 		fileName "Ascendancy_Research"
-		pixelBox [ 57 , 197 , 55 , 45 ]
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	Normal
 		fileName "Ascendancy_Research"
 		pixelBox [ 1 , 197 , 55 , 45 ]
@@ -2053,7 +2053,7 @@ brush
 	name "ResearchWindowArrowUp1Right1"
 	content "Simple"
 	fileName "Ascendancy_Research"
-	pixelBox [ 1 , 250 , 75 , 34 ]
+	pixelBox [ 1 , 255 , 75 , 34 ]
 brush
 	name "ResearchWindowArrowUp1Right2"
 	content "Simple"
@@ -3983,6 +3983,126 @@ brush
 		bottom 0
 	fileName "Ascendancy_Research"
 	pixelBox [ 247 , 199 , 20 , 20 ]
+brush
+	name "NewRepublic_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 267 , 199 , 20 , 20 ]
+brush
+	name "NewRepublic_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 267 , 199 , 20 , 63 ]
+brush
+	name "Remnant_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 290 , 199 , 20 , 20 ]
+brush
+	name "Remnant_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 290 , 199 , 20 , 63 ]
+brush
+	name "Hand_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 313 , 199 , 20 , 20 ]
+brush
+	name "Hand_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 313 , 199 , 20 , 63 ]
+brush
+	name "Alignment_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 330 , 199 , 20 , 20 ]
+brush
+	name "Alignment_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 18
+		top 5
+		bottom 33
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 330 , 199 , 20 , 63 ]
 brush
 	name "IR_Research_Block_Fleet"
 	content "Simple"

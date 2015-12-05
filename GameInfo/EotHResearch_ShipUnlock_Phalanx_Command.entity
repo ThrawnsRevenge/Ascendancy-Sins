@@ -3,7 +3,7 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_PHALANX"
 smallHudIcon "HUDICON_PHALANX"
 infoCardIcon ""
-NameStringID "IDS_CAPITALSHIP_PHALANX_NAME"
+NameStringID "IDS_CAPITALSHIP_PHALANXCOMMAND_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
 researchWindowLocation
 	block 2

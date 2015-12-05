@@ -7,7 +7,7 @@ NameStringID "IDS_EOTHRESEARCH_RULINGFAMILIES_NAME"
 DescriptionStringID "IDS_EOTHRESEARCH_RULINGFAMILIES_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7, 2 ]
+	pos [ 7, 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

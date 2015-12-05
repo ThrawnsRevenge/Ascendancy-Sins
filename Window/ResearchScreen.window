@@ -94,7 +94,7 @@ treeSharedDef
 		BlockDown1 "ResearchWindowArrowBlockDown1"
 		BlockUp1 "ResearchWindowArrowBlockUp1"
 		OtherTab "ResearchTreeArrowOtherTab"
-	tierStartOffset 135
+	tierStartOffset 168
 	tierStride 65
 combatContentWindow
 	blockWindowSharedDef
@@ -116,7 +116,7 @@ defenseContentWindow
 		titleFontId "Label"
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
-  		buttonSpacing [20, 5]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -130,7 +130,7 @@ nonCombatContentWindow
 		titleFontId "Label"
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
-  		buttonSpacing [20, 5]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -144,7 +144,7 @@ diplomacyContentWindow
 		titleFontId "Label"
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
-  		buttonSpacing [20, 5]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5

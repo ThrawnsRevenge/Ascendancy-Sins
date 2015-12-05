@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_INTEGRATION_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_INTEGRATION_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 5 , 1 ]
+	pos [ 5 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0
