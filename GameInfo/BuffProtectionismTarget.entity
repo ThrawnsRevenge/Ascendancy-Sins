@@ -10,7 +10,14 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.020000
+		Level:1 0.040000
+		Level:2 0.080000
+		Level:3 0.160000
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
@@ -24,6 +31,6 @@ finishCondition
 	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"
-	buffTypeToQuery "BuffRemComDefenseSelf"
+	buffTypeToQuery "BuffProtectionismSelf"
 finishCondition
 	finishConditionType "OutOfRange"

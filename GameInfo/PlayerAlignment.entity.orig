@@ -64,9 +64,15 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 81
+<<<<<<< HEAD
+		count 77
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
+=======
+		count 81
+		entityDefName "RemnantResearch_Global_CityPlanning"
+		entityDefName "RemnantResearch_Global_RuralDevelopment"
+>>>>>>> ba94c6497c3a63544fc2984b2bb76984804fb353
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"

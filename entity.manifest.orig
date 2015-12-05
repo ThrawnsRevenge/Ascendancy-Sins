@@ -1,5 +1,9 @@
 TXT
+<<<<<<< HEAD
+entityNameCount 25347
+=======
 entityNameCount 2534
+>>>>>>> ba94c6497c3a63544fc2984b2bb76984804fb353
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
