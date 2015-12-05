@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "PlanetModuleTradePort"
 minZoomDistanceMult 2.000000
-ability:0 ""
+ability:0 "AbilityProtectionism"
 ability:1 ""
 ability:2 ""
 ability:3 "AbilityTradeStation"
