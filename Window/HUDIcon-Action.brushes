@@ -1759,22 +1759,9 @@ brush
 		pixelBox [ 107 , 216 , 47 , 33 ]
 brush
 	name "ActionIconToggleIsAutoPlaceModuleActive"
-	content "States"
-	Disabled
-		fileName "Buttons_Interface"
-		pixelBox [ 327 , 219 , 50 , 36 ]
-	Pressed
-		fileName "Buttons_Interface"
-		pixelBox [ 327 , 293 , 50 , 36 ]
-	CursorOver
-		fileName "Buttons_Interface"
-		pixelBox [ 327 , 256 , 50 , 36 ]
-	Focused
-		fileName "Buttons_Interface"
-		pixelBox [ 327 , 182 , 50 , 36 ]
-	Normal
-		fileName "Buttons_Interface"
-		pixelBox [ 327 , 182 , 50 , 36 ]
+	content "Simple"
+	fileName "Buttons_Ascendancy_HUD_Common"
+	pixelBox [ 265 , 1 , 50 , 35 ]
 brush
 	name "ActionIconToggleTeamColors"
 	content "Simple"
