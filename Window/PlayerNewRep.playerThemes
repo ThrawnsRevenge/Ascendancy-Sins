@@ -5,7 +5,7 @@ Icon
 	startTopLeft [ 34 , 107 ]
 	width 32
 	height 32
-	rowItemCount 4
+	rowItemCount 1
 	horizontalStride 33
 	verticalStride 33
 IconOverlay
@@ -13,7 +13,7 @@ IconOverlay
 	startTopLeft [ 16 , 164 ]
 	width 14
 	height 14
-	rowItemCount 4
+	rowItemCount 1
 	horizontalStride 15
 	verticalStride 15
 Picture
@@ -21,7 +21,7 @@ Picture
 	startTopLeft [ 107 , 1 ]
 	width 105
 	height 105
-	rowItemCount 4
+	rowItemCount 1
 	horizontalStride 106
 	verticalStride 106
 PlanetIcon
@@ -29,7 +29,7 @@ PlanetIcon
 	startTopLeft [ 25 , 140 ]
 	width 23
 	height 23
-	rowItemCount 4
+	rowItemCount 1
 	horizontalStride 24
 	verticalStride 24
 	
