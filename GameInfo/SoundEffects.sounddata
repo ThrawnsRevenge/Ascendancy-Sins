@@ -1,5 +1,5 @@
 TXT
-numEffects 432
+numEffects 433
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -1619,21 +1619,6 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 1.0
 	fadeOutTime 0.7
-	alternateGroup ""
-effect
-	name "ENGINE_TECHSUPPORTSHIP"
-	fileName "Engine_TechSupportShip.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 1
-	threshold 2000.000000
-	minAttenuationDist 60.000000
-	maxNumPlayingSimultaneously 4
-	isLooping TRUE
-	isResident TRUE
-	minRespawnTime 0.1
-	fadeInTime 0.4
-	fadeOutTime 0.4
 	alternateGroup ""
 effect
 	name "ENGINE_PSISUPPORTSHIP"
@@ -3622,7 +3607,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.0
-	minAttenuationDist 1300.0
+	minAttenuationDist 1000.0
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -3637,7 +3622,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.0
-	minAttenuationDist 1500.0
+	minAttenuationDist 1000.0
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -3662,7 +3647,7 @@ effect
 	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
 effect
 	name "WEAPON_LASER_MUZZLE"
-	fileName "Weapon_Laser.ogg"
+	fileName "Weapon_Fighter_TieFighter_Laser_Muzzle.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -5812,7 +5797,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1500.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5827,7 +5812,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1500.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5842,7 +5827,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1500.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5947,7 +5932,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 800.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5962,7 +5947,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 800.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5977,7 +5962,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 800.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -6479,4 +6464,34 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "ENGINE_TIE_FIGHTER"
+	fileName "Engine_TieFighter.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 1
+	threshold 2000.000000
+	minAttenuationDist 60.000000
+	maxNumPlayingSimultaneously 4
+	isLooping TRUE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.4
+	fadeOutTime 0.4
+	alternateGroup ""
+effect
+	name "ENGINE_TIE_BOMBER"
+	fileName "Engine_TieBomber.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 1
+	threshold 2000.000000
+	minAttenuationDist 60.000000
+	maxNumPlayingSimultaneously 4
+	isLooping TRUE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.4
+	fadeOutTime 0.4
 	alternateGroup ""
