@@ -95,7 +95,7 @@ treeSharedDef
 		BlockUp1 "ResearchWindowArrowBlockUp1"
 		OtherTab "ResearchTreeArrowOtherTab"
 	tierStartOffset 168
-	tierStride 65
+	tierStride 75
 combatContentWindow
 	blockWindowSharedDef
 		titleArea [18, 20, 0, 0]
