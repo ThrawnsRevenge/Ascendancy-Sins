@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_CITYPLANNING_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_CITYPLANNING_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 1 ]
+	pos [ 5 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

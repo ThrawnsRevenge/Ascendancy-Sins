@@ -64,9 +64,9 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 85
-		entityDefName "RemnantResearch_Global_CityPlanning"
-		entityDefName "RemnantResearch_Global_RuralDevelopment"
+		count 81
+		entityDefName "AlignmentResearch_Global_CityPlanning"
+		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -85,7 +85,9 @@ entities
 		entityDefName "AlignmentResearch_Economy_TradeIncrease"
 		entityDefName "AlignmentResearch_Global_Velcar"
 		entityDefName "AlignmentResearch_Global_VelcarUpgrade"
+		entityDefName "AlignmentResearch_Global_HostileTakeover"
 		entityDefName "AlignmentResearch_Global_InQuestors"
+		entityDefName "AlignmentResearch_Global_Training"
 		entityDefName "AlignmentResearch_Global_Payoff"
 		entityDefName "AlignmentResearch_Economy_Durasteel01"
 		entityDefName "AlignmentResearch_Economy_Durasteel02"
@@ -95,11 +97,13 @@ entities
 		entityDefName "AlignmentResearch_Economy_Tibanna02"
 		entityDefName "RemnantResearch_Global_CommStation"
 		entityDefName "RemnantResearch_Global_RepairPlatform"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "AlignmentResearch_Global_ShieldGenerator"
+		entityDefName "AlignmentResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "RemnantResearch_Global_HelpingHand"
+		entityDefName "RemnantResearch_Global_SpreadFire"
 		entityDefName "AlignmentResearch_Global_ExtraFighters"
 		entityDefName "AlignmentResearch_Global_DynamicAutomata"
+		entityDefName "AlignmentResearch_Global_Protectionism"
 		entityDefName "AlignmentResearch_Global_PowerOn"
 		entityDefName "AlignmentResearch_Global_PowerOnTwo"
 		entityDefName "RemnantResearch_Global_StrengthInNumbers"
@@ -132,14 +136,6 @@ entities
 		entityDefName "AlignmentResearch_ShipUnlock_Bellator"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "NewRepResearch_Global_PellaeonGavrisom"
-		entityDefName "AlignmentResearch_MaxCapitalShips0"
-		entityDefName "AlignmentResearch_MaxCapitalShips1"
-		entityDefName "AlignmentResearch_MaxCapitalShips2"
-		entityDefName "AlignmentResearch_MaxCapitalShips3"
-		entityDefName "AlignmentResearch_MaxCapitalShips4"
-		entityDefName "AlignmentResearch_MaxCapitalShips5"
-		entityDefName "AlignmentResearch_MaxCapitalShips6"
-		entityDefName "AlignmentResearch_MaxCapitalShips7"
 		entityDefName "AlignmentResearch_MaxShipSlots0"
 		entityDefName "AlignmentResearch_MaxShipSlots1"
 		entityDefName "AlignmentResearch_MaxShipSlots2"
@@ -548,10 +544,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -602,7 +598,7 @@ hudSkinData
 	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePsi"
 	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPsi"
 	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPsi"
-	ResearchFieldButtonIconFleet "ResearchScreenTabButtonFleetPsi"
+	ResearchFieldButtonIconFleet "Civilopedia_Icon"
 	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
@@ -703,59 +699,59 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 93 , 690 , 240 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat0Remnant"
-			picture "ResearchScreenBlockPictureCombat1Psi"
+			area [ 30 , 20 , 710 , 280 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
+			title ""
+			picture "PA_Research_Block_Fleet"
 		block
-			area [ 50 , 343 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat1NewRep"
-			picture "ResearchScreenBlockPictureNonCombat0Phase"
+			area [ 30 , 310, 710 , 170 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
+			title ""
+			picture "PA_Research_Block_Subsystems"
 		block
-			area [ 50 , 545, 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat2NewRep"
-			picture "ResearchScreenBlockPictureCombat1Tech"
+			area [ 30 , 490, 710 , 150 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
+			title ""
+			picture "PA_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 235 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleDefense0Psi"
-			picture "ResearchScreenBlockPictureDefense0Psi"
+			area [ 30 , 20 , 710 , 210 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
+			title ""
+			picture "PA_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat0Remnant"
-			picture "ResearchScreenBlockPictureNonCombat0Psi"
+			area [ 30 , 20 , 710 , 170 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
+			title ""
+			picture "PA_Research_Block_Economy"
 		block
-			area [ 50 , 295 , 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat1Remnant"
-			picture "ResearchScreenBlockPictureNonCombat1Psi"
+			area [ 30 , 200 , 710 , 120 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Background"
+			title ""
+			picture "PA_Research_Block_Development"
 		block
-			area [ 50 , 449 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat2Remnant"
-			picture "ResearchScreenBlockPictureNonCombat2Psi"
+			area [ 30 , 330 , 710 , 150 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
+			title ""
+			picture "PA_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 292 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDS_RESEARCHFIELD_DIPLOMACY"
-			picture "ResearchScreenBlockPictureDiplomacyTech"
+			area [ 30 , 50 , 710 , 210 ]
+			backdrop "Alignment_Research_Block_Background"
+			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
+			title ""
+			picture "PA_Research_Block_ForeignAffairs"
 	Artifact
 		blockCount 1
 		block
@@ -765,18 +761,12 @@ researchScreenData
 			title ""
 			picture ""
 	Fleet
-		blockCount 2
+		blockCount 1
 		block
-			area [ 7 , 62 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet0Psi"
+			area [ 0 , 10 , 800 , 700 ]
+			backdrop "Civilopedia"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0"
-			picture ""
-		block
-			area [ 7 , 348 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet1Psi"
-			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1"
+			title ""
 			picture ""
 	capitalShipSlotLevelPicture-0 "PA_FleetResearchCommand0"
 	capitalShipSlotLevelPicture-1 "PA_FleetResearchCommand1"
@@ -844,7 +834,7 @@ field "IDS_RESEARCHFIELD_DEFENSE"
 field "IDS_RESEARCHFIELD_EMPIRE"
 field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
-field "IDS_RESEARCHFIELD_FLEET"
+field "IDS_RESEARCHFIELD_CIVILOPEDIA"
 playerThemeGroupName "PlayerPA"
 playerPictureGroupName "PlayerPA"
 raceRelationsModCount 3

@@ -7,7 +7,7 @@ NameStringID "IDS_CAPITALSHIP_GILZEAN_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_GILZEAN_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 3 ]
+	pos [ 2 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

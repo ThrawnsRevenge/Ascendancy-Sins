@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_TIEINTERCEPTOR_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_TIEINTERCEPTOR_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 4 ]
+	pos [ 0 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

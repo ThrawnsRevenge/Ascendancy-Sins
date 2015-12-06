@@ -1,6 +1,6 @@
 TXT
 tabWindow
-	topLeftOffset [0, 60]
+	topLeftOffset [0, 100]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
 	buttonIndicatorArea [148, -2, 72, 52]
@@ -42,42 +42,42 @@ buttonSharedDef
 	unknownArtifactPicture "ArtifactPictureUnknown"		
 treeSharedDef
 	basicTreeDef
-		pictureTopLeft [17, 54]
+		pictureTopLeft [0, 0]
 	fleetTreeDef
-		pictureBackdropArea [89, 62, 153 , 129]
-		pictureArea [89, 62, 153 , 129]
-		pictureBackdrop "ResearchScreenFleetLevelPictureBackdrop"
-		pictureOverlay ""
+		pictureBackdropArea [25, 25, 800 , 700]
+		pictureArea [-5000, -5000, 800 , 700]
+		pictureBackdrop "Null"
+		pictureOverlay "Null"
 		valueSharedDef
 			labelArea [20, 15, 100, 30]
 			valueArea [155, 15, 40, 30]
 			iconArea [125, 15, 20, 30]
 			labelFont "Label"
 			valueFont "Label"
-			backdrop "ResearchScreenFleetLevelValueBackdrop"
-			overlay "ResearchScreenFleetLevelValueOverlay"
+			backdrop "Null"
+			overlay "Null"
 		currentCapitalShipMaxSlots
-			area [286, 144, 199 , 56]
+			area [-5000, -5000, 199 , 56]
 			icon ""
 			labelStringId "IDSResearchScreenCurrentCapitalShipMaxSlots"
 		nextCapitalShipMaxSlots
-			area [506, 144, 199 , 56]
+			area [-5000, -5000, 199 , 56]
 			icon "ResearchScreenNextLevelIcon"
 			labelStringId "IDSResearchScreenNextCapitalShipMaxSlots"
 		currentShipMaxSlots
-			area [286, 144, 199 , 56]
+			area [-5000, -5000, 199 , 56]
 			icon ""
 			labelStringId "IDSResearchScreenCurrentShipMaxSlots"
 		nextShipMaxSlots
-			area [506, 144, 199 , 56]
+			area [-5000, -5000, 199 , 56]
 			icon "ResearchScreenNextLevelIcon"
 			labelStringId "IDSResearchScreenNextShipMaxSlots"
 		currentUpkeep
-			area [286, 79, 199 , 56]
+			area [-5000, -5000, 199 , 56]
 			icon ""
 			labelStringId "IDSResearchScreenCurrentUpkeep"
 		nextUpkeep
-			area [506, 79, 199 , 56]
+			area [-5000, -50009, 199 , 56]
 			icon "ResearchScreenNextLevelIcon"
 			labelStringId "IDSResearchScreenNextUpkeep"
 	arrowBrushes
@@ -94,15 +94,15 @@ treeSharedDef
 		BlockDown1 "ResearchWindowArrowBlockDown1"
 		BlockUp1 "ResearchWindowArrowBlockUp1"
 		OtherTab "ResearchTreeArrowOtherTab"
-	tierStartOffset 242
-	tierStride 64
+	tierStartOffset 168
+	tierStride 75
 combatContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -112,11 +112,11 @@ combatContentWindow
 		isBackdropStretched TRUE
 defenseContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -126,11 +126,11 @@ defenseContentWindow
 		isBackdropStretched TRUE
 nonCombatContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -140,11 +140,11 @@ nonCombatContentWindow
 		isBackdropStretched TRUE
 diplomacyContentWindow
 	blockWindowSharedDef
-		titleArea [18, 20, 200, 30]
+		titleArea [18, 20, 0, 0]
 		titleFontId "Label"
- 		buttonTopLeftOffset [184, 8]
-  		buttonSize [50 , 36]
-  		buttonSpacing [14, 10]
+ 		buttonTopLeftOffset [100, 10]
+  		buttonSize [55 , 45]
+  		buttonSpacing [20, 10]
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
@@ -154,7 +154,7 @@ diplomacyContentWindow
 		isBackdropStretched TRUE
 fleetContentWindow
 	blockWindowSharedDef
-		titleArea [290, 50, 200, 30]
+		titleArea [-5000, -5000, 200, 30]
 		titleFontId "Label"
 		buttonTopLeftOffset [80, 218]
 		buttonSize [63 , 48]
@@ -162,9 +162,9 @@ fleetContentWindow
 		buttonSpecificDef	
 			barsOffsetFromTop 4
 			barsWidthModifier -5
-			backdrop "ScreenButtonUnderlaySupply"
+			backdrop "Null"
 			overlay "ScreenButtonOverlaySupply"
-			maxLevelOverlay "ResearchWindowButtonMaxSupplyOverlay"	
+			maxLevelOverlay "ScreenButtonOverlaySUpply"	
 		isBackdropStretched FALSE
 artifactContentWindow
 	blockWindowSharedDef

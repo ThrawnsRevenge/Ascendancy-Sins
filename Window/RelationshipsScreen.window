@@ -1,6 +1,6 @@
 TXT
 tabWindow
-	topLeftOffset [0, 60]
+	topLeftOffset [0, 100]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
 	buttonIndicatorArea [148, -2, 72, 52]
@@ -50,8 +50,8 @@ relationshipsTabContentWindowDef
 		portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDead"
 		portraitBackdrop "PlayerScreenHappinessBackdropForHumanPlayer"
 		portraitBackdropArea [145,315,0,0]
-		iconArea [140, -150, 0, 0]
-		nameArea [140, -90, 0, 0]	
+		iconArea [0, -120, 0, 0]
+		nameArea [110, -120, 0, 0]	
 		nameFont "NotificationPlayer"
 		diplomacyPointsFont "WindowSubTitle2"
 		diplomacyPointsLabelFont "Label"

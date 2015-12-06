@@ -1,5 +1,5 @@
 TXT
-NumStrings 8214
+NumStrings 8458
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
@@ -72,6 +72,24 @@ StringInfo
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_INQUESTORS_DESCRIPTION"
 	Value "An order of judiciary agents and secret police including the dark jedi Jerec who work to weed out dissident elements within the Alignment."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXPERIENCE_NAME"
+	Value "Scrutiny"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXPERIENCE_DESCRIPTION"
+	Value "Alignment forces gain experience faster during conflicts within friendly gravity wells under the supervision of academy naval officers."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PROTECTIONISM_NAME"
+	Value "Protectionism"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PROTECTIONISM_DESCRIPTION"
+	Value "The Alignment's reliance on trade for its economy prompts naval commanders to push their forces to the limit in defence of worlds containing a trade post, granting bonus firepower and defense. This bonus can stack up to three times."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_HOSTILETAKEOVER_NAME"
+	Value "Hostile Takeover"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_HOSTILETAKEOVER_DESCRIPTION"
+	Value "As the Alignment sieges a planet, credits are taken from local reserves and added to Alignment accounts."
 StringInfo
 	ID "IDS_EOTHRESEARCH_GROWTH_NAME"
 	Value "Relocation"
@@ -25047,3 +25065,6 @@ StringInfo
 StringInfo
 	ID "IDS_RANDOMEVENT_OPENREBELLION_NAME"
 	Value "Open Rebellion"
+StringInfo
+	ID "IDS_RESEARCHFIELD_CIVILOPEDIA"
+	Value "Civilopedia"

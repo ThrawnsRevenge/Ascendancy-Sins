@@ -7,7 +7,7 @@ NameStringID "IDS_NEWREPRESEARCH_COALITIONFORPEACE_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_COALITIONFORPEACE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 4 ]
+	pos [ 4 , 0 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0

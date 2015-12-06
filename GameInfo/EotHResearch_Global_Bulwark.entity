@@ -7,7 +7,7 @@ NameStringID "IDS_BULWARKDEFENSE_NAME"
 DescriptionStringID "IDS_BULWARKDEFENSE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 0 ]
+	pos [ 7 , 1 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0

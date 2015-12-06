@@ -52,37 +52,37 @@ selectionWindowDef
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 0
-		underlay "ScreenButtonUnderlaySearchHotkey"
-		overlay "ScreenButtonOverlaySearchHotkey"			
+		underlay "Null"
+		overlay "Null"			
 	hotKeyButton-0
-		area [154, 54, 27 , 29]
+		area [159, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup0"
 	hotKeyButton-1
-		area [30, 21, 27 , 29]
+		area [35, 21, 27 , 29]
 		icon "EmpireWindowHotKeyGroup1"	
 	hotKeyButton-2
-		area [61, 21, 27 , 29]
+		area [66, 21, 27 , 29]
 		icon "EmpireWindowHotKeyGroup2"	
 	hotKeyButton-3
-		area [92, 21, 27 , 29]
+		area [97, 21, 27 , 29]
 		icon "EmpireWindowHotKeyGroup3"		
 	hotKeyButton-4
-		area [123, 21, 27 , 29]
+		area [128, 21, 27 , 29]
 		icon "EmpireWindowHotKeyGroup4"		
 	hotKeyButton-5
-		area [154, 21, 27 , 29]
+		area [159, 21, 27 , 29]
 		icon "EmpireWindowHotKeyGroup5"		
 	hotKeyButton-6
-		area [30, 54, 27 , 29]
+		area [35, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup6"		
 	hotKeyButton-7
-		area [61, 54, 27 , 29]
+		area [66, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup7"		
 	hotKeyButton-8
-		area [92, 54, 27 , 29]
+		area [97, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup8"		
 	hotKeyButton-9
-		area [123, 54, 27 , 29]
+		area [128, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup9"			
 	sharedSelectionButtonInternals
 		fontId "ButtonLabel"

@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_RATIONING_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_RATIONING_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 2 ]
+	pos [ 6 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0

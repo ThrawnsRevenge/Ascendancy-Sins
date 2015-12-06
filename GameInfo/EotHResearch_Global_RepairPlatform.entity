@@ -7,7 +7,7 @@ NameStringID "IDS_REPAIRPLATFORM_NAME"
 DescriptionStringID "IDS_REPAIRPLATFORM_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 0 ]
+	pos [ 1 , 2 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0

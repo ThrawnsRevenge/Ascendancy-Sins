@@ -60,7 +60,7 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 96
+		count 87
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -118,15 +118,14 @@ entities
 		entityDefName "EotHResearch_Global_Csapla"
 		entityDefName "EotHResearch_Global_Irokini"
 		entityDefName "EotHResearch_Flat_Afterburn"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
-		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
+		entityDefName "EotHResearch_Global_ShieldGenerator"
+		entityDefName "EotHResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "EotHResearch_Global_RepairPlatform"
 		entityDefName "EotHResearch_Global_HiddenBases"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "EotHResearch_Global_CommStation"
 		entityDefName "EotHResearch_Global_CultureSpread"
 		entityDefName "EotHResearch_Global_UnitedFront"
-		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
 		entityDefName "EotHResearch_Economy_Durasteel01"
 		entityDefName "EotHResearch_Economy_Durasteel02"
@@ -139,14 +138,6 @@ entities
 		entityDefName "EotHResearch_Economy_PrimaryIndustry"
 		entityDefName "EotHResearch_Economy_PrimaryIndustryUpgrade"
 		entityDefName "EotHResearch_Economy_RapidExtraction"
-		entityDefName "EotHResearch_MaxCapitalShips0"
-		entityDefName "EotHResearch_MaxCapitalShips1"
-		entityDefName "EotHResearch_MaxCapitalShips2"
-		entityDefName "EotHResearch_MaxCapitalShips3"
-		entityDefName "EotHResearch_MaxCapitalShips4"
-		entityDefName "EotHResearch_MaxCapitalShips5"
-		entityDefName "EotHResearch_MaxCapitalShips6"
-		entityDefName "EotHResearch_MaxCapitalShips7"
 		entityDefName "EotHResearch_MaxShipSlots0"
 		entityDefName "EotHResearch_MaxShipSlots1"
 		entityDefName "EotHResearch_MaxShipSlots2"
@@ -530,10 +521,10 @@ hudSkinData
 	GroupMoveStateAll "ACTIONICON_CAPITALSHIP_WHOLEGROUPMOVE"
 	ZoomInstantContextNear "ActionIconCameraZoomInstantWithZoomNearContext"
 	ZoomInstantContextFar "ActionIconCameraZoomInstantWithZoomFarContext"
-	GameEventCategoryPing "GameEventCategoryInfoCardIconPing"
-	GameEventCategoryProduction "GameEventCategoryInfoCardIconProduction"
-	GameEventCategoryAlliance "GameEventCategoryInfoCardIconAlliance"
-	GameEventCategoryThreat "GameEventCategoryInfoCardIconThreat"
+	GameEventCategoryPing "Null"
+	GameEventCategoryProduction "Null"
+	GameEventCategoryAlliance "Null"
+	GameEventCategoryThreat "Null"
 	HUDIconQuest "HUDIconQuest"
 	HUDIconHappiness "HUDIconHappinessGained"
 	HUDIconOverlayNotEnoughCredits "HUDIconOverlayNotEnoughCredits"
@@ -584,7 +575,7 @@ hudSkinData
 	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePhase"
 	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPhase"
 	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPhase"
-	ResearchFieldButtonIconFleet "ResearchScreenTabButtonFleetPhase"
+	ResearchFieldButtonIconFleet "Civilopedia_Icon"
 	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
@@ -685,59 +676,59 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 69 , 690 , 240 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleCombat0Phase"
-			picture "ResearchScreenBlockPictureCombat0Phase"
+			area [ 30 , 20 , 710 , 170 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
+			title ""
+			picture "EOTH_Research_Block_Fleet"
 		block
-			area [ 50 , 319 , 690 , 144 ]
-				backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleCombat1Phase"
-			picture "ResearchScreenBlockPictureCombat1Phase"
+			area [ 30 , 200 , 710 , 170 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
+			title ""
+			picture "EOTH_Research_Block_Subsystems"
 		block
-			area [ 50 , 473 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleCombat2Phase"
-			picture "ResearchScreenBlockPictureCombat2Phase"
+			area [ 30 , 380 , 710 , 150 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
+			title ""
+			picture "EOTH_Research_Block_Academy"
 	Defense
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 235 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleDefense0Phase"
-			picture "ResearchScreenBlockPictureDefense0Phase"
+			area [ 30 , 20 , 710 , 260 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
+			title ""
+			picture "EOTH_Research_Block_Defense"
 	NonCombat
 		blockCount 3
 		block
-			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleNonCombat0Phase"
-			picture "ResearchScreenBlockPictureNonCombat0Phase"
+			area [ 30 , 20 , 710 , 230 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
+			title ""
+			picture "EOTH_Research_Block_Economy"
 		block
-			area [ 50 , 295 , 690 , 144 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleNonCombat1Phase"
-			picture "ResearchScreenBlockPictureNonCombat1Phase"
+			area [ 30 , 260 , 710 , 170 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Background"
+			title ""
+			picture "EOTH_Research_Block_Development"
 		block
-			area [ 50 , 449 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleNonCombat2Phase"
-			picture "ResearchScreenBlockPictureNonCombat2Phase"
+			area [ 30 , 440 , 710 , 210 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
+			title ""
+			picture "EOTH_Research_Block_Control"
 	Diplomacy
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 288 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Psi"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Psi"
-			title "IDSResearchScreenBlockTitleDiplomacy0Phase"
-			picture "ResearchScreenBlockPictureDiplomacyPhase"
+			area [ 30 , 50 , 710 , 210 ]
+			backdrop "Hand_Research_Block_Background"
+			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
+			title ""
+			picture "EOTH_Research_Block_ForeignAffairs"
 	Artifact
 		blockCount 1
 		block
@@ -747,18 +738,12 @@ researchScreenData
 			title ""
 			picture ""
 	Fleet
-		blockCount 2
+		blockCount 1
 		block
-			area [ 7 , 62 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet0Phase"
+			area [ 0 , 10 , 800 , 700 ]
+			backdrop "Civilopedia"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Phase"
-			picture ""
-		block
-			area [ 7 , 348 , 784 , 328 ]
-			backdrop "ResearchScreenBlockBackdropFleet1Phase"
-			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Phase"
+			title ""
 			picture ""
 	capitalShipSlotLevelPicture-0 "EOTH_FleetResearchCommand0"
 	capitalShipSlotLevelPicture-1 "EOTH_FleetResearchCommand1"
@@ -769,7 +754,7 @@ researchScreenData
 	capitalShipSlotLevelPicture-6 "EOTH_FleetResearchCommand6"
 	capitalShipSlotLevelPicture-7 "EOTH_FleetResearchCommand7"
 	capitalShipSlotLevelPicture-8 "EOTH_FleetResearchCommand8"
-	shipSlotLevelPicture-0 "EOTH_FleetResearchCommand0"
+	shipSlotLevelPicture-0 "Civilopedia"
 	shipSlotLevelPicture-1 "EOTH_FleetResearchCommand1"
 	shipSlotLevelPicture-2 "EOTH_FleetResearchCommand2"
 	shipSlotLevelPicture-3 "EOTH_FleetResearchCommand3"
@@ -826,7 +811,7 @@ field "IDS_RESEARCHFIELD_DEFENSE"
 field "IDS_RESEARCHFIELD_EMPIRE"
 field "IDS_RESEARCHFIELD_DIPLOMACY"
 field "IDS_RESEARCHFIELD_ARTIFACT"
-field "IDS_RESEARCHFIELD_FLEET"
+field "IDS_RESEARCHFIELD_CIVILOPEDIA"
 playerThemeGroupName "PlayerEotH"
 playerPictureGroupName "PlayerEotH"
 raceRelationsModCount 3

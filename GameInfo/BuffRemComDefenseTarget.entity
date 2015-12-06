@@ -12,7 +12,7 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
 entityModifier
-	buffEntityModifierType "DamageAsDamageDealer"
+	buffEntityModifierType "DamageAsDamageTarget"
 	value
 		Level:0 0.030000
 		Level:1 0.060000

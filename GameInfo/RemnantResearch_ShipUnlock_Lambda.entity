@@ -7,7 +7,7 @@ NameStringID "IDS_FRIGATE_LAMBDA_NAME"
 DescriptionStringID "IDS_FRIGATE_LAMBDA_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 4 ]
+	pos [ 0 , 1 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0

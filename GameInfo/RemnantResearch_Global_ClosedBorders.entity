@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_CLOSEDBORDERS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_CLOSEDBORDERS_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 3 , 2 ]
+	pos [ 3 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0

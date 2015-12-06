@@ -7,7 +7,7 @@ NameStringID "IDS_TIEDEFENDER_NAME"
 DescriptionStringID "IDS_TIEDEFENDER_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 4 ]
+	pos [ 4 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1

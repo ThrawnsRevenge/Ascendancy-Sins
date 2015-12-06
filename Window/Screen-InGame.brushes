@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 404
+brushCount 450
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -690,19 +690,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Ascendancy_Icons_Disabled"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Pressed
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	CursorOver
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Focused
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 	Normal
 		fileName "Buttons_Ascendancy_Icons"
-		pixelBox [ 1 , 87 , 42 , 42 ]
+		pixelBox [ 431 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonArtifact"
 	content "States"
@@ -1769,20 +1769,20 @@ brush
 	name "ResearchWindowButtonBackdrop"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy"
-		pixelBox [ 502 , 214 , 50 , 36 ]
+		fileName "Ascendancy_Research"
+		pixelBox [ 115 , 197 , 55 , 45 ]
 	Pressed
-		fileName "Buttons_Ascendancy"
-		pixelBox [ 502 , 251 , 50 , 36 ]
+		fileName "Ascendancy_Research"
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	CursorOver
-		fileName "Buttons_Ascendancy"
-		pixelBox [ 502 , 251 , 50 , 36 ]
+		fileName "Ascendancy_Research"
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	Focused
-		fileName "Buttons_Ascendancy"
-		pixelBox [ 502 , 288 , 50 , 36 ]
+		fileName "Ascendancy_Research"
+		pixelBox [ 58 , 197 , 55 , 45 ]
 	Normal
-		fileName "Buttons_Ascendancy"
-		pixelBox [ 502 , 177 , 50 , 36 ]
+		fileName "Ascendancy_Research"
+		pixelBox [ 1 , 197 , 55 , 45 ]
 brush
 	name "ResearchWindowButtonMaxLevelOverlay"
 	content "Simple"
@@ -2017,33 +2017,33 @@ brush
 brush
 	name "ResearchWindowArrowRight1"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1332 , 63 , 34 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 35 , 311 , 29 , 48 ]
 brush
 	name "ResearchWindowArrowRight2"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1376 , 127 , 34 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 72 , 311 , 100 , 48 ]
 brush
 	name "ResearchWindowArrowRight3"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1420 , 191 , 34 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 189 , 311 , 177 , 48 ]
 brush
 	name "ResearchWindowArrowRight4"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1464 , 255 , 34 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 33 , 343 , 252 , 48 ]
 brush
 	name "ResearchWindowArrowRight1Down1"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1564 , 63 , 80 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 392 , 311 , 54 , 55 ]
 brush
 	name "ResearchWindowArrowDown1"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1654 , 48 , 45 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 93 , 280 , 55 , 29 ]
 brush
 	name "ResearchWindowArrowUp2"
 	content "Simple"
@@ -2052,13 +2052,13 @@ brush
 brush
 	name "ResearchWindowArrowUp1Right1"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1508 , 112 , 45 ]
+	fileName "Ascendancy_Research"
+	pixelBox [ 1 , 255 , 75 , 34 ]
 brush
 	name "ResearchWindowArrowUp1Right2"
 	content "Simple"
-	fileName "BackdropInGame"
-	pixelBox [ 1733 , 1908 , 177 , 45 ]
+	fileName "Null"
+	pixelBox [ 1728 , 1908 , 177 , 45 ]
 brush
 	name "ResearchWindowArrowBlockDown1"
 	content "Simple"
@@ -3923,3 +3923,366 @@ brush
 	content "Simple"
 	fileName "FleetCommandResearchIcons"
 	pixelBox [ 330 , 71 ,  46 , 34 ]
+brush
+	name "NewRepublic_Research_Block_Background"
+	content "Margins"
+	stretchMargins
+		left 18
+		right 1
+		top 18
+		bottom 1
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 187 , 199 , 20 , 20 ]
+brush
+	name "Remnant_Research_Block_Background"
+	content "Margins"
+	stretchMargins
+		left 18
+		right 1
+		top 18
+		bottom 1
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 207 , 199 , 20 , 20 ]
+brush
+	name "Hand_Research_Block_Background"
+	content "Margins"
+	stretchMargins
+		left 18
+		right 1
+		top 18
+		bottom 1
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 227 , 199 , 20 , 20 ]
+brush
+	name "Alignment_Research_Block_Background"
+	content "Margins"
+	stretchMargins
+		left 18
+		right 1
+		top 18
+		bottom 1
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 247 , 199 , 20 , 20 ]
+brush
+	name "NewRepublic_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 267 , 199 , 20 , 20 ]
+brush
+	name "NewRepublic_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 267 , 199 , 20 , 63 ]
+brush
+	name "Remnant_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 290 , 199 , 20 , 20 ]
+brush
+	name "Remnant_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 290 , 199 , 20 , 63 ]
+brush
+	name "Hand_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 313 , 199 , 20 , 20 ]
+brush
+	name "Hand_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 5
+		bottom 30
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 313 , 199 , 20 , 63 ]
+brush
+	name "Alignment_Research_Level_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 20
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 330 , 199 , 20 , 20 ]
+brush
+	name "Alignment_Research_Level_Bottom_Background"
+	content "Margins"
+	stretchMargins
+		left 1
+		right 18
+		top 5
+		bottom 33
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Ascendancy_Research"
+	pixelBox [ 330 , 199 , 20 , 63 ]
+brush
+	name "IR_Research_Block_Fleet"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Subsystems"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Academy"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Defense"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Economy"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Development"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "IR_Research_Block_Control"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "IR_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "IR_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Fleet"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Subsystems"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Academy"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Defense"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Economy"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Development"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "NR_Research_Block_Democracy"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "NR_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "NR_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Fleet"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Subsystems"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Academy"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Defense"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Economy"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Development"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "PA_Research_Block_Control"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "PA_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "PA_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Fleet"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 1 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Subsystems"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 1 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Academy"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 162 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Defense"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 162 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Economy"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 323 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Development"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 323 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_Control"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 1 , 484 , 410 , 160 ]
+brush
+	name "EOTH_Research_Block_ForeignAffairs"
+	content "Simple"
+	fileName "EOTH_Research"
+	pixelBox [ 412 , 484 , 410 , 160 ]
+brush
+	name "Civilopedia"
+	content "Simple"
+	fileName "Civilopedia"
+	pixelBox [ 0 , 0 , 800 , 700 ]
+brush
+	name "Civilopedia_Icon"
+	content "States"
+	Disabled
+		fileName "Buttons_Ascendancy_Icons_Disabled"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Pressed
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	CursorOver
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Focused
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
+	Normal
+		fileName "Buttons_Ascendancy_Icons"
+		pixelBox [ 431 , 1 , 42 , 42 ]
