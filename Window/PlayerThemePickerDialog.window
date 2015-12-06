@@ -27,7 +27,7 @@ acceptButton
 titleTextId "IDS_DIALOGWINDOW_TITLETEXT_PLAYERTHEMEPICKERWINDOW"
 themeButtonSize [56 , 52]
 themeButtonStride [51, 50]
-themeButtonTopLeftOffset [0, 125]
+themeButtonTopLeftOffset [-5000, -5000]
 themeButtonMaxRowCount 10
 colorButtonSize [56 , 52]
 colorButtonStride [51, 50]

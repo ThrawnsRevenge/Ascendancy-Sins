@@ -2,34 +2,34 @@ TXT
 themeCount 1
 Icon
 	textureName "RaceLogos_Ascendancy"
-	startTopLeft [ 67 , 107 ]
+	startTopLeft [ 1 , 107 ]
 	width 32
 	height 32
 	rowItemCount 1
-	horizontalStride 33
-	verticalStride 33
+	horizontalStride 0
+	verticalStride 0
 IconOverlay
 	textureName "RaceLogos_Ascendancy"
-	startTopLeft [ 31 , 164 ]
+	startTopLeft [ 1 , 164 ]
 	width 14
 	height 14
 	rowItemCount 1
-	horizontalStride 15
-	verticalStride 15
+	horizontalStride 0
+	verticalStride 0
 Picture
 	textureName "RaceLogos_Ascendancy"
-	startTopLeft [ 213 , 1 ]
+	startTopLeft [ 1 , 1 ]
 	width 105
 	height 105
 	rowItemCount 1
-	horizontalStride 106
-	verticalStride 106
+	horizontalStride 0
+	verticalStride 0
 PlanetIcon
 	textureName "RaceLogos_Ascendancy"
-	startTopLeft [ 49 , 140 ]
+	startTopLeft [ 1 , 140 ]
 	width 23
 	height 23
 	rowItemCount 1
-	horizontalStride 24
-	verticalStride 24
+	horizontalStride 0
+	verticalStride 0
 	
