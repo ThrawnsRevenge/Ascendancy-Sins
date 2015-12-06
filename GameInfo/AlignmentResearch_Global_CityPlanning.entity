@@ -12,7 +12,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_Global_RuralDevelopment"
+		Subject "AlignmentResearch_Global_RuralDevelopment"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
