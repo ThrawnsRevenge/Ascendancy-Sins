@@ -3607,7 +3607,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.0
-	minAttenuationDist 1000.0
+	minAttenuationDist 1500.0
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -3622,7 +3622,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.0
-	minAttenuationDist 1000.0
+	minAttenuationDist 1500.0
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5797,7 +5797,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 1500.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5812,7 +5812,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 1500.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5827,7 +5827,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 1000.000000
+	minAttenuationDist 1500.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5932,7 +5932,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 800.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5947,7 +5947,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 800.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
@@ -5962,7 +5962,7 @@ effect
 	is3D TRUE
 	priority 5
 	threshold 30000.000000
-	minAttenuationDist 800.000000
+	minAttenuationDist 1000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
