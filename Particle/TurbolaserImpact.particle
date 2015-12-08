@@ -73,7 +73,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -82,8 +82,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.186824
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 200.000000
-		ParticleHeight 200.000000
+		ParticleWidth 400.000000
+		ParticleHeight 400.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -283,13 +283,13 @@ ParticleSimulation
 	EmitterContents
 		Name "(copy) Flash!-1"
 		Enabled TRUE
-		EmitRate 30.000000
+		EmitRate 80.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 2
+		MaxEmitCount 5
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000

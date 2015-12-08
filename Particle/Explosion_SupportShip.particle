@@ -7,21 +7,21 @@ ParticleSimulation
 	EmitterContents
 		Name "core"
 		Enabled TRUE
-		EmitRate 200.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 7
+		MaxEmitCount 15
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.000000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 10.000000
-		ParticleMaxStartLinearSpeed 35.000000
+		ParticleMaxStartLinearSpeed 50.000000
 		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 1.745329
+		ParticleMaxStartAngularSpeed 2.617994
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffc0c0c0
 		ParticleWidth 50.000000
 		ParticleHeight 50.000000
 		MeshName ""
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\explosion_core.tga"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\exexplo03.dds"
 		textureName "smoke2.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -62,7 +62,7 @@ ParticleSimulation
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
 		ParticleLifeTime 0.800000
-		ParticleMinStartLinearSpeed 100.000000
+		ParticleMinStartLinearSpeed 10.000000
 		ParticleMaxStartLinearSpeed 500.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
@@ -71,7 +71,7 @@ ParticleSimulation
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffe0c0
 		ParticleWidth 6.000000
-		ParticleHeight 60.000000
+		ParticleHeight 30.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -3.000000 ]
 		Orientation
@@ -118,8 +118,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffc04000
-		ParticleWidth 350.000000
-		ParticleHeight 350.000000
+		ParticleWidth 450.000000
+		ParticleHeight 450.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -165,9 +165,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 200.000000
-		ParticleHeight 200.000000
+		ParticleStartColor ffe0e0e0
+		ParticleWidth 250.000000
+		ParticleHeight 250.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -185,7 +185,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\W_SPARKLE.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE1.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -195,7 +195,7 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 3.141593
-	NumAffectors 3
+	NumAffectors 4
 	AffectorType "Fade"
 	AffectorContents
 		Name "FadeOut"
@@ -212,7 +212,7 @@ ParticleSimulation
 		attachedEmitterName "pointies"
 		attachedEmitterName "core"
 		DoFadeOut TRUE
-		FadeOutTime 1.000000
+		FadeOutTime 0.700000
 		DoFadeIn FALSE
 		FadeInTime 1.000000
 	AffectorType "LinearInflate"
@@ -250,4 +250,21 @@ ParticleSimulation
 		FadeOutTime 0.200000
 		DoFadeIn FALSE
 		FadeInTime 1.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(copy) (new) LinearInflate-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "Flash"
+		attachedEmitterName "(copy) Flash-1"
+		WidthInflateRate 100.000000
+		HeightInflateRate 100.000000
 	length 0.000000

@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 5.000000
-	NumEmitters 3
+	NumEmitters 2
 	EmitterType "Point"
 	EmitterContents
 		Name "Glow"
@@ -63,11 +63,11 @@ ParticleSimulation
 		emitIntervalWaitDuration 0.000000
 		ParticleLifeTime 2.000000
 		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 4.000000
 		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 1.745329
+		ParticleMaxStartAngularSpeed 2.617994
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 1.570796
+		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
 		ParticleWidth 20.000000
@@ -99,54 +99,6 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 3.141593
-	EmitterType "Point"
-	EmitterContents
-		Name "Smoke"
-		Enabled TRUE
-		EmitRate 10.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 1.745329
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 1.570796
-		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 15.000000
-		ParticleHeight 15.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached FALSE
-		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\smoke1.tga"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		AngleVariance 3.141593
 	NumAffectors 5
 	AffectorType "LinearForceInDirection"
 	AffectorContents
@@ -160,9 +112,8 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 1
 		attachedEmitterName "Fire"
-		attachedEmitterName "Smoke"
 		MinForce 1000.000000
 		MaxForce 1000.000000
 		Direction [ 1.000000 0.000000 0.000000 ]
@@ -180,8 +131,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "Fire"
-		WidthInflateRate -6.000000
-		HeightInflateRate -6.000000
+		WidthInflateRate -10.000000
+		HeightInflateRate -10.000000
 	AffectorType "ColorOscillator"
 	AffectorContents
 		Name "(new) ColorOscillator-1"
@@ -213,8 +164,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Smoke"
+		numAttachedEmitters 0
 		WidthInflateRate 15.000000
 		HeightInflateRate 15.000000
 	AffectorType "ColorOscillator"
@@ -229,8 +179,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Smoke"
+		numAttachedEmitters 0
 		TransitionPeriod 2.000000
 		StartColor ffff641e
 		StartAlpha 1.000000

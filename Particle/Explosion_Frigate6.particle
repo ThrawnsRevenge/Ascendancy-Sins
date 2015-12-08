@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "smoke ring"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 35.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 10
+		MaxEmitCount 20
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
+		ParticleLifeTime 2.200000
 		ParticleMinStartLinearSpeed 30.000000
 		ParticleMaxStartLinearSpeed 70.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -21,7 +21,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffc0c0c0
 		ParticleWidth 50.000000
 		ParticleHeight 50.000000
 		MeshName ""
@@ -75,7 +75,7 @@ ParticleSimulation
 		emitIntervalWaitDuration 0.000000
 		ParticleLifeTime 2.000000
 		ParticleMinStartLinearSpeed 50.000000
-		ParticleMaxStartLinearSpeed 600.000000
+		ParticleMaxStartLinearSpeed 1000.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
@@ -175,13 +175,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 80.000000
+		EmitRate 60.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 20
+		MaxEmitCount 35
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.900000
+		ParticleLifeTime 1.000000
 		ParticleMinStartLinearSpeed 50.000000
 		ParticleMaxStartLinearSpeed 100.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -189,7 +189,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffc0c0c0
 		ParticleWidth 40.000000
 		ParticleHeight 40.000000
 		MeshName ""
@@ -277,7 +277,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 1.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -285,7 +285,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.785398
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc06400
+		ParticleStartColor ff804000
 		ParticleWidth 700.000000
 		ParticleHeight 700.000000
 		MeshName ""
@@ -373,7 +373,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.600000
+		ParticleLifeTime 0.300000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -381,9 +381,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
-		ParticleStartColor ff782800
-		ParticleWidth 1500.000000
-		ParticleHeight 1500.000000
+		ParticleStartColor ffff8000
+		ParticleWidth 2000.000000
+		ParticleHeight 2000.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -421,7 +421,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -429,7 +429,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.785398
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffffe0c0
 		ParticleWidth 500.000000
 		ParticleHeight 500.000000
 		MeshName ""
@@ -538,10 +538,8 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 4
+		numAttachedEmitters 2
 		attachedEmitterName "shock out"
-		attachedEmitterName "cloud out"
-		attachedEmitterName "Fire"
 		attachedEmitterName "QuickFire"
 		DoFadeOut TRUE
 		FadeOutTime 1.500000
@@ -574,10 +572,12 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
+		numAttachedEmitters 5
 		attachedEmitterName "sparks"
 		attachedEmitterName "smoke ring"
 		attachedEmitterName "Sparkles"
+		attachedEmitterName "Fire"
+		attachedEmitterName "cloud out"
 		DoFadeOut TRUE
 		FadeOutTime 2.000000
 		DoFadeIn TRUE

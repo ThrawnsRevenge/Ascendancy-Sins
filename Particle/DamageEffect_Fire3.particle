@@ -7,21 +7,21 @@ ParticleSimulation
 	EmitterContents
 		Name "smoke curl"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
 		ParticleLifeTime 3.000000
-		ParticleMinStartLinearSpeed 5.000000
+		ParticleMinStartLinearSpeed -10.000000
 		ParticleMaxStartLinearSpeed 10.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 1.745329
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffc0c0c0
 		ParticleWidth 0.700000
 		ParticleHeight 0.700000
 		MeshName ""
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\exexplo03.dds"
 		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03n.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -112,7 +112,7 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 3.141593
-	NumAffectors 8
+	NumAffectors 9
 	AffectorType "Fade"
 	AffectorContents
 		Name ""
@@ -145,8 +145,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "smoke curl"
-		WidthInflateRate 20.000000
-		HeightInflateRate 20.000000
+		WidthInflateRate 10.000000
+		HeightInflateRate 10.000000
 	AffectorType "LinearForceInDirection"
 	AffectorContents
 		Name ""
@@ -246,4 +246,23 @@ ParticleSimulation
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
 		FadeInTime 0.500000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(new) ColorOscillator-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "smoke curl"
+		TransitionPeriod 3.000000
+		StartColor ffffffff
+		StartAlpha 1.000000
+		EndColor ffc05a00
+		EndAlpha 0.000000
 	length 0.000000
