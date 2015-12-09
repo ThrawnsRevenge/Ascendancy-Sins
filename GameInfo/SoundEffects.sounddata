@@ -2213,11 +2213,11 @@ effect
 	priority 10
 	threshold 40000.000000
 	minAttenuationDist 2000.000000
-	maxNumPlayingSimultaneously 3
+	maxNumPlayingSimultaneously 6
 	isLooping FALSE
 	isResident FALSE
 	minRespawnTime 0.1
-	fadeInTime 0.5
+	fadeInTime 0.1
 	fadeOutTime 1.0
 	alternateGroup ""
 effect
