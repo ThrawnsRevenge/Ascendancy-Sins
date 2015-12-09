@@ -20,7 +20,7 @@ effectInfo
 	smallEffectName "CapitalAbility_FarSightActivate"
 	mediumEffectName "CapitalAbility_FarSightActivate"
 	largeEffectName "CapitalAbility_FarSightActivate"
-	soundID "EFFECT_FARSIGHT"
+	soundID "EFFECT_PROBEDROID"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

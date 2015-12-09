@@ -1,5 +1,5 @@
 TXT
-numEffects 433
+numEffects 434
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -1083,6 +1083,21 @@ effect
 effect
 	name "EFFECT_PROBELANDING"
 	fileName "Effect_ProbeLanding.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 40000.000000
+	minAttenuationDist 2000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""	
+effect
+	name "EFFECT_PROBEDROID"
+	fileName "Effect_Probedroid.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
