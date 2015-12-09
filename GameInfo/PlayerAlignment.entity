@@ -451,10 +451,10 @@ musicThemeData
 	musicTheme "MUSIC_QUIET_2"
 	musicTheme "MUSIC_QUIET_3"
 	neutralMusicThemeCount 18
-	musicTheme "MUSIC_QUIET_1"
-	musicTheme "MUSIC_QUIET_2"
-	musicTheme "MUSIC_QUIET_3"
-	musicTheme "MUSIC_QUIET_4"
+	musicTheme "M_AlignmentAmbient1"
+	musicTheme "M_AlignmentAmbient2"
+	musicTheme "M_AlignmentAmbient3"
+	musicTheme "M_AlignmentAmbient4"
 	musicTheme "MUSIC_QUIET_5"
 	musicTheme "MUSIC_QUIET_6"
 	musicTheme "MUSIC_QUIET_7"
@@ -468,9 +468,9 @@ musicThemeData
 	musicTheme "MUSIC_QUIET_15"
 	musicTheme "MUSIC_QUIET_16"
 	musicTheme "MUSIC_QUIET_17"
-	musicTheme "MUSIC_QUIET_18
+	musicTheme "M_AlignmentTension1"
 	scareThemeCount 24
-	musicTheme "MUSIC_BATTLE_1"
+	musicTheme "M_AlignmentBattle1"
 	musicTheme "MUSIC_BATTLE_2"
 	musicTheme "MUSIC_BATTLE_3"
 	musicTheme "MUSIC_BATTLE_4"

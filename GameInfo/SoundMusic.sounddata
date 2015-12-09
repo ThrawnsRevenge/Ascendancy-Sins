@@ -1,5 +1,5 @@
 TXT
-numMusic 111
+numMusic 117
 music
 	name "MUSIC_FRONTEND"
 	fileName "M_War.ogg"
@@ -11,6 +11,14 @@ music
 music
 	name "MUSIC_BATTLE_1"
 	fileName "M_Battle1.ogg"
+	isLooping FALSE
+	actionLevel 0.75
+	actionRange 0.35
+	emotionLevel 0.0
+	emotionRange 1.0
+music
+	name "M_AlignmentBattle1"
+	fileName "M_AlignmentBattle1.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -233,6 +241,38 @@ music
 	emotionLevel 0.4
 	emotionRange 0.6
 music
+	name "MUSIC_Alignment_Ambient1"
+	fileName "M_AlignmentAmbient1.ogg"
+	isLooping FALSE
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.4
+	emotionRange 0.6
+music
+	name "MUSIC_Alignment_Ambient2"
+	fileName "M_AlignmentAmbient2.ogg"
+	isLooping FALSE
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.4
+	emotionRange 0.6
+music
+	name "MUSIC_Alignment_Ambient3"
+	fileName "M_AlignmentAmbient3.ogg"
+	isLooping FALSE
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.6
+	emotionRange 0.4
+music
+	name "MUSIC_Alignment_Ambient4"
+	fileName "M_AlignmentAmbient4.ogg"
+	isLooping FALSE
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.5
+	emotionRange 0.5
+music
 	name "MUSIC_QUIET_2"
 	fileName "M_Ambient2.ogg"
 	isLooping FALSE
@@ -387,6 +427,14 @@ music
 music
 	name "MUSIC_TROUBLE_1"
 	fileName "Trouble 1.ogg"
+	isLooping FALSE
+	actionLevel 0.1
+	actionRange 0.1
+	emotionLevel -0.3
+	emotionRange 0.5
+music
+	name "M_AlignmentTension1"
+	fileName "M_AlignmentTension1.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
