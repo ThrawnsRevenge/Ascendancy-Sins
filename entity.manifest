@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2540
+entityNameCount 2541
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -281,6 +281,7 @@ entityName "NewRepResearch_Economy_Tibanna00.entity"
 entityName "NewRepResearch_Economy_Tibanna01.entity"
 entityName "NewRepResearch_Economy_Tibanna02.entity"
 entityName "NewRepResearch_Economy_TradeStation.entity"
+entityName "NewRepResearch_Economy_SmugglersDen.entity"
 entityName "NewRepResearch_Flat_CultureExport.entity"
 entityName "NewRepResearch_Global_HelpingHand.entity"
 entityName "NewRepResearch_Global_CoalitionForces.entity"

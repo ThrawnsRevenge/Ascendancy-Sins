@@ -26,7 +26,10 @@ DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_DESCRIPTION"
 planetModuleRoleType "TRADEPORT"
 statCountType "ModuleTradePort"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_Economy_SmugglersDen"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 4500.000000

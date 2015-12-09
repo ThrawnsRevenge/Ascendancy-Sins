@@ -70,7 +70,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 91
+		count 92
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -110,6 +110,7 @@ entities
 		entityDefName "NewRepResearch_Economy_Tibanna01"
 		entityDefName "NewRepResearch_Economy_Tibanna02"
 		entityDefName "NewRepResearch_Economy_TradeStation"
+		entityDefName "NewRepResearch_Economy_SmugglersDen"
 		entityDefName "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		entityDefName "NewRepResearch_Flat_CultureExport"
 		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
