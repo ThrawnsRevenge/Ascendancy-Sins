@@ -1,5 +1,12 @@
 TXT
-musicThemeCount 51
+musicThemeCount 57
+
+musicTheme "M_AlignmentAmbient1"
+musicTheme "M_AlignmentAmbient2"
+musicTheme "M_AlignmentAmbient3"
+musicTheme "M_AlignmentAmbient4"
+musicTheme "M_AlignmentTension1"
+musicTheme "M_AlignmentBattle1"
 musicTheme "MUSIC_QUIET_1"
 musicTheme "MUSIC_QUIET_2"
 musicTheme "MUSIC_QUIET_3"
