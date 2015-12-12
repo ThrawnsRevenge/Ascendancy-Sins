@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2541
+entityNameCount 2543
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -110,6 +110,7 @@ entityName "EotH_Visvia.entity"
 entityName "EotH_Clawcraft.entity"
 entityName "EotH_Clawcraft_Squad.entity"
 entityName "EotH_Scarsiss.entity"
+entityName "EotH_Stent.entity"
 entityName "EotH_Scarsiss_Squad.entity"
 entityName "EotH_FrigateShipyard.entity"
 entityName "EotH_CapitalShipyard.entity"
@@ -543,6 +544,7 @@ entityName "Alignment_Enforcer.entity"
 entityName "Alignment_Vindicator.entity"
 entityName "Alignment_Acclamator.entity"
 entityName "Alignment_VSDI.entity"
+entityName "Alignment_Grant.entity"
 entityName "AlignmentResearch_ShipUnlock_VSDI.entity"
 entityName "AlignmentResearch_ShipUnlock_Venator.entity"
 entityName "AlignmentResearch_ShipUnlock_Enforcer.entity"

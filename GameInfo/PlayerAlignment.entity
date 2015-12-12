@@ -149,7 +149,7 @@ entities
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
 		entityDefName "Remnant_Esseles"
-	flagship "Remnant_Chimera"
+	flagship "Alignment_Grant"
 debrisData
 	numRandomMeshNamesLarge 10
 	randomMeshName "DebrisPsiGenericLarge0"
