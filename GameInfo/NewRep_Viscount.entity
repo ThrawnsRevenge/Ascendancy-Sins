@@ -58,7 +58,7 @@ HullPointRestoreRate
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 ShieldPointRestoreRate
-	StartValue 4.500000
+	StartValue 80.500000
 	ValueIncreasePerLevel 0.700000
 ArmorPointsFromExperience
 	StartValue 11.000000
