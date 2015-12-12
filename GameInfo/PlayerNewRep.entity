@@ -33,15 +33,12 @@ entities
 			entityDefName "NewRep_Viscount"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 5
 			entityDefName "NewRep_MC80"
 			entityDefName "NewRep_MC80b"
 			entityDefName "NewRep_MC90"
 			entityDefName "NewRep_Nebula"
 			entityDefName "NewRep_Endurance"
-			entityDefName "NewRep_Command_MC80Home"
-			entityDefName "NewRep_Command_MC90"
-			entityDefName "NewRep_Command_Nebula"
 	frigateInfo
 		Page:0
 			count 8
@@ -70,7 +67,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 92
+		count 90
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -84,11 +81,9 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_MC90"
 		entityDefName "NewRepResearch_ShipUnlock_MC80b"
 		entityDefName "NewRepResearch_ShipUnlock_Nebula"
-		entityDefName "NewRepResearch_ShipUnlock_MC90_Command"
 		entityDefName "NewRepResearch_ShipUnlock_Dauntless"
 		entityDefName "NewRepResearch_ShipUnlock_Empress"
 		entityDefName "NewRepResearch_ShipUnlock_XQ"
-		entityDefName "NewRepResearch_ShipUnlock_Nebula_Command"
 		entityDefName "NewRepResearch_ShipUnlock_Endurance"
 		entityDefName "NewRepResearch_ShipUnlock_Bwing"
 		entityDefName "NewRepResearch_ShipUnlock_AssaultFrigate"
