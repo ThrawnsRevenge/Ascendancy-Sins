@@ -7,7 +7,7 @@ NameStringID "IDS_EOTHRESEARCH_CSAPLA_NAME"
 DescriptionStringID "IDS_EOTHRESEARCH_CSAPLA_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7, 1 ]
+	pos [ 7, 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

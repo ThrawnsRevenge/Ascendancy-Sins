@@ -664,11 +664,29 @@ StringInfo
 	ID "IDS_FRIGATE_IMMOBILIZER_DESCRIPTION"
 	Value "A significant component of the Imperial fleet the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
+	ID "IDS_FRIGATE_ALARIA_NAME"
+	Value "Alaria Freighter"
+StringInfo
+	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
+	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
+StringInfo
+	ID "IDS_FRIGATE_BUDIRECH_NAME"
+	Value "Bu'direch Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
+	Value "A fusion of the old Republic dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
+StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_NAME"
 	Value "Dreadnaught Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_DESCRIPTION"
 	Value "Outdated and crew intensive the Dreadnaught nonetheless remains a potent weapon in the right hands."
+StringInfo
+	ID "IDS_FRIGATE_ASCENT_NAME"
+	Value "Frontier Scout"
+StringInfo
+	ID "IDS_FRIGATE_ASCENT_DESCRIPTION"
+	Value "A sleek and inconspicuous vessel designed to get quickly into and out of new territories for the Empire of the Hand without drawing undue attention."
 StringInfo
 	ID "IDS_FRIGATE_ASSAULTFRIGATE_NAME"
 	Value "Assault Frigate"
@@ -688,10 +706,22 @@ StringInfo
 	ID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
 	Value "A small transport used to drop troops on the planet's surface."
 StringInfo
+	ID "IDS_PLANETMODULE_VISVIA_NAME"
+	Value "Visvia Defense Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VISVIA_DESCRIPTION"
+	Value "A massive defensive platform with four prominent primary turrets which can deal massive damage to individual targets, along with a multitude of smaller weaponry."
+StringInfo
+	ID "IDS_PLANETMODULE_BRASK_NAME"
+	Value "Brask Hangar Station"
+StringInfo
+	ID "IDS_PLANETMODULE_BRASK_DESCRIPTION"
+	Value "Termed Nests among Hand pilots, the Brask station is a Chiss design which proovides light support and large amounts of fighters for local recon and defense purposes."
+StringInfo
 	ID "IDS_FRIGATE_DAUNTLESS_NAME"
 	Value "Dauntless Cruiser"
 StringInfo
-	ID "IDS_FRIGATE_BAC_DESCRIPTION"
+	ID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
 	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates ."
 StringInfo
 	ID "IDS_FRIGATE_BAC_NAME"

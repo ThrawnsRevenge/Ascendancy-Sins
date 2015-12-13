@@ -22,8 +22,8 @@ slotCount 6.000000
 BuildTime 55.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 2700.000000
-MaxShieldPoints 2700.000000
+MaxHullPoints 2300.000000
+MaxShieldPoints 3200.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 60.000000
 BaseArmorPoints 2.000000
