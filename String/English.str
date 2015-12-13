@@ -109,11 +109,23 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_IROKINI_DESCRIPTION"
 	Value "The Empire of the Hand begins cooperation witht he Irokini family, providing bonuses to research speed and cost."
 StringInfo
+	ID "IDS_REPAIRPLATFORM_NAME"
+	Value "Refueling Station"
+StringInfo
+	ID "IDS_REPAIRPLATFORM_DESCRIPTION"
+	Value "A small station equipped with facilities to repair and refuel starships."
+StringInfo
 	ID "IDS_EOTHRESEARCH_CSAPLA_NAME"
-	Value "Irokini Family"
+	Value "Csapla Family"
 StringInfo
 	ID "IDS_EOTHRESEARCH_CSAPLA_DESCRIPTION"
 	Value "The Csapla family takes over responsibility for Hand colony worlds and primary industry."
+StringInfo
+	ID "IDS_BULWARKDEFENSE_NAME"
+	Value "Galactic Bulwark"
+StringInfo
+	ID "IDS_BULWARKDEFENSE_DESCRIPTION"
+	Value "As the galaxy's first line of defense against invaders and unknown threats, the Empire of the Hand spends massive amounts of resources to construct large defensive starbases."
 StringInfo
 	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
 	Value "Recovery"

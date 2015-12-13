@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_BRASK"
 smallHudIcon "HUDICON_BRASK"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_BRASK_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_BRASK_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_BRASK_NAME"
+DescriptionStringID "IDS_PLANETMODULE_BRASK_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 0 , 1 ]
