@@ -812,7 +812,7 @@ StringInfo
 	Value "Sovereign Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
-	Value "A titanic warship armed with a superlaser capable of melting the surface of planets."
+	Value "A titanic warship armed with a superlaser capable of melting the surface of planets. Limit one per game."
 StringInfo
 	ID "IDS_TITAN_VISCOUNT_NAME"
 	Value "Viscount Star Defender"

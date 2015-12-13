@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2543
+entityNameCount 2547
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -721,6 +721,10 @@ entityName "BuffImAnEscapePod.entity"
 entityName "AbilityEmpressRestore.entity"
 entityName "BuffEmpressRestore.entity"
 entityName "BuffAfterburn.entity"
+entityName "AbilitySpawnHeroSovereign.entity"
+entityName "BuffSpawnHeroSovereignSelf.entity"
+entityName "BuffSpawnHeroSovereignDisabler.entity"
+entityName "BuffSpawnHeroSovereignDisablerSpawner.entity"
 entityName "AbilitySpawnHeroGalaxyGunConstructor.entity"
 entityName "BuffSpawnHeroGalaxyGunConstructorSelf.entity"
 entityName "BuffSpawnHeroGalaxyGunDisabler.entity"
