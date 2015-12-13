@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_Proficient"
+		Subject "NewRepResearch_ShipUnlock_Hajen"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
