@@ -55,8 +55,8 @@ entities
 			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
 			count 4
-			entityDefName "FrigatePhaseModuleConstructor"
-			entityDefName "FrigatePhaseTradeShip"
+			entityDefName "Remnant_CT11"
+			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo

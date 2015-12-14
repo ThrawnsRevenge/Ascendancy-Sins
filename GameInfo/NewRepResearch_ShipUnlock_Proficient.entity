@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_DAUNTLESS"
+hudIcon "HUDICON_PROFICIENT"
 smallHudIcon "HUDICON_PROFICIENT"
 infoCardIcon ""
 NameStringID "IDS_FRIGATE_PROFICIENT_NAME"
