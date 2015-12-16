@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_XWING"
-smallHudIcon "HUDICONSMALL_FIGHTER_XWING"
-infoCardIcon "HUDICONSMALL_FIGHTER_XWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
+infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 fighterEntityDef "NewRep_XWing"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -16,7 +16,7 @@ baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "HUDICONSMALL_FIGHTER_XWING"
-picture "HUDICONSMALL_FIGHTER_XWING"
+picture "HUDICON_XWING"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERXWING_NAME"

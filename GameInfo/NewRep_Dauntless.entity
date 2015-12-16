@@ -40,8 +40,8 @@ numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_DAUNTLESS"
-smallHudIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
-infoCardIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.500000
 NumWeapons 2
 Weapon

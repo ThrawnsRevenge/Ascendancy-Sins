@@ -40,8 +40,8 @@ numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_FRIGATE_MC30C"
-smallHudIcon "HUDICONSMALL_MC30C"
-infoCardIcon "HUDICONSMALL_MC30C"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.500000
 NumWeapons 3
 Weapon

@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_BWING"
-smallHudIcon "HUDICONSMALL_FIGHTER_BWING"
-infoCardIcon "HUDICONSMALL_FIGHTER_BWING"
+smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
+infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 fighterEntityDef "NewRep_Bwing"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000

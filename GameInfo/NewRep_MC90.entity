@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_MC90_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_MC90_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_MC90"
+picture "HUDICON_MC90"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -89,8 +89,8 @@ numRandomDebrisSmall 28
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_MC90"
-smallHudIcon "HUDICONSMALL_MC90"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_MC90"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_ENDURANCE"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_ENDURANCE"
 basePrice
 	credits 1300.000000
 	metal 100.000000
@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_ENDURANCE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_ENDURANCE_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_TECHCARRIER"
+picture "HUDICON_ENDURANCE"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -89,8 +89,8 @@ numRandomDebrisSmall 30
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_ENDURANCE"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCARRIER"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHCARRIER"
+smallHudIcon "HUDICONSMALL_FLEET_CARRIER"
+infoCardIcon "HUDICONSMALL_FLEET_CARRIER"
 minZoomDistanceMult 1.650000
 NumWeapons 3
 Weapon

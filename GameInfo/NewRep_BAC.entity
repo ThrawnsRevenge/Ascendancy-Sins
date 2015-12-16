@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_BAC"
-smallHudIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
-infoCardIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 4
 Weapon

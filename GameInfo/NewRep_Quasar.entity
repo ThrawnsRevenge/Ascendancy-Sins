@@ -40,8 +40,8 @@ numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_QUASAR"
-smallHudIcon "HUDICONSMALL_FRIGATE_QUASAR"
-infoCardIcon "HUDICONSMALL_FRIGATE_QUASAR"
+smallHudIcon "HUDICONSMALL_CARRIER"
+infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

@@ -37,8 +37,8 @@ numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_NEBULON"
-smallHudIcon "HUDICONSMALL_FRIGATE_NEBULON"
-infoCardIcon "HUDICONSMALL_FRIGATE_NEBULON"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 3.500000
 NumWeapons 2
 Weapon

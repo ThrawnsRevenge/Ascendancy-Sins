@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility0"
 mainViewIcon "HUDICONSMALL_ESCAPEPOD"
-picture "HUDICONSMALL_ESCAPEPOD"
+picture "HUDICON_ESCAPEPOD"
 NameStringID "IDS_FRIGATE_ESCAPEPOD_NAME"
 DescriptionStringID "IDS_FRIGATE_ESCAPEPOD_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICONSMALL_ESCAPEPOD"
-smallHudIcon "HUDICONSMALL_ESCAPEPOD"
-infoCardIcon "HUDICONSMALL_ESCAPEPOD"
+hudIcon "HUDICON_ESCAPEPOD"
+smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
+infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

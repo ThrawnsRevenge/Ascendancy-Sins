@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_MC80B_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_MC80B_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_MC80b"
+picture "HUDICON_MC80B"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -89,8 +89,8 @@ numRandomDebrisSmall 25
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_MC80B"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_MC80b"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_MC80b"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon

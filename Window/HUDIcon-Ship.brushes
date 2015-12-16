@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 307
+brushCount 316
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -2051,10 +2051,10 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 2 , 2 , 52 , 37 ]
 brush
-	name "HUDICONSMALL_CAPITALSHIP_ENDURANCE"
+	name "MAINVIEWICON_CAPITALSHIP_ENDURANCE"
 	content "Simple"
-	fileName "CapitalShip_Pip"
-	pixelBox [ 120 , 81 , 40 , 40 ]
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 1 , 100 , 50 ]
 brush
 	name "HUDICONSMALL_CAPITALSHIP_MC80"
 	content "Simple"
@@ -3850,3 +3850,48 @@ brush
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 301 , 241 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_MILITARY_SUPPORT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 1 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_FRIGATE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 30 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 59 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_CAPITAL_SHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 88 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_SUPER_CAPITAL_SHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 117 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_CARRIER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 146 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_FIGHTER_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 175 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_CIVILIAN_SHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 204 , 1 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_FLEET_CARRIER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 1 , 30 , 28 , 28 ]
