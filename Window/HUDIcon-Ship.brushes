@@ -217,10 +217,10 @@ brush
 	fileName "CapitalShip_Pip"
 	pixelBox [ 0 , 40 , 40 , 40 ]
 brush
-	name "HUDICONSMALL_TITAN_HOMEONE"
+	name "MAINVIEWICON_VISCOUNT"
 	content "Simple"
-	fileName "CapitalShip_Pip"
-	pixelBox [ 120 , 40 , 40 , 40 ]
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 1 , 100 , 50 ]
 brush
 	name "HUDICONSMALL_TITAN_EXECUTOR"
 	content "Simple"
@@ -2066,15 +2066,15 @@ brush
 	fileName "CapitalShip_Pip"
 	pixelBox [ 80 , 81 , 40 , 40 ]
 brush
-	name "HUDICONSMALL_CAPITALSHIP_MC90"
+	name "MAINVIEWICON_MC90"
 	content "Simple"
-	fileName "CapitalShip_Pip"
-	pixelBox [ 40 , 81 , 40 , 40 ]
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 1 , 100 , 50 ]
 brush
-	name "HUDICONSMALL_CAPITALSHIP_NEBULA"
+	name "MAINVIEWICON_NEBULA"
 	content "Simple"
-	fileName "CapitalShip_Pip"
-	pixelBox [ 160 , 81 , 40 , 40 ]
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 1 , 100 , 50 ]
 brush
 	name "HUDICONSMALL_CAPITALSHIP_PRAETOR"
 	content "Simple"

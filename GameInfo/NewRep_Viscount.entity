@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "HUDICON_TITAN_HOMEONE"
+mainViewIcon "MAINVIEWICON_VISCOUNT"
 basePrice
 	credits 12000.000000
 	metal 1200.000000

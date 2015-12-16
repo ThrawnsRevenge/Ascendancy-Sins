@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_NEBULA"
+mainViewIcon "MAINVIEWICON_NEBULA"
 basePrice
 	credits 1650.000000
 	metal 105.000000
