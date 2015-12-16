@@ -17,10 +17,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotInvulnerable"
 range
-	Level:0 15000.000000
-	Level:1 20000.000000
-	Level:2 25000.000000
-	Level:3 30000.000000
+	Level:0 8000.000000
+	Level:1 10000.000000
+	Level:2 12000.000000
+	Level:3 15000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Center"

@@ -64,7 +64,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 81
+		count 79
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -131,8 +131,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
 		entityDefName "RemnantResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
-		entityDefName "RemnantResearch_ShipUnlock_CommanderISDII"
-		entityDefName "RemnantResearch_ShipUnlock_CommanderPraetor"
 		entityDefName "AlignmentResearch_ShipUnlock_Bellator"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "NewRepResearch_Global_PellaeonGavrisom"
@@ -151,7 +149,7 @@ entities
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
 		entityDefName "Remnant_Esseles"
-	flagship "Remnant_Chimera"
+	flagship "Alignment_Grant"
 debrisData
 	numRandomMeshNamesLarge 10
 	randomMeshName "DebrisPsiGenericLarge0"

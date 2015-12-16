@@ -25,7 +25,7 @@ ExperiencePointsForDestroying 40.000000
 MaxHullPoints 1505.000000
 MaxShieldPoints 1505.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 20.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites
@@ -144,8 +144,8 @@ ability:1 "AbilityMTCHangar"
 ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
-MaxAntiMatter 36.000000
-AntiMatterRestoreRate 0.000000
+MaxAntiMatter 150.000000
+AntiMatterRestoreRate 1.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

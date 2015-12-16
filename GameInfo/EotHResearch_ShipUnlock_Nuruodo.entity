@@ -7,7 +7,7 @@ NameStringID "IDS_FRIGATE_NURUODO_NAME"
 DescriptionStringID "IDS_FRIGATE_NURUODO_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 0 ]
+	pos [ 3 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

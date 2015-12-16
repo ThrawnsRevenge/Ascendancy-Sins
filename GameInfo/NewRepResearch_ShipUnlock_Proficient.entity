@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_DAUNTLESS"
+hudIcon "HUDICON_PROFICIENT"
 smallHudIcon "HUDICON_PROFICIENT"
 infoCardIcon ""
 NameStringID "IDS_FRIGATE_PROFICIENT_NAME"
@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_Proficient"
+		Subject "NewRepResearch_ShipUnlock_Hajen"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

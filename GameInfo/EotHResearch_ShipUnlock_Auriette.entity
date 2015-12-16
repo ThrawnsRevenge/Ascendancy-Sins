@@ -7,7 +7,7 @@ NameStringID "IDS_FRIGATE_AURIETTE_NAME"
 DescriptionStringID "IDS_FRIGATE_AURIETTE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 0 ]
+	pos [ 1 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

@@ -109,11 +109,23 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_IROKINI_DESCRIPTION"
 	Value "The Empire of the Hand begins cooperation witht he Irokini family, providing bonuses to research speed and cost."
 StringInfo
+	ID "IDS_REPAIRPLATFORM_NAME"
+	Value "Refueling Station"
+StringInfo
+	ID "IDS_REPAIRPLATFORM_DESCRIPTION"
+	Value "A small station equipped with facilities to repair and refuel starships."
+StringInfo
 	ID "IDS_EOTHRESEARCH_CSAPLA_NAME"
-	Value "Irokini Family"
+	Value "Csapla Family"
 StringInfo
 	ID "IDS_EOTHRESEARCH_CSAPLA_DESCRIPTION"
 	Value "The Csapla family takes over responsibility for Hand colony worlds and primary industry."
+StringInfo
+	ID "IDS_BULWARKDEFENSE_NAME"
+	Value "Galactic Bulwark"
+StringInfo
+	ID "IDS_BULWARKDEFENSE_DESCRIPTION"
+	Value "As the galaxy's first line of defense against invaders and unknown threats, the Empire of the Hand spends massive amounts of resources to construct large defensive starbases."
 StringInfo
 	ID "IDS_EOTHRESEARCH_RECOVERY_NAME"
 	Value "Recovery"
@@ -652,11 +664,29 @@ StringInfo
 	ID "IDS_FRIGATE_IMMOBILIZER_DESCRIPTION"
 	Value "A significant component of the Imperial fleet the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
+	ID "IDS_FRIGATE_ALARIA_NAME"
+	Value "Alaria Freighter"
+StringInfo
+	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
+	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
+StringInfo
+	ID "IDS_FRIGATE_BUDIRECH_NAME"
+	Value "Bu'direch Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
+	Value "A fusion of the old Republic dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
+StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_NAME"
 	Value "Dreadnaught Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_DESCRIPTION"
 	Value "Outdated and crew intensive the Dreadnaught nonetheless remains a potent weapon in the right hands."
+StringInfo
+	ID "IDS_FRIGATE_ASCENT_NAME"
+	Value "Frontier Scout"
+StringInfo
+	ID "IDS_FRIGATE_ASCENT_DESCRIPTION"
+	Value "A sleek and inconspicuous vessel designed to get quickly into and out of new territories for the Empire of the Hand without drawing undue attention."
 StringInfo
 	ID "IDS_FRIGATE_ASSAULTFRIGATE_NAME"
 	Value "Assault Frigate"
@@ -676,10 +706,22 @@ StringInfo
 	ID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"
 	Value "A small transport used to drop troops on the planet's surface."
 StringInfo
+	ID "IDS_PLANETMODULE_VISVIA_NAME"
+	Value "Visvia Defense Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VISVIA_DESCRIPTION"
+	Value "A massive defensive platform with four prominent primary turrets which can deal massive damage to individual targets, along with a multitude of smaller weaponry."
+StringInfo
+	ID "IDS_PLANETMODULE_BRASK_NAME"
+	Value "Brask Hangar Station"
+StringInfo
+	ID "IDS_PLANETMODULE_BRASK_DESCRIPTION"
+	Value "Termed Nests among Hand pilots, the Brask station is a Chiss design which proovides light support and large amounts of fighters for local recon and defense purposes."
+StringInfo
 	ID "IDS_FRIGATE_DAUNTLESS_NAME"
 	Value "Dauntless Cruiser"
 StringInfo
-	ID "IDS_FRIGATE_BAC_DESCRIPTION"
+	ID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
 	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates ."
 StringInfo
 	ID "IDS_FRIGATE_BAC_NAME"
@@ -812,7 +854,7 @@ StringInfo
 	Value "Sovereign Star Destroyer"
 StringInfo
 	ID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
-	Value "A titanic warship armed with a superlaser capable of melting the surface of planets."
+	Value "A titanic warship armed with a superlaser capable of melting the surface of planets. Limit one per game."
 StringInfo
 	ID "IDS_TITAN_VISCOUNT_NAME"
 	Value "Viscount Star Defender"
@@ -989,13 +1031,25 @@ StringInfo
 	Value "A CR90 model refitted for diplomatic missions"
 StringInfo
 	ID "IDS_HERO_THRAWN_NAME"
-	Value "Grand Admiral Thrawn"
+	Value "Thrawn - Chimera"
 StringInfo
 	ID "IDS_HERO_THRAWN_DESCRIPTION"
 	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy."
 StringInfo
+	ID "IDS_HERO_STENT_NAME"
+	Value "Stent - Thrawn's Hand"
+StringInfo
+	ID "IDS_HERO_THRAWN_DESCRIPTION"
+	Value "A Chiss commander of Thrawn's Houshold Phalanx, and a devoted member of the Empire of the Hand bent on the destruction of all threats to the Chiss Ascendancy."
+StringInfo
+	ID "IDS_HERO_GRANT_NAME"
+	Value "Grant - Oriflamme"
+StringInfo
+	ID "IDS_HERO_THRAWN_DESCRIPTION"
+	Value "A Tapani nobleman turned Grand Admiral who, after the fall of the Empire, took refuge in the Pentastar Alignment."
+StringInfo
 	ID "IDS_HERO_ACKBAR_NAME"
-	Value "Admiral Ackbar"
+	Value "Ackbar - Home One"
 StringInfo
 	ID "IDS_HERO_ACKBAR_DESCRIPTION"
 	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor."

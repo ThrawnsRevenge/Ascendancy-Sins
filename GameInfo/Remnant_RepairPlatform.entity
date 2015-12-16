@@ -7,7 +7,7 @@ ability:2 ""
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 300.000000
-AntiMatterRestoreRate 0.500000
+AntiMatterRestoreRate 1.000000
 numRandomDebrisLarge 4
 numRandomDebrisSmall 12
 numSpecificDebris 0
@@ -21,8 +21,8 @@ basePrice
 	credits 400.000000
 	metal 100.000000
 	crystal 75.000000
-NameStringID "IDS_PLANETMODULE_TECHORBITALREPAIRPLATFORM_NAME"
-DescriptionStringID "IDS_PLANETMODULE_TECHORBITALREPAIRPLATFORM_DESCRIPTION"
+NameStringID "IDS_REPAIRPLATFORM_NAME"
+DescriptionStringID "IDS_REPAIRPLATFORM_DESCRIPTION"
 planetModuleRoleType "REPAIRPLATFORM"
 statCountType "ModuleRepair"
 Prerequisites

@@ -25,20 +25,23 @@ ExperiencePointsForDestroying 42.500000
 MaxHullPoints 2590.000000
 MaxShieldPoints 2560.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 2.000000
+ShieldPointRestoreRate 20.000000
 BaseArmorPoints 3.500000
 maxMitigation 0.600000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_ShipUnlock_Proficient"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_ASSAULTFRIGATE"
-smallHudIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
-infoCardIcon "HUDICONSMALL_FRIGATE_ASSAULTFRIGATE"
+hudIcon "HUDICON_PROFICIENT"
+smallHudIcon "HUDICONSMALL_FRIGATE_PROFICIENT"
+infoCardIcon "HUDICONSMALL_FRIGATE_PROFICIENT"
 minZoomDistanceMult 2.500000
 NumWeapons 2
 Weapon
