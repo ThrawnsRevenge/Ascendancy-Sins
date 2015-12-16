@@ -1,588 +1,343 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 117
+brushCount 68
 brush
-	name "HUDICON_RESOURCEASTEROIDMETAL"
+	name "HUDICONSMALL_PLANET_TEMPERATE"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 125 , 31 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 1 , 1 , 20 , 20 ]
 brush
-	name "HUDICON_RESOURCEASTEROIDCRYSTAL"
+	name "HUDICONSMALL_PLANET_ARID_OCEAN"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 155 , 31 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 22 , 1 , 20 , 20 ]
 brush
-	name "HUDICONSMALL_RESOURCEASTEROIDMETAL"
+	name "HUDICONSMALL_PLANET_DESERT"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 125 , 31 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 43 , 1 , 20 , 20 ]
 brush
-	name "HUDICONSMALL_RESOURCEASTEROIDCRYSTAL"
+	name "HUDICONSMALL_PLANET_URBAN"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 155 , 31 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 64 , 1 , 20 , 20 ]
 brush
-	name "HUDICON_PLANET_UNKNOWN"
+	name "HUDICONSMALL_PLANET_GAS_GIANT"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 170 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 85 , 1 , 20 , 20 ]
 brush
-	name "HUDICON_PLANET_PLASMASTORM"
+	name "HUDICONSMALL_PLANET_ICE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 44 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 106 , 1 , 20 , 20 ]
 brush
-	name "HUDICON_PLANET_MAGNETICCLOUD"
+	name "HUDICONSMALL_PLANET_BLACKHOLE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 44 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 1 , 22 , 20 , 20 ]
 brush
-	name "HUDICON_PLANET_WORMHOLE"
+	name "HUDICONSMALL_PLANET_MOUNTAIN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 44 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 22 , 22 , 20 , 20 ]
 brush
-	name "HUDICON_PLANET_TERRAN0"
+	name "HUDICONSMALL_PLANET_NEBULA"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 43 , 22 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_OCEANIC"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 64 , 22 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_POLLUTED"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 85 , 22 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_SWAMP"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 106 , 22 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_VOLCANIC"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 1 , 43 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_ARBOREAL"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 22 , 43 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_ASTEROID"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 43 , 43 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_BARREN"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 64 , 43 , 20 , 20 ]
+brush
+	name "HUDICONSMALL_PLANET_UNKNOWN"
+	content "Simple"
+	fileName "Ascendancy_Planet_Icons"
+	pixelBox [ 85 , 43 , 20 , 20 ]
+brush
+	name "HUDICON_PLANET_TEMPERATE"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
 	pixelBox [ 2 , 2 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_OCCUPATION"
-	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 731 , 654 , 50 , 50 ]
-brush
-	name "HUDICON_PLANET_TERRAN1"
+	name "HUDICON_PLANET_ARID_OCEAN"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 2 , 40 , 40 ]
+	pixelBox [ 44 , 2 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_TERRAN2"
+	name "HUDICON_PLANET_DESERT"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 2 , 40 , 40 ]
+	pixelBox [ 86 , 2 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_URBAN"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 128 , 2 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_GAS_GIANT"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 170 , 2 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_ICE"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 212 , 2 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_BLACKHOLE"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 2 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_MOUNTAIN"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 44 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_NEBULA"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 86 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_OCEANIC"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 128 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_POLLUTED"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 170 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_SWAMP"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 212 , 44 , 40 , 40 ]
+brush
+	name "HUDICON_PLANET_VOLCANIC"
+	content "Simple"
+	fileName "Ascendancy_Planet_Hud_Icons"
+	pixelBox [ 2 , 86 , 40 , 40 ]
 brush
 	name "HUDICON_PLANET_ARBOREAL"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
 	pixelBox [ 44 , 86 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_MOUNTAINOUS"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 44 , 44 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_ICE0"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 44 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_ICE1"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 44 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_ICE2"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 44 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_ICE3"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 44 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_VOLCANIC0"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 86 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_VOLCANIC1"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 86 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_VOLCANIC2"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 2 , 86 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_DESERT0"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_DESERT1"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_DESERT2"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_GASGIANT0"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 170 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_GASGIANT1"
-	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 170 , 2 , 40 , 40 ]
-brush
-	name "HUDICON_PLANET_ASTEROID0"
+	name "HUDICON_PLANET_ASTEROID"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
 	pixelBox [ 86 , 86 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_ASTEROID1"
+	name "HUDICON_PLANET_BARREN"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	pixelBox [ 128 , 86 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_ASTEROID2"
+	name "HUDICON_PLANET_UNKNOWN"
 	content "Simple"
 	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	pixelBox [ 170 , 86 , 40 , 40 ]
 brush
-	name "HUDICON_PLANET_ASTEROID3"
+	name "MAINVIEWICON_PLANET_TEMPERATE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROID4"
+	name "MAINVIEWICON_PLANET_ARID_OCEAN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDBELT"
+	name "MAINVIEWICON_PLANET_DESERT"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDCRESCENT"
+	name "MAINVIEWICON_PLANET_URBAN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDFIELD"
+	name "MAINVIEWICON_PLANET_GAS_GIANT"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 797 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDLINE"
+	name "MAINVIEWICON_PLANET_ICE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 996 , 1 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDSPACEJUNK0"
+	name "MAINVIEWICON_PLANET_BLACKHOLE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDSPACEJUNK1"
+	name "MAINVIEWICON_PLANET_MOUNTAIN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_ASTEROIDSPACEJUNK2"
+	name "MAINVIEWICON_PLANET_NEBULA"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_PIRATEBASE"
+	name "MAINVIEWICON_PLANET_OCEANIC"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 969 , 719 , 50 , 50 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_DEADASTEROID0"
+	name "MAINVIEWICON_PLANET_POLLUTED"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 797 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_DEADASTEROID1"
+	name "MAINVIEWICON_PLANET_SWAMP"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 996 , 70 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_DEADASTEROID2"
+	name "MAINVIEWICON_PLANET_VOLCANIC"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 1 , 139 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_DEADASTEROID3"
+	name "MAINVIEWICON_PLANET_ARBOREAL"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 200 , 139 , 198 , 168 ]
 brush
-	name "HUDICON_PLANET_DEADASTEROID4"
+	name "MAINVIEWICON_PLANET_ASTEROID"
 	content "Simple"
-	fileName "Ascendancy_Planet_Hud_Icons"
-	pixelBox [ 86 , 86 , 40 , 40 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 399 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_UNKNOWN"
+	name "MAINVIEWICON_PLANET_BARREN"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 146 , 945 , 28 , 23 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 598 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_PLASMASTORM"
+	name "MAINVIEWICON_PLANET_UNKNOWN"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 1 , 902 , 42 , 42 ]
+	fileName "Ascendancy_Planet_Pips"
+	pixelBox [ 797 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_MAGNETICCLOUD"
+	name "MAINVIEWUNDETECTEDICON_PLANET_TEMPERATE"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 44 , 902 , 42 , 42 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_WORMHOLE"
+	name "MAINVIEWUNDETECTEDICON_PLANET_ARID_OCEAN"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 233 , 974 , 42 , 42 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_OCCUPATION"
+	name "MAINVIEWUNDETECTEDICON_PLANET_DESERT"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 263 , 945 , 28 , 23 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_TERRAN0"
+	name "MAINVIEWUNDETECTEDICON_PLANET_URBAN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 1 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_TERRAN1"
+	name "MAINVIEWUNDETECTEDICON_PLANET_GAS_GIANT"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 1 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 797 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_TERRAN2"
+	name "MAINVIEWUNDETECTEDICON_PLANET_ICE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 1 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 996 , 1 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_ICE0"
+	name "MAINVIEWUNDETECTEDICON_PLANET_BLACKHOLE"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 105 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_ICE1"
+	name "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 105 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_ICE2"
+	name "MAINVIEWUNDETECTEDICON_PLANET_NEBULA"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 105 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_ICE3"
+	name "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 105 , 0 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_VOLCANIC0"
+	name "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 0 , 42 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 797 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_VOLCANIC1"
+	name "MAINVIEWUNDETECTEDICON_PLANET_SWAMP"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 0 , 42 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 996 , 70 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_VOLCANIC2"
+	name "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC"
 	content "Simple"
-	fileName "Ascendancy_Planet_Icons"
-	pixelBox [ 0 , 42 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 1 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_DESERT0"
+	name "MAINVIEWUNDETECTEDICON_PLANET_ARBOREAL"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 88 , 945 , 28 , 23 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 200 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_DESERT1"
+	name "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
 	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 88 , 969 , 28 , 23 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 399 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_DESERT2"
+	name "MAINVIEWUNDETECTEDICON_PLANET_BARREN"
 	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 88 , 993 , 28 , 23 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 598 , 139 , 198 , 168 ]
 brush
-	name "HUDICONSMALL_PLANET_GASGIANT0"
+	name "MAINVIEWUNDETECTEDICON_PLANET_UNKNOWN"
 	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 117 , 921 , 28 , 20 ]
-brush
-	name "HUDICONSMALL_PLANET_GASGIANT1"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 88 , 921 , 28 , 20 ]
-brush
-	name "HUDICONSMALL_PLANET_MOON0"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 234 , 946 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROID0"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 117 , 945 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROID1"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 117 , 969 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROID2"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 117 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROID3"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 88 , 897 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROID4"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 117 , 897 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDBELT"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 146 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDCRESCENT"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDFIELD"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 204 , 969 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDLINE"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 204 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDSPACEJUNK0"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 233 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDSPACEJUNK1"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 233 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_ASTEROIDSPACEJUNK2"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 233 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_PIRATEBASE"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 204 , 921 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_DEADASTEROID0"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_DEADASTEROID1"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_DEADASTEROID2"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_DEADASTEROID3"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 993 , 28 , 23 ]
-brush
-	name "HUDICONSMALL_PLANET_DEADASTEROID4"
-	content "Simple"
-	fileName "Hudicon_Planets"
-	pixelBox [ 175 , 993 , 28 , 23 ]
-brush
-	name "HUDICON_PLANETBONUS_ACIDATMOSPHERE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 51 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_CAVERNSYSTEM"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_CONDUCTIVEINTERIOR"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_CRYSTALMINERS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_DUSTSTORMS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 127 , 3 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_GEOTHERMALHEATSOURCE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_HELIUMATMOSPHERE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_HIGHGRAVITY"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 52 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_HUGEGLACIERS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 77 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_INDUSTRIALWASTELAND"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_IONICSTORMS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 52 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_LOWGRAVITY"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 102 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_MEDICINALPLANTS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 127 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_MEGAFAUNA"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 102 , 51 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_METALMINERS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 147 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_METEORITECRATERS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_PENALCOLONY"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 99 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_PIRATETREASURE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 99 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_RAREMETALDEPOSITS0"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 52 , 147 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SALVAGEROUTPOST"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 102 , 75 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SATELLITEINFRASTRUCTURE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SIGNALABSORPTION"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SOLARENERGYRESERVES"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SPACEPONY"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 171 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SPICETRADE"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 27 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_STABLEDEBRISFIELD"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_STRICTSECURITY"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 52 , 99 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_SURPLUSFOODSTUFFS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 77 , 147 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_THAWCELLS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_THERMALLIFT"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 27 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_TOXICFALLOUT"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 2 , 123 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_TUNDRAFARMS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 52 , 3 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_VACATIONCENTER"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 127 , 147 , 22 , 22 ]
-brush
-	name "HUDICON_PLANETBONUS_WEAPONSTESTGROUNDS"
-	content "Simple"
-	fileName "PlanetBonuses"
-	pixelBox [ 27 , 75 , 22 , 22 ]
+	fileName "Ascendancy_Planet_Pips_Undetected"
+	pixelBox [ 797 , 139 , 198 , 168 ]

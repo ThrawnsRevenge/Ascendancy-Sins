@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE0"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE0"
-	infoCardIcon "INFOCARDICON_PLANET_ICE0"
+	hudIcon "HUDICON_PLANET_ICE"
+	smallHudIcon "HUDICONSMALL_PLANET_ICE"
+	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
-	picture "PICTURE_PLANET_ICE0"
+	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE1"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE1"
-	infoCardIcon "INFOCARDICON_PLANET_ICE1"
+	hudIcon "HUDICON_PLANET_ICE"
+	smallHudIcon "HUDICONSMALL_PLANET_ICE"
+	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
-	picture "PICTURE_PLANET_ICE1"
+	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE2"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE2"
-	infoCardIcon "INFOCARDICON_PLANET_ICE2"
+	hudIcon "HUDICON_PLANET_ICE"
+	smallHudIcon "HUDICONSMALL_PLANET_ICE"
+	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
-	picture "PICTURE_PLANET_ICE2"
+	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE3"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE3"
-	infoCardIcon "INFOCARDICON_PLANET_ICE3"
+	hudIcon "HUDICON_PLANET_ICE"
+	smallHudIcon "HUDICONSMALL_PLANET_ICE"
+	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
-	picture "PICTURE_PLANET_ICE3"
+	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7f52afe1

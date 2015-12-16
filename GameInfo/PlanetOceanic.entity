@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
+	hudIcon "HUDICON_PLANET_OCEANIC"
+	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
+	infoCardIcon "HUDICON_PLANET_OCEANIC"
 	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
-	picture "PICTURE_PLANET_TERRAN0"
+	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
+	hudIcon "HUDICON_PLANET_OCEANIC"
+	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
+	infoCardIcon "HUDICON_PLANET_OCEANIC"
 	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
-	picture "PICTURE_PLANET_TERRAN1"
+	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_OCEANIC"
+	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
+	infoCardIcon "HUDICON_PLANET_OCEANIC"
 	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_OCEANIC"
+	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
+	infoCardIcon "HUDICON_PLANET_OCEANIC"
 	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
@@ -69,12 +69,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
+	hudIcon "HUDICON_PLANET_OCEANIC"
+	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
+	infoCardIcon "HUDICON_PLANET_OCEANIC"
 	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_OCEANIC"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff

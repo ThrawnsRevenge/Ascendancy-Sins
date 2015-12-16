@@ -1301,23 +1301,23 @@ brush
 brush
 	name "EmpireWindowIconEntityOverlayResourceExtractorMetal"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 125 , 31 , 22 , 22 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "EmpireWindowIconEntityOverlayResourceExtractorCrystal"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 155 , 31 , 22 , 22 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "EmpireWindowIconEntityOverlayResourceExtractorMetalDepleted"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 125 , 31 , 22 , 22 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "EmpireWindowIconEntityOverlayResourceExtractorCrystalDepleted"
 	content "Simple"
-	fileName "smallicons"
-	pixelBox [ 155 , 31 , 22 , 22 ]
+	fileName "Null"
+	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropTech"
 	content "Simple"

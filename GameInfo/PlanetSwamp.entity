@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
+	hudIcon "HUDICON_PLANET_SWAMP"
+	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
 	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
-	mainViewIcon "MAINVIEWICON_PLANET_SWAMP"
+	mainViewIcon "HUDICON_PLANET_SWAMP"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
-	picture "PICTURE_PLANET_TERRAN0"
+	picture "HUDICON_PLANET_SWAMP"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
-	mainViewIcon "MAINVIEWICON_PLANET_SWAMP"
+	hudIcon "HUDICON_PLANET_SWAMP"
+	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
+	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
+	mainViewIcon "HUDICON_PLANET_SWAMP"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
-	picture "PICTURE_PLANET_TERRAN1"
+	picture "HUDICON_PLANET_SWAMP"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_SWAMP"
+	hudIcon "HUDICON_PLANET_SWAMP"
+	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
+	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
+	mainViewIcon "HUDICON_PLANET_SWAMP"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_SWAMP"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_SWAMP"
+	hudIcon "HUDICON_PLANET_SWAMP"
+	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
+	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
+	mainViewIcon "HUDICON_PLANET_SWAMP"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_SWAMP"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -69,12 +69,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_SWAMP"
+	hudIcon "HUDICON_PLANET_SWAMP"
+	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
+	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
+	mainViewIcon "HUDICON_PLANET_SWAMP"
 	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_SWAMP"
-	picture "PICTURE_PLANET_TERRAN2"
+	picture "HUDICON_PLANET_SWAMP"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff

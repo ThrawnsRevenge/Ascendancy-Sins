@@ -43,7 +43,7 @@ animation-ResearchSubjectButtonTopOfQueueOverlay
 	numFrames 16
 	textureName "Animation_TopGlow.tga"
 	startTopLeft [0,0]
-	width 170
+	width 175
 	height 110
 	numPerRow 4
 	horizontalStride 125
