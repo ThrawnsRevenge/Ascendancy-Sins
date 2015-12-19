@@ -67,18 +67,18 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYLIGHT"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 50.000000
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 1.000000
-	CanFireAtFighter TRUE
+	Range 5000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
@@ -86,24 +86,24 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 6
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_CORVETT_LASER_MUZZLE"
-			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT1"
-			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT2"
-		hitEffectName "LaserImpact"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "LaserGreen_Quad"
+		projectileTravelEffectName "TurbolaserGreen_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

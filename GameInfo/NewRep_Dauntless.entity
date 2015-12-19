@@ -15,8 +15,8 @@ NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
 DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFRIGATE"
 basePrice
-	credits 1200.000000
-	metal 60.000000
+	credits 950.000000
+	metal 90.000000
 	crystal 30.000000
 slotCount 8.000000
 BuildTime 65.000000
