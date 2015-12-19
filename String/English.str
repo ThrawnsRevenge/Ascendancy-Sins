@@ -626,7 +626,7 @@ StringInfo
 	Value "Dominator"
 StringInfo
 	ID "IDS_CAPITALSHIP_DOMINATOR_DESCRIPTION"
-	Value "An early Imperial design just under the ISD-I"
+	Value "A variant on the Star Destroyer's basic design with massive gravity well generators to prevent enemy ships from enterting hyperspace."
 StringInfo
 	ID "IDS_FRIGATE_ACCLAMATOR_NAME"
 	Value "Acclamator I"

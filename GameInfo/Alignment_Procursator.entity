@@ -191,7 +191,7 @@ squadTypeEntityDef:2
 squadAntiMatterCost:2 0.00
 squadTypeEntityDef:3 
 squadAntiMatterCost:3 0.00
-maxNumCommandPoints 1
+maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
 SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
@@ -224,7 +224,7 @@ ability:1 "AbilityOverwhelm"
 ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
-MaxAntiMatter 24.000000
+MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
