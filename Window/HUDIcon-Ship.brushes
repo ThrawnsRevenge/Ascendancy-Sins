@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 316
+brushCount 324
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -1007,6 +1007,24 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 57 , 162 , 52 , 37 ]
 brush
+	name "HUDICON_PROFICIENT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+brush
 	name "HUDICON_BAC"
 	content "States"
 	Disabled
@@ -1623,37 +1641,163 @@ brush
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Pressed
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	CursorOver
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_STARGALLEON"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_PROCURSATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_VENATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_MUNIFICENT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_GLADIATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_ARQUITENS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_MTC"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Pressed
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	CursorOver
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_ALLEGIANCE"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 167 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_LAMBDA"
 	content "States"
