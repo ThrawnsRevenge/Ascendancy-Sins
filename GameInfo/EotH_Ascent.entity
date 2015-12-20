@@ -37,7 +37,7 @@ numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_ASCENT"
+hudIcon "HUDICON_FRONTIER"
 smallHudIcon "HUDICONSMALL_FRIGATE_TECHSCOUT"
 infoCardIcon "INFOCARDICON_FRIGATE_TECHSCOUT"
 minZoomDistanceMult 4.000000

@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 327
+brushCount 328
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -484,6 +484,24 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 717 , 242 , 52 , 37 ]
+brush
+	name "HUDICON_FRONTIER"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 242 , 52 , 37 ]
 brush
 	name "HUDICON_VIGILANCE"
 	content "States"
