@@ -1742,7 +1742,7 @@ planetItemType
 	entityDefName "EotH_TradeStation"
 planetItemType
 	designName "EotH:Module:CommStation"
-	entityDefName "PLANETMODULE_PHASEORBITALCULTURECENTER"
+	entityDefName "EotH_HolonetRelay"
 planetItemType
 	designName "EotH:Module:PolicyLab"
 	entityDefName "PLANETMODULE_PHASEORBITALNONCOMBATLABORATORY"
