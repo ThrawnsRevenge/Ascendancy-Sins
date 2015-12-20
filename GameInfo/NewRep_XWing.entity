@@ -51,7 +51,7 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Fighter"
+		muzzleEffectName "MuzzleRed_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
