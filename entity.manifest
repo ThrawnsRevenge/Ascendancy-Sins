@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2547
+entityNameCount 2549
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -602,6 +602,8 @@ entityName "AlignmentResearch_MaxShipSlots6.entity"
 entityName "AlignmentResearch_MaxShipSlots7.entity"
 entityName "AbilityProtectionism.entity"
 entityName "BuffProtectionismSelf.entity"
+entityName "AbilityMunificentProw.entity"
+entityName "BuffMunificentProw.entity"
 entityName "BuffProtectionismTarget.entity"
 entityName "AbilityImperialFuror.entity"
 entityName "BuffImperialFurorSelf.entity"

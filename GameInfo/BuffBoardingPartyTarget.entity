@@ -62,7 +62,7 @@ finishCondition
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 10.000000
-		Level:1 13.333333
-		Level:2 16.666666
+		Level:0 5.000000
+		Level:1 10.333333
+		Level:2 15.666666
 		Level:3 20.000000
