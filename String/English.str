@@ -1000,6 +1000,18 @@ StringInfo
 	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
 	Value "Sends military supplies o the surface of a planet to establish a new garrison, granting control of the planet."
 StringInfo
+	ID "IDS_ABILITY_BELLATORREACTOR_NAME"
+	Value "Transfer Reactor"
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTOR_DESCRIPTION"
+	Value "The Bellator transfers power from its engines to weapons, scrificing speed for power while this ability is active. After switching, there is a 5 second period where all power levels drop."
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTORON_NAME"
+	Value "Transfer Reactor"
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTORON_DESCRIPTION"
+	Value "Activate to return power to normal distribution."
+StringInfo
 	ID "ResearchScreenBlockTitleFleet1"
 	Value "Fleet Command"
 StringInfo
