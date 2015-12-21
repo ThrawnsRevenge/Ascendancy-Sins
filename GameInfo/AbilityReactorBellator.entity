@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyOrRemoveBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffReactorBellatorBase"
+buffType "BuffBellatorReactorBase"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
