@@ -23,9 +23,9 @@ maxDecelerationLinear 1000.000000
 maxAccelerationAngular 49.999992
 maxDecelerationAngular 99.999985
 maxSpeedLinear 950.000000
-maxRollRate 2.000000
-maxRollAngle 35.000000
-NumWeapons 1
+maxRollRate 5.000000
+maxRollAngle 70.000000
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 25.500000
+	DamagePerBank:FRONT 12.500000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -42,7 +42,47 @@ Weapon
 	PreBuffCooldownTime 10.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.000000
+	PointStaggerDelay 0.100000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 8
+		burstDelay 0.150000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleRed_Single_Fighter"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT2"
+		hitEffectName "FighterImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "LaserRed_Single_Fighter"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 12.500000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.100000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
@@ -78,7 +118,7 @@ exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""
 exhaustTrailWidth 9.000000
-engineSoundID "ENGINE_TECHSUPPORTSHIP"
+engineSoundID "ENGINE_XWING"
 maxHullPoints 30.000000
 hullPointRestoreRate 0.332000
 armorPoints 1.000000

@@ -1601,7 +1601,7 @@ StringInfo
 	Value "Signal Interference"
 StringInfo
 	ID "IDS_ABILITY_SIGNALINTERFERENCE_DESCRIPTION"
-	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, preventing effective communication of orders to interfere with targetting and entering hyperspace."
+	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, interfering with targetting and entering hyperspace."
 StringInfo
 	ID "IDS_ABILITY_INTERRUPTTARGETTING_NAME"
 	Value "Interrupt Targetting"
@@ -2181,12 +2181,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_SLIMPROFILE_DESCRIPTION"
 	Value "The Nebulon-B's slim shape makes it more difficult to hit."
-StringInfo
-	ID "IDS_ABILITY_ENHANCEDTARGETTING_NAME"
-	Value "Enhanced Targeting"
-StringInfo
-	ID "IDS_ABILITY_ENHANCEDTARGETTING_DESCRIPTION"
-	Value "Enhanced targetting abilities increase firing range temporarily."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
 	Value "Resupply Fighters"
@@ -11798,13 +11792,10 @@ StringInfo
 	Value "Construction nanites quickly reproduce copies of a targeted unit, instantly bolstering your fleet."
 StringInfo
 	ID "IDS_ABILITY_CLUSTERWARHEADS_NAME"
-	Value "Rhazer Clusters"
+	Value "Cluster Warheads"
 StringInfo
 	ID "IDS_ABILITY_CLUSTERWARHEADS_DESCRIPTION"
-	Value "Rhazer missiles with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
-StringInfo
-	ID "IDS_ABILITY_CLUSTERWARHEADS_UNLOCK"
-	Value "Unlocks the Rhazer Cluster ability."
+	Value "Warheads with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
 StringInfo
 	ID "IDS_ABILITY_COLONIZE_NAME"
 	Value "Colonize"

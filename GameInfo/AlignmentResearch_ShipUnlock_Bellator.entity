@@ -7,13 +7,10 @@ NameStringID "IDS_TITAN_UNLOCK_BELLATOR_NAME"
 DescriptionStringID "IDS_TITAN_UNLOCK_BELLATOR_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 2 ]
+	pos [ 5 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "AlignmentResearch_ShipUnlock_Praetor"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -27,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 0.000000
 	crystal 25.000000
-Tier 7
+Tier 5
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
