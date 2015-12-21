@@ -1,5 +1,5 @@
 TXT
-numEffects 434
+numEffects 435
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -6498,6 +6498,21 @@ effect
 effect
 	name "ENGINE_TIE_BOMBER"
 	fileName "Engine_TieBomber.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 1
+	threshold 2000.000000
+	minAttenuationDist 60.000000
+	maxNumPlayingSimultaneously 4
+	isLooping TRUE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.4
+	fadeOutTime 0.4
+	alternateGroup ""
+effect
+	name "ENGINE_XWING"
+	fileName "Engine_XWing.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 1
