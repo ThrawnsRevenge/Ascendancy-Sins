@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPD"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Fighter"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 2000.000000
+	Level:1 3380.000000
+	Level:2 3760.000000
+	Level:3 4140.000000
+maxTargetCount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Maser_Dual"
+	mediumEffectName "Maser_Dual"
+	largeEffectName "Maser_Dual"
+	soundID "EFFECT_FLAKBURST"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 5.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_POINTDEFENSE_NAME"
+descStringID "IDS_ABILITY_POINTDEFENSE_DESCRIPTION"
+hudIcon "HUDABILITYICON_POINTDEFENSE"
+smallHudIcon "HUDABILITYICON_POINTDEFENSE"
+infoCardIcon ""

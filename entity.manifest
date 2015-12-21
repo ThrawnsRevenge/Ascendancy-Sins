@@ -1,9 +1,5 @@
 TXT
-<<<<<<< HEAD
 entityNameCount 2554
-=======
-entityNameCount 2552
->>>>>>> origin/master
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -130,6 +126,7 @@ entityName "AiHelperCapitalsEotHTwo.entity"
 entityName "EotHResearch_AIHelp_CapitalsOne.entity"
 entityName "EotHResearch_AIHelp_CapitalsTwo.entity"
 entityName "EotHResearch_Flat_Afterburn.entity"
+entityName "EothResearch_AbilityUnlock_RhazerCluster.entity"
 entityName "EotHResearch_Economy_Durasteel01.entity"
 entityName "EotHResearch_Economy_Durasteel02.entity"
 entityName "EotHResearch_Economy_Durasteel03.entity"
@@ -699,6 +696,7 @@ entityName "AbilityEscapePodBoard.entity"
 entityName "AbilityClusterBombs.entity"
 entityName "AbilityCoordinate.entity"
 entityName "AbilityPDRed.entity"
+entityName "AbilityPDBlue.entity"
 entityName "AbilityPDGreen.entity"
 entityName "AbilityBlockadeRunner.entity"
 entityName "AbilityBothanSpies.entity"
