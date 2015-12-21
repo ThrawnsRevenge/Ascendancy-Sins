@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2553
+entityNameCount 2552
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -138,7 +138,6 @@ entityName "EotHResearch_Economy_PrimaryIndustry.entity"
 entityName "EotHResearch_Economy_PrimaryIndustryUpgrade.entity"
 entityName "EotHResearch_Economy_RapidExtraction.entity"
 entityName "EothResearch_Conquer_Ecumenopolis.entity"
-entityName "EothResearch_AbilityUnlock_RhazerCluster.entity"
 entityName "EotHResearch_Conquer_Volcanic.entity"
 entityName "EotHResearch_Global_PlanetSpecialization00.entity"
 entityName "EotHResearch_Global_PlanetSpecialization01.entity"
@@ -697,7 +696,6 @@ entityName "AbilityClusterBombs.entity"
 entityName "AbilityCoordinate.entity"
 entityName "AbilityPDRed.entity"
 entityName "AbilityPDGreen.entity"
-entityName "AbilityPDBlue.entity"
 entityName "AbilityBlockadeRunner.entity"
 entityName "AbilityBothanSpies.entity"
 entityName "AbilityProbeDroids.entity"

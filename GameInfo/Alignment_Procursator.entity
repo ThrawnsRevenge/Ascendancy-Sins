@@ -221,7 +221,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
-ability:2 "AbilityResilient"
+ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 0.000000
