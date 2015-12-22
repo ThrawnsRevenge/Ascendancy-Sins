@@ -4067,7 +4067,7 @@ effect
 	alternateGroup ""
 effect
 	name "EVENTIR_TRADESTATIONSELECT"
-	fileName "IR_Tradestation_Select.ogg"
+	fileName "IR_TradeCenter_Select.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255
