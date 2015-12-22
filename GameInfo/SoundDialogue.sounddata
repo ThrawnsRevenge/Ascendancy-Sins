@@ -1,18 +1,5 @@
 TXT
-numEffects 1117
-effect
-	name "EVENTIR_BROADASTSELECTONE"
-	fileName "IR_Broadcast_Select1.ogg"
-effect
-	name "EVENTIR_BROADASTSELECTTWO"
-	fileName "IR_Broadcast_Select2.ogg"
-effect
-	name "EVENTIR_BROADASTSELECTTHREE"
-	fileName "IR_Broadcast_Select3.ogg"
-effect
-	name "EVENTIR_TRADESTATIONSELECT"
-	fileName "IR_TradeStation_Select.ogg"
-effect
+numEffects 1114
 	name "EVENTPHASE_OCCUPATIONVICTORYHALFWAY"
 	fileName "EventPhase_OnOccupationPlanetVictoryNear.ogg"
 effect
