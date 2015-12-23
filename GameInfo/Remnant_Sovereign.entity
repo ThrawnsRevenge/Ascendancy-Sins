@@ -79,10 +79,7 @@ NameStringID "IDS_TITAN_SOVEREIGN_NAME"
 DescriptionStringID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 picture "TITANPICTURE_EXECUTOR"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Sovereign"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
