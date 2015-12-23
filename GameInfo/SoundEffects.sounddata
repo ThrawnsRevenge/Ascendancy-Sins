@@ -1,5 +1,5 @@
 TXT
-numEffects 435
+numEffects 437
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -4066,8 +4066,8 @@ effect
 	fadeOutTime 0.0
 	alternateGroup ""
 effect
-	name "PLANETMODULE_TECHORBITALTRADEPORT_ONSELECTION_0"
-	fileName "PlanetModule_TechOrbitalTradePort_OnSelection_0.ogg"
+	name "EVENTIR_TRADESTATIONSELECT"
+	fileName "IR_TradeCenter_Select.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255
@@ -4081,8 +4081,38 @@ effect
 	fadeOutTime 0.0
 	alternateGroup ""
 effect
-	name "PLANETMODULE_TECHORBITALREFINERY_ONSELECTION_0"
-	fileName "PlanetModule_TechOrbitalRefinery_OnSelection_0.ogg"
+	name "EVENTIR_BROADCASTSELECTONE"
+	fileName "IR_Broadcast_Select1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_BROADCASTSELECTTWO"
+	fileName "IR_Broadcast_Select2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_BROADCASTSELECTTHREE"
+	fileName "IR_Broadcast_Select3.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255

@@ -246,23 +246,23 @@ music
 	isLooping FALSE
 	actionLevel 0.15
 	actionRange 0.15
-	emotionLevel 0.4
-	emotionRange 0.6
+	emotionLevel 0.0
+	emotionRange 0.4
 music
 	name "MUSIC_Alignment_Ambient2"
 	fileName "M_AlignmentAmbient2.ogg"
 	isLooping FALSE
 	actionLevel 0.15
 	actionRange 0.15
-	emotionLevel 0.4
-	emotionRange 0.6
+	emotionLevel 0.0
+	emotionRange 0.4
 music
 	name "MUSIC_Alignment_Ambient3"
 	fileName "M_AlignmentAmbient3.ogg"
 	isLooping FALSE
 	actionLevel 0.15
 	actionRange 0.15
-	emotionLevel 0.6
+	emotionLevel 0.0
 	emotionRange 0.4
 music
 	name "MUSIC_Alignment_Ambient4"
@@ -270,8 +270,8 @@ music
 	isLooping FALSE
 	actionLevel 0.15
 	actionRange 0.15
-	emotionLevel 0.5
-	emotionRange 0.5
+	emotionLevel 0.0
+	emotionRange 0.4
 music
 	name "MUSIC_QUIET_2"
 	fileName "M_Ambient2.ogg"
@@ -436,9 +436,9 @@ music
 	name "M_AlignmentTension1"
 	fileName "M_AlignmentTension1.ogg"
 	isLooping FALSE
-	actionLevel 0.1
-	actionRange 0.1
-	emotionLevel -0.3
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.0
 	emotionRange 0.5
 music
 	name "MUSIC_TROUBLE_2"

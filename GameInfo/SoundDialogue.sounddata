@@ -1,18 +1,5 @@
 TXT
-numEffects 1117
-effect
-	name "EVENTPHASE_BUYNOTITANFACTORY"
-	fileName "EventPhase_TitanFactoryNotFound.ogg"
-effect
-	name "EVENTPHASE_RESEARCHVICTORYCOMPLETE"
-	fileName "EventPhase_OnResearchVictoryWin.ogg"
-effect
-	name "EVENTPHASE_RESEARCHVICTORYHALFWAY"
-	fileName "EventPhase_OnResearchVictoryNear.ogg"
-effect
-	name "EVENTPHASE_OCCUPATIONVICTORYCOMPLETE"
-	fileName "EventPhase_OnOccupationPlanetVictoryWin.ogg"
-effect
+numEffects 1114
 	name "EVENTPHASE_OCCUPATIONVICTORYHALFWAY"
 	fileName "EventPhase_OnOccupationPlanetVictoryNear.ogg"
 effect
