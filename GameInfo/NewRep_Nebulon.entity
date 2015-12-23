@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_FRIGATE_NEBULON"
+mainViewIcon "MAINVIEWICON_NEBULON_B"
 picture "HUDICON_NEBULON"
 NameStringID "IDS_FRIGATE_NEBULON_NAME"
 DescriptionStringID "IDS_FRIGATE_NEBULON_DESCRIPTION"

@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Envoy"
 statCountType "FrigateEnvoy"
-mainViewIcon "HUDICONSMALL_CR90ENVOY"
+mainViewIcon "MAINVIEWICON_CR90_ENVOY"
 picture "HUDICON_CR90"
 NameStringID "IDS_FRIGATE_CR90ENVOY_NAME"
 DescriptionStringID "IDS_FRIGATE_CR90_DESCRIPTION"
