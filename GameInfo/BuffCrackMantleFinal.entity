@@ -8,17 +8,19 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "DoDamage"
+	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	damage
-		Level:0 5000.000000
-		Level:1 6000.500000
-		Level:2 7000.000000
-		Level:3 8000.000000
-	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
-	damageType "ENERGY"
-	isDamageShared TRUE
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+	populationKilled
+		Level:0 50.000000
+		Level:1 100.000000
+		Level:2 200.000000
+		Level:3 300.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
