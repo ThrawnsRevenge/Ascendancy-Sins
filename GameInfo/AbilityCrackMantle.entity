@@ -4,8 +4,9 @@ buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffCrackMantleCharging"
 targetFilter
-	numOwnerships 1
+	numOwnerships 2
 	ownership "Enemy"
+	ownership "Friendly"
 	numObjects 1
 	object "Planet"
 	numSpaces 1
