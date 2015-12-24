@@ -7,6 +7,12 @@ StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_NAME"
+	Value "SPMAT Beam"
+StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
+	Value "SPMAT artillery brigades held in the Venators hangar fire at the designated target."
+StringInfo
 	ID "IDS_ABILITY_IMPERIALFUROR_NAME"
 	Value "Imperial Furor"
 StringInfo

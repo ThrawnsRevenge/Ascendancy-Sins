@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2554
+entityNameCount 2556
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -611,6 +611,8 @@ entityName "BuffBellatorReactorCharge.entity"
 entityName "BuffProtectionismTarget.entity"
 entityName "AbilityImperialFuror.entity"
 entityName "BuffImperialFurorSelf.entity"
+entityName "AbilitySPMATBeam.entity"
+entityName "BuffSPMATBeam.entity"
 entityName "AbilityCloseQuarters.entity"
 entityName "BuffCloseQuartersInitial.entity"
 entityName "BuffImperialFurorTarget.entity"
