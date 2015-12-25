@@ -1,0 +1,39 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 4.000000
+		Level:1 4.000000
+		Level:2 3.000000
+		Level:3 3.000000
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnChance"
+	buffApplyChance
+		Level:0 0.200000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.350000
+	buffType "BuffFighterBlinkActive"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Buff_FighterBlinkActivate"
+		mediumEffectName "Buff_FighterBlinkActivate"
+		largeEffectName "Buff_FighterBlinkActivate"
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OutOfRange"

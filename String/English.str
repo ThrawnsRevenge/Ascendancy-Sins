@@ -12134,10 +12134,10 @@ StringInfo
 	Value "Allows the viewing of a distant planet for a brief period of time."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_NAME"
-	Value "Microphasing Aura"
+	Value "Coordinated Fighter Jumps"
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_DESCRIPTION"
-	Value "Nearby friendly strike craft may periodically be pulled into phase space and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
+	Value "Nearby friendly fighters may periodically jump into hyperspace and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
 StringInfo
 	ID "IDS_ABILITY_FINALATTACK_NAME"
 	Value "Martyrdom"
