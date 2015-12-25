@@ -31,6 +31,12 @@ StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
 	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_NAME"
+	Value "Corporate Outreach"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_DESCRIPTION"
+	Value "Because of the economic deregulation of the Alignment, company representatives negotiate on the Alignment's behalf to improve relations."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_REACH_NAME"
 	Value "Extended Reach"
 StringInfo
@@ -12114,6 +12120,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ENERGYWEAPONBOOST_DESCRIPTION"
 	Value "Reduces the weapon cooldown of all ships with energy based weapons."
+StringInfo
+	ID "IDS_ABILITY_CLOAK_NAME"
+	Value "Cloaking Device"
+StringInfo
+	ID "IDS_ABILITY_CLOAK_DESCRIPTION"
+	Value "Turns the ship invisible until deactivated. Cannot fire or be fired at while invisible."
 StringInfo
 	ID "IDS_ABILITY_EVASIVEMANEOUVERS_NAME"
 	Value "Evasive Maneuvers"
