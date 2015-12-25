@@ -7,7 +7,7 @@ usesFighterAttack TRUE
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "VeryLight"
+armorType "Light"
 hudIcon "HUDICON_TIEDEFENDER"
 smallHudIcon "HUDICONSMALL_FIGHTER_TIEDEFENDER"
 infoCardIcon "HUDICONSMALL_FIGHTER_TIEDEFENDER"
