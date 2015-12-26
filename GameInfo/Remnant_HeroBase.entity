@@ -13,8 +13,8 @@ numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_NAVALCOMMAND"
-smallHudIcon "HUDICON_NAVALCOMMAND"
-infoCardIcon "HUDICON_NAVALCOMMAND"
+smallHudIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
+infoCardIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -63,7 +63,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_NAVALCOMMAND"
+mainViewIcon "MAINVIEWICON_IMPERIAL_COMMAND_CENTER"
 picture "HUDICON_NAVALCOMMAND"
 minShadow 0.000000
 maxShadow 0.400000

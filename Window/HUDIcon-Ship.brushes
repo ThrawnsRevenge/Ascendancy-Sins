@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 361
+brushCount 367
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -4115,7 +4115,7 @@ brush
 	name "HUDICONSMALL_FLEET_CARRIER"
 	content "Simple"
 	fileName "Ascendancy_Ship_Tactical_Icons"
-	pixelBox [ 1 , 30 , 28 , 28 ]
+	pixelBox [ 30 , 30 , 28 , 28 ]
 brush
 	name "MAINVIEWICON_ENDURANCE"
 	content "Simple"
@@ -4275,4 +4275,34 @@ brush
 	name "MAINVIEWICON_ALLEGIANCE"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 1 , 154 , 100 , 50 ]
+	pixelBox [ 102 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MU"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SENTINEL_DROPSHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VINDICATOR_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SOVEREIGN_SSD"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_LAMBDA_SHUTTLE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 605 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_WORLD_DEVASTATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 706 , 154 , 100 , 50 ]
