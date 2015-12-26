@@ -7,6 +7,12 @@ StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_NAME"
+	Value "SPMAT Beam"
+StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
+	Value "SPMAT artillery brigades held in the Venators hangar fire at the designated target."
+StringInfo
 	ID "IDS_ABILITY_IMPERIALFUROR_NAME"
 	Value "Imperial Furor"
 StringInfo
@@ -24,6 +30,12 @@ StringInfo
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
 	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_NAME"
+	Value "Corporate Outreach"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_DESCRIPTION"
+	Value "Because of the economic deregulation of the Alignment, company representatives negotiate on the Alignment's behalf to improve relations."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_REACH_NAME"
 	Value "Extended Reach"
@@ -12109,6 +12121,12 @@ StringInfo
 	ID "IDS_ABILITY_ENERGYWEAPONBOOST_DESCRIPTION"
 	Value "Reduces the weapon cooldown of all ships with energy based weapons."
 StringInfo
+	ID "IDS_ABILITY_CLOAK_NAME"
+	Value "Cloaking Device"
+StringInfo
+	ID "IDS_ABILITY_CLOAK_DESCRIPTION"
+	Value "Turns the ship invisible until deactivated. Cannot fire or be fired at while invisible."
+StringInfo
 	ID "IDS_ABILITY_EVASIVEMANEOUVERS_NAME"
 	Value "Evasive Maneuvers"
 StringInfo
@@ -12128,10 +12146,10 @@ StringInfo
 	Value "Allows the viewing of a distant planet for a brief period of time."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_NAME"
-	Value "Microphasing Aura"
+	Value "Coordinated Fighter Jumps"
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_DESCRIPTION"
-	Value "Nearby friendly strike craft may periodically be pulled into phase space and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
+	Value "Nearby friendly fighters may periodically jump into hyperspace and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
 StringInfo
 	ID "IDS_ABILITY_FINALATTACK_NAME"
 	Value "Martyrdom"

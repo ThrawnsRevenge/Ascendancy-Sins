@@ -64,7 +64,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 80
+		count 81
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -85,6 +85,7 @@ entities
 		entityDefName "AlignmentResearch_Economy_TradeStation"
 		entityDefName "AlignmentResearch_Economy_TradeIncrease"
 		entityDefName "AlignmentResearch_Global_Velcar"
+		entityDefName "AlignmentResearch_Global_CorporateOutreach"
 		entityDefName "AlignmentResearch_Global_VelcarUpgrade"
 		entityDefName "AlignmentResearch_Global_HostileTakeover"
 		entityDefName "AlignmentResearch_Global_InQuestors"

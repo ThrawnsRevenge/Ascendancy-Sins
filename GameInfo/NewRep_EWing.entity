@@ -78,7 +78,7 @@ exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""
 exhaustTrailWidth 9.000000
-engineSoundID "ENGINE_TECHSUPPORTSHIP"
+engineSoundID "ENGINE_XWING"
 maxHullPoints 35.000000
 hullPointRestoreRate 0.332000
 armorPoints 1.000000

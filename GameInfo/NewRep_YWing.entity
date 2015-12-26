@@ -7,7 +7,7 @@ usesFighterAttack TRUE
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Light"
+armorType "VeryLight"
 hudIcon "HUDICON_YWING"
 smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
@@ -51,11 +51,13 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Fighter"
+		muzzleEffectName "MuzzleRed_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_PROTON_MUZZLE"
+			soundCount 3
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT2"
 		hitEffectName "FighterImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -119,7 +121,7 @@ exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 8.000000
-engineSoundID "ENGINE_TECHSUPPORTSHIP"
+engineSoundID "ENGINE_XWING"
 maxHullPoints 30.000000
 hullPointRestoreRate 0.489000
 armorPoints 2.000000

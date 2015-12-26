@@ -1,38 +1,40 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyTargettedBuffToSelf"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCrackMantleCharging"
+buffType "BuffSPMATBeam"
 targetFilter
-	numOwnerships 2
+	numOwnerships 1
 	ownership "Enemy"
-	ownership "Friendly"
-	numObjects 1
-	object "Planet"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
 	numSpaces 1
 	space "Normal"
 	numConstraints 1
 	constraint "NotInvulnerable"
 range
-	Level:0 90000.000000
-	Level:1 90000.000000
-	Level:2 90000.000000
-	Level:3 90000.000000
-effectInfo
-	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
-needsToFaceTarget TRUE
+	Level:0 4500.000000
+	Level:1 4500.000000
+	Level:2 4500.000000
+	Level:3 4500.000000
+travelSpeed 3000.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
-levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityDLevel"
-aiUseTime "Anytime"
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -46,17 +48,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 500.000000
-	Level:1 450.000000
-	Level:2 400.000000
-	Level:3 360.000000
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_CRACKMANTLE_NAME"
-descStringID "IDS_ABILITY_CRACKMANTLE_DESCRIPTION"
-hudIcon "HUDABILITYICON_CRACKMANTLE"
-smallHudIcon "HUDABILITYICON_CRACKMANTLE"
+nameStringID "IDS_ABILITY_SPMATBEAM_NAME"
+descStringID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SPMATBEAM"
+smallHudIcon "HUDICON_ABILITY_SPMAT"
 infoCardIcon ""

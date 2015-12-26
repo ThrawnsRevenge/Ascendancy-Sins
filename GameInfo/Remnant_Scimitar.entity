@@ -7,7 +7,7 @@ usesFighterAttack TRUE
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Light"
+armorType "VeryLight"
 hudIcon "HUDICON_SCIMITAR"
 smallHudIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
 infoCardIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"

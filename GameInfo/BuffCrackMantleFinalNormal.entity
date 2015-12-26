@@ -6,18 +6,7 @@ stackingLimit -1
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
-instantAction
-	buffInstantActionType "PlayAttachedEffect"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Center"
-		smallEffectName "Explosion_Planet"
-		mediumEffectName "Explosion_Planet"
-		largeEffectName "Explosion_Planet"
-		soundID "EXPLOSION_CANNONSHELLTECH"
+numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"
@@ -35,7 +24,7 @@ instantAction
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 2
-entityBoolModifier "CannotBeColonized"
-entityBoolModifier "IsInvisible"
-numFinishConditions 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
