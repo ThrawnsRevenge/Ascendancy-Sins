@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
+mainViewIcon "MAINVIEWICON_STRIKE_CRUISER"
 picture "HUDICON_STRIKECRUISER"
 NameStringID "IDS_FRIGATE_STRIKECRUISER_NAME"
 DescriptionStringID "IDS_FRIGATE_STRIKECRUISER_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_STRIKECRUISER"
-smallHudIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
-infoCardIcon "HUDICONSMALL_FRIGATE_STRIKECRUISER"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 2
 Weapon

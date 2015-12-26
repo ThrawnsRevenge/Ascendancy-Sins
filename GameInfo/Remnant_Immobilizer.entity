@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_FRIGATE_IMMOBILIZER"
+mainViewIcon "MAINVIEWICON_418_IMMOBILZER"
 picture "PICTURE_FRIGATE_IMMOBILIZER"
 NameStringID "IDS_FRIGATE_IMMOBILIZER_NAME"
 DescriptionStringID "IDS_FRIGATE_IMMOBILIZER_DESCRIPTION"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_IMMOBILIZER"
-smallHudIcon "HUDICONSMALL_FRIGATE_IMMOBILIZER"
-infoCardIcon "INFOCARDICON_FRIGATE_IMMOBILIZER"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 1
 Weapon

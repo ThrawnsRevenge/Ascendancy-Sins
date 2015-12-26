@@ -11,7 +11,7 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_ALTOR"
+mainViewIcon "MAINVIEWICON_ALTOR"
 basePrice
 	credits 800.000000
 	metal 50.000000
@@ -63,8 +63,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_ALTOR"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_ALTOR"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_ALTOR"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 2.250000
 NumWeapons 1
 Weapon

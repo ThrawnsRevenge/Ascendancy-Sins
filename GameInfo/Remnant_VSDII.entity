@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_VSDII"
+mainViewIcon "MAINVIEWICON_VSDII"
 picture "CAPITALSHIPPICTURE_VSDII"
 NameStringID "IDS_CAPITALSHIP_VSDII_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_VSDII_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_VSDII"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_VSDII"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_VSDII"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon

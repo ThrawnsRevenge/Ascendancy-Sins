@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 346
+brushCount 361
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -4102,6 +4102,11 @@ brush
 	fileName "Ascendancy_Ship_Tactical_Icons"
 	pixelBox [ 175 , 1 , 28 , 28 ]
 brush
+	name "HUDICONSMALL_BOMBER_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
 	name "HUDICONSMALL_CIVILIAN_SHIP"
 	content "Simple"
 	fileName "Ascendancy_Ship_Tactical_Icons"
@@ -4201,3 +4206,73 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 708 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_418_IMMOBILZER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_CARRACK_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MTC"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VSDI"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VSDII"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ALTOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ESCORT_CARRIER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_STRIKE_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_LANCER_FRIGATE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_EXECUTOR_SSD"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_DREADNAUGHT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ISDI"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ISDII"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ALLEGIANCE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 154 , 100 , 50 ]

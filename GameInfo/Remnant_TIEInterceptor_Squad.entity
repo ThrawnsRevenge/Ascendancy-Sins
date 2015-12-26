@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_TIEINTERCEPTOR"
-smallHudIcon "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
-infoCardIcon "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
+smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
+infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 fighterEntityDef "Remnant_TIEInterceptor"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -15,8 +15,8 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
-picture "HUDICONSMALL_FIGHTER_TIEINTERCEPTOR"
+mainViewIcon "HUDICONSMALL_FIGHTER_SQUADRON"
+picture "HUDICON_TIEINTERCEPTOR"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
