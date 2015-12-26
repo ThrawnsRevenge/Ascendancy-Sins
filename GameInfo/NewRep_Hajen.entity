@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
-mainViewIcon "HUDICONSMALL_FRIGATE_HAJEN"
+mainViewIcon "MAINVIEWICON_HAJEN"
 picture "HUDICON_HAJEN"
 NameStringID "IDS_FRIGATE_HAJEN_NAME"
 DescriptionStringID "IDS_FRIGATE_HAJEN_DESCRIPTION"

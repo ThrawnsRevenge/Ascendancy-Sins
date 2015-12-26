@@ -23,22 +23,22 @@ animation-OpenNPCWindowButtonOverlay
 	numFrames 16
 	textureName "Animation_TopGlow.tga"
 	startTopLeft [0,0]
-	width 123
-	height 93
+	width 170
+	height 110
 	numPerRow 4
 	horizontalStride 125
 	verticalStride 94
-	framesPerSecond 15
+	framesPerSecond 10
 animation-OpenPlayersWindowButtonOverlay
 	numFrames 16
 	textureName "Animation_TopGlow.tga"
 	startTopLeft [0,0]
-	width 123
-	height 93
+	width 170
+	height 110
 	numPerRow 4
 	horizontalStride 125
 	verticalStride 94
-	framesPerSecond 15
+	framesPerSecond 10
 animation-ResearchSubjectButtonTopOfQueueOverlay
 	numFrames 16
 	textureName "Animation_TopGlow.tga"
@@ -110,15 +110,15 @@ animation-PirateTabButtonAttentionIndicator
 	verticalStride 84
 	framesPerSecond 16
 animation-PlayerTabButtonAttentionIndicator
-	numFrames 18
-	textureName "Animation_OrangeLight.tga"
+	numFrames 16
+	textureName "Animation_TopGlow.tga"
 	startTopLeft [0,0]
-	width 72
-	height 81
-	numPerRow 3
-	horizontalStride 75
-	verticalStride 84
-	framesPerSecond 16
+	width 170
+	height 110
+	numPerRow 4
+	horizontalStride 125
+	verticalStride 94
+	framesPerSecond 10
 animation-PlayerSetupReadyToStartTrue
 	numFrames 1
 	textureName "Buttons_Ascendancy_Icons"

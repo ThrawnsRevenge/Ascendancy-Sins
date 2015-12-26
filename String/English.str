@@ -1,5 +1,5 @@
 TXT
-NumStrings 8464
+NumStrings 8493
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
@@ -25142,4 +25142,16 @@ StringInfo
 	Value "Open Rebellion"
 StringInfo
 	ID "IDS_RESEARCHFIELD_CIVILOPEDIA"
-	Value "Civilopedia"
+	Value "Quick Reference"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_NAME"
+	Value "Smuggler's Den"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_DESCRIPTION"
+	Value "Allows access to the smuggler's den which establishes trade routes between planets, including black market sources."
+StringInfo
+	ID "IDS_SMUGGLERS_DEN_NAME"
+	Value "Smuggler's Den"
+StringInfo
+	ID "IDS_SMUGGLERS_DEN_DESCRIPTION"
+	Value "Allows the establishment of new trade routes, including black markets."

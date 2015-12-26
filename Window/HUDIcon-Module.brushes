@@ -1208,7 +1208,7 @@ brush
 	name "MAINVIEWICON_TRADE_PORT"
 	content "Simple"
 	fileName "Facility_Main_View"
-	pixelBox [ 1 , 209, 299 , 76 ]
+	pixelBox [ 1 , 309, 299 , 76 ]
 brush
 	name "EMPIREICON_EMPRESS_STATION"
 	content "Simple"
@@ -1218,7 +1218,7 @@ brush
 	name "MAINVIEWICON_EMPRESS_STATION"
 	content "Simple"
 	fileName "Facility_Main_View"
-	pixelBox [ 302 , 209, 299 , 76 ]
+	pixelBox [ 302 , 309, 299 , 76 ]
 brush
 	name "EMPIREICON_ESSELES_STATION"
 	content "Simple"
@@ -1228,4 +1228,4 @@ brush
 	name "MAINVIEWICON_ESSELES_STATION"
 	content "Simple"
 	fileName "Facility_Main_View"
-	pixelBox [ 603 , 209, 299 , 76 ]
+	pixelBox [ 603 , 309, 299 , 76 ]

@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_MC80B"
+mainViewIcon "MAINVIEWICON_MC80B"
 basePrice
 	credits 1400.000000
 	metal 60.000000

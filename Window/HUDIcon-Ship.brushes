@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 340
+brushCount 346
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -4127,7 +4127,7 @@ brush
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 203 , 1 , 100 , 50 ]
 brush
-	name "MAINVIEWICON_MC40"
+	name "MAINVIEWICON_MC90"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 304 , 1 , 100 , 50 ]
@@ -4171,3 +4171,33 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 102 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC80B"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC40"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_HAJEN"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC30C"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_DAUNTLESS"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_PROFICIENT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 52 , 100 , 50 ]

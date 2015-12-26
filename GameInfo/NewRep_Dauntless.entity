@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_DAUNTLESS"
+mainViewIcon "MAINVIEWICON_DAUNTLESS"
 picture "HUDICON_DAUNTLESS"
 NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
 DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"

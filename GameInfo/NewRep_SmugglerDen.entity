@@ -13,16 +13,16 @@ numRandomDebrisSmall 17
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_TRADESTATION"
-smallHudIcon "HUDICON_TRADESTATION"
-infoCardIcon "HUDICON_TRADESTATION"
+smallHudIcon "EMPIREICON_SMUGGLERS_DEN"
+infoCardIcon "EMPIREICON_SMUGGLERS_DEN"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 6.000000
 basePrice
 	credits 1200.000000
 	metal 205.000000
 	crystal 150.000000
-NameStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_NAME"
-DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_DESCRIPTION"
+NameStringID "IDS_SMUGGLERS_DEN_NAME"
+DescriptionStringID "IDS_SMUGGLERS_DEN_DESCRIPTION"
 planetModuleRoleType "TRADEPORT"
 statCountType "ModuleTradePort"
 Prerequisites
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "HUDICON_TRADESTATION"
+mainViewIcon "MAINVIEWICON_SMUGGLERS_DEN"
 picture "HUDICON_TRADESTATION"
 minShadow 0.000000
 maxShadow 0.400000

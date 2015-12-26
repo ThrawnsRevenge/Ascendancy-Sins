@@ -15,7 +15,7 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 6
 role "Bomber"
 statCountType "SquadBomber"
-mainViewIcon "HUDICONSMALL_FIGHTER_KWING"
+mainViewIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 picture "HUDICON_KWING"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"

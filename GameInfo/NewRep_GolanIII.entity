@@ -13,8 +13,8 @@ numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_GOLANIII"
-smallHudIcon "HUDICON_GOLANIII"
-infoCardIcon "HUDICON_GOLANIII"
+smallHudIcon "EMPIREICON_GOLAN_III_PLATFORM"
+infoCardIcon "EMPIREICON_GOLAN_III_PLATFORM"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 5.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_GOLANIII"
+mainViewIcon "MAINVIEWICON_GOLAN_III_PLATFORM"
 picture "HUDICON_GOLANIII"
 minShadow 0.000000
 maxShadow 0.600000

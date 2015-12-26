@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
-mainViewIcon "MAINVIEWICON_TRADESHIP_PHASE"
+mainViewIcon "HUDICONSMALL_CIVILIAN_SHIP"
 picture "PICTURE_TRADESHIP_PHASE"
 NameStringID "IDS_TRADESHIP_QUASAR_NAME"
 DescriptionStringID "IDS_TRADESHIP_QUASAR_DESCRIPTION"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 3
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_TRADESHIP_QUASAR"
-smallHudIcon "HUDICONSMALL_TRADESHIP_QUASAR"
-infoCardIcon "INFOCARDICON_TRADESHIP_QUASAR"
+smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
+infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
 minZoomDistanceMult 3.500000
 NumWeapons 0
 m_weaponIndexForRange 0

@@ -15,7 +15,7 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "HUDICONSMALL_FIGHTER_XWING"
+mainViewIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 picture "HUDICON_XWING"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"

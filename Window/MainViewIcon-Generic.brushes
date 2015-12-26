@@ -19,8 +19,8 @@ brush
 brush
 	name "MainViewIconEntityOverlayArtifact"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 241 , 720 , 85 , 85 ]
+	fileName "UI_Misc"
+	pixelBox [ 126 , 70 , 200 , 70 ]
 brush
 	name "MainViewIconEntityOverlayResourceExtractorMetal"
 	content "Simple"
@@ -34,53 +34,53 @@ brush
 brush
 	name "MainViewIconFleetTech0"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 661 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 83 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech1"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 694 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 124 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech2"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 727 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 165 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech3"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 760 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 206 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech4"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 793 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 247 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech5"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 826 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 288 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech6"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 859 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 329 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech7"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 892 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 370 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech8"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 925 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 411 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech9"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 399 , 958 , 32 , 31 ]
+	fileName "Buttons_Ascendancy_Icons_Small"
+	pixelBox [ 452 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi0"
 	content "Simple"
