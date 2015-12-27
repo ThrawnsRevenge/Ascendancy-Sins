@@ -793,8 +793,8 @@ researchScreenData
 	shipSlotLevelPicture-7 "NR_FleetResearchCommand7"
 	shipSlotLevelPicture-8 "NR_FleetResearchCommand8"
 gameOverWindowData
-	hasWonPicture "GameOverDialogHasWonPictureTech"
-	hasLostPicture "GameOverDialogHasLostPictureTech"
+	hasWonPicture "GameOverVictory"
+	hasLostPicture "GameOverDefeat"
 	themeBackdropBrush "GameOverDialogPlayerThemeBackdropTech"
 	hasWonMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryVictory"
 	hasLostMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryDefeat"
