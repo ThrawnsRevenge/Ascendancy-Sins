@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon ""
+hudIcon "HUDICON_SCIMITAR"
 smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
 infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 fighterEntityDef "Remnant_Scimitar"
