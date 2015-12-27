@@ -178,8 +178,8 @@ brush
 brush
 	name "HUDIconEntityOverlayArtifact"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 1 , 391 , 55 , 55 ]
+	fileName "UI_MIsc"
+	pixelBox [ 153 , 159 , 52 , 37 ]
 brush
 	name "HUDIconEntityOverlayUnspentAbilityPointsAndUnassignedSquads"
 	content "Simple"

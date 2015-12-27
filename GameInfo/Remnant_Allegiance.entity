@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_ISDII"
+mainViewIcon "MAINVIEWICON_ALLEGIANCE"
 basePrice
 	credits 2600.000000
 	metal 205.000000
@@ -89,8 +89,8 @@ numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_ALLEGIANCE"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_ALLEGIANCE"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_ALLEGIANCE"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_MC80B"
+mainViewIcon "MAINVIEWICON_MC80B"
 basePrice
 	credits 1400.000000
 	metal 60.000000
@@ -101,7 +101,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 312.000000
+	DamagePerBank:FRONT 412.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -141,7 +141,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

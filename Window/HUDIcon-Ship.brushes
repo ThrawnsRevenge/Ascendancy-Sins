@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 316
+brushCount 369
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -484,6 +484,24 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 717 , 242 , 52 , 37 ]
+brush
+	name "HUDICON_FRONTIER"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 242 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 242 , 52 , 37 ]
 brush
 	name "HUDICON_VIGILANCE"
 	content "States"
@@ -1006,6 +1024,24 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 57 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_PROFICIENT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 222 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 222 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_BAC"
 	content "States"
@@ -1623,37 +1659,217 @@ brush
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Pressed
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	CursorOver
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 718 , 82 , 52 , 37 ]
+		pixelBox [ 277 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_STARGALLEON"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 332 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_PROCURSATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_VENATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_MUNIFICENT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 497 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_GLADIATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 552 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_ARQUITENS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 607 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_BELLATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 662 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 662 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 662 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 662 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 662 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_DOMINATOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 717 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 717 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 717 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 717 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 717 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_SECUTOR"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 772 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 772 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 772 , 162 , 52 , 37 ]		
 brush
 	name "HUDICON_MTC"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Pressed
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	CursorOver
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 773 , 82 , 52 , 37 ]
+		pixelBox [ 112 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_ALLEGIANCE"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 167 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 167 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_LAMBDA"
 	content "States"
@@ -3886,6 +4102,11 @@ brush
 	fileName "Ascendancy_Ship_Tactical_Icons"
 	pixelBox [ 175 , 1 , 28 , 28 ]
 brush
+	name "HUDICONSMALL_BOMBER_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
 	name "HUDICONSMALL_CIVILIAN_SHIP"
 	content "Simple"
 	fileName "Ascendancy_Ship_Tactical_Icons"
@@ -3894,4 +4115,204 @@ brush
 	name "HUDICONSMALL_FLEET_CARRIER"
 	content "Simple"
 	fileName "Ascendancy_Ship_Tactical_Icons"
-	pixelBox [ 1 , 30 , 28 , 28 ]
+	pixelBox [ 30 , 30 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_FLEET_SUPPORT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 59 , 30 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_CAPITAL_FLEET_SUPPORT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 88 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_ENDURANCE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VISCOUNT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC90"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_FERRET"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ASSAULT_FRIGATE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULON_B"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_GALLOFREE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC80"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_CR90"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 1 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_CR90_ENVOY"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_QUASAR_CARRIER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC80B"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC40"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_HAJEN"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MC30C"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_DAUNTLESS"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_PROFICIENT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_418_IMMOBILZER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_CARRACK_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 52 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MTC"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VSDI"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VSDII"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ALTOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ESCORT_CARRIER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_STRIKE_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_LANCER_FRIGATE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_EXECUTOR_SSD"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_DREADNAUGHT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ISDI"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 103 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ISDII"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ALLEGIANCE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MU"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SENTINEL_DROPSHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_VINDICATOR_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SOVEREIGN_SSD"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_LAMBDA_SHUTTLE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 605 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_WORLD_DEVASTATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 706 , 154 , 100 , 50 ]

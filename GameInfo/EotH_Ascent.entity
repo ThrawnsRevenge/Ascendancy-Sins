@@ -24,7 +24,7 @@ BuildTime 20.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 6.000000
 MaxHullPoints 1150.000000
-MaxShieldPoints 125.000000
+MaxShieldPoints 1250.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 0.000000
@@ -37,7 +37,7 @@ numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_ASCENT"
+hudIcon "HUDICON_FRONTIER"
 smallHudIcon "HUDICONSMALL_FRIGATE_TECHSCOUT"
 infoCardIcon "INFOCARDICON_FRIGATE_TECHSCOUT"
 minZoomDistanceMult 4.000000

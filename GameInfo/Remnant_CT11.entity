@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "ModuleConstructor"
 statCountType "FrigateConstructor"
-mainViewIcon "HUDICONSMALL_CT11"
+mainViewIcon "HUDICONSMALL_CIVILIAN_SHIP"
 picture "HUDICON_CT11"
 NameStringID "IDS_FRIGATE_CT11_NAME"
 DescriptionStringID "IDS_FRIGATE_CT11_DESC"

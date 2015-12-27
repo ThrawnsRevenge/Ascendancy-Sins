@@ -9,8 +9,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
 hudIcon "HUDICON_TIEFIGHTER"
-smallHudIcon "HUDICONSMALL_FIGHTER_TIEFIGHTER"
-infoCardIcon "HUDICONSMALL_FIGHTER_TIEFIGHTER"
+smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
+infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 minZoomDistanceMult 15.000000
 nameStringID "IDS_FIGHTERTECHCOMBAT_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
@@ -65,7 +65,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "LaserGreen_Single_Fighter"
+		projectileTravelEffectName "LaserGreen_Dual_Fighter"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

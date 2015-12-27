@@ -12,9 +12,9 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 16
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-infoCardIcon "INFOCARDICON_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
+hudIcon "HUDICON_TIBANNASTATION"
+smallHudIcon "EMPIREICON_TIBANNA_STATION"
+infoCardIcon "EMPIREICON_TIBANNA_STATION"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 0.000000
 basePrice
@@ -63,8 +63,8 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-picture "PLANETMODULEPICTURE_PSIORBITALCRYSTALEXTRACTOR"
+mainViewIcon "MAINVIEWICON_TIBANNA_STATION"
+picture "HUDICON_TIBANNASTATION"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3

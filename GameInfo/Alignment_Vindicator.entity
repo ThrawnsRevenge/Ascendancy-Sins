@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_FRIGATE_VINDICATOR"
+mainViewIcon "MAINVIEWICON_VINDICATOR_CRUISER"
 picture "PICTURE_FRIGATE_VINDICATOR"
 NameStringID "IDS_FRIGATE_VINDICATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_VINDICATOR_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_VINDICATOR"
-smallHudIcon "HUDICONSMALL_FRIGATE_VINDICATOR"
-infoCardIcon "INFOCARDICON_FRIGATE_VINDICATOR"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon

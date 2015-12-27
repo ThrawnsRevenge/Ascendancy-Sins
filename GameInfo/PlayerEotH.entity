@@ -20,10 +20,9 @@ entities
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "EotH_CombatLab"
 		Page:1
-			count 4
+			count 3
 			entityDefName "EotH_Visvia"
 			entityDefName "EotH_Brask"
-			entityDefName "Remnant_ShieldGenerator"
 			entityDefName "EotH_RepairPlatform"
 	titanInfo
 		Page:0
@@ -60,7 +59,8 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 83
+		count 84
+		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
@@ -502,7 +502,7 @@ hudSkinData
 	UnknownPlanetHUDIcon "HUDICON_PLANET_UNKNOWN"
 	UnknownPlanetHUDSmallIcon "HUDICONSMALL_PLANET_UNKNOWN"
 	UnknownPlanetInfoCardIcon "HUDICON_PLANET_UNKNOWN"
-	UnknownPlanetMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_UNKNOWN"
+	UnknownPlanetMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_UNKNOWN"
 	UnknownPlanetPicture "HUDICON_PLANET_UNKNOWN"
 	AutoAttackRangeStateMixed "ACTIONICON_CAPITALSHIP_ATTACKRANGENONE"
 	AutoAttackRangeStateAllNone "ACTIONICON_CAPITALSHIP_ATTACKRANGENONE"
@@ -760,8 +760,8 @@ researchScreenData
 	shipSlotLevelPicture-7 "EOTH_FleetResearchCommand7"
 	shipSlotLevelPicture-8 "EOTH_FleetResearchCommand8"
 gameOverWindowData
-	hasWonPicture "GameOverDialogHasWonPicturePhase"
-	hasLostPicture "GameOverDialogHasLostPicturePhase"
+	hasWonPicture "GameOverVictory"
+	hasLostPicture "GameOverDefeat"
 	themeBackdropBrush "GameOverDialogPlayerThemeBackdropPhase"
 	hasWonMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryVictory"
 	hasLostMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryDefeat"

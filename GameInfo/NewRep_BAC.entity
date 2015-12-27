@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_BAC_NAME"
 DescriptionStringID "IDS_FRIGATE_BAC_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 800.000000
+	credits 1200.000000
 	metal 60.000000
 	crystal 30.000000
 slotCount 5.000000

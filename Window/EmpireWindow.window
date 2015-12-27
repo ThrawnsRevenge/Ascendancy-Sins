@@ -7,9 +7,9 @@ rowScrollBarUnitHeight 20
 scrollBarOffsetFromLeft 1
 scrollBarOffsetFromTop 39
 scrollBarWidth 15
-toggleButtonIndent 5
-parentIconIndent 30
-childIconIndent 30
+toggleButtonIndent 40
+parentIconIndent 60
+childIconIndent 60
 iconTextSpacing 10
 iconIconSpacing 0
 tutorialAreaHeightOffset -75

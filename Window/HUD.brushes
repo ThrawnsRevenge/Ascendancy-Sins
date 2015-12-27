@@ -1296,8 +1296,8 @@ brush
 brush
 	name "EmpireWindowIconEntityOverlayArtifact"
 	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 61 , 391 , 35 , 34 ]
+	fileName "UI_MIsc"
+	pixelBox [ 153 , 159 , 52 , 37 ]
 brush
 	name "EmpireWindowIconEntityOverlayResourceExtractorMetal"
 	content "Simple"

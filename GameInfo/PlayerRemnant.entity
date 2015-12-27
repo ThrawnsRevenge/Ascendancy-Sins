@@ -63,7 +63,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 94
+		count 95
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -127,6 +127,7 @@ entities
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "RemnantResearch_AbilityUnlock_DentingStrike"
 		entityDefName "RemnantResearch_ShipUnlock_Dreadnaught"
+		entityDefName "RemnantResearch_ShipUnlock_Altor"
 		entityDefName "RemnantResearch_ShipUnlock_StrikeCruiser"
 		entityDefName "RemnantResearch_ShipUnlock_Sovereign"
 		entityDefName "RemnantResearch_ShipUnlock_Immobilizer"
@@ -799,8 +800,8 @@ researchScreenData
 	shipSlotLevelPicture-7 "IR_FleetResearchCommand7"
 	shipSlotLevelPicture-8 "IR_FleetResearchCommand8"
 gameOverWindowData
-	hasWonPicture "GameOverDialogHasWonPicturePsi"
-	hasLostPicture "GameOverDialogHasLostPicturePsi"
+	hasWonPicture "GameOverVictory"
+	hasLostPicture "GameOverDefeat"
 	themeBackdropBrush "GameOverDialogPlayerThemeBackdropPsi"
 	hasWonMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryVictory"
 	hasLostMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryDefeat"

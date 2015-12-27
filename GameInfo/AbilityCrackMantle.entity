@@ -4,8 +4,9 @@ buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffCrackMantleCharging"
 targetFilter
-	numOwnerships 1
+	numOwnerships 2
 	ownership "Enemy"
+	ownership "Friendly"
 	numObjects 1
 	object "Planet"
 	numSpaces 1
@@ -13,10 +14,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotInvulnerable"
 range
-	Level:0 8000.000000
-	Level:1 10000.000000
-	Level:2 10000.000000
-	Level:3 10000.000000
+	Level:0 90000.000000
+	Level:1 90000.000000
+	Level:2 90000.000000
+	Level:3 90000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

@@ -10,7 +10,7 @@ typeCount 2
 frigateRoleType "Scout"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateScout"
-mainViewIcon "HUDICONSMALL_FRIGATE_MU2"
+mainViewIcon "MAINVIEWICON_MU"
 picture "HUDICON_MU2"
 NameStringID "IDS_FRIGATE_MU2_NAME"
 DescriptionStringID "IDS_FRIGATE_MU2_DESCRIPTION"
@@ -38,8 +38,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_MU2"
-smallHudIcon "HUDICONSMALL_FRIGATE_MU2"
-infoCardIcon "HUDICONSMALL_FRIGATE_MU2"
+smallHudIcon "HUDICONSMALL_MILITARY_SUPPORT"
+infoCardIcon "HUDICONSMALL_MILITARY_SUPPORT"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon

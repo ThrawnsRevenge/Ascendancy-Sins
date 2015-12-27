@@ -1,11 +1,17 @@
 TXT
-NumStrings 8464
+NumStrings 8493
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
+StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_NAME"
+	Value "SPMAT Beam"
+StringInfo
+	ID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
+	Value "SPMAT artillery brigades held in the Venators hangar fire at the designated target."
 StringInfo
 	ID "IDS_ABILITY_IMPERIALFUROR_NAME"
 	Value "Imperial Furor"
@@ -24,6 +30,12 @@ StringInfo
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
 	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_NAME"
+	Value "Corporate Outreach"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_DESCRIPTION"
+	Value "Because of the economic deregulation of the Alignment, company representatives negotiate on the Alignment's behalf to improve relations."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_REACH_NAME"
 	Value "Extended Reach"
@@ -626,7 +638,7 @@ StringInfo
 	Value "Dominator"
 StringInfo
 	ID "IDS_CAPITALSHIP_DOMINATOR_DESCRIPTION"
-	Value "An early Imperial design just under the ISD-I"
+	Value "A variant on the Star Destroyer's basic design with massive gravity well generators to prevent enemy ships from enterting hyperspace."
 StringInfo
 	ID "IDS_FRIGATE_ACCLAMATOR_NAME"
 	Value "Acclamator I"
@@ -999,6 +1011,18 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
 	Value "Sends military supplies o the surface of a planet to establish a new garrison, granting control of the planet."
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTOR_NAME"
+	Value "Transfer Reactor"
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTOR_DESCRIPTION"
+	Value "The Bellator transfers power from its engines to weapons, scrificing speed for power while this ability is active. After switching, there is a 5 second period where all power levels drop."
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTORON_NAME"
+	Value "Transfer Reactor"
+StringInfo
+	ID "IDS_ABILITY_BELLATORREACTORON_DESCRIPTION"
+	Value "Activate to return power to normal distribution."
 StringInfo
 	ID "ResearchScreenBlockTitleFleet1"
 	Value "Fleet Command"
@@ -1535,7 +1559,7 @@ StringInfo
 	Value "Resupply"
 StringInfo
 	ID "IDS_ABILITY_ALTORRESTORE_DESCRIPTION"
-	Value "The Altor restores fighter supply to its target."
+	Value "This vessel restores fighter supply to its target."
 StringInfo
 	ID "IDS_ABILITY_ALTORPROTECT_NAME"
 	Value "Protect"
@@ -1589,7 +1613,7 @@ StringInfo
 	Value "Signal Interference"
 StringInfo
 	ID "IDS_ABILITY_SIGNALINTERFERENCE_DESCRIPTION"
-	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, interfering with targetting and entering hyperspace."
+	Value "The Endurance's fighter command tower refocuses on jamming enemy transmissions to the target ship, preventing effective communication of orders to interfere with targetting and entering hyperspace."
 StringInfo
 	ID "IDS_ABILITY_INTERRUPTTARGETTING_NAME"
 	Value "Interrupt Targetting"
@@ -2169,6 +2193,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_SLIMPROFILE_DESCRIPTION"
 	Value "The Nebulon-B's slim shape makes it more difficult to hit."
+StringInfo
+	ID "IDS_ABILITY_ENHANCEDTARGETTING_NAME"
+	Value "Enhanced Targeting"
+StringInfo
+	ID "IDS_ABILITY_ENHANCEDTARGETTING_DESCRIPTION"
+	Value "Enhanced targetting abilities increase firing range temporarily."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPLY_NAME"
 	Value "Resupply Fighters"
@@ -11780,10 +11810,13 @@ StringInfo
 	Value "Construction nanites quickly reproduce copies of a targeted unit, instantly bolstering your fleet."
 StringInfo
 	ID "IDS_ABILITY_CLUSTERWARHEADS_NAME"
-	Value "Cluster Warheads"
+	Value "Rhazer Clusters"
 StringInfo
 	ID "IDS_ABILITY_CLUSTERWARHEADS_DESCRIPTION"
-	Value "Warheads with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
+	Value "Rhazer missiles with multiple sub-munitions are used for a brief time, causing the ship to deal area of effect damage."
+StringInfo
+	ID "IDS_ABILITY_CLUSTERWARHEADS_UNLOCK"
+	Value "Unlocks the Rhazer Cluster ability."
 StringInfo
 	ID "IDS_ABILITY_COLONIZE_NAME"
 	Value "Colonize"
@@ -12088,6 +12121,12 @@ StringInfo
 	ID "IDS_ABILITY_ENERGYWEAPONBOOST_DESCRIPTION"
 	Value "Reduces the weapon cooldown of all ships with energy based weapons."
 StringInfo
+	ID "IDS_ABILITY_CLOAK_NAME"
+	Value "Cloaking Device"
+StringInfo
+	ID "IDS_ABILITY_CLOAK_DESCRIPTION"
+	Value "Turns the ship invisible until deactivated. Cannot fire or be fired at while invisible."
+StringInfo
 	ID "IDS_ABILITY_EVASIVEMANEOUVERS_NAME"
 	Value "Evasive Maneuvers"
 StringInfo
@@ -12107,10 +12146,10 @@ StringInfo
 	Value "Allows the viewing of a distant planet for a brief period of time."
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_NAME"
-	Value "Microphasing Aura"
+	Value "Coordinated Fighter Jumps"
 StringInfo
 	ID "IDS_ABILITY_FIGHTERBLINK_DESCRIPTION"
-	Value "Nearby friendly strike craft may periodically be pulled into phase space and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
+	Value "Nearby friendly fighters may periodically jump into hyperspace and then reappear a short distance away, allowing them to evade imminent attacks and to move into a favorable firing position."
 StringInfo
 	ID "IDS_ABILITY_FINALATTACK_NAME"
 	Value "Martyrdom"
@@ -25121,4 +25160,16 @@ StringInfo
 	Value "Open Rebellion"
 StringInfo
 	ID "IDS_RESEARCHFIELD_CIVILOPEDIA"
-	Value "Civilopedia"
+	Value "Quick Reference"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_NAME"
+	Value "Smuggler's Den"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_DESCRIPTION"
+	Value "Allows access to the smuggler's den which establishes trade routes between planets, including black market sources."
+StringInfo
+	ID "IDS_SMUGGLERS_DEN_NAME"
+	Value "Smuggler's Den"
+StringInfo
+	ID "IDS_SMUGGLERS_DEN_DESCRIPTION"
+	Value "Allows the establishment of new trade routes, including black markets."

@@ -13,8 +13,8 @@ numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_TITANFOUNDRY"
-smallHudIcon "HUDICON_TITANFOUNDRY"
-infoCardIcon "HUDICON_TITANFOUNDRY"
+smallHudIcon "EMPIREICON_SUPER_CAPITAL_SHIPYARD"
+infoCardIcon "EMPIREICON_SUPER_CAPITAL_SHIPYARD"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 12.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "HUDICON_TITANFOUNDRY"
+mainViewIcon "MAINVIEWICON_SUPER_CAPITAL_SHIPYARD"
 picture "HUDICON_TITANFOUNDRY"
 minShadow 0.000000
 maxShadow 0.200000

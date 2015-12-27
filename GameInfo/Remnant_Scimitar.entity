@@ -7,10 +7,10 @@ usesFighterAttack TRUE
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Light"
+armorType "VeryLight"
 hudIcon "HUDICON_SCIMITAR"
-smallHudIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
-infoCardIcon "HUDICONSMALL_FIGHTER_SCIMITARBOMBER"
+smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
+infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 minZoomDistanceMult 9.000000
 nameStringID "IDS_SCIMITAR_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"

@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_MC30C"
+mainViewIcon "MAINVIEWICON_MC30C"
 picture "HUDICON_FRIGATE_MC30C"
 NameStringID "IDS_FRIGATE_MC30C_NAME"
 DescriptionStringID "IDS_FRIGATE_MC30C_DESCRIPTION"

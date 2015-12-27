@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 96
+brushCount 132
 brush
 	name "HUDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 	content "States"
@@ -1079,3 +1079,183 @@ brush
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 61 , 28 , 28 ]
+brush
+	name "EMPIREICON_CRUISER_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_CRUISER_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 1, 299 , 76 ]
+brush
+	name "EMPIREICON_CAPITAL_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 30 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_CAPITAL_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 1, 299 , 76 ]
+brush
+	name "EMPIREICON_SUPER_CAPITAL_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 59 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_SUPER_CAPITAL_SHIPYARD"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 1 , 299 , 76 ]
+brush
+	name "EMPIREICON_DURASTEEL_EXTRACTOR"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 88 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_DURASTEEL_EXTRACTOR"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 78, 299 , 76 ]
+brush
+	name "EMPIREICON_TIBANNA_STATION"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 117 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_TIBANNA_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 78, 299 , 76 ]
+brush
+	name "EMPIREICON_BROADCAST_CENTER"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 146 , 1 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_BROADCAST_CENTER"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 78, 299 , 76 ]
+brush
+	name "EMPIREICON_GOLAN_I_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_GOLAN_I_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 155 , 299 , 76 ]
+brush
+	name "EMPIREICON_GOLAN_II_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_GOLAN_II_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 155 , 299 , 76 ]
+brush
+	name "EMPIREICON_GOLAN_III_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_GOLAN_III_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 155 , 299 , 76 ]
+brush
+	name "EMPIREICON_REPAIR_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 30 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_REPAIR_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 232, 299 , 76 ]
+brush
+	name "EMPIREICON_MILITARY_RESEARCH_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 59 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_MILITARY_RESEARCH_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 232, 299 , 76 ]
+brush
+	name "EMPIREICON_CIVIC_RESEARCH_PLATFORM"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 59 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_CIVIC_RESEARCH_PLATFORM"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 232, 299 , 76 ]
+brush
+	name "EMPIREICON_TRADE_PORT"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 88 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_TRADE_PORT"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 309, 299 , 76 ]
+brush
+	name "EMPIREICON_EMPRESS_STATION"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 117 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_EMPRESS_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 309, 299 , 76 ]
+brush
+	name "EMPIREICON_ESSELES_STATION"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 146 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_ESSELES_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 309, 299 , 76 ]
+brush
+	name "EMPIREICON_SMUGGLERS_DEN"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 88 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_SMUGGLERS_DEN"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 386, 299 , 76 ]
+brush
+	name "EMPIREICON_IMPERIAL_COMMAND_CENTER"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 59 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_IMPERIAL_COMMAND_CENTER"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 386, 299 , 76 ]
+brush
+	name "EMPIREICON_GALAXY_GUN"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 30 , 59 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_GALAXY_GUN"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 386, 299 , 76 ]

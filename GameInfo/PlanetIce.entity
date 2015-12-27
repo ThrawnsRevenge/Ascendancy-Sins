@@ -13,7 +13,7 @@ meshInfo
 	smallHudIcon "HUDICONSMALL_PLANET_ICE"
 	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
-	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE"
 	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
@@ -28,7 +28,7 @@ meshInfo
 	smallHudIcon "HUDICONSMALL_PLANET_ICE"
 	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
-	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE"
 	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
@@ -43,7 +43,7 @@ meshInfo
 	smallHudIcon "HUDICONSMALL_PLANET_ICE"
 	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
-	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE"
 	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 meshInfo
@@ -58,7 +58,7 @@ meshInfo
 	smallHudIcon "HUDICONSMALL_PLANET_ICE"
 	infoCardIcon "HUDICON_PLANET_ICE"
 	mainViewIcon "MAINVIEWICON_PLANET_ICE"
-	undetectedMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_ICE"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE"
 	picture "HUDICON_PLANET_ICE"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

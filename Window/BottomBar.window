@@ -6,8 +6,8 @@ userInputGridWindow
 	slotGap [4, 6]
 	barOffsetFromTop 7
 	barWidthModifier -10
-	actionInProgressIconOffsetFromCenter [-23, -16]
-	autoCastIconOffsetFromCenter [-8, -8]
+	actionInProgressIconOffsetFromCenter [-25, -18]
+	autoCastIconOffsetFromCenter [-25, -18]
 	actionInProgressBrushAnimation "ActionInProgressOverlay"
 	autoCastBrushAnimation "AutoCastEnabledOverlay"
 	passiveAbilityOverlay "ActionGridSlotPassiveAbilityOverlay"

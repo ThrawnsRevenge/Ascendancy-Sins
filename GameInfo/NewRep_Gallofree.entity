@@ -10,7 +10,7 @@ typeCount 2
 frigateRoleType "Colony"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
-mainViewIcon "HUDICONSMALL_FRIGATE_GALLOFREE"
+mainViewIcon "MAINVIEWICON_GALLOFREE"
 picture "HUDICON_GALLOFREE"
 NameStringID "IDS_FRIGATE_GALLOFREE_NAME"
 DescriptionStringID "IDS_FRIGATE_GALLOFREE_DESCRIPTION"

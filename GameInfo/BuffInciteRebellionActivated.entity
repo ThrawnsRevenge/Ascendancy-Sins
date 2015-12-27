@@ -37,22 +37,22 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	allegianceChange
-		Level:0 -0.050000
-		Level:1 -0.050000
-		Level:2 -0.050000
-		Level:3 -0.050000
+		Level:0 -0.015000
+		Level:1 -0.030000
+		Level:2 -0.040000
+		Level:3 -0.054000
 numPeriodicActions 0
 numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "DoPercOfMaxDamageToPlanet"
 	damageRate
-		Level:0 0.010000
-		Level:1 0.012500
+		Level:0 0.005000
+		Level:1 0.010000
 		Level:2 0.000000
 		Level:3 0.000000
 	populationKillRate
-		Level:0 0.007500
-		Level:1 0.008625
+		Level:0 0.001500
+		Level:1 0.002625
 		Level:2 0.000000
 		Level:3 0.000000
 numEntityModifiers 0

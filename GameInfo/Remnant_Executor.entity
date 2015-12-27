@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "HUDICONSMALL_TITAN_EXECUTOR"
+mainViewIcon "MAINVIEWICON_EXECUTOR_SSD"
 basePrice
 	credits 12000.000000
 	metal 900.000000
@@ -97,8 +97,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "Titan"
 hudIcon "HUDICON_EXECUTOR"
-smallHudIcon "HUDICONSMALL_TITAN_EXECUTOR"
-infoCardIcon "HUDICON_EXECUTOR"
+smallHudIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
 minZoomDistanceMult 1.250000
 NumWeapons 3
 Weapon

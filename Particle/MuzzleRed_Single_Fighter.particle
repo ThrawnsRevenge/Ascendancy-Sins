@@ -21,9 +21,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff004000
-		ParticleWidth 2.000000
-		ParticleHeight 2.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 3.000000
+		ParticleHeight 3.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.80\ascendancy\Textures\W_SPARKLE.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.80\ascendancy\Textures\laserfront_RED.tga"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE1.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "FirstFrame"
@@ -131,7 +131,7 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "(copy) Point-1"
 		TransitionPeriod 0.100000
-		StartColor ff400000
+		StartColor ff800000
 		StartAlpha 1.000000
 		EndColor ff000000
 		EndAlpha 1.000000
@@ -150,7 +150,7 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "(copy) (copy) Point-1-1"
 		TransitionPeriod 0.100000
-		StartColor ff404040
+		StartColor ffffffff
 		StartAlpha 1.000000
 		EndColor ff000000
 		EndAlpha 1.000000

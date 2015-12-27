@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
-mainViewIcon "HUDICONSMALL_FRIGATE_HAJEN"
+mainViewIcon "MAINVIEWICON_HAJEN"
 picture "HUDICON_HAJEN"
 NameStringID "IDS_FRIGATE_HAJEN_NAME"
 DescriptionStringID "IDS_FRIGATE_HAJEN_DESCRIPTION"
@@ -22,8 +22,8 @@ slotCount 3.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 35.799999
-MaxHullPoints 600.000000
-MaxShieldPoints 300.000000
+MaxHullPoints 1500.000000
+MaxShieldPoints 1500.000000
 HullPointRestoreRate 60.000000
 ShieldPointRestoreRate 20.500000
 BaseArmorPoints 3.000000
@@ -40,8 +40,8 @@ numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_HAJEN"
-smallHudIcon "HUDICONSMALL_MILITARY_SUPPORT"
-infoCardIcon "HUDICONSMALL_MILITARY_SUPPORT"
+smallHudIcon "HUDICONSMALL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_FLEET_SUPPORT"
 minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon
@@ -140,7 +140,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityHajenRepair"
 ability:1 "AbilityHajenFighters"
-ability:2 ""
+ability:2 "AbilityPowerToShields"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 350.000000

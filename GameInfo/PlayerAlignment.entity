@@ -64,7 +64,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 79
+		count 81
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -73,6 +73,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
+		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "RemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Flat_HolonetMonitoring"
@@ -84,6 +85,7 @@ entities
 		entityDefName "AlignmentResearch_Economy_TradeStation"
 		entityDefName "AlignmentResearch_Economy_TradeIncrease"
 		entityDefName "AlignmentResearch_Global_Velcar"
+		entityDefName "AlignmentResearch_Global_CorporateOutreach"
 		entityDefName "AlignmentResearch_Global_VelcarUpgrade"
 		entityDefName "AlignmentResearch_Global_HostileTakeover"
 		entityDefName "AlignmentResearch_Global_InQuestors"
@@ -491,7 +493,7 @@ hudSkinData
 	UnknownPlanetHUDIcon "HUDICON_PLANET_UNKNOWN"
 	UnknownPlanetHUDSmallIcon "HUDICONSMALL_PLANET_UNKNOWN"
 	UnknownPlanetInfoCardIcon "HUDICON_PLANET_UNKNOWN"
-	UnknownPlanetMainViewIcon "MAINVIEWICONUNDETECTED_PLANET_UNKNOWN"
+	UnknownPlanetMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_UNKNOWN"
 	UnknownPlanetPicture "HUDICON_PLANET_UNKNOWN"
 	AutoAttackRangeStateMixed "ACTIONICON_CAPITALSHIP_ATTACKRANGENONE"
 	AutoAttackRangeStateAllNone "ACTIONICON_CAPITALSHIP_ATTACKRANGENONE"
@@ -749,8 +751,8 @@ researchScreenData
 	shipSlotLevelPicture-7 "PA_FleetResearchCommand7"
 	shipSlotLevelPicture-8 "PA_FleetResearchCommand8"
 gameOverWindowData
-	hasWonPicture "GameOverDialogHasWonPicturePsi"
-	hasLostPicture "GameOverDialogHasLostPicturePsi"
+	hasWonPicture "GameOverVictory"
+	hasLostPicture "GameOverDefeat"
 	themeBackdropBrush "GameOverDialogPlayerThemeBackdropPsi"
 	hasWonMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryVictory"
 	hasLostMilitaryStatusFormatStringId "IDSGameOverDialogMilitaryDefeat"

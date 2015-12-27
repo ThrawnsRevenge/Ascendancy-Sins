@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_PROFICIENT"
+mainViewIcon "MAINVIEWICON_PROFICIENT"
 picture "HUDICON_PROFICIENT"
 NameStringID "IDS_FRIGATE_PROFICIENT_NAME"
 DescriptionStringID "IDS_FRIGATE_PROFICIENT_DESCRIPTION"
@@ -179,10 +179,10 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 ""
-ability:1 ""
+ability:0 "AbilityBombardEmpire"
+ability:1 "AbilityBlockadeRunner"
 ability:2 ""
-ability:3 "AbilityBombardEmpire"
+ability:3 ""
 ability:4 "AbilityPassiveLowLifePods"
 MaxAntiMatter 12.000000
 AntiMatterRestoreRate 0.000000

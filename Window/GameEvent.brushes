@@ -70,7 +70,7 @@ brush
 	name "GameEventButtonAllianceEmptyFrame"
 	content "Simple"
 	fileName "Buttons_Ascendancy_Events"
-	pixelBox [ 1 , 826 , 179 , 24 ]
+	pixelBox [ 1 , 176 , 179 , 24 ]
 brush
 	name "GameEventButtonAllyCapitalShipLost"
 	content "Simple"

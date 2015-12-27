@@ -3,7 +3,7 @@ tabWindow
 	topLeftOffset [0, 100]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorArea [130, -2, 72, 52]
 	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
 	titleStringId "IDSRelationshipScreenTitle"
 	titleFontId "TabbedScreenTitle"
@@ -18,14 +18,14 @@ tabWindow
 	contentBackdrop "TabWindowContentBackdropInGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 40
+		iconOffsetFromLeft 10
+		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
 		overlay "MenuButtonOverlay"						
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 40
+		iconOffsetFromLeft 10
+		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
 		overlay "MenuButtonOverlay"		
 	closeButton
@@ -50,8 +50,8 @@ relationshipsTabContentWindowDef
 		portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDead"
 		portraitBackdrop "PlayerScreenHappinessBackdropForHumanPlayer"
 		portraitBackdropArea [145,315,0,0]
-		iconArea [0, -120, 0, 0]
-		nameArea [110, -120, 0, 0]	
+		iconArea [140, -120, 0, 0]
+		nameArea [140, -50, 0, 0]	
 		nameFont "NotificationPlayer"
 		diplomacyPointsFont "WindowSubTitle2"
 		diplomacyPointsLabelFont "Label"
@@ -176,6 +176,6 @@ relationshipsTabContentWindowDef
 	otherPlayerSevenTubeArea [568, 410, 0, 0]
 	otherPlayerEightTubeArea [568, 280, 0, 0]
 	otherPlayerNineTubeArea [557, 202, 0, 0]
-	legendArea [395,145,0,0]
+	legendArea [395,180,0,0]
 	legendFont "ButtonLabel"
 				

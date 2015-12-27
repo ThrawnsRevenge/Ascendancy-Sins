@@ -85,7 +85,7 @@ periodicAction
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 4
+numFinishConditions 3
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
@@ -97,5 +97,3 @@ finishCondition
 	finishConditionType "NoTarget"
 finishCondition
 	finishConditionType "OwnerChanged"
-finishCondition
-	finishConditionType "TargetOwnerIsFriendly"

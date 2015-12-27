@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "StarBaseConstructor"
 statCountType "FrigateStarBaseConstructor"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHSTARBASECONSTRUCTOR"
+mainViewIcon "MAINVIEWICON_GALLOFREE"
 picture "HUDICON_GALLOFREE"
 NameStringID "IDS_FRIGATE_CONSTRUCTOR_NAME"
 DescriptionStringID "IDS_FRIGATE_CONSTRUCTOR_DESCRIPTION"

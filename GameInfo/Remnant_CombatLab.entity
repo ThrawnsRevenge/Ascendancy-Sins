@@ -13,8 +13,8 @@ numRandomDebrisSmall 16
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_POLICYLAB"
-smallHudIcon "HUDICON_POLICYLAB"
-infoCardIcon "HUDICON_POLICYLAB"
+smallHudIcon "EMPIREICON_MILITARY_RESEARCH_PLATFORM"
+infoCardIcon "EMPIREICON_MILITARY_RESEARCH_PLATFORM"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -63,7 +63,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_POLICYLAB"
+mainViewIcon "MAINVIEWICON_MILITARY_RESEARCH_PLATFORM"
 picture "HUDICON_POLICYLAB"
 minShadow 0.000000
 maxShadow 0.600000

@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_FRIGATE_CARRACK"
+mainViewIcon "MAINVIEWICON_CARRACK_CRUISER"
 picture "HUDICON_CARRACK"
 NameStringID "IDS_FRIGATE_CARRACK_NAME"
 DescriptionStringID "IDS_FRIGATE_CARRACK_DESCRIPTION"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_CARRACK"
-smallHudIcon "HUDICONSMALL_FRIGATE_CARRACK"
-infoCardIcon "HUDICONSMALL_FRIGATE_CARRACK"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
@@ -181,7 +181,7 @@ ability:1 "AbilityIonicDisruption"
 ability:2 ""
 ability:3 "AbilityThrawnDoctrine"
 ability:4 "AbilityPassiveLowLife"
-MaxAntiMatter 200.000000
+MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
