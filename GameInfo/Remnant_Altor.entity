@@ -63,8 +63,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_ALTOR"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+smallHudIcon "HUDICONSMALL_CAPITAL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_CAPITAL_FLEET_SUPPORT"
 minZoomDistanceMult 2.250000
 NumWeapons 1
 Weapon

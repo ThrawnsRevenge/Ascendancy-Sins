@@ -40,8 +40,8 @@ numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_HAJEN"
-smallHudIcon "HUDICONSMALL_MILITARY_SUPPORT"
-infoCardIcon "HUDICONSMALL_MILITARY_SUPPORT"
+smallHudIcon "HUDICONSMALL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_FLEET_SUPPORT"
 minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon

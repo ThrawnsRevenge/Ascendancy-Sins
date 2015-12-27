@@ -37,8 +37,8 @@ numRandomDebrisSmall 3
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_TRADESHIP_QUASAR"
-smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
-infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
+smallHudIcon "HUDICONSMALL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_FLEET_SUPPORT"
 minZoomDistanceMult 3.500000
 NumWeapons 0
 m_weaponIndexForRange 0

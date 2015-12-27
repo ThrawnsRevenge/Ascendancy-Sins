@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_MTC"
-smallHudIcon "HUDICONSMALL_CRUISER"
-infoCardIcon "HUDICONSMALL_CRUISER"
+smallHudIcon "HUDICONSMALL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_FLEET_SUPPORT"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon
