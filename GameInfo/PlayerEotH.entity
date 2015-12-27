@@ -20,10 +20,9 @@ entities
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "EotH_CombatLab"
 		Page:1
-			count 4
+			count 3
 			entityDefName "EotH_Visvia"
 			entityDefName "EotH_Brask"
-			entityDefName "Remnant_ShieldGenerator"
 			entityDefName "EotH_RepairPlatform"
 	titanInfo
 		Page:0
