@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityGilzeanColonize"
-ability:1 "AbilityCloseQuarters"
+ability:1 "AbilityNumericalSuperiority"
 ability:2 "AbilityCloak"
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
@@ -222,7 +222,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Shield_TechBattleship"
+ShieldMeshName "Hand_Ascendancy"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
