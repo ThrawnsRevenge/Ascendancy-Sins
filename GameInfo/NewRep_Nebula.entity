@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityOverwhelmCapital"
 ability:1 "AbilityTargetHangar"
-ability:2 "AbilityCloseQuarters"
+ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLifePods"
 defaultAutoAttackRange "GravityWell"

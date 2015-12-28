@@ -1727,7 +1727,7 @@ StringInfo
 	Value "Power Symbol"
 StringInfo
 	ID "IDS_ABILITY_POWERSYMBOL_DESCRIPTION"
-	Value "The sight of the Executor reignites Imperial pride, massively boosting planetary allegiance."
+	Value "The sight of this massive dreadnaught reignites Imperial pride, massively boosting planetary allegiance."
 StringInfo
 	ID "IDS_ABILITY_REMCOMASSAULT_NAME"
 	Value "Command: Assault"
