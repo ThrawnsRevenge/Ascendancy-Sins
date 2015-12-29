@@ -63,7 +63,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 94
+		count 93
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -121,7 +121,6 @@ entities
 		entityDefName "RemnantResearch_Flat_FearMongering"
 		entityDefName "RemnantResearch_Flat_ShockAndAwe"
 		entityDefName "RemnantResearch_Flat_HolonetMonitoring"
-		entityDefName "RemnantResearch_Flat_VisibleThreat"
 		entityDefName "RemnantResearch_Flat_PowerSymbol"
 		entityDefName "RemnantResearch_AbilityUnlock_MissileInterference"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
