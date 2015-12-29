@@ -18,8 +18,7 @@ entityModifier
 		Level:1 0.500000
 		Level:2 0.800000
 		Level:3 0.800000
-numEntityBoolModifiers 1
-entityBoolModifier "HasShieldMeshEffect"
+numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"

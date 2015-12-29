@@ -1745,7 +1745,7 @@ planetItemType
 	entityDefName "EotH_HolonetRelay"
 planetItemType
 	designName "EotH:Module:PolicyLab"
-	entityDefName "PLANETMODULE_PHASEORBITALNONCOMBATLABORATORY"
+	entityDefName "EotH_PolicyLab"
 planetItemType
 	designName "EotH:Module:Brask"
 	entityDefName "EotH_Brask"
@@ -1754,10 +1754,10 @@ planetItemType
 	entityDefName "EotH_Visvia"
 planetItemType
 	designName "EotH:Module:Durasteel"
-	entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
+	entityDefName "EotH_DurasteelExtractor"
 planetItemType
 	designName "EotH:Module:Tibanna"
-	entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
+	entityDefName "EotH_TibannaExtractor"
 planetItemType
 	designName "EotH:Module:CapitalShipyard"
 	entityDefName "Remnant_CapitalShipyard"
