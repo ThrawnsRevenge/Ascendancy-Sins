@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2561
+entityNameCount 2563
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -546,6 +546,8 @@ entityName "Alignment_Vindicator.entity"
 entityName "Alignment_Acclamator.entity"
 entityName "Alignment_VSDI.entity"
 entityName "Alignment_Grant.entity"
+entityName "Alignment_V19.entity"
+entityName "Alignment_V19_Squad.entity"
 entityName "AlignmentResearch_ShipUnlock_VSDI.entity"
 entityName "AlignmentResearch_ShipUnlock_Venator.entity"
 entityName "AlignmentResearch_ShipUnlock_Enforcer.entity"

@@ -925,6 +925,15 @@ StringInfo
 	ID "IDS_FIGTERTIEFIGHTER_DESC"
 	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
 StringInfo
+	ID "IDS_FIGHTERV19_NAME"
+	Value "V19 Torrent"
+StringInfo
+	ID "IDS_V19_NAME"
+	Value "V19 Torrent"
+StringInfo
+	ID "IDS_FIGTERV19_DESC"
+	Value "An old Republic design which costs less supply to field, but is weaker than most other craft."
+StringInfo
 	ID "IDS_FIGHTERTIEBOMBER_NAME"
 	Value "TIE Bomber"
 StringInfo
