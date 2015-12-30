@@ -67,7 +67,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 90
+		count 89
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -155,7 +155,6 @@ entities
 		entityDefName "NewRepResearch_MaxShipSlots5"
 		entityDefName "NewRepResearch_MaxShipSlots6"
 		entityDefName "NewRepResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 	starBaseInfo

@@ -97,29 +97,59 @@ RenderSceneVS_WithPixelShader(
 float4
 GetPixelColor( float4 iColor, float2 iTexCoord, float iDist, float3 iPos, float3 iView)
 {
-	float4 environmentColor = texCUBE(TextureEnvironmentCubeSampler, iView);	
-	float4 color = g_GlowColor;
+	float4 environmentColor = texCUBE(TextureEnvironmentCubeSampler, iView);
+	//float greyScale = (environmentColor.r + environmentColor.g + environmentColor.b) / 3;
+	
+	float4 reflection = environmentColor * g_GlowColor;
+	float4 color = g_GlowColor + reflection;
 	
 	//Standard Shield Frame alpha
-	float notHitArea = 0.05f;
-	float distVertex = iDist; //uses inter-vertex interpolation - less accurate but good over longer range
-	color.a = lerp( notHitArea, 0.f, distVertex/g_InternalHitRadius);
+	float shieldMinAlpha = 0.2f;
+	float impactDistVertex = iDist; //uses inter-vertex interpolation - less accurate but good over longer range
+	color.a = lerp( shieldMinAlpha, 0.f, impactDistVertex/g_InternalHitRadius);// Transparency decreases over distance from impact position.
 	
 	//Impact point animtion stuff
-	float distPixel = distance( iPos, g_ImpactPosition ); //uses texcoord to encode so limited range, but more accurate	
-	float noiseScale = g_ExternalHitRadius;
-	float timeScale = 10.f;	
+	float impactDistPixel = distance( iPos, g_ImpactPosition ); //uses texcoord to encode so limited range, but more accurate
+	float3 impactOffset = iPos - g_ImpactPosition;
+
+	float noiseScale = 2.f / g_ExternalHitRadius;// Compensate for World coordinates being on a different scale than texture coordinates. Dependent on size of shield effect.
+	
+	float timeScale = 300.f;
 	float noiseTime = ( g_Time * timeScale );
-	float3 index = float3( iTexCoord.x, iTexCoord.y, noiseTime ) * 2.f;
+	
+	float3 index = impactOffset;// A position in time of animated/3d texture for this pixel
+	
+	float3 waveDirection = normalize(impactOffset);
+	
+	// Modify the amount of directionality applied:
+	float directionality = (impactDistVertex / g_InternalHitRadius);// less directionality closer to impact point (prevent star shaped artifact)
+	
+	// reduce directionality over time:
+	float duration = 2.f;
+	directionality *= (duration - min(g_Time, duration)) / duration;
+	
+	index -= noiseTime * (waveDirection * directionality);// Move the noise away from the impact point. This is basically a scale effect.
 	
 	float domainPhaseShift = tex3D( NoiseSampler, noiseScale * index ) * 2 - 1; //range -1 to 1
 	
-	float inversePercent = max(1.f - distVertex/g_InternalHitRadius,0.f);//don't want negative values
-	float newAlpha = color.a + domainPhaseShift * inversePercent;
+	float inversePercent = max(1.f - impactDistVertex / g_InternalHitRadius, 0.f);//Fraction of distance to impact from hitradius, always positive value
+	inversePercent *= 2.0;// increase opacity of noise
+	float newAlpha = color.a + domainPhaseShift * inversePercent;// Fade out the farther away from impact, and apply noise.
+	
+	// Mix base shield opacity and noise opacity:
 	color.a = max( newAlpha, color.a);
 	
 	//Weaker shields are fainter
-	color.a *= g_ShieldPercent;
+	color.a *= g_ShieldPercent;// Fade over time. The game code seems to combine shield strength and fade over time.
+	
+	// Quicker Fade over time.
+	float dissipationTime = g_Time * 1;// Scale time
+	dissipationTime += 1.f;// 1 as a minimum value, so shieldPresence is not scaled to a higher value
+	float shieldPresence = 1 / (dissipationTime * dissipationTime);// Shield transparency increases quickly at first, then slower.
+	
+	//color.a = shieldPresence;// a band of transparency propagating over the shield.
+	
+	color.a *= shieldPresence;//Reduce alpha over time
 
 	return color;
 }
@@ -146,6 +176,7 @@ technique RenderWithoutVertexShader
 		AlphaBlendEnable	= true;
 		SrcBlend			= srcalpha;
 		DestBlend			= invsrcalpha;
+		CullMode 			= none;
 		
 		ZEnable				= true;
 		ZWriteEnable		= false;		
@@ -160,6 +191,7 @@ technique RenderWithoutPixelShader
 		PixelShader			= NULL;
 		
 		AlphaTestEnable		= false;
+		CullMode 			= none;
 		
 		ZEnable				= true;
 		ZWriteEnable		= false;		
@@ -174,7 +206,8 @@ technique RenderWithPixelShader
         PixelShader			= compile ps_2_0 RenderScenePS();
         
         AlphaTestEnable		= false;
-	
+		CullMode 			= none;
+		
 		ZEnable				= true;
 		ZWriteEnable		= false;
      }

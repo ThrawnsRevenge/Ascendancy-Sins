@@ -11,7 +11,7 @@ entities
 	planetModuleInfo
 		Page:0
 			count 8
-			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+			entityDefName "EotH_DurasteelExtractor"
 			entityDefName "EotH_FrigateShipyard"
 			entityDefName "EotH_PolicyLab"
 			entityDefName "EotH_TradeStation"

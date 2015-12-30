@@ -10,18 +10,13 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 2
 entityModifier
-	buffEntityModifierType "PlanetBombingDamageAbsorption"
+	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.300000
-		Level:1 0.500000
-		Level:2 0.800000
-		Level:3 0.800000
+		Level:0 0.150000
+		Level:1 0.150000
+		Level:2 0.150000
+		Level:3 0.150000
 numEntityBoolModifiers 0
-numFinishConditions 2
-finishCondition
-	finishConditionType "FirstSpawnerNoLongerHasBuff"
-	buffTypeToQuery "BuffPlanetShieldOnSpawner"
-finishCondition
-	finishConditionType "OwnerChanged"
+numFinishConditions 0

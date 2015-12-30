@@ -4,6 +4,12 @@ StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
 StringInfo
+	ID "IDS_ABILITY_BLACKMARKETWEAPONS_DESCRIPTION"
+	Value "Smuggler contacts procure illegal weapons for a ship, increasing its firepower permanantly - at a cost."
+StringInfo
+	ID "IDS_ABILITY_BLACKMARKETWEAPONS_NAME"
+	Value "Black Market Weapons"
+StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo
@@ -550,11 +556,17 @@ StringInfo
 	ID "IDS_FRIGATE_WARLORD_DESCRIPTION"
 	Value "A strong hulled missile boat designed for extended independent patrols."
 StringInfo
-	ID "IDS_FRIGATE_ASDRONI_NAME"
+	ID "IDS_FRIGATE_ASDONI_NAME"
 	Value "Asdroni Frigate"
 StringInfo
-	ID "IDS_FRIGATE_ASDRONI_DESCRIPTION"
+	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
 	Value "A compact escort frigate designed primarily for anti-starfighter duties."
+StringInfo
+	ID "IDS_FRIGATE_ASDONI_NAME"
+	Value "Consen Transport"
+StringInfo
+	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
+	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
 	ID "IDS_FRIGATE_PROFICIENT_NAME"
 	Value "Proficient"
@@ -918,6 +930,15 @@ StringInfo
 StringInfo
 	ID "IDS_FIGTERTIEFIGHTER_DESC"
 	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
+StringInfo
+	ID "IDS_FIGHTERV19_NAME"
+	Value "V19 Torrent"
+StringInfo
+	ID "IDS_V19_NAME"
+	Value "V19 Torrent"
+StringInfo
+	ID "IDS_FIGTERV19_DESC"
+	Value "An old Republic design which costs less supply to field, but is weaker than most other craft."
 StringInfo
 	ID "IDS_FIGHTERTIEBOMBER_NAME"
 	Value "TIE Bomber"
@@ -1721,7 +1742,7 @@ StringInfo
 	Value "Power Symbol"
 StringInfo
 	ID "IDS_ABILITY_POWERSYMBOL_DESCRIPTION"
-	Value "The sight of the Executor reignites Imperial pride, massively boosting planetary allegiance."
+	Value "The sight of this massive dreadnaught reignites Imperial pride, massively boosting planetary allegiance."
 StringInfo
 	ID "IDS_ABILITY_REMCOMASSAULT_NAME"
 	Value "Command: Assault"
