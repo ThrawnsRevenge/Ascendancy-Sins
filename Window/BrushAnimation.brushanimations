@@ -31,7 +31,7 @@ animation-OpenNPCWindowButtonOverlay
 	framesPerSecond 10
 animation-OpenPlayersWindowButtonOverlay
 	numFrames 16
-	textureName "Animation_RelationsGlow.tga"
+	textureName "Animation_NPCGlow.tga"
 	startTopLeft [1,1]
 	width 50
 	height 30
@@ -141,7 +141,7 @@ animation-PlayerSetupReadyToStartFalse
 	framesPerSecond 15
 animation-OpenRelationshipWindowButtonOverlay
 	numFrames 16
-	textureName "Animation_RelationsGlow.tga"
+	textureName "Animation_NPCGlow.tga"
 	startTopLeft [1,1]
 	width 50
 	height 30

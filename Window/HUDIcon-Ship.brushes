@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 369
+brushCount 371
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -216,11 +216,6 @@ brush
 	content "Simple"
 	fileName "CapitalShip_Pip"
 	pixelBox [ 0 , 40 , 40 , 40 ]
-brush
-	name "MAINVIEWICON_VISCOUNT"
-	content "Simple"
-	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 203 , 1 , 100 , 50 ]
 brush
 	name "HUDICONSMALL_TITAN_EXECUTOR"
 	content "Simple"
@@ -4132,12 +4127,17 @@ brush
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 1 , 1 , 100 , 50 ]
 brush
+	name "MAINVIEWICON_VISCOUNT"
+	content "Simple"
+	fileName "Ascendancy_Super_Capital_Ship_Main_Icons"
+	pixelBox [ 1 , 1 , 100 , 50 ]
+brush
 	name "MAINVIEWICON_NEBULA"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 102 , 1 , 100 , 50 ]
 brush
-	name "MAINVIEWICON_VISCOUNT"
+	name "MAINVIEWICON_BAC"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 203 , 1 , 100 , 50 ]
@@ -4264,8 +4264,8 @@ brush
 brush
 	name "MAINVIEWICON_EXECUTOR_SSD"
 	content "Simple"
-	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 708 , 103 , 100 , 50 ]
+	fileName "Ascendancy_Super_Capital_Ship_Main_Icons"
+	pixelBox [ 102 , 1 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_DREADNAUGHT"
 	content "Simple"
@@ -4304,8 +4304,8 @@ brush
 brush
 	name "MAINVIEWICON_SOVEREIGN_SSD"
 	content "Simple"
-	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 506 , 154 , 100 , 50 ]
+	fileName "Ascendancy_Super_Capital_Ship_Main_Icons"
+	pixelBox [ 203 , 1 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_LAMBDA_SHUTTLE"
 	content "Simple"
@@ -4316,3 +4316,13 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 706 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_FIGHTER_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 460 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_BOMBER_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 460 , 100 , 50 ]

@@ -3,7 +3,7 @@ tabWindow
 	topLeftOffset [0, -20]
 	buttonTopLeftOffset [33, 97]
 	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorArea [0, -2, 170, 52]
 	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
 	titleStringId "IDSOptionsScreenTitle"
 	titleFontId "TabbedScreenTitle"

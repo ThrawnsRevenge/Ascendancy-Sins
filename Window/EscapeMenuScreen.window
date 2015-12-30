@@ -3,7 +3,7 @@ tabWindow
 	topLeftOffset [0, 100]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorArea [0, -2, 170, 52]
 	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
 	titleStringId "IDSEscapeMenuScreenTitle"
 	titleFontId "TabbedScreenTitle"
@@ -34,9 +34,9 @@ tabWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"				
+		overlay "MenuButtonOverlay"						
 		icon "DialogScreenCloseButton"
-		text "IDSEscapeMenuScreenCloseButton"
+		text "IDSNPCScreenCloseButton"
 sharedScreenTextEntryDef
 	labelFontId "Label"
 	textEntryFontId "TextEntry"

@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_BOTHANASSAULTCRUISER"
+mainViewIcon "MAINVIEWICON_BAC"
 picture "HUDICON_BAC"
 NameStringID "IDS_FRIGATE_BAC_NAME"
 DescriptionStringID "IDS_FRIGATE_BAC_DESCRIPTION"
