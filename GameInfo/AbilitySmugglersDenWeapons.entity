@@ -5,7 +5,7 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffSmugglersDenWeapons"
 targetFilter
 	numOwnerships 1
-	ownership "Enemy"
+	ownership "Friendly"
 	numObjects 3
 	object "CapitalShip"
 	object "Frigate"
