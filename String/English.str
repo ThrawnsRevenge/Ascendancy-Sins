@@ -4,6 +4,12 @@ StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
 StringInfo
+	ID "IDS_ABILITY_BLACKMARKETWEAPONS_DESCRIPTION"
+	Value "Smuggler contacts procure illegal weapons for a ship, increasing its firepower permanantly - at a cost."
+StringInfo
+	ID "IDS_ABILITY_BLACKMARKETWEAPONS_NAME"
+	Value "Black Market Weapons"
+StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo

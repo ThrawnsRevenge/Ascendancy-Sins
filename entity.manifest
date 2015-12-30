@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2563
+entityNameCount 2565
 entityName "BuffTradeStation.entity"
 entityName "AbilityTradeStation.entity"
 entityName "Warlords_Zsinj.entity"
@@ -607,6 +607,8 @@ entityName "AlignmentResearch_MaxShipSlots7.entity"
 entityName "AlignmentUpgrade_Bellator_AbilityA.entity"
 entityName "AbilityProtectionism.entity"
 entityName "BuffProtectionismSelf.entity"
+entityName "AbilitySmugglersDenWeapons.entity"
+entityName "BuffSmugglersDenWeapons.entity"
 entityName "AbilityCloak.entity"
 entityName "BuffCloak.entity"
 entityName "AbilityGoodwillFreighter.entity"
