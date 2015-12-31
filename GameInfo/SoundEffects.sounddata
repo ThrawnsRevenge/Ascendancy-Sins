@@ -1,5 +1,5 @@
 TXT
-numEffects 437
+numEffects 444
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -4053,6 +4053,126 @@ effect
 effect
 	name "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_ONSELECTION_0"
 	fileName "PlanetModule_TechOrbitalNonCombatLaboratory_OnSelection_0.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORSELECTONE"
+	fileName "IR_Executor_Select1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORSELECTTWO"
+	fileName "IR_Executor_Select2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORMOVETHREE"
+	fileName "IR_Executor_Move3.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORMOVETWO"
+	fileName "IR_Executor_Move2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORMOVEONE"
+	fileName "IR_Executor_Move1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORATTACKONE"
+	fileName "IR_Executor_Attack1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORATTACKTWO"
+	fileName "IR_Executor_Attack2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_EXECUTORATTACKTHREE"
+	fileName "IR_Executor_Attack3.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255
