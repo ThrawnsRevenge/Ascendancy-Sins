@@ -12,25 +12,25 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 43.000000
-basePopulationKilled 1.700000
-bombingFreqTime 10.000000
+baseDamage 20.000000
+basePopulationKilled 0.800000
+bombingFreqTime 4.000000
 baseRange 3000.000000
-bombTransitTime 12.000000
+bombTransitTime 2.500000
 bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 6
+	burstCount 3
 	burstDelay 0.200000
 	fireDelay 0.000000
 	muzzleEffectName "MuzzleRed_Single_Large"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 2
-		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
-	hitEffectName "TurbolaserImpact"
+		sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+		sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+	hitEffectName "TurbolaserPlanetImpact"
 	hitHullEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
