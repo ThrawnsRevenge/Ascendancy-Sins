@@ -45,33 +45,33 @@ numFactionWindows 4
 			overlay ""
 		sharedTechsStartPosition [-5000, -4500]
 		spaceBetweenSharedTechs 6
-			sharedTechOne "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-			sharedTechTwo "RESEARCHSUBJECT_REBELLION"
-			sharedTechThree "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
-			sharedTechFour "RESEARCHSUBJECT_CREDITSFROMPURCHASES"
+			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
+			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
+			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
+			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
 		sharedCapitalShipsStartPosition [560, 440]
 		spaceBetweenSharedCapitalShips 2
-			sharedCapitalShipOne "NewRep_MC80"
-			sharedCapitalShipTwo "NewRep_MC90"
-			sharedCapitalShipThree "NewRep_Nebula"
-			sharedCapitalShipFour "NewRep_Endurance"
-			sharedCapitalShipFive "NewRep_MC80B"
-			sharedCapitalShipSix "NewRep_Command_Nebula"
+			sharedCapitalShipOne "Remnant_Altor"
+			sharedCapitalShipTwo "Remnant_ISDI"
+			sharedCapitalShipThree "Remnant_ISDII"
+			sharedCapitalShipFour "Alignment_Praetor"
+			sharedCapitalShipFive "Remnant_WorldDevastator"
+			sharedCapitalShipSix "Remnant_Command_Praetor"
 		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [-5000, -5000]
-			leftFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			leftFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			leftFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			leftFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			leftFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		rightFactionTechsStartPosition [ -5000, -5000]
-			rightFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			rightFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			rightFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			rightFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		leftFactionTechsStartPosition [840, 440]
+			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
+			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
+			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
+			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
+			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
+			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
+		rightFactionTechsStartPosition [ 560, 530]
+			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
+			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
+			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
+			rightFactionTechFour "RemnantResearch_Global_Ruthless"
+			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
+			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
 			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
@@ -140,10 +140,10 @@ numFactionWindows 4
 			overlay ""
 		sharedTechsStartPosition [-5000, -5000]
 		spaceBetweenSharedTechs 6
-			sharedTechOne "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-			sharedTechTwo "RESEARCHSUBJECT_REBELLION"
-			sharedTechThree "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
-			sharedTechFour "RESEARCHSUBJECT_CREDITSFROMPURCHASES"
+			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
+			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
+			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
+			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
 		sharedCapitalShipsStartPosition [560, 440]
 		spaceBetweenSharedCapitalShips 2
 			sharedCapitalShipOne "Remnant_Altor"
@@ -235,33 +235,33 @@ numFactionWindows 4
 			overlay ""
 		sharedTechsStartPosition [-5000, -5000]
 		spaceBetweenSharedTechs 6
-			sharedTechOne "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-			sharedTechTwo "RESEARCHSUBJECT_REBELLION"
-			sharedTechThree "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
-			sharedTechFour "RESEARCHSUBJECT_CREDITSFROMPURCHASES"
+			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
+			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
+			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
+			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
 		sharedCapitalShipsStartPosition [560, 440]
 		spaceBetweenSharedCapitalShips 2
-			sharedCapitalShipOne "EotH_Ascendancy"
-			sharedCapitalShipTwo "EotH_Phalanx"
-			sharedCapitalShipThree "EotH_Syndic"
-			sharedCapitalShipFour "NewRep_Endurance"
-			sharedCapitalShipFive "NewRep_MC80B"
-			sharedCapitalShipSix "NewRep_Command_Nebula"
+			sharedCapitalShipOne "Remnant_Altor"
+			sharedCapitalShipTwo "Remnant_ISDI"
+			sharedCapitalShipThree "Remnant_ISDII"
+			sharedCapitalShipFour "Alignment_Praetor"
+			sharedCapitalShipFive "Remnant_WorldDevastator"
+			sharedCapitalShipSix "Remnant_Command_Praetor"
 		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [-5000, -5000]
-			leftFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			leftFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			leftFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			leftFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			leftFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		rightFactionTechsStartPosition [ -5000, -5000]
-			rightFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			rightFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			rightFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			rightFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		leftFactionTechsStartPosition [840, 440]
+			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
+			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
+			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
+			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
+			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
+			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
+		rightFactionTechsStartPosition [ 560, 530]
+			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
+			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
+			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
+			rightFactionTechFour "RemnantResearch_Global_Ruthless"
+			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
+			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
 			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
@@ -330,33 +330,33 @@ numFactionWindows 4
 			overlay ""
 		sharedTechsStartPosition [-5000, -5000]
 		spaceBetweenSharedTechs 6
-			sharedTechOne "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORTECH"
-			sharedTechTwo "RESEARCHSUBJECT_REBELLION"
-			sharedTechThree "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
-			sharedTechFour "RESEARCHSUBJECT_CREDITSFROMPURCHASES"
+			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
+			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
+			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
+			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
 		sharedCapitalShipsStartPosition [560, 440]
 		spaceBetweenSharedCapitalShips 2
-			sharedCapitalShipOne "EotH_Ascendancy"
-			sharedCapitalShipTwo "EotH_Phalanx"
-			sharedCapitalShipThree "EotH_Syndic"
-			sharedCapitalShipFour "NewRep_Endurance"
-			sharedCapitalShipFive "NewRep_MC80B"
-			sharedCapitalShipSix "NewRep_Command_Nebula"
+			sharedCapitalShipOne "Remnant_Altor"
+			sharedCapitalShipTwo "Remnant_ISDI"
+			sharedCapitalShipThree "Remnant_ISDII"
+			sharedCapitalShipFour "Alignment_Praetor"
+			sharedCapitalShipFive "Remnant_WorldDevastator"
+			sharedCapitalShipSix "Remnant_Command_Praetor"
 		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [-5000, -5000]
-			leftFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			leftFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			leftFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			leftFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			leftFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		rightFactionTechsStartPosition [ -5000, -5000]
-			rightFactionTechOne "RESEARCHSUBJECT_TWIN_FORTRESSES"
-			rightFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
-			rightFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
-			rightFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
-			rightFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
-			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		leftFactionTechsStartPosition [840, 440]
+			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
+			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
+			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
+			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
+			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
+			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
+		rightFactionTechsStartPosition [ 560, 530]
+			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
+			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
+			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
+			rightFactionTechFour "RemnantResearch_Global_Ruthless"
+			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
+			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
 			area [650, 690, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
