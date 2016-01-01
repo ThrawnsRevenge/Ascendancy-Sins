@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_VIGILANCE_GUNSHIP"
 picture "PICTURE_FRIGATE_VIGILANCE"
 NameStringID "IDS_FRIGATE_VIGILANCE_NAME"
 DescriptionStringID "IDS_FRIGATE_VIGILANCE_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 6
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_VIGILANCE"
-smallHudIcon "HUDICONSMALL_FRIGATE_VIGILANCE"
-infoCardIcon "INFOCARDICON_FRIGATE_VIGILANCE"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 4.500000
 NumWeapons 2
 Weapon

@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_MASSIAS_INTERDICTOR"
 picture "PICTURE_FRIGATE_MASSIAS"
 NameStringID "IDS_FRIGATE_MASSIAS_NAME"
 DescriptionStringID "IDS_FRIGATE_MASSIAS_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_MASSIAS"
-smallHudIcon "HUDICONSMALL_FRIGATE_MASSIAS"
-infoCardIcon "INFOCARDICON_FRIGATE_MASSIAS"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
