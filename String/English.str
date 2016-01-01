@@ -562,10 +562,10 @@ StringInfo
 	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
 	Value "A compact escort frigate designed primarily for anti-starfighter duties."
 StringInfo
-	ID "IDS_FRIGATE_ASDONI_NAME"
+	ID "IDS_FRIGATE_CONSEN_NAME"
 	Value "Consen Transport"
 StringInfo
-	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
+	ID "IDS_FRIGATE_CONSEN_DESCRIPTION"
 	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
 	ID "IDS_FRIGATE_PROFICIENT_NAME"

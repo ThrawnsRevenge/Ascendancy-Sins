@@ -13,8 +13,8 @@ numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_TIBANNASTATION"
-smallHudIcon "HUDICON_TIBANNASTATION"
-infoCardIcon "HUDICON_TIBANNASTATION"
+smallHudIcon "EMPIREICON_TIBANNA_STATION"
+infoCardIcon "EMPIREICON_TIBANNA_STATION"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 0.000000
 basePrice
@@ -63,7 +63,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_TIBANNASTATION"
+mainViewIcon "MAINVIEWICON_TIBANNA_STATION"
 picture "HUDICON_TIBANNASTATION"
 minShadow 0.000000
 maxShadow 0.600000

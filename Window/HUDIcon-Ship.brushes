@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 371
+brushCount 376
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -4317,6 +4317,26 @@ brush
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 706 , 154 , 100 , 50 ]
 brush
+	name "MAINVIEWICON_CONSEN"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 807 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_BURIDECH"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 908 , 154 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_KARIEK"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 205 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_FRONTIER_SCOUT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 205 , 100 , 50 ]
+brush
 	name "MAINVIEWICON_FIGHTER_SQUADRON"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
@@ -4326,3 +4346,9 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 102 , 460 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_CIVILIAN_SHIP"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 460 , 100 , 50 ]
+
