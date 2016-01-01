@@ -1,17 +1,41 @@
 TXT
 NumStrings 8493
 StringInfo
+	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
+	Value "Upgrade Weapons"
+StringInfo
+	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
+	Value "Installs upgraded weapons on the target allied ship."
+StringInfo
+	ID "IDS_ABILITY_UPGRADEDEFENSES_NAME"
+	Value "Upgrade Defenses"
+StringInfo
+	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
+	Value "Installs upgraded plating and shields on the target allied ship."
+StringInfo
+	ID "IDS_ABILITY_UPGRADESPEED_NAME"
+	Value "Upgrade Engines"
+StringInfo
+	ID "IDS_ABILITY_UPGRADESPEED_DESCRIPTION"
+	Value "Installs upgraded engines on the target allied ship."
+StringInfo
 	ID "IDS_ABILITY_RESILIENT_NAME"
 	Value "Resilient"
 StringInfo
-	ID "IDS_ABILITY_BLACKMARKETWEAPONS_DESCRIPTION"
-	Value "Smuggler contacts procure illegal weapons for a ship, increasing its firepower permanantly - at a cost."
+	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
+	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
 StringInfo
 	ID "IDS_ABILITY_BLACKMARKETWEAPONS_NAME"
 	Value "Black Market Weapons"
 StringInfo
-	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
-	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
+	ID "IDS_ABILITY_BLACKMARKETWEAPONS_DESCRIPTION"
+	Value "Smuggler contacts procure illegal weapons for a ship, increasing its firepower permanantly - at a cost."
+StringInfo
+	ID "IDS_CORPORATEHEADQUARTERS_NAME"
+	Value "Corporate Headquarters"
+StringInfo
+	ID "IDS_CORPORATEHEADQUARTERS_DESCRIPTION"
+	Value "A structure tied to business interest, which can be contracted to provide upgrades to Alignment vessels."
 StringInfo
 	ID "IDS_ABILITY_SPMATBEAM_NAME"
 	Value "SPMAT Beam"
