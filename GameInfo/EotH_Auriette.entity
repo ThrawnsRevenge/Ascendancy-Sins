@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_AURIETTE"
 picture "PICTURE_FRIGATE_AURIETTE"
 NameStringID "IDS_FRIGATE_AURIETTE_NAME"
 DescriptionStringID "IDS_FRIGATE_AURIETTE_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_AURIETTE"
-smallHudIcon "HUDICONSMALL_FRIGATE_AURIETTE"
-infoCardIcon "INFOCARDICON_FRIGATE_AURIETTE"
+smallHudIcon "HUDICONSMALL_CARRIER"
+infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
@@ -133,7 +133,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigatePhaseCarrier"
+ShieldMeshName "Hand_Auriette"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000

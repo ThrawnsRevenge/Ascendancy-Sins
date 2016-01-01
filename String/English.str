@@ -1,5 +1,5 @@
 TXT
-NumStrings 8493
+NumStrings 8495
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
@@ -586,10 +586,10 @@ StringInfo
 	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
 	Value "A compact escort frigate designed primarily for anti-starfighter duties."
 StringInfo
-	ID "IDS_FRIGATE_ASDONI_NAME"
+	ID "IDS_FRIGATE_CONSEN_NAME"
 	Value "Consen Transport"
 StringInfo
-	ID "IDS_FRIGATE_ASDONI_DESCRIPTION"
+	ID "IDS_FRIGATE_CONSEN_DESCRIPTION"
 	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
 	ID "IDS_FRIGATE_PROFICIENT_NAME"
@@ -25218,3 +25218,9 @@ StringInfo
 StringInfo
 	ID "IDS_SMUGGLERS_DEN_DESCRIPTION"
 	Value "Allows the establishment of new trade routes, including black markets."
+StringInfo
+	ID "IDS_CLAWCRAFT_NAME"
+	Value "Clawcraft"
+StringInfo
+	ID "IDS_CLAWCRAFT_DESC"
+	Value "A Chiss developed variant of the Tie Fighter, The Clawcraft was slower, but far more manuverable."

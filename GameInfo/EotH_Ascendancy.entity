@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_ASCENDANCY"
 basePrice
 	credits 1300.000000
 	metal 60.000000
@@ -90,8 +90,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_ASCENDANCY"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_ASCENDANCY"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_ASCENDANCY"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

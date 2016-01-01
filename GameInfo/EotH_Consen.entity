@@ -10,7 +10,7 @@ typeCount 2
 frigateRoleType "Colony"
 frigateRoleType "ResourceCapturer"
 statCountType "FrigateColony"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_CONSEN"
 picture "PICTURE_FRIGATE_CONSEN"
 NameStringID "IDS_FRIGATE_CONSEN_NAME"
 DescriptionStringID "IDS_FRIGATE_CONSEN_DESCRIPTION"
@@ -38,8 +38,8 @@ numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_CONSEN"
-smallHudIcon "HUDICONSMALL_FRIGATE_CONSEN"
-infoCardIcon "INFOCARDICON_FRIGATE_CONSEN"
+smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
+infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
 minZoomDistanceMult 4.000000
 NumWeapons 1
 Weapon
