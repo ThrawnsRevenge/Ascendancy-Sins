@@ -8,7 +8,7 @@ autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
-statCountType "FrigateUtility0"
+statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_ALARIA_FREIGHTER"
 picture "PICTURE_FRIGATE_ALARIA"
 NameStringID "IDS_FRIGATE_ALARIA_NAME"
