@@ -30,10 +30,10 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 85.000000
-	Level:1 85.000000
-	Level:2 85.000000
-	Level:3 85.000000
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 120.000000
