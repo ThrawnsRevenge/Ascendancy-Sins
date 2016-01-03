@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 136
+brushCount 138
 brush
 	name "HUDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 	content "States"
@@ -1279,3 +1279,13 @@ brush
 	content "Simple"
 	fileName "Facility_Main_View"
 	pixelBox [ 302 , 463, 299 , 76 ]
+brush
+	name "EMPIREICON_OTO_MILITARY_OUTPOST"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 117 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_OTO_MILITARY_OUTPOST"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 603 , 463, 299 , 76 ]
