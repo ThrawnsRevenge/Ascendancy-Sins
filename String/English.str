@@ -1,5 +1,5 @@
 TXT
-NumStrings 8518
+NumStrings 8520
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
@@ -25230,3 +25230,9 @@ StringInfo
 StringInfo
 	ID "IDS_SCARSISS_DESC"
 	Value "A Chiss developed variant of the TIE Fighter, the Clawcraft was slower, but far more manuverable."
+StringInfo
+	ID "IDS_TITAN_BELLATOR_NAME"
+	Value "Bellator"
+StringInfo
+	ID "IDS_TITAN_BELLATOR_DESCRIPTION"
+	Value "The Bellator-class dreadnought was a design based on the Mandator- and Mandator II-classes. It diverged from its predecessors by being shorter and faster and the design was referred to in the Imperial Military as a 'fast dreadnought'."

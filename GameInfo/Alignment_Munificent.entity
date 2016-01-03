@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "HUDICONSMALL_FRIGATE_MUNIFICENT"
+mainViewIcon "MAINVIEWICON_MUNIFICENT"
 picture "HUDICON_MUNIFICENT"
 NameStringID "IDS_FRIGATE_MUNIFICENT_NAME"
 DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICONSMALL_FRIGATE_MUNIFICENT"
-infoCardIcon "INFOCARDICON_FRIGATE_MUNIFICENT"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon

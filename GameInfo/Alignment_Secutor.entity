@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_SECUTOR"
+mainViewIcon "MAINVIEWICON_SECUTOR"
 basePrice
 	credits 1800.000000
 	metal 125.000000
@@ -89,8 +89,8 @@ numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_SECUTOR"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_SECUTOR"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_SECUTOR"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon

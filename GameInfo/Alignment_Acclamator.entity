@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Carrier"
 statCountType "FrigateCarrier"
-mainViewIcon "HUDICONSMALL_FRIGATE_ACCLAMATOR"
+mainViewIcon "MAINVIEWICON_ACCLAMATOR"
 picture "HUDICON_ACCLAMATOR"
 NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_ACCLAMATOR"
-smallHudIcon "HUDICONSMALL_FRIGATE_ACCLAMATOR"
-infoCardIcon "HUDICONSMALL_FRIGATE_ACCLAMATOR"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon

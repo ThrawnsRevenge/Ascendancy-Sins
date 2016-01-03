@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 389
+brushCount 401
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
@@ -4097,6 +4097,11 @@ brush
 	fileName "Ascendancy_Ship_Tactical_Icons"
 	pixelBox [ 175 , 1 , 28 , 28 ]
 brush
+	name "HUDICONSMALL_INTERCEPTOR_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Tactical_Icons"
+	pixelBox [ 117 , 30 , 28 , 28 ]
+brush
 	name "HUDICONSMALL_BOMBER_SQUADRON"
 	content "Simple"
 	fileName "Ascendancy_Ship_Tactical_Icons"
@@ -4317,6 +4322,11 @@ brush
 	fileName "Ascendancy_Super_Capital_Ship_Main_Icons"
 	pixelBox [ 203 , 1 , 100 , 50 ]
 brush
+	name "MAINVIEWICON_BELLATOR"
+	content "Simple"
+	fileName "Ascendancy_Super_Capital_Ship_Main_Icons"
+	pixelBox [ 304 , 1 , 100 , 50 ]
+brush
 	name "MAINVIEWICON_LAMBDA_SHUTTLE"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
@@ -4392,6 +4402,61 @@ brush
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 1 , 256 , 100 , 50 ]
 brush
+	name "MAINVIEWICON_VENERATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_GLADIATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_PRAETOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SECUTOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_DOMINATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_PROCURSATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 607 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_STAR_GALLEON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_MUNIFICENT"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ENFORCER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 910 , 256 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ACCLAMATOR"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 1 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_ARQUITENS"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 102 , 307 , 100 , 50 ]
+brush
 	name "MAINVIEWICON_FIGHTER_SQUADRON"
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
@@ -4406,4 +4471,9 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 203 , 460 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_INTERCEPTOR_SQUADRON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 460 , 100 , 50 ]
 

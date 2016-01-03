@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_PRAETOR"
+mainViewIcon "MAINVIEWICON_PRAETOR"
 basePrice
 	credits 4000.000000
 	metal 300.000000
@@ -90,8 +90,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_PRAETOR"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_PRAETOR"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_PRAETOR"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

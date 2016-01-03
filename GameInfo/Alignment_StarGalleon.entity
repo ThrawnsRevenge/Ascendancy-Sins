@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
-mainViewIcon "HUDICONSMALL_FRIGATE_STARGALLEON"
+mainViewIcon "MAINVIEWICON_STAR_GALLEON"
 picture "HUDICON_STARGALLEON"
 NameStringID "IDS_FRIGATE_STARGALLEON_NAME"
 DescriptionStringID "IDS_FRIGATE_STARGALLEON_DESCRIPTION"
@@ -40,8 +40,8 @@ numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_STARGALLEON"
-smallHudIcon "HUDICONSMALL_FRIGATE_STARGALLEON"
-infoCardIcon "HUDICONSMALL_FRIGATE_STARGALLEON"
+smallHudIcon "HUDICONSMALL_FLEET_SUPPORT"
+infoCardIcon "HUDICONSMALL_FLEET_SUPPORT"
 minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon

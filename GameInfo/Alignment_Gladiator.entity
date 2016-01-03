@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "HUDICONSMALL_FRIGATE_GLADIATOR"
+mainViewIcon "MAINVIEWICON_GLADIATOR"
 picture "HUDICON_GLADIATOR"
 NameStringID "IDS_FRIGATE_GLADIATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_GLADIATOR_DESCRIPTION"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_GLADIATOR"
-smallHudIcon "HUDICONSMALL_FRIGATE_GLADIATOR"
-infoCardIcon "HUDICONSMALL_FRIGATE_GLADIATOR"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon

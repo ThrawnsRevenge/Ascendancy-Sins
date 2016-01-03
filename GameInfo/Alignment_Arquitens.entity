@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "HUDICONSMALL_FRIGATE_ARQUITENS"
+mainViewIcon "MAINVIEWICON_ARQUITENS"
 picture "HUDICON_ARQUITENS"
 NameStringID "IDS_FRIGATE_ARQUITENS_NAME"
 DescriptionStringID "IDS_FRIGATE_ARQUITENS_DESCRIPTION"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_LANCER"
-smallHudIcon "HUDICONSMALL_FRIGATE_ARQUITENS"
-infoCardIcon "HUDICONSMALL_FRIGATE_ARQUITENS"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 3.000000
 NumWeapons 1
 Weapon
