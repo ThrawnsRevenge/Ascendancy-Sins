@@ -89,8 +89,8 @@ numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_SECUTOR"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+smallHudIcon "HUDICONSMALL_FLEET_CARRIER"
+infoCardIcon "HUDICONSMALL_FLEET_CARRIER"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon
