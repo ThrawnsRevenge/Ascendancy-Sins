@@ -44,12 +44,12 @@ properties
 	environmentIlluminationMapName "skybox04irradiance.dds"
 properties
 	meshName "SkyboxBackdrop5"
-	diffuseLiteColor fffff7e5
-	diffuseDarkColor ffe4d5b1
-	ambientLiteColor ff45392c
-	ambientDarkColor ff362f28
-	specularColor fffaf5ea
-	dustCloudColor ffbd5d39
+	diffuseLiteColor ccffcc
+	diffuseDarkColor 72e472
+	ambientLiteColor 066b06
+	ambientDarkColor 055941
+	specularColor e8fce8
+	dustCloudColor bdbd39
 	numFarStarIconCloudTextureNames 3
 	textureName "galaxyspiral_red"
 	textureName "galaxyspiral_red2"
