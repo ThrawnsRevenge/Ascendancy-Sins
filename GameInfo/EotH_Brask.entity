@@ -13,8 +13,8 @@ numRandomDebrisSmall 12
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_BRASK"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_BRASK"
-infoCardIcon "INFOCARDICON_PLANETMODULE_BRASK"
+smallHudIcon "EMPIREICON_HANGAR_STATION"
+infoCardIcon "EMPIREICON_HANGAR_STATION"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_BRASK"
+mainViewIcon "MAINVIEWICON_BRASK_HANGAR_STATION"
 picture "PLANETMODULEPICTURE_BRASK"
 minShadow 0.000000
 maxShadow 1.500000

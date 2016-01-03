@@ -9,8 +9,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
 hudIcon "HUDICON_SCARSISS"
-smallHudIcon "HUDICONSMALL_SCARSISS"
-infoCardIcon "INFOCARDICON_SCARSISS"
+smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
+infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 minZoomDistanceMult 9.000000
 nameStringID "IDS_SCARSISS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"

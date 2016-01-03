@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 132
+brushCount 136
 brush
 	name "HUDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 	content "States"
@@ -1259,3 +1259,23 @@ brush
 	content "Simple"
 	fileName "Facility_Main_View"
 	pixelBox [ 603 , 386, 299 , 76 ]
+brush
+	name "EMPIREICON_HANGAR_STATION"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 59 , 59 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_BRASK_HANGAR_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 1 , 463, 299 , 76 ]
+brush
+	name "EMPIREICON_VISVIA_DEFENSE_STATION"
+	content "Simple"
+	fileName "Facility_Empire_Tree"
+	pixelBox [ 1 , 30 , 28 , 28 ]
+brush
+	name "MAINVIEWICON_VISVIA_DEFENSE_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 463, 299 , 76 ]

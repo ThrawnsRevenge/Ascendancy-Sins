@@ -13,8 +13,8 @@ numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_VISVIA"
-smallHudIcon "HUDICONSMALL_PLANETMODULE_VISVIA"
-infoCardIcon "INFOCARDICON_PLANETMODULE_VISVIA"
+smallHudIcon "EMPIREICON_VISVIA_DEFENSE_STATION"
+infoCardIcon "EMPIREICON_VISVIA_DEFENSE_STATION"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 6.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_VISVIA"
+mainViewIcon "MAINVIEWICON_VISVIA_DEFENSE_STATION"
 picture "PLANETMODULEPICTURE_VISVIA"
 minShadow 0.000000
 maxShadow 0.600000

@@ -13,8 +13,8 @@ numRandomDebrisSmall 17
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_TRADESTATION"
-smallHudIcon "HUDICON_TRADESTATION"
-infoCardIcon "HUDICON_TRADESTATION"
+smallHudIcon "EMPIREICON_TRADE_PORT"
+infoCardIcon "EMPIREICON_TRADE_PORT"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 6.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "HUDICON_TRADESTATION"
+mainViewIcon "MAINVIEWICON_TRADE_PORT"
 picture "HUDICON_TRADESTATION"
 minShadow 0.000000
 maxShadow 0.400000

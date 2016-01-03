@@ -1,5 +1,5 @@
 TXT
-NumStrings 8495
+NumStrings 8518
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
@@ -25220,7 +25220,13 @@ StringInfo
 	Value "Allows the establishment of new trade routes, including black markets."
 StringInfo
 	ID "IDS_CLAWCRAFT_NAME"
-	Value "Clawcraft"
+	Value "Clawcraft Fighter"
 StringInfo
 	ID "IDS_CLAWCRAFT_DESC"
-	Value "A Chiss developed variant of the Tie Fighter, The Clawcraft was slower, but far more manuverable."
+	Value "A Chiss developed variant of the TIE Fighter, the Clawcraft was slower, but far more manuverable."
+StringInfo
+	ID "IDS_SCARSISS_NAME"
+	Value "Scarsiss Bomber"
+StringInfo
+	ID "IDS_SCARSISS_DESC"
+	Value "A Chiss developed variant of the TIE Fighter, the Clawcraft was slower, but far more manuverable."

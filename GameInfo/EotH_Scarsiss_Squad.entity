@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_CLAWCRAFT"
-smallHudIcon "HUDICONSMALL_CLAWCRAFT"
-infoCardIcon "INFOCARDICON_CLAWCRAFT"
+smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
+infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 fighterEntityDef "EotH_Scarsiss"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -15,12 +15,12 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_CLAWCRAFT"
+mainViewIcon "MAINVIEWICON_BOMBER_SQUADRON"
 picture "PICTURE_CLAWCRAFT"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_CLAWCRAFT_NAME"
-descriptionStringID "IDS_CLAWCRAFT_DESC"
+nameStringID "IDS_SCARSISS_NAME"
+descriptionStringID "IDS_SCARSISS_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

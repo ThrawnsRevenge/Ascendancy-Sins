@@ -13,8 +13,8 @@ numRandomDebrisSmall 12
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_REPAIRSTATION"
-smallHudIcon "HUDICON_REPAIRSTATION"
-infoCardIcon "HUDICON_REPAIRSTATION"
+smallHudIcon "EMPIREICON_REPAIR_PLATFORM"
+infoCardIcon "EMPIREICON_REPAIR_PLATFORM"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
@@ -66,7 +66,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "HUDICON_REPAIRSTATION"
+mainViewIcon "MAINVIEWICON_REPAIR_PLATFORM"
 picture "HUDICON_REPAIRSTATION"
 minShadow 0.000000
 maxShadow 0.200000
