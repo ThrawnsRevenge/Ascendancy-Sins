@@ -51,21 +51,21 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleEffectName "MuzzleBlue_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE"
 			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT1"
 			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT2"
-		hitEffectName "FighterImpact"
+		hitEffectName "FighterImpact_Blue"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+		projectileTravelEffectName "Maser_Single_Fighter"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
