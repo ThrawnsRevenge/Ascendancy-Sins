@@ -65,11 +65,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-<<<<<<< HEAD
-		projectileTravelEffectName "Maser_Single"
-=======
 		projectileTravelEffectName "Maser_Single_Fighter"
->>>>>>> origin/master
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
