@@ -8,33 +8,33 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
-hudIcon "HUDICON_CLAWCRAFT"
-smallHudIcon "HUDICONSMALL_CLAWCRAFT"
-infoCardIcon "INFOCARDICON_CLAWCRAFT"
+hudIcon "HUDICON_KRSISS"
+smallHudIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
+infoCardIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_CLAWCRAFT_NAME"
+nameStringID "IDS_KRSISS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
-mass 100.000000
+mass 70.000000
 maxAccelerationLinear 250.000000
 maxAccelerationStrafe 100.000000
 maxDecelerationLinear 1000.000000
 maxAccelerationAngular 49.999992
 maxDecelerationAngular 99.999985
-maxSpeedLinear 850.000000
+maxSpeedLinear 1000.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
+		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 19.500000
+	DamagePerBank:FRONT 22.500000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -51,13 +51,13 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleEffectName "MuzzleRed_Single_Fighter"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE"
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT1"
-			sound "WEAPON_FIGHTER_CLAWCRAFT_LASERBURST_MUZZLE_ALT2"
+			sound "WEAPON_FIGHTER_AWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_AWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_AWING_LASERBURST_MUZZLE_ALT2"
 		hitEffectName "FighterImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -65,7 +65,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Maser_Single"
+		projectileTravelEffectName "LaserRed_Single_Fighter"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -73,13 +73,13 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "EotH_Clawcraft"
+meshName "NR_AWing"
 exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""
 exhaustTrailWidth 9.000000
-engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 60.000000
+engineSoundID "ENGINE_XWING"
+maxHullPoints 20.000000
 hullPointRestoreRate 0.332000
 armorPoints 1.000000
 maxMitigation 0.600000

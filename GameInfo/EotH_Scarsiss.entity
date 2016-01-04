@@ -9,14 +9,14 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
 hudIcon "HUDICON_SCARSISS"
-smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
-infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
+smallHudIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
+infoCardIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 minZoomDistanceMult 9.000000
 nameStringID "IDS_SCARSISS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
-mass 100.000000
+mass 60.000000
 maxAccelerationLinear 300.000000
 maxAccelerationStrafe 100.000000
 maxDecelerationLinear 1000.000000
@@ -65,7 +65,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+		projectileTravelEffectName "Maser_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

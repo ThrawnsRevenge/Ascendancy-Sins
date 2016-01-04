@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2233
+entityNameCount 2239
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -116,8 +116,14 @@ entityName "EotH_Visvia.entity"
 entityName "EotH_Clawcraft.entity"
 entityName "EotH_Clawcraft_Squad.entity"
 entityName "EotH_Scarsiss.entity"
-entityName "EotH_Stent.entity"
 entityName "EotH_Scarsiss_Squad.entity"
+entityName "EotH_Krsiss.entity"
+entityName "EotH_Krsiss_Squad.entity"
+entityName "EotH_Furion.entity"
+entityName "EotH_Furion_Squad.entity"
+entityName "EotH_Syca.entity"
+entityName "EotH_Syca_Squad.entity"
+entityName "EotH_Stent.entity"
 entityName "EotH_FrigateShipyard.entity"
 entityName "EotH_CapitalShipyard.entity"
 entityName "EotH_HolonetRelay.entity"

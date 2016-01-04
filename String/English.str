@@ -25220,16 +25220,34 @@ StringInfo
 	Value "Allows the establishment of new trade routes, including black markets."
 StringInfo
 	ID "IDS_CLAWCRAFT_NAME"
-	Value "Clawcraft Fighter"
+	Value "Nsiss Clawcraft"
 StringInfo
 	ID "IDS_CLAWCRAFT_DESC"
 	Value "A Chiss developed variant of the TIE Fighter, the Clawcraft was slower, but far more manuverable."
 StringInfo
 	ID "IDS_SCARSISS_NAME"
-	Value "Scarsiss Bomber"
+	Value "Scarsiss Interceptor"
 StringInfo
 	ID "IDS_SCARSISS_DESC"
-	Value "A Chiss developed variant of the TIE Fighter, the Clawcraft was slower, but far more manuverable."
+	Value "An extremely fast and versatile specialty interceptor which saw limited use because of its cost."
+StringInfo
+	ID "IDS_KRSISS_NAME"
+	Value "Krsiss Clawcraft"
+StringInfo
+	ID "IDS_KRSISS_DESC"
+	Value "A small, fast interceptor commonly used to neutralize enemy fighters."
+StringInfo
+	ID "IDS_SYCA_NAME"
+	Value "Syca Bomber"
+StringInfo
+	ID "IDS_SYCA_DESC"
+	Value "A bulky bomber named after the Empire of the Hand's primary shipyard world, used in assaults on large vessels."
+StringInfo
+	ID "IDS_SYCA_NAME"
+	Value "Furion Bomber"
+StringInfo
+	ID "IDS_SYCA_DESC"
+	Value "A smaller, sleeker bomber than its predecessor, the Syca. Although slightly less durable, it is faster and has a stronger weapon loadout"
 StringInfo
 	ID "IDS_TITAN_BELLATOR_NAME"
 	Value "Bellator"

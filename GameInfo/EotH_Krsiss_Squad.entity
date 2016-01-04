@@ -4,10 +4,10 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_SCARSISS"
+hudIcon "HUDICON_AWING"
 smallHudIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 infoCardIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
-fighterEntityDef "EotH_Scarsiss"
+fighterEntityDef "EotH_Krsiss"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
 fighterConstructionTime 22.000000
@@ -15,14 +15,17 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 6
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_BOMBER_SQUADRON"
-picture "PICTURE_CLAWCRAFT"
+mainViewIcon "MAINVIEWICON_INTERCEPTOR_SQUADRON"
+picture "HUDICON_AWING"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SCARSISS_NAME"
-descriptionStringID "IDS_SCARSISS_DESC"
+nameStringID "IDS_KRSISS_NAME"
+descriptionStringID "IDS_KRSISS_DESCRIPTION"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Krsiss"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 NumSoundsFor:ONATTACKORDERISSUED 4
