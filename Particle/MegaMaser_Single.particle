@@ -7,9 +7,9 @@ ParticleSimulation
 	EmitterContents
 		Name "laserbolt"
 		Enabled TRUE
-		EmitRate 1.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 1
+		MaxEmitCount 2
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -21,7 +21,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc0ffff
+		ParticleStartColor ffffffff
 		ParticleWidth 5.000000
 		ParticleHeight 38.000000
 		MeshName ""
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "(copy) laserbolt-1"
 		Enabled TRUE
-		EmitRate 1.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -69,7 +69,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff001440
+		ParticleStartColor ff001480
 		ParticleWidth 15.000000
 		ParticleHeight 50.000000
 		MeshName ""

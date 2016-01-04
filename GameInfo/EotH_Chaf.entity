@@ -117,14 +117,14 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileCapShip_Hit"
+		hitEffectName "Explosion_CapitalShip_mini2"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
-		missileTravelEffectName "Weapon_PhaseCapitalMissileCapShip_Travel"
+		missileTravelEffectName "Conc_Missile"
 		missileStartTurningDistance 100.000000
 		missileSlowTurnRate 0.708997
 		missileMaxSlowTurnTime 6.000000
@@ -153,7 +153,7 @@ Weapon
 		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleEffectName "MuzzleBlue_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -193,7 +193,7 @@ Weapon
 		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleEffectName "MuzzleBlue_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
