@@ -25,7 +25,7 @@ ParticleSimulation
 		ParticleWidth 30.000000
 		ParticleHeight 30.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 0.000000 0.000000 4.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -73,7 +73,7 @@ ParticleSimulation
 		ParticleWidth 10.000000
 		ParticleHeight 10.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 0.000000 0.000000 4.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -121,7 +121,7 @@ ParticleSimulation
 		ParticleWidth 10.000000
 		ParticleHeight 10.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 0.000000 0.000000 4.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -160,12 +160,10 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
-		attachedEmitterName "Core"
+		numAttachedEmitters 1
 		attachedEmitterName "Glow"
-		attachedEmitterName "(copy) Core-1"
-		WidthInflateRate 7.000000
-		HeightInflateRate 7.000000
+		WidthInflateRate 10.000000
+		HeightInflateRate 10.000000
 	AffectorType "ColorOscillator"
 	AffectorContents
 		Name "(new) ColorOscillator-1"

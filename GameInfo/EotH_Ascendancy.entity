@@ -119,14 +119,14 @@ Weapon
 		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
 			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
 			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "IonImpact_Large"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
@@ -159,14 +159,14 @@ Weapon
 		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "MegamaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
@@ -199,14 +199,14 @@ Weapon
 		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleEffectName "MuzzleBlue_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
 			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "MegamaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"

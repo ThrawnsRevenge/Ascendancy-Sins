@@ -5,7 +5,7 @@ ParticleSimulation
 	NumEmitters 2
 	EmitterType "Point"
 	EmitterContents
-		Name "(copy) Point-1"
+		Name "Glow"
 		Enabled TRUE
 		EmitRate 20.000000
 		HasInfiniteEmitCount FALSE
@@ -53,7 +53,7 @@ ParticleSimulation
 		AngleVariance 0.000000
 	EmitterType "Point"
 	EmitterContents
-		Name "(copy) (copy) Point-1-1"
+		Name "Core"
 		Enabled TRUE
 		EmitRate 20.000000
 		HasInfiniteEmitCount FALSE
@@ -113,7 +113,7 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
-		attachedEmitterName "(copy) Point-1"
+		attachedEmitterName "Glow"
 		WidthInflateRate 10.000000
 		HeightInflateRate 10.000000
 	AffectorType "ColorOscillator"
@@ -129,7 +129,7 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
-		attachedEmitterName "(copy) Point-1"
+		attachedEmitterName "Glow"
 		TransitionPeriod 0.100000
 		StartColor ff800000
 		StartAlpha 1.000000
@@ -148,7 +148,7 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
-		attachedEmitterName "(copy) (copy) Point-1-1"
+		attachedEmitterName "Core"
 		TransitionPeriod 0.100000
 		StartColor ffffffff
 		StartAlpha 1.000000

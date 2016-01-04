@@ -67,14 +67,14 @@ Weapon
 		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_FRIGATE_LASER_MUZZLE"
 			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT1"
 			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT2"
-		hitEffectName "LaserImpact"
+		hitEffectName "MaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"

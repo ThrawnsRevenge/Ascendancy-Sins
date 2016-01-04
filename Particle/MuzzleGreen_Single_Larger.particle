@@ -160,12 +160,10 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
-		attachedEmitterName "Core"
+		numAttachedEmitters 1
 		attachedEmitterName "Glow"
-		attachedEmitterName "(copy) Core-1"
-		WidthInflateRate 7.000000
-		HeightInflateRate 7.000000
+		WidthInflateRate 10.000000
+		HeightInflateRate 10.000000
 	AffectorType "ColorOscillator"
 	AffectorContents
 		Name "(new) ColorOscillator-1"
