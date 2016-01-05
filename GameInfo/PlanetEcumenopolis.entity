@@ -6,7 +6,7 @@ meshInfo
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "Sparse"
 	meshName "Planet_Ecumenopolis"
-	cloudColor ffe7c362
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
 	hudIcon "HUDICON_PLANET_URBAN"
@@ -17,8 +17,8 @@ meshInfo
 	picture "HUDICON_PLANET_URBAN"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fb87a10
-ringColor ffe7c362
+glowColor 8fa69dec
+ringColor ff6410b8
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
