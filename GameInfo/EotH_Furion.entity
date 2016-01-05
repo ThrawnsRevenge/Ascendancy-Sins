@@ -12,7 +12,7 @@ hudIcon "HUDICON_SYCA"
 smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
 infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 minZoomDistanceMult 8.000000
-nameStringID "IDS_SYCA_NAME"
+nameStringID "IDS_FURION_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
 statCountType "FighterBomber"
 formationOffsetDistance 50.000000

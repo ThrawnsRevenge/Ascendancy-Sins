@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_SCARSISS"
 smallHudIcon "HUDICON_SCARSISS"
 infoCardIcon ""
-NameStringID "IDS_FIGHTER_SCARSISS_NAME"
-DescriptionStringID "IDS_FIGHTER_SCARSISS_DESCRIPTION"
+NameStringID "IDS_SCARSISS_NAME"
+DescriptionStringID "IDS_SCARSISS_DESC"
 researchWindowLocation
 	block 0
 	pos [ 6 , 3 ]

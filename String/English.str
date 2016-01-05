@@ -1,6 +1,18 @@
 TXT
 NumStrings 8520
 StringInfo
+	ID "IDS_IDENTIFIER_TRADESTATION_NAME"
+	Value "Trade Port"
+StringInfo
+	ID "IDS_IDENTIFIER_TRADESTATION_DESCRIPTION"
+	Value "This structure is a trade port."
+StringInfo
+	ID "IDS_ABILITY_PROTONSPLIT_NAME"
+	Value "Split Proton"
+StringInfo
+	ID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
+	Value "When this ship launches a torpedo, it splits and hits two other nearby targets after the first."
+StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
 StringInfo
@@ -1220,7 +1232,7 @@ StringInfo
 	Value "Pellaeon-Gavrisom Treaty"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_PELLAEONGAVRISOM_DESCRIPTION"
-	Value "The New Republic opens negotiates with all factions."
+	Value "The signing of the Pellaeon-Gavrisom treaty ends hostilities between the New Republic and Imperial factions, negatinb factional relation penalties."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEREGULATION_NAME"
 	Value "Deregulation"
@@ -25243,10 +25255,10 @@ StringInfo
 	ID "IDS_SYCA_DESC"
 	Value "A bulky bomber named after the Empire of the Hand's primary shipyard world, used in assaults on large vessels."
 StringInfo
-	ID "IDS_SYCA_NAME"
+	ID "IDS_FURION_NAME"
 	Value "Furion Bomber"
 StringInfo
-	ID "IDS_SYCA_DESC"
+	ID "IDS_FURION_DESC"
 	Value "A smaller, sleeker bomber than its predecessor, the Syca. Although slightly less durable, it is faster and has a stronger weapon loadout"
 StringInfo
 	ID "IDS_TITAN_BELLATOR_NAME"
