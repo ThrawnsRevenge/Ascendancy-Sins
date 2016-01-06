@@ -4,17 +4,22 @@ capitalShipSizeScale .7
 frigateSizeScale .68
 planetSizeScale 1.00
 fighterSizeScale 0.05
-numHalos 9
+numHalos 10
 halo
 	textureName "lensflarebar"
 	lengthScale 1
 	imageScale 5
-	imageColor 9Affffff
+	imageColor ff2061e7
 halo
 	textureName "lensflare4"
 	lengthScale 1
 	imageScale 10.0
-	imageColor b5ffffff
+	imageColor ff2061e7
+halo
+	textureName "Lensflare_New"
+	lengthScale 1
+	imageScale 3
+	imageColor 8fffffff
 halo
 	textureName "lensflare2"
 	lengthScale 0.13
