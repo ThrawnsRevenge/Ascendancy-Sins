@@ -39,7 +39,7 @@ armorType "Heavy"
 hudIcon "HUDICON_NOVACRUISER"
 smallHudIcon "HUDICONSMALL_FRIGATE_NOVACRUISER"
 infoCardIcon "INFOCARDICON_FRIGATE_NOVACRUISER"
-minZoomDistanceMult 7.500000
+minZoomDistanceMult 9.500000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"

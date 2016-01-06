@@ -39,7 +39,7 @@ armorType "Heavy"
 hudIcon "HUDICON_BATTLEDRAGON"
 smallHudIcon "HUDICONSMALL_FRIGATE_BATTLEDRAGON"
 infoCardIcon "INFOCARDICON_FRIGATE_BATTLEDRAGON"
-minZoomDistanceMult 7.500000
+minZoomDistanceMult 9.500000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
