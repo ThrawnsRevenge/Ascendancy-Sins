@@ -17,7 +17,7 @@ MeshData
 		Specular ffe5e5e5
 		Emissive ff000000
 		Glossiness 5.000000
-	NumPoints 4
+	NumPoints 3
 	Point
 		DataString "Above"
 		Position [ 0.000000 5412.787109 0.000000 ]
@@ -34,13 +34,6 @@ MeshData
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
 		DataString "Center"
-		Position [ 0.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-	Point
-		DataString "Flair-HyperspaceLimit_Indicator"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
