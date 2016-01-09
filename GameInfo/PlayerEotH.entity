@@ -59,7 +59,7 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 84
+		count 83
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
@@ -73,7 +73,6 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Massias"
 		entityDefName "EotHResearch_ShipUnlock_Brask"
 		entityDefName "EotHResearch_ShipUnlock_Visvia"
-		entityDefName "EotHResearch_ShipUnlock_Oto"
 		entityDefName "EotHResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"

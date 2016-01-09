@@ -4289,7 +4289,7 @@ StringInfo
 	Value "Ascendancy"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH02"
-	Value "Vengeance"
+	Value "Csillan Twilight"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH03"
 	Value "Peacebringer"
@@ -4328,97 +4328,97 @@ StringInfo
 	Value "Dawn"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH15"
-	Value "TDN Vigilus"
+	Value "Pride of Syca"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH16"
-	Value "TDN Krasev"
+	Value "Cascade"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH17"
-	Value "TDN Achronus"
+	Value "Excisor"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH18"
-	Value "TDN Proteus"
+	Value "Hand"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH19"
-	Value "TDN Krosus"
+	Value "Vanguard"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH20"
-	Value "TDN Logonis"
+	Value "Phalanx"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH21"
-	Value "TDN Peresov"
+	Value "Csapla"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH22"
-	Value "TDN Aceron"
+	Value "Irokini"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH23"
-	Value "TDN Numenia"
+	Value "Thrawn's Revenge"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH24"
-	Value "TDN Lazarus"
+	Value "Fel Ascent"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH25"
-	Value "TDN Aotoris"
+	Value "Fel Swoop"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH26"
-	Value "TDN Argonis"
+	Value "Peacemaker"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH27"
-	Value "TDN Metorum"
+	Value "Pacifier"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH28"
-	Value "TDN Megunev"
+	Value "Syndic"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH29"
-	Value "TDN Stratius"
+	Value "Chaf"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH30"
-	Value "TDN Calisto"
+	Value "Fall of Crustai"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH31"
-	Value "TDN Alteus"
+	Value "Ch'tra"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH32"
-	Value "TDN Novick"
+	Value "Stae Nirauan"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH33"
-	Value "TDN Vanifax"
+	Value "Pohskapforian"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH34"
-	Value "TDN Frasaris"
+	Value "Crahsystor"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH35"
-	Value "TDN Ramado"
+	Value "Chaf'orm'bintrano"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH36"
-	Value "TDN Bravick"
+	Value "Mitth'raw'nuruodo"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH37"
-	Value "TDN Zayedis"
+	Value "Unjoiner"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH38"
-	Value "TDN Milosz"
+	Value "Yoggoy Bane"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH39"
-	Value "TDN Nostros"
+	Value "Strikefast"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH40"
-	Value "TDN Berenos"
+	Value "Straeker"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH41"
-	Value "TDN Tasckird"
+	Value "Fell Defender"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH42"
-	Value "TDN Akayko"
+	Value "Csaplar"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH43"
-	Value "TDN Secundo"
+	Value "Moactan Teel"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH44"
-	Value "TDN Phenro"
+	Value "Jer'Jo Cam'Co"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_EOTH45"
-	Value "TDN Mercano"
+	Value "Innovation"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_REMNANT00"
 	Value "Adjudicator"
