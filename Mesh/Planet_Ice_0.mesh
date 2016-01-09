@@ -7,8 +7,8 @@ MeshData
 	MinBoundingExtents [ -9911.729492 -9911.729492 -9892.183594 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName "PlanetMountainous-cl.dds"
-		SelfIlluminationTextureFileName "PlanetMountainous-da.dds"
+		DiffuseTextureFileName "PlanetIce02-cl.dds"
+		SelfIlluminationTextureFileName "PlanetIce02-da.dds"
 		NormalTextureFileName ""
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
@@ -16,7 +16,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffe5e5e5
 		Emissive ff000000
-		Glossiness 12.000000
+		Glossiness 20.000000
 	NumPoints 3
 	Point
 		DataString "Above"

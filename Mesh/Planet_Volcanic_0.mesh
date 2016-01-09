@@ -7,8 +7,8 @@ MeshData
 	MinBoundingExtents [ -9911.729492 -9911.729492 -9892.183594 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName "PlanetMountainous-cl.dds"
-		SelfIlluminationTextureFileName "PlanetMountainous-da.dds"
+		DiffuseTextureFileName "PlanetVolcanic01-cl.dds"
+		SelfIlluminationTextureFileName "PlanetVolcanic01-da.dds"
 		NormalTextureFileName ""
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
