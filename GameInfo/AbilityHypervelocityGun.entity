@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffHypervelocityGunSelf"
+buffType "BuffHypervelocityGunPlanet"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"

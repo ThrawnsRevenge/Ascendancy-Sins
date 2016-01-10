@@ -67,10 +67,9 @@ periodicAction
 			soundCount 1
 			sound ""
 		projectileTravelEffectName "HypervelocitySlug"
-numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "OwnerChanged"
