@@ -1484,7 +1484,7 @@ StringInfo
 	Value "Devastate World"
 StringInfo
 	ID "IDS_UNLOCK_WORLDDEVASTATOR_DESCRIPTION"
-	Value "The Empire sends massive World Devastators down to a planet upon scuttling, stripping the world of resources for your Empire and leaving it devoid of life and useful matter. After devouring these resources, three World Devastators join your fleet. IN ORDER TO ACCESS WORLD DEVASTATORS, SCUTTLE A PLANET"
+	Value "The Empire sends massive World Devastators down to a planet upon scuttling, stripping the world of resources for your Empire and leaving it devoid of life and useful matter. After devouring these resources, World Devastators join your fleet. IN ORDER TO ACCESS WORLD DEVASTATORS, SCUTTLE A PLANET"
 StringInfo
 	ID "IDS_COMMANDERSHIP_PRAETOR_NAME"
 	Value "Fleet Officer: Praetor"
@@ -1838,13 +1838,13 @@ StringInfo
 	Value "Orbital Bombardment"
 StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_DESCRIPTION"
-	Value "Fires a Hypervelocity cannon at the target from the planet's surface."
+	Value "Allows your CT11 to install a Hypervelocity Gun on the planet's surface, which can automatically target attacking enemy ships every 60 seconds"
 StringInfo
 	ID "IDS_ABILITY_PLANETARYION_NAME"
 	Value "Planetary  Ion Cannon"
 StringInfo
 	ID "IDS_ABILITY_PLANETARYION_DESCRIPTION"
-	Value "The Holonet station calls for a strike against the target from planetary ion cannon installations, doing damage to shields and disabling major systems temporarily."
+	Value "Allows your CT11 to install an Ion Cannon on the planetès surface, which can automatically target attacking enemy ships every 60 seconds."
 StringInfo
 	ID "IDS_ABILITY_SHIELDAEGIES_NAME"
 	Value "Shield Aegis"

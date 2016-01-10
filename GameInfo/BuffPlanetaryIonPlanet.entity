@@ -7,7 +7,18 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Icon_ICActive"
+		mediumEffectName "Icon_ICActive"
+		largeEffectName "Icon_ICActive"
+		soundID ""
 numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
