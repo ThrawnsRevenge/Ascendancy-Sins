@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_ARQUITENS_NAME"
 DescriptionStringID "IDS_FRIGATE_ARQUITENS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 120.000000
+	credits 150.000000
 	metal 40.000000
 	crystal 0.000000
 slotCount 1.000000
 BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000
-MaxHullPoints 600.000000
-MaxShieldPoints 600.000000
+MaxHullPoints 550.000000
+MaxShieldPoints 550.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 3.500000
@@ -35,8 +35,8 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
-armorType "Heavy"
-hudIcon "HUDICON_LANCER"
+armorType "Light"
+hudIcon "HUDICON_ARQUITENS"
 smallHudIcon "HUDICONSMALL_FRIGATE"
 infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 3.000000

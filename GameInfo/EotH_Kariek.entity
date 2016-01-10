@@ -19,11 +19,11 @@ basePrice
 	metal 20.000000
 	crystal 0.000000
 slotCount 3.000000
-BuildTime 25.000000
+BuildTime 35.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1395.000000
-MaxShieldPoints 1395.000000
+MaxHullPoints 1195.000000
+MaxShieldPoints 1195.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 2.000000
