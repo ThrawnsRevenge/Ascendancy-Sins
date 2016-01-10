@@ -1887,7 +1887,7 @@ planetItemsTemplate
 				item "Alignment:Frigate:Gladiator"
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:Mu"
-				item "Alignment:Frigate:Vindicator"
+				item "Alignment:Frigate:Venator"
 				item "Alignment:Frigate:Venator"
 				item "Remnant:Frigate:Sentinel"
 		group
@@ -1918,7 +1918,7 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 13
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
@@ -1927,7 +1927,6 @@ planetItemsTemplate
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Tibanna"
-				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Ascent"
 				item "EotH:Frigate:Ascent"
@@ -2358,9 +2357,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2370,9 +2367,7 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2386,9 +2381,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2398,9 +2391,7 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2414,9 +2405,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2426,12 +2415,10 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 5
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
@@ -2442,9 +2429,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2454,9 +2439,7 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
+			items 3
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:StrikeCruiser"
@@ -2554,12 +2537,10 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 7
+			items 5
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 		group
@@ -2568,14 +2549,11 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 7
+			items 4
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
-				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
@@ -2586,12 +2564,9 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 7
+			items 4
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 		group
@@ -2600,13 +2575,11 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 7
+			items 5
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
-				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrong"
@@ -2618,15 +2591,12 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 9
+			items 6
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
 				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
-				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 		group
 			condition
@@ -2634,15 +2604,11 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 9
+			items 5
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
-				item "Remnant:Frigate:VSDII"
-				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrongFair"
@@ -2654,15 +2620,12 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 9
+			items 6
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
 				item "Alignment:Frigate:Vindicator"
-				item "Remnant:Frigate:VSDII"
-				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 		group
 			condition
@@ -2670,15 +2633,11 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 9
+			items 5
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
-				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
 	templateName "Template:ZsinjHome"
