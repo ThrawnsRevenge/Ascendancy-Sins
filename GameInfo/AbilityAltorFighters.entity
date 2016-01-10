@@ -20,10 +20,10 @@ targetFilter
 	constraint "HasAntiMatterShortage"
 	constraint "CanHaveFighters"
 range
-	Level:0 1000.000000
-	Level:1 1200.000000
-	Level:2 1400.000000
-	Level:3 1600.000000
+	Level:0 2200.000000
+	Level:1 2400.000000
+	Level:2 2600.000000
+	Level:3 2800.000000
 maxTargetCount
 	Level:0 10.000000
 	Level:1 12.000000

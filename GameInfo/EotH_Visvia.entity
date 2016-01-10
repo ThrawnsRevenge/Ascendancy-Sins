@@ -71,7 +71,7 @@ picture "PLANETMODULEPICTURE_VISVIA"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3
-baseBuildTime 5.000000
+baseBuildTime 70.000000
 buildEffectName ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
