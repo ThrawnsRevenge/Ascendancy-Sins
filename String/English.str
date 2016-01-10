@@ -1540,6 +1540,12 @@ StringInfo
 	ID "IDS_FRIGATE_HAJEN_DESCRIPTION"
 	Value "This frigate repairs and resupplies other ships in your fleet."
 StringInfo
+	ID "IDS_FRIGATE_GALAXYGUN_NAME"
+	Value "Galaxy Gun Constructor"
+StringInfo
+	ID "IDS_FRIGATE_GALAXYGUN_DESCRIPTION"
+	Value "This constructs the galaxy gun."
+StringInfo
 	ID "IDS_ABILITY_REMCOMDEFENSE_NAME"
 	Value "Command: Defense"
 StringInfo

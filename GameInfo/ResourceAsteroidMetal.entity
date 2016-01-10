@@ -11,7 +11,7 @@ meshName "UB_Durasteel"
 nameStringID "IDS_RESOURCEASTEROIDMETAL_NAME"
 descStringID "IDS_RESOURCEASTEROIDMETAL_DESC"
 nearPlacementDistOffset 0.000000
-farPlacementDistOffset 0.000000
+farPlacementDistOffset 8000.000000
 minShadow 0.000000
 maxShadow 0.000000
 minZoomDistanceMult 3.000000

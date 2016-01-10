@@ -59,6 +59,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_SPMATBEAM_NAME"
 descStringID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_SPMATBEAM"
-smallHudIcon "HUDICON_ABILITY_SPMAT"
+hudIcon "HUDABILITYICON_OVERWHELM"
+smallHudIcon "HUDABILITYICON_OVERWHELM"
 infoCardIcon ""

@@ -4,10 +4,10 @@ buffInstantActionType "CreateFrigate"
 instantActionTriggerType "AlwaysPerform"
 frigateType "Remnant_Katana"
 numFrigates
-	Level:0 20.000000
-	Level:1 20.000000
-	Level:2 20.000000
-	Level:3 20.000000
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 4.000000
+	Level:3 4.000000
 matchOwnerDamageState FALSE
 impulse 350000.000000
 expiryTime

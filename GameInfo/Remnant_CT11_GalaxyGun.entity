@@ -9,10 +9,10 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "StarBaseConstructor"
 statCountType "FrigateStarBaseConstructor"
-mainViewIcon "HUDICONSMALL_CT11"
+mainViewIcon "HUDICON_GALAXYGUN"
 picture "HUDICON_CT11"
-NameStringID "IDS_FRIGATE_CT11_NAME"
-DescriptionStringID "IDS_FRIGATE_CT11_DESC"
+NameStringID "IDS_FRIGATE_GALAXYGUN_NAME"
+DescriptionStringID "IDS_FRIGATE_GALAXYGUN_DESC"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 2000.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 1
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_CT11"
-smallHudIcon "HUDICONSMALL_CT11"
-infoCardIcon "HUDICON_CT11"
+hudIcon "HUDICON_GALAXYGUN"
+smallHudIcon "HUDICON_GALAXYGUN"
+infoCardIcon "HUDICON_GALAXYGUN"
 minZoomDistanceMult 2.500000
 NumWeapons 0
 m_weaponIndexForRange 0
