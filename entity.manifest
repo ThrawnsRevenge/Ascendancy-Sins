@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2239
+entityNameCount 2240
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -273,6 +273,7 @@ entityName "NewRep_CommStation.entity"
 entityName "NewRep_Empress.entity"
 entityName "NewRep_Esseles.entity"
 entityName "NewRep_XQ.entity"
+entityName "NewRep_CT11.entity"
 entityName "AIHelperCapitalsNewRep.entity"
 entityName "AiHelperCapitalsNewRepTwo.entity"
 entityName "NewRepResearch_AIHelp_CapitalsOne.entity"

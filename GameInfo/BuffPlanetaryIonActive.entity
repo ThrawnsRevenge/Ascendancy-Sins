@@ -7,41 +7,13 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
-numPeriodicActions 1
-periodicAction
-	actionCountType "Infinite"
-	actionIntervalTime
-		Level:0 60.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
-	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffPlanetaryIonDamage"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 3
-		object "CapitalShip"
-		object "Frigate"
-		object "Titan"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	range
-		Level:0 60000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
-	maxTargetCount
-		Level:0 2.000000
-		Level:1 3.000000
-		Level:2 4.000000
-		Level:3 5.000000
 	travelSpeed 6000.000000
-	effectStaggerDelay 0.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
@@ -66,7 +38,7 @@ periodicAction
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "HypervelocitySlug"
+		projectileTravelEffectName "PlanetaryIon"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

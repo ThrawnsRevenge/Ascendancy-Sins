@@ -2,19 +2,17 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPlanetaryIonSelf"
+buffType "BuffPlanetaryIonPlanet"
 targetFilter
 	numOwnerships 1
-	ownership "Enemy"
-	numObjects 3
-	object "CapitalShip"
-	object "Frigate"
-	object "Titan"
+	ownership "Friendly"
+	numObjects 1
+	object "Planet"
 	numSpaces 1
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 40000.000000
+	Level:0 1000.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
@@ -38,23 +36,19 @@ isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+useCostType "Resources"
+resourceCost
+	credits 1000.000000
+	metal 75.000000
+	crystal 15.000000
 cooldownTime
-	Level:0 40.000000
+	Level:0 80.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "NewRepResearch_AbilityUnlock_PlanetaryIon"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PLANETARYION_NAME"

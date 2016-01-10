@@ -60,7 +60,7 @@ entities
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
 			count 6
-			entityDefName "Remnant_CT11"
+			entityDefName "NewRep_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
