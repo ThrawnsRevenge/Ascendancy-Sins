@@ -65,8 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 83
-		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
+		count 82
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
 		entityDefName "AlignmentResearch_Global_CorporateHeadquarters"

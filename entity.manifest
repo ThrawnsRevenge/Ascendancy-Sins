@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2241
+entityNameCount 2240
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -445,7 +445,6 @@ entityName "RemnantResearch_AIHelp_CapitalsTwo.entity"
 entityName "RemnantResearch_AbilityUnlock_MissileInterference.entity"
 entityName "RemnantResearch_AbilityUnlock_Overwhelm.entity"
 entityName "RemnantResearch_AbilityUnlock_DentingStrike.entity"
-entityName "RemnantResearch_AbilityUnlock_HVGun.entity"
 entityName "RemnantResearch_ShipUnlock_GolanII.entity"
 entityName "RemnantResearch_ShipUnlock_GolanIII.entity"
 entityName "RemnantResearch_ShipUnlock_CommandStation.entity"
