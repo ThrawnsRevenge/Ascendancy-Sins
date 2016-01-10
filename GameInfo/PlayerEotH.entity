@@ -31,8 +31,8 @@ entities
 		Page:0
 			count 3
 			entityDefName "EotH_Ascendancy"
-			entityDefName "EotH_Phalanx"
 			entityDefName "EotH_Syndic"
+			entityDefName "EotH_Phalanx"
 	frigateInfo
 		Page:0
 			count 8
