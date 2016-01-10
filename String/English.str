@@ -1484,7 +1484,7 @@ StringInfo
 	Value "Devastate World"
 StringInfo
 	ID "IDS_UNLOCK_WORLDDEVASTATOR_DESCRIPTION"
-	Value "The Empire sends massive World Devastators down to a planet upon scuttling, stripping the world of resources for your Empire and leaving it devoid of life and useful matter. After devouring these resources, three World Devastators join your fleet."
+	Value "The Empire sends massive World Devastators down to a planet upon scuttling, stripping the world of resources for your Empire and leaving it devoid of life and useful matter. After devouring these resources, three World Devastators join your fleet. IN ORDER TO ACCESS WORLD DEVASTATORS, SCUTTLE A PLANET"
 StringInfo
 	ID "IDS_COMMANDERSHIP_PRAETOR_NAME"
 	Value "Fleet Officer: Praetor"
