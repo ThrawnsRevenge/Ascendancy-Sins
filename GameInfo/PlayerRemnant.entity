@@ -63,7 +63,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 93
+		count 94
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -125,6 +125,7 @@ entities
 		entityDefName "RemnantResearch_AbilityUnlock_MissileInterference"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "RemnantResearch_AbilityUnlock_DentingStrike"
+		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "RemnantResearch_ShipUnlock_Dreadnaught"
 		entityDefName "RemnantResearch_ShipUnlock_Altor"
 		entityDefName "RemnantResearch_ShipUnlock_StrikeCruiser"
