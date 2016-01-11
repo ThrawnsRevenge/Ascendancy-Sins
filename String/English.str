@@ -161,7 +161,7 @@ StringInfo
 	Value "Irokini Family"
 StringInfo
 	ID "IDS_EOTHRESEARCH_IROKINI_DESCRIPTION"
-	Value "The Empire of the Hand begins cooperation witht he Irokini family, providing bonuses to research speed and cost."
+	Value "The Empire of the Hand begins cooperation with the Irokini family, providing bonuses to research speed and cost."
 StringInfo
 	ID "IDS_REPAIRPLATFORM_NAME"
 	Value "Refueling Station"

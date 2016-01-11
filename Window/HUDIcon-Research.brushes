@@ -1,6 +1,366 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 593
+brushCount 613
+brush
+	name "HUDICON_RESEARCH_BULWARK"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 773 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 773 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 773 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 773 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 773 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_IROKINI"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 718 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 718 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 718 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 718 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 718 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_RAPIDEXPANSION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 663 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 663 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 663 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 663 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 663 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_CSAPLA"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 608 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 608 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 608 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 608 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 608 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_PRIMARYINDUSTRY"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 553 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 553 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 553 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 553 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 553 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_RAPIDDEPLOYMENT"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 498 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 498 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 498 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_HIDDENBASE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 443 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_NIRAUANARCHIVE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 388 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 388 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 388 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 388 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 388 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_EXPULSION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 498 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 498 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 498 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_SCRUTINY"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 553 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 553 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 553 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 553 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 553 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_CORPORATEOUTREACH"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 608 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 608 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 608 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 608 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 608 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_IMPOSINGPRESENCE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 663 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 663 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 663 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 663 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 663 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_REBELLIONREBORN"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 718 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 718 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 718 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 718 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 718 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_RAPIDFIRE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 773 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 773 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 773 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 773 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 773 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_RELOCATION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 828 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 828 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 828 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 828 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 828 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_REACTORCOOLING"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 883 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_NAVCOMUPGRADE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 938 , 163 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 163 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 163 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 163 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 163 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_RECOVERY"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 883 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 883 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 883 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_HYPERDRIVEUPGRADE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 938 , 123 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 123 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 123 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 123 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 123 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_GRAVITATIONALCOMPENSATORS"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 938 , 83 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 83 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 938 , 83 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 83 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 938 , 83 , 50 , 37 ]
 brush
 	name "HUDICON_ZSINJ"
 	content "States"

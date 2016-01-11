@@ -1,6 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 50
+brushCount 51
+brush
+	name "HUDABILITYICON_BELLATORREACTOR"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 772 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 772 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 772 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 772 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 772 , 82 , 52 , 37 ]
 brush
 	name "HUDABILITYICON_BOTHANSPIES"
 	content "States"
