@@ -742,6 +742,12 @@ StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_DESCRIPTION"
 	Value "Outdated and crew intensive the Dreadnaught nonetheless remains a potent weapon in the right hands."
 StringInfo
+	ID "IDS_FRIGATE_KATANADREADNAUGHT_NAME"
+	Value "Katana Dreadnaught"
+StringInfo
+	ID "IDS_FRIGATE_KATANADREADNAUGHT_DESCRIPTION"
+	Value "A modified dreadnaught with added ion cannons."
+StringInfo
 	ID "IDS_FRIGATE_ASCENT_NAME"
 	Value "Frontier Scout"
 StringInfo
@@ -2056,7 +2062,7 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_NIRAUANARCHIVES_NAME"
 	Value "Nirauan Archives"
 StringInfo
-	ID "IDS_EOTHRESEARCH_NIRAUANARCHIVESDESCRIPTION"
+	ID "IDS_EOTHRESEARCH_NIRAUANARCHIVES_DESCRIPTION"
 	Value "Monitoring technology along with the vast galactic information archives stored in the Hand of Thrawn on Nirauan allow the tracking of all military movements."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_VISIBLETHREAT_NAME"
