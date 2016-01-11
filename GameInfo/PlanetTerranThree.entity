@@ -79,7 +79,7 @@ meshInfo
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff
 ringColor ffffffff
-cloudLayerTextureName "PlanetCloudLayer"
+cloudLayerTextureName "PlanetCloudLayer01"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 5
