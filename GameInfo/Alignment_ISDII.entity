@@ -215,7 +215,7 @@ Weapon
 		projectileTravelEffectName "TurbolaserGreen_Octuple"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 0
+TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
