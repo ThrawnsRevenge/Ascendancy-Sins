@@ -217,7 +217,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Hand_Chaf"
+ShieldMeshName "EotH_Chaf"
 renderShield TRUE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
@@ -254,7 +254,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTEH_CHAFMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Hand_Chaf"
+	meshName "EotH_Chaf"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
