@@ -34,19 +34,19 @@ weaponEffectsDef
 	burstCount 1
 	burstDelay 0.000000
 	fireDelay 0.000000
-	muzzleEffectName "CapitalAbility_IonBlastMuzzle"
+	muzzleEffectName ""
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
 		sound "EFFECT_IONBLAST"
-	hitEffectName ""
+	hitEffectName "Ability_IonBlastHit"
 	hitHullEffectSounds
 		soundCount 1
 		sound ""
 	hitShieldsEffectSounds
 		soundCount 1
 		sound ""
-	projectileTravelEffectName "CapitalAbility_IonBlastTravel"
+	projectileTravelEffectName "PlanetaryIon"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
