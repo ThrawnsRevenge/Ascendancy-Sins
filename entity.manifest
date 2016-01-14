@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2241
+entityNameCount 2242
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -586,6 +586,7 @@ entityName "AlignmentResearch_Global_HostileTakeover.entity"
 entityName "AlignmentResearch_Global_CorporateOutreach.entity"
 entityName "AlignmentResearch_Global_CorporateHeadquarters.entity"
 entityName "AlignmentResearch_Global_Protectionism.entity"
+entityName "AlignmentResearch_Global_Infrastructure.entity"
 entityName "AlignmentResearch_Global_Training.entity"
 entityName "AlignmentResearch_Global_Payoff.entity"
 entityName "AlignmentResearch_Global_DynamicAutomata.entity"
