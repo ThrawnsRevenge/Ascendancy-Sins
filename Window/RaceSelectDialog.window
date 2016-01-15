@@ -21,14 +21,14 @@ numFactionWindows 4
 		raceNameFont "GameOverTitle"
 		raceNameID "IDS_EMPTY"
 		raceNameArea [507,75,0,0]
-		raceDescriptionFont "ListItemSmall"
+		raceDescriptionFont "InfoCardStandard"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [755,370,0,0]
+		leftPlayerNameArea [-5000,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
-		playerDescriptionFont "ButtonLabel"
+		playerDescriptionFont "InfoCardStandard"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
-		leftPlayerDescriptionArea [555,-150,400,500]
+		leftPlayerDescriptionArea [555,350,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -44,28 +44,28 @@ numFactionWindows 4
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
 		sharedTechsStartPosition [-5000, -4500]
-		spaceBetweenSharedTechs 6
+		spaceBetweenSharedTechs 10
 			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
 			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
 			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
 			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
-		sharedCapitalShipsStartPosition [560, 440]
-		spaceBetweenSharedCapitalShips 2
+		sharedCapitalShipsStartPosition [210, 610]
+		spaceBetweenSharedCapitalShips 10
 			sharedCapitalShipOne "Remnant_Altor"
 			sharedCapitalShipTwo "Remnant_ISDI"
 			sharedCapitalShipThree "Remnant_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Remnant_WorldDevastator"
 			sharedCapitalShipSix "Remnant_Command_Praetor"
-		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [840, 440]
+		spaceBetweenFactionTechs 10
+		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
 			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
 			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
 			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
 			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
 			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
-		rightFactionTechsStartPosition [ 560, 530]
+		rightFactionTechsStartPosition [ 400, 590]
 			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
 			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
 			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
@@ -73,7 +73,7 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
 			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
-			area [650, 690, 216 , 35]
+			area [474, 530, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
@@ -85,19 +85,19 @@ numFactionWindows 4
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [217, 690, 132 , 35]
+			area [340, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [135, 355, 132 , 35]
+			area [207, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [305, 355, 132 , 35]
+			area [691, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
@@ -116,14 +116,14 @@ numFactionWindows 4
 		raceNameFont "GameOverTitle"
 		raceNameID "IDS_EMPTY"
 		raceNameArea [507,75,0,0]
-		raceDescriptionFont "ListItemSmall"
+		raceDescriptionFont "InfoCardStandard"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [755,370,0,0]
+		leftPlayerNameArea [-5000,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
-		playerDescriptionFont "ButtonLabel"
+		playerDescriptionFont "InfoCardStandard"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
-		leftPlayerDescriptionArea [555,-150,400,500]
+		leftPlayerDescriptionArea [555,350,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -138,29 +138,29 @@ numFactionWindows 4
 		techButtonDef
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
-		sharedTechsStartPosition [-5000, -5000]
-		spaceBetweenSharedTechs 6
+		sharedTechsStartPosition [-5000, -4500]
+		spaceBetweenSharedTechs 10
 			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
 			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
 			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
 			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
-		sharedCapitalShipsStartPosition [560, 440]
-		spaceBetweenSharedCapitalShips 2
+		sharedCapitalShipsStartPosition [210, 610]
+		spaceBetweenSharedCapitalShips 10
 			sharedCapitalShipOne "Remnant_Altor"
 			sharedCapitalShipTwo "Remnant_ISDI"
 			sharedCapitalShipThree "Remnant_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Remnant_WorldDevastator"
 			sharedCapitalShipSix "Remnant_Command_Praetor"
-		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [840, 440]
+		spaceBetweenFactionTechs 10
+		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
 			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
 			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
 			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
 			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
 			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
-		rightFactionTechsStartPosition [ 560, 530]
+		rightFactionTechsStartPosition [ 400, 590]
 			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
 			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
 			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
@@ -168,11 +168,11 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
 			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
-			area [650, 690, 216 , 35]
+			area [474, 530, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
-			buttonTextArea [ 0 , 0 ,216 , 35 ]
+			buttonTextArea [ 0 , 0 , 216 , 35 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
@@ -180,19 +180,19 @@ numFactionWindows 4
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [217, 690, 132 , 35]
+			area [340, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [135, 355, 132 , 35]
+			area [207, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [305, 355, 132 , 35]
+			area [691, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
@@ -211,14 +211,14 @@ numFactionWindows 4
 		raceNameFont "GameOverTitle"
 		raceNameID "IDS_EMPTY"
 		raceNameArea [550,75,0,0]
-		raceDescriptionFont "ListItemSmall"
+		raceDescriptionFont "InfoCardStandard"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [755,370,0,0]
+		leftPlayerNameArea [-5000,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
-		playerDescriptionFont "ButtonLabel"
+		playerDescriptionFont "InfoCardStandard"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
-		leftPlayerDescriptionArea [555,-150,400,500]
+		leftPlayerDescriptionArea [555,350,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -233,29 +233,29 @@ numFactionWindows 4
 		techButtonDef
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
-		sharedTechsStartPosition [-5000, -5000]
-		spaceBetweenSharedTechs 6
+		sharedTechsStartPosition [-5000, -4500]
+		spaceBetweenSharedTechs 10
 			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
 			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
 			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
 			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
-		sharedCapitalShipsStartPosition [560, 440]
-		spaceBetweenSharedCapitalShips 2
+		sharedCapitalShipsStartPosition [210, 610]
+		spaceBetweenSharedCapitalShips 10
 			sharedCapitalShipOne "Remnant_Altor"
 			sharedCapitalShipTwo "Remnant_ISDI"
 			sharedCapitalShipThree "Remnant_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Remnant_WorldDevastator"
 			sharedCapitalShipSix "Remnant_Command_Praetor"
-		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [840, 440]
+		spaceBetweenFactionTechs 10
+		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
 			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
 			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
 			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
 			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
 			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
-		rightFactionTechsStartPosition [ 560, 530]
+		rightFactionTechsStartPosition [ 400, 590]
 			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
 			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
 			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
@@ -263,11 +263,11 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
 			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
-			area [650, 690, 216 , 35]
+			area [474, 530, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
-			buttonTextArea [ 0 , 0 ,216 , 35 ]
+			buttonTextArea [ 0 , 0 , 216 , 35 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
@@ -275,19 +275,19 @@ numFactionWindows 4
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [217, 690, 132 , 35]
+			area [340, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [135, 355, 132 , 35]
+			area [207, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [305, 355, 132 , 35]
+			area [691, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
@@ -306,14 +306,14 @@ numFactionWindows 4
 		raceNameFont "GameOverTitle"
 		raceNameID "IDS_EMPTY"
 		raceNameArea [550,75,0,0]
-		raceDescriptionFont "ListItemSmall"
+		raceDescriptionFont "InfoCardStandard"
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
-		leftPlayerNameArea [755,370,0,0]
-		rightPlayerNameArea [-5000, -5000 , 0 , 0 ]
-		playerDescriptionFont "ButtonLabel"
+		leftPlayerNameArea [-5000,370,0,0]
+		rightPlayerNameArea [-5000, -5000 , 0 , 0 
+		playerDescriptionFont "InfoCardStandard"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
-		leftPlayerDescriptionArea [555,-150,400,500]
+		leftPlayerDescriptionArea [555,350,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
 		portraitOverlayBrush "Null"
@@ -329,28 +329,28 @@ numFactionWindows 4
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
 		sharedTechsStartPosition [-5000, -5000]
-		spaceBetweenSharedTechs 6
+		spaceBetweenSharedTechs 10
 			sharedTechOne "RemnantResearch_ShipUnlock_Executor"
 			sharedTechTwo "RemnantResearch_ShipUnlock_Executor"
 			sharedTechThree "RemnantResearch_ShipUnlock_Executor"
 			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
-		sharedCapitalShipsStartPosition [560, 440]
-		spaceBetweenSharedCapitalShips 2
+		sharedCapitalShipsStartPosition [210, 610]
+		spaceBetweenSharedCapitalShips 10
 			sharedCapitalShipOne "Remnant_Altor"
 			sharedCapitalShipTwo "Remnant_ISDI"
 			sharedCapitalShipThree "Remnant_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Remnant_WorldDevastator"
 			sharedCapitalShipSix "Remnant_Command_Praetor"
-		spaceBetweenFactionTechs 8
-		leftFactionTechsStartPosition [840, 440]
+		spaceBetweenFactionTechs 10
+		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
 			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
 			leftFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
 			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
 			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
 			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
-		rightFactionTechsStartPosition [ 560, 530]
+		rightFactionTechsStartPosition [ 400, 590]
 			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
 			rightFactionTechTwo "RemnantResearch_Global_ThrawnDoctrine"
 			rightFactionTechThree "RemnantResearch_Global_PrisonCamps"
@@ -358,31 +358,31 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_Global_StrengthInNumbers"
 			rightFactionTechSix "RemnantResearch_Global_ForcedPRoduction"
 		selectLeftButton
-			area [650, 690, 216 , 35]
+			area [474, 530, 216 , 35]
 			underlayBrush "ScreenButtonUnderlayLargeShort"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTALIGNMENT"
-			buttonTextArea [ 0 , 0 ,216 , 35 ]
+			buttonTextArea [ 0 , 0 , 216 , 35 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTALIGNMENT"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
 			buttonTextArea [162,-20,50,100]
 		selectRandomButton
-			area [217, 690, 132 , 35]
+			area [340, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		previousRaceButton
-			area [135, 355, 132 , 35]
+			area [207, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 			buttonTextArea [ 0 , 0 , 132 , 35 ]
 		nextRaceButton
-			area [305, 355, 132 , 35]
+			area [691, 530, 132 , 35]
 			underlayBrush "ScreenButtonUnderlayMedium"
 			buttonTextFont "ButtonLabel"
 			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
