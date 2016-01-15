@@ -604,6 +604,12 @@ StringInfo
 	ID "IDS_FRIGATE_CONSEN_DESCRIPTION"
 	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
+	ID "IDS_FRIGATE_STARGALLEON_NAME"
+	Value "Star Galleon"
+StringInfo
+	ID "IDS_FRIGATE_STARGALLEON_DESCRIPTION"
+	Value "A small freighter used to resupply ships."
+StringInfo
 	ID "IDS_FRIGATE_PROFICIENT_NAME"
 	Value "Proficient"
 StringInfo

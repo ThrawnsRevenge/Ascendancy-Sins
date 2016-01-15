@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 83
+		count 84
 		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
@@ -88,6 +88,7 @@ entities
 		entityDefName "AlignmentResearch_Economy_TradeStation"
 		entityDefName "AlignmentResearch_Economy_TradeIncrease"
 		entityDefName "AlignmentResearch_Global_Velcar"
+		entityDefName "AlignmentResearch_Global_Infrastructure"
 		entityDefName "AlignmentResearch_Global_CorporateOutreach"
 		entityDefName "AlignmentResearch_Global_VelcarUpgrade"
 		entityDefName "AlignmentResearch_Global_HostileTakeover"
@@ -686,7 +687,7 @@ researchScreenData
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 20 , 710 , 210 ]
+			area [ 30 , 20 , 710 , 240 ]
 			backdrop "Alignment_Research_Block_Background"
 			tierIndicatorBackdrop "Alignment_Research_Level_Bottom_Background"
 			title ""
