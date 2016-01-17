@@ -1979,7 +1979,7 @@ planetItemsTemplate
 				param "Alignment"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 14
 				item "Alignment:Module:FrigateFactory"
 				item "Alignment:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1992,7 +1992,6 @@ planetItemsTemplate
 				item "Alignment:Frigate:Gladiator"
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:Mu"
-				item "Remnant:Module:HeroBase"
 				item "Alignment:Frigate:Venator"
 				item "Remnant:Frigate:Sentinel"
 		group

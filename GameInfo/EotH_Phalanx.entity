@@ -49,10 +49,10 @@ basePrice
 slotCount 9.000000
 BuildTime 110.000000
 MaxHullPoints
-	StartValue 6500.000000
+	StartValue 6000.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 6500.000000
+	StartValue 6000.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -96,7 +96,7 @@ hudIcon "HUDICON_PHALANX"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
-NumWeapons 4
+NumWeapons 3
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -107,8 +107,8 @@ Weapon
 		WeaponClassType "MISSILE"
 	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 5500.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter TRUE
@@ -147,10 +147,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 360.000000
+	DamagePerBank:FRONT 260.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 360.000000
-	DamagePerBank:RIGHT 360.000000
+	DamagePerBank:LEFT 160.000000
+	DamagePerBank:RIGHT 160.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -187,50 +187,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 240.000000
-	DamagePerBank:RIGHT 240.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 6
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Large"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "MegamaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Dual"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 212.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 120.000000
+	DamagePerBank:RIGHT 120.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
