@@ -58,10 +58,10 @@ properties
 	environmentIlluminationMapName "skybox05irradiance.dds"
 properties
 	meshName "SkyboxBackdrop6"
-	diffuseLiteColor ffededff
-	diffuseDarkColor ff8f79b1
-	ambientLiteColor ff6e557e
-	ambientDarkColor ff221826
+	diffuseLiteColor fff2efe3
+	diffuseDarkColor ffc7cd9d
+	ambientLiteColor ff415a7a
+	ambientDarkColor ff29384a
 	specularColor ffededff
 	dustCloudColor fff0edff
 	numFarStarIconCloudTextureNames 3
