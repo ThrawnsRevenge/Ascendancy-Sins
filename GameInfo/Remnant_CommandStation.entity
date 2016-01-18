@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "StarBase"
 ability:0 "AbilityMilitarySpecialization"
-ability:1 "AbilityHypervelocityGun"
+ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
