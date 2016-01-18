@@ -1429,6 +1429,12 @@ StringInfo
 	ID "IDS_FIGHTERXWING_DESCRIPTION"
 	Value "The workhorse fighter of the New Republic, capable of combating enemy fighters as well as assaulting larger vessels, although not as effective at either job as dedicated interceptors or bombers."
 StringInfo
+	ID "IDS_SKIPRAY_NAME"
+	Value "Skipray Blastboat"
+StringInfo
+	ID "IDS_SKIPRAY_DESCRIPTION"
+	Value "A versatile and large craft which serves as a bomber in the Alignment fleet."
+StringInfo
 	ID "IDS_FIGHTERMIYTILBOMBER_NAME"
 	Value "Miy'til Bomber"
 StringInfo
