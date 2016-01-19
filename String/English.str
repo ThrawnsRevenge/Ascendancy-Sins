@@ -713,7 +713,7 @@ StringInfo
 	Value "Heavily armed fast-attack cruiser often deployed in skirmish lines ahead of the main force."
 StringInfo
 	ID "IDS_FRIGATE_ESCORTCARRIER_NAME"
-	Value "Escort Carrier"
+	Value "Ton-Falk Carrier"
 StringInfo
 	ID "IDS_FRIGATE_ESCORTCARRIER_DESCRIPTION"
 	Value "Economical support ship able to carry the Empire's hyperdrive-deficient starfighters into battle."
@@ -2495,10 +2495,10 @@ StringInfo
 	Value "Grants access to the Dreadnaught."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_NAME"
-	Value "Escort Carrier"	
+	Value "Ton-Falk Carrier"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_DESCRIPTION"
-	Value "Grants access to the Escort Carrier."
+	Value "Grants access to the Ton-Falk Escort Carrier."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_EXECUTOR_NAME"
 	Value "Executor"	
