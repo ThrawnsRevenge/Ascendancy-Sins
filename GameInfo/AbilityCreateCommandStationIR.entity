@@ -23,9 +23,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 resourceCost
-	credits 2200.000000
-	metal 200.000000
-	crystal 225.000000
+	credits 2000.000000
+	metal 250.000000
+	crystal 180.000000
 cooldownTime
 	Level:0 10.000000
 	Level:1 0.000000
@@ -41,5 +41,5 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_NAME"
 descStringID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_DESCRIPTION"
-hudIcon "HUDICON_GALAXYGUN"
-smallHudIcon "HUDICON_GALAXYGUN"
+hudIcon "HUDICON_NAVALCOMMAND"
+smallHudIcon "HUDICON_NAVALCOMMAND"
