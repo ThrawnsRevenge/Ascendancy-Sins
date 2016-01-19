@@ -72,7 +72,7 @@ properties
 	environmentIlluminationMapName "skybox06irradiance.dds"
 properties
 	meshName "SkyboxBackdrop7"
-	diffuseLiteColor ffd5f6f9
+	diffuseLiteColor ffc4bbdd
 	diffuseDarkColor ff5b85b6
 	ambientLiteColor ff304c68
 	ambientDarkColor ff14263e
