@@ -605,7 +605,7 @@ StringInfo
 	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
 	ID "IDS_FRIGATE_STARGALLEON_NAME"
-	Value "Star Galleon"
+	Value "Fleet Tender: Star Galleon"
 StringInfo
 	ID "IDS_FRIGATE_STARGALLEON_DESCRIPTION"
 	Value "A small freighter used to resupply ships."
@@ -731,7 +731,7 @@ StringInfo
 	Value "A significant component of the Imperial fleet the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_NAME"
-	Value "Alaria Freighter"
+	Value "Fleet Tender: Alaria Freighter"
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
 	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
@@ -1547,7 +1547,7 @@ StringInfo
 	Value "A light picket frigate."
 StringInfo
 	ID "IDS_FRIGATE_MTC_NAME"
-	Value "Modular Taskforce Cruiser"
+	Value "Fleet Tender: MTC"
 StringInfo
 	ID "IDS_FRIGATE_MTC_DESCRIPTION"
 	Value "This modular frigate resupplies other ships in your fleet, and can have different modules installed for other effects. Can only support one additional module."
@@ -2375,10 +2375,10 @@ StringInfo
 	Value "Grants access to the VSDII."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_NAME"
-	Value "Modular Taskforce Cruiser"	
+	Value "Fleet Tender: MTC"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_DESCRIPTION"
-	Value "Grants access to the Modular Taskforce Cruiser."
+	Value "Grants access to the Modular Taskforce Cruiser, which can resupply and repair ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_NAME"
 	Value "Venator"	
@@ -2423,10 +2423,10 @@ StringInfo
 	Value "Grants access to the Dominator."		
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_NAME"
-	Value "Star Galleon"	
+	Value "Fleet Tender: Star Galleon"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_DESCRIPTION"
-	Value "Grants access to the Star Galleon."	
+	Value "Grants access to the Star Galleon, which can resupply and repair ships."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_NAME"
 	Value "Skipray Blastboat"	
@@ -13300,8 +13300,8 @@ StringInfo
 	ID "IDS_COUNTERDESC_CORVETTE_PHASE"
 	Value "Strong vs. frigates, cruisers, capital ships, strike craft and titans."
 StringInfo
-	ID "IDS_COUNTERDESC_CORVETTE_PSI"
-	Value "Strong vs. frigates, cruisers, capital ships, strike craft and titans."
+	ID "IDS_COUNTERDESC_FLEETTENDER"
+	Value "Fleet tender."
 StringInfo
 	ID "IDS_FRIGATE_TECHANTIFIGHTER_NAME"
 	Value "Garda Flak Frigate"

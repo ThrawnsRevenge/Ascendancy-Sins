@@ -13,7 +13,7 @@ mainViewIcon "MAINVIEWICON_MTC"
 picture "PICTURE_FRIGATE_MTC"
 NameStringID "IDS_FRIGATE_MTC_NAME"
 DescriptionStringID "IDS_FRIGATE_MTC_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+counterDescriptionStringID "IDS_COUNTERDESC_FLEETTENDER"
 basePrice
 	credits 300.000000
 	metal 55.000000
