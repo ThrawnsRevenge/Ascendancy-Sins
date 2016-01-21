@@ -951,7 +951,7 @@ GameplayConstants
 		incomeRateBonusPerLongestNodeDistanceNode .075
 	targetTypeCounterData
 	aiData
-		aiRetreatThreshold 0.15
+		aiRetreatThreshold 0.1
 	victoryData
 		occupationVictoryStarType "STAR_RED"
 		occupationVictoryStarName "OccupationStar"

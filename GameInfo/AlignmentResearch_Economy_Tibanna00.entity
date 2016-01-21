@@ -32,7 +32,7 @@ researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
-	baseValue 0.000000
+	baseValue 0.200000
 	perLevelValue 0.033333
 artifactPicture ""
 uniqueOverlayBrush ""
