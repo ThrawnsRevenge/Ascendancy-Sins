@@ -69,7 +69,7 @@ Weapon
 		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -109,7 +109,7 @@ Weapon
 		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
