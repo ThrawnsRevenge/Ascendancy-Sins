@@ -889,7 +889,19 @@ explosionEffectGroup
 	explosionEffectDef		
 		totalPlayTime 8
 		makeMeshInvisibleTime 3.3
-		subExplosionCount 5
+		subExplosionCount 7
+		subExplosion
+			type "Effect"
+			playTime 0
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB0"
+				sound "EXPLOSION_SUB0_ALT1"
 		subExplosion
 			type "Effect"
 			playTime 0
@@ -905,6 +917,19 @@ explosionEffectGroup
 		subExplosion
 			type "Effect"
 			playTime .5
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 3
+				sound "EXPLOSION_SUB1"
+				sound "EXPLOSION_SUB1_ALT1"
+				sound "EXPLOSION_SUB1_ALT2"
+		subExplosion
+			type "Effect"
+			playTime 1.5
 			cameraShakeMaxSize 0.0
 			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
@@ -933,7 +958,7 @@ explosionEffectGroup
 			cameraShakeMaxSize 25000.0
 			cameraShakeStrength 0.7
 			cameraShakeDuration 0.0
-			location "Center"
+			location "Surface"
 			particleSystemName "Explosion_Frigate3"
 			explosionSounds
 				soundCount 2
@@ -946,7 +971,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.7
 			cameraShakeDuration 0.0
 			location "Center"
-			particleSystemName "Explosion_Frigate3"
+			particleSystemName "Explosion_CapitalShip1"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULESMALLDEATH"
@@ -954,7 +979,7 @@ explosionEffectGroup
 	explosionEffectDef		
 		totalPlayTime 14
 		makeMeshInvisibleTime 5.3
-		subExplosionCount 5
+		subExplosionCount 7
 		subExplosion
 			type "Effect"
 			playTime 0
@@ -969,7 +994,31 @@ explosionEffectGroup
 				sound "EXPLOSION_SUB0_ALT1"
 		subExplosion
 			type "Effect"
-			playTime .5
+			playTime 0
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB0"
+				sound "EXPLOSION_SUB0_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 0.5
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB0"
+				sound "EXPLOSION_SUB0_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 1.5
 			cameraShakeMaxSize 0.0
 			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
@@ -1011,7 +1060,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.7
 			cameraShakeDuration 0.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate3"
+			particleSystemName "Explosion_CapitalShip1"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULESMALLDEATH"
@@ -1163,7 +1212,7 @@ explosionEffectGroup
 			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			location "Center"
-			particleSystemName "Explosion_PlanetModuleLarge1"
+			particleSystemName "Explosion_CapitalShip1"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULEDEATH"
@@ -1270,7 +1319,7 @@ explosionEffectGroup
 			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			location "Center"
-			particleSystemName "Explosion_PlanetModuleLarge2"
+			particleSystemName "Explosion_CapitalShip1"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULEDEATH"
