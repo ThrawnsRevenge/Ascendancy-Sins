@@ -1853,7 +1853,7 @@ StringInfo
 	Value "Increases the shield mitigation of surrounding ships for a short period of time."
 StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_NAME"
-	Value "Orbital Bombardment"
+	Value "Hypervelocity Gun"
 StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_DESCRIPTION"
 	Value "Allows your CT11 to install a Hypervelocity Gun on the planet's surface, which can automatically target attacking enemy ships every 60 seconds"
@@ -7772,10 +7772,10 @@ StringInfo
 	Value "Pirate"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-	Value "Previous Race"
+	Value "Previous Faction"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEXTRACE"
-	Value "Next Race"
+	Value "Next Faction"
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_NEUTRAL"
 	Value "Neutral"
