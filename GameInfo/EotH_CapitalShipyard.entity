@@ -62,7 +62,7 @@ MeshNameInfo
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExplosionName "PlanetModuleLarge"
+ExplosionName "CapShipyard0"
 mainViewIcon "HUDICON_CAPITALSHIPYARD"
 picture "HUDICON_CAPITALSHIPYARD"
 minShadow 0.000000

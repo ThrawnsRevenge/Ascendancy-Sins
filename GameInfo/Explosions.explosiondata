@@ -1,5 +1,251 @@
 TXT
-explosionEffectGroupCount 13
+explosionEffectGroupCount 14
+explosionEffectGroup
+	groupName "CapShipyard0"
+	explosionEffectDefCount 1
+	explosionEffectDef
+		totalPlayTime 15
+		makeMeshInvisibleTime 4
+		subExplosionCount 20
+		subExplosion
+			type "Effect"
+			playTime 0
+			cameraShakeMaxSize 20000.0
+			cameraShakeStrength 0.5
+			cameraShakeDuration 3.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB0"
+				sound "EXPLOSION_SUB0_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 1
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip_mini"
+			explosionSounds
+				soundCount 3
+				sound "EXPLOSION_SUB1"
+				sound "EXPLOSION_SUB1_ALT1"
+				sound "EXPLOSION_SUB1_ALT2"
+		subExplosion
+			type "Effect"
+			playTime 2
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 5.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 3
+				sound "EXPLOSION_SUB5"
+				sound "EXPLOSION_SUB5_ALT1"
+				sound "EXPLOSION_SUB5_ALT2"
+		subExplosion
+			type "Effect"
+			playTime 2
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip_mini"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB6"
+				sound "EXPLOSION_SUB6_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 3
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip_mini"
+			explosionSounds
+				soundCount 3
+				sound "EXPLOSION_SUB4"
+				sound "EXPLOSION_SUB4_ALT1"
+				sound "EXPLOSION_SUB4_ALT2"
+		subExplosion
+			type "Effect"
+			playTime 3
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 3
+				sound "EXPLOSION_SUB4"
+				sound "EXPLOSION_SUB4_ALT1"
+				sound "EXPLOSION_SUB4_ALT2"
+		subExplosion
+			type "Effect"
+			playTime 3
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip_mini"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB2"
+				sound "EXPLOSION_SUB2_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 3.5
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 1
+				sound "EXPLOSION_SUB3"
+		subExplosion
+			type "Effect"
+			playTime 3.5
+			cameraShakeMaxSize 0.0
+			cameraShakeStrength 0.0
+			cameraShakeDuration 0.0
+			location "Surface"
+			particleSystemName "Explosion_Frigate3"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_SUB0"
+				sound "EXPLOSION_SUB0_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Center"
+			particleSystemName "Explosion_PlanetModuleLarge2"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Effect"
+			playTime 4
+			cameraShakeMaxSize 23000.0
+			cameraShakeStrength 0.4
+			cameraShakeDuration 2.0
+			location "Surface"
+			particleSystemName "Explosion_CapitalShip"
+			explosionSounds
+				soundCount 2
+				sound "EXPLOSION_CAPITALSHIPDEATH"
+				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
+		subExplosion
+			type "Sound"
+			playTime 5.5
+			cameraShakeMaxSize 38000.0
+			cameraShakeStrength 1.0
+			cameraShakeDuration 0.0
+			explosionSounds
+				soundCount 0
 explosionEffectGroup
 	groupName "CapitalShip0"
 	explosionEffectDefCount 4
@@ -134,7 +380,7 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.5
 			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0		
+			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
@@ -269,7 +515,7 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.5
 			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0		
+			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
@@ -404,7 +650,7 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.5
 			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0		
+			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
@@ -539,14 +785,14 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.5
 			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0		
+			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
 explosionEffectGroup
 	groupName "Frigate0"
 	explosionEffectDefCount 4
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime .5
 		subExplosionCount 3
@@ -582,7 +828,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime 0.4
 		subExplosionCount 3
@@ -618,7 +864,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime .4
 		subExplosionCount 3
@@ -654,7 +900,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime .3
 		subExplosionCount 3
@@ -693,7 +939,7 @@ explosionEffectGroup
 explosionEffectGroup
 	groupName "Frigate1"
 	explosionEffectDefCount 4
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime .4
 		subExplosionCount 3
@@ -729,7 +975,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime .4
 		subExplosionCount 3
@@ -765,7 +1011,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime 0.4
 		subExplosionCount 3
@@ -801,7 +1047,7 @@ explosionEffectGroup
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
-	explosionEffectDef	
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime 0.4
 		subExplosionCount 3
@@ -840,7 +1086,7 @@ explosionEffectGroup
 explosionEffectGroup
 	groupName "Fighter0"
 	explosionEffectDefCount 2
-	explosionEffectDef		
+	explosionEffectDef
 		totalPlayTime 100
 		makeMeshInvisibleTime 0
 		subExplosionCount 1
@@ -857,7 +1103,7 @@ explosionEffectGroup
 				sound "EXPLOSION_SUPPORTSHIPDEATH"
 				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT1"
 				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT2"
-	explosionEffectDef		
+	explosionEffectDef
 		totalPlayTime 100
 		makeMeshInvisibleTime 5.2
 		subExplosionCount 2
@@ -876,7 +1122,7 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.2
 			cameraShakeMaxSize 0.0
-			cameraShakeStrength 0.0		
+			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 3
@@ -886,7 +1132,7 @@ explosionEffectGroup
 explosionEffectGroup
 	groupName "PlanetModuleSmall"
 	explosionEffectDefCount 2
-	explosionEffectDef		
+	explosionEffectDef
 		totalPlayTime 8
 		makeMeshInvisibleTime 3.3
 		subExplosionCount 7
@@ -976,7 +1222,7 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULESMALLDEATH"
 				sound "EXPLOSION_PLANETMODULESMALLDEATH_ALT1"
-	explosionEffectDef		
+	explosionEffectDef
 		totalPlayTime 14
 		makeMeshInvisibleTime 5.3
 		subExplosionCount 7
@@ -1065,10 +1311,10 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULESMALLDEATH"
 				sound "EXPLOSION_PLANETMODULESMALLDEATH_ALT1"
-explosionEffectGroup	
+explosionEffectGroup
 	groupName "PlanetModuleLarge"
 	explosionEffectDefCount 3
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime .2
 		subExplosionCount 1
@@ -1084,7 +1330,7 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULEDEATH"
 				sound "EXPLOSION_PLANETMODULEDEATH_ALT1"
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime 3.7
 		subExplosionCount 10
@@ -1217,7 +1463,7 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULEDEATH"
 				sound "EXPLOSION_PLANETMODULEDEATH_ALT1"
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime 3.8
 		subExplosionCount 8
@@ -1324,10 +1570,10 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_PLANETMODULEDEATH"
 				sound "EXPLOSION_PLANETMODULEDEATH_ALT1"
-explosionEffectGroup	
+explosionEffectGroup
 	groupName "TradeShip"
 	explosionEffectDefCount 1
-	explosionEffectDef				
+	explosionEffectDef
 		totalPlayTime 30
 		makeMeshInvisibleTime 1
 		subExplosionCount 1
@@ -1344,10 +1590,10 @@ explosionEffectGroup
 				sound "EXPLOSION_SUPPORTSHIPDEATH"
 				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT1"
 				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT2"
-explosionEffectGroup	
+explosionEffectGroup
 	groupName "TechSpaceMine"
 	explosionEffectDefCount 1
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime .2
 		subExplosionCount 1
@@ -1364,10 +1610,10 @@ explosionEffectGroup
 				sound "EXPLOSION_SUB1"
 				sound "EXPLOSION_SUB1_ALT1"
 				sound "EXPLOSION_SUB1_ALT2"
-explosionEffectGroup	
+explosionEffectGroup
 	groupName "PhaseSpaceMineExplosive"
 	explosionEffectDefCount 1
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime .2
 		subExplosionCount 1
@@ -1382,10 +1628,10 @@ explosionEffectGroup
 			explosionSounds
 				soundCount 1
 				sound "EXPLOSION_PHASEEXPLOSIVEMINE"
-explosionEffectGroup	
+explosionEffectGroup
 	groupName "PhaseSpaceMineGravity"
 	explosionEffectDefCount 1
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime .2
 		subExplosionCount 1
@@ -1399,11 +1645,11 @@ explosionEffectGroup
 			particleSystemName "Explosion_PhaseMineGravity"
 			explosionSounds
 				soundCount 1
-				sound "EXPLOSION_PHASEGRAVITYMINE"							
-explosionEffectGroup	
+				sound "EXPLOSION_PHASEGRAVITYMINE"
+explosionEffectGroup
 	groupName "PsiSpaceMine"
 	explosionEffectDefCount 1
-	explosionEffectDef			
+	explosionEffectDef
 		totalPlayTime 10
 		makeMeshInvisibleTime .2
 		subExplosionCount 1
@@ -1553,7 +1799,7 @@ explosionEffectGroup
 			type "Sound"
 			playTime 5.5
 			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0		
+			cameraShakeStrength 1.0
 			cameraShakeDuration 0.0
 			explosionSounds
 				soundCount 0
