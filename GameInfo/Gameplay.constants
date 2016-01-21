@@ -579,9 +579,9 @@ GameplayConstants
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar -0.15
+		incomeRateGameSpeedScalar 0.15
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.10
+		incomeRateGameSpeedScalar 0.25
 	incomeSpeedData-Faster
 		incomeRateGameSpeedScalar 0.50
 	fleetSupplyData-Small
