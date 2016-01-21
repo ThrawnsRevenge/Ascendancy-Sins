@@ -21,7 +21,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ffffb480
 		ParticleWidth 0.700000
 		ParticleHeight 0.700000
 		MeshName ""
@@ -39,9 +39,9 @@ ParticleSimulation
 		BillboardAnchor 0
 		ParticleFacing 0
 		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached FALSE
+		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\explosion.tga"
 		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03n.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -82,7 +82,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffff8c32
+		ParticleStartColor ff802000
 		ParticleWidth 100.000000
 		ParticleHeight 100.000000
 		MeshName ""
@@ -102,7 +102,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\W_SPARKLE.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -112,7 +112,7 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 3.141593
-	NumAffectors 8
+	NumAffectors 5
 	AffectorType "Fade"
 	AffectorContents
 		Name ""
@@ -147,23 +147,6 @@ ParticleSimulation
 		attachedEmitterName "smoke curl"
 		WidthInflateRate 20.000000
 		HeightInflateRate 20.000000
-	AffectorType "LinearForceInDirection"
-	AffectorContents
-		Name ""
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "smoke curl"
-		MinForce 0.000000
-		MaxForce 100.000000
-		Direction [ 0.000000 0.000000 2.000000 ]
 	AffectorType "LinearForceToPoint"
 	AffectorContents
 		Name ""
@@ -197,37 +180,6 @@ ParticleSimulation
 		attachedEmitterName "smoke curl"
 		JitterForce 10.000000
 		UseCommonForce TRUE
-	AffectorType "LinearInflate"
-	AffectorContents
-		Name "LinearInflate HUGE"
-		Enabled TRUE
-		StartTime 7.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 0
-		WidthInflateRate 300.000000
-		HeightInflateRate 300.000000
-	AffectorType "LinearForceInDirection"
-	AffectorContents
-		Name "LinearForceInDirection HUGE"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 0
-		MinForce 200.000000
-		MaxForce 300.000000
-		Direction [ 0.000000 0.000000 4.000000 ]
 	AffectorType "Fade"
 	AffectorContents
 		Name "Fade HUGE"
