@@ -61,10 +61,10 @@ ShieldPointRestoreRate
 	StartValue 60.500000
 	ValueIncreasePerLevel 0.700000
 ArmorPointsFromExperience
-	StartValue 11.000000
-	ValueIncreasePerLevel 0.918000
+	StartValue 5.000000
+	ValueIncreasePerLevel 0.108000
 maxMitigation
-	StartValue 0.650000
+	StartValue 0.350000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
 	StartValue 144.000000
@@ -91,7 +91,7 @@ numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
-armorType "Titan"
+armorType "CapitalShip"
 hudIcon "HUDICON_BELLATOR"
 smallHudIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
