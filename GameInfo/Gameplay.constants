@@ -60,15 +60,15 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 200.0
+			ExperienceNeededForNextLevel 100.0
 			ExperienceGainedForDestroying 100.0
 			UpgradePriceForNextLevel 1250.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 500.0
+			ExperienceNeededForNextLevel 300.0
 			ExperienceGainedForDestroying 120.0
 			UpgradePriceForNextLevel 1500.0
 		ExperienceLevelData:2
-			ExperienceNeededForNextLevel 900.0
+			ExperienceNeededForNextLevel 500.0
 			ExperienceGainedForDestroying 150.0
 			UpgradePriceForNextLevel 1750.0
 		ExperienceLevelData:3
