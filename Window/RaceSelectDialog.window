@@ -56,7 +56,7 @@ numFactionWindows 4
 			sharedCapitalShipThree "NewRep_MC90"
 			sharedCapitalShipFour "NewRep_Nebula"
 			sharedCapitalShipFive "NewRep_Endurance"
-			sharedCapitalShipSix "Remnant_Command_Praetor"
+			sharedCapitalShipSix "NewRep_Dauntless_RaceSelect"
 		spaceBetweenFactionTechs 10
 		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "NewRepResearch_ShipUnlock_Viscount"
@@ -151,7 +151,7 @@ numFactionWindows 4
 			sharedCapitalShipThree "Remnant_ISDII"
 			sharedCapitalShipFour "Remnant_Allegiance"
 			sharedCapitalShipFive "Remnant_WorldDevastator"
-			sharedCapitalShipSix "Remnant_Command_Praetor"
+			sharedCapitalShipSix "Remnant_Strikecruiser_RaceSelect"
 		spaceBetweenFactionTechs 10
 		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
@@ -241,12 +241,12 @@ numFactionWindows 4
 			sharedTechFour "RemnantResearch_ShipUnlock_Executor"
 		sharedCapitalShipsStartPosition [210, 610]
 		spaceBetweenSharedCapitalShips 10
-			sharedCapitalShipOne "Remnant_Altor"
-			sharedCapitalShipTwo "Remnant_ISDI"
-			sharedCapitalShipThree "Remnant_ISDII"
-			sharedCapitalShipFour "Remnant_Allegiance"
-			sharedCapitalShipFive "Remnant_WorldDevastator"
-			sharedCapitalShipSix "Remnant_Command_Praetor"
+			sharedCapitalShipOne "EotH_Syndic"
+			sharedCapitalShipTwo "EotH_Phalanx"
+			sharedCapitalShipThree "EotH_Ascendancy"
+			sharedCapitalShipFour "EotH_Budirech_RaceSelect"
+			sharedCapitalShipFive "EotH_Auriette_RaceSelect"
+			sharedCapitalShipSix "EotH_Kariek_RaceSelect"
 		spaceBetweenFactionTechs 10
 		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "EotHResearch_ShipUnlock_Visvia"
@@ -341,7 +341,7 @@ numFactionWindows 4
 			sharedCapitalShipThree "Alignment_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Alignment_Secutor"
-			sharedCapitalShipSix "Remnant_Command_Praetor"
+			sharedCapitalShipSix "Alignment_Venator_RaceSelect"
 		spaceBetweenFactionTechs 10
 		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "AlignmentResearch_ShipUnlock_Bellator"

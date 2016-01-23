@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2244
+entityNameCount 2250
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -2244,3 +2244,9 @@ entityName "AlignmentResearch_Global_ShieldGenerator.entity"
 entityName "AlignmentResearch_Global_ShieldGeneratorUpgrade.entity"
 entityName "AlignmentResearch_Global_CityPlanning.entity"
 entityName "AlignmentResearch_Global_RuralDevelopment.entity"
+entityName "EotH_Budirech_RaceSelect.entity"
+entityName "EotH_Auriette_RaceSelect.entity"
+entityName "EotH_Kariek_RaceSelect.entity"
+entityName "NewRep_Dauntless_RaceSelect.entity"
+entityName "Alignment_Venator_RaceSelect.entity"
+entityName "Remnant_Strikecruiser_RaceSelect.entity"
