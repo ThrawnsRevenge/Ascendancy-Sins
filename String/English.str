@@ -521,16 +521,16 @@ StringInfo
 	Value "New Republic"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
-	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is on spreading their democratic message throughout the galaxy.
+	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is spreading their democratic message throughout the galaxy.
 StringInfo
 	ID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
 	Value "The Imperial Remnant comprises the splinter factions of the once-great Galactic Empire after the death of the Emperor at Endor. The Imperial Remnant relies on large superweapons like the Sovereign, Executor and Galaxy Gun to overwhelm their foes and reunite the galaxy under the firm hand of a new Emperor. The Imperial fleet is comprised of masses of Star Destroyers and TIE Fighters to support these superweapons, placing an emphasis on quantity over quality. Culturally, the Empire focuses on suppression."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_EOTH_DESCRIPTION"
-	Value "Created in secret by Emperor Palpatine and Grand Admiral Thrawn, the Empire of the Hand is an expansive political and military conglomeration loosely associated with the Chiss Ascendancy and Galactic Empire, aimed at pacifying the Unknown Regions and fortifying the galaxy against outside threats, primarily the Yuuzhan Vong. Because of the large territory which they must patrol, the Empire of the Hand relies on a fleet of fast and hard-hitting, yet fragile ships. Thrawn maintained several characteristics of the Imperial New Order, however in a more open and tolerant way towards non-humans; head also detested the use of superweapons."
+	Value "Created in secret by Emperor Palpatine and Grand Admiral Thrawn, the Empire of the Hand is an expansive political and military conglomeration loosely associated with the Chiss Ascendancy and Galactic Empire. Because of the large territory which they must patrol, the Empire of the Hand relies on a fleet of fast and hard-hitting, yet fragile ships. Thrawn maintained several characteristics of the Imperial New Order, however in a more open way towards non-humans; he also detested the use of superweapons."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
-	Value "The Pentastar Alignment of Powers began in 4 ABY after the Battle of Endor with a treaty between the Imperial forces under Grand Moff Ardus Kaine of Oversector Outer and the corporations of the Velcar Free Commerce Zone. The Alignment attempted to remain isolationist while the New Republic fought the various other Warlords and Imperial groups in the gaslaxy, preferring bide their time until the opportune moment to strike, which came with the return of the Emperor and his secret Byss fleet. Because much of the territory except for Oversector Outer is from the backwater worlds of the outer rim, much of the Pentastar forces are comprised of a mix of outdated Old Republic technology from the Clone Wars in support of state-of-the-art Imperial battleships."
+	Value "The Pentastar Alignment formed in 4 ABY after the Battle of Endor primarily with the Imperial forces under Grand Moff Ardus Kaine of Oversector Outer. Because much of the territory except for Oversector Outer is from the backwater worlds of the outer rim, much of the Pentastar forces are comprised of a mix of outdated technology from the Clone Wars in support of state-of-the-art Imperial battleships. They Alignment is a primarily corporation-based faction, with a heavy emphasis on trade."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 	Value "Random"
@@ -2249,7 +2249,7 @@ StringInfo
 	Value "Overwhelm"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_ABILITYACCESS_OVERWHELM_DESCRIPTION"
-	Value "Unlocks the Overwhelm ability."
+	Value "Unlocks the Overwhelm ability for several frigates."
 StringInfo
 	ID "IDS_ABILITY_RAM_NAME"
 	Value "Final Hour"
@@ -2651,22 +2651,22 @@ StringInfo
 	Value "Zero Command"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_EASY"
-	Value "Recruit"
+	Value "Beginner"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_MEDIUM"
-	Value "Lieutenant"
+	Value "Easy"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_HARD"
-	Value "Captain"
+	Value "Normal"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_UNFAIR"
-	Value "Admiral"
+	Value "Hard"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_NIGHTMARE"
-	Value "Grand Admiral"
+	Value "Very Hard"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_IMPOSSIBLE"
-	Value "Emperor"
+	Value "Tryhard"
 StringInfo
 	ID "IDS_PLAYERAISTYLE_RANDOM"
 	Value "Random"
