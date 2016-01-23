@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_TIEBOMBER"
+hudIcon "HUDICON_SKIPRAY"
 smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
 infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 fighterEntityDef "Alignment_Skipray"
