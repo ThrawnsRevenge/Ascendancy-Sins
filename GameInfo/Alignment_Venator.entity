@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Heavy"
-statCountType "FrigateHeavy"
+frigateRoleType "Carrier"
+statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_VENERATOR"
 picture "CAPITALSHIPPICTURE_VENATOR"
 NameStringID "IDS_FRIGATE_VENATOR_NAME"
