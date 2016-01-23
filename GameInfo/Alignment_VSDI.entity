@@ -69,7 +69,7 @@ Weapon
 		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -189,10 +189,10 @@ squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
 squadAntiMatterCost:0 12.000000
 squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
-squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadTypeEntityDef:2 "Alignment_Skipray_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "Remnant_Scimitar_Squad"
-squadAntiMatterCost:3 12.000000
+squadTypeEntityDef:3 "Alignment_V19_Squad"
+squadAntiMatterCost:3 6.000000
 maxNumCommandPoints 1
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTIR_VSDIATTACKTWO"

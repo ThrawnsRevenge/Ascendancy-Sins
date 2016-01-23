@@ -59,7 +59,8 @@ entities
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 83
+		count 81
+		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "EotHResearch_ShipUnlock_Vigilance"
 		entityDefName "EotHResearch_ShipUnlock_Nuruodo"
@@ -76,8 +77,6 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
-		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
-		entityDefName "EotHResearch_ShipUnlock_Furion"
 		entityDefName "EotHResearch_ShipUnlock_Krsiss"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
@@ -107,7 +106,6 @@ entities
 		entityDefName "EotHResearch_Global_MonitorJumps3"
 		entityDefName "EotHResearch_Global_Resistance"
 		entityDefName "EotHResearch_Global_ResistanceTwo"
-		entityDefName "EotHResearch_Global_CompoundLoyalty"
 		entityDefName "EotHResearch_Global_CompoundLoyalty"
 		entityDefName "EotHResearch_Global_RulingFamilies"
 		entityDefName "EotHResearch_Global_Csapla"

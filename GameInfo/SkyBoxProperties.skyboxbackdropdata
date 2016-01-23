@@ -44,12 +44,12 @@ properties
 	environmentIlluminationMapName "skybox04irradiance.dds"
 properties
 	meshName "SkyboxBackdrop5"
-	diffuseLiteColor ccffcc
-	diffuseDarkColor 72e472
-	ambientLiteColor 066b06
-	ambientDarkColor 055941
-	specularColor e8fce8
-	dustCloudColor bdbd39
+	diffuseLiteColor ffb3ffcc
+	diffuseDarkColor ff89cd67
+	ambientLiteColor ff464646
+	ambientDarkColor ff253306
+	specularColor fff6ffc9
+	dustCloudColor ff4b6313
 	numFarStarIconCloudTextureNames 3
 	textureName "galaxyspiral_red"
 	textureName "galaxyspiral_red2"
@@ -58,10 +58,10 @@ properties
 	environmentIlluminationMapName "skybox05irradiance.dds"
 properties
 	meshName "SkyboxBackdrop6"
-	diffuseLiteColor ffededff
-	diffuseDarkColor ff8f79b1
-	ambientLiteColor ff6e557e
-	ambientDarkColor ff221826
+	diffuseLiteColor ffffe2cc
+	diffuseDarkColor ffc7cd9d
+	ambientLiteColor ff415a7a
+	ambientDarkColor ff29384a
 	specularColor ffededff
 	dustCloudColor fff0edff
 	numFarStarIconCloudTextureNames 3
@@ -72,7 +72,7 @@ properties
 	environmentIlluminationMapName "skybox06irradiance.dds"
 properties
 	meshName "SkyboxBackdrop7"
-	diffuseLiteColor ffd5f6f9
+	diffuseLiteColor ffc4bbdd
 	diffuseDarkColor ff5b85b6
 	ambientLiteColor ff304c68
 	ambientDarkColor ff14263e
@@ -86,7 +86,7 @@ properties
 	environmentIlluminationMapName "skybox07irradiance.dds"
 properties
 	meshName "SkyboxBackdrop8"
-	diffuseLiteColor ffded8ff
+	diffuseLiteColor ffffd8ff
 	diffuseDarkColor ffc1a6f0
 	ambientLiteColor ff573a6b
 	ambientDarkColor ff270c1f

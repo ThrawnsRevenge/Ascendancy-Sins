@@ -44,9 +44,9 @@ nearPlacementDistOffset 0.000000
 farPlacementDistOffset 0.000000
 spawnCount 1
 swapMineType ""
-angularSpeed 4.999992
+angularSpeed 0.000000
 rotateSoundName ""
-rotateFacingType "None"
+rotateFacingType "AwayFromOrbitBody"
 rotateConstantly FALSE
 ShieldMeshName "UB_GolanI"
 renderShield TRUE

@@ -69,7 +69,7 @@ Weapon
 		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 2
@@ -183,7 +183,7 @@ squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
-squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadTypeEntityDef:2 "Alignment_Skipray_Squad"
 squadAntiMatterCost:2 12.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000

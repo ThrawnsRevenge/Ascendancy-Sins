@@ -158,7 +158,7 @@ Weapon
 		burstCount 10
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleEffectName "MuzzleRed_Single_Larger"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3

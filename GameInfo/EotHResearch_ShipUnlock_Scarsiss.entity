@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Furion"
+		Subject "EotHResearch_ShipUnlock_Krsiss"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

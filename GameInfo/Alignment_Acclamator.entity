@@ -22,8 +22,8 @@ slotCount 4.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 600.000000
-MaxShieldPoints 600.000000
+MaxHullPoints 1100.000000
+MaxShieldPoints 1100.000000
 HullPointRestoreRate 1.500000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 3.000000
@@ -185,9 +185,9 @@ squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
 squadAntiMatterCost:0 12.000000
 squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
-squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadTypeEntityDef:2 "Alignment_Skipray_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "Remnant_Scimitar_Squad"
+squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 12.000000
 maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3

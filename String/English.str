@@ -605,7 +605,7 @@ StringInfo
 	Value "A small freighter used to transport goods as well as carry troops into combat."
 StringInfo
 	ID "IDS_FRIGATE_STARGALLEON_NAME"
-	Value "Star Galleon"
+	Value "Fleet Tender: Star Galleon"
 StringInfo
 	ID "IDS_FRIGATE_STARGALLEON_DESCRIPTION"
 	Value "A small freighter used to resupply ships."
@@ -713,7 +713,7 @@ StringInfo
 	Value "Heavily armed fast-attack cruiser often deployed in skirmish lines ahead of the main force."
 StringInfo
 	ID "IDS_FRIGATE_ESCORTCARRIER_NAME"
-	Value "Escort Carrier"
+	Value "Ton-Falk Carrier"
 StringInfo
 	ID "IDS_FRIGATE_ESCORTCARRIER_DESCRIPTION"
 	Value "Economical support ship able to carry the Empire's hyperdrive-deficient starfighters into battle."
@@ -731,7 +731,7 @@ StringInfo
 	Value "A significant component of the Imperial fleet the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_NAME"
-	Value "Alaria Freighter"
+	Value "Fleet Tender: Alaria Freighter"
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
 	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
@@ -1429,6 +1429,12 @@ StringInfo
 	ID "IDS_FIGHTERXWING_DESCRIPTION"
 	Value "The workhorse fighter of the New Republic, capable of combating enemy fighters as well as assaulting larger vessels, although not as effective at either job as dedicated interceptors or bombers."
 StringInfo
+	ID "IDS_SKIPRAY_NAME"
+	Value "Skipray Blastboat"
+StringInfo
+	ID "IDS_SKIPRAY_DESCRIPTION"
+	Value "A versatile and large craft which serves as a bomber in the Alignment fleet."
+StringInfo
 	ID "IDS_FIGHTERMIYTILBOMBER_NAME"
 	Value "Miy'til Bomber"
 StringInfo
@@ -1541,7 +1547,7 @@ StringInfo
 	Value "A light picket frigate."
 StringInfo
 	ID "IDS_FRIGATE_MTC_NAME"
-	Value "Modular Taskforce Cruiser"
+	Value "Fleet Tender: MTC"
 StringInfo
 	ID "IDS_FRIGATE_MTC_DESCRIPTION"
 	Value "This modular frigate resupplies other ships in your fleet, and can have different modules installed for other effects. Can only support one additional module."
@@ -1847,7 +1853,7 @@ StringInfo
 	Value "Increases the shield mitigation of surrounding ships for a short period of time."
 StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_NAME"
-	Value "Orbital Bombardment"
+	Value "Hypervelocity Gun"
 StringInfo
 	ID "IDS_ABILITY_HYPERVELOCITYGUN_DESCRIPTION"
 	Value "Allows your CT11 to install a Hypervelocity Gun on the planet's surface, which can automatically target attacking enemy ships every 60 seconds"
@@ -1889,7 +1895,7 @@ StringInfo
 	Value "Naval Command Station"
 StringInfo
 	ID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_DESCRIPTION"
-	Value "A station which grants defensive bonuses and abilities at the expense of economic ventures."
+	Value "A military station with heavy armaments and defenses."
 StringInfo
 	ID "IDS_PLANETMODULE_GOLANI_NAME"
 	Value "Golan I Platform"
@@ -2369,10 +2375,10 @@ StringInfo
 	Value "Grants access to the VSDII."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_NAME"
-	Value "Modular Taskforce Cruiser"	
+	Value "Fleet Tender: MTC"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_DESCRIPTION"
-	Value "Grants access to the Modular Taskforce Cruiser."
+	Value "Grants access to the Modular Taskforce Cruiser, which can resupply and repair ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_NAME"
 	Value "Venator"	
@@ -2417,10 +2423,10 @@ StringInfo
 	Value "Grants access to the Dominator."		
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_NAME"
-	Value "Star Galleon"	
+	Value "Fleet Tender: Star Galleon"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_DESCRIPTION"
-	Value "Grants access to the Star Galleon."	
+	Value "Grants access to the Star Galleon, which can resupply and repair ships."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_NAME"
 	Value "Skipray Blastboat"	
@@ -2489,10 +2495,10 @@ StringInfo
 	Value "Grants access to the Dreadnaught."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_NAME"
-	Value "Escort Carrier"	
+	Value "Ton-Falk Carrier"	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_DESCRIPTION"
-	Value "Grants access to the Escort Carrier."
+	Value "Grants access to the Ton-Falk Escort Carrier."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_EXECUTOR_NAME"
 	Value "Executor"	
@@ -7766,10 +7772,10 @@ StringInfo
 	Value "Pirate"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-	Value "Previous Race"
+	Value "Previous Faction"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEXTRACE"
-	Value "Next Race"
+	Value "Next Faction"
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_NEUTRAL"
 	Value "Neutral"
@@ -13294,8 +13300,8 @@ StringInfo
 	ID "IDS_COUNTERDESC_CORVETTE_PHASE"
 	Value "Strong vs. frigates, cruisers, capital ships, strike craft and titans."
 StringInfo
-	ID "IDS_COUNTERDESC_CORVETTE_PSI"
-	Value "Strong vs. frigates, cruisers, capital ships, strike craft and titans."
+	ID "IDS_COUNTERDESC_FLEETTENDER"
+	Value "Fleet tender."
 StringInfo
 	ID "IDS_FRIGATE_TECHANTIFIGHTER_NAME"
 	Value "Garda Flak Frigate"

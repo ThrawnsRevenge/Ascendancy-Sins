@@ -5,8 +5,8 @@ canColonize TRUE
 isPsi FALSE
 isSelectable TRUE
 selectablePriorty 4
-randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_ALIGNMENT"
-randomStarBaseNamePrefix "IDS_STARBASENAME_ALIGNMENT"
+randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_REMNANT"
+randomStarBaseNamePrefix "IDS_STARBASENAME_REMNANT"
 entities
 	planetModuleInfo
 		Page:0

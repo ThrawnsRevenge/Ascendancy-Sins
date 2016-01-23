@@ -11,7 +11,7 @@ armorType "VeryLight"
 hudIcon "HUDICON_KRSISS"
 smallHudIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 infoCardIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
-minZoomDistanceMult 9.000000
+minZoomDistanceMult 5.000000
 nameStringID "IDS_KRSISS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
@@ -73,7 +73,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "NR_AWing"
+meshName "EotH_Krsiss"
 exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""
