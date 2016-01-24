@@ -589,7 +589,7 @@ GameplayConstants
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 2.5
+		fleetSupplyScalar 1.75
 	shipPhysicsSpeedData-Slow
 		shipLinearMaxSpeedGameSpeedScalar -0.30
 		shipLinearAccelerationGameSpeedScalar -0.30
