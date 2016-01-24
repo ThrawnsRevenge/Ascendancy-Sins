@@ -1621,7 +1621,7 @@ StringInfo
 	ID "IDS_ABILITY_ANNIHILATEPLANET_NAME"
 	Value "Destroy Planet"
 StringInfo
-	ID "IDS_ABILITY_ANNIHILATEPLANET_DESCRIPTION"
+	ID "IDS_ABILITY_ANNIHILATEPLANET_DESC"
 	Value "Fires a warhead at the target planet, destroyign it entirely."
 StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"
