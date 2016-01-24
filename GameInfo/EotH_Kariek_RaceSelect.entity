@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_FRIGATE_KARIEK_NAME"
-DescriptionStringID "IDS_FRIGATE_KARIEK_DESCRIPTION"
+NameStringID "IDS_HERO_STENT_NAME"
+DescriptionStringID "IDS_HERO_STENT_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_Phalanx"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -92,9 +92,9 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_KARIEK"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_STENT"
+smallHudIcon "HUDICON_RESEARCH_STENT"
+infoCardIcon "HUDICON_RESEARCH_STENT"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

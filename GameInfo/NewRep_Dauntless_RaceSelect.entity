@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityShieldAegis"
-ability:1 "AbilityForcePull"
-ability:2 "AbilityPowerToShieldsCapital"
-ability:3 "AbilityCloseQuarters"
-ability:4 "AbilityPassiveLowLifePods"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityFlagship"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -46,10 +46,10 @@ basePrice
 slotCount 7.000000
 BuildTime 100.000000
 MaxHullPoints
-	StartValue 7005.000000
+	StartValue 4180.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 8500.000000
+	StartValue 4180.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -72,9 +72,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_FRIGATE_DAUNTLESS_NAME"
-DescriptionStringID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
-picture "HUDICON_MC90"
+NameStringID "IDS_HERO_ACKBAR_NAME"
+DescriptionStringID "IDS_HERO_ACKBAR_DESCRIPTION"
+picture "HUDICON_RESEARCH_ACKBAR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -88,9 +88,9 @@ numRandomDebrisLarge 12
 numRandomDebrisSmall 28
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_DAUNTLESS"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_ACKBAR"
+smallHudIcon "HUDICON_RESEARCH_ACKBAR"
+infoCardIcon "HUDICON_RESEARCH_ACKBAR"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon
