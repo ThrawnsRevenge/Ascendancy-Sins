@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Carrier"
-statCountType "FrigateCarrier"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_ACCLAMATOR"
 picture "HUDICON_ACCLAMATOR"
 NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"

@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Heavy"
-statCountType "FrigateHeavy"
+frigateRoleType "Carrier"
+statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_VENERATOR"
 picture "CAPITALSHIPPICTURE_VENATOR"
 NameStringID "IDS_FRIGATE_VENATOR_NAME"
@@ -190,7 +190,7 @@ squadTypeEntityDef:2 "Alignment_Skipray_Squad"
 squadAntiMatterCost:2 12.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 12.000000
-maxNumCommandPoints 3
+maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTPA_VENATORATTACKTWO"
 SoundID "EVENTPA_VENATORATTACKTHREE"

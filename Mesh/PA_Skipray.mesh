@@ -7,9 +7,9 @@ MeshData
 	MinBoundingExtents [ -2.081766 -3.582894 -6.047986 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName ""
-		SelfIlluminationTextureFileName ""
-		NormalTextureFileName ""
+		DiffuseTextureFileName "PA_Skipray-cl.dds"
+		SelfIlluminationTextureFileName "PA_Skipray-da.dds"
+		NormalTextureFileName "PA_Skipray-nm.dds"
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
 		Diffuse ffffffff
