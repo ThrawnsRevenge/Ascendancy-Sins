@@ -386,13 +386,14 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 6
+		numAttachedEmitters 7
 		attachedEmitterName "sparks"
 		attachedEmitterName "Sphere"
 		attachedEmitterName "FlashBar"
 		attachedEmitterName "(copy) FlashBar-2"
 		attachedEmitterName "Flash"
 		attachedEmitterName "InitialFlash"
+		attachedEmitterName "Point"
 		DoFadeOut TRUE
 		FadeOutTime 1.000000
 		DoFadeIn FALSE
