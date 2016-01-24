@@ -37,8 +37,8 @@ numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_GLADIATOR"
-smallHudIcon "HUDICONSMALL_FRIGATE"
-infoCardIcon "HUDICONSMALL_FRIGATE"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
