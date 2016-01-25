@@ -1960,7 +1960,7 @@ explosionEffectGroup
 	explosionEffectDefCount 1
 	explosionEffectDef
 		totalPlayTime 12
-		makeMeshInvisibleTime 8
+		makeMeshInvisibleTime 6
 		subExplosionCount 12
 		subExplosion
 			type "Effect"
@@ -1981,7 +1981,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.5
 			cameraShakeDuration 3.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate1"
+			particleSystemName "Explosion_CapitalShip"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_SUB0"
@@ -2017,7 +2017,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.5
 			cameraShakeDuration 3.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate3"
+			particleSystemName "Explosion_CapitalShip"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_SUB0"
@@ -2042,7 +2042,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate2"
+			particleSystemName "Explosion_CapitalShip"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_SUB6"
@@ -2079,7 +2079,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate1"
+			particleSystemName "Explosion_CapitalShip"
 			explosionSounds
 				soundCount 1
 				sound "EXPLOSION_SUB3"
@@ -2090,7 +2090,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.0
 			cameraShakeDuration 0.0
 			location "Surface"
-			particleSystemName "Explosion_Frigate3"
+			particleSystemName "Explosion_CapitalShip"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_SUB0"

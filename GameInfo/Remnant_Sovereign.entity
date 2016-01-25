@@ -269,7 +269,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
-ExplosionName "StarBase1"
+ExplosionName "ExecutorExplosion"
 CommandPoints
 	StartValue 2.000000
 	ValueIncreasePerLevel 0.200000
