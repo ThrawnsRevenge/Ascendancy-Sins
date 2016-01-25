@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_FRIGATE_VENATOR_NAME"
-DescriptionStringID "IDS_FRIGATE_VENATOR_DESCRIPTION"
+NameStringID "IDS_HERO_GRANT_NAME"
+DescriptionStringID "IDS_HERO_GRANT_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_SECUTOR"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -88,9 +88,9 @@ numRandomDebrisLarge 8
 numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_VENATOR"
-smallHudIcon "HUDICONSMALL_FLEET_CARRIER"
-infoCardIcon "HUDICONSMALL_FLEET_CARRIER"
+hudIcon "HUDICON_RESEARCH_GRANT"
+smallHudIcon "HUDICON_RESEARCH_GRANT"
+infoCardIcon "HUDICON_RESEARCH_GRANT"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon

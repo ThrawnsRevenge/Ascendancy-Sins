@@ -1127,25 +1127,25 @@ StringInfo
 	Value "Thrawn - Chimera"
 StringInfo
 	ID "IDS_HERO_THRAWN_DESCRIPTION"
-	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy."
+	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_HERO_STENT_NAME"
 	Value "Stent - Thrawn's Hand"
 StringInfo
-	ID "IDS_HERO_THRAWN_DESCRIPTION"
-	Value "A Chiss commander of Thrawn's Houshold Phalanx, and a devoted member of the Empire of the Hand bent on the destruction of all threats to the Chiss Ascendancy."
+	ID "IDS_HERO_STENT_DESCRIPTION"
+	Value "A Chiss commander of Thrawn's Houshold Phalanx, and a devoted member of the Empire of the Hand bent on the destruction of all threats to the Chiss Ascendancy. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_HERO_GRANT_NAME"
 	Value "Grant - Oriflamme"
 StringInfo
-	ID "IDS_HERO_THRAWN_DESCRIPTION"
-	Value "A Tapani nobleman turned Grand Admiral who, after the fall of the Empire, took refuge in the Pentastar Alignment."
+	ID "IDS_HERO_GRANT_DESCRIPTION"
+	Value "A Tapani nobleman turned Grand Admiral who, after the fall of the Empire, took refuge in the Pentastar Alignment. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_HERO_ACKBAR_NAME"
 	Value "Ackbar - Home One"
 StringInfo
 	ID "IDS_HERO_ACKBAR_DESCRIPTION"
-	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor."
+	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_FRIGATE_ESCAPEPOD_NAME"
 	Value "Escape Pod"
@@ -1621,7 +1621,7 @@ StringInfo
 	ID "IDS_ABILITY_ANNIHILATEPLANET_NAME"
 	Value "Destroy Planet"
 StringInfo
-	ID "IDS_ABILITY_ANNIHILATEPLANET_DESCRIPTION"
+	ID "IDS_ABILITY_ANNIHILATEPLANET_DESC"
 	Value "Fires a warhead at the target planet, destroyign it entirely."
 StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"

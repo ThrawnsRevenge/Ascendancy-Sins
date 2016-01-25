@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 613
+brushCount 615
 brush
 	name "HUDICON_RESEARCH_BULWARK"
 	content "States"
@@ -667,6 +667,42 @@ brush
 	Normal
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 828 , 83 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_GRANT"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 393 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 393 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 393 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 393 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 393 , 3 , 50 , 37 ]
+brush
+	name "HUDICON_RESEARCH_STENT"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 443 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Highlight"
+		pixelBox [ 443 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 443 , 3 , 50 , 37 ]
 brush
 	name "HUDICON_RESEARCH_ADDWEAPONBANKS"
 	content "States"

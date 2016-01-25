@@ -72,9 +72,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_FRIGATE_STRIKECRUISER_NAME"
-DescriptionStringID "IDS_FRIGATE_STRIKECRUISER_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ISDII"
+NameStringID "IDS_HERO_THRAWN_NAME"
+DescriptionStringID "IDS_HERO_THRAWN_DESCRIPTION"
+picture "HUDICON_RESEARCH_THRAWN"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -88,9 +88,9 @@ numRandomDebrisLarge 8
 numRandomDebrisSmall 20
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_STRIKECRUISER"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_THRAWN"
+smallHudIcon "HUDICON_RESEARCH_THRAWN"
+infoCardIcon "HUDICON_RESEARCH_THRAWN"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

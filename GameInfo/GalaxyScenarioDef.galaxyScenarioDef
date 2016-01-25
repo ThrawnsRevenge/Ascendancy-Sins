@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 295
+planetItemTypeCount 296
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1501,6 +1501,9 @@ planetItemType
 	designName "Remnant:Module:HeroBase"
 	entityDefName "Remnant_HeroBase"
 planetItemType
+	designName "Remnant:Module:GalaxyGun"
+	entityDefName "Remnant_GalaxyGun"
+planetItemType
 	designName "Warlords:Hero:Zsinj"
 	entityDefName "Warlords_Zsinj"
 planetItemType
@@ -1971,7 +1974,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:Mu"
-				item "Remnant:Module:HeroBase"
+				item "Remnant:Module:GalaxyGun"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Sentinel"
 		group
