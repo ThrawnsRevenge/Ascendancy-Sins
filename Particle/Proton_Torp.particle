@@ -22,8 +22,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 12.000000
-		ParticleHeight 50.000000
+		ParticleWidth 15.000000
+		ParticleHeight 40.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
 		Orientation
@@ -70,7 +70,7 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ff640000
-		ParticleWidth 20.000000
+		ParticleWidth 25.000000
 		ParticleHeight 50.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
@@ -117,7 +117,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff873200
+		ParticleStartColor ff501900
 		ParticleWidth 80.000000
 		ParticleHeight 80.000000
 		MeshName ""
