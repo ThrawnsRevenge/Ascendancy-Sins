@@ -1,6 +1,11 @@
 TXT
-musicThemeCount 68
+musicThemeCount 74
 
+musicTheme "M_NR_Battle1"
+musicTheme "M_NR_Ambient1"
+musicTheme "M_NR_Ambient2"
+musicTheme "M_NR_Ambient3"
+musicTheme "M_NR_Ambient4"
 musicTheme "M_PSA_Ambient1"
 musicTheme "M_PSA_Ambient2"
 musicTheme "M_PSA_Ambient2"
@@ -14,6 +19,7 @@ musicTheme "M_IR_Ambient2"
 musicTheme "M_IR_Ambient3"
 musicTheme "M_IR_Ambient4"
 musicTheme "M_IR_Ambient5"
+musicTheme "M_IR_Ambient6"
 musicTheme "MUSIC_QUIET_1"
 musicTheme "MUSIC_QUIET_2"
 musicTheme "MUSIC_QUIET_3"
