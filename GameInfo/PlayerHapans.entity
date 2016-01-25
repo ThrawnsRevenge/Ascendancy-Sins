@@ -380,28 +380,27 @@ planetElevatorData
 	elevatorMeshName:ProductionCenter "PlanetElevator-Tech-ProductionCenter"
 musicThemeData
 	startupMusicThemeCount 3
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
-	neutralMusicThemeCount 12
-	musicTheme "MUSIC_TEC_THEME_1"
-	musicTheme "MUSIC_TEC_QUIET_1"
-	musicTheme "MUSIC_TEC_MISC_1"
-	musicTheme "MUSIC_TEC_MISC_2"
+	musicTheme "M_IR_Ambient1"
+	musicTheme "MUSIC_QUIET_2"
+	musicTheme "MUSIC_QUIET_3"
+	neutralMusicThemeCount 10
+	musicTheme "MUSIC_QUIET_1"
+	musicTheme "MUSIC_QUIET_2"
+	musicTheme "MUSIC_QUIET_3"
+	musicTheme "MUSIC_QUIET_10"
+	musicTheme "MUSIC_QUIET_16"
+	musicTheme "M_IR_Ambient1"
+	musicTheme "M_IR_Ambient2"
+	musicTheme "M_IR_Ambient3"
+	musicTheme "M_IR_Ambient4"
+	musicTheme "M_IR_Ambient5"
+	scareThemeCount 6
+	musicTheme "MUSIC_BATTLE_4"
 	musicTheme "MUSIC_BATTLE_7"
 	musicTheme "MUSIC_BATTLE_13"
-	musicTheme "MUSIC_TROUBLE_4"
-	musicTheme "MUSIC_TEC_MISC_4"
-	musicTheme "MUSIC_TEC_OPENING"
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
-	scareThemeCount 5
-	musicTheme "MUSIC_BATTLE_7"
-	musicTheme "MUSIC_BATTLE_13"
-	musicTheme "MUSIC_NEWBATTLE_1"
-	musicTheme "MUSIC_NEWBATTLE_2"
-	musicTheme "MUSIC_NEWBATTLE_3"
+	musicTheme "MUSIC_BATTLE_16"
+	musicTheme "MUSIC_BATTLE_23"
+	musicTheme "MUSIC_BATTLE_24"
 	announcementCount 1
 	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
 hudSkinData
