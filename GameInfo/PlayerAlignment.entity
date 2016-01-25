@@ -450,25 +450,33 @@ planetElevatorData
 	elevatorMeshName:GoodsFactory "PlanetElevator-Psi-GoodsFactory"
 	elevatorMeshName:ProductionCenter "PlanetElevator-Psi-ProductionCenter"
 musicThemeData
-	startupMusicThemeCount 5
-	musicTheme "MUSIC_QUIET_19"
-	musicTheme "MUSIC_QUIET_20"
-	musicTheme "MUSIC_QUIET_21"
-	musicTheme "MUSIC_QUIET_22"
-	musicTheme "M_AlignmentTension1"
-	neutralMusicThemeCount 6
+	startupMusicThemeCount 7
+	musicTheme "M_PSA_Ambient1"
+	musicTheme "M_PSA_Ambient2"
+	musicTheme "M_PSA_Ambient3"
+	musicTheme "M_PSA_Ambient4"
+	musicTheme "M_PSA_Tension1"
+	musicTheme "M_PSA_Ambient5"
+	musicTheme "M_Battle_9"
+	neutralMusicThemeCount 9
+	musicTheme "MUSIC_FRONTEND"
 	musicTheme "MUSIC_BATTLE_12"
-	musicTheme "MUSIC_QUIET_19"
-	musicTheme "MUSIC_QUIET_20"
-	musicTheme "MUSIC_QUIET_21"
-	musicTheme "MUSIC_QUIET_22"
-	musicTheme "M_AlignmentTension1"
-	scareThemeCount 5
-	musicTheme "MUSIC_BATTLE_15"
-	musicTheme "MUSIC_BATTLE_22"
+	musicTheme "M_PSA_Ambient1"
+	musicTheme "M_PSA_Ambient2"
+	musicTheme "M_PSA_Ambient3"
+	musicTheme "M_PSA_Ambient4"
+	musicTheme "M_PSA_Ambient5"
+	musicTheme "MUSIC_QUIET_12"
+	musicTheme "MUSIC_QUIET_17"
+	scareThemeCount 8
+	musicTheme "MUSIC_BATTLE_1"
+	musicTheme "MUSIC_BATTLE_5"
+	musicTheme "MUSIC_BATTLE_7"
+	musicTheme "MUSIC_BATTLE_9"
+	musicTheme "MUSIC_BATTLE_10"
+	musicTheme "MUSIC_BATTLE_12"
 	musicTheme "MUSIC_BATTLE_18"
-	musicTheme "MUSIC_BATTLE_12"
-	musicTheme "M_AlignmentBattle1"
+	musicTheme "M_PSA_Battle1"
 	announcementCount 1
 	musicTheme "MUSIC_ADVENT_ANNOUNCEMENT"
 hudSkinData

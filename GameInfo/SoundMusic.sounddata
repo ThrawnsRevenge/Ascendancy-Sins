@@ -1,5 +1,5 @@
 TXT
-numMusic 117
+numMusic 123
 music
 	name "MUSIC_FRONTEND"
 	fileName "M_War.ogg"
@@ -17,8 +17,8 @@ music
 	emotionLevel 0.0
 	emotionRange 1.0
 music
-	name "M_AlignmentBattle1"
-	fileName "M_AlignmentBattle1.ogg"
+	name "M_PSA_Battle1"
+	fileName "M_PSA_Battle1.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -241,37 +241,101 @@ music
 	emotionLevel 0.4
 	emotionRange 0.6
 music
-	name "MUSIC_QUIET_19"
-	fileName "M_AlignmentAmbient1.ogg"
+	name "M_NR_Ambient1"
+	fileName "M_NR_Ambient1.ogg"
 	isLooping FALSE
 	actionLevel 0.0
 	actionRange 0.15
 	emotionLevel 0.15
 	emotionRange 0.4
 music
-	name "MUSIC_QUIET_20"
-	fileName "M_AlignmentAmbient2.ogg"
+	name "M_NR_Ambient2"
+	fileName "M_NR_Ambient2.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.4
+	emotionRange 0.4
+music
+	name "M_IR_Ambient1"
+	fileName "M_IR_Ambient1.ogg"
 	isLooping FALSE
 	actionLevel 0.0
 	actionRange 0.15
 	emotionLevel 0.15
 	emotionRange 0.4
 music
-	name "MUSIC_QUIET_21"
-	fileName "M_AlignmentAmbient3.ogg"
+	name "M_IR_Ambient2"
+	fileName "M_IR_Ambient2.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.4
+	emotionRange 0.4
+music
+	name "M_IR_Ambient3"
+	fileName "M_IR_Ambient3.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.2
+	emotionRange 0.4
+music
+	name "M_IR_Ambient4"
+	fileName "M_IR_Ambient4.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.6
+	emotionRange 0.4
+music
+	name "M_IR_Ambient5"
+	fileName "M_IR_Ambient5.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.6
+	emotionRange 0.4
+music
+	name "M_PSA_Ambient1"
+	fileName "M_PSA_Ambient1.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.15
+	emotionRange 0.4
+music
+	name "M_PSA_Ambient2"
+	fileName "M_PSA_Ambient2.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.15
+	emotionRange 0.4
+music
+	name "M_PSA_Ambient3"
+	fileName "M_PSA_Ambient3.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.15
 	emotionLevel 0.15
 	emotionRange 0.4
 music
-	name "MUSIC_QUIET_22"
-	fileName "M_AlignmentAmbient4.ogg"
+	name "M_PSA_Ambient4"
+	fileName "M_PSA_Ambient4.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.15
 	emotionLevel 0.4
 	emotionRange 0.6
+music
+	name "M_PSA_Ambient5"
+	fileName "M_PSA_Ambient5.ogg"
+	isLooping FALSE
+	actionLevel 0.0
+	actionRange 0.15
+	emotionLevel 0.15
+	emotionRange 0.4
 music
 	name "MUSIC_QUIET_2"
 	fileName "M_Ambient2.ogg"
@@ -401,16 +465,16 @@ music
 	emotionLevel -0.2
 	emotionRange 0.8	
 music
-	name "MUSIC_SAD_1"
-	fileName "Sad 1.ogg"
+	name "M_SAD_1"
+	fileName "M_Sad1.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
 	emotionLevel -0.5
 	emotionRange 0.5
 music
-	name "MUSIC_SAD_2"
-	fileName "Sad 2.ogg"
+	name "M_SAD_2"
+	fileName "M_Sad2.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
@@ -418,7 +482,7 @@ music
 	emotionRange 0.5
 music
 	name "MUSIC_SAD_3"
-	fileName "Sad 3.ogg"
+	fileName "M_Sad3.ogg"
 	isLooping FALSE
 	actionLevel 0.0
 	actionRange 0.2
@@ -433,10 +497,10 @@ music
 	emotionLevel -0.3
 	emotionRange 0.5
 music
-	name "M_AlignmentTension1"
-	fileName "M_AlignmentTension1.ogg"
+	name "M_PSA_Tension1"
+	fileName "M_PSA_Tension1.ogg"
 	isLooping FALSE
-	actionLevel 0.0
+	actionLevel 0.1
 	actionRange 0.1
 	emotionLevel 0.15
 	emotionRange 0.4
