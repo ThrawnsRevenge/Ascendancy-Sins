@@ -166,7 +166,7 @@ Weapon
 		burstCount 10
 		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalMissileCapShip_Muzzle"
+		muzzleEffectName ""
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 2
@@ -271,7 +271,7 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
-ExplosionName "StarBase1"
+ExplosionName "ExecutorExplosion"
 CommandPoints
 	StartValue 2.000000
 	ValueIncreasePerLevel 0.000000
