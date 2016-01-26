@@ -457,7 +457,7 @@ musicThemeData
 	musicTheme "MUSIC_QUIET_15"
 	musicTheme "M_NR_Ambient1"
 	musicTheme "M_NR_Ambient2"
-	neutralMusicThemeCount 9
+	neutralMusicThemeCount 11
 	musicTheme "MUSIC_QUIET_4"
 	musicTheme "MUSIC_QUIET_7"
 	musicTheme "MUSIC_QUIET_9"
@@ -467,7 +467,9 @@ musicThemeData
 	musicTheme "MUSIC_QUIET_16"
 	musicTheme "M_NR_Ambient1"
 	musicTheme "M_NR_Ambient2"
-	scareThemeCount 12
+	musicTheme "M_NR_Ambient3"
+	musicTheme "M_NR_Ambient4"
+	scareThemeCount 13
 	musicTheme "MUSIC_BATTLE_2"
 	musicTheme "MUSIC_BATTLE_3"
 	musicTheme "MUSIC_BATTLE_4"
@@ -480,8 +482,9 @@ musicThemeData
 	musicTheme "MUSIC_BATTLE_17"
 	musicTheme "MUSIC_BATTLE_19"
 	musicTheme "MUSIC_BATTLE_23"
+	musicTheme "M_NR_Battle1"
 	announcementCount 1
-	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
+	musicTheme "M_NR_Announcement"
 hudSkinData
 	loadScreenCharacterBrush "LoadScreenCharacterTech"
 	fleetIconCount 10

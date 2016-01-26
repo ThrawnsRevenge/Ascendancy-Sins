@@ -462,8 +462,7 @@ musicThemeData
 	musicTheme "M_IR_Ambient1"
 	musicTheme "MUSIC_QUIET_2"
 	musicTheme "MUSIC_QUIET_3"
-	neutralMusicThemeCount 10
-	musicTheme "MUSIC_QUIET_1"
+	neutralMusicThemeCount 11
 	musicTheme "MUSIC_QUIET_2"
 	musicTheme "MUSIC_QUIET_3"
 	musicTheme "MUSIC_QUIET_10"
@@ -473,15 +472,17 @@ musicThemeData
 	musicTheme "M_IR_Ambient3"
 	musicTheme "M_IR_Ambient4"
 	musicTheme "M_IR_Ambient5"
+	musicTheme "M_IR_Ambient6"
+	musicTheme "M_IR_Ambient7"
 	scareThemeCount 6
+	musicTheme "MUSIC_BATTLE_24"
 	musicTheme "MUSIC_BATTLE_4"
 	musicTheme "MUSIC_BATTLE_7"
 	musicTheme "MUSIC_BATTLE_13"
 	musicTheme "MUSIC_BATTLE_16"
 	musicTheme "MUSIC_BATTLE_23"
-	musicTheme "MUSIC_BATTLE_24"
 	announcementCount 1
-	musicTheme "MUSIC_ADVENT_ANNOUNCEMENT"
+	musicTheme "M_IR_Announcement"
 hudSkinData
 	loadScreenCharacterBrush "LoadScreenCharacterPsi"
 	fleetIconCount 10

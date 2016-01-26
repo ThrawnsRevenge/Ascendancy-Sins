@@ -22,19 +22,19 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 25
 quickStartHomePlanetUpgradeLevel:Infrastructure 3
 recommendedGameTypeCount 0
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 7.759993
+pixelsPerGalaxyUnit 4.999992
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1591.000000
 nextStarNameUniqueId 2
 nextPlanetNameUniqueId 250
 triggerCount 0
-starCount 2
+starCount 1
 star
 	designName "Star0"
 	inGameName "Deep Core"
 	type "BlackHoleStar"
-	pos [ 710 , 696 ]
+	pos [ 724 , 679 ]
 	radius 600.000000
 	moveAreaRadius 60000.000000
 	hyperspaceExitRadius 40000.000000
@@ -43,7 +43,7 @@ star
 		designName "Planet48"
 		inGameName "Terephon"
 		type "Swamp"
-		pos [ 941 , 519 ]
+		pos [ 955 , 502 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -71,7 +71,7 @@ star
 		designName "Planet116"
 		inGameName "Hapes"
 		type "TerranThree"
-		pos [ 894 , 548 ]
+		pos [ 908 , 531 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -99,7 +99,7 @@ star
 		designName "Planet176"
 		inGameName "Thrakia"
 		type "Terran"
-		pos [ 921 , 588 ]
+		pos [ 935 , 571 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -127,7 +127,7 @@ star
 		designName "Planet177"
 		inGameName "Selab"
 		type "Arboreal"
-		pos [ 892 , 585 ]
+		pos [ 906 , 568 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -155,7 +155,7 @@ star
 		designName "Planet178"
 		inGameName "Gallinore"
 		type "Arboreal"
-		pos [ 857 , 530 ]
+		pos [ 871 , 513 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -183,7 +183,7 @@ star
 		designName "Planet179"
 		inGameName "Arabanth"
 		type "Mountainous"
-		pos [ 893 , 537 ]
+		pos [ 907 , 520 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -211,7 +211,7 @@ star
 		designName "Planet180"
 		inGameName "Archais"
 		type "Mountainous"
-		pos [ 870 , 582 ]
+		pos [ 884 , 565 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -239,7 +239,7 @@ star
 		designName "Planet181"
 		inGameName "Baladavia"
 		type "Ice"
-		pos [ 866 , 539 ]
+		pos [ 880 , 522 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -267,7 +267,7 @@ star
 		designName "Planet182"
 		inGameName "Carlania"
 		type "Volcanic"
-		pos [ 881 , 529 ]
+		pos [ 895 , 512 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -295,7 +295,7 @@ star
 		designName "Planet183"
 		inGameName "Ediorung"
 		type "Ice"
-		pos [ 900 , 523 ]
+		pos [ 914 , 506 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -323,7 +323,7 @@ star
 		designName "Planet184"
 		inGameName "Farnica"
 		type "TerranHome"
-		pos [ 849 , 554 ]
+		pos [ 863 , 537 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer5"
@@ -350,7 +350,7 @@ star
 		designName "Planet185"
 		inGameName "Harterra"
 		type "Barren"
-		pos [ 892 , 572 ]
+		pos [ 906 , 555 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -378,7 +378,7 @@ star
 		designName "Planet186"
 		inGameName "Jovaria"
 		type "Mountainous"
-		pos [ 908 , 581 ]
+		pos [ 922 , 564 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -406,7 +406,7 @@ star
 		designName "Planet187"
 		inGameName "Kavan"
 		type "Ice"
-		pos [ 908 , 560 ]
+		pos [ 922 , 543 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -434,7 +434,7 @@ star
 		designName "Planet188"
 		inGameName "Lalmy'ash"
 		type "Oceanic"
-		pos [ 865 , 566 ]
+		pos [ 879 , 549 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -462,7 +462,7 @@ star
 		designName "Planet189"
 		inGameName "Lemmi VI"
 		type "Arboreal"
-		pos [ 923 , 572 ]
+		pos [ 937 , 555 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -490,7 +490,7 @@ star
 		designName "Planet190"
 		inGameName "Millinar"
 		type "Terran"
-		pos [ 876 , 555 ]
+		pos [ 890 , 538 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -518,7 +518,7 @@ star
 		designName "Planet191"
 		inGameName "Novi"
 		type "Desert"
-		pos [ 855 , 542 ]
+		pos [ 869 , 525 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -546,7 +546,7 @@ star
 		designName "Planet192"
 		inGameName "Rbollea"
 		type "Terran"
-		pos [ 935 , 544 ]
+		pos [ 949 , 527 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -574,7 +574,7 @@ star
 		designName "Planet193"
 		inGameName "Sivoria"
 		type "Terran"
-		pos [ 851 , 563 ]
+		pos [ 865 , 546 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -602,7 +602,7 @@ star
 		designName "Planet194"
 		inGameName "Talcharaim"
 		type "Barren"
-		pos [ 853 , 573 ]
+		pos [ 867 , 556 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -630,7 +630,7 @@ star
 		designName "Planet195"
 		inGameName "Theselon"
 		type "Volcanic"
-		pos [ 877 , 543 ]
+		pos [ 891 , 526 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -658,7 +658,7 @@ star
 		designName "Planet196"
 		inGameName "Tinta"
 		type "Polluted"
-		pos [ 928 , 531 ]
+		pos [ 942 , 514 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -686,7 +686,7 @@ star
 		designName "Planet197"
 		inGameName "Tumani"
 		type "Mountainous"
-		pos [ 916 , 523 ]
+		pos [ 930 , 506 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -714,7 +714,7 @@ star
 		designName "Planet198"
 		inGameName "Ut"
 		type "Oceanic"
-		pos [ 892 , 559 ]
+		pos [ 906 , 542 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -742,7 +742,7 @@ star
 		designName "Planet199"
 		inGameName "Zalori"
 		type "Mountainous"
-		pos [ 926 , 502 ]
+		pos [ 940 , 485 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -770,7 +770,7 @@ star
 		designName "Planet200"
 		inGameName "Shedu Maad"
 		type "TerranHome"
-		pos [ 965 , 524 ]
+		pos [ 979 , 507 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer2"
@@ -797,7 +797,7 @@ star
 		designName "Planet201"
 		inGameName "Rynmar"
 		type "Arboreal"
-		pos [ 927 , 484 ]
+		pos [ 941 , 467 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -825,7 +825,7 @@ star
 		designName "Planet202"
 		inGameName "Reboam"
 		type "Desert"
-		pos [ 961 , 550 ]
+		pos [ 975 , 533 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -853,7 +853,7 @@ star
 		designName "Planet203"
 		inGameName "Calfa"
 		type "Desert"
-		pos [ 931 , 598 ]
+		pos [ 945 , 581 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -881,7 +881,7 @@ star
 		designName "Planet204"
 		inGameName "Dreena"
 		type "Oceanic"
-		pos [ 951 , 580 ]
+		pos [ 965 , 563 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -909,7 +909,7 @@ star
 		designName "Planet205"
 		inGameName "K'Farri"
 		type "Ice"
-		pos [ 870 , 607 ]
+		pos [ 884 , 590 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -937,7 +937,7 @@ star
 		designName "Planet206"
 		inGameName "Orelon"
 		type "TerranHome"
-		pos [ 909 , 484 ]
+		pos [ 923 , 467 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer4"
@@ -964,7 +964,7 @@ star
 		designName "Planet207"
 		inGameName "Nantuker"
 		type "Desert"
-		pos [ 851 , 594 ]
+		pos [ 865 , 577 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -992,7 +992,7 @@ star
 		designName "Planet208"
 		inGameName "Stalsinek IV"
 		type "Arboreal"
-		pos [ 835 , 581 ]
+		pos [ 849 , 564 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1020,7 +1020,7 @@ star
 		designName "Planet209"
 		inGameName "Jodaka"
 		type "AridOcean"
-		pos [ 832 , 564 ]
+		pos [ 846 , 547 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1048,7 +1048,7 @@ star
 		designName "Planet210"
 		inGameName "Andalia"
 		type "TerranTwo"
-		pos [ 798 , 588 ]
+		pos [ 812 , 571 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1076,7 +1076,7 @@ star
 		designName "Planet211"
 		inGameName "Chosper"
 		type "TerranHome"
-		pos [ 805 , 603 ]
+		pos [ 819 , 586 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer3"
@@ -1103,7 +1103,7 @@ star
 		designName "Planet212"
 		inGameName "Sennex"
 		type "Volcanic"
-		pos [ 798 , 577 ]
+		pos [ 812 , 560 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1131,7 +1131,7 @@ star
 		designName "Planet213"
 		inGameName "Ket"
 		type "Desert"
-		pos [ 806 , 555 ]
+		pos [ 820 , 538 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1159,7 +1159,7 @@ star
 		designName "Planet214"
 		inGameName "Daruvvia"
 		type "Ice"
-		pos [ 805 , 566 ]
+		pos [ 819 , 549 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1187,7 +1187,7 @@ star
 		designName "Planet215"
 		inGameName "Algnadesh"
 		type "Polluted"
-		pos [ 838 , 550 ]
+		pos [ 852 , 533 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1215,7 +1215,7 @@ star
 		designName "Planet216"
 		inGameName "Charubah"
 		type "TerranTwo"
-		pos [ 826 , 515 ]
+		pos [ 840 , 498 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1243,7 +1243,7 @@ star
 		designName "Planet217"
 		inGameName "Cheruba"
 		type "Swamp"
-		pos [ 837 , 520 ]
+		pos [ 851 , 503 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1271,7 +1271,7 @@ star
 		designName "Planet218"
 		inGameName "Divora"
 		type "Mountainous"
-		pos [ 827 , 546 ]
+		pos [ 841 , 529 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1299,7 +1299,7 @@ star
 		designName "Planet219"
 		inGameName "Lovala"
 		type "Polluted"
-		pos [ 810 , 535 ]
+		pos [ 824 , 518 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1327,7 +1327,7 @@ star
 		designName "Planet220"
 		inGameName "Maires"
 		type "Oceanic"
-		pos [ 815 , 521 ]
+		pos [ 829 , 504 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1355,7 +1355,7 @@ star
 		designName "Planet221"
 		inGameName "Modus"
 		type "Swamp"
-		pos [ 830 , 504 ]
+		pos [ 844 , 487 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1383,7 +1383,7 @@ star
 		designName "Planet222"
 		inGameName "Relephon"
 		type "GasGiant"
-		pos [ 845 , 528 ]
+		pos [ 859 , 511 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1411,7 +1411,7 @@ star
 		designName "Planet223"
 		inGameName "Vergill"
 		type "TerranHome"
-		pos [ 816 , 506 ]
+		pos [ 830 , 489 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer1"
@@ -1438,7 +1438,7 @@ star
 		designName "Planet224"
 		inGameName "Wodan"
 		type "Arboreal"
-		pos [ 842 , 539 ]
+		pos [ 856 , 522 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1466,7 +1466,7 @@ star
 		designName "Planet225"
 		inGameName "Febrini"
 		type "Desert"
-		pos [ 866 , 497 ]
+		pos [ 880 , 480 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1494,7 +1494,7 @@ star
 		designName "Planet226"
 		inGameName "Phelope"
 		type "Arboreal"
-		pos [ 877 , 519 ]
+		pos [ 891 , 502 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1522,7 +1522,7 @@ star
 		designName "Planet227"
 		inGameName "Zadaria"
 		type "Mountainous"
-		pos [ 877 , 508 ]
+		pos [ 891 , 491 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1550,7 +1550,7 @@ star
 		designName "Planet228"
 		inGameName "Sargon"
 		type "Arboreal"
-		pos [ 846 , 492 ]
+		pos [ 860 , 475 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1578,7 +1578,7 @@ star
 		designName "Planet230"
 		inGameName "Olanji"
 		type "TerranHome"
-		pos [ 906 , 611 ]
+		pos [ 920 , 594 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner "NewPlayer0"
@@ -1605,7 +1605,7 @@ star
 		designName "Planet231"
 		inGameName "Phon"
 		type "Moon"
-		pos [ 950 , 514 ]
+		pos [ 964 , 497 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1632,7 +1632,7 @@ star
 		designName "Planet232"
 		inGameName "Lorell"
 		type "Terran"
-		pos [ 782 , 603 ]
+		pos [ 796 , 586 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1659,7 +1659,7 @@ star
 		designName "Planet233"
 		inGameName "Scoteian Mists"
 		type "Nebula"
-		pos [ 909 , 496 ]
+		pos [ 923 , 479 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1686,7 +1686,7 @@ star
 		designName "Planet236"
 		inGameName "Roqoo"
 		type "AsteroidBeltFair"
-		pos [ 970 , 502 ]
+		pos [ 984 , 485 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1713,7 +1713,7 @@ star
 		designName "Planet237"
 		inGameName "Rainboh"
 		type "ShatteredMoon"
-		pos [ 941 , 474 ]
+		pos [ 955 , 457 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1740,7 +1740,7 @@ star
 		designName "Planet239"
 		inGameName ""
 		type "AsteroidFair"
-		pos [ 960 , 517 ]
+		pos [ 974 , 500 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1767,7 +1767,7 @@ star
 		designName "Planet240"
 		inGameName "Rainboh Debris"
 		type "AsteroidBeltFair"
-		pos [ 937 , 473 ]
+		pos [ 951 , 456 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1794,7 +1794,7 @@ star
 		designName "Planet241"
 		inGameName "Orelon Asteroid Belt"
 		type "AsteroidFair"
-		pos [ 918 , 484 ]
+		pos [ 932 , 467 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1821,7 +1821,7 @@ star
 		designName "Planet243"
 		inGameName "Olanji Asteroid Belt"
 		type "AsteroidBeltFair"
-		pos [ 908 , 621 ]
+		pos [ 922 , 604 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1848,7 +1848,7 @@ star
 		designName "Planet244"
 		inGameName "Knot Holes"
 		type "Nebula"
-		pos [ 796 , 597 ]
+		pos [ 810 , 580 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1875,7 +1875,7 @@ star
 		designName "Planet245"
 		inGameName "Ta'a Chume's Veil"
 		type "Nebula"
-		pos [ 934 , 581 ]
+		pos [ 948 , 564 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -1902,7 +1902,7 @@ star
 		designName "Planet246"
 		inGameName "Cloak of Orelon"
 		type "Nebula"
-		pos [ 924 , 473 ]
+		pos [ 938 , 456 ]
 		moveAreaRadius 40000.000000
 		hyperspaceExitRadius 30000.000000
 		owner ""
@@ -2306,18 +2306,6 @@ star
 		planetIndexB 60
 		spawnProbability 1.000000
 		type "PhaseLane"
-	entityCount 0
-	spawnProbability 1.000000
-star
-	designName "Star1"
-	inGameName "Queen Mother's Pearls"
-	type "RedStar"
-	pos [ 941 , 562 ]
-	radius 2.000000
-	moveAreaRadius 8000.000000
-	hyperspaceExitRadius 12000.000000
-	planetCount 0
-	connectionCount 0
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
