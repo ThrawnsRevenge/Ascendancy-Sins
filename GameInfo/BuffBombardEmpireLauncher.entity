@@ -19,7 +19,7 @@ periodicAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffBombardEmpireTarget"
-	travelSpeed 2000.000000
+	travelSpeed 4000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
