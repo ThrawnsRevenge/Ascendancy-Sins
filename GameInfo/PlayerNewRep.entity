@@ -484,7 +484,7 @@ musicThemeData
 	musicTheme "MUSIC_BATTLE_23"
 	musicTheme "M_NR_Battle1"
 	announcementCount 1
-	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
+	musicTheme "M_NR_Announcement"
 hudSkinData
 	loadScreenCharacterBrush "LoadScreenCharacterTech"
 	fleetIconCount 10

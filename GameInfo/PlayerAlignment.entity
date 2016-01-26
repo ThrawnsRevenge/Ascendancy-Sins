@@ -458,7 +458,7 @@ musicThemeData
 	musicTheme "M_PSA_Tension1"
 	musicTheme "M_PSA_Ambient5"
 	musicTheme "M_Battle_9"
-	neutralMusicThemeCount 9
+	neutralMusicThemeCount 10
 	musicTheme "MUSIC_FRONTEND"
 	musicTheme "MUSIC_BATTLE_12"
 	musicTheme "M_PSA_Ambient1"
@@ -466,9 +466,10 @@ musicThemeData
 	musicTheme "M_PSA_Ambient3"
 	musicTheme "M_PSA_Ambient4"
 	musicTheme "M_PSA_Ambient5"
+	musicTheme "M_PSA_Ambient6"
 	musicTheme "MUSIC_QUIET_12"
 	musicTheme "MUSIC_QUIET_17"
-	scareThemeCount 8
+	scareThemeCount 9
 	musicTheme "MUSIC_BATTLE_1"
 	musicTheme "MUSIC_BATTLE_5"
 	musicTheme "MUSIC_BATTLE_7"
@@ -477,8 +478,9 @@ musicThemeData
 	musicTheme "MUSIC_BATTLE_12"
 	musicTheme "MUSIC_BATTLE_18"
 	musicTheme "M_PSA_Battle1"
+	musicTheme "M_PSA_Battle2"
 	announcementCount 1
-	musicTheme "MUSIC_ADVENT_ANNOUNCEMENT"
+	musicTheme "M_PSA_Announcement"
 hudSkinData
 	loadScreenCharacterBrush "LoadScreenCharacterPsi"
 	fleetIconCount 10
