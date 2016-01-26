@@ -1670,7 +1670,7 @@ explosionEffectGroup
 	explosionEffectDefCount 1
 	explosionEffectDef
 		totalPlayTime 15
-		makeMeshInvisibleTime 6
+		makeMeshInvisibleTime 4
 		subExplosionCount 11
 		subExplosion
 			type "Effect"
@@ -1790,7 +1790,7 @@ explosionEffectGroup
 			cameraShakeStrength 0.4
 			cameraShakeDuration 2.0
 			location "Center"
-			particleSystemName "Explosion_CapitalShip1"
+			particleSystemName "Explosion_Starbase1"
 			explosionSounds
 				soundCount 2
 				sound "EXPLOSION_CAPITALSHIPDEATH"
