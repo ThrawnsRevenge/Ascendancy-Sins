@@ -54,7 +54,7 @@ weaponEffectsDef
 	muzzleSounds
 		soundCount 1
 		sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-	hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+	hitEffectName "Frigate1"
 	hitHullEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
