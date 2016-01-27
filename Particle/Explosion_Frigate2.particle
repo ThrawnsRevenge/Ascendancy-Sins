@@ -69,7 +69,7 @@ ParticleSimulation
 		Enabled TRUE
 		EmitRate 1000.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 40
+		MaxEmitCount 5
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -381,7 +381,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 1.570796
 		ParticleStartMass 1.000000
-		ParticleStartColor ffff8000
+		ParticleStartColor ffff6400
 		ParticleWidth 2000.000000
 		ParticleHeight 2000.000000
 		MeshName ""

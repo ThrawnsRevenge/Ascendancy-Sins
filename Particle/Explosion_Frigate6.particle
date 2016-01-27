@@ -69,7 +69,7 @@ ParticleSimulation
 		Enabled TRUE
 		EmitRate 1000.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 40
+		MaxEmitCount 5
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000

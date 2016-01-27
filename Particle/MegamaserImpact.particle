@@ -13,7 +13,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.400000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 25.000000
 		ParticleMinStartAngularSpeed -5.235988
@@ -22,8 +22,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 1.186824
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 1.000000
-		ParticleHeight 1.000000
+		ParticleWidth 2.000000
+		ParticleHeight 2.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\exexplo03nb.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\Kay_LightningBolt0000.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -418,7 +418,7 @@ ParticleSimulation
 		TransitionPeriod 0.500000
 		StartColor ff80ffff
 		StartAlpha 1.000000
-		EndColor ffff0000
+		EndColor ff000040
 		EndAlpha 0.000000
 	AffectorType "Fade"
 	AffectorContents
