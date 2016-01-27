@@ -8,7 +8,7 @@ effectInfo
 		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
-	largeEffectName ""
+	largeEffectName "Ability_ShieldAegisSource"
 	soundID ""
 needsToFaceTarget TRUE
 canCollideWithTarget TRUE

@@ -41,7 +41,7 @@ instantAction
 			attachType "Center"
 		smallEffectName ""
 		mediumEffectName ""
-		largeEffectName ""
+		largeEffectName "Ability_ShieldAegisSource"
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0

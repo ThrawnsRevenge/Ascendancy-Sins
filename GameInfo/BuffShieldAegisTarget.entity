@@ -7,7 +7,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_ShieldAegisTarget_Sm"
+		mediumEffectName "Ability_ShieldAegisTarget_Lrg"
+		largeEffectName "Ability_ShieldAegisTarget_Lrg"
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
