@@ -2,7 +2,67 @@
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
 	TotalLifeTime 8.000000
-	NumEmitters 4
+	NumEmitters 3
+	EmitterType "Sphere"
+	EmitterContents
+		Name "InwardStreaks"
+		Enabled TRUE
+		EmitRate 300.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 100
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 50.000000
+		ParticleHeight 300.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\W_SPARKLE.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		SphereRadiusXMax 1200.000000
+		SphereRadiusXMin 1000.000000
+		SphereRadiusYMax 1200.000000
+		SphereRadiusYMin 1000.000000
+		SphereRadiusZMax 1200.000000
+		SphereRadiusZMin 1000.000000
+		ParticleMaxStartSpeedAzimuthalTangential 0.000000
+		ParticleMaxStartSpeedPolarTangential 0.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleLatitudinalStart 0.000000
+		SpawnAngleLatitudinalStop 3.141593
+		SpawnAngleLongitudinalStart 0.000000
+		SpawnAngleLongitudinalStop 6.283185
 	EmitterType "Point"
 	EmitterContents
 		Name "Glow"
@@ -13,7 +73,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
+		ParticleLifeTime 1.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -21,9 +81,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff002850
-		ParticleWidth 2000.000000
-		ParticleHeight 2000.000000
+		ParticleStartColor ff404040
+		ParticleWidth 5000.000000
+		ParticleHeight 5000.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -53,111 +113,15 @@ ParticleSimulation
 		AngleVariance 3.141593
 	EmitterType "Point"
 	EmitterContents
-		Name "OutwardRings"
+		Name "(copy) Glow-1"
 		Enabled TRUE
-		EmitRate 3.000000
+		EmitRate 5.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 2
+		MaxEmitCount 3
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.200000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 5000.000000
-		ParticleHeight 5000.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 -0.000000 1.000000 ]
-			 [ 0.000000 -1.000000 -0.000000 ]
-		RotateAboutForward 90.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 2
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\shockwave.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		AngleVariance 0.000000
-	EmitterType "Point"
-	EmitterContents
-		Name "RingFlip"
-		Enabled TRUE
-		EmitRate 3.000000
-		HasInfiniteEmitCount FALSE
-		MaxEmitCount 2
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.200000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 5000.000000
-		ParticleHeight 5000.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 -0.000000 -1.000000 ]
-			 [ 0.000000 1.000000 -0.000000 ]
-		RotateAboutForward -90.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 2
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\shockwave.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		AngleVariance 0.000000
-	EmitterType "Sphere"
-	EmitterContents
-		Name "(new) Sphere-1"
-		Enabled TRUE
-		EmitRate 130.000000
-		HasInfiniteEmitCount FALSE
-		MaxEmitCount 150
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.500000
+		ParticleLifeTime 3.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -165,9 +129,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc0dcff
-		ParticleWidth 10.000000
-		ParticleHeight 10.000000
+		ParticleStartColor ffc0c0c0
+		ParticleWidth 5000.000000
+		ParticleHeight 5000.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -185,7 +149,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\shockwave5.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -193,21 +157,9 @@ ParticleSimulation
 		ParticlesRotate TRUE
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		SphereRadiusXMax 400.000000
-		SphereRadiusXMin 400.000000
-		SphereRadiusYMax 400.000000
-		SphereRadiusYMin 400.000000
-		SphereRadiusZMax 400.000000
-		SphereRadiusZMin 400.000000
-		ParticleMaxStartSpeedAzimuthalTangential 0.000000
-		ParticleMaxStartSpeedPolarTangential 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 3.141593
-		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 6.283185
-	NumAffectors 6
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	NumAffectors 3
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-1"
@@ -220,65 +172,14 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 3
+		attachedEmitterName "InwardStreaks"
 		attachedEmitterName "Glow"
-		attachedEmitterName "(new) Sphere-1"
+		attachedEmitterName "(copy) Glow-1"
 		DoFadeOut TRUE
-		FadeOutTime 1.000000
+		FadeOutTime 0.500000
 		DoFadeIn TRUE
 		FadeInTime 1.000000
-	AffectorType "LinearInflate"
-	AffectorContents
-		Name "(new) LinearInflate-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
-		attachedEmitterName "OutwardRings"
-		attachedEmitterName "RingFlip"
-		WidthInflateRate -5000.000000
-		HeightInflateRate -5000.000000
-	AffectorType "Fade"
-	AffectorContents
-		Name "(copy) (new) Fade-1-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
-		attachedEmitterName "OutwardRings"
-		attachedEmitterName "RingFlip"
-		DoFadeOut FALSE
-		FadeOutTime 1.000000
-		DoFadeIn TRUE
-		FadeInTime 1.500000
-	AffectorType "LinearInflate"
-	AffectorContents
-		Name "(new) LinearInflate-2"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Glow"
-		WidthInflateRate 1500.000000
-		HeightInflateRate 1500.000000
 	AffectorType "LinearForceToPoint"
 	AffectorContents
 		Name "(new) LinearForceToPoint-1"
@@ -292,13 +193,13 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
-		attachedEmitterName "(new) Sphere-1"
-		MinForce 100.000000
-		MaxForce 700.000000
+		attachedEmitterName "InwardStreaks"
+		MinForce 8000.000000
+		MaxForce 30000.000000
 		Point [ 0.000000 0.000000 0.000000 ]
 	AffectorType "LinearInflate"
 	AffectorContents
-		Name "(new) LinearInflate-3"
+		Name "(new) LinearInflate-1"
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -309,7 +210,7 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
-		attachedEmitterName "(new) Sphere-1"
-		WidthInflateRate 10.000000
-		HeightInflateRate 10.000000
+		attachedEmitterName "(copy) Glow-1"
+		WidthInflateRate -5000.000000
+		HeightInflateRate -5000.000000
 	length 0.000000

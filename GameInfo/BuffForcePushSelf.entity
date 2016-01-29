@@ -9,15 +9,15 @@ isInterruptable TRUE
 isChannelling TRUE
 numInstantActions 1
 instantAction
-	buffInstantActionType "PlayPersistantAttachedEffect"
+	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Aura"
-		smallEffectName "Buff_RepulsionFieldSpawner"
-		mediumEffectName "Buff_RepulsionFieldSpawner"
-		largeEffectName "Buff_RepulsionFieldSpawner"
+			attachType "Center"
+		smallEffectName "Ability_ForcePush"
+		mediumEffectName "Ability_ForcePush"
+		largeEffectName "Ability_ForcePush"
 		soundID ""
 numPeriodicActions 1
 periodicAction
