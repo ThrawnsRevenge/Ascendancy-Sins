@@ -1,6 +1,12 @@
 TXT
 NumStrings 8520
 StringInfo
+	ID "IDS_FRIGATE_STARHOME_NAME"
+	Value "Star Home"
+StringInfo
+	ID "IDS_FRIGATE_STARHOME_DESCRIPTION"
+	Value "A royal space station which acts as the flagship for the Hapan Queen Mother."
+StringInfo
 	ID "IDS_IDENTIFIER_TRADESTATION_NAME"
 	Value "Trade Port"
 StringInfo
