@@ -671,13 +671,13 @@ brush
 	name "HUDICON_RESEARCH_GRANT"
 	content "States"
 	Disabled
-		fileName "Buttons_Research_Disabled"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 393 , 3 , 50 , 37 ]
 	Pressed
-		fileName "Buttons_Research_Highlight"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 393 , 3 , 50 , 37 ]
 	CursorOver
-		fileName "Buttons_Research_Highlight"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 393 , 3 , 50 , 37 ]
 	Focused
 		fileName "Buttons_Research_Normal"
@@ -689,13 +689,13 @@ brush
 	name "HUDICON_RESEARCH_STENT"
 	content "States"
 	Disabled
-		fileName "Buttons_Research_Disabled"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 443 , 3 , 50 , 37 ]
 	Pressed
-		fileName "Buttons_Research_Highlight"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 443 , 3 , 50 , 37 ]
 	CursorOver
-		fileName "Buttons_Research_Highlight"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 443 , 3 , 50 , 37 ]
 	Focused
 		fileName "Buttons_Research_Normal"
