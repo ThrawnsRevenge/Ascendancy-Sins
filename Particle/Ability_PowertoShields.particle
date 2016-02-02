@@ -151,7 +151,7 @@ ParticleSimulation
 	EmitterContents
 		Name "(new) Sphere-1"
 		Enabled TRUE
-		EmitRate 130.000000
+		EmitRate 280.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 150
 		hasEmitIntervals FALSE
@@ -259,7 +259,7 @@ ParticleSimulation
 		numAttachedEmitters 2
 		attachedEmitterName "OutwardRings"
 		attachedEmitterName "RingFlip"
-		DoFadeOut FALSE
+		DoFadeOut TRUE
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
 		FadeInTime 1.500000
