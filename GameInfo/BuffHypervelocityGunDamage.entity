@@ -27,7 +27,7 @@ instantAction
 	buffType "BuffHypervelocityGunDamageSplash"
 	targetFilter
 		numOwnerships 1
-		ownership "Enemy"
+		ownership "Friendly"
 		numObjects 4
 		object "CapitalShip"
 		object "Frigate"

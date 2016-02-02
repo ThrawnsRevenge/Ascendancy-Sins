@@ -32,15 +32,15 @@ levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 resourceCost
-	credits 300.000000
-	metal 75.000000
-	crystal 15.000000
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
 cooldownTime
 	Level:0 80.000000
 	Level:1 0.000000

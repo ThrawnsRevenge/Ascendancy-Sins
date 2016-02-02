@@ -7,7 +7,7 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 2
 instantAction
 	buffInstantActionType "PlayPersistantAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -33,23 +33,8 @@ instantAction
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
-instantAction
-	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffBoardingPartySelf"
 numPeriodicActions 0
-numOverTimeActions 1
-overTimeAction
-	buffOverTimeActionType "DoDamage"
-	damageRate
-		Level:0 100.000000
-		Level:1 100.000000
-		Level:2 100.000000
-		Level:3 100.000000
-	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
-	damageType "PHYSICAL"
-	isDamageShared TRUE
+numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 4
 entityBoolModifier "DisableModuleFunctionality"

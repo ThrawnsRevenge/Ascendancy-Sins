@@ -7,21 +7,14 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 5
+numInstantActions 4
 instantAction
-	buffInstantActionType "ApplyBuffToSelfWithFilter"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerIsAboutToDie"
-	buffType "BuffBoardingPartyTargetConvert"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 2
-		object "Frigate"
-		object "Capital"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
+	buffInstantActionType "ChangePlayerIndexToFirstSpawner"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	isPermanent TRUE
+	failIfNotEnoughShipSlots TRUE
+	experiencePercentageToAward 0.500000
 instantAction
 	buffInstantActionType "RestoreHullPointsPerc"
 	instantActionTriggerType "OnDelay"
@@ -52,13 +45,6 @@ instantAction
 		mediumEffectName "Ability_BoardingParty_Boarded_Small"
 		largeEffectName "Ability_BoardingParty_Boarded_Small"
 		soundID ""
-instantAction
-	buffInstantActionType "ChangePlayerIndexToFirstSpawner"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	isPermanent TRUE
-	failIfNotEnoughShipSlots TRUE
-	experiencePercentageToAward 0.500000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

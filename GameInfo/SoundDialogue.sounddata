@@ -1,5 +1,6 @@
 TXT
-numEffects 1114
+numEffects 1113
+effect
 	name "EVENTPHASE_OCCUPATIONVICTORYHALFWAY"
 	fileName "EventPhase_OnOccupationPlanetVictoryNear.ogg"
 effect

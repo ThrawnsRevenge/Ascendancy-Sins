@@ -1,5 +1,5 @@
 TXT
-NumStrings 8520
+NumStrings 8432
 StringInfo
 	ID "IDS_FRIGATE_STARHOME_NAME"
 	Value "Star Home"
@@ -317,7 +317,7 @@ StringInfo
 	Value "Hyperdrive Upgrade"
 StringInfo
 	ID "IDS_EOTHRESEARCH_HYPERCHARGEONE_DESCRIPTION"
-	Value "State-of-the-art hyperdrives are installed in all Empire of the Hand ships, allowing them to complete the Kessel Run in fewer parsecs apparently."
+	Value "State-of-the-art hyperdrives are installed in all Empire of the Hand ships, allowing them to complete the Kessel Run in fewer parsecs because that's apparently how that measurement works."
 StringInfo
 	ID "IDS_EOTHRESEARCH_EXITDISTANCE_NAME"
 	Value "Gravitational Compensators"
@@ -902,7 +902,7 @@ StringInfo
 	Value "Allegiance Star Destroyer"
 StringInfo
 	ID "IDS_CAPITALSHIP_ALLEGIANCE_DESCRIPTION"
-	Value "An large offense-oriented Star Destroyer model which sacrifices hangar capacity for extra armour plating."
+	Value "An offense-oriented Star Destroyer model which sacrifices hangar capacity for extra armour plating."
 StringInfo
 	ID "IDS_CAPITALSHIP_WORLDEVASTATOR_NAME"
 	Value "World Devastator"
@@ -1250,7 +1250,7 @@ StringInfo
 	Value "Pellaeon-Gavrisom Treaty"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_PELLAEONGAVRISOM_DESCRIPTION"
-	Value "The signing of the Pellaeon-Gavrisom treaty ends hostilities between the New Republic and Imperial factions, negatinb factional relation penalties."
+	Value "The signing of the Pellaeon-Gavrisom treaty ends hostilities between the New Republic and Imperial factions, negating factional relation penalties."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEREGULATION_NAME"
 	Value "Deregulation"
@@ -1358,7 +1358,7 @@ StringInfo
 	Value "Expanded Trade"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_EXPANDEDTRADE_DESCRIPTION"
-	Value "Our trade ships carry more powerful cargo."
+	Value "Our trade ships carry more cargo."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEFENSEFORCE_NAME"
 	Value "Defense Force"
@@ -1966,8 +1966,8 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_TURBOLASERSTWO_NAME"
 	Value "Improved Turbolasers"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_TURBOLASERS_DESCRIPTION"
-	Value "Improvements to targeting computers allow turbolasers to hit critical systems."
+	ID "IDS_REMNANTRESEARCH_TURBOLASERSTWO_DESCRIPTION"
+	Value "More compact gas packing causes lasers to weaponry more damage to targets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_MONITORJUMPS_NAME"
 	Value "Hyperspace Monitors"
@@ -2327,7 +2327,7 @@ StringInfo
 	Value "Fortifications"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTIFICATIONS_DESCRIPTION"
-	Value "Increases the amount of tactical slots available on Remnant planets."
+	Value "Increases the amount of tactical slots available on your planets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_XENOPHOBIA_NAME"
 	Value "Xenophobia"
@@ -25253,13 +25253,13 @@ StringInfo
 	Value "Smuggler's Den"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_DESCRIPTION"
-	Value "Allows access to the smuggler's den which establishes trade routes between planets, including black market sources."
+	Value "Allows access to the smuggler's den which establishes trade routes between planets, black market upgrades for your ships, and freighters which smuggle cargo from nearby enemy trade ports."
 StringInfo
 	ID "IDS_SMUGGLERS_DEN_NAME"
 	Value "Smuggler's Den"
 StringInfo
 	ID "IDS_SMUGGLERS_DEN_DESCRIPTION"
-	Value "Allows the establishment of new trade routes, including black markets."
+	Value "Allows the establishment of new trade routes, black market upgrades for your ships, and freighters which smuggle cargo from nearby enemy trade ports."
 StringInfo
 	ID "IDS_CLAWCRAFT_NAME"
 	Value "Nsiss Clawcraft"

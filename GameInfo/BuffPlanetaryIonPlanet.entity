@@ -23,7 +23,7 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 60.000000
+		Level:0 45.000000
 		Level:1 1.000000
 		Level:2 1.000000
 		Level:3 1.000000
