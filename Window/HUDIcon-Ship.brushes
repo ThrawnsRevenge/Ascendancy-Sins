@@ -2,6 +2,24 @@
 onlyLoadOnDemand FALSE
 brushCount 402
 brush
+	name "HUDICON_NAVALCOMMAND"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 387 , 42 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 42 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 42 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 42 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 42 , 52 , 37 ]
+brush
 	name "HUDICON_SKIPRAY"
 	content "States"
 	Disabled

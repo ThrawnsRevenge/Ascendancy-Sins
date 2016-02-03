@@ -1,6 +1,11 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 138
+brushCount 139
+brush
+	name "MAINVIEWICON_NAVAL_COMMAND_STATION"
+	content "Simple"
+	fileName "Facility_Main_View"
+	pixelBox [ 302 , 540, 299 , 76 ]
 brush
 	name "HUDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 	content "States"

@@ -47,7 +47,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_ALTOR_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_ALTOR_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_TECHSUPPORT"
+picture "HUDICON_ALTOR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

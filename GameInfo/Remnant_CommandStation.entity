@@ -13,9 +13,9 @@ numRandomDebrisLarge 12
 numRandomDebrisSmall 24
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_GALAXYGUN"
-smallHudIcon "EMPIREICON_GALAXY_GUN"
-infoCardIcon "EMPIREICON_GALAXY_GUN"
+hudIcon "HUDICON_NAVALCOMMAND"
+smallHudIcon "HUDICON_NAVALCOMMAND"
+infoCardIcon "HUDICON_NAVALCOMMAND"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon
@@ -157,10 +157,10 @@ squadTypeEntityDef:2 "Remnant_TIEInterceptor_Squad"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-mainViewIcon "MAINVIEWICON_GALAXY_GUN"
+mainViewIcon "MAINVIEWICON_NAVAL_COMMAND_STATION"
 experiencePointsForDestroying 150.000000
 nameStringID "IDS_PLANETMODULE_REMNANTCOMMANDSTATION_NAME"
-picture "HUDICON_GALAXYGUN"
+picture "HUDICON_NAVALCOMMAND"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateCommandStationIR"
 maxUpgradeLevelCount 8

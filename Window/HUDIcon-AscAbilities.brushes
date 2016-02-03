@@ -1,6 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 52
+brushCount 53
+brush
+	name "HUDABILITYICON_GOODWILL"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 937 , 82 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 937 , 82 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 937 , 82 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 937 , 82 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 937 , 82 , 52 , 37 ]
 brush
 	name "HUDABILITYICON_NUMERICALSUPERIORITY"
 	content "States"
