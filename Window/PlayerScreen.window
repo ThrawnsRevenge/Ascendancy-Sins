@@ -18,14 +18,14 @@ tabWindow
 	contentBackdrop "TabWindowContentBackdropInGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 40
+		iconOffsetFromLeft 10
+		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
 		overlay "MenuButtonOverlay"						
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 40
+		iconOffsetFromLeft 10
+		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
 		overlay "MenuButtonOverlay"		
 	closeButton

@@ -16,7 +16,7 @@ tabWindow
 	buttonsBackdrop "TabWindowButtonBackdropInGame"
 	buttonsBackdropDetail ""
 	contentBackdrop "TabWindowContentBackdropInGame"
-nonActiveButtonInternals
+	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
