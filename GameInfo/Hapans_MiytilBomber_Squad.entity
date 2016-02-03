@@ -5,8 +5,8 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 hudIcon "HUDICON_MIYTILBOMBER"
-smallHudIcon "HUDICONSMALL_MIYTILBOMBER"
-infoCardIcon "INFOCARDICON_MIYTILBOMBER"
+smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
+infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
 fighterEntityDef "Hapans_MiytilBomber"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
@@ -15,7 +15,7 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_MIYTILBOMBER"
+mainViewIcon "MAINVIEWICON_BOMBER_SQUADRON"
 picture "PICTURE_MIYTILBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"

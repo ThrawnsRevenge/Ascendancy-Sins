@@ -14,8 +14,8 @@ numRandomDebrisSmall 24
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_GALAXYGUN"
-smallHudIcon "HUDICON_GALAXYGUN"
-infoCardIcon "HUDICON_GALAXYGUN"
+smallHudIcon "EMPIREICON_GALAXY_GUN"
+infoCardIcon "EMPIREICON_GALAXY_GUN"
 minZoomDistanceMult 2.000000
 NumWeapons 0
 m_weaponIndexForRange 2

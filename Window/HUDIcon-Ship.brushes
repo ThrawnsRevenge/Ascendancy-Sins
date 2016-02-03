@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 402
+brushCount 404
 brush
 	name "HUDICON_NAVALCOMMAND"
 	content "States"
@@ -4492,6 +4492,16 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 102 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_BATTLE_DRAGON"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_NOVA_CRUISER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 304 , 307 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_FIGHTER_SQUADRON"
 	content "Simple"
