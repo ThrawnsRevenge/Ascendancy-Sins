@@ -114,7 +114,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "NR_Bwing"
+meshName "EotH_Syca"
 exhaustParticleSystemName ""
 ExplosionName "Fighter0"
 exhaustTrailTextureName ""

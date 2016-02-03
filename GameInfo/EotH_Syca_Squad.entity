@@ -4,10 +4,10 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_BWING"
+hudIcon "HUDICON_SYCA"
 smallHudIcon "HUDICONSMALL_BOMBER_SQUADRON"
 infoCardIcon "HUDICONSMALL_BOMBER_SQUADRON"
-fighterEntityDef "EotH_Furion"
+fighterEntityDef "EotH_Syca"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000
 fighterConstructionTime 27.500000
@@ -16,7 +16,7 @@ baseMaxNumFighters 2
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "MAINVIEWICON_BOMBER_SQUADRON"
-picture "HUDICON_BWING"
+picture "HUDICON_SYCA"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_SYCA_NAME"
