@@ -1,6 +1,6 @@
 TXT
 tabWindow
-	topLeftOffset [0, 100]
+	topLeftOffset [0, 39]
 	buttonTopLeftOffset [33, 90]
 	buttonSize [ 170 , 52 ]
 	buttonIndicatorArea [0, -2, 170, 52]
