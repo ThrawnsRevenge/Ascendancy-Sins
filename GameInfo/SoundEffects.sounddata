@@ -2147,12 +2147,12 @@ effect
 	alternateGroup ""
 effect
 	name "EXPLOSION_SUPPORTSHIPDEATH"
-	fileName "Explosion_SupportShipDeath.ogg"
+	fileName "Explosion_SupportShipDeathNew.ogg"
 	type "Effect"
 	is3D TRUE
-	priority 10
-	threshold 30000.000000
-	minAttenuationDist 800.000000
+	priority 5
+	threshold 40000.000000
+	minAttenuationDist 2000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident FALSE
@@ -2162,12 +2162,12 @@ effect
 	alternateGroup ""
 effect
 	name "EXPLOSION_SUPPORTSHIPDEATH_ALT1"
-	fileName "Explosion_SupportShipDeath_Alt1.ogg"
+	fileName "Explosion_SupportShipDeathNew_Alt1.ogg"
 	type "Effect"
 	is3D TRUE
-	priority 10
-	threshold 30000.000000
-	minAttenuationDist 800.000000
+	priority 5
+	threshold 40000.000000
+	minAttenuationDist 2000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident FALSE
@@ -2177,12 +2177,12 @@ effect
 	alternateGroup ""
 effect
 	name "EXPLOSION_SUPPORTSHIPDEATH_ALT2"
-	fileName "Explosion_SupportShipDeath_Alt2.ogg"
+	fileName "Explosion_SupportShipDeathNew_Alt2.ogg"
 	type "Effect"
 	is3D TRUE
-	priority 10
-	threshold 30000.000000
-	minAttenuationDist 800.000000
+	priority 5
+	threshold 40000.000000
+	minAttenuationDist 2000.000000
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident FALSE

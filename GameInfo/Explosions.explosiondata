@@ -1116,8 +1116,10 @@ explosionEffectGroup
 			location "Center"
 			particleSystemName "Explosion_SupportShip1"
 			explosionSounds
-				soundCount 1
-				sound "EFFECT_RAZEPLANET_FIRE"
+				soundCount 3
+				sound "EXPLOSION_SUPPORTSHIPDEATH"
+				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT1"
+				sound "EXPLOSION_SUPPORTSHIPDEATH_ALT2"
 		subExplosion
 			type "Sound"
 			playTime 5.2
