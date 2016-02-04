@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2250
+entityNameCount 2253
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -628,6 +628,9 @@ entityName "AbilityProtectionism.entity"
 entityName "BuffProtectionismSelf.entity"
 entityName "AbilitySmugglersDenWeapons.entity"
 entityName "BuffSmugglersDenWeapons.entity"
+entityName "AbilityKineticMegamaser.entity"
+entityName "BuffKineticMegamaser.entity"
+entityName "BuffKineticMegamaserTarget.entity"
 entityName "AbilityCloak.entity"
 entityName "BuffCloak.entity"
 entityName "AbilityCorporateHQAbilityOne.entity"

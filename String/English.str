@@ -1,5 +1,5 @@
 TXT
-NumStrings 8432
+NumStrings 8434
 StringInfo
 	ID "IDS_FRIGATE_STARHOME_NAME"
 	Value "Star Home"
@@ -30,6 +30,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
 	Value "Installs upgraded plating and shields on the target allied ship."
+StringInfo
+	ID "IDS_ABILITY_KINETICMEGAMASER_NAME"
+	Value "Kinetic Megamaser"
+StringInfo
+	ID "IDS_ABILITY_KINETICMEGAMASER_DESCRIPTION"
+	Value "The force imparted by megamasers fired from this ship have a chance to temporarily throw off enemy targeting systems and forcing them to fire more slowly."
 StringInfo
 	ID "IDS_ABILITY_UPGRADESPEED_NAME"
 	Value "Upgrade Engines"

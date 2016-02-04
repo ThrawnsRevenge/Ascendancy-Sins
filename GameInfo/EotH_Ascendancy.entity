@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityGilzeanColonize"
 ability:1 "AbilityOverwhelmCapital"
-ability:2 "AbilityCloak"
+ability:2 "AbilityKineticMegamaser"
 ability:3 "AbilityCloseQuarters"
 ability:4 "AbilityPassiveLowLife"
 defaultAutoAttackRange "GravityWell"
