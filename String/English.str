@@ -1981,6 +1981,9 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_MONITORJUMPS_DESCRIPTION"
 	Value "Intelligence agents monitor all hyperspace jumps to your planets."
 StringInfo
+	ID "IDS_REMNANTRESEARCH_MONITORJUMPS2_DESCRIPTION"
+	Value "Intelligence agents monitor all hyperspace jumps to your planets fromt two jumps away."
+StringInfo
 	ID "IDS_REMNANTRESEARCH_SPREADFIRE_NAME"
 	Value "Spread Fire"
 StringInfo

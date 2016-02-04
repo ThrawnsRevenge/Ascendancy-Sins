@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
 quickStartHomePlanetUpgradeLevel:Infrastructure 3
 recommendedGameTypeCount 0
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 9.560003
+pixelsPerGalaxyUnit 1.880006
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1591.000000
@@ -2443,7 +2443,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 146
+	connectionCount 150
 	connection
 		planetIndexA 65
 		planetIndexB 67
@@ -3172,6 +3172,26 @@ star
 	connection
 		planetIndexA 37
 		planetIndexB 73
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 23
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 70
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 50
+		planetIndexB 61
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

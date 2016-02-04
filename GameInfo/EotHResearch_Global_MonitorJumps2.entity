@@ -4,7 +4,7 @@ hudIcon "HUDICON_RESEARCH_MONITORJUMPS"
 smallHudIcon "HUDICON_RESEARCH_MONITORJUMPS"
 infoCardIcon ""
 NameStringID "IDS_REMNANTRESEARCH_MONITORJUMPS_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_MONITORJUMPS_DESCRIPTION"
+DescriptionStringID "IDS_REMNANTRESEARCH_MONITORJUMPS2_DESCRIPTION"
 researchWindowLocation
 	block 2
 	pos [ 5 , 2 ]
@@ -33,7 +33,7 @@ MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 1
 researchModifier
-	modifierType "HyperspaceDetectionOneJump"
+	modifierType "HyperspaceDetectionTwoJumps"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""
