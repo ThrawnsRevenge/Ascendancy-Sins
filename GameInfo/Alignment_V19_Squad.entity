@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_V19"
+hudIcon "HUDICON_V19TORRENT"
 smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 fighterEntityDef "Alignment_V19"
@@ -16,7 +16,7 @@ baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "HUDICONSMALL_FIGHTER_SQUADRON"
-picture "HUDICON_V19"
+picture "HUDICON_V19TORRENT"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERV19_NAME"

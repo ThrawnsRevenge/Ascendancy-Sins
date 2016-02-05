@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_AWING"
+hudIcon "HUDICON_KRSISS"
 smallHudIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 infoCardIcon "HUDICONSMALL_INTERCEPTOR_SQUADRON"
 fighterEntityDef "EotH_Krsiss"
@@ -16,7 +16,7 @@ baseMaxNumFighters 2
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "MAINVIEWICON_INTERCEPTOR_SQUADRON"
-picture "HUDICON_AWING"
+picture "HUDICON_KRSISS"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_KRSISS_NAME"

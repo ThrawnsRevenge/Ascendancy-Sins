@@ -1,6 +1,82 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
+<<<<<<< HEAD
+brushCount 408
+brush
+	name "HUDICON_ENFORCER"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 937 , 242 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 242 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 242 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 242 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 242 , 52 , 37 ]
+brush
+	name "HUDICON_V19TORRENT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 882 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 202 , 52 , 37 ]
+brush
+	name "HUDICON_KRSISS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 882 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 882 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 882 , 162 , 52 , 37 ]
+brush
+	name "HUDICON_SCARSISS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 937 , 162 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 162 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 937 , 162 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 162 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 937 , 162 , 52 , 37 ]
+=======
 brushCount 405
+>>>>>>> origin/master
 brush
 	name "HUDICON_NAVALCOMMAND"
 	content "States"
@@ -893,6 +969,24 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 552 , 42 , 52 , 37 ]
+brush
+	name "HUDICON_DURASTEELSTATION"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 2 , 2 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 2 , 2 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 2 , 2 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 2 , 2 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 2 , 2 , 52 , 37 ]
 brush
 	name "HUDICON_TIBANNASTATION"
 	content "States"

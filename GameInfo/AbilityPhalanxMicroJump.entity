@@ -54,6 +54,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_MICROJUMP_NAME"
 descStringID "IDS_ABILITY_MICROJUMP_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_MICROJUMP"
-smallHudIcon "HUDICON_ABILITY_MICROJUMP"
+hudIcon "HUDABILITYICON_MICROJUMP"
+smallHudIcon "HUDABILITYICON_MICROJUMP"
 infoCardIcon ""
