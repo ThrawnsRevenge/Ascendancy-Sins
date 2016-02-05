@@ -1,7 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-<<<<<<< HEAD
-brushCount 408
+brushCount 411
+brush
+	name "HUDICON_SYCA"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 827 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 827 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 827 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 827 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 827 , 202 , 52 , 37 ]
 brush
 	name "HUDICON_ENFORCER"
 	content "States"
@@ -74,9 +91,6 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 937 , 162 , 52 , 37 ]
-=======
-brushCount 405
->>>>>>> origin/master
 brush
 	name "HUDICON_NAVALCOMMAND"
 	content "States"
@@ -113,24 +127,6 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 827 , 162 , 52 , 37 ]
-brush
-	name "HUDICON_SYCA"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 879 , 162 , 52 , 37 ]
-	Pressed
-		fileName "Unit_Hud_Highlight"
-		pixelBox [ 879 , 162 , 52 , 37 ]
-	CursorOver
-		fileName "Unit_Hud_Highlight"
-		pixelBox [ 879 , 162 , 52 , 37 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 879 , 162 , 52 , 37 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 879 , 162 , 52 , 37 ]
 brush
 	name "HUDICON_TITANFOUNDRY"
 	content "States"
