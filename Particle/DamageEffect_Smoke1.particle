@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "smoke curl"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -21,7 +21,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffb480
+		ParticleStartColor ffb48080
 		ParticleWidth 0.700000
 		ParticleHeight 0.700000
 		MeshName ""
@@ -82,7 +82,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff802000
+		ParticleStartColor ffb45a00
 		ParticleWidth 100.000000
 		ParticleHeight 100.000000
 		MeshName ""

@@ -13,7 +13,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
+		ParticleLifeTime 4.000000
 		ParticleMinStartLinearSpeed -10.000000
 		ParticleMaxStartLinearSpeed 10.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -116,7 +116,7 @@ ParticleSimulation
 	EmitterContents
 		Name "sparks fly"
 		Enabled TRUE
-		EmitRate 6.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -177,13 +177,13 @@ ParticleSimulation
 	EmitterContents
 		Name "fluffy smoke"
 		Enabled TRUE
-		EmitRate 13.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
+		ParticleLifeTime 4.000000
 		ParticleMinStartLinearSpeed -15.000000
 		ParticleMaxStartLinearSpeed 15.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -191,7 +191,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff403214
+		ParticleStartColor ff28321e
 		ParticleWidth 20.000000
 		ParticleHeight 20.000000
 		MeshName ""
@@ -221,9 +221,9 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		RingRadiusXMin 3.000000
-		RingRadiusXMax 3.000000
+		RingRadiusXMax 5.000000
 		RingRadiusYMin 3.000000
-		RingRadiusYMax 3.000000
+		RingRadiusYMax 5.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
 		ScaleStartSpeedsByRadius FALSE
@@ -234,7 +234,7 @@ ParticleSimulation
 		spawnDirectionIsParallelToPlane TRUE
 		isSpawnAngleRandom TRUE
 		nonRandomSpawnLoopEmittedParticleCount 0
-	NumAffectors 7
+	NumAffectors 6
 	AffectorType "Fade"
 	AffectorContents
 		Name ""
@@ -251,7 +251,7 @@ ParticleSimulation
 		attachedEmitterName "smoke curl"
 		attachedEmitterName "fluffy smoke"
 		DoFadeOut TRUE
-		FadeOutTime 5.000000
+		FadeOutTime 3.000000
 		DoFadeIn TRUE
 		FadeInTime 1.000000
 	AffectorType "LinearInflate"
@@ -326,25 +326,6 @@ ParticleSimulation
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
 		FadeInTime 0.500000
-	AffectorType "ColorOscillator"
-	AffectorContents
-		Name "(new) ColorOscillator-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "smoke curl"
-		TransitionPeriod 3.000000
-		StartColor ffffffff
-		StartAlpha 1.000000
-		EndColor ff804000
-		EndAlpha 0.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-1"

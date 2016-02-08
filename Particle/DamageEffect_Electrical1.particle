@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Electrical Damage"
 		Enabled TRUE
-		EmitRate 35.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE

@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "smoke curl"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
