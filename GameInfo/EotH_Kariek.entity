@@ -55,7 +55,7 @@ Weapon
 	DamagePerBank:RIGHT 60.000000
 	Range 5000.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
@@ -95,7 +95,7 @@ Weapon
 	DamagePerBank:RIGHT 30.000000
 	Range 5000.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
@@ -135,7 +135,7 @@ Weapon
 	DamagePerBank:RIGHT 42.000000
 	Range 5000.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
