@@ -212,8 +212,8 @@ m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
