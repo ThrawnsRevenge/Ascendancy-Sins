@@ -30,7 +30,7 @@ periodicAction
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffPlanetaryIonDamage"
+	buffType "BuffHypervelocityGunDamage"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
