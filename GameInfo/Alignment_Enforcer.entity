@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "AntiModule"
-statCountType "FrigateAntiModule"
+frigateRoleType "Light"
+statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_ENFORCER"
 picture "PICTURE_FRIGATE_ENFORCER"
 NameStringID "IDS_FRIGATE_ENFORCER_NAME"
