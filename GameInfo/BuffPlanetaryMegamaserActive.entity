@@ -38,7 +38,7 @@ instantAction
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "PlanetaryIon"
+		projectileTravelEffectName "Ability_KineticBlast"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
