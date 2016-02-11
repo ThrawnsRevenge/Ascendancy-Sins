@@ -1876,6 +1876,12 @@ StringInfo
 	ID "IDS_ABILITY_PLANETARYION_DESCRIPTION"
 	Value "Allows your CT11 to install an Ion Cannon on the planetès surface, which can automatically target attacking enemy ships every 60 seconds."
 StringInfo
+	ID "IDS_ABILITY_PLANETARYMEGAMASER_NAME"
+	Value "Planetary  Megamser"
+StringInfo
+	ID "IDS_ABILITY_PLANETARYMEGAMASER_DESCRIPTION"
+	Value "Allows your CT11 to install a giant megamaser on the planet's surface, which every 60 seconds can fire at up to two enemy ships, the kinetic impact of which throws off their targeting systems."
+StringInfo
 	ID "IDS_ABILITY_SHIELDAEGIES_NAME"
 	Value "Shield Aegis"
 StringInfo
