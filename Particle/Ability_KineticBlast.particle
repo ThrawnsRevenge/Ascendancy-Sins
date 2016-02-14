@@ -165,7 +165,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ff808080
 		ParticleWidth 250.000000
 		ParticleHeight 250.000000
 		MeshName ""
