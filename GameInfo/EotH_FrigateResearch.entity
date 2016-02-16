@@ -177,7 +177,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "NR_ASSAULTFRIGATE"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 150.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

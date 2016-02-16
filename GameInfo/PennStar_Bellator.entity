@@ -190,7 +190,7 @@ TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 mass 100000.000000
 ShieldMeshName "IR_Executor"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 80.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

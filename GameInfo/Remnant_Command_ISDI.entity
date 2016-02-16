@@ -219,7 +219,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
 ShieldMeshName "IR_ISDI"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

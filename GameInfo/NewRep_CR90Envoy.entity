@@ -51,7 +51,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
 ShieldMeshName "NR_CR90"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 390.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

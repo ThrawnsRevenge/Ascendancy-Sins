@@ -182,7 +182,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 10000.000000
 ShieldMeshName "NR_MC80b"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
