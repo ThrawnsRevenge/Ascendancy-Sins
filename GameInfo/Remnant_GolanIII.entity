@@ -52,7 +52,7 @@ rotateSoundName ""
 rotateFacingType "AwayFromOrbitBody"
 rotateConstantly FALSE
 ShieldMeshName "UB_GolanIII"
-renderShield TRUE
+renderShield FALSE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0

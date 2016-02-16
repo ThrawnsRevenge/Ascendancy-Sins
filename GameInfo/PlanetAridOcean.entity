@@ -416,7 +416,7 @@ planetRuinDef
 	extraScuttleTimeOnStrip 180.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetSmall"
-renderShield TRUE
+renderShield FALSE
 moveAreaRadius 55000.000000
 hyperspaceExitRadius 50000.000000
 isWormhole FALSE

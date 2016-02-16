@@ -66,7 +66,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 ShieldMeshName "UB_Esseles"
-renderShield TRUE
+renderShield FALSE
 squadTypeEntityDef:0 "EotH_Clawcraft_Squad"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "EotH_Scarsiss_Squad"

@@ -353,7 +353,7 @@ planetRuinDef
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetAsteroid"
-renderShield TRUE
+renderShield FALSE
 moveAreaRadius 32000.000000
 hyperspaceExitRadius 22000.000000
 isWormhole FALSE

@@ -135,7 +135,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Hand_Warlord"
-renderShield TRUE
+renderShield FALSE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

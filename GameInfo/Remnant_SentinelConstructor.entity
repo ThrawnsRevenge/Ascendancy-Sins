@@ -54,7 +54,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "IR_Sentinel"
-renderShield TRUE
+renderShield FALSE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
