@@ -36,7 +36,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 150.000000
+	perLevelValue 40.000000
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000
