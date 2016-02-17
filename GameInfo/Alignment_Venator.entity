@@ -220,7 +220,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilitySPMATBeam"
-ability:2 ""
+ability:2 "AbilityAcclamatorRefit"
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 144.000000

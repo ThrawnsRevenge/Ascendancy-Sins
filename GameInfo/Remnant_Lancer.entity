@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_LANCER_NAME"
 DescriptionStringID "IDS_FRIGATE_LANCER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 120.000000
+	credits 180.000000
 	metal 40.000000
 	crystal 0.000000
 slotCount 1.000000
