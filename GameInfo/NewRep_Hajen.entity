@@ -66,23 +66,24 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleEffectName "MuzzleRed_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+			soundCount 3
+			sound "WEAPON_FRIGATE_LASER_MUZZLE"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT1"
+			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Single"
+		projectileTravelEffectName "TurbolaserRed_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 0

@@ -216,7 +216,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 6
+		burstCount 4
 		burstDelay 0.100000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Psi_PointDefense_Large_Muzzle"

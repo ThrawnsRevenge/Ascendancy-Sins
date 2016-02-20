@@ -112,7 +112,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 6
+		burstCount 4
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleRed_Single_Large"
@@ -134,7 +134,7 @@ Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageAffectType "AFFECTS_ONLY_SHIELDS"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
@@ -152,7 +152,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 4
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleBlue_Single_Large"

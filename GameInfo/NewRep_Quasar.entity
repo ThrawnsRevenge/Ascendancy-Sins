@@ -47,17 +47,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
+		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 40.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 2.000000
+	Range 4000.000000
+	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
@@ -73,9 +73,9 @@ Weapon
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_CORVETT_LASER_MUZZLE"
-			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT1"
-			sound "WEAPON_CORVETT_LASER_MUZZLE_ALT2"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT2"
 		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -83,7 +83,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "LaserRed_Quad"
+		projectileTravelEffectName "LaserRed_Dual"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

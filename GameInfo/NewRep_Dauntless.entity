@@ -54,8 +54,8 @@ Weapon
 		WeaponClassType "LASERTECH"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 90.000000
-	DamagePerBank:RIGHT 90.000000
+	DamagePerBank:LEFT 120.000000
+	DamagePerBank:RIGHT 120.000000
 	Range 4000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
@@ -88,14 +88,14 @@ Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageAffectType "AFFECTS_ONLY_SHIELDS"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
+		WeaponClassType "ION"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 80.000000
-	DamagePerBank:RIGHT 80.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
@@ -106,17 +106,17 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
+		burstCount 4
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_CRUISER_IONCANNON_MUZZLE"
 			sound "WEAPON_CRUISER_IONCANNON_MUZZLE_ALT1"
 			sound "WEAPON_CRUISER_IONCANNON_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitEffectName "IonImpact_Large"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
