@@ -91,7 +91,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Tech_TitanLaser_Muzzle"

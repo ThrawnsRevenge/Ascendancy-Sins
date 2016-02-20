@@ -56,7 +56,7 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Missile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.000000
 		fireDelay 0.000000
 		muzzleEffectName ""

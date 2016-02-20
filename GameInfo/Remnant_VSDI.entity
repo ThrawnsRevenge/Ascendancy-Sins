@@ -146,7 +146,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 8
+		burstCount 4
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName ""

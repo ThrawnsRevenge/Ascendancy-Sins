@@ -48,7 +48,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 8
+		burstCount 4
 		burstDelay 0.150000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleGreen_Single_Fighter"

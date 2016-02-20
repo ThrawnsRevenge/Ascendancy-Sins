@@ -119,7 +119,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName ""
@@ -147,7 +147,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 260.000000
+	DamagePerBank:FRONT 360.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 160.000000
 	DamagePerBank:RIGHT 160.000000
@@ -187,7 +187,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 140.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 120.000000
 	DamagePerBank:RIGHT 120.000000

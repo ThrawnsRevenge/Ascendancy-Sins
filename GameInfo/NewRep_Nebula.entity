@@ -115,7 +115,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleRed_Single_Large"
@@ -155,7 +155,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 5
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleRed_Single_Larger"
@@ -235,7 +235,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName ""

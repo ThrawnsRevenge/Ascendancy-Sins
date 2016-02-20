@@ -81,7 +81,7 @@ Weapon
 	requiredStarBaseWeaponLevel 1
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleBlue_Single_Large"
@@ -122,7 +122,7 @@ Weapon
 	requiredStarBaseWeaponLevel 2
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.000000
 		fireDelay 0.000000
 		muzzleEffectName ""

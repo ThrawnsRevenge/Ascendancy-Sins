@@ -51,8 +51,8 @@ Weapon
 		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 15.000000
-	DamagePerBank:RIGHT 15.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
 	Range 4000.000000
 	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
@@ -63,10 +63,10 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -103,10 +103,10 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -120,7 +120,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Maser_Single"
+		projectileTravelEffectName "Maser_Dual"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 0
@@ -130,7 +130,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechLight"
+ShieldMeshName "EotH_Asdoni"
 renderShield TRUE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000

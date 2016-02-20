@@ -64,7 +64,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 5
 		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
