@@ -345,7 +345,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.300000
+		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
@@ -501,7 +501,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.300000
+		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
@@ -561,7 +561,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.300000
+		StartTime 0.100000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0

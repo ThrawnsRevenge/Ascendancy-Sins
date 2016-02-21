@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
 	TotalLifeTime 8.000000
-	NumEmitters 4
+	NumEmitters 5
 	EmitterType "Point"
 	EmitterContents
 		Name "Glow"
@@ -147,17 +147,17 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 0.000000
-	EmitterType "Sphere"
+	EmitterType "Point"
 	EmitterContents
-		Name "(new) Sphere-1"
+		Name "Bubble"
 		Enabled TRUE
-		EmitRate 130.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 150
+		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.500000
+		ParticleLifeTime 2.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -165,9 +165,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc0dcff
-		ParticleWidth 10.000000
-		ParticleHeight 10.000000
+		ParticleStartColor ff1e5080
+		ParticleWidth 800.000000
+		ParticleHeight 800.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -185,7 +185,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_SPARKLE.dds"
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\Kay_Bubble2.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -193,20 +193,56 @@ ParticleSimulation
 		ParticlesRotate TRUE
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		SphereRadiusXMax 400.000000
-		SphereRadiusXMin 400.000000
-		SphereRadiusYMax 400.000000
-		SphereRadiusYMin 400.000000
-		SphereRadiusZMax 400.000000
-		SphereRadiusZMin 400.000000
-		ParticleMaxStartSpeedAzimuthalTangential 0.000000
-		ParticleMaxStartSpeedPolarTangential 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 3.141593
-		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 6.283185
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "(copy) Bubble-1"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 2.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 1.745329
+		ParticleMaxStartAngularSpeed 3.490659
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff1e5080
+		ParticleWidth 740.000000
+		ParticleHeight 740.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\Kay_RingSpinner.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 1
+		AngleVariance 3.141593
 	NumAffectors 6
 	AffectorType "Fade"
 	AffectorContents
@@ -220,9 +256,8 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 1
 		attachedEmitterName "Glow"
-		attachedEmitterName "(new) Sphere-1"
 		DoFadeOut TRUE
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
@@ -279,9 +314,9 @@ ParticleSimulation
 		attachedEmitterName "Glow"
 		WidthInflateRate 1500.000000
 		HeightInflateRate 1500.000000
-	AffectorType "LinearForceToPoint"
+	AffectorType "Fade"
 	AffectorContents
-		Name "(new) LinearForceToPoint-1"
+		Name "(new) Fade-2"
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -291,25 +326,28 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "(new) Sphere-1"
-		MinForce 100.000000
-		MaxForce 700.000000
-		Point [ 0.000000 0.000000 0.000000 ]
+		numAttachedEmitters 2
+		attachedEmitterName "Bubble"
+		attachedEmitterName "(copy) Bubble-1"
+		DoFadeOut TRUE
+		FadeOutTime 1.500000
+		DoFadeIn TRUE
+		FadeInTime 0.500000
 	AffectorType "LinearInflate"
 	AffectorContents
-		Name "(new) LinearInflate-3"
+		Name "(copy) (copy) (new) LinearInflate-3-2-1"
 		Enabled TRUE
 		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 2.000000
 		UseYoungParticleAffectThreshold FALSE
 		YoungParticleAffectThreshold 0.000000
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "(new) Sphere-1"
-		WidthInflateRate 10.000000
-		HeightInflateRate 10.000000
+		numAttachedEmitters 2
+		attachedEmitterName "Bubble"
+		attachedEmitterName "(copy) Bubble-1"
+		WidthInflateRate -100.000000
+		HeightInflateRate -100.000000
 	length 0.000000
