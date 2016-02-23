@@ -87,7 +87,7 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
 statCountType "CapitalShipBattleship"
-numRandomDebrisLarge 6
+numRandomDebrisLarge 0
 numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"

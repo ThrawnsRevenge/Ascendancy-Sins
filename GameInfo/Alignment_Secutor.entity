@@ -84,8 +84,8 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
 statCountType "CapitalShipBattleship"
-numRandomDebrisLarge 8
-numRandomDebrisSmall 20
+numRandomDebrisLarge 0
+numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_SECUTOR"

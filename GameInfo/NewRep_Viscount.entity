@@ -85,7 +85,7 @@ Prerequisites
 statCountType "Titan"
 UpgradeTypeCount 1
 UpgradeType "NewRepUpgrade_Viscount_AbilityA"
-numRandomDebrisLarge 80
+numRandomDebrisLarge 15
 numRandomDebrisSmall 40
 numSpecificDebris 0
 armorType "CapitalShip"

@@ -91,7 +91,7 @@ UpgradeType "RemnantUpgrade_Executor_AbilityA"
 UpgradeType "RemnantUpgrade_Executor_AbilityB"
 UpgradeType "RemnantUpgrade_Executor_AbilityC"
 UpgradeType "RemnantUpgrade_Executor_AbilityD"
-numRandomDebrisLarge 80
+numRandomDebrisLarge 10
 numRandomDebrisSmall 30
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"

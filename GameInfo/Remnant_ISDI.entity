@@ -82,7 +82,7 @@ Prerequisites
 roleType "Invalid"
 statCountType "CapitalShipUtility2"
 numRandomDebrisLarge 0
-numRandomDebrisSmall 35
+numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_ISDI"

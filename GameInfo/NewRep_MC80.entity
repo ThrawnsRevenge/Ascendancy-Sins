@@ -81,8 +81,8 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
 statCountType "CapitalShipUtility2"
-numRandomDebrisLarge 10
-numRandomDebrisSmall 25
+numRandomDebrisLarge 3
+numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_MC80"
