@@ -36,11 +36,11 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.033333
+	perLevelValue 0.022222
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.033333
+	perLevelValue 0.022222
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000

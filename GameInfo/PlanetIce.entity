@@ -71,13 +71,13 @@ planetResourceSetupInfo
 	metalResourceAsteroidSetup
 		minCount 0
 		maxCount 1
-		extractionRate 0.400000
+		extractionRate 0.550000
 		refineryRate 0.000000
 		maxRefineryCount 1
 	crystalResourceAsteroidSetup
 		minCount 2
 		maxCount 4
-		extractionRate 0.400000
+		extractionRate 0.550000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
