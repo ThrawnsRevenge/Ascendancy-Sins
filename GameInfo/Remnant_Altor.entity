@@ -158,8 +158,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechSupport"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 1.200000
-	ValueIncreasePerLevel 0.250000
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.000000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.030000

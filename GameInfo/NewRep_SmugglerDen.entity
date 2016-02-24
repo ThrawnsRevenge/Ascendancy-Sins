@@ -74,6 +74,6 @@ formationRank 3
 baseBuildTime 50.000000
 buildEffectName ""
 cargoShipType "NewRep_YT"
-maxCargoShipCount 2
+maxCargoShipCount 1
 cargoShipRespawnTime 90.000000
 baseTradeIncomeRate 1.000000
