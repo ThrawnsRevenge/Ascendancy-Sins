@@ -74,6 +74,6 @@ formationRank 3
 baseBuildTime 50.000000
 buildEffectName ""
 cargoShipType "Remnant_Stargalleon"
-maxCargoShipCount 1
+maxCargoShipCount 2
 cargoShipRespawnTime 90.000000
 baseTradeIncomeRate 1.000000
