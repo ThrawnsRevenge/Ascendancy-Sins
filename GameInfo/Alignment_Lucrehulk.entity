@@ -89,7 +89,7 @@ hudIcon "HUDICON_LUCREHULK"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
-NumWeapons 4
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
