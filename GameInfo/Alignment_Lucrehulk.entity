@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityNumericalSuperiority"
-ability:1 "AbilityAlphaStrike"
-ability:2 "AbilityTractorBeam"
-ability:3 "AbilityISDColonize"
+ability:0 "AbilityISDColonize"
+ability:1 "AbilityEmbargo"
+ability:2 "AbilityBulwark"
+ability:3 "AbilityNumericalSuperiority"
 ability:4 "AbilityPassiveLowLife"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,7 +16,7 @@ baseDamage 43.000000
 basePopulationKilled 1.700000
 bombingFreqTime 10.000000
 baseRange 3000.000000
-bombTransitTime 2.000000
+bombTransitTime 12.000000
 bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
@@ -38,18 +38,18 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "MAINVIEWICON_SECUTOR"
+mainViewIcon "MAINVIEWICON_ISDI"
 basePrice
-	credits 1800.000000
-	metal 125.000000
-	crystal 75.000000
+	credits 1000.000000
+	metal 100.000000
+	crystal 50.000000
 slotCount 12.000000
-BuildTime 95.000000
+BuildTime 80.000000
 MaxHullPoints
-	StartValue 6200.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 6200.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -64,35 +64,32 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 144.000000
+	StartValue 72.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
-	StartValue 0.00000
+	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_SECUTOR_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_SECUTOR_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_SECUTOR"
+NameStringID "IDS_CAPITALSHIP_LUCREHULK_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_LUCREHULK_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_LUCREHULK"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "AlignmentResearch_ShipUnlock_Secutor"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
-statCountType "CapitalShipBattleship"
+statCountType "CapitalShipUtility2"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_SECUTOR"
-smallHudIcon "HUDICONSMALL_FLEET_CARRIER"
-infoCardIcon "HUDICONSMALL_FLEET_CARRIER"
+hudIcon "HUDICON_LUCREHULK"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
-NumWeapons 2
+NumWeapons 4
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -101,10 +98,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 500.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -132,47 +129,47 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Dual"
+		projectileTravelEffectName "TurbolaserGreen_Single"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_ONLY_SHIELDS"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "ION"
-	DamagePerBank:FRONT 400.000000
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
 	Range 5000.000000
-	PreBuffCooldownTime 4.400000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
+		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
-		hitEffectName "IonImpact_Large"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Ion_Single"
+		projectileTravelEffectName "TurbolaserGreen_Quad"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -181,7 +178,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "PA_Secutor"
+ShieldMeshName "PA_Lucrehulk"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -197,35 +194,35 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 ""
-squadAntiMatterCost:3 24.000000
+squadTypeEntityDef:3 "Alignment_Skipray_Squad"
+squadAntiMatterCost:3 12.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "EVENTPA_SECUTORATTACKTWO"
-SoundID "EVENTPA_SECUTORATTACKTHREE"
-SoundID "EVENTPA_SECUTORATTACKONE"
+SoundID "EVENTIR_ISDIATTACKTWO"
+SoundID "EVENTIR_ISDIATTACKTHREE"
+SoundID "EVENTIR_ISDIATTACKONE"
 NumSoundsFor:ONCREATION 1
-SoundID "EVENTPA_SECUTORSELECTONE"
+SoundID "EVENTIR_ISDISELECTONE"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "EVENTPA_SECUTORMOVETWO"
-SoundID "EVENTPA_SECUTORMOVETHREE"
-SoundID "EVENTPA_SECUTORMOVEONE"
+SoundID "EVENTIR_ISDIMOVETWO"
+SoundID "EVENTIR_ISDIMOVETHREE"
+SoundID "EVENTIR_ISDIMOVEONE"
 NumSoundsFor:ONSELECTED 3
-SoundID "EVENTPA_SECUTORSELECTONE"
-SoundID "EVENTPA_SECUTORSELECTTWO"
-SoundID "EVENTPA_SECUTORSELECTTHREE"
+SoundID "EVENTIR_ISDISELECTONE"
+SoundID "EVENTIR_ISDISELECTTWO"
+SoundID "EVENTIR_ISDISELECTTHREE"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "EVENTPA_SECUTORMOVETWO"
+SoundID "EVENTIR_ISDIMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "PA_Secutor"
+	meshName "PA_Lucrehulk"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 3.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.200000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.031500

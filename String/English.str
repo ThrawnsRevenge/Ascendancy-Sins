@@ -898,6 +898,12 @@ StringInfo
 	ID "IDS_CAPITALSHIP_ISDI_DESCRIPTION"
 	Value "The mainstay of the Imperial fleet and a symbol of the Empire's military might."
 StringInfo
+	ID "IDS_CAPITALSHIP_LUCREHULK_NAME"
+	Value "Lucrehulk"
+StringInfo
+	ID "IDS_CAPITALSHIP_LUCREHULK_DESCRIPTION"
+	Value "A heavily-modified former freighter which saw service as a mainstay of the CIS navy before being relegated to service in merchant fleets."
+StringInfo
 	ID "IDS_CAPITALSHIP_ISDII_NAME"
 	Value "Imperial II Star Destroyer"
 StringInfo

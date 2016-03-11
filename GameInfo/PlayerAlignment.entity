@@ -34,7 +34,7 @@ entities
 	capitalShipInfo
 		Page:0
 			count 5
-			entityDefName "Alignment_ISDI"
+			entityDefName "Alignment_Lucrehulk"
 			entityDefName "Alignment_ISDII"
 			entityDefName "Alignment_Dominator"
 			entityDefName "Alignment_Secutor"
@@ -52,7 +52,7 @@ entities
 			entityDefName "Remnant_Lambda"
 		Page:1
 			count 6
-			entityDefName "Alignment_Vindicator"
+			entityDefName "Remnant_Immobilizer"
 			entityDefName "Alignment_Venator"
 			entityDefName "Alignment_Enforcer"
 			entityDefName "Remnant_VSDI"

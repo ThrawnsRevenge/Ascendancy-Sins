@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "StarBaseConstructor"
 statCountType "FrigateStarBaseConstructor"
-mainViewIcon "MAINVIEWICON_CONSEN"
-picture "PICTURE_FRIGATE_CONSEN"
+mainViewIcon "MAINVIEWICON_SENTINEL_DROPSHIP"
+picture "HUDICON_SENTINEL"
 NameStringID "IDS_FRIGATE_CONSTRUCTOR_NAME"
 DescriptionStringID "IDS_FRIGATE_CONSTRUCTOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -36,7 +36,7 @@ numRandomDebrisLarge 2
 numRandomDebrisSmall 6
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_FRIGATE_CONSEN"
+hudIcon "HUDICON_SENTINEL"
 smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
 infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
 minZoomDistanceMult 2.500000
@@ -50,7 +50,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "EotH_Consen"
+ShieldMeshName "IR_Sentinel"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -78,7 +78,7 @@ SoundID "FRIGATE_TECHSTARBASECONSTRUCTOR_ONSELECTED"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "EotH_Consen"
+	meshName "IR_Sentinel"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

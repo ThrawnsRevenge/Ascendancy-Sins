@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2244
+entityNameCount 2245
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -532,6 +532,7 @@ entityName "Alignment_Gladiator.entity"
 entityName "Alignment_Munificent.entity"
 entityName "Alignment_Secutor.entity"
 entityName "Alignment_Venator.entity"
+entityName "Alignment_Lucrehulk.entity"
 entityName "Alignment_Bellator.entity"
 entityName "Alignment_Procursator.entity"
 entityName "Alignment_StarGalleon.entity"

@@ -33,10 +33,11 @@ entities
 			entityDefName "Remnant_Sovereign"
 	capitalShipInfo
 		Page:0
-			count 4
+			count 5
 			entityDefName "Remnant_ISDI"
 			entityDefName "Remnant_ISDII"
 			entityDefName "Remnant_Altor"
+			entityDefName "Alignment_Dominator"
 			entityDefName "Remnant_Allegiance"	
 	frigateInfo
 		Page:0
@@ -50,7 +51,7 @@ entities
 			entityDefName "Remnant_Lambda"
 		Page:1
 			count 6
-			entityDefName "Remnant_Immobilizer"
+			entityDefName "Alignment_Vindicator"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_MTC"
