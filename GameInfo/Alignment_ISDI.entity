@@ -254,7 +254,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTIR_ISDIMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_ISDI"
+	meshName "PA_Lucrehulk"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
