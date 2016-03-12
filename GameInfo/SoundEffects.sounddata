@@ -1,5 +1,5 @@
 TXT
-numEffects 1011
+numEffects 1014
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -10113,6 +10113,51 @@ effect
 effect
 	name "EVENTIR_ALTORATTACKTHREE"
 	fileName "IR_ALTOR_Attack3.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTEH_BROADCASTSELECTONE"
+	fileName "EH_Broadcast_Select1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTEH_BROADCASTSELECTTWO"
+	fileName "EH_Broadcast_Select2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTEH_BROADCASTSELECTTHREE"
+	fileName "EH_Broadcast_Select3.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255
