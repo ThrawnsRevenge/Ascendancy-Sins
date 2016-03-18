@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 84
+		count 83
 		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_RuralDevelopment"
@@ -127,7 +127,6 @@ entities
 		entityDefName "AlignmentResearch_ShipUnlock_Dominator"
 		entityDefName "AlignmentResearch_ShipUnlock_StarGalleon"
 		entityDefName "AlignmentResearch_ShipUnlock_SkiprayBlastboat"
-		entityDefName "AlignmentResearch_ShipUnlock_V19Torrent"
 		entityDefName "RemnantResearch_ShipUnlock_TIEInterceptor"
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "AlignmentResearch_ShipUnlock_ISDII"
