@@ -37,7 +37,7 @@ entities
 			entityDefName "Remnant_ISDI"
 			entityDefName "Remnant_ISDII"
 			entityDefName "Remnant_Altor"
-			entityDefName "Alignment_Dominator"
+			entityDefName "Remnant_TorpedoSphere"
 			entityDefName "Remnant_Allegiance"	
 	frigateInfo
 		Page:0
@@ -51,7 +51,7 @@ entities
 			entityDefName "Remnant_Lambda"
 		Page:1
 			count 6
-			entityDefName "Alignment_Vindicator"
+			entityDefName "Remnant_Immobilizer"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_MTC"

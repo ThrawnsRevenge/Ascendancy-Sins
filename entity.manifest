@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2245
+entityNameCount 2246
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -372,6 +372,7 @@ entityName "Remnant_VSDI.entity"
 entityName "Remnant_VSDII.entity"
 entityName "Remnant_Immobilizer.entity"
 entityName "Remnant_Altor.entity"
+entityName "Remnant_TorpedoSphere.entity"
 entityName "Remnant_Allegiance.entity"
 entityName "Remnant_Strikecruiser.entity"
 entityName "Remnant_Dreadnaught.entity"

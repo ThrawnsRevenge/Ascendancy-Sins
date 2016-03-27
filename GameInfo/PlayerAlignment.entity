@@ -52,7 +52,7 @@ entities
 			entityDefName "Remnant_Lambda"
 		Page:1
 			count 6
-			entityDefName "Remnant_Immobilizer"
+			entityDefName "Alignment_Vindicator"
 			entityDefName "Alignment_Venator"
 			entityDefName "Alignment_Enforcer"
 			entityDefName "Remnant_VSDI"

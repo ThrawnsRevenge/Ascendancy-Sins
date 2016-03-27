@@ -71,13 +71,13 @@ planetResourceSetupInfo
 	metalResourceAsteroidSetup
 		minCount 2
 		maxCount 2
-		extractionRate 0.550000
+		extractionRate 0.460000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
 		minCount 1
 		maxCount 1
-		extractionRate 0.550000
+		extractionRate 0.460000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
@@ -426,9 +426,9 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 13400.000000
-	metalOnStrippedToTheCore 6700.000000
-	crystalOnStrippedToTheCore 3350.000000
+	creditsOnStrippedToTheCore 5000.000000
+	metalOnStrippedToTheCore 2300.000000
+	crystalOnStrippedToTheCore 1200.000000
 	extraScuttleTimeOnStrip 340.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetSmall"

@@ -71,13 +71,13 @@ planetResourceSetupInfo
 	metalResourceAsteroidSetup
 		minCount 0
 		maxCount 1
-		extractionRate 0.550000
+		extractionRate 0.460000
 		refineryRate 0.000000
 		maxRefineryCount 1
 	crystalResourceAsteroidSetup
 		minCount 2
 		maxCount 4
-		extractionRate 0.550000
+		extractionRate 0.460000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
@@ -414,7 +414,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 6700.000000
+	creditsOnStrippedToTheCore 3000.000000
 	metalOnStrippedToTheCore 500.000000
 	crystalOnStrippedToTheCore 6700.000000
 	extraScuttleTimeOnStrip 200.000000

@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_VIGILANCE_NAME"
 DescriptionStringID "IDS_FRIGATE_VIGILANCE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 250.000000
+	credits 290.000000
 	metal 30.000000
 	crystal 5.000000
 slotCount 2.000000
