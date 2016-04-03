@@ -874,6 +874,12 @@ StringInfo
 	ID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
 	Value "A destroyer which excels at one on one combat with enemy capital ships."
 StringInfo
+	ID "IDS_CAPITALSHIP_SPHERE_NAME"
+	Value "Torpedo Sphere"
+StringInfo
+	ID "IDS_CAPITALSHIP_SPHERE_DESCRIPTION"
+	Value "A large round, although not technically sphereical, capital ship designed to siege planets."
+StringInfo
 	ID "IDS_CAPITALSHIP_PHALANX_NAME"
 	Value "Phalanx Destroyer"
 StringInfo

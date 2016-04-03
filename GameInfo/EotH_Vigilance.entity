@@ -7,15 +7,15 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Lrm"
-statCountType "FrigateLongRange"
+frigateRoleType "Light"
+statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_VIGILANCE_GUNSHIP"
 picture "PICTURE_FRIGATE_VIGILANCE"
 NameStringID "IDS_FRIGATE_VIGILANCE_NAME"
 DescriptionStringID "IDS_FRIGATE_VIGILANCE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 290.000000
+	credits 250.000000
 	metal 30.000000
 	crystal 5.000000
 slotCount 2.000000
