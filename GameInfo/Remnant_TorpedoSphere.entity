@@ -37,7 +37,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
 	projectileTravelEffectName "Proton_Torp"
-mainViewIcon "MAINVIEWICON_ISDI"
+mainViewIcon "MAINVIEWICON_TORPEDOSPHERE"
 basePrice
 	credits 1180.000000
 	metal 100.000000
@@ -84,7 +84,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_ISDI"
+hudIcon "HUDICON_TORPEDOSPHERE"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000

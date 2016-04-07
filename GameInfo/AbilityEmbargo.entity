@@ -46,6 +46,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_EMBARGO_NAME"
 descStringID "IDS_ABILITY_EMBARGO_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_EMBARGO"
-smallHudIcon "HUDICON_ABILITY_EMBARGO"
+hudIcon "HUDABILITYICON_EMBARGO"
+smallHudIcon "HUDABILITYICON_EMBARGO"
 infoCardIcon ""

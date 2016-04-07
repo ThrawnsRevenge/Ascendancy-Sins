@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "MAINVIEWICON_ISDI"
+mainViewIcon "MAINVIEWICON_LUCREHULK"
 basePrice
 	credits 1000.000000
 	metal 100.000000

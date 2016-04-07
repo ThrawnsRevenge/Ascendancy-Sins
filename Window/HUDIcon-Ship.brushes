@@ -1,6 +1,42 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 411
+brushCount 415
+brush
+	name "HUDICON_TORPEDOSPHERE"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 112 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 112 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 112 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 112 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 112 , 202 , 52 , 37 ]
+brush
+	name "HUDICON_LUCREHULK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 57 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 57 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 57 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 57 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 57 , 202 , 52 , 37 ]
 brush
 	name "HUDICON_SYCA"
 	content "States"
@@ -4610,6 +4646,16 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 304 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_LUCREHULK"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 405 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_TORPEDOSPHERE"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 506 , 307 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_FIGHTER_SQUADRON"
 	content "Simple"
