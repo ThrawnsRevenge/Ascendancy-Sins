@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2246
+entityNameCount 2247
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -100,6 +100,7 @@ entityName "EotH_Budirech.entity"
 entityName "EotH_Alaria.entity"
 entityName "EotH_Brask.entity"
 entityName "EotH_Chaf.entity"
+entityName "EotH_Intego.entity"
 entityName "EotH_Nuruodo.entity"
 entityName "EotH_Kariek.entity"
 entityName "EotH_Esseles.entity"
