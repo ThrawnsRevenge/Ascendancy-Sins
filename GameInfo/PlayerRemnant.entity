@@ -64,7 +64,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 94
+		count 95
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -145,6 +145,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
 		entityDefName "RemnantResearch_ShipUnlock_Esseles"
+		entityDefName "RemnantResearch_ShipUnlock_TorpedoSphere"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"

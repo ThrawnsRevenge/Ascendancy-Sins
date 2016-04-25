@@ -75,7 +75,10 @@ NameStringID "IDS_CAPITALSHIP_SPHERE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_SPHERE_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ISDI"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_TorpedoSphere"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

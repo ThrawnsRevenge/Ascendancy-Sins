@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2248
+entityNameCount 2250
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -204,6 +204,7 @@ entityName "EotHResearch_ShipUnlock_Budirech.entity"
 entityName "EotHResearch_ShipUnlock_Alaria.entity"
 entityName "EotHResearch_ShipUnlock_Auriette.entity"
 entityName "EotHResearch_ShipUnlock_Massias.entity"
+entityName "EotHResearch_ShipUnlock_Intego.entity"
 entityName "EotHResearch_ShipUnlock_Warlord.entity"
 entityName "EotHResearch_ShipUnlock_Chaf.entity"
 entityName "EotHResearch_ShipUnlock_Syndic.entity"
@@ -443,6 +444,7 @@ entityName "RemnantResearch_ShipUnlock_EscortCarrier.entity"
 entityName "RemnantResearch_ShipUnlock_Dreadnaught.entity"
 entityName "RemnantResearch_ShipUnlock_VSDI.entity"
 entityName "RemnantResearch_ShipUnlock_VSDII.entity"
+entityName "RemnantResearch_ShipUnlock_TorpedoSphere.entity"
 entityName "RemnantResearch_ShipUnlock_Immobilizer.entity"
 entityName "RemnantResearch_ShipUnlock_MTC.entity"
 entityName "RemnantResearch_ShipUnlock_Sovereign.entity"

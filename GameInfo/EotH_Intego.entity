@@ -79,7 +79,10 @@ NameStringID "IDS_CAPITALSHIP_INTEGO_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_INTEGO_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_INTEGO"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Intego"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

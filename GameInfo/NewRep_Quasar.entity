@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_QUASAR_NAME"
 DescriptionStringID "IDS_FRIGATE_QUASAR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 350.000000
+	credits 400.000000
 	metal 40.000000
 	crystal 15.000000
 slotCount 3.000000
