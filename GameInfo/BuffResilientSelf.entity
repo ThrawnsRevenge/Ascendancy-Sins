@@ -14,9 +14,9 @@ overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate
 		Level:0 100.000000
-		Level:1 100.000000
-		Level:2 100.000000
-		Level:3 100.000000
+		Level:1 150.000000
+		Level:2 200.000000
+		Level:3 250.000000
 numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"

@@ -884,7 +884,13 @@ StringInfo
 	Value "Phalanx Destroyer"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
-	Value "The largest and most powerful ship in the Empire of the Hand's navy."
+	Value "A large ship with an emphasis on speed and firepower at the expense of defenses."
+	StringInfo
+ID "IDS_CAPITALSHIP_INTEGO_NAME"
+	Value "Intego Destroyer"
+StringInfo
+	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
+	Value "The largest ship in the Empire of the Hand's navy, the Intego has less firepower than some of the smaller ships, but a far more resilient hull."
 StringInfo
 	ID "IDS_CAPITALSHIP_ALTOR_NAME"
 	Value "Altor Fleet Tender"

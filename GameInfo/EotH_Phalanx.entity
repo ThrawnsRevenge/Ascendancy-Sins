@@ -105,10 +105,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 5500.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter TRUE
@@ -147,10 +147,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 360.000000
+	DamagePerBank:FRONT 260.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 160.000000
-	DamagePerBank:RIGHT 160.000000
+	DamagePerBank:LEFT 210.000000
+	DamagePerBank:RIGHT 210.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -187,10 +187,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 140.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
+	DamagePerBank:LEFT 140.000000
+	DamagePerBank:RIGHT 140.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE

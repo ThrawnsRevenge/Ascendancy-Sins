@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2247
+entityNameCount 2248
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -660,6 +660,7 @@ entityName "AbilityRhazersEdge.entity"
 entityName "BuffRhazersEdgeSelf.entity"
 entityName "BuffRhazersEdgeTarget.entity"
 entityName "AbilityResilient.entity"
+entityName "AbilityResilientCapital.entity"
 entityName "BuffResilientCheck.entity"
 entityName "BuffResilientPassive.entity"
 entityName "BuffResilientCooldown.entity"
