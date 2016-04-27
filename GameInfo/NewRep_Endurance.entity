@@ -4,7 +4,7 @@ ability:0 "AbilityForcePush"
 ability:1 "AbilitySignalInterference"
 ability:2 "AbilityAlphaStrike"
 ability:3 "AbilityScrambleTransmissions"
-ability:4 "AbilityPassiveLowLifePods"
+ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

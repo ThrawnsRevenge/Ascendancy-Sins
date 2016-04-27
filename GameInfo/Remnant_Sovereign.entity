@@ -4,7 +4,7 @@ ability:0 "AbilitySovereignSuperlaser"
 ability:1 "AbilitySovereignInterdict"
 ability:2 "AbilityMassEffect"
 ability:3 "AbilityCrackMantle"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

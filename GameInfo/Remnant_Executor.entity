@@ -4,7 +4,7 @@ ability:0 "AbilityNumericalSuperiorityExecutor"
 ability:1 "AbilityConcussionBarrage"
 ability:2 "AbilityPowerSymbol"
 ability:3 "AbilityFearAura"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

@@ -143,7 +143,7 @@ ability:0 "AbilityHajenFighters"
 ability:1 "AbilityMTCHangar"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 150.000000
 AntiMatterRestoreRate 1.000000
 cargoType "Invalid"

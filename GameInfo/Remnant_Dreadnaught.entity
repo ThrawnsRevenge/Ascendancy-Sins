@@ -183,7 +183,7 @@ ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
 ability:2 "AbilityEnhancedTargetting"
 ability:3 "AbilityThrawnDoctrine"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

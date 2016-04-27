@@ -4,7 +4,7 @@ ability:0 "AbilityTractorBeam"
 ability:1 "AbilityImperialFuror"
 ability:2 "AbilityCloseQuarters"
 ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

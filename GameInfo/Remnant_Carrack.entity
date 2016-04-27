@@ -180,7 +180,7 @@ ability:0 ""
 ability:1 "AbilityIonicDisruption"
 ability:2 ""
 ability:3 "AbilityThrawnDoctrine"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

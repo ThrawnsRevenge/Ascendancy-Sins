@@ -4,7 +4,7 @@ ability:0 "AbilityOverwhelmCapital"
 ability:1 "AbilityTargetHangar"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLifePods"
+ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

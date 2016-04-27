@@ -4,7 +4,7 @@ ability:0 "AbilityConsumeShip"
 ability:1 "AbilityReconstructShip"
 ability:2 "AbilityDebrisVacuum"
 ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

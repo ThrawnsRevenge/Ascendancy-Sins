@@ -220,7 +220,7 @@ ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityEnhancedTargetting"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 12.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

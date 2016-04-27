@@ -4,7 +4,7 @@ ability:0 "AbilityPhalanxMicroJump"
 ability:1 "AbilityTargetHangar"
 ability:2 "AbilityCloak"
 ability:3 "AbilityKineticMegamaser"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

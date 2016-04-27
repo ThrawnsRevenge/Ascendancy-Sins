@@ -4,7 +4,7 @@ ability:0 "AbilityISDColonize"
 ability:1 "AbilityEmbargo"
 ability:2 "AbilityBulwark"
 ability:3 "AbilityNumericalSuperiority"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

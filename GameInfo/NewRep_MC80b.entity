@@ -4,7 +4,7 @@ ability:0 "AbilityForcePull"
 ability:1 "AbilityPowerToShieldsCapital"
 ability:2 "AbilityReflectiveShields"
 ability:3 "AbilityIonBlast"
-ability:4 "AbilityPassiveLowLifePods"
+ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

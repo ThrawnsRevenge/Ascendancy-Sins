@@ -4,7 +4,7 @@ ability:0 "AbilityISDColonize"
 ability:1 "AbilityProbeDroids"
 ability:2 "AbilityTractorBeam"
 ability:3 "AbilityOverwhelmCapital"
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

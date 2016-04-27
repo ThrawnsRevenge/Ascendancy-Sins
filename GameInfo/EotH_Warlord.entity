@@ -184,7 +184,7 @@ ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityProtonSplit"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 200.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

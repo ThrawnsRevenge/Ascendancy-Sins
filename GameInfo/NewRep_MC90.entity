@@ -4,7 +4,7 @@ ability:0 "AbilityShieldAegis"
 ability:1 "AbilityForcePull"
 ability:2 "AbilityPowerToShieldsCapital"
 ability:3 "AbilityCloseQuarters"
-ability:4 "AbilityPassiveLowLifePods"
+ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

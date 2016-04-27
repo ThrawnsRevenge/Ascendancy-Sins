@@ -4,7 +4,7 @@ ability:0 "AbilityShieldRestore"
 ability:1 ""
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLifePods"
+ability:4 "AbilityPassiveLowLifePodsSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
