@@ -337,7 +337,7 @@ numFactionWindows 4
 		sharedCapitalShipsStartPosition [210, 610]
 		spaceBetweenSharedCapitalShips 10
 			sharedCapitalShipOne "Alignment_Dominator"
-			sharedCapitalShipTwo "Alignment_ISDI"
+			sharedCapitalShipTwo "Alignment_Lucrehulk"
 			sharedCapitalShipThree "Alignment_ISDII"
 			sharedCapitalShipFour "Alignment_Praetor"
 			sharedCapitalShipFive "Alignment_Secutor"
