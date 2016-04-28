@@ -2,7 +2,7 @@ TXT
 numMusic 133
 music
 	name "MUSIC_FRONTEND"
-	fileName "M_War.ogg"
+	fileName "M_Menu.ogg"
 	isLooping FALSE
 	actionLevel 0.5
 	actionRange 0.5

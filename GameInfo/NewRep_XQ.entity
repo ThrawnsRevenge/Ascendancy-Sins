@@ -3,7 +3,7 @@ entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
 ability:0 "AbilityRepairPlatformRemnant"
 ability:1 "AbilityRemnantFighters"
-ability:2 ""
+ability:2 "AbilityMothball"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 300.000000

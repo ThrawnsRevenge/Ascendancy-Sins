@@ -1,5 +1,5 @@
 TXT
-NumStrings 8434
+NumStrings 8436
 StringInfo
 	ID "IDS_FRIGATE_STARHOME_NAME"
 	Value "Star Home"
@@ -24,6 +24,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
 	Value "Installs upgraded weapons on the target allied ship."
+StringInfo
+	ID "IDS_ABILITY_MOTHBALL_NAME"
+	Value "Mothball"
+StringInfo
+	ID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
+	Value "Disables the target owned ship, removing upkeep costs but also shutting off all major systems. This ability can be re-used to reactivate the ship."
 StringInfo
 	ID "IDS_ABILITY_UPGRADEDEFENSES_NAME"
 	Value "Upgrade Defenses"

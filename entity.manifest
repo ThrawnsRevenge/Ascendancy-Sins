@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2270
+entityNameCount 2273
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"
@@ -779,6 +779,9 @@ entityName "AbilityPowerSymbol.entity"
 entityName "AbilityAltorProtect.entity"
 entityName "AbilityImAnEscapePod.entity"
 entityName "BuffImAnEscapePod.entity"
+entityName "AbilityMothball.entity"
+entityName "BuffMothball.entity"
+entityName "BuffMothballToggle.entity"
 entityName "AbilityEmpressRestore.entity"
 entityName "BuffEmpressRestore.entity"
 entityName "BuffAfterburn.entity"
