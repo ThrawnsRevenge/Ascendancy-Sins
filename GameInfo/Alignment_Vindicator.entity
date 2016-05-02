@@ -31,7 +31,7 @@ maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Immobilizer"
+		Subject "AlignmentResearch_ShipUnlock_Vindicator"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
