@@ -1,5 +1,5 @@
 TXT
-brushFileCount 29
+brushFileCount 33
 brushFile "Achievements.brushes"
 brushFile "GameEvent.brushes"
 brushFile "GameOver.brushes"
@@ -29,3 +29,7 @@ brushFile "Picture-Ship.brushes"
 brushFile "Screen-FrontEnd.brushes"
 brushFile "Screen-Generic.brushes"
 brushFile "Screen-InGame.brushes"
+brushFile "AscendancyMenuButtons.brushes"
+brushFile "AscendancySingleButtons.brushes"
+brushFile "AscendancyBackdrops.brushes"
+brushFile "AscendancyUI.brushes"

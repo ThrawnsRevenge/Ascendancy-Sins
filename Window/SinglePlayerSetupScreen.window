@@ -1,64 +1,64 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [ 55 , 97]
-	buttonSize [ 175 , 57 ]
+	buttonTopLeftOffset [ 100 , 97]
+	buttonSize [ 75 , 75 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSSinglePlayerSetupScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [50, 40, 190, 40]	
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 220, 808]
+	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 808]
+	contentArea [310, 0, 714, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -25
+		textOffsetFromLeft 100
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"							
+		iconOffsetFromLeft -25
+		textOffsetFromLeft 100
+		underlay "AscendancyMenuButtonActive"
+		overlay "MenuButtonOverlay"
 	closeButton
-		area [55, 724, 170 , 46]
+		area [100, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"					
+		textOffsetFromLeft 0
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
 		icon "ScreenBackButton"
-		text "IDSOptionsScreenBackButton"
+		text "NO_TEXT"
 newGame
 	tabButtonIcon "SinglePlayerSetupScreenNewGameTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenNewGameTabButton"
 	galaxySetupWindow
 		area [50, 100, 700, 700]
 	playNewGameButton
-		area [520, 700, 220 , 46]
+		area [200, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "Null"				
+		textOffsetFromLeft 0
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "Null"
 		icon "SinglePlayerSetupScreenPlayNewGameButton"
-		text "IDSSinglePlayerSetupScreenPlayNewGameButton"	
+		text "NO_TEXT"
 loadSavedGame
 	tabButtonIcon "SinglePlayerSetupScreenLoadSavedGameTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"
 	fileNameListLabel
-		area [50, 110 , 220, 30]
-		fontId "WindowSubTitle"
+		area [50, 90 , 220, 30]
+		fontId "ButtonLabel"
 	fileNameList
-		area [50 , 152 , 220, 510]
+		area [50 , 122 , 220, 510]
 		itemGap 3
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
@@ -68,19 +68,19 @@ loadSavedGame
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "SinglePlayerSetupScreenLoadGameButton"
-		text "IDSSinglePlayerSetupScreenLoadGameButton"	
+		text "IDSSinglePlayerSetupScreenLoadGameButton"
 	galaxyInfoWindow
-		area [285, 152, 455, 254]
+		area [285	, 122, 700, 700]
 loadRecordedGame
 	tabButtonIcon "SinglePlayerSetupScreenLoadRecordedGameTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenLoadRecordedGameTabButton"
 	fileNameListLabel
-		area [50, 110, 220, 30]
-		fontId "WindowSubTitle"
+		area [50, 90 , 220, 30]
+		fontId "ButtonLabel"
 	fileNameList
-		area [50 ,152, 220, 510]
+		area [50 , 122 , 220, 510]
 		itemGap 3
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
@@ -90,11 +90,11 @@ loadRecordedGame
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "SinglePlayerSetupScreenWatchGameButton"
-		text "IDSSinglePlayerSetupScreenWatchGameButton"	
+		text "IDSSinglePlayerSetupScreenWatchGameButton"
 	galaxyInfoWindow
-		area [285, 152, 455, 254]			
+		area [285, 152, 455, 254]
 tutorial
 	tabButtonIcon "SinglePlayerSetupScreenTutorialTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenTutorialTabButton"
@@ -108,34 +108,34 @@ tutorial
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonBasicGameplay"
-		text "IDSGalaxyTutorialTypeButtonBasicGameplay"			
+		text "IDSGalaxyTutorialTypeButtonBasicGameplay"
 	resourcingButton
 		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonResourcing"
-		text "IDSGalaxyTutorialTypeButtonResourcing"			
+		text "IDSGalaxyTutorialTypeButtonResourcing"
 	advancedInterfaceButton
 		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"		
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonAdvancedInterface"
-		text "IDSGalaxyTutorialTypeButtonAdvancedInterface"			
+		text "IDSGalaxyTutorialTypeButtonAdvancedInterface"
 	advancedLogisticsButton
 		area [9999, 9999, 9999 , 9999]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonAdvancedResourcing"
 		text "IDSGalaxyTutorialTypeButtonAdvancedResourcing"
 	advancedDefenseButton
@@ -144,7 +144,7 @@ tutorial
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonAdvancedDefense"
 		text "IDSGalaxyTutorialTypeButtonAdvancedDefense"
 	diplomacyButton
@@ -153,7 +153,7 @@ tutorial
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 55
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "GalaxyTutorialTypeButtonAdvancedDiplomacy"
 		text "IDSGalaxyTutorialTypeButtonDiplomacy"
 playerSetup

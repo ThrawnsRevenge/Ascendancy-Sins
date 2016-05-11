@@ -1,7 +1,7 @@
 TXT
 versionNumber 4
 isBrowsable FALSE
-browsePictureName ""
+browsePictureName "AscendancyScenarioPlaceholder"
 browseName ""
 browseDescription ""
 isFirstCapitalShipIsFlagship FALSE
@@ -32,11 +32,11 @@ randomizerParams
 	playerParams
 		startingCredits 3000
 		startingMetal 800
-		startingCrystal 250	
+		startingCrystal 250
 		homePlanetType ""
 		homePlanetStarRadiusRange
 			minPercentage 1
-			maxPercentage 1			
+			maxPercentage 1
 		areExtraPlanetsColonized FALSE
 		extraPlanetsMaxRadius 10
 		extraPlanetsRadiusRange
@@ -85,4 +85,4 @@ starCount 1
 				minCount 7
 				maxCount 7
 				planetTypeCount 1
-				planetType "Ice"								
+				planetType "Ice"

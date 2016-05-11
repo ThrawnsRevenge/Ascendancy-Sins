@@ -1,12 +1,12 @@
 TXT
-backdrop "SinglePlayerGameLobbyScreenBackdrop"
+backdrop "AscendancyBackdropMenuSinglePlayer"
 backButton
 	area [59, 651, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "ScreenBackButton"
 	text "IDSSinglePlayerGameLobbyScreenBackButton"
 startGameButton
@@ -15,7 +15,7 @@ startGameButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "SinglePlayerGameLobbyScreenStartGameButton"
 	text "IDSSinglePlayerGameLobbyScreenStartGameButton"
 openGameOptionsDialogButton
@@ -24,7 +24,7 @@ openGameOptionsDialogButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OpenGameOptionsDialog"
 	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
 openVictoryOptionsDialogButton
@@ -33,7 +33,7 @@ openVictoryOptionsDialogButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OpenGameOptionsDialog"
 	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
 playerSetupWindow

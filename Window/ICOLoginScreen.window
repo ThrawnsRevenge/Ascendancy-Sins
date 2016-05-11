@@ -7,7 +7,7 @@ tabWindow
 	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
 	titleStringId "IDSICOLoginScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 40, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
 	buttonsBackdropArea [0, 0, 210, 808]
@@ -15,26 +15,26 @@ tabWindow
 	contentArea [230, 0, 814, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuInternetGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 40
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 40
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"						
+		overlay "MenuButtonOverlay"
 	closeButton
 		area [33, 724, 170 , 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 40
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"				
+		overlay "MenuButtonOverlay"
 		icon "ScreenBackButton"
 		text "IDSICOLoginScreenCloseButton"
 textEntryDef
@@ -57,16 +57,16 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenAddAccountButton"
-		text "IDSICOLoginScreenAddAccountButton"	
+		text "IDSICOLoginScreenAddAccountButton"
 	loginButton
 		area [50, 256, 220 , 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenLoginButton"
 		text "IDSICOLoginScreenLoginButton"
 	logoutButton
@@ -75,7 +75,7 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ScreenBackButton"
 		text "IDSICOLoginScreenLogoutButton"
 	playerListLabel
@@ -91,7 +91,7 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenManageAccountButton"
 		text "IDSICOLoginScreenManageAccountButton"
 	recoverPasswordButton
@@ -100,7 +100,7 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenRecoverPasswordButton"
 		text "IDSICOLoginScreenRecoverPasswordButton"
 	recoverCommandLine "RecoverPassword.bat"
@@ -111,7 +111,7 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenAddPlayerButton"
 		text "IDSICOLoginScreenAddPlayerButton"
 	removePlayerButton
@@ -120,16 +120,16 @@ loginContentWindow
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenRemovePlayerButton"
-		text "IDSICOLoginScreenRemovePlayerButton"		
+		text "IDSICOLoginScreenRemovePlayerButton"
 	usePlayerButton
 		area [520, 672, 220, 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 22
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "ICOLoginScreenUsePlayerButton"
 		text "IDSICOLoginScreenUsePlayerButton"
 	isAccountNameSavedCheckBoxDef
@@ -138,10 +138,10 @@ loginContentWindow
 		textLeftOffset 40
 		boxBackdrop "CheckBoxBackdrop"
 		boxOverlayWhenOn "CheckBoxCheckStateTrue"
-		boxOverlayWhenOff ""		
+		boxOverlayWhenOff ""
 	isAccountNameSavedCheckBox
 		area [285, 260, 200, 30]
-		text "IDSICOLoginScreenIsAccountNameSavedCheckBox"				
+		text "IDSICOLoginScreenIsAccountNameSavedCheckBox"
 	icoStatusDisplayWindow
 		area [50, 110, 220, 30]
 		fontId "NetworkConnectionStatus"

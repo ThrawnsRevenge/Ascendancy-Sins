@@ -14,7 +14,7 @@ textListDef
 	backdropBrush "ListWindowBackdrop"
 	itemSelectedBackdropBrush "ListWindowSelectedItem"
 screenButtonDef
-	offsetWhenPressed [1, 1]	
+	offsetWhenPressed [1, 1]
 	textColorWhenDisabled ff555555
 horizontalScrollBarDef
 	backdrop "ScrollBarHorizontal"
@@ -28,7 +28,7 @@ verticalScrollBarDef
 	backdrop "ScrollBarVertical"
 	thumb "ScrollBarVerticalThumb"
 	thumbDragging "ScrollBarVerticalThumbDragging"
-	thumbOverlay "ScrollBarVerticalThumbOverlay"
-	thumbOverlayDragging "ScrollBarVerticalThumbOverlayDragging"
-	beginArrow "ScrollBarVerticalBeginArrow"
-	endArrow "ScrollBarVerticalEndArrow"
+	thumbOverlay "AscendancyVerticalScrollCursor"
+	thumbOverlayDragging "AscendancyVerticalScrollDraggingCursor"
+	beginArrow "AscendancyVerticalScrollUpArrow"
+	endArrow "AscendancyVerticalScrollDownArrow"

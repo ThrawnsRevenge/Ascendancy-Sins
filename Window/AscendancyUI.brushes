@@ -1,0 +1,67 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 5
+brush
+  name "AscendancyScenarioPictureUnderlay"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 0 , 23 , 400 , 300 ]
+brush
+  name "AscendancyVerticalScrollCursor"
+	content "States"
+	Disabled
+		fileName "AscendancyUI"
+		pixelBox [ 27 , 0 , 9 , 23 ]
+	Pressed
+		fileName "AscendancyUI"
+		pixelBox [ 18 , 0 , 9 , 23 ]
+	CursorOver
+		fileName "AscendancyUI"
+		pixelBox [ 9 , 0 , 9 , 23 ]
+	Focused
+		fileName "AscendancyUI"
+		pixelBox [ 9 , 0 , 9 , 23 ]
+	Normal
+		fileName "AscendancyUI"
+		pixelBox [ 0 , 0 , 9 , 23 ]
+brush
+  name "AscendancyVerticalScrollDraggingCursor"
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 18 , 0 , 9 , 23 ]
+brush
+  name "AscendancyVerticalScrollUpArrow"
+	content "States"
+	Disabled
+		fileName "AscendancyUI"
+		pixelBox [ 69 , 0 , 11 , 11 ]
+	Pressed
+		fileName "AscendancyUI"
+		pixelBox [ 59 , 0 , 11 , 11 ]
+	CursorOver
+		fileName "AscendancyUI"
+		pixelBox [ 48 , 0 , 11 , 11 ]
+	Focused
+		fileName "AscendancyUI"
+		pixelBox [ 48 , 0 , 11 , 11 ]
+	Normal
+		fileName "AscendancyUI"
+		pixelBox [ 37 , 0 , 11 , 11 ]
+brush
+  name "AscendancyVerticalScrollDownArrow"
+	content "States"
+	Disabled
+		fileName "AscendancyUI"
+		pixelBox [ 69 , 12 , 11 , 11 ]
+	Pressed
+		fileName "AscendancyUI"
+		pixelBox [ 59 , 12 , 11 , 11 ]
+	CursorOver
+		fileName "AscendancyUI"
+		pixelBox [ 48 , 12 , 11 , 11 ]
+	Focused
+		fileName "AscendancyUI"
+		pixelBox [ 48 , 12 , 11 , 11 ]
+	Normal
+		fileName "AscendancyUI"
+		pixelBox [ 37 , 12 , 11 , 11 ]

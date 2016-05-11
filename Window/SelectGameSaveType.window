@@ -1,13 +1,13 @@
 TXT
 changeTypeButton
-	area [0, 0, 220, 44]
+	area [35, -31, 150, 50]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
-	icon "SelectGameSaveTypeWindowChangeTypeButton"
-	text "IDSSelectGameSaveTypeWindowChangeTypeButton"
+	underlay "AscendancySingleButtonLeftRightMouse150_50"
+	overlay "Null"
+	icon "Null"
+	text "NO_TEXT"
 labelText-SavedSinglePlayer "IDSSelectGameSaveTypeWindowLabelTextSavedSinglePlayer"
 labelText-SavedMultiPlayer "IDSSelectGameSaveTypeWindowLabelTextSavedMultiPlayer"
 labelText-AutoSavedSinglePlayer "IDSSelectGameSaveTypeWindowLabelTextAutoSavedSinglePlayer"

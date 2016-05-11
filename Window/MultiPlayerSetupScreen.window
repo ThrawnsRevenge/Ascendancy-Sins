@@ -7,7 +7,7 @@ tabWindow
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSMultiPlayerSetupScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 40, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
 	buttonsBackdropArea [0, 0, 210, 808]
@@ -15,26 +15,26 @@ tabWindow
 	contentArea [230, 0, 814, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuNetworkGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"						
+		overlay "MenuButtonOverlay"
 	closeButton
 		area [33, 724, 170 , 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 50
 		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"				
+		overlay "MenuButtonOverlay"
 		icon "ScreenBackButton"
   		text "IDSMultiPlayerSetupScreenBackButton"
 sharedScreenTextEntryDef
@@ -53,9 +53,9 @@ newGameContentWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"			
+		overlay "ScreenButtonOverlayLarge"
 		icon "MultiPlayerSetupScreenPlayNewGameButton"
-		text "IDSMultiPlayerSetupScreenPlayNewGameButton"	
+		text "IDSMultiPlayerSetupScreenPlayNewGameButton"
 loadGameContentWindow
 	tabButtonIcon "MultiPlayerSetupScreenLoadGameTabButton"
 	tabButtonText "IDSMultiPlayerSetupScreenLoadGameTabButton"
@@ -75,15 +75,15 @@ loadGameContentWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "MultiPlayerSetupScreenLoadGameButton"
-		text "IDSMultiPlayerSetupScreenLoadGameButton"	
+		text "IDSMultiPlayerSetupScreenLoadGameButton"
 	galaxyInfoWindow
-		area [285, 152, 455, 254]	
+		area [285, 152, 455, 254]
 joinGameContentWindow
 	tabButtonIcon "MultiPlayerSetupScreenJoinGameTabButton"
 	tabButtonText "IDSMultiPlayerSetupScreenJoinGameTabButton"
-	hostAddressTextEntry	
+	hostAddressTextEntry
 		area [285, 600, 455, 30]
 		labelWidth 110
 		labelText "IDSMultiPlayerSetupScreenHostAddress"
@@ -104,7 +104,7 @@ joinGameContentWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"					
+		overlay "ScreenButtonOverlayLarge"
 		icon "MultiPlayerSetupScreenGameResetGameBroadcast"
 		text "IDSMultiPlayerSetupScreenGameResetGameBroadcast"
 	joinGameButton
@@ -113,9 +113,9 @@ joinGameContentWindow
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 70
 		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		overlay "ScreenButtonOverlayLarge"
 		icon "MultiPlayerSetupScreenJoinGameButton"
-		text "IDSMultiPlayerSetupScreenJoinGameButton"	
+		text "IDSMultiPlayerSetupScreenJoinGameButton"
 playerSetupContentWindow
 	tabButtonIcon "MultiPlayerSetupScreenPlayerSetupTabButton"
 	tabButtonText "IDSMultiPlayerSetupScreenPlayerSetupTabButton"
@@ -124,4 +124,3 @@ galaxyRandomizer
 	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
 	galaxyRandomizerWindow
 		area [50, 48, 700, 700]
-

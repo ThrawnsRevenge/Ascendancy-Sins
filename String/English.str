@@ -1,5 +1,5 @@
 TXT
-NumStrings 8436
+NumStrings 8554
 StringInfo
 	ID "IDS_FRIGATE_STARHOME_NAME"
 	Value "Star Home"
@@ -1322,19 +1322,19 @@ StringInfo
 	Value "Inspire"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DAMAGEUPGRADE_DESCRIPTION"
-	Value "New Republic ships do more damage in their own culture."	
+	Value "New Republic ships do more damage in their own culture."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CULTURECOST_NAME"
 	Value "Mass Culture"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CULTURECOST_DESCRIPTION"
-	Value "Reduces the cost of all culture centers."	
+	Value "Reduces the cost of all culture centers."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_NAME"
 	Value "Open Arms"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_DESCRIPTION"
-	Value "Enemy ships have a chance to defect to your fleet while leaving New Republic worlds."	
+	Value "Enemy ships have a chance to defect to your fleet while leaving New Republic worlds."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DEVELOPMENTPROJECTS_NAME"
 	Value "Development Projects"
@@ -2426,172 +2426,172 @@ StringInfo
 	Value "Ship Designs"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ISDII_NAME"
-	Value "Imperial Star Destroyer Mk. II"	
+	Value "Imperial Star Destroyer Mk. II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ISDII_DESCRIPTION"
-	Value "Grants access to the ISDII."	
+	Value "Grants access to the ISDII."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VSDII_NAME"
-	Value "Victory Star Destroyer Mk. II"	
+	Value "Victory Star Destroyer Mk. II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VSDII_DESCRIPTION"
-	Value "Grants access to the VSDII."	
+	Value "Grants access to the VSDII."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_NAME"
-	Value "Fleet Tender: MTC"	
+	Value "Fleet Tender: MTC"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MTC_DESCRIPTION"
 	Value "Grants access to the Modular Taskforce Cruiser, which can resupply and repair ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_NAME"
-	Value "Venator"	
+	Value "Venator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VENATOR_DESCRIPTION"
-	Value "Grants access to the Venator."	
+	Value "Grants access to the Venator."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_NAME"
-	Value "Enforcer"	
+	Value "Enforcer"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ENFORCER_DESCRIPTION"
-	Value "Grants access to the Enforcer."	
+	Value "Grants access to the Enforcer."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-	Value "Munificent"	
+	Value "Munificent"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_DESCRIPTION"
 	Value "Grants access to the Munificent."
 StringInfo
 	ID "IDS_TITAN_UNLOCK_BELLATOR_NAME"
-	Value "Bellator"	
+	Value "Bellator"
 StringInfo
 	ID "IDS_TITAN_UNLOCK_BELLATOR_DESCRIPTION"
 	Value "Grants access to the Bellator."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SECUTOR_NAME"
-	Value "Secutor"	
+	Value "Secutor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SECUTOR_DESCRIPTION"
 	Value "Grants access to the Secutor."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_PROCURSATOR_NAME"
-	Value "Procursator"	
+	Value "Procursator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_PROCURSATOR_DESCRIPTION"
 	Value "Grants access to the Procursator."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_DOMINATOR_NAME"
-	Value "Dominator"	
+	Value "Dominator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_DOMINATOR_DESCRIPTION"
-	Value "Grants access to the Dominator."		
+	Value "Grants access to the Dominator."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_NAME"
-	Value "Fleet Tender: Star Galleon"	
+	Value "Fleet Tender: Star Galleon"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STARGALLEON_DESCRIPTION"
-	Value "Grants access to the Star Galleon, which can resupply and repair ships."	
+	Value "Grants access to the Star Galleon, which can resupply and repair ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_NAME"
-	Value "Skipray Blastboat"	
+	Value "Skipray Blastboat"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SKIPRAYBLASTBOAT_DESCRIPTION"
-	Value "Grants access to the Skipray Blastboat."		
+	Value "Grants access to the Skipray Blastboat."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_NAME"
-	Value "V-19 Torrent"	
+	Value "V-19 Torrent"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_V19TORRENT_DESCRIPTION"
-	Value "Grants access to the V-19 Torrent."				
+	Value "Grants access to the V-19 Torrent."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_NAME"
-	Value "Scimitar Assault Bomber"	
+	Value "Scimitar Assault Bomber"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_SCIMITAR_DESCRIPTION"
-	Value "Grants access to the Scimitar Assault Bomber."	
+	Value "Grants access to the Scimitar Assault Bomber."
 StringInfo
 	ID "IDS_SCIMITAR_NAME"
-	Value "Scimitar Bomber"	
+	Value "Scimitar Bomber"
 StringInfo
 	ID "IDS_SCIMITAR_DESC"
-	Value "A heavy fighter which excels at assaulting capital ships."	
+	Value "A heavy fighter which excels at assaulting capital ships."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_NAME"
-	Value "Galaxy Gun Constructor"	
+	Value "Galaxy Gun Constructor"
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_DESCRIPTION"
 	Value "Calls in a constructor which can build the galaxy gun. Can only be used once."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
-	Value "Galaxy Gun"	
+	Value "Galaxy Gun"
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_DESCRIPTION"
 	Value "Begins construction on the Galaxy Gun."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_NAME"
-	Value "Strike Cruiser"	
+	Value "Strike Cruiser"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_DESCRIPTION"
-	Value "Grants access to the Strike Cruiser."	
+	Value "Grants access to the Strike Cruiser."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_TIEINTERCEPTOR_NAME"
-	Value "TIE Interceptor"	
+	Value "TIE Interceptor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_TIEINTERCEPTOR_DESCRIPTION"
-	Value "Grants access to the TIE Interceptor."	
+	Value "Grants access to the TIE Interceptor."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VINDICATOR_NAME"
-	Value "Vindicator Cruiser"	
+	Value "Vindicator Cruiser"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_VINDICATOR_DESCRIPTION"
-	Value "Grants access to the Vindicator Cruiser."	
+	Value "Grants access to the Vindicator Cruiser."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ALTOR_NAME"
-	Value "Altor"	
+	Value "Altor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ALTOR_DESCRIPTION"
-	Value "Grants access to the Altor Fleet Tender."	
+	Value "Grants access to the Altor Fleet Tender."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_DREADNAUGHT_NAME"
-	Value "Dreadnaught Heavy Cruiser"	
+	Value "Dreadnaught Heavy Cruiser"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_DREADNAUGHT_DESCRIPTION"
-	Value "Grants access to the Dreadnaught."	
+	Value "Grants access to the Dreadnaught."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_NAME"
-	Value "Ton-Falk Carrier"	
+	Value "Ton-Falk Carrier"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_ESCORTCARRIER_DESCRIPTION"
 	Value "Grants access to the Ton-Falk Escort Carrier."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_EXECUTOR_NAME"
-	Value "Executor"	
+	Value "Executor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_EXECUTOR_DESCRIPTION"
-	Value "Grants access to the Executor."		
+	Value "Grants access to the Executor."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_IMMOBILIZER_NAME"
-	Value "Immobilizer-418"	
+	Value "Immobilizer-418"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_IMMOBILIZER_DESCRIPTION"
 	Value "Grants access to the Immobilizer-418."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GOLANII_NAME"
-	Value "Golan II"	
+	Value "Golan II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GOLANII_DESCRIPTION"
-	Value "Grants access to the Golan II."	
+	Value "Grants access to the Golan II."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GOLANIII_NAME"
-	Value "Golan III"	
+	Value "Golan III"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GOLANIII_DESCRIPTION"
-	Value "Grants access to the Golan III."	
+	Value "Grants access to the Golan III."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_NAME"
-	Value "Galaxy Gun"	
+	Value "Galaxy Gun"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_GALAXYGUN_DESCRIPTION"
-	Value "A large stationary cannon capable of destroying an entire planet. Only available when enabled in pregame options."		
+	Value "A large stationary cannon capable of destroying an entire planet. Only available when enabled in pregame options."
 StringInfo
 	ID "IDSPlayerAINameTech0"
 	Value "Han Solo"
@@ -21689,31 +21689,31 @@ StringInfo
 	Value "SINGLE PLAYER"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenBackButton"
-	Value "Back"
+	Value "MAIN MENU"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenNewGameTabButton"
-	Value "New Game"
+	Value "NEW GAME"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"
-	Value "Load Game"
+	Value "LOAD GAME"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadRecordedGameTabButton"
-	Value "Watch Game"
+	Value "WATCH GAME"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenTutorialTabButton"
-	Value "Tutorials"
+	Value "TUTORIALS"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenTutorialTitle"
 	Value "Tutorials"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayerSetupTabButton"
-	Value "Player Setup"
+	Value "PLAYER SETUP"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
-	Value "Map Designer"
+	Value "MAP DESIGNER"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenAchievementsTabButton"
-	Value "Achievements"
+	Value "ACHIEVEMENTS"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayNewGameButton"
 	Value "Play"
@@ -22265,22 +22265,22 @@ StringInfo
 	Value "Back"
 StringInfo
 	ID "IDSOptionsScreenSoundOptionsTabButton"
-	Value "Sound"
+	Value "SOUND"
 StringInfo
 	ID "IDSOptionsScreenVideoOptionsTabButton"
-	Value "Video"
+	Value "VIDEO"
 StringInfo
 	ID "IDSOptionsScreenEffectOptionsTabButton"
-	Value "Effects"
+	Value "EFFECTS"
 StringInfo
 	ID "IDSOptionsScreenKeyBindingsTabButton"
-	Value "Key Bindings"
+	Value "KEY BINDINGS"
 StringInfo
 	ID "IDSOptionsScreenManageModsTabButton"
-	Value "Mods"
+	Value "MODIFICATIONS"
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsTabButton"
-	Value "User Interface"
+	Value "USER INTERFACE"
 StringInfo
 	ID "IDSOptionsScreenKeyBindingsResetAllMappings"
 	Value "Reset All"
@@ -23114,16 +23114,16 @@ StringInfo
 	Value "Change Save Type"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextSavedSinglePlayer"
-	Value "Single-Player Saved Games"
+	Value "GAME TYPE > SINGLE PLAYER"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextSavedMultiPlayer"
-	Value "Multiplayer Saved Games"
+	Value "GAME TYPE > MULTIPLAYER"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextAutoSavedSinglePlayer"
-	Value "Single-Player Auto-Saved Games"
+	Value "GAME TYPE > SINGLE PLAYER AUTOSAVED"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextAutoSavedMultiPlayer"
-	Value "Multiplayer Auto-Saved Games"
+	Value "GAME TYPE > MULTIPLAYER AUTOSAVED"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextSteamSinglePlayer"
 	Value "Steam Single-Player"
@@ -23132,22 +23132,22 @@ StringInfo
 	Value "Steam Multiplayer"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextRecordedSinglePlayer"
-	Value "Single-Player Recorded Games"
+	Value "GAME TYPE > SINGLE PLAYER"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextRecordedMultiPlayer"
-	Value "Multiplayer Recorded Games"
+	Value "GAME TYPE > MULTIPLAYER"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextAutoRecordedSinglePlayer"
-	Value "Single-Player Auto-Recorded Games"
+	Value "GAME TYPE > SINGLE PLAYER AUTO RECORDED"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextAutoRecordedMultiPlayer"
-	Value "Multiplayer Auto-Recorded Games"
+	Value "GAME TYPE > MULTIPLAYER AUTO RECORDED"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextCloudSavedSinglePlayer"
-	Value "Cloud Saved Single-Player Games"
+	Value "GAME TYPE > SINGLE PLAYER CLOUD"
 StringInfo
 	ID "IDSSelectGameSaveTypeWindowLabelTextCloudSavedMultiPlayer"
-	Value "Cloud Saved Multiplayer Games"
+	Value "GAME TYPE > MULTIPLAYER CLOUD"
 StringInfo
 	ID "IDSGalaxyTutorialTypeButtonBasicGameplay"
 	Value "Basic Gameplay"
@@ -23174,19 +23174,19 @@ StringInfo
 	Value "Password:"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInSmall"
-	Value "Small Maps"
+	Value "MAP TYPE > SMALL"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInMedium"
-	Value "Medium Maps"
+	Value "MAP TYPE > MEDIUM"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInLarge"
-	Value "Large Maps"
+	Value "MAP TYPE > LARGE"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelUserGenerated"
-	Value "Map Designer"
+	Value "MAP TYPE > DESIGNER"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelGalaxyForge"
-	Value "Galaxy Forge"
+	Value "MAP TYPE > GALAXY FORGE"
 StringInfo
 	ID "IDSGameOptionsDialogTitle"
 	Value "Game Options"
@@ -23195,10 +23195,10 @@ StringInfo
 	Value "Victory Options"
 StringInfo
 	ID "IDSGameOptionsAreTeamsLockedTrue"
-	Value "Locked Teams"
+	Value "LOCKED TEAMS"
 StringInfo
 	ID "IDSGameOptionsAreTeamsLockedFalse"
-	Value "Unlocked Teams"
+	Value "LOCKED TEAMS"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveTrue"
 	Value "Pirates Active"
@@ -23213,97 +23213,97 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "Galaxy Gun: On"
+	Value "GALAXY GUN"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "Galaxy Gun: Off"
+	Value "GALAXY GUN"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledTrue"
-	Value "Random Events"
+	Value "RANDOM EVENTS"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledFalse"
-	Value "No Random Events"
+	Value "RANDOM EVENTS"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
-	Value "Slow Victory Speed"
+	Value "VICTORY SPEED"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedNormal"
-	Value "Normal Victory Speed"
+	Value "VICTORY SPEED"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedFast"
-	Value "Fast Victory Speed"
+	Value "VICTORY SPEED"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedFaster"
-	Value "Faster Victory Speed"
+	Value "VICTORY SPEED"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedSlow"
-	Value "Slow Build Speed"
+	Value "BUILDING SPEED"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedNormal"
-	Value "Normal Build Speed"
+	Value "BUILDING SPEED"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedFast"
-	Value "Fast Build Speed"
+	Value "BUILDING SPEED"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedFaster"
-	Value "Faster Build Speed"
+	Value "BUILDING SPEED"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedSlow"
-	Value "Slow Culture Speed"
+	Value "CULTURE RATE"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedNormal"
-	Value "Normal Culture Speed"
+	Value "CULTURE RATE"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedFast"
-	Value "Fast Culture Speed"
+	Value "CULTURE RATE"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedFaster"
-	Value "Faster Culture Speed"
+	Value "CULTURE RATE"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedSlow"
-	Value "Slow Research"
+	Value "RESEARCH SPEED"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedNormal"
-	Value "Normal Research"
+	Value "RESEARCH SPEED"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedFast"
-	Value "Fast Research"
+	Value "RESEARCH SPEED"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedFaster"
-	Value "Faster Research"
+	Value "RESEARCH SPEED"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedSlow"
-	Value "Slow Income Rates"
+	Value "INCOME RATES"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedNormal"
-	Value "Normal Income Rates"
+	Value "INCOME RATES"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFast"
-	Value "Fast Income Rates"
+	Value "INCOME RATES"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFaster"
-	Value "Faster Income Rates"
+	Value "INCOME RATES"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedSlow"
-	Value "Slow Ship Speeds"
+	Value "SHIP SPEEDS"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedNormal"
-	Value "Normal Ship Speeds"
+	Value "SHIP SPEEDS"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedFast"
-	Value "Fast Ship Speeds"
+	Value "SHIP SPEEDS"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedFaster"
-	Value "Faster Ship Speeds"
+	Value "SHIP SPEEDS"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarSmall"
-	Value "Small Fleet Sizes"
+	Value "FLEET SIZE"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarNormal"
-	Value "Normal Fleet Sizes"
+	Value "FLEET SIZE"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarLarge"
-	Value "Large Fleet Sizes"
+	Value "FLEET SIZE"
 StringInfo
 	ID "IDSGameOptionsDiplomaticVictoryEnabledTrue"
 	Value "Diplomatic Victory On"
@@ -25359,3 +25359,6 @@ StringInfo
 StringInfo
 	ID "IDS_TITAN_BELLATOR_DESCRIPTION"
 	Value "The Bellator-class dreadnought was a design based on the Mandator- and Mandator II-classes. It diverged from its predecessors by being shorter and faster and the design was referred to in the Imperial Military as a 'fast dreadnought'."
+StringInfo
+	ID "NO_TEXT"
+	Value ""

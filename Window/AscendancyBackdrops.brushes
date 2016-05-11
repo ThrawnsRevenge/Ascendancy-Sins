@@ -1,0 +1,28 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 5
+brush
+  name "AscendancyBackdropMenuSinglePlayer"
+  content "Simple"
+  fileName "AscendancyBackdropMenuSinglePlayer"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuOptions"
+  content "Simple"
+  fileName "AscendancyBackdropMenuOptions"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuNetworkGame"
+  content "Simple"
+  fileName "AscendancyBackdropMenuNetworkGame"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuInternetGame"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInternetGame"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropGameOptions"
+  content "Simple"
+  fileName "AscendancyBackdropGameOptions"
+  pixelBox [ 0 , 0 , 3000 , 600 ]

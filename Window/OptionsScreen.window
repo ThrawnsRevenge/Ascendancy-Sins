@@ -1,42 +1,42 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [33, 97]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [0, -2, 170, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	buttonTopLeftOffset [ 100 , 97]
+	buttonSize [ 75 , 75 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSOptionsScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 40, 190, 40]	
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 808]
+	contentArea [310, 0, 714, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuOptions"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -25
+		textOffsetFromLeft 100
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -25
+		textOffsetFromLeft 100
+		underlay "AscendancyMenuButtonActive"
+		overlay "MenuButtonOverlay"
 	closeButton
-		area [33, 724, 170 , 46]
+		area [100, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"					
+		textOffsetFromLeft 0
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
 		icon "ScreenBackButton"
-		text "IDSOptionsScreenBackButton"
+		text "NO_TEXT"
 sharedDef
 	screenCheckBoxDef
 		boxWidth 33

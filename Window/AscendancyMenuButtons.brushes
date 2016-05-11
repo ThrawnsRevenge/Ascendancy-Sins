@@ -1,0 +1,39 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 2
+brush
+  name "AscendancyMenuButtonNonActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 225 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyMenuButtonActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 225 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]

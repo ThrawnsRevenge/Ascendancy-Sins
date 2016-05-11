@@ -1,54 +1,53 @@
 TXT
 fontId "Label"
 pictureDef
-	pictureArea [-21, -16, 264, 188]
-	pictureTextureArea [23, 28, 177, 92]
-	pictureUnderlay "GalaxyScenarioPictureUnderlay"
-	pictureOverlay "GalaxyScenarioPictureOverlay"
+	pictureArea [0, 0, 400, 300]
+	pictureTextureArea [1, 1, 398, 298]
+	pictureUnderlay "AscendancyScenarioPictureUnderlay"
+	pictureOverlay "Null"
 scenarioContentDef
-	descArea [0, 158, 455, 94]
+	descArea [0, 385, 455, 94]
 	scenarioNameDef
-		area [235, 25, 220, 20]
+		area [0, 310, 220, 20]
 		valueOffsetFromLeft 0
 		labelStringId "IDSGalaxyInfoWindowScenarioNameLabel"
 	playerCountDef
-		area [235, 54, 220, 18]
+		area [0, 335, 220, 18]
 		valueOffsetFromLeft 85
 		labelStringId "IDSGalaxyInfoWindowScenarioPlayerCountLabel"
 	planetCountDef
-		area [235, 102, 220, 18]
+		area [150, 360, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowScenarioPlanetCountLabel"	
+		labelStringId "IDSGalaxyInfoWindowScenarioPlanetCountLabel"
 	starCountDef
-		area [235, 78, 220, 18]
+		area [0, 360, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowScenarioStarCountLabel"	
+		labelStringId "IDSGalaxyInfoWindowScenarioStarCountLabel"
 	recommendedGameTypesDef
-		area [235, 126, 220, 18]
+		area [150, 335, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowScenarioRecommendedGameTypesLabel"			
+		labelStringId "IDSGalaxyInfoWindowScenarioRecommendedGameTypesLabel"
 	invalidScenarioMessageArea [235, 158, 455, 94]
 	invalidScenarioMessageString "IDSGalaxyInfoWindowInvalidScenario"
 	scenarioMissingDLCString "IDSGalaxyInfoWindowScenarioMissingDLC"
 savedFileContentDef
 	fileNameDef
-		area [235, 25, 220, 20]
+		area [0, 310, 220, 20]
 		valueOffsetFromLeft 0
-		labelStringId "IDSGalaxyInfoWindowSavedFileName"	
+		labelStringId "IDSGalaxyInfoWindowSavedFileName"
 	playerCountDef
-		area [235, 54, 60, 18]
+		area [0, 335, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowSavedFilePlayerCount"	
+		labelStringId "IDSGalaxyInfoWindowSavedFilePlayerCount"
 	gameTimeDef
-		area [235, 78, 60, 18]
+		area [0, 360, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowSavedFileGameTime"	
+		labelStringId "IDSGalaxyInfoWindowSavedFileGameTime"
 	saveTimeDef
-		area [235, 102, 60, 18]
+		area [150, 360, 220, 18]
 		valueOffsetFromLeft 85
-		labelStringId "IDSGalaxyInfoWindowSavedFileSaveTime"		
-	saveDateArea [320, 116, 200, 30]
+		labelStringId "IDSGalaxyInfoWindowSavedFileSaveTime"
+	saveDateArea [275, 360, 220, 18]
 	invalidSaveFileMessageArea [235, 58, 225, 94]
 	invalidSaveFileMessageString "IDSGalaxyInfoWindowInvalidSaveFile"
 	saveFileMissingDLCString "IDSGalaxyInfoWindowSaveFileMissingDLC"
-	

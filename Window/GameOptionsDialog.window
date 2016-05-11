@@ -1,41 +1,41 @@
 TXT
-backdropDimPercentage 0.7
-backdropBrush "GameOptionsScreenBackdrop"
+backdropDimPercentage 0.9
+backdropBrush "AscendancyBackdropGameOptions"
 titleOverlayBrush "GameOptionsScreenTitleOverlay"
-size [693 , 645]
-contentRefArea [90, 100, 508, 335]
-titleRefArea [90, 40, 508, 30]
+size [3000 , 645]
+contentRefArea [1000, 100, 508, 335]
+titleRefArea [-5000, -5000, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 acceptButton
-	area [347, 548, 220, 46]
+	area [1675, 500, 75, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"		
+	underlay "AscendancyMenuButtonNonActive"
+	overlay "Null"
 	icon "DialogScreenAcceptButton"
-	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
+	text "NO_TEXT"
 titleStringId "IDSGameOptionsDialogTitle"
 areTeamsLockedButton
-	area [25, 16, 220 , 46]
+	area [275, 350, 29 , 29]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 40
+	underlay "Null"
+	overlay "Null"
 	true
-		icon "GameOptionsAreTeamsLockedTrue"
+		icon "AscendancySingleButtonEnabled"
 		text "IDSGameOptionsAreTeamsLockedTrue"
 	false
-		icon "GameOptionsAreTeamsLockedFalse"
+		icon "AscendancySingleButtonDisabled"
 		text "IDSGameOptionsAreTeamsLockedFalse"
 arePiratesActiveButton
 	area [-5000, -5000, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 40
+	underlay "Null"
+	overlay "Null"
 	true
 		icon "GameOptionsArePiratesActiveTrue"
 		text "IDSGameOptionsArePiratesActiveTrue"
@@ -43,158 +43,158 @@ arePiratesActiveButton
 		icon "GameOptionsArePiratesActiveFalse"
 		text "IDSGameOptionsArePiratesActiveFalse"
 useQuickStartButton
-	area [25, 120, 220 , 46]
+	area [450, 350, 29 , 29]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 40
+	underlay "Null"
+	overlay "Null"
 	true
-		icon "GameOptionsUseQuickStartTrue"
+		icon "AscendancySingleButtonEnabled"
 		text "IDSGameOptionsUseQuickStartTrue"
 	false
-		icon "GameOptionsUseQuickStartFalse"
+		icon "AscendancySingleButtonDisabled"
 		text "IDSGameOptionsUseQuickStartFalse"
 randomEventsEnabledButton
-	area [25, 224, 220 , 46]
+	area [600, 350, 29 , 29]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 40
+	underlay "Null"
+	overlay "Null"
 	true
-		icon "GameOptionsUseQuickStartTrue"
+		icon "AscendancySingleButtonEnabled"
 		text "IDSGameOptionsAreRandomEventsEnabledTrue"
 	false
-		icon "GameOptionsUseQuickStartFalse"
+		icon "AscendancySingleButtonDisabled"
 		text "IDSGameOptionsAreRandomEventsEnabledFalse"
 buildSpeedButton
-	area [257, 68, 220 , 46]
+	area [550, 20, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsBuildSpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsBuildSpeedSlow"
 	Normal
-		icon "GameOptionsBuildSpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsBuildSpeedNormal"
 	Fast
-		icon "GameOptionsBuildSpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsBuildSpeedFast"
 	Faster
-		icon "GameOptionsBuildSpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsBuildSpeedFaster"
 cultureSpeedButton
-	area [257, 224, 220 , 46]
+	area [250, 170, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsCultureSpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsCultureSpeedSlow"
 	Normal
-		icon "GameOptionsCultureSpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsCultureSpeedNormal"
 	Fast
-		icon "GameOptionsCultureSpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsCultureSpeedFast"
 	Faster
-		icon "GameOptionsCultureSpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsCultureSpeedFaster"
 researchSpeedButton
-	area [257, 172, 220 , 46]
+	area [550, 95, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsResearchSpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsResearchSpeedSlow"
 	Normal
-		icon "GameOptionsResearchSpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsResearchSpeedNormal"
 	Fast
-		icon "GameOptionsResearchSpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsResearchSpeedFast"
 	Faster
-		icon "GameOptionsResearchSpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsResearchSpeedFaster"
 incomeSpeedButton
-	area [257, 16, 220 , 46]
+	area [250, 20, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsIncomeSpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsIncomeSpeedSlow"
 	Normal
-		icon "GameOptionsIncomeSpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsIncomeSpeedNormal"
 	Fast
-		icon "GameOptionsIncomeSpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsIncomeSpeedFast"
 	Faster
-		icon "GameOptionsIncomeSpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsIncomeSpeedFaster"
 shipPhysicsSpeedButton
-	area [257, 120, 220 , 46]
+	area [250, 95, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsShipPhysicsSpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsShipPhysicsSpeedSlow"
 	Normal
-		icon "GameOptionsShipPhysicsSpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsShipPhysicsSpeedNormal"
 	Fast
-		icon "GameOptionsShipPhysicsSpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsShipPhysicsSpeedFast"
 	Faster
-		icon "GameOptionsShipPhysicsSpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsShipPhysicsSpeedFaster"
 fleetSupplyScalarButton
-	area [25, 68, 220 , 46]
+	area [250, 245, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Small
-		icon "GameOptionsFleetSupplyScalarSmall"
+		icon "AscendancySingleButtonSizeLevelSmall"
 		text "IDSGameOptionsFleetSupplyScalarSmall"
 	Normal
-		icon "GameOptionsFleetSupplyScalarNormal"
+		icon "AscendancySingleButtonSizeLevelMedium"
 		text "IDSGameOptionsFleetSupplyScalarNormal"
 	Large
-		icon "GameOptionsFleetSupplyScalarLarge"
-		text "IDSGameOptionsFleetSupplyScalarLarge"		
+		icon "AscendancySingleButtonSizeLevelLarge"
+		text "IDSGameOptionsFleetSupplyScalarLarge"
 victorySpeedButton
-	area [257, 278, 220 , 46]
+	area [550, 170, 75 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 15
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	iconOffsetFromLeft -20
+	textOffsetFromLeft 100
+	underlay "Null"
+	overlay "Null"
 	Slow
-		icon "GameOptionsVictorySpeedSlow"
+		icon "AscendancySingleButtonSpeedLevel1"
 		text "IDSGameOptionsVictorySpeedSlow"
 	Normal
-		icon "GameOptionsVictorySpeedNormal"
+		icon "AscendancySingleButtonSpeedLevel2"
 		text "IDSGameOptionsVictorySpeedNormal"
 	Fast
-		icon "GameOptionsVictorySpeedFast"
+		icon "AscendancySingleButtonSpeedLevel3"
 		text "IDSGameOptionsVictorySpeedFast"
 	Faster
-		icon "GameOptionsVictorySpeedFaster"
+		icon "AscendancySingleButtonSpeedLevel4"
 		text "IDSGameOptionsVictorySpeedFaster"

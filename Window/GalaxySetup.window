@@ -1,7 +1,7 @@
 TXT
 scenarioListLabel
-	area [0, -20, 220, 30]
-	fontId "WindowSubTitle"
+	area [0, -10, 220, 30]
+	fontId "ButtonLabel"
 scenarioListLabelTextId-BuiltInSmall "IDSGalaxySetupWindowScenerioListLabelBuiltInSmall"
 scenarioListLabelTextId-BuiltInMedium "IDSGalaxySetupWindowScenerioListLabelBuiltInMedium"
 scenarioListLabelTextId-BuiltInLarge "IDSGalaxySetupWindowScenerioListLabelBuiltInLarge"
@@ -13,42 +13,42 @@ scenarioList
 galaxyInfoWindow
 	area [235, 22, 455, 254]
 scenarioFileLocationButton
-	area [0, 542, 220 , 46]
+	area [35, 542, 150 , 50]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	textOffsetFromLeft 0
+	underlay "AscendancySingleButtonLeftRightMouse150_50"
+	overlay "Null"
 	BuiltInSmall
-		icon "ChangeMapTypeButton"
-		text "IDSGalaxySetupWindowChangeMapTypeButton"
+		icon "Null"
+		text "NO_TEXT"
 	BuiltInMedium
-		icon "ChangeMapTypeButton"
-		text "IDSGalaxySetupWindowChangeMapTypeButton"
+		icon "Null"
+		text "NO_TEXT"
 	BuiltInLarge
-		icon "ChangeMapTypeButton"
-		text "IDSGalaxySetupWindowChangeMapTypeButton"
+		icon "Null"
+		text "NO_TEXT"
 	UserGenerated
-		icon "ChangeMapTypeButton"
-		text "IDSGalaxySetupWindowChangeMapTypeButton"
+		icon "Null"
+		text "NO_TEXT"
 	GalaxyForge
-		icon "ChangeMapTypeButton"
-		text "IDSGalaxySetupWindowChangeMapTypeButton"		
+		icon "Null"
+		text "NO_TEXT"
 openGameOptionsDialogButton
-	area [0, 600, 220 , 46]
+	area [0, 600, 75 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	textOffsetFromLeft 0
+	underlay "AscendancyMenuButtonNonActive"
+	overlay "Null"
 	icon "OpenGameOptionsDialog"
-	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
+	text "NO_TEXT"
 openVictoryOptionsDialogButton
-	area [236, 600, 220 , 46]
+	area [75, 600, 75 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	textOffsetFromLeft 0
+	underlay "AscendancyMenuButtonNonActive"
+	overlay "Null"
 	icon "OpenGameOptionsDialog"
-	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
+	text "NO_TEXT"

@@ -969,25 +969,25 @@ brush
 	name "ScrollBarVerticalThumbOverlay"
 	content "States"
 	Disabled
-		fileName "Interface0"
-		pixelBox [ 768 , 480 , 14 , 19 ]
+		fileName "AscendancyUI"
+		pixelBox [ 27 , 0 , 9 , 23 ]
 	Pressed
-		fileName "Interface0"
-		pixelBox [ 768 , 643 , 14 , 19 ]
+		fileName "AscendancyUI"
+		pixelBox [ 18 , 0 , 9 , 23 ]
 	CursorOver
-		fileName "Interface0"
-		pixelBox [ 768 , 561 , 14 , 19 ]
+		fileName "AscendancyUI"
+		pixelBox [ 9 , 0 , 9 , 23 ]
 	Focused
-		fileName "Interface0"
-		pixelBox [ 768 , 561 , 14 , 19 ]
+		fileName "AscendancyUI"
+		pixelBox [ 9 , 0 , 9 , 23 ]
 	Normal
-		fileName "Interface0"
-		pixelBox [ 768 , 480 , 14 , 19 ]
+		fileName "AscendancyUI"
+		pixelBox [ 0 , 0 , 9 , 23 ]
 brush
 	name "ScrollBarVerticalThumbOverlayDragging"
 	content "Simple"
-	fileName "Interface0"
-	pixelBox [ 768 , 643 , 14 , 19 ]
+	fileName "AscendancyUI"
+	pixelBox [ 18 , 0 , 9 , 23 ]
 brush
 	name "ScrollBarHorizontal"
 	content "Margins"
