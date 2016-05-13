@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
