@@ -1,11 +1,11 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 5
+brushCount 7
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
   fileName "AscendancyUI"
-  pixelBox [ 0 , 23 , 400 , 300 ]
+  pixelBox [ 9 , 23 , 400 , 300 ]
 brush
   name "AscendancyVerticalScrollCursor"
 	content "States"
@@ -37,16 +37,16 @@ brush
 		pixelBox [ 69 , 0 , 11 , 11 ]
 	Pressed
 		fileName "AscendancyUI"
-		pixelBox [ 59 , 0 , 11 , 11 ]
+		pixelBox [ 58 , 0 , 11 , 11 ]
 	CursorOver
 		fileName "AscendancyUI"
-		pixelBox [ 48 , 0 , 11 , 11 ]
+		pixelBox [ 47 , 0 , 11 , 11 ]
 	Focused
 		fileName "AscendancyUI"
-		pixelBox [ 48 , 0 , 11 , 11 ]
+		pixelBox [ 47 , 0 , 11 , 11 ]
 	Normal
 		fileName "AscendancyUI"
-		pixelBox [ 37 , 0 , 11 , 11 ]
+		pixelBox [ 36 , 0 , 11 , 11 ]
 brush
   name "AscendancyVerticalScrollDownArrow"
 	content "States"
@@ -55,13 +55,56 @@ brush
 		pixelBox [ 69 , 12 , 11 , 11 ]
 	Pressed
 		fileName "AscendancyUI"
-		pixelBox [ 59 , 12 , 11 , 11 ]
+		pixelBox [ 58 , 12 , 11 , 11 ]
 	CursorOver
 		fileName "AscendancyUI"
-		pixelBox [ 48 , 12 , 11 , 11 ]
+		pixelBox [ 47 , 12 , 11 , 11 ]
 	Focused
 		fileName "AscendancyUI"
-		pixelBox [ 48 , 12 , 11 , 11 ]
+		pixelBox [ 47 , 12 , 11 , 11 ]
 	Normal
 		fileName "AscendancyUI"
-		pixelBox [ 37 , 12 , 11 , 11 ]
+		pixelBox [ 36 , 12 , 11 , 11 ]
+brush
+  name "AscenadncyVerticalScrollBar"
+  content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 5
+		top 20
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+  Disabled
+    fileName "AscendancyUI"
+  	pixelBox [ 0 , 23 , 9 , 50 ]
+  Pressed
+    fileName "AscendancyUI"
+  	pixelBox [ 0 , 123 , 9 , 50 ]
+  CursorOver
+    fileName "AscendancyUI"
+  	pixelBox [ 0 , 73 , 9 , 50 ]
+  Focused
+    fileName "AscendancyUI"
+  	pixelBox [ 0 , 73 , 9 , 50 ]
+  Normal
+    fileName "AscendancyUI"
+  	pixelBox [ 0 , 23 , 9 , 50 ]
+brush
+  name "AscenadncyVerticalScrollBarClick"
+  content "Margins"
+	stretchMargins
+		left 5
+		right 5
+		top 20
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+  fileName "AscendancyUI"
+	pixelBox [ 0 , 123 , 9 , 50 ]

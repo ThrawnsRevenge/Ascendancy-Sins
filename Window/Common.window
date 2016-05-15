@@ -26,8 +26,8 @@ horizontalScrollBarDef
 	endArrow "ScrollBarHorizontalEndArrow"
 verticalScrollBarDef
 	backdrop "ScrollBarVertical"
-	thumb "ScrollBarVerticalThumb"
-	thumbDragging "ScrollBarVerticalThumbDragging"
+	thumb "AscenadncyVerticalScrollBar"
+	thumbDragging "AscenadncyVerticalScrollBarClick"
 	thumbOverlay "AscendancyVerticalScrollCursor"
 	thumbOverlayDragging "AscendancyVerticalScrollDraggingCursor"
 	beginArrow "AscendancyVerticalScrollUpArrow"
