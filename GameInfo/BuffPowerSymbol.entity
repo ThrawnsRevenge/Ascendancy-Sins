@@ -2,7 +2,7 @@
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 3
+stackingLimit 1
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
@@ -23,4 +23,10 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+

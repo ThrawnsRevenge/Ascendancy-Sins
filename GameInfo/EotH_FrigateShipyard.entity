@@ -18,7 +18,7 @@ infoCardIcon "EMPIREICON_CRUISER_SHIPYARD"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
-	credits 6000.000000
+	credits 3000.000000
 	metal 800.000000
 	crystal 80.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALFRIGATEFACTORY_NAME"
@@ -29,9 +29,9 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 4000.000000
+MaxHullPoints 8000.000000
 HullPointRestoreRate 2.000000
-BaseArmorPoints 6.000000
+BaseArmorPoints 18.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
 maxShieldMitigation 0.000000

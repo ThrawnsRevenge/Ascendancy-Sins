@@ -8,7 +8,7 @@ targetFilter
 	ownership "Friendly"
 	numObjects 2
 	object "Frigate"
-	object "Capital"
+	object "CapitalShip"
 	numSpaces 1
 	space "Normal"
 	numConstraints 1

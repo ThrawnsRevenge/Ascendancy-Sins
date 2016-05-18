@@ -48,6 +48,7 @@ periodicAction
 		largeEffectName ""
 		soundID ""
 numOverTimeActions 0
+numEntityModifiers 0
 numEntityBoolModifiers 4
 entityBoolModifier "DisablePhaseJump"
 entityBoolModifier "DisableLinearEngines"
