@@ -2,12 +2,12 @@
 entityType "Ability"
 buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
-spawnShipsLevelCount 1
+spawnShipsLevelCount 2
 spawnShips
 	minFleetPoints 45.000000
 	maxFleetPoints 60.000000
 	requiredShipCount 0
-	randomShipCount 1
+	randomShipCount 15
 	randomShip
 		type "Hapans_BattleDragon"
 		weight 2

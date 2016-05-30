@@ -26,7 +26,7 @@ BaseCost
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
-	crystal 25.000000
+	crystal 25.000000playerrem
 Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1

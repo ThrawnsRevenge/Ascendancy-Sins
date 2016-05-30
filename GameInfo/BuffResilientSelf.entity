@@ -26,7 +26,7 @@ entityModifier
 		Level:2 0.300000
 		Level:3 0.300000
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time

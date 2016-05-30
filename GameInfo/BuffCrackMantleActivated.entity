@@ -60,7 +60,7 @@ periodicAction
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 1
+		numObjects 5
 		object "Planet"
 		numSpaces 1
 		space "Normal"

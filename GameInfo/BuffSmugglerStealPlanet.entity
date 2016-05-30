@@ -28,7 +28,7 @@ overTimeAction
 		Level:1 0.600000
 		Level:2 0.800000
 		Level:3 1.000000
-numEntityModifiers 1
+numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "PlanetProductionStolen"
 	value

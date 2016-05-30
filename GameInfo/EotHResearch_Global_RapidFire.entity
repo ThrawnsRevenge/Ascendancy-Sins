@@ -29,12 +29,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.050000
-	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
