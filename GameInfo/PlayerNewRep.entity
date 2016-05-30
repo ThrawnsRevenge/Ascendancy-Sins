@@ -68,7 +68,7 @@ entities
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 89
+		count 88
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -92,7 +92,6 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_BAC"
 		entityDefName "NewRepResearch_ShipUnlock_MC30"
 		entityDefName "NewRepResearch_ShipUnlock_Awing"
-		entityDefName "NewRepResearch_ShipUnlock_Esseles"
 		entityDefName "NewRepResearch_ShipUnlock_Kwing"
 		entityDefName "NewRepResearch_ShipUnlock_Hajen"
 		entityDefName "NewRepResearch_ShipUnlock_Viscount"
@@ -159,9 +158,8 @@ entities
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 2
+		count 1
 		entityDefName "NewRep_Empress"
-		entityDefName "NewRep_Esseles"
 	flagship "NewRep_HomeOne"
 debrisData
 	numRandomMeshNamesLarge 8
@@ -212,7 +210,7 @@ hyperspaceData
 	titanTravelEffectSoundID "HYPERSPACE_TRAVEL"
 	titanExitEffectName "EmptyHolder"
 	titanExitEffectSoundID "HYPERSPACE_EXIT"
-	baseHyperspaceSpeed 29500.000000
+	baseHyperspaceSpeed 50500.000000
 	hyperspaceSpeedBetweenStarsMultiplier 24.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 0.000000

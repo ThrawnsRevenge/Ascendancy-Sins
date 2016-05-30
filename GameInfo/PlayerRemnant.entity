@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 95
+		count 94
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
@@ -145,7 +145,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
-		entityDefName "RemnantResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_TorpedoSphere"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
@@ -162,10 +161,9 @@ entities
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
-		count 3
+		count 2
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
-		entityDefName "Remnant_Esseles"
 	flagship "Remnant_Chimera"
 debrisData
 	numRandomMeshNamesLarge 10
@@ -221,7 +219,7 @@ hyperspaceData
 	titanTravelEffectSoundID "HYPERSPACE_TRAVEL"
 	titanExitEffectName "EmptyHolder"
 	titanExitEffectSoundID "HYPERSPACE_EXIT"
-	baseHyperspaceSpeed 29500.000000
+	baseHyperspaceSpeed 50500.000000
 	hyperspaceSpeedBetweenStarsMultiplier 24.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 0.000000
