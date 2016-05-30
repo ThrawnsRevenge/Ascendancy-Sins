@@ -139,6 +139,7 @@ hyperspaceData
 	titanTravelEffectSoundID "HYPERSPACE_TRAVEL"
 	titanExitEffectName "EmptyHolder"
 	titanExitEffectSoundID "HYPERSPACE_EXIT"
+	baseHyperspaceSpeed 50500.000000
 	hyperspaceSpeedBetweenStarsMultiplier 24.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 0.000000
