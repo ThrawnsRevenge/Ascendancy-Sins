@@ -7,7 +7,7 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 2
 instantAction
 	buffInstantActionType "CreateFrigate"
 	instantActionTriggerType "OnDelay"

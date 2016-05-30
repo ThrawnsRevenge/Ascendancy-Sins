@@ -54,8 +54,10 @@ entities
 			entityDefName "EotH_Warlord"
 			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
-			count 4
+			count 6
+			entityDefName "Remnant_AITrap"
 			entityDefName "EotH_CT11"
+			entityDefName "Remnant_AITrap"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
@@ -142,7 +144,7 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "EotH_Esseles"

@@ -1840,7 +1840,7 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 73
+planetItemsTemplateCount 72
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0

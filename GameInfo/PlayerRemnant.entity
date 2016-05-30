@@ -58,7 +58,8 @@ entities
 			entityDefName "Remnant_Dreadnaught"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
-			count 4
+			count 5
+			entityDefName "Remnant_AITrap"
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
@@ -159,7 +160,7 @@ entities
 		entityDefName "RemnantResearch_MaxShipSlots6"
 		entityDefName "RemnantResearch_MaxShipSlots7"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 3
 		entityDefName "Remnant_GalaxyGun"

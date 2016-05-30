@@ -32,7 +32,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000

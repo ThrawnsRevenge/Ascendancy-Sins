@@ -59,10 +59,11 @@ entities
 			entityDefName "NewRep_Proficient"
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
-			count 6
+			count 7
 			entityDefName "NewRep_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
+			entityDefName "Remnant_AITrap"
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
@@ -156,7 +157,7 @@ entities
 		entityDefName "NewRepResearch_MaxShipSlots6"
 		entityDefName "NewRepResearch_MaxShipSlots7"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 2
 		entityDefName "NewRep_Empress"
