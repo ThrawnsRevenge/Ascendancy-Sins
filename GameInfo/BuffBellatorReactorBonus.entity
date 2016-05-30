@@ -33,7 +33,7 @@ entityModifier
 		Level:2 -0.500000
 		Level:3 -0.500000
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 1
 finishCondition
 	finishConditionType "OwnerNoLongerHasBuff"
 	buffTypeToQuery "BuffBellatorReactorBase"

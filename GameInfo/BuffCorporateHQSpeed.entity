@@ -10,7 +10,7 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 2
+numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
