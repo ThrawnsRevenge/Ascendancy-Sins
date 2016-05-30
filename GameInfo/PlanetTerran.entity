@@ -123,27 +123,27 @@ planetUpgradeDef
 			developmentTaxPenalty -0.5000
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 45.000000
 			maxPopulation 30.000000
 			populationGrowthRate 0.125000
 			developmentTaxPenalty -0.125000
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxPopulation 70.000000
 			populationGrowthRate 0.125000
 			developmentTaxPenalty 0.000000
 		stage
 			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
+				credits 450.000000
+				metal 120.000000
+				crystal 60.000000
 			upgradeTime 75.000000
 			maxPopulation 135.000000
 			populationGrowthRate 0.125000
@@ -152,7 +152,7 @@ planetUpgradeDef
 			price
 				credits 750.000000
 				metal 225.000000
-				crystal 225.000000
+				crystal 125.000000
 			upgradeTime 90.000000
 			maxPopulation 180.000000
 			populationGrowthRate 0.125000
@@ -169,17 +169,17 @@ planetUpgradeDef
 			maxModuleConstructorCount 0
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 45.000000
 			maxModuleSlotCount:Civilian 18.000000
 			maxModuleConstructorCount 1
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxModuleSlotCount:Civilian 24.000000
 			maxModuleConstructorCount 1
@@ -195,25 +195,25 @@ planetUpgradeDef
 			maxModuleConstructorCount 1
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 60.000000
 			maxModuleSlotCount:Tactical 15.000000
 			maxModuleConstructorCount 2
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxModuleSlotCount:Tactical 25.000000
 			maxModuleConstructorCount 3
 		stage
 			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
+				credits 450.000000
+				metal 120.000000
+				crystal 60.000000
 			upgradeTime 75.000000
 			maxModuleSlotCount:Tactical 35.000000
 			maxModuleConstructorCount 3
@@ -270,23 +270,23 @@ planetUpgradeDef
 			maxHealth 3000.000000
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 45.000000
 			maxHealth 6000.000000
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxHealth 9000.000000
 		stage
 			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
+				credits 450.000000
+				metal 120.000000
+				crystal 60.000000
 			upgradeTime 75.000000
 			maxHealth 12000.000000
 	path:Social
@@ -304,9 +304,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.000000
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 45.000000
 			maxPopulation 25.000000
 			populationGrowthRate 0.125000
@@ -315,9 +315,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.166667
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxPopulation 75.000000
 			populationGrowthRate 0.138000
@@ -326,9 +326,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.333334
 		stage
 			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
+				credits 450.000000
+				metal 120.000000
+				crystal 60.000000
 			upgradeTime 75.000000
 			maxPopulation 250.000000
 			populationGrowthRate 0.151000
@@ -339,7 +339,7 @@ planetUpgradeDef
 			price
 				credits 750.000000
 				metal 225.000000
-				crystal 225.000000
+				crystal 125.000000
 			upgradeTime 90.000000
 			maxPopulation 475.000000
 			populationGrowthRate 0.169000
@@ -382,9 +382,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.000000
 		stage
 			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
+				credits 250.000000
+				metal 70.000000
+				crystal 25.000000
 			upgradeTime 45.000000
 			maxPopulation -3.000000
 			tradeIncomeModifier 0.100000
@@ -392,9 +392,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier -0.166667
 		stage
 			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
+				credits 350.000000
+				metal 105.000000
+				crystal 45.000000
 			upgradeTime 60.000000
 			maxPopulation -9.000000
 			tradeIncomeModifier 0.200000
@@ -402,9 +402,9 @@ planetUpgradeDef
 			cultureSpreadRateModifier -0.333334
 		stage
 			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
+				credits 450.000000
+				metal 120.000000
+				crystal 60.000000
 			upgradeTime 75.000000
 			maxPopulation -30.000000
 			tradeIncomeModifier 0.300000
@@ -414,7 +414,7 @@ planetUpgradeDef
 			price
 				credits 750.000000
 				metal 225.000000
-				crystal 225.000000
+				crystal 125.000000
 			upgradeTime 90.000000
 			maxPopulation -57.000000
 			tradeIncomeModifier 0.400000
