@@ -63,14 +63,14 @@ loadSavedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [520, 672, 220 , 46]
+		area [122, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"
-		icon "SinglePlayerSetupScreenLoadGameButton"
-		text "IDSSinglePlayerSetupScreenLoadGameButton"
+		textOffsetFromLeft 0
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "Null"
+		icon "SinglePlayerSetupScreenPlayNewGameButton"
+		text "NO_TEXT"
 	galaxyInfoWindow
 		area [285	, 122, 700, 700]
 loadRecordedGame
@@ -85,14 +85,14 @@ loadRecordedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [520, 672, 220 , 46]
+		area [122, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
-		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"
-		icon "SinglePlayerSetupScreenWatchGameButton"
-		text "IDSSinglePlayerSetupScreenWatchGameButton"
+		textOffsetFromLeft 0
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "Null"
+		icon "SinglePlayerSetupScreenPlayNewGameButton"
+		text "NO_TEXT"
 	galaxyInfoWindow
 		area [285, 152, 455, 254]
 tutorial
@@ -163,7 +163,7 @@ galaxyRandomizer
 	tabButtonIcon "SinglePlayerSetupScreenGalaxyRandomizerTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
 	galaxyRandomizerWindow
-		area [50, 48, 700, 700]
+		area [50, 18, 700, 700]
 achievements
 	tabButtonIcon "SinglePlayerSetupScreenAchievementsTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenAchievementsTabButton"

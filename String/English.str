@@ -21767,7 +21767,7 @@ StringInfo
 	Value "Total Planets:"
 StringInfo
 	ID "IDSGalaxyRandomizerFileListLabel"
-	Value "Custom Maps"
+	Value "GALAXIES"
 StringInfo
 	ID "IDSGalaxyRandomizerStarListLabel"
 	Value "Stars"

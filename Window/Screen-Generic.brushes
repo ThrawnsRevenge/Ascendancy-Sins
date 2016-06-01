@@ -1,6 +1,11 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 89
+brushCount 90
+brush
+	name "Null"
+	content "Simple"
+	fileName "Null"
+	pixelBox [ 0, 0, 1, 1]
 brush
 	name "CheckBoxBackdrop"
 	content "States"
@@ -186,19 +191,19 @@ brush
 	name "ScreenBackButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 1 , 42 , 42 ]
 brush
 	name "ScreenButtonUnderlayLarge"
@@ -564,325 +569,325 @@ brush
 	name "SelectGameSaveTypeWindowChangeTypeButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 263 , 43 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 263 , 43 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 263 , 43 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 263 , 43 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 263 , 43 , 42 , 42 ]
 brush
 	name "PlayerStatusAvailable"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 73 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 73 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 73 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 73 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 73 , 40, 35 ]
 brush
 	name "PlayerStatusAvailableForFriend"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 73 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 73 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 73 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 73 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 73 , 40, 35 ]
 brush
 	name "PlayerStatusHuman"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 1 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 1 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 1 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 1 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 1 , 40, 35 ]
 brush
 	name "PlayerStatusAI"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 1 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 1 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 1 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 1 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 1 , 40, 35 ]
 brush
 	name "PlayerStatusClosed"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 37 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 37 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 37 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 37 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 42 , 37 , 40, 35 ]
 brush
 	name "PlayerSetupOpenICOPlayerInfo"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 73 , 40, 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 73 , 40, 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 73 , 40, 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 73 , 40, 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 73 , 40, 35 ]
 brush
 	name "PlayerAIDifficultyEasy"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 83 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIDifficultyMedium"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 124 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIDifficultyHard"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 165 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 165 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 165 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 165 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 165 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIDifficultyUnfair"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 206 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 206 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 206 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 206 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 206 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIDifficultyNightmare"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 247 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 247 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 247 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 247 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 247 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIDifficultyImpossible"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 288 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 288 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 288 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 288 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 288 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIStyleRandom"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 329 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 329 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 329 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 329 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 329 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIStyleAggressive"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 370 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 370 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 370 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 370 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 370 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIStyleDefensive"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 411 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 411 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 411 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 411 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 411 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIStyleResearch"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 452 , 1 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 452 , 1 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 452 , 1 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 452 , 1 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 452 , 1 , 40 , 35 ]
 brush
 	name "PlayerAIStyleEconomic"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 1 , 37 , 40 , 35 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 37 , 40 , 35 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 37 , 40 , 35 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 37 , 40 , 35 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 1 , 37 , 40 , 35 ]
 brush
 	name "ScrollBarVertical"
@@ -1089,30 +1094,30 @@ brush
 	name "TEXTENTRY"
 	content "MarginsAndStates"
 	stretchMargins
-		left 1
-		right 11
-		top 1
-		bottom 11
+		left 5
+		right 5
+		top 5
+		bottom 5
 	contentMargins
-		left 8
-		right 8
-		top 3
-		bottom 3
+		left 10
+		right 10
+		top 5
+		bottom 5
 	Disabled
-		fileName "Interface0"
-		pixelBox [ 775 , 59 , 14 , 28 ]
+		fileName "AscendancyUI"
+		pixelBox [ 409 , 72 , 12 , 24 ]
 	Pressed
-		fileName "Interface0"
-		pixelBox [ 775 , 59 , 14 , 28 ]
+		fileName "AscendancyUI"
+		pixelBox [ 409 , 48 , 12 , 24 ]
 	CursorOver
-		fileName "Interface0"
-		pixelBox [ 797 , 92 , 14 , 28 ]
+		fileName "AscendancyUI"
+		pixelBox [ 409 , 24 , 12 , 24 ]
 	Focused
-		fileName "Interface0"
-		pixelBox [ 797 , 59 , 14 , 28 ]
+		fileName "AscendancyUI"
+		pixelBox [ 409 , 48 , 12 , 24 ]
 	Normal
-		fileName "Interface0"
-		pixelBox [ 775 , 59 , 14 , 28 ]
+		fileName "AscendancyUI"
+		pixelBox [ 409 , 0 , 12 , 24 ]
 brush
 	name "GalaxyScenarioPictureUnderlay"
 	content "Simple"
@@ -1127,69 +1132,69 @@ brush
 	name "RandomRacePictureIcon"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 339 , 8 , 20 , 24 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 339 , 8 , 20 , 24 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 339 , 8 , 20 , 24 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 339 , 8 , 20 , 24 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 339 , 8 , 20 , 24 ]
 brush
 	name "PlayerTeam0"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 83 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam1"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 124 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam2"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 165 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam3"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 206 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam4"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 247 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam5"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 288 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam6"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 329 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam7"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 370 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam8"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 412 , 37 , 40, 35 ]
 brush
 	name "PlayerTeam9"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 453 , 37 , 40, 35 ]
 brush
 	name "NewGameButton"

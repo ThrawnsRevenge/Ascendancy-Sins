@@ -5,73 +5,73 @@ brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenQuitGameTabButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenSaveGameTabButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenRecordGameTabButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 303 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 303 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 303 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 303 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 303 , 1 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenLoadGameTabButton"
@@ -95,127 +95,127 @@ brush
 	name "EscapeMenuScreenWatchGameTabButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 217 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 217 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 217 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 217 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 217 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenNetworkStatusTabButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 217 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 217 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 217 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 217 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 217 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenQuitGameButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 389 , 174 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 389 , 174 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 389 , 174 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 389 , 174 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 389 , 174 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenSurrenderButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 432 , 174 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 432 , 174 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 432 , 174 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 432 , 174 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 432 , 174 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenSaveGameButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 346 , 173 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenLoadGameButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenWatchGameButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 1 , 42 , 42 ]
 brush
 	name "EscapeMenuScreenNetworkStatusActionDropLaggingPlayer"
@@ -419,307 +419,307 @@ brush
 	name "ResearchScreenCloseButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonCombatTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDefenseTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonNonCombatTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDiplomacyTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonFleetTech"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonCombatPsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDefensePsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonNonCombatPsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDiplomacyPsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonFleetPsi"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonCombatPhase"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDefensePhase"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 44 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonNonCombatPhase"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 260 , 173 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonDiplomacyPhase"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 44 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonFleetPhase"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 brush
 	name "ResearchScreenTabButtonArtifact"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 130 , 259 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 259 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 259 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 259 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 259 , 42 , 42 ]
 brush
 	name "ResearchScreenFleetLevelPictureBackdrop"
@@ -744,25 +744,25 @@ brush
 brush
 	name "ResearchScreenNextLevelIcon"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons"
+	fileName "AscendancyMainIcons"
 	pixelBox [ 431 , 1 , 42 , 42 ]
 brush
 	name "PlayerScreenCloseButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 brush
 	name "PlayerScreenPortraitUnderlay"
@@ -1127,19 +1127,19 @@ brush
 	name "NPCScreenCloseButton"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 173 , 42 , 42 ]
 brush
 	name "NPCScreenPirateTabButton"
@@ -1589,181 +1589,181 @@ brush
 	name "StatsScreenTabButtonCredits"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 130 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 130 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonMetal"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 173 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 173 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 173 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 173 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 173 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonCrystal"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 87 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 87 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 87 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 87 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 87 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonShips"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 1 , 87 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonTitans"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 302 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 302 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 302 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 302 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 302 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonCapitalShips"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 388 , 44 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 44 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 44 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 44 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 388 , 44 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonModules"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 259 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 259 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 259 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 259 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 259 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonPlanets"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 216 , 216 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 216 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 216 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 216 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 216 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonCombat"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 216 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 216 , 173 , 42 , 42 ]
 brush
 	name "StatsScreenTabButtonEmpire"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 431 , 173 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 173 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 173 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 173 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 173 , 42 , 42 ]
 brush
 	name "ResearchWindowButtonBackdrop"
@@ -4272,17 +4272,17 @@ brush
 	name "Civilopedia_Icon"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Disabled"
+		fileName "AscendancyMainIcons_Disabled"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons"
+		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]

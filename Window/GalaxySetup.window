@@ -50,5 +50,5 @@ openVictoryOptionsDialogButton
 	textOffsetFromLeft 0
 	underlay "AscendancyMenuButtonNonActive"
 	overlay "Null"
-	icon "OpenGameOptionsDialog"
+	icon "OpenVictoryOptionsDialog"
 	text "NO_TEXT"

@@ -34,152 +34,152 @@ brush
 brush
 	name "MainViewIconFleetTech0"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 83 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech1"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 124 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech2"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 165 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech3"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 206 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech4"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 247 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech5"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 288 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech6"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 329 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech7"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 370 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech8"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 411 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetTech9"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 452 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi0"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 83 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi1"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 124 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi2"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 165 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi3"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 206 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi4"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 247 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi5"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 288 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi6"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 329 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi7"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 370 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi8"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 411 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPsi9"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 452 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase0"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 83 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase1"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 124 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase2"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 165 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase3"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 206 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase4"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 247 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase5"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 288 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase6"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 329 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase7"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 370 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase8"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 411 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconFleetPhase9"
 	content "Simple"
-	fileName "Buttons_Ascendancy_Icons_Small"
+	fileName "AscendancyMainIcons_Small"
 	pixelBox [ 452 , 37 , 41 , 35 ]
 brush
 	name "MainViewIconOverlayCapitalShipLevel0"

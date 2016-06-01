@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 2
+brushCount 4
 brush
   name "AscendancyMenuButtonNonActive"
   content "States"
@@ -37,3 +37,39 @@ brush
   Normal
     fileName "AscendancyButtonsMenu"
     pixelBox [ 0 , 150 , 75 , 75 ]
+brush
+  name "AscendancyMenuScreenButtonSmall"
+	content "States"
+	Disabled
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 80 , 110 , 40 ]
+	Pressed
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	CursorOver
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	Focused
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	Normal
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 0 , 110 , 40 ]
+brush
+  name "AscendancyMenuScreenButtonLarge"
+	content "States"
+	Disabled
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 80 , 220 , 40 ]
+	Pressed
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	CursorOver
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	Focused
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	Normal
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 0 , 220 , 40 ]

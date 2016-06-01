@@ -1112,181 +1112,181 @@ brush
 	name "EmpireWindowHotKeyGroup1"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 83 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 83 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 83 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 83 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 83 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup2"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 124 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 124 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 124 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 124 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 124 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup3"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 165 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 165 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 165 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 165 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 165 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup4"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 206 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 206 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 206 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 206 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 206 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup5"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 247 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 247 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 247 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 247 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 247 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup6"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 288 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 288 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 288 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 288 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 288 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup7"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 329 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 329 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 329 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 329 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 329 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup8"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 370 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 370 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 370 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 370 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 370 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup9"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 411 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 411 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 411 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 411 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 411 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowHotKeyGroup0"
 	content "States"
 	Disabled
-		fileName "Buttons_Ascendancy_Icons_Small_Disabled"
+		fileName "AscendancyMainIcons_Small_Disabled"
 		pixelBox [ 452 , 37 , 42 , 37 ]
 	Pressed
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 452 , 37 , 42 , 37 ]
 	CursorOver
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 452 , 37 , 42 , 37 ]
 	Focused
-		fileName "Buttons_Ascendancy_Icons_Small_Active"
+		fileName "AscendancyMainIcons_Small_Active"
 		pixelBox [ 452 , 37 , 42 , 37 ]
 	Normal
-		fileName "Buttons_Ascendancy_Icons_Small"
+		fileName "AscendancyMainIcons_Small"
 		pixelBox [ 452 , 37 , 42 , 37 ]
 brush
 	name "EmpireWindowIconEntityOverlayHomePlanet"

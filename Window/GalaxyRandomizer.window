@@ -4,10 +4,10 @@ textEntryDef
 	textEntryFontId "TextEntry"
 scrollBarDef
 	labelFontId "Label"
-	labelWidth 120			
+	labelWidth 120
 fileListLabel
-	area [0, 62 , 220 , 30]
-	fontId "WindowSubTitle"
+	area [0, 72 , 220 , 30]
+	fontId "ButtonLabel"
 	text "IDSGalaxyRandomizerFileListLabel"
 fileList
 	area [0, 104, 220, 119]
@@ -16,18 +16,18 @@ previewButton
 	area [470, 624, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "GalaxyRandomizerPreviewButton"
-	text "IDSGalaxyRandomizerPreview"
+	textOffsetFromLeft 0
+	underlay "AscendancyMenuButtonNonActive"
+	overlay "Null"
+	icon "SinglePlayerSetupScreenPlayNewGameButton"
+	text "NO_TEXT"
 createScenarioButton
 	area [0, 232, 105, 38]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"					
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerCreateScenario"
 deleteScenarioButton
@@ -35,8 +35,8 @@ deleteScenarioButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"					
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerDeleteScenario"
 copyScenarioButton
@@ -44,17 +44,17 @@ copyScenarioButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
-	text "IDSGalaxyRandomizerCopyScenario"	
+	text "IDSGalaxyRandomizerCopyScenario"
 renameScenarioButton
 	area [237, 104, 105, 38]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerRenameScenario"
 saveScenarioButton
@@ -62,8 +62,8 @@ saveScenarioButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"					
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerSaveScenario"
 galaxyScaleScrollBarDef
@@ -71,7 +71,7 @@ galaxyScaleScrollBarDef
 	labelWidth 80
 galaxyScaleScrollBar
 	area [360, 108, 325, 30]
-	text "IDSGalaxyRandomizerGalaxyScaleScrollBar"				
+	text "IDSGalaxyRandomizerGalaxyScaleScrollBar"
 galaxyPlayerCountLabel
 	area [360, 152,  330, 30]
 	fontId "Label"
@@ -98,8 +98,8 @@ addStarButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"					
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerAddStar"
 removeStarButton
@@ -107,8 +107,8 @@ removeStarButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerRemoveStar"
 selectStarTypeButton
@@ -116,8 +116,8 @@ selectStarTypeButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayLargeShort"
-	overlay "ScreenButtonOverlayLargeShort"				
+	underlay "AscendancyMenuScreenButtonLarge"
+	overlay "ScreenButtonOverlayLargeShort"
 	icon ""
 	text "IDSGalaxyRandomizerSelectStarTypeButton"
 starPlayerCountTextEntry
@@ -126,13 +126,13 @@ starPlayerCountTextEntry
 	labelText "IDSGalaxyRandomizerStarPlayerCountTextEntry"
 starRadiusScrollBar
 	area [0, 556, 215, 30]
-	text "IDSGalaxyRandomizerStarRadiusScrollBar"	
+	text "IDSGalaxyRandomizerStarRadiusScrollBar"
 starConnectionsRangeScrollBar
 	area [0, 592, 215, 30]
-	text "IDSGalaxyRandomizerStarConnectionRangeScrollBar"	
+	text "IDSGalaxyRandomizerStarConnectionRangeScrollBar"
 starConnectionsChanceScrollBar
 	area [0, 628, 215, 30]
-	text "IDSGalaxyRandomizerStarConnectionChanceScrollBar"	
+	text "IDSGalaxyRandomizerStarConnectionChanceScrollBar"
 ringListLabel
 	area [235, 282, 220, 30]
 	fontId "Label"
@@ -145,8 +145,8 @@ addRingButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"					
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
 	text "IDSGalaxyRandomizerAddRing"
 removeRingButton
@@ -154,19 +154,19 @@ removeRingButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
-	text "IDSGalaxyRandomizerRemoveRing"	
+	text "IDSGalaxyRandomizerRemoveRing"
 ringMinRangeScrollBar
 	area [235, 520, 215, 30]
-	text "IDSGalaxyRandomizerRingMinRangeScrollBar"			
+	text "IDSGalaxyRandomizerRingMinRangeScrollBar"
 ringMaxRangeScrollBar
 	area [235, 556, 215, 30]
-	text "IDSGalaxyRandomizerRingMaxRangeScrollBar"			
+	text "IDSGalaxyRandomizerRingMaxRangeScrollBar"
 militiaColonizationPercScrollBar
 	area [235, 592, 215, 30]
-	text "IDSGalaxyRandomizerMilitiaColonizationPercScrollBar"			
+	text "IDSGalaxyRandomizerMilitiaColonizationPercScrollBar"
 planetListLabel
 	area [470, 282, 220, 30]
 	fontId "Label"
@@ -179,43 +179,43 @@ addPlanetButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
-	text "IDSGalaxyRandomizerAddPlanet"		
+	text "IDSGalaxyRandomizerAddPlanet"
 removePlanetButton
 	area [587, 424, 105, 38]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"				
+	underlay "AscendancyMenuScreenButtonSmall"
+	overlay "ScreenButtonOverlaySmall"
 	icon ""
-	text "IDSGalaxyRandomizerRemovePlanet"			
+	text "IDSGalaxyRandomizerRemovePlanet"
 selectPlanetTypeButton
 	area [470, 468, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayLargeShort"
-	overlay "ScreenButtonOverlayLargeShort"				
+	underlay "AscendancyMenuScreenButtonLarge"
+	overlay "ScreenButtonOverlayLargeShort"
 	icon ""
 	text "IDSGalaxyRandomizerSelectPlanetTypeButton"
 planetMinCountTextEntry
 	area [470, 520, 220, 30]
 	labelWidth 120
-	labelText "IDSGalaxyRandomizerPlanetMinCountTextEntry"			
+	labelText "IDSGalaxyRandomizerPlanetMinCountTextEntry"
 planetMaxCountTextEntry
 	area [470, 556, 220, 30]
 	labelWidth 120
-	labelText "IDSGalaxyRandomizerPlanetMaxCountTextEntry"			
+	labelText "IDSGalaxyRandomizerPlanetMaxCountTextEntry"
 minGalaxyScale 25000
 maxGalaxyScale 200000
 minStarRadius 100
 maxStarRadius 1000
 starListItemStringId "IDSGalaxyRandomizerStarListItem"
 ringListItemStringId "IDSGalaxyRandomizerRingListItem"
-newScenarioTemplateName "RandomTemplate"			
+newScenarioTemplateName "RandomTemplate"
 newStarTemplate
 	type "RandomStar"
 	radius 100.000000
@@ -235,12 +235,12 @@ newRingTemplate
 		minCount 2
 		maxCount 4
 		planetTypeCount 1
-		planetType "WeightedRandom"				
+		planetType "WeightedRandom"
 newPlanetTemplate
 	minCount 2
 	maxCount 4
 	planetTypeCount 1
-	planetType "WeightedRandom"				
+	planetType "WeightedRandom"
 mapMissingDLCString "IDSGalaxyInfoWindowScenarioMissingDLC"
 mapMissingDLCArea [0, 282, 455, 94]
 fontId "Label"
