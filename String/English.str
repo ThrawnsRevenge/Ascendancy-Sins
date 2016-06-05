@@ -6664,6 +6664,9 @@ StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
 	Value "A %s is taking place in %s territory!"
 StringInfo
+	ID "IDS_GAMEMESSAGE_LANDOBOOK"
+	Value "Lando's best-selling book was published in %s territory!"
+StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATETITAN"
 	Value "A mad Vasari titan is marauding the system!"
 StringInfo
@@ -25278,6 +25281,9 @@ StringInfo
 StringInfo
 	ID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
 	Value "Cultural Explosion"
+StringInfo
+	ID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
+	Value "Lando's Book"
 StringInfo
 	ID "IDS_RANDOMEVENT_CULTUREIMPLOSION_NAME"
 	Value "Cultural Implosion"

@@ -5,7 +5,7 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
-randomEventDefCount 5
+randomEventDefCount 6
 	randomEventDef
 		id "ECONOMICDOWNTURN"
 		nameID "IDS_RANDOMEVENT_ECONOMICDOWNTURN_NAME"
@@ -36,6 +36,21 @@ randomEventDefCount 5
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 1200.0
 		spawnWeight 0.2
+	randomEventDef
+		id "LANDOBOOK"
+		nameID "IDS_RANDOMEVENT_LANDOBOOK_NAME"
+		warningID "IDS_GAMEMESSAGE_LANDOBOOK"
+		spawnType "PeriodicBuffAtLocation"
+		spawnEntity "RandomEventEconomicUpturn"
+		duration 300.0
+		period 5.0
+		playerOwnerType "LocationOwner"
+		spawnLocation "RandomPlayerAllLocations"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 300.0
+		nextSpawnTimeMax 1200.0
+		spawnWeight 0.05
 	randomEventDef
 		id "CULTUREEXPLOSION"
 		nameID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
