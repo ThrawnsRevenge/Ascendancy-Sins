@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_URBAN"
 	smallHudIcon "HUDICONSMALL_PLANET_URBAN"
 	infoCardIcon "HUDICON_PLANET_URBAN"
-	mainViewIcon "MAINVIEWICON_PLANET_URBAN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_URBAN"
+	mainViewIcon "AscendancyMainViewPlanetUrban"
+	undetectedMainViewIcon "AscendancyMainViewPlanetUrban_NoIntelligence"
 	picture "HUDICON_PLANET_URBAN"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

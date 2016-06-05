@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_DESERT"
 	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
 	infoCardIcon "HUDICON_PLANET_DESERT"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT"
+	mainViewIcon "AscendancyMainViewPlanetDesert"
+	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
 	picture "HUDICON_PLANET_DESERT"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_DESERT"
 	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
 	infoCardIcon "HUDICON_PLANET_DESERT"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT"
+	mainViewIcon "AscendancyMainViewPlanetDesert"
+	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
 	picture "HUDICON_PLANET_DESERT"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_DESERT"
 	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
 	infoCardIcon "HUDICON_PLANET_DESERT"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT"
+	mainViewIcon "AscendancyMainViewPlanetDesert"
+	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
 	picture "HUDICON_PLANET_DESERT"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

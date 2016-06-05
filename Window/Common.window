@@ -17,18 +17,18 @@ screenButtonDef
 	offsetWhenPressed [1, 1]
 	textColorWhenDisabled ff555555
 horizontalScrollBarDef
-	backdrop "ScrollBarHorizontal"
-	thumb "ScrollBarHorizontalThumb"
-	thumbDragging "ScrollBarHorizontalThumbDragging"
-	thumbOverlay "ScrollBarHorizontalThumbOverlay"
-	thumbOverlayDragging "ScrollBarHorizontalThumbOverlayDragging"
-	beginArrow "ScrollBarHorizontalBeginArrow"
-	endArrow "ScrollBarHorizontalEndArrow"
+	backdrop "AscendancyHorizontalScrollBar"
+	thumb "AscendancyHorizontalScrollThumb"
+	thumbDragging "AscendancyHorizontalScrollThumb"
+	thumbOverlay "AscendancyHorizontalScrollThumb"
+	thumbOverlayDragging "AscendancyHorizontalScrollThumbDragging"
+	beginArrow "AscendancyHorizontalScrollLeftArrow"
+	endArrow "AscendancyHorizontalScrollRightArrow"
 verticalScrollBarDef
 	backdrop "ScrollBarVertical"
-	thumb "AscenadncyVerticalScrollBar"
-	thumbDragging "AscenadncyVerticalScrollBarClick"
-	thumbOverlay "AscendancyVerticalScrollCursor"
+	thumb "AscendancyVerticalScrollBar"
+  thumbDragging "AscendancyVerticalScrollBarClick"
+  thumbOverlay "AscendancyVerticalScrollCursor"
 	thumbOverlayDragging "AscendancyVerticalScrollDraggingCursor"
 	beginArrow "AscendancyVerticalScrollUpArrow"
 	endArrow "AscendancyVerticalScrollDownArrow"

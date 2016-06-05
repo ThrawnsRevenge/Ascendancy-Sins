@@ -1,0 +1,198 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 39
+brush
+  name "AscendancyMainViewPlanetAlertOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 0 , 280 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetCapitalOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 406 , 280 , 16 , 65 ]
+brush
+  name "AscendancyMainViewPlanetHolocronOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 423 , 280 , 16 , 16 ]
+brush
+  name "AscendancyMainViewPlanetFriendlyOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 476 , 288 , 14 , 32 ] 
+brush
+  name "AscendancyMainViewPlanetEnemyOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 536 , 288 , 14 , 32 ]
+brush
+  name "AscendancyMainViewPlanetModuleOverlay"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 497 , 331 , 32 , 14 ]
+brush
+  name "AscendancyMainViewPlanetUnknown"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 800 , 210 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetTerran"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 0 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetAridOcean"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 200 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetDesert"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 400 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetUrban"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 600 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetGasGiant"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 800 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetIce"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 0 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetBlackhole"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 200 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetMountain"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 400 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetNebula"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 600 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetOceanic"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 800 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetPolluted"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 0 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetSwamp"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 200 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetVolcanic"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 400 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetArboreal"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 600 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetAsteroid"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 800 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetBarren"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView"
+  pixelBox [ 0 , 210 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetTerran_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 0 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetAridOcean_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 200 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetDesert_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 400 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetUrban_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 600 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetGasGiant_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 800 , 0 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetIce_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 0 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetBlackhole_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 200 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetMountain_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 400 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetNebula_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 600 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetOceanic_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 800 , 70 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetPolluted_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 0 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetSwamp_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 200 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetVolcanic_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 400 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetArboreal_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 600 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetAsteroid_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 800 , 140 , 200 , 70 ]
+brush
+  name "AscendancyMainViewPlanetBarren_NoIntelligence"
+  content "Simple"
+  fileName "AscendancyPlanetsMainView_NoIntelligence"
+  pixelBox [ 0 , 210 , 200 , 70 ]

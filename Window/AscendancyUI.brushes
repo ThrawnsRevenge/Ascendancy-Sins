@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 7
+brushCount 12
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
@@ -66,7 +66,7 @@ brush
 		fileName "AscendancyUI"
 		pixelBox [ 36 , 12 , 11 , 11 ]
 brush
-  name "AscenadncyVerticalScrollBar"
+  name "AscendancyVerticalScrollBar"
   content "MarginsAndStates"
 	stretchMargins
 		left 5
@@ -94,7 +94,7 @@ brush
     fileName "AscendancyUI"
   	pixelBox [ 0 , 23 , 9 , 50 ]
 brush
-  name "AscenadncyVerticalScrollBarClick"
+  name "AscendancyVerticalScrollBarClick"
   content "Margins"
 	stretchMargins
 		left 5
@@ -108,3 +108,51 @@ brush
 		bottom 0
   fileName "AscendancyUI"
 	pixelBox [ 0 , 123 , 9 , 50 ]
+brush
+  name "AscendancyHorizontalScrollLeftArrow"
+  content "Simple"
+  fileName "Null"
+  pixelBox [ 0 , 0 , 1 , 1]
+brush
+  name "AscendancyHorizontalScrollRightArrow"
+  content "Simple"
+  fileName "Null"
+  pixelBox [ 0 , 0 , 1 , 1]
+brush
+	name "AscendancyHorizontalScrollBar"
+	content "Margins"
+	stretchMargins
+		left 5
+		right 5
+		top 0
+		bottom 0
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "AscendancyUI"
+	pixelBox [ 124 , 0 , 172 , 23 ]
+brush
+  name "AscendancyHorizontalScrollThumb"
+  content "States"
+	Disabled
+		fileName "AscendancyUI"
+		pixelBox [ 318 , 0 , 22 , 23 ]
+	Pressed
+		fileName "AscendancyUI"
+		pixelBox [ 296 , 0 , 22 , 23 ]
+	CursorOver
+		fileName "AscendancyUI"
+		pixelBox [ 102 , 0 , 22 , 23 ]
+	Focused
+		fileName "AscendancyUI"
+		pixelBox [ 296 , 0 , 22 , 23 ]
+	Normal
+		fileName "AscendancyUI"
+		pixelBox [ 80 , 0 , 22 , 23 ]
+brush
+  name "AscendancyHorizontalScrollThumbDragging"
+  content "Simple"
+	fileName "AscendancyUI"
+  pixelBox [ 296 , 0 , 22 , 23 ]

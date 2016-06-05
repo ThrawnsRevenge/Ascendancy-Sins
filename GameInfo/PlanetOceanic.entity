@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_OCEANIC"
 	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
 	infoCardIcon "HUDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
+	mainViewIcon "AscendancyMainViewPlanetOceanic"
+	undetectedMainViewIcon "AscendancyMainViewPlanetOceanic_NoIntelligence"
 	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_OCEANIC"
 	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
 	infoCardIcon "HUDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
+	mainViewIcon "AscendancyMainViewPlanetOceanic"
+	undetectedMainViewIcon "AscendancyMainViewPlanetOceanic_NoIntelligence"
 	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_OCEANIC"
 	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
 	infoCardIcon "HUDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
+	mainViewIcon "AscendancyMainViewPlanetOceanic"
+	undetectedMainViewIcon "AscendancyMainViewPlanetOceanic_NoIntelligence"
 	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_OCEANIC"
 	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
 	infoCardIcon "HUDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
+	mainViewIcon "AscendancyMainViewPlanetOceanic"
+	undetectedMainViewIcon "AscendancyMainViewPlanetOceanic_NoIntelligence"
 	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
@@ -72,8 +72,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_OCEANIC"
 	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
 	infoCardIcon "HUDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCEANIC"
+	mainViewIcon "AscendancyMainViewPlanetOceanic"
+	undetectedMainViewIcon "AscendancyMainViewPlanetOceanic_NoIntelligence"
 	picture "HUDICON_PLANET_OCEANIC"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

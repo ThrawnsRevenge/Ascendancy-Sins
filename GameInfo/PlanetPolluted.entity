@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_POLLUTED"
 	smallHudIcon "HUDICONSMALL_PLANET_POLLUTED"
 	infoCardIcon "HUDICON_PLANET_POLLUTED"
-	mainViewIcon "MAINVIEWICON_PLANET_POLLUTED"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
+	mainViewIcon "AscendancyMainViewPlanetPolluted"
+	undetectedMainViewIcon "AscendancyMainViewPlanetPolluted_NoIntelligence"
 	picture "HUDICON_PLANET_POLLUTED"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_POLLUTED"
 	smallHudIcon "HUDICONSMALL_PLANET_POLLUTED"
 	infoCardIcon "HUDICON_PLANET_POLLUTED"
-	mainViewIcon "MAINVIEWICON_PLANET_POLLUTED"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
+	mainViewIcon "AscendancyMainViewPlanetPolluted"
+	undetectedMainViewIcon "AscendancyMainViewPlanetPolluted_NoIntelligence"
 	picture "HUDICON_PLANET_POLLUTED"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_POLLUTED"
 	smallHudIcon "HUDICONSMALL_PLANET_POLLUTED"
 	infoCardIcon "HUDICON_PLANET_POLLUTED"
-	mainViewIcon "MAINVIEWICON_PLANET_POLLUTED"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
+	mainViewIcon "AscendancyMainViewPlanetPolluted"
+	undetectedMainViewIcon "AscendancyMainViewPlanetPolluted_NoIntelligence"
 	picture "HUDICON_PLANET_POLLUTED"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_POLLUTED"
 	smallHudIcon "HUDICONSMALL_PLANET_POLLUTED"
 	infoCardIcon "HUDICON_PLANET_POLLUTED"
-	mainViewIcon "MAINVIEWICON_PLANET_POLLUTED"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
+	mainViewIcon "AscendancyMainViewPlanetPolluted"
+	undetectedMainViewIcon "AscendancyMainViewPlanetPolluted_NoIntelligence"
 	picture "HUDICON_PLANET_POLLUTED"
 	shouldPrefer FALSE
 meshInfo
@@ -72,8 +72,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_POLLUTED"
 	smallHudIcon "HUDICONSMALL_PLANET_POLLUTED"
 	infoCardIcon "HUDICON_PLANET_POLLUTED"
-	mainViewIcon "MAINVIEWICON_PLANET_POLLUTED"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_POLLUTED"
+	mainViewIcon "AscendancyMainViewPlanetPolluted"
+	undetectedMainViewIcon "AscendancyMainViewPlanetPolluted_NoIntelligence"
 	picture "HUDICON_PLANET_POLLUTED"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

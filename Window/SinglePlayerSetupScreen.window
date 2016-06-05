@@ -18,14 +18,14 @@ tabWindow
 	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -25
-		textOffsetFromLeft 100
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -25
-		textOffsetFromLeft 100
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
@@ -63,7 +63,7 @@ loadSavedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [122, 700, 75 , 75]
+		area [125, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 0
@@ -85,7 +85,7 @@ loadRecordedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [122, 700, 75 , 75]
+		area [125, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 0

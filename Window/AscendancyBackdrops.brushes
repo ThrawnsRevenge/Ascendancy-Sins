@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 5
+brushCount 6
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
@@ -25,4 +25,9 @@ brush
   name "AscendancyBackdropGameOptions"
   content "Simple"
   fileName "AscendancyBackdropGameOptions"
+  pixelBox [ 0 , 0 , 3000 , 600 ]
+brush
+  name "AscendancyBackdropVictoryOptions"
+  content "Simple"
+  fileName "AscendancyBackdropVictoryOptions"
   pixelBox [ 0 , 0 , 3000 , 600 ]

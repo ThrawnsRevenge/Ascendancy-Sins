@@ -22280,7 +22280,7 @@ StringInfo
 	Value "MODIFICATIONS"
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsTabButton"
-	Value "USER INTERFACE"
+	Value "INTERFACE"
 StringInfo
 	ID "IDSOptionsScreenKeyBindingsResetAllMappings"
 	Value "Reset All"

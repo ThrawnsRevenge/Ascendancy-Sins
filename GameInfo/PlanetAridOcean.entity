@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ARID_OCEAN"
 	smallHudIcon "HUDICONSMALL_PLANET_ARID_OCEAN"
 	infoCardIcon "HUDICON_PLANET_ARID_OCEAN"
-	mainViewIcon "MAINVIEWICON_PLANET_ARID_OCEAN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ARID_OCEAN"
+	mainViewIcon "AscendancyMainViewPlanetAridOcean"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAridOcean_NoIntelligence"
 	picture "HUDICON_PLANET_ARID_OCEAN"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ARID_OCEAN"
 	smallHudIcon "HUDICONSMALL_PLANET_ARID_OCEAN"
 	infoCardIcon "HUDICON_PLANET_ARID_OCEAN"
-	mainViewIcon "MAINVIEWICON_PLANET_ARID_OCEAN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ARID_OCEAN"
+	mainViewIcon "AscendancyMainViewPlanetAridOcean"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAridOcean_NoIntelligence"
 	picture "HUDICON_PLANET_ARID_OCEAN"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ARID_OCEAN"
 	smallHudIcon "HUDICONSMALL_PLANET_ARID_OCEAN"
 	infoCardIcon "HUDICON_PLANET_ARID_OCEAN"
-	mainViewIcon "MAINVIEWICON_PLANET_ARID_OCEAN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ARID_OCEAN"
+	mainViewIcon "AscendancyMainViewPlanetAridOcean"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAridOcean_NoIntelligence"
 	picture "HUDICON_PLANET_ARID_OCEAN"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

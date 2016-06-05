@@ -1,61 +1,55 @@
 TXT
 pipCloud(Modules)
-	segmentCount 10
+	segmentCount 8
 	segmentLayout
-		textureName "Ascendancy_Circle_Planet_Pips"
-		startTopLeft [6,6]
-		width 20
-		height 20
-		rowItemCount 10
-		horizontalStride 21
+		textureName "AscendancyPlanetsMainView"
+		startTopLeft [497 , 331]
+		width 4
+		height 14
+		rowItemCount 8
+		horizontalStride 4
 		verticalStride 0
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
-	segmentOffset [14, -3]
+	segmentOffset [10, -4]
+	segmentOffset [14, -4]
+	segmentOffset [18, -4]
+	segmentOffset [22, -4]
+	segmentOffset [26, -4]
+	segmentOffset [30, -4]
+	segmentOffset [34, -4]
+	segmentOffset [38, -4]
 pipCloud(FriendlyShips)
-	segmentCount 10
+	segmentCount 8
 	segmentLayout
-		textureName "Ascendancy_Circle_Planet_Pips"
-		startTopLeft [6,6]
-		width 20
-		height 20
-		rowItemCount 10
-		horizontalStride 21
-		verticalStride 0
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
-	segmentOffset [2, 15]
+		textureName "AscendancyPlanetsMainView"
+		startTopLeft [476 , 316]
+		width 14
+		height 4
+		rowItemCount 1
+		horizontalStride 0
+		verticalStride -4
+	segmentOffset [11, 38]
+	segmentOffset [11, 34]
+	segmentOffset [11, 30]
+	segmentOffset [11, 26]
+	segmentOffset [11, 22]
+	segmentOffset [11, 18]
+	segmentOffset [11, 14]
+	segmentOffset [11, 10]
 pipCloud(EnemyShips)
-	segmentCount 10
+	segmentCount 8
 	segmentLayout
-		textureName "Ascendancy_Circle_Planet_Pips"
-		startTopLeft [6,6]
-		width 20
-		height 20
-		rowItemCount 10
-		horizontalStride 21
-		verticalStride 0
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
-	segmentOffset [1, 15]
+		textureName "AscendancyPlanetsMainView"
+		startTopLeft [536 , 316]
+		width 14
+		height 4
+		rowItemCount 1
+		horizontalStride 0
+		verticalStride -4
+	segmentOffset [0, 38]
+	segmentOffset [0, 34]
+	segmentOffset [0, 30]
+	segmentOffset [0, 26]
+	segmentOffset [0, 22]
+	segmentOffset [0, 18]
+	segmentOffset [0, 14]
+	segmentOffset [0, 10]

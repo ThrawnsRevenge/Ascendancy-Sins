@@ -1,5 +1,5 @@
 TXT
-brushFileCount 33
+brushFileCount 34
 brushFile "Achievements.brushes"
 brushFile "GameEvent.brushes"
 brushFile "GameOver.brushes"
@@ -33,3 +33,4 @@ brushFile "AscendancyMenuButtons.brushes"
 brushFile "AscendancySingleButtons.brushes"
 brushFile "AscendancyBackdrops.brushes"
 brushFile "AscendancyUI.brushes"
+brushFile "AscendancyPlanets.brushes"

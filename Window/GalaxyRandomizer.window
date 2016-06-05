@@ -13,7 +13,7 @@ fileList
 	area [0, 104, 220, 119]
 	itemGap 3
 previewButton
-	area [470, 624, 220, 46]
+	area [75, 681, 75 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0

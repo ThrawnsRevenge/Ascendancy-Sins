@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_BARREN"
 	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
 	infoCardIcon "HUDICON_PLANET_BARREN"
-	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_BARREN"
+	mainViewIcon "AscendancyMainViewPlanetBarren"
+	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
 	picture "HUDICON_PLANET_BARREN"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_BARREN"
 	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
 	infoCardIcon "HUDICON_PLANET_BARREN"
-	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_BARREN"
+	mainViewIcon "AscendancyMainViewPlanetBarren"
+	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
 	picture "HUDICON_PLANET_BARREN"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_BARREN"
 	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
 	infoCardIcon "HUDICON_PLANET_BARREN"
-	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_BARREN"
+	mainViewIcon "AscendancyMainViewPlanetBarren"
+	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
 	picture "HUDICON_PLANET_BARREN"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

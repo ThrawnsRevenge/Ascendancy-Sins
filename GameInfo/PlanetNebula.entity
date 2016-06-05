@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_NEBULA"
 	smallHudIcon "HUDICONSMALL_PLANET_NEBULA"
 	infoCardIcon "HUDICON_PLANET_NEBULA"
-	mainViewIcon "MAINVIEWICON_PLANET_NEBULA"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_NEBULA"
+	mainViewIcon "AscendancyMainViewPlanetNebula"
+	undetectedMainViewIcon "AscendancyMainViewPlanetNebula_NoIntelligence"
 	picture "HUDICON_PLANET_NEBULA"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_NEBULA"
 	smallHudIcon "HUDICONSMALL_PLANET_NEBULA"
 	infoCardIcon "HUDICON_PLANET_NEBULA"
-	mainViewIcon "MAINVIEWICON_PLANET_NEBULA"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_NEBULA"
+	mainViewIcon "AscendancyMainViewPlanetNebula"
+	undetectedMainViewIcon "AscendancyMainViewPlanetNebula_NoIntelligence"
 	picture "HUDICON_PLANET_NEBULA"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_NEBULA"
 	smallHudIcon "HUDICONSMALL_PLANET_NEBULA"
 	infoCardIcon "HUDICON_PLANET_NEBULA"
-	mainViewIcon "MAINVIEWICON_PLANET_NEBULA"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_NEBULA"
+	mainViewIcon "AscendancyMainViewPlanetNebula"
+	undetectedMainViewIcon "AscendancyMainViewPlanetNebula_NoIntelligence"
 	picture "HUDICON_PLANET_NEBULA"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_NEBULA"
 	smallHudIcon "HUDICONSMALL_PLANET_NEBULA"
 	infoCardIcon "HUDICON_PLANET_NEBULA"
-	mainViewIcon "MAINVIEWICON_PLANET_NEBULA"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_NEBULA"
+	mainViewIcon "AscendancyMainViewPlanetNebula"
+	undetectedMainViewIcon "AscendancyMainViewPlanetNebula_NoIntelligence"
 	picture "HUDICON_PLANET_NEBULA"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

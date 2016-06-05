@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ASTEROID"
 	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
 	infoCardIcon "HUDICON_PLANET_ASTEROID"
-	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
+	mainViewIcon "AscendancyMainViewPlanetAsteroid"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
 	picture "HUDICON_PLANET_ASTEROID"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ASTEROID"
 	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
 	infoCardIcon "HUDICON_PLANET_ASTEROID"
-	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
+	mainViewIcon "AscendancyMainViewPlanetAsteroid"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
 	picture "HUDICON_PLANET_ASTEROID"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ASTEROID"
 	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
 	infoCardIcon "HUDICON_PLANET_ASTEROID"
-	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
+	mainViewIcon "AscendancyMainViewPlanetAsteroid"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
 	picture "HUDICON_PLANET_ASTEROID"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ASTEROID"
 	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
 	infoCardIcon "HUDICON_PLANET_ASTEROID"
-	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
+	mainViewIcon "AscendancyMainViewPlanetAsteroid"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
 	picture "HUDICON_PLANET_ASTEROID"
 	shouldPrefer FALSE
 meshInfo
@@ -72,8 +72,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_ASTEROID"
 	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
 	infoCardIcon "HUDICON_PLANET_ASTEROID"
-	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID"
+	mainViewIcon "AscendancyMainViewPlanetAsteroid"
+	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
 	picture "HUDICON_PLANET_ASTEROID"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.000000

@@ -21,16 +21,16 @@ meshBarsMaxWidth 60
 capitalShipLevelOffset [-30, -11]
 tacticalGridLineSpacing 2000
 iconOverlayDef
-	homePlanet "MainViewIconEntityOverlayHomePlanet"
-	artifactPlanet "MainViewIconEntityOverlayArtifact"
+	homePlanet "AscendancyMainViewPlanetCapitalOverlay"
+	artifactPlanet "AscendancyMainViewPlanetHolocronOverlay"
 	resourceAsteroidMetal "MainViewIconEntityOverlayResourceExtractorMetal"
 	resourceAsteroidCrystal "MainViewIconEntityOverlayResourceExtractorCrystal"
 	unspentAbilityPointsAndUnassignedSquads ""
 	unspentAbilityPoints ""
-	unassignedSquads ""	
+	unassignedSquads ""
 	partiallyStacked ""
 	almostFullyStacked ""
-	fullyStacked ""	
+	fullyStacked ""
 	fleetLeader ""
 solarSystemIconPlanet "MAINVIEWICON_SOLARSYSTEM_PLANET"
 solarSystemIconCapitalShip ""
@@ -38,4 +38,3 @@ solarSystemIconFrigate ""
 farStarCloudFadeInBeginPerc 0.7
 farStarCloudFadeInEndPerc 1.4
 fleetLeaderIconOffset [0, -40, 0, 0]
-

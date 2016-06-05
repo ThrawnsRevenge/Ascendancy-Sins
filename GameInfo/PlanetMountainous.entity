@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_MOUNTAIN"
 	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
 	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
-	mainViewIcon "MAINVIEWICON_PLANET_MOUNTAIN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
+	mainViewIcon "AscendancyMainViewPlanetMountain"
+	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
 	picture "HUDICON_PLANET_MOUNTAIN"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_MOUNTAIN"
 	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
 	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
-	mainViewIcon "MAINVIEWICON_PLANET_MOUNTAIN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
+	mainViewIcon "AscendancyMainViewPlanetMountain"
+	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
 	picture "HUDICON_PLANET_MOUNTAIN"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_MOUNTAIN"
 	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
 	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
-	mainViewIcon "MAINVIEWICON_PLANET_MOUNTAIN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
+	mainViewIcon "AscendancyMainViewPlanetMountain"
+	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
 	picture "HUDICON_PLANET_MOUNTAIN"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_MOUNTAIN"
 	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
 	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
-	mainViewIcon "MAINVIEWICON_PLANET_MOUNTAIN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
+	mainViewIcon "AscendancyMainViewPlanetMountain"
+	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
 	picture "HUDICON_PLANET_MOUNTAIN"
 	shouldPrefer FALSE
 meshInfo
@@ -72,8 +72,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_MOUNTAIN"
 	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
 	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
-	mainViewIcon "MAINVIEWICON_PLANET_MOUNTAIN"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOUNTAIN"
+	mainViewIcon "AscendancyMainViewPlanetMountain"
+	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
 	picture "HUDICON_PLANET_MOUNTAIN"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

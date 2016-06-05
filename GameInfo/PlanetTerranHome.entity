@@ -12,8 +12,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_TEMPERATE"
 	smallHudIcon "HUDICONSMALL_PLANET_TEMPERATE"
 	infoCardIcon "HUDICON_PLANET_TEMPERATE"
-	mainViewIcon "MAINVIEWICON_PLANET_TEMPERATE"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TEMPERATE"
+	mainViewIcon "AscendancyMainViewPlanetTerran"
+	undetectedMainViewIcon "AscendancyMainViewPlanetTerran_NoIntelligence"
 	picture "HUDICON_PLANET_TEMPERATE"
 	shouldPrefer FALSE
 meshInfo
@@ -27,8 +27,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_TEMPERATE"
 	smallHudIcon "HUDICONSMALL_PLANET_TEMPERATE"
 	infoCardIcon "HUDICON_PLANET_TEMPERATE"
-	mainViewIcon "MAINVIEWICON_PLANET_TEMPERATE"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TEMPERATE"
+	mainViewIcon "AscendancyMainViewPlanetTerran"
+	undetectedMainViewIcon "AscendancyMainViewPlanetTerran_NoIntelligence"
 	picture "HUDICON_PLANET_TEMPERATE"
 	shouldPrefer FALSE
 meshInfo
@@ -42,8 +42,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_TEMPERATE"
 	smallHudIcon "HUDICONSMALL_PLANET_TEMPERATE"
 	infoCardIcon "HUDICON_PLANET_TEMPERATE"
-	mainViewIcon "MAINVIEWICON_PLANET_TEMPERATE"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TEMPERATE"
+	mainViewIcon "AscendancyMainViewPlanetTerran"
+	undetectedMainViewIcon "AscendancyMainViewPlanetTerran_NoIntelligence"
 	picture "HUDICON_PLANET_TEMPERATE"
 	shouldPrefer FALSE
 meshInfo
@@ -57,8 +57,8 @@ meshInfo
 	hudIcon "HUDICON_PLANET_TEMPERATE"
 	smallHudIcon "HUDICONSMALL_PLANET_TEMPERATE"
 	infoCardIcon "HUDICON_PLANET_TEMPERATE"
-	mainViewIcon "MAINVIEWICON_PLANET_TEMPERATE"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TEMPERATE"
+	mainViewIcon "AscendancyMainViewPlanetTerran"
+	undetectedMainViewIcon "AscendancyMainViewPlanetTerran_NoIntelligence"
 	picture "HUDICON_PLANET_TEMPERATE"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
