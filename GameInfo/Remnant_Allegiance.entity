@@ -76,10 +76,7 @@ NameStringID "IDS_CAPITALSHIP_ALLEGIANCE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_ALLEGIANCE_DESCRIPTION"
 picture "HUDICON_ALLEGIANCE"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Allegiance"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
