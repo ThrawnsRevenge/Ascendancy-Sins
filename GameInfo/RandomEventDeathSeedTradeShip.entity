@@ -1,0 +1,66 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "RandomEventDeathSeedCooldown"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 25.000000
+		Level:1 3.000000
+		Level:2 3.000000
+		Level:3 3.000000
+	actionIntervalTime
+		Level:0 40.000000
+		Level:1 40.000000
+		Level:2 40.000000
+		Level:3 40.000000
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnChance"
+	buffApplyChance
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
+	buffType "RandomEventDeathSeedPlanetDetermine"
+	targetFilter
+		numOwnerships 4
+		ownership "Friendly"
+		ownership "AlliedOrEnemy"
+		ownership "Player"
+		ownership "NoOwner"
+		numObjects 1
+		object "Planet"
+		numSpaces 0
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"

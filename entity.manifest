@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2274
+entityNameCount 2280
 entityName "Remnant_AITrap.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
@@ -31,6 +31,12 @@ entityName "StarBaseUpgradeEsselesBlockColonize.entity"
 entityName "StarBaseUpgradeEsselesCulture.entity"
 entityName "StarBaseUpgradeEsselesPopulation.entity"
 entityName "RandomEventWarlords.entity"
+entityName "RandomEventPeregrine.entity"
+entityName "RandomEventDeathSeedPlanet.entity"
+entityName "RandomEventDeathSeedPlanetDetermine.entity"
+entityName "RandomEventDeathSeedTradeShip.entity"
+entityName "RandomEventDeathSeedTradeShipDetermine.entity"
+entityName "RandomEventDeathSeedCooldown.entity"
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"

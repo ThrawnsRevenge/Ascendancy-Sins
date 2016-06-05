@@ -5,7 +5,20 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
-randomEventDefCount 6
+randomEventDefCount 8
+	randomEventDef
+		id "DEATHSEED"
+		nameID "IDS_RANDOMEVENT_DEATHSEED_NAME"
+		warningID "IDS_GAMEMESSAGE_DEATHSEED"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventDeathSeedPlanet"
+		playerOwnerType "LocationOwner"
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 2400.0
+		nextSpawnTimeMax 4800.0
+		spawnWeight 0.9
 	randomEventDef
 		id "ECONOMICDOWNTURN"
 		nameID "IDS_RANDOMEVENT_ECONOMICDOWNTURN_NAME"
@@ -50,7 +63,7 @@ randomEventDefCount 6
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.05
+		spawnWeight 0.10
 	randomEventDef
 		id "CULTUREEXPLOSION"
 		nameID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
@@ -95,3 +108,17 @@ randomEventDefCount 6
 		nextSpawnTimeMin 1200.0
 		nextSpawnTimeMax 3000.0
 		spawnWeight 0.01
+	randomEventDef
+		id "PEREGRINESNEST"
+		nameID "IDS_RANDOMEVENT_PEREGRINESNEST_NAME"
+		warningID "IDS_GAMEMESSAGE_PEREGRINESNEST"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventPeregrine"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomNonHomeworld"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 600.0
+		nextSpawnTimeMax 1200.0
+		spawnWeight 0.20

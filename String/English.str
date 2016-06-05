@@ -1153,6 +1153,18 @@ StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDWARLORDS"
 	Value "An independent Warlord group has begun attacking the galaxy."
 StringInfo
+	ID "IDS_RANDOMEVENT_PEREGRINESNEST_NAME"
+	Value "Garm Bel Iblis"
+StringInfo
+	ID "IDS_GAMEMESSAGE_PEREGRINESNEST"
+	Value "%s has come out of hiding at %s."
+StringInfo
+	ID "IDS_RANDOMEVENT_DEATHSEED_NAME"
+	Value "Death Seed"
+StringInfo
+	ID "IDS_GAMEMESSAGE_DEATHSEED"
+	Value "The %s has begun spreading from %s."
+StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_NAME"
 	Value "CR90 Envoy"
 StringInfo
