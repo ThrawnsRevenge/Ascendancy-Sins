@@ -234,8 +234,8 @@ brush
 brush
 	name "MainViewIconEntityUnderlayUnderCursorFrame"
 	content "Simple"
-	fileName "UI_Misc"
-	pixelBox [ 330 , 34 , 110 , 32 ]
+	fileName "AscendancyUI"
+	pixelBox [ 423 , 1 , 50 , 50 ]
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFrame"
 	content "Simple"
@@ -249,18 +249,18 @@ brush
 brush
 	name "MainViewIconEntityUnderlaySubSelectedFill"
 	content "Simple"
-	fileName "UI_Misc"
-	pixelBox [ 330 , 1 , 110 , 32 ]
+	fileName "AscendancyUI"
+	pixelBox [ 423 , 55 , 50 , 50 ]
 brush
 	name "MainViewIconEntityUnderlaySelectedFill"
 	content "Simple"
-	fileName "UI_Misc"
-	pixelBox [ 330 , 1 , 110 , 32 ]
+	fileName "AscendancyUI"
+	pixelBox [ 423 , 55 , 50 , 50 ]
 brush
 	name "MainViewIconStarUnderlayUnderCursorFrame"
 	content "Simple"
-	fileName "UI_Misc"
-	pixelBox [ 330 , 34 , 110 , 32 ]
+	fileName "AscendancyUI"
+	pixelBox [ 423 , 1 , 50 , 50 ]
 brush
 	name "MainViewIconStarUnderlaySubSelectedFrame"
 	content "Simple"
@@ -385,7 +385,7 @@ brush
 	name "MainViewIconPipCloudOverlayEnemyShipsUnderCursor"
   content "Simple"
   fileName "AscendancyPlanetsMainView"
-  pixelBox [ 0 , 280 , 200 , 70 ]
+  pixelBox [ 21 , 280 , 200 , 70 ]
 brush
 	name "MainViewIconStarBaseTech"
 	content "Simple"
