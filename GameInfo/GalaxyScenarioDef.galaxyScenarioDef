@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 296
+planetItemTypeCount 297
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1468,6 +1468,9 @@ planetItemType
 	designName "Cosmetic:TitanPhaseRebel"
 	entityDefName "TITAN_PHASEREBEL_COSMETIC"
 planetItemType
+	designName "Unique:Starbase:Centerpoint"
+	entityDefName "Unique_Centerpoint"
+planetItemType
 	designName "Pirate:Module:HangarDefense"
 	entityDefName "PLANETMODULE_TECHORBITALHANGARDEFENSE"
 planetItemType
@@ -1840,11 +1843,11 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 72
+planetItemsTemplateCount 73
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
-	groups 0		
+	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
 	subTemplates 0
@@ -2061,22 +2064,37 @@ planetItemsTemplate
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Budirech"
 planetItemsTemplate
+	templateName "Template:Unique:Centerpoint"
+	subTemplates 0	
+	groups 1
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.05"
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 1
+				item "Unique:Starbase:Centerpoint"
+planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Terran"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Desert"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Desert"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Volcanic"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Volcanic"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Asteroid"
@@ -2131,27 +2149,31 @@ planetItemsTemplate
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ice"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Ice"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_TerranFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_TerranFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_DesertFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_DesertFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_VolcanicFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_VolcanicFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_AsteroidFair"
@@ -2171,99 +2193,115 @@ planetItemsTemplate
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_IceFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_IceFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_FerrusFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_IceFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_BarrenFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Asteroid"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_GreenhouseFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_IceFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_OceanicFair"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_IceFair"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ferrus"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Barren"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaWeak"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Greenhouse"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Oceanic"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_AridOcean"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaWeak"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ecumenopolis"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Mountainous"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Swamp"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaWeak"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_TerranTwo"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_TerranThree"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Arboreal"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_MawInstallation"
@@ -2272,9 +2310,10 @@ planetItemsTemplate
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Polluted"
-	subTemplates 2
+	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaWeak"
+		template "Template:Unique:Centerpoint"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LightStart"

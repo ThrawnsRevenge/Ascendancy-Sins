@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2280
+entityNameCount 2281
 entityName "Remnant_AITrap.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
@@ -37,6 +37,7 @@ entityName "RandomEventDeathSeedPlanetDetermine.entity"
 entityName "RandomEventDeathSeedTradeShip.entity"
 entityName "RandomEventDeathSeedTradeShipDetermine.entity"
 entityName "RandomEventDeathSeedCooldown.entity"
+entityName "Unique_Centerpoint.entity"
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"
 entityName "PlanetSwamp.entity"

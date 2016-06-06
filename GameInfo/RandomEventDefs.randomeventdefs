@@ -18,7 +18,7 @@ randomEventDefCount 8
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 2400.0
 		nextSpawnTimeMax 4800.0
-		spawnWeight 0.9
+		spawnWeight 0.05
 	randomEventDef
 		id "ECONOMICDOWNTURN"
 		nameID "IDS_RANDOMEVENT_ECONOMICDOWNTURN_NAME"
