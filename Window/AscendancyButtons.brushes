@@ -6,37 +6,37 @@ brush
   content "States"
   Disabled
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 225 , 75 , 75 ]
+    pixelBox [ 0 , 150 , 200 , 50 ]
   Pressed
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 75 , 75 , 75 ]
+    pixelBox [ 0 , 100 , 200 , 50 ]
   CursorOver
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 75 , 75 , 75 ]
+    pixelBox [ 0 , 50 , 200 , 50 ]
   Focused
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 150 , 75 , 75 ]
+    pixelBox [ 0 , 100 , 200 , 50 ]
   Normal
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 0 , 75 , 75 ]
+    pixelBox [ 0 , 0 , 200 , 50 ]
 brush
   name "AscendancyMenuButtonActive"
   content "States"
   Disabled
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 225 , 75 , 75 ]
+    pixelBox [ 0 , 150 , 200 , 50 ]
   Pressed
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 75 , 75 , 75 ]
+    pixelBox [ 0 , 100 , 200 , 50 ]
   CursorOver
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 75 , 75 , 75 ]
+    pixelBox [ 0 , 50 , 200 , 50 ]
   Focused
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 150 , 75 , 75 ]
+    pixelBox [ 0 , 100 , 200 , 50 ]
   Normal
     fileName "AscendancyButtonsMenu"
-    pixelBox [ 0 , 150 , 75 , 75 ]
+    pixelBox [ 0 , 100 , 200 , 50 ]
 brush
   name "AscendancyMenuScreenButtonSmall"
 	content "States"

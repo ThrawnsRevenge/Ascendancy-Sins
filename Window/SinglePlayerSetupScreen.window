@@ -1,8 +1,8 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [ 100 , 97]
-	buttonSize [ 75 , 75 ]
+	buttonTopLeftOffset [ 100 , 120]
+	buttonSize [ 200 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSSinglePlayerSetupScreenTitle"
@@ -19,26 +19,26 @@ tabWindow
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
-		textOffsetFromLeft 85
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
-		textOffsetFromLeft 85
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [100, 700, 75 , 75]
+		area [100, 700, 200 , 50]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
-		textOffsetFromLeft 85
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
-		icon "ScreenBackButton"
+		icon "AscendancyIconsMainBack"
 		text "IDSSinglePlayerGameLobbyScreenBackButton"
 newGame
-	tabButtonIcon "SinglePlayerSetupScreenNewGameTabButton"
+	tabButtonIcon "AscendancyIconsMainFleet"
 	tabButtonText "IDSSinglePlayerSetupScreenNewGameTabButton"
 	galaxySetupWindow
 		area [50, 100, 700, 700]
@@ -49,10 +49,10 @@ newGame
 		textOffsetFromLeft 70
 		underlay "AscendancyMenuScreenButtonIconLarge"
 		overlay "Null"
-		icon "SinglePlayerSetupScreenPlayNewGameButton"
+		icon "AscendancyIconsMainFleet"
 		text "IDSSinglePlayerGameLobbyScreenStartGameButton"
 loadSavedGame
-	tabButtonIcon "SinglePlayerSetupScreenLoadSavedGameTabButton"
+	tabButtonIcon "AscendancyIconsMainLoad"
 	tabButtonText "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"
 	fileNameListLabel
 		area [50, 90 , 220, 30]
@@ -74,7 +74,7 @@ loadSavedGame
 	galaxyInfoWindow
 		area [285	, 122, 700, 700]
 loadRecordedGame
-	tabButtonIcon "SinglePlayerSetupScreenLoadRecordedGameTabButton"
+	tabButtonIcon "AscendancyIconsMainCamera"
 	tabButtonText "IDSSinglePlayerSetupScreenLoadRecordedGameTabButton"
 	fileNameListLabel
 		area [50, 90 , 220, 30]
@@ -96,7 +96,7 @@ loadRecordedGame
 	galaxyInfoWindow
 		area [285, 152, 455, 254]
 tutorial
-	tabButtonIcon "SinglePlayerSetupScreenTutorialTabButton"
+	tabButtonIcon "AscendancyIconsMainTutorials"
 	tabButtonText "IDSSinglePlayerSetupScreenTutorialTabButton"
 	titleLabel
 		area [50, 110, 220, 30]
@@ -165,7 +165,7 @@ galaxyRandomizer
 	galaxyRandomizerWindow
 		area [50, 18, 700, 700]
 achievements
-	tabButtonIcon "SinglePlayerSetupScreenAchievementsTabButton"
+	tabButtonIcon "AscendancyIconsMainRibbon"
 	tabButtonText "IDSSinglePlayerSetupScreenAchievementsTabButton"
 	achievementsWindow
 		area [50, 48, 700, 700]
