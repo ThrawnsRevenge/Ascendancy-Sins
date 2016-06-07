@@ -35,20 +35,20 @@ scenarioFileLocationButton
 		icon "Null"
 		text "NO_TEXT"
 openGameOptionsDialogButton
-	area [0, 600, 75 , 75]
+	area [0, 600, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 0
-	underlay "AscendancyMenuButtonNonActive"
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	icon "OpenGameOptionsDialog"
-	text "NO_TEXT"
+	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
 openVictoryOptionsDialogButton
-	area [75, 600, 75 , 75]
+	area [230, 600, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 0
-	underlay "AscendancyMenuButtonNonActive"
+	iconOffsetFromLeft 7
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	icon "OpenVictoryOptionsDialog"
-	text "NO_TEXT"
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"

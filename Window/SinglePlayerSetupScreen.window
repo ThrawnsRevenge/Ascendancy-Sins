@@ -31,26 +31,26 @@ tabWindow
 	closeButton
 		area [100, 700, 75 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 0
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 		icon "ScreenBackButton"
-		text "NO_TEXT"
+		text "IDSSinglePlayerGameLobbyScreenBackButton"
 newGame
 	tabButtonIcon "SinglePlayerSetupScreenNewGameTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenNewGameTabButton"
 	galaxySetupWindow
 		area [50, 100, 700, 700]
 	playNewGameButton
-		area [200, 700, 75 , 75]
+		area [520, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 0
-		underlay "AscendancyMenuButtonNonActive"
+		iconOffsetFromLeft 7
+		textOffsetFromLeft 70
+		underlay "AscendancyMenuScreenButtonIconLarge"
 		overlay "Null"
 		icon "SinglePlayerSetupScreenPlayNewGameButton"
-		text "NO_TEXT"
+		text "IDSSinglePlayerGameLobbyScreenStartGameButton"
 loadSavedGame
 	tabButtonIcon "SinglePlayerSetupScreenLoadSavedGameTabButton"
 	tabButtonText "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"

@@ -1,0 +1,158 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 15
+brush
+  name "AscendancyMenuButtonNonActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 225 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyMenuButtonActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 225 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsMenu"
+    pixelBox [ 0 , 150 , 75 , 75 ]
+brush
+  name "AscendancyMenuScreenButtonSmall"
+	content "States"
+	Disabled
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 80 , 110 , 40 ]
+	Pressed
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	CursorOver
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	Focused
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 40 , 110 , 40 ]
+	Normal
+		fileName "AscendancyButtonsScreenSmall"
+		pixelBox [ 0 , 0 , 110 , 40 ]
+brush
+  name "AscendancyMenuScreenButtonLarge"
+	content "States"
+	Disabled
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 80 , 220 , 40 ]
+	Pressed
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	CursorOver
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	Focused
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 40 , 220 , 40 ]
+	Normal
+		fileName "AscendancyButtonsScreenLarge"
+		pixelBox [ 0 , 0 , 220 , 40 ]
+brush
+  name "AscendancyMenuScreenButtonIconLarge"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsScreenIconLarge"
+		pixelBox [ 0 , 150 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsScreenIconLarge"
+		pixelBox [ 0 , 75 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsScreenIconLarge"
+		pixelBox [ 0 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyButtonsScreenIconLarge"
+		pixelBox [ 0 , 75 , 220 , 75 ]
+  Normal
+    fileName "AscendancyButtonsScreenIconLarge"
+		pixelBox [ 0 , 0 , 220 , 75 ]
+brush
+  name "AscendancySingleButtonLeftRightMouse150_50"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsSingle150_50"
+    pixelBox [ 450 , 0 , 150 , 50 ]
+  Pressed
+    fileName "AscendancyButtonsSingle150_50"
+    pixelBox [ 150 , 0 , 150 , 50 ]
+  CursorOver
+    fileName "AscendancyButtonsSingle150_50"
+    pixelBox [ 150 , 0 , 150 , 50 ]
+  Focused
+    fileName "AscendancyButtonsSingle150_50"
+    pixelBox [ 150 , 0 , 150 , 50 ]
+  Normal
+    fileName "AscendancyButtonsSingle150_50"
+    pixelBox [ 0 , 0 , 150 , 50 ]
+brush
+  name "AscendancySingleButtonSpeedLevel1"
+  content "Simple"
+  fileName "AscendancyButtonsLevels"
+  pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSpeedLevel2"
+  content "Simple"
+  fileName "AscendancyButtonsLevels"
+  pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSpeedLevel3"
+  content "Simple"
+  fileName "AscendancyButtonsLevels"
+  pixelBox [ 0 , 75 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSpeedLevel4"
+  content "Simple"
+  fileName "AscendancyButtonsLevels"
+  pixelBox [ 75 , 75 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSizeLevelSmall"
+  content "Simple"
+  fileName "AscendancyButtonsSizes"
+  pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSizeLevelMedium"
+  content "Simple"
+  fileName "AscendancyButtonsSizes"
+  pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonSizeLevelLarge"
+  content "Simple"
+  fileName "AscendancyButtonsSizes"
+  pixelBox [ 0 , 75 , 75 , 75 ]
+brush
+  name "AscendancySingleButtonEnabled"
+  content "Simple"
+  fileName "Interface0"
+  pixelBox [ 889 , 511 , 29 , 29 ]
+brush
+  name "AscendancySingleButtonDisabled"
+  content "Simple"
+  fileName "Interface0"
+  pixelBox [ 889 , 470 , 29 , 29 ]
+brush
+  name "Ascen"

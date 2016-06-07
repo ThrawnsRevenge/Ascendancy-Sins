@@ -21725,10 +21725,10 @@ StringInfo
 	Value "Watch"
 StringInfo
 	ID "IDSSinglePlayerGameLobbyScreenBackButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSSinglePlayerGameLobbyScreenStartGameButton"
-	Value "Start"
+	Value "START"
 StringInfo
 	ID "IDSPlayerSetupChangeNameButton"
 	Value "Change Name"
@@ -23375,10 +23375,10 @@ StringInfo
 	Value "Change Maps"
 StringInfo
 	ID "IDSGalaxySetupWindowOpenGameOptionsDialog"
-	Value "Game Options"
+	Value "GAME OPTIONS"
 StringInfo
 	ID "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
-	Value "Victory Options"
+	Value "VICTORY OPTIONS"
 StringInfo
 	ID "IDSEmpireWindowSelectionButtonOwnedColonyShips"
 	Value "Colony Ships"
