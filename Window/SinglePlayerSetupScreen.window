@@ -2,7 +2,7 @@ TXT
 tabWindow
 	topLeftOffset [0, -20]
 	buttonTopLeftOffset [ 100 , 120]
-	buttonSize [ 200 , 50 ]
+	buttonSize [ 75 , 75 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSSinglePlayerSetupScreenTitle"
@@ -18,27 +18,27 @@ tabWindow
 	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -10
-		textOffsetFromLeft 60
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -10
-		textOffsetFromLeft 60
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [100, 700, 200 , 50]
+		area [100, 700, 75 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -10
-		textOffsetFromLeft 60
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 		icon "AscendancyIconsMainBack"
 		text "IDSSinglePlayerGameLobbyScreenBackButton"
 newGame
-	tabButtonIcon "AscendancyIconsMainFleet"
+	tabButtonIcon "AscendancyIconsMainPlay"
 	tabButtonText "IDSSinglePlayerSetupScreenNewGameTabButton"
 	galaxySetupWindow
 		area [50, 100, 700, 700]
@@ -49,7 +49,7 @@ newGame
 		textOffsetFromLeft 70
 		underlay "AscendancyMenuScreenButtonIconLarge"
 		overlay "Null"
-		icon "AscendancyIconsMainFleet"
+		icon "AscendancyIconsMainForward"
 		text "IDSSinglePlayerGameLobbyScreenStartGameButton"
 loadSavedGame
 	tabButtonIcon "AscendancyIconsMainLoad"
@@ -157,10 +157,10 @@ tutorial
 		icon "GalaxyTutorialTypeButtonAdvancedDiplomacy"
 		text "IDSGalaxyTutorialTypeButtonDiplomacy"
 playerSetup
-	tabButtonIcon "SinglePlayerSetupScreenPlayerSetupTabButton"
+	tabButtonIcon "AscendancyIconsMainUser"
 	tabButtonText "IDSSinglePlayerSetupScreenPlayerSetupTabButton"
 galaxyRandomizer
-	tabButtonIcon "SinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	tabButtonIcon "AscendancyIconsMainDesign"
 	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
 	galaxyRandomizerWindow
 		area [50, 18, 700, 700]

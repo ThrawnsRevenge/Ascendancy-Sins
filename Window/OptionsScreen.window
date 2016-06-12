@@ -1,8 +1,8 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [ 100 , 97]
-	buttonSize [ 75 , 75 ]
+	buttonTopLeftOffset [ 100 , 120]
+	buttonSize [ 200 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSOptionsScreenTitle"
@@ -18,25 +18,25 @@ tabWindow
 	contentBackdrop "AscendancyBackdropMenuOptions"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -25
-		textOffsetFromLeft 100
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft -25
-		textOffsetFromLeft 100
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [100, 700, 75 , 75]
+		area [100, 700, 200 , 50]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 0
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
-		icon "ScreenBackButton"
-		text "NO_TEXT"
+		icon "AscendancyIconsMainBack"
+		text "IDSOptionsScreenBackButton"
 sharedDef
 	screenCheckBoxDef
 		boxWidth 33

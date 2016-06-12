@@ -7427,7 +7427,7 @@ StringInfo
 	Value "Close"
 StringInfo
 	ID "IDS_DIALOGWINDOW_ACCEPTBUTTON"
-	Value "Accept"
+	Value "APPLY"
 StringInfo
 	ID "IDS_HUDICON_NUMENTITIES_FORMAT"
 	Value "%d"
@@ -14714,7 +14714,7 @@ StringInfo
 	Value "Front"
 StringInfo
 	ID "IDS_WEAPONBANK_BACK"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDS_WEAPONBANK_LEFT"
 	Value "Left"
@@ -21839,7 +21839,7 @@ StringInfo
 	Value "MULTIPLAYER"
 StringInfo
 	ID "IDSMultiPlayerSetupScreenBackButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSMultiPlayerSetupScreenNewGameTabButton"
 	Value "New Game"
@@ -21857,7 +21857,7 @@ StringInfo
 	Value "Load Game"
 StringInfo
 	ID "IDSMultiPlayerGameLobbyScreenBackButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSMultiPlayerGameLobbyScreenStartGameButton"
 	Value "Start"
@@ -21917,7 +21917,7 @@ StringInfo
 	Value "ICO LOGIN"
 StringInfo
 	ID "IDSICOLoginScreenCloseButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSICOLoginScreenLoginTabButton"
 	Value "Login"
@@ -22022,7 +22022,7 @@ StringInfo
 	Value "Close"
 StringInfo
 	ID "IDSICOGameLobbyScreenBackButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSICOGameLobbyScreenStartGameButton"
 	Value "Start"
@@ -22262,7 +22262,7 @@ StringInfo
 	Value "OPTIONS"
 StringInfo
 	ID "IDSOptionsScreenBackButton"
-	Value "Back"
+	Value "BACK"
 StringInfo
 	ID "IDSOptionsScreenSoundOptionsTabButton"
 	Value "SOUND"
@@ -23213,10 +23213,10 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "GALAXY GUN"
+	Value "HEROES"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "GALAXY GUN"
+	Value "HEROES"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledTrue"
 	Value "RANDOM EVENTS"
@@ -23372,7 +23372,7 @@ StringInfo
 	Value "Locked Allied Victory"
 StringInfo
 	ID "IDSGalaxySetupWindowChangeMapTypeButton"
-	Value "Change Maps"
+	Value "SWITCH MAP TYPE"
 StringInfo
 	ID "IDSGalaxySetupWindowOpenGameOptionsDialog"
 	Value "GAME OPTIONS"

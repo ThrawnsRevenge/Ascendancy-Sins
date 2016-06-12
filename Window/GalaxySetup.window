@@ -13,27 +13,27 @@ scenarioList
 galaxyInfoWindow
 	area [235, 22, 455, 254]
 scenarioFileLocationButton
-	area [35, 542, 150 , 50]
+	area [11, 520, 200 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 0
-	underlay "AscendancySingleButtonLeftRightMouse150_50"
+	textOffsetFromLeft 42
+	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "Null"
 	BuiltInSmall
 		icon "Null"
-		text "NO_TEXT"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
 	BuiltInMedium
 		icon "Null"
-		text "NO_TEXT"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
 	BuiltInLarge
 		icon "Null"
-		text "NO_TEXT"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
 	UserGenerated
 		icon "Null"
-		text "NO_TEXT"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
 	GalaxyForge
 		icon "Null"
-		text "NO_TEXT"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
 openGameOptionsDialogButton
 	area [0, 600, 220 , 75]
 	fontId "ButtonLabel"
@@ -41,7 +41,7 @@ openGameOptionsDialogButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "OpenGameOptionsDialog"
+	icon "AscendancyIconsMainGamepad"
 	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
 openVictoryOptionsDialogButton
 	area [230, 600, 220 , 75]
@@ -50,5 +50,5 @@ openVictoryOptionsDialogButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "OpenVictoryOptionsDialog"
+	icon "AscendancyIconsMainFlag"
 	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"

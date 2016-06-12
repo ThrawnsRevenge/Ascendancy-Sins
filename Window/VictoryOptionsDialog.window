@@ -1,6 +1,6 @@
 TXT
 backdropDimPercentage 0.9
-backdropBrush "AscendancyBackdropVictoryOptions"
+backdropBrush "AscendancyBackdropDialogVictoryOptions"
 titleOverlayBrush "GameOptionsScreenTitleOverlay"
 size [3000 , 645]
 contentRefArea [1000, 100, 508, 335]

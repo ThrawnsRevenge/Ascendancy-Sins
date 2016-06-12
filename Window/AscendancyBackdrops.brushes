@@ -7,11 +7,6 @@ brush
   fileName "AscendancyBackdropMenuSinglePlayer"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
-  name "AscendancyBackdropMenuOptions"
-  content "Simple"
-  fileName "AscendancyBackdropMenuOptions"
-  pixelBox [ 0 , 0 , 3000 , 768 ]
-brush
   name "AscendancyBackdropMenuNetworkGame"
   content "Simple"
   fileName "AscendancyBackdropMenuNetworkGame"
@@ -22,12 +17,17 @@ brush
   fileName "AscendancyBackdropMenuInternetGame"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
-  name "AscendancyBackdropGameOptions"
+  name "AscendancyBackdropMenuOptions" 
   content "Simple"
-  fileName "AscendancyBackdropGameOptions"
+  fileName "AscendancyBackdropMenuOptions"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropDialogGameOptions"
+  content "Simple"
+  fileName "AscendancyBackdropDialogGameOptions"
   pixelBox [ 0 , 0 , 3000 , 600 ]
 brush
-  name "AscendancyBackdropVictoryOptions"
+  name "AscendancyBackdropDialogVictoryOptions"
   content "Simple"
-  fileName "AscendancyBackdropVictoryOptions"
+  fileName "AscendancyBackdropDialogVictoryOptions"
   pixelBox [ 0 , 0 , 3000 , 600 ]
