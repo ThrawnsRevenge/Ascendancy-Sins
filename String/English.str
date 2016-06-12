@@ -31,6 +31,12 @@ StringInfo
 	ID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
 	Value "Disables the target owned ship, removing upkeep costs but also shutting off all major systems. This ability can be re-used to reactivate the ship."
 StringInfo
+	ID "IDS_ABILITY_NEUTRALOBJECT_NAME"
+	Value "Captureable Object"
+StringInfo
+	ID "IDS_ABILITY_NEUTRALOBJECT_DESCRIPTION"
+	Value "Allows this entity to be captured."
+StringInfo
 	ID "IDS_ABILITY_UPGRADEDEFENSES_NAME"
 	Value "Upgrade Defenses"
 StringInfo

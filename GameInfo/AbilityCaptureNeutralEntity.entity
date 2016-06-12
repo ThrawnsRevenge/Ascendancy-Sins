@@ -7,8 +7,11 @@ targetFilter
 	numOwnerships 2
 	ownership "Enemy"
 	ownership "NoOwner"
-	numObjects 1
+	numObjects 4
 	object "PlanetModule"
+	object "StarBase"
+	object "Frigate"
+	object "CapitalShip"
 	numSpaces 1
 	space "Normal"
 	numConstraints 1

@@ -4,7 +4,7 @@ ability:0 "AbilityDestroyPlanet"
 ability:1 "AbilityMilitarySpecialization"
 ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "AbilityCaptureableObject"
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

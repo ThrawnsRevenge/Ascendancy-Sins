@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2281
+entityNameCount 2285
 entityName "Remnant_AITrap.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
@@ -619,6 +619,10 @@ entityName "AlignmentResearch_MaxShipSlots5.entity"
 entityName "AlignmentResearch_MaxShipSlots6.entity"
 entityName "AlignmentResearch_MaxShipSlots7.entity"
 entityName "AlignmentUpgrade_Bellator_AbilityA.entity"
+entityName "AbilityCaptureableObject.entity"
+entityName "BuffCaptureableObject.entity"
+entityName "BuffCaptureableObjectSpawner.entity"
+entityName "BuffBinaryDisable.entity"
 entityName "AbilityElitefightersNR.entity"
 entityName "BuffElitefightersNRChild.entity"
 entityName "BuffElitefightersNRSelf.entity"

@@ -1,0 +1,38 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffBinaryDisable"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 9
+entityBoolModifier "DisableAbilitiesUltimate"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "DisableFighterLaunch"
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "CanBeCaptured"
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"
