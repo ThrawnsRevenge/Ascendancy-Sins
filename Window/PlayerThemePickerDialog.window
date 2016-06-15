@@ -1,35 +1,35 @@
 TXT
-backdropDimPercentage 0.7
-backdropBrush "PlayerThemePickerScreenBackdrop"
+backdropDimPercentage 0.9
+backdropBrush "AscendancyBackdropDialogSelect"
 titleOverlayBrush "PlayerThemePickerScreenTitleOverlay"
-size [693 , 645]
-contentRefArea [90, 100, 508, 335]
-titleRefArea [90, 40, 508, 30]
+size [3000 , 600]
+contentRefArea [1200, 200, 371, 207]
+titleRefArea [-5000, -5000, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 cancelButton
-	area [93, 528, 220, 46]
+	area [1230, 320, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"	
-	icon "DialogScreenCloseButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainBack"
 	text "IDS_DIALOGWINDOW_CANCELBUTTON"
 acceptButton
-	area [377, 528, 220, 46]
+	area [1470, 320,  220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"	
-	icon "DialogScreenAcceptButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainAccept"
 	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleTextId "IDS_DIALOGWINDOW_TITLETEXT_PLAYERTHEMEPICKERWINDOW"
-themeButtonSize [56 , 52]
+themeButtonSize [32 , 32]
 themeButtonStride [51, 50]
 themeButtonTopLeftOffset [-5000, -5000]
 themeButtonMaxRowCount 10
-colorButtonSize [56 , 52]
-colorButtonStride [51, 50]
+colorButtonSize [19 , 19]
+colorButtonStride [50, 50]
 colorButtonTopLeftOffset [ 0 , 50]
 colorButtonMaxRowCount 10

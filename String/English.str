@@ -7424,7 +7424,7 @@ StringInfo
 	Value "Connect Failed."
 StringInfo
 	ID "IDS_DIALOGWINDOW_CANCELBUTTON"
-	Value "Close"
+	Value "CANCEL"
 StringInfo
 	ID "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 	Value "APPLY"
@@ -21716,13 +21716,13 @@ StringInfo
 	Value "ACHIEVEMENTS"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayNewGameButton"
-	Value "Play"
+	Value "PLAY"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadGameButton"
-	Value "Load"
+	Value "LOAD"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenWatchGameButton"
-	Value "Watch"
+	Value "WATCH"
 StringInfo
 	ID "IDSSinglePlayerGameLobbyScreenBackButton"
 	Value "BACK"
@@ -21740,7 +21740,7 @@ StringInfo
 	Value "Change Picture Set"
 StringInfo
 	ID "IDSGalaxyRandomizerPreview"
-	Value "Preview"
+	Value "PREVIEW"
 StringInfo
 	ID "IDSGalaxyRandomizerCreateScenario"
 	Value "Create"
@@ -23306,40 +23306,40 @@ StringInfo
 	Value "FLEET SIZE"
 StringInfo
 	ID "IDSGameOptionsDiplomaticVictoryEnabledTrue"
-	Value "Diplomatic Victory On"
+	Value "DIPLOMATIC"
 StringInfo
 	ID "IDSGameOptionsDiplomaticVictoryEnabledFalse"
-	Value "Diplomatic Victory Off"
+	Value "DIPLOMATIC"
 StringInfo
 	ID "IDSGameOptionsFlagshipVictoryEnabledTrue"
-	Value "Flagship Victory On"
+	Value "FLAGSHIP"
 StringInfo
 	ID "IDSGameOptionsFlagshipVictoryEnabledFalse"
-	Value "Flagship Victory Off"
+	Value "FLAGSHIP"
 StringInfo
 	ID "IDSGameOptionsHomeworldVictoryEnabledTrue"
-	Value "Capital Victory On"
+	Value "HOMEWORLD"
 StringInfo
 	ID "IDSGameOptionsHomeworldVictoryEnabledFalse"
-	Value "Capital Victory Off"
+	Value "HOMEWORLD"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledTrue"
-	Value "Research Victory On"
+	Value "RESEARCH"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledFalse"
-	Value "Research Victory Off"
+	Value "RESEARCH"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledTrue"
-	Value "Occupation Victory On"
+	Value "CONQUEST"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledFalse"
-	Value "Occupation Victory Off"
+	Value "CONQUEST"
 StringInfo
 	ID "IDSGameOptionsAlliedVictoryEnabledTrue"
-	Value "Allied Victory On"
+	Value "ALLIED"
 StringInfo
 	ID "IDSGameOptionsAlliedVictoryEnabledFalse"
-	Value "Allied Victory Off"
+	Value "ALLIED"
 StringInfo
 	ID "IDSGameOptionsOneVictor"
 	Value "No Allied Victory"
@@ -23708,7 +23708,7 @@ StringInfo
 	Value "Show Opening Cinematic"
 StringInfo
 	ID "IDSManageSaveGamesTabButton"
-	Value "Manage Files"
+	Value "MANAGE SAVE GAMES"
 StringInfo
 	ID "IDSManageSaveGamesEraseButton"
 	Value "Erase"
@@ -25124,7 +25124,7 @@ StringInfo
 	Value "Each player has access to an extremely expensive and time consuming, high-tier research that causes them to win the game when completed."
 StringInfo
 	ID "IDS_GAMEOPTION_OCCUPATIONVICTORY_NAME"
-	Value "Occupation Victory"
+	Value "Conquest Victory"
 StringInfo
 	ID "IDS_GAMEOPTION_OCCUPATIONVICTORY_DESCRIPTION"
 	Value "A mysterious planet guarded by a powerful neutral fleet is present somewhere in the galaxy. Any player that can conquer and hold this planet for some time will win the game."

@@ -13,14 +13,14 @@ fileList
 	area [0, 104, 220, 119]
 	itemGap 3
 previewButton
-	area [75, 681, 75 , 75]
+	area [470, 683, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 0
-	underlay "AscendancyMenuButtonNonActive"
+	iconOffsetFromLeft 7
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "SinglePlayerSetupScreenPlayNewGameButton"
-	text "NO_TEXT"
+	icon "AscendancyIconsMainForward"
+	text "IDSGalaxyRandomizerPreview"
 createScenarioButton
 	area [0, 232, 105, 38]
 	fontId "ButtonLabel"
@@ -116,7 +116,7 @@ selectStarTypeButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "AscendancyMenuScreenButtonLarge"
+	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "ScreenButtonOverlayLargeShort"
 	icon ""
 	text "IDSGalaxyRandomizerSelectStarTypeButton"
@@ -197,7 +197,7 @@ selectPlanetTypeButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "AscendancyMenuScreenButtonLarge"
+	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "ScreenButtonOverlayLargeShort"
 	icon ""
 	text "IDSGalaxyRandomizerSelectPlanetTypeButton"

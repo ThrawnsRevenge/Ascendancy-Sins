@@ -7,7 +7,7 @@ contentRefArea [1000, 100, 508, 335]
 titleRefArea [-5000, -5000, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 acceptButton
-	area [1540, 500, 220, 75]
+	area [1650, 500, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
@@ -17,24 +17,24 @@ acceptButton
 	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleStringId "IDSGameOptionsDialogTitle"
 areTeamsLockedButton
-	area [40, 95, 220 , 75]
+	area [150, 95, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 40
-	underlay "AscendancyButtonsScreenSquareIconLeft"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
 	overlay "Null"
 	true
-		icon "AscendancyIconsToggleOn"
+		icon "AscendancyIconsGameOptionsToggleLockedTeamsOn"
 		text "IDSGameOptionsAreTeamsLockedTrue"
 	false
-		icon "AscendancyIconsToggleOff"
+		icon "AscendancyIconsGameOptionsToggleLockedTeamsOff"
 		text "IDSGameOptionsAreTeamsLockedFalse"
 arePiratesActiveButton
 	area [-5000, -5000, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 40
-	underlay "AscendancyButtonsScreenSquareIconLeft"
+	underlay "AscendancyButtonsScreenIconToggleLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsToggleOn"
@@ -43,36 +43,36 @@ arePiratesActiveButton
 		icon "AscendancyIconsToggleOff"
 		text "IDSGameOptionsArePiratesActiveFalse"
 useQuickStartButton
-	area [40, 20, 220 , 75]
+	area [150, 20, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 40
-	underlay "AscendancyButtonsScreenSquareIconLeft"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
 	overlay "Null"
 	true
-		icon "AscendancyIconsToggleOn"
+		icon "AscendancyIconsGameOptionsToggleHeroesOn"
 		text "IDSGameOptionsUseQuickStartTrue"
 	false
-		icon "AscendancyIconsToggleOff"
+		icon "AscendancyIconsGameOptionsToggleHeroesOff"
 		text "IDSGameOptionsUseQuickStartFalse"
 randomEventsEnabledButton
-	area [40, 170, 220 , 75]
+	area [150, 170, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 40
-	underlay "AscendancyButtonsScreenSquareIconLeft"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
 	overlay "Null"
 	true
-		icon "AscendancyIconsToggleOn"
+		icon "AscendancyIconsGameOptionsToggleRandomEventsOn"
 		text "IDSGameOptionsAreRandomEventsEnabledTrue"
 	false
-		icon "AscendancyIconsToggleOff"
+		icon "AscendancyIconsGameOptionsToggleRandomEventsOff"
 		text "IDSGameOptionsAreRandomEventsEnabledFalse"
 buildSpeedButton
-	area [540, 20, 220 , 75]
+	area [650, 20, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Slow
@@ -88,10 +88,29 @@ buildSpeedButton
 		icon "AscendancyIconsGaugeLevel4"
 		text "IDSGameOptionsBuildSpeedFaster"
 cultureSpeedButton
-	area [290, 170, 220 , 75]
+	area [400, 170, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
+	underlay "AscendancyButtonsScreenGauge"
+	overlay "Null"
+	Slow
+		icon "AscendancyIconsGaugeLevel1"
+		text "IDSGameOptionsCultureSpeedSlow"
+	Normal
+		icon "AscendancyIconsGaugeLevel2"
+		text "IDSGameOptionsCultureSpeedNormal"
+	Fast
+		icon "AscendancyIconsGaugeLevel3"
+		text "IDSGameOptionsCultureSpeedFast"
+	Faster
+		icon "AscendancyIconsGaugeLevel4"
+		text "IDSGameOptionsCultureSpeedFaster"
+researchSpeedButton
+	area [650, 95, 220 , 75]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Slow
@@ -106,68 +125,49 @@ cultureSpeedButton
 	Faster
 		icon "AscendancyIconsGaugeLevel4"
 		text "IDSGameOptionsResearchSpeedFaster"
-researchSpeedButton
-	area [540, 95, 220 , 75]
-	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
-	underlay "AscendancyButtonsScreenGauge"
-	overlay "Null"
-	Slow
-		icon "AscendancyIconsGaugeLevel1"
-		text "IDSGameOptionsBuildSpeedSlow"
-	Normal
-		icon "AscendancyIconsGaugeLevel2"
-		text "IDSGameOptionsBuildSpeedNormal"
-	Fast
-		icon "AscendancyIconsGaugeLevel3"
-		text "IDSGameOptionsBuildSpeedFast"
-	Faster
-		icon "AscendancyIconsGaugeLevel4"
-		text "IDSGameOptionsBuildSpeedFaster"
 incomeSpeedButton
-	area [290, 20, 220 , 75]
+	area [400, 20, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Slow
 		icon "AscendancyIconsGaugeLevel1"
-		text "IDSGameOptionsBuildSpeedSlow"
+		text "IDSGameOptionsIncomeSpeedSlow"
 	Normal
 		icon "AscendancyIconsGaugeLevel2"
-		text "IDSGameOptionsBuildSpeedNormal"
+		text "IDSGameOptionsIncomeSpeedNormal"
 	Fast
 		icon "AscendancyIconsGaugeLevel3"
-		text "IDSGameOptionsBuildSpeedFast"
+		text "IDSGameOptionsIncomeSpeedFast"
 	Faster
 		icon "AscendancyIconsGaugeLevel4"
-		text "IDSGameOptionsBuildSpeedFaster"
+		text "IDSGameOptionsIncomeSpeedFaster"
 shipPhysicsSpeedButton
-	area [290, 95, 220 , 75]
+	area [400, 95, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Slow
 		icon "AscendancyIconsGaugeLevel1"
-		text "IDSGameOptionsBuildSpeedSlow"
+		text "IDSGameOptionsShipPhysicsSpeedSlow"
 	Normal
 		icon "AscendancyIconsGaugeLevel2"
-		text "IDSGameOptionsBuildSpeedNormal"
+		text "IDSGameOptionsShipPhysicsSpeedNormal"
 	Fast
 		icon "AscendancyIconsGaugeLevel3"
-		text "IDSGameOptionsBuildSpeedFast"
+		text "IDSGameOptionsShipPhysicsSpeedFast"
 	Faster
 		icon "AscendancyIconsGaugeLevel4"
-		text "IDSGameOptionsBuildSpeedFaster"
+		text "IDSGameOptionsShipPhysicsSpeedFaster"
 fleetSupplyScalarButton
-	area [290, 245, 220 , 75]
+	area [400, 245, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Small
@@ -180,21 +180,21 @@ fleetSupplyScalarButton
 		icon "AscendancyIconsGaugeLarge"
 		text "IDSGameOptionsFleetSupplyScalarLarge"
 victorySpeedButton
-	area [540, 170, 220 , 75]
+	area [650, 170, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -11
-	textOffsetFromLeft 100
+	iconOffsetFromLeft 4
+	textOffsetFromLeft 85
 	underlay "AscendancyButtonsScreenGauge"
 	overlay "Null"
 	Slow
 		icon "AscendancyIconsGaugeLevel1"
-		text "IDSGameOptionsBuildSpeedSlow"
+		text "IDSGameOptionsVictorySpeedSlow"
 	Normal
 		icon "AscendancyIconsGaugeLevel2"
-		text "IDSGameOptionsBuildSpeedNormal"
+		text "IDSGameOptionsVictorySpeedNormal"
 	Fast
 		icon "AscendancyIconsGaugeLevel3"
-		text "IDSGameOptionsBuildSpeedFast"
+		text "IDSGameOptionsVictorySpeedFast"
 	Faster
 		icon "AscendancyIconsGaugeLevel4"
-		text "IDSGameOptionsBuildSpeedFaster"
+		text "IDSGameOptionsVictorySpeedFaster"

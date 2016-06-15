@@ -1,13 +1,13 @@
 TXT
 changeTypeButton
-	area [35, -31, 150, 50]
+	area [11, -53, 200 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "AscendancySingleButtonLeftRightMouse150_50"
+	textOffsetFromLeft 42
+	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "Null"
 	icon "Null"
-	text "NO_TEXT"
+	text "IDSGalaxySetupWindowChangeMapTypeButton"
 labelText-SavedSinglePlayer "IDSSelectGameSaveTypeWindowLabelTextSavedSinglePlayer"
 labelText-SavedMultiPlayer "IDSSelectGameSaveTypeWindowLabelTextSavedMultiPlayer"
 labelText-AutoSavedSinglePlayer "IDSSelectGameSaveTypeWindowLabelTextAutoSavedSinglePlayer"

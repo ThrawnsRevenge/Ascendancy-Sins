@@ -1,7 +1,7 @@
 TXT
-underlayOn "PlayerThemeButtonUnderlayOn"
-underlayOff "PlayerThemeButtonUnderlayOff"
-overlayOn "PlayerThemeButtonOverlayOn"
-overlayOff "PlayerThemeButtonOverlayOff"
-themeOffset [-1, 0]
-themeOffsetWhenButtonDown [1, 1]
+underlayOn "AscendancyButtonsScreenThemeSelectOn"
+underlayOff "AscendancyButtonsScreenThemeSelectOff"
+overlayOn "Null"
+overlayOff "Null"
+themeOffset [0, 0]
+themeOffsetWhenButtonDown [0, 0]

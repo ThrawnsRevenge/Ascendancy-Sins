@@ -1,31 +1,31 @@
 TXT
 picturePreviewWindow
-	area [7, 200, 784 , 389]
-	backdrop "PlayerSetupPicturePreviewWindowBackdrop"
+	area [7, 300, 784 , 338]
+	backdrop "AscendancyBackdropScreenFactionLogo"
 	overlay "PlayerSetupPicturePreviewWindowOverlay"
-	racePictureArea-0 [60, 58, 195 , 219]
+	racePictureArea-0 [71, 57, 195 , 219]
 	racePictureArea-1 [294, 58, 195 , 219]
-	racePictureArea-2 [527, 58, 195 , 219]
+	racePictureArea-2 [519, 59, 195 , 219]
 changeNameButton
-	area [525, 90, 220, 46]
+	area [400, 200, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "PlayerSetupChangeNameButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainEdit"
 	text "IDSPlayerSetupChangeNameButton"
 changeThemeButton
-	area [290, 90, 220, 46]
+	area [170, 200, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "PlayerSetupChangeThemeButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainEdit"
 	text "IDSPlayerSetupChangeThemeButton"
 changePictureButton
-	area [290, 495, 220, 46]
+	area [-5000, -5000, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
@@ -34,7 +34,7 @@ changePictureButton
 	icon "PlayerSetupChangePictureButton"
 	text "IDSPlayerSetupChangePictureButton"
 bigNameAndIconWindow
-	area [0, 50, 410, 100 ]
+	area [120, 100, 410, 100 ]
 	iconBackdropArea [-20, -80, 268 , 311 ]
 	iconArea [61, 8, 106, 106]
 	nameArea [180, 8, 300, 106]

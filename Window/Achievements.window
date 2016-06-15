@@ -1,12 +1,12 @@
 TXT
 achievementsList
-	area [0, 364, 455, 260]
+	area [0, 280, 455, 400]
 	itemGap 3
 percCompleteLabel
 	area [0, 62 , 250, 30]
 	fontId "WindowSubTitle"
 	text "IDSAchievementsWindowPercCompleteLabel"
-percCompleteValue	
+percCompleteValue
 	area [250, 62 , 40, 30]
 	fontId "WindowSubTitle"
 selectedName

@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 24
+brushCount 47
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -272,6 +272,132 @@ brush
     fileName "AscendancyIconsMain"
     pixelBox [ 560 , 0 , 40 , 40 ]
 brush
+  name "AscendancyIconsMainEdit"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainUserInterface"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 640 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 640 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 640 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 640 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 640 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainSound"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 680 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 680 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 680 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 680 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 680 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainPalette"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 720 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 720 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 720 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 720 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 720 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainKey"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 760 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 760 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 760 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 760 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 760 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainGrid"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 800 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 800 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 800 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 800 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 800 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainTools"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 840 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 840 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 840 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 840 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 840 , 0 , 40 , 40 ]
+brush
   name "AscendancyIconsGaugeLevel1"
   content "Simple"
   fileName "AscendancyIconsGaugeLevels"
@@ -307,12 +433,326 @@ brush
   fileName "AscendancyIconsGaugeSizes"
   pixelBox [ 0 , 75 , 75 , 75 ]
 brush
-  name "AscendancyIconsToggleOff"
-  content "Simple"
-  fileName "AscendancyIconsToggle"
-  pixelBox [ 0 , 0 , 32 , 75 ]
+  name "AscendancyIconsGameOptionsToggleLockedTeamsOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 0 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 0 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 0 , 0 , 220 , 75 ]
 brush
-  name "AscendancyIconsToggleOn"
-  content "Simple"
-  fileName "AscendancyIconsToggle"
-  pixelBox [ 0 , 75 , 32 , 75 ]
+  name "AscendancyIconsGameOptionsToggleLockedTeamsOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 0 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 0 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 0 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsGameOptionsToggleHeroesOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 220 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 220 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 220 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsGameOptionsToggleHeroesOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 220 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 220 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 220 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsGameOptionsToggleRandomEventsOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 440 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 440 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 440 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsGameOptionsToggleRandomEventsOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 440 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 440 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle_Checked"
+    pixelBox [ 440 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleDiplomacyOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 0 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 0 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 0 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleDiplomacyOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 0 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 0 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 0 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 0 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleFlagshipOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 220 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 220 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 220 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleFlagshipOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 220 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 220 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 220 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 220 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleResearchOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 440 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 440 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 440 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleResearchOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 440 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 440 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 440 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 440 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleCapitalOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 660 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 660 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 660 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 660 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 660 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleCapitalOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 660 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 660 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 660 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 660 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 660 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleConquestOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 880 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 880 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 880 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 880 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 880 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleConquestOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 880 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 880 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 880 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 880 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 880 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleAlliedOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 1100 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 1100 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 1100 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 1100 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle"
+    pixelBox [ 1100 , 0 , 220 , 75 ]
+brush
+  name "AscendancyIconsVictoryOptionsToggleAlliedOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 1100 , 225 , 220 , 75 ]
+  Pressed
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 1100 , 150 , 220 , 75 ]
+  CursorOver
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 1100 , 75 , 220 , 75 ]
+  Focused
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 1100 , 150 , 220 , 75 ]
+  Normal
+    fileName "AscendancyIconsVictoryOptionsToggle_Checked"
+    pixelBox [ 1100 , 0 , 220 , 75 ]

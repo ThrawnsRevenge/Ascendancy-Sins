@@ -1,5 +1,5 @@
 TXT
-tabButtonIcon "OptionsScreenEffectOptionsTabButton"
+tabButtonIcon "AscendancyIconsMainPalette"
 tabButtonText "IDSOptionsScreenEffectOptionsTabButton"
 resetButton
 	area [50, 620, 220, 46]
@@ -9,59 +9,59 @@ resetButton
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenEffectOptionsReset"
-	text "IDSOptionsScreenEffectOptionsReset"	
+	text "IDSOptionsScreenEffectOptionsReset"
 applyChangesButton
 	area [520, 620, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenVideoOptionsApplyChanges"
-	text "IDSOptionsScreenVideoOptionsApplyChanges"	
+	text "IDSOptionsScreenVideoOptionsApplyChanges"
 showAsteroidsCheckBox
 	area [49, 100, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowAsteroids"	
+	text "IDSOptionsScreenEffectOptionsShowAsteroids"
 showDustCloudsCheckBox
 	area [49, 136, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowDustClouds"	
+	text "IDSOptionsScreenEffectOptionsShowDustClouds"
 showElevatorsCheckBox
 	area [49, 172, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowElevators"	
+	text "IDSOptionsScreenEffectOptionsShowElevators"
 showPlanetRingsCheckBox
 	area [49, 208, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowPlanetRings"	
+	text "IDSOptionsScreenEffectOptionsShowPlanetRings"
 showDebrisCheckBox
 	area [50, 352, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowDebris"	
+	text "IDSOptionsScreenEffectOptionsShowDebris"
 useColoredSkyboxesCheckBox
 	area [49, 244, 220, 30]
-	text "IDSOptionsScreenEffectOptionsUseColoredSkyboxes"	
+	text "IDSOptionsScreenEffectOptionsUseColoredSkyboxes"
 useDeepSpaceSkyboxesCheckBox
 	area [49, 280, 220, 30]
-	text "IDSOptionsScreenEffectOptionsUseDeepSpaceSkyboxes"	
+	text "IDSOptionsScreenEffectOptionsUseDeepSpaceSkyboxes"
 shakeCameraCheckBox
 	area [49, 316, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShakeCamera"	
+	text "IDSOptionsScreenEffectOptionsShakeCamera"
 isPostProcessSceneEnabledCheckBox
 	area [284, 100, 220, 30]
-	text "IDSOptionsScreenEffectOptionsIsPostProcessSceneEnabled"	
+	text "IDSOptionsScreenEffectOptionsIsPostProcessSceneEnabled"
 isShipBrighteningEnabledCheckBox
 	area [284, 136, 220, 30]
 	text "IDSOptionsScreenEffectOptionsIsShipBrighteningEnabled"
 showMeshTeamColorCheckBox
 	area [284, 172, 220, 30]
-	text "IDSOptionsScreenEffectOptionsShowMeshTeamColor"	
+	text "IDSOptionsScreenEffectOptionsShowMeshTeamColor"
 exhaustTrailDetailScrollBar
 	area [284, 352, 350, 30]
-	text "IDSOptionsScreenEffectOptionsExhaustTrailDetail"	
+	text "IDSOptionsScreenEffectOptionsExhaustTrailDetail"
 planetColorTextureQualityButton
 	area [50, 412, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowPlanetColor"
 		icon "OptionsScreenTextureQualityLowPlanet"
@@ -80,7 +80,7 @@ shipColorTextureQualityButton
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowShipColor"
 		icon "OptionsScreenTextureQualityLowShip"
@@ -99,7 +99,7 @@ shipDataTextureQualityButton
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowShipData"
 		icon "OptionsScreenTextureQualityLowShip"
@@ -118,7 +118,7 @@ shipBumpTextureQualityButton
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowShipBump"
 		icon "OptionsScreenTextureQualityLowShip"
@@ -130,14 +130,14 @@ shipBumpTextureQualityButton
 		icon "OptionsScreenTextureQualityHighShip"
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestShipBump"
-		icon "OptionsScreenTextureQualityHighestShip"		
+		icon "OptionsScreenTextureQualityHighestShip"
 moduleColorTextureQualityButton
 	area [520, 412, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowModuleColor"
 		icon "OptionsScreenTextureQualityLowModule"
@@ -156,7 +156,7 @@ moduleDataTextureQualityButton
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowModuleData"
 		icon "OptionsScreenTextureQualityLowModule"
@@ -175,7 +175,7 @@ moduleBumpTextureQualityButton
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 50
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	textureQualityInfo-Low
 		text "IDSOptionsScreenTextureQualityLowModuleBump"
 		icon "OptionsScreenTextureQualityLowModule"
@@ -187,7 +187,7 @@ moduleBumpTextureQualityButton
 		icon "OptionsScreenTextureQualityHighModule"
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestModuleBump"
-		icon "OptionsScreenTextureQualityHighestModule"		
+		icon "OptionsScreenTextureQualityHighestModule"
 shadowQualityListLabel
 	area [520, 100, 220, 30]
 	fontId "Label"

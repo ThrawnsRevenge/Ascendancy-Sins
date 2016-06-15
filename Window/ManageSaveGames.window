@@ -1,5 +1,5 @@
 TXT
-tabButtonIcon "ManageSaveGamesTabButton"
+tabButtonIcon "AscendancyIconsMainGrid"
 tabButtonText "IDSManageSaveGamesTabButton"
 fileNameListLabel
 	area [50, 90, 220, 30]

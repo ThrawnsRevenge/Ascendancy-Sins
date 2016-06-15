@@ -1,5 +1,5 @@
 TXT
-tabButtonIcon "OptionsScreenSoundOptionsTabButton"
+tabButtonIcon "AscendancyIconsMainSound"
 tabButtonText "IDSOptionsScreenSoundOptionsTabButton"
 resetButton
 	area [50, 620, 220, 46]
@@ -7,28 +7,27 @@ resetButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenSoundOptionsReset"
 	text "IDSOptionsScreenSoundOptionsReset"
 stopSoundsWhenWindowLosesFocusCheckBox
 	area [50, 276, 200, 30]
-	text "IDSOptionsScreenSoundOptionsStopSoundsWhenWindowLosesFocus"	
+	text "IDSOptionsScreenSoundOptionsStopSoundsWhenWindowLosesFocus"
 changeMusicVolumeInBattleCheckBox
 	area [50, 312, 200, 30]
-	text "IDSOptionsScreenSoundOptionsChangeMusicVolumeInBattle"	
+	text "IDSOptionsScreenSoundOptionsChangeMusicVolumeInBattle"
 musicVolumeScrollBar
 	area [50, 96, 450, 30]
-	text "IDSOptionsScreenSoundOptionsMusicVolumeScrollBar"	
+	text "IDSOptionsScreenSoundOptionsMusicVolumeScrollBar"
 effectVolumeScrollBar
 	area [50, 132, 450, 30]
-	text "IDSOptionsScreenSoundOptionsEffectVolumeScrollBar"	
+	text "IDSOptionsScreenSoundOptionsEffectVolumeScrollBar"
 dialogueVolumeScrollBar
 	area [50, 168, 450, 30]
-	text "IDSOptionsScreenSoundOptionsDialogueVolumeScrollBar"	
+	text "IDSOptionsScreenSoundOptionsDialogueVolumeScrollBar"
 uiVolumeScrollBar
-	area [50, 204, 450, 30]	
+	area [50, 204, 450, 30]
 	text "IDSOptionsScreenSoundOptionsUIVolumeScrollBar"
 voiceChatScrollBar
-	area [50, 240, 450, 30]	
+	area [50, 240, 450, 30]
 	text "IDSOptionsScreenSoundOptionsVoiceChatScrollBar"
-	

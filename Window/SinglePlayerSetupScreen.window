@@ -1,7 +1,7 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [ 100 , 120]
+	buttonTopLeftOffset [ 50 , 120]
 	buttonSize [ 75 , 75 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
@@ -12,7 +12,7 @@ tabWindow
 	titleOverlay "TabWindowTitleOverlay"
 	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [310, 0, 714, 808]
+	contentArea [260, 0, 760, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
 	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
@@ -29,7 +29,7 @@ tabWindow
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [100, 700, 75 , 75]
+		area [50, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -8
 		textOffsetFromLeft 85
@@ -63,14 +63,14 @@ loadSavedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [125, 700, 75 , 75]
+		area [520, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 0
-		underlay "AscendancyMenuButtonNonActive"
+		iconOffsetFromLeft 7
+		textOffsetFromLeft 70
+		underlay "AscendancyMenuScreenButtonIconLarge"
 		overlay "Null"
-		icon "SinglePlayerSetupScreenPlayNewGameButton"
-		text "NO_TEXT"
+		icon "AscendancyIconsMainForward"
+		text "IDSSinglePlayerSetupScreenLoadGameButton"
 	galaxyInfoWindow
 		area [285	, 122, 700, 700]
 loadRecordedGame
@@ -85,14 +85,14 @@ loadRecordedGame
 	selectGameSaveTypeWindow
 		area [50, 673, 220, 46]
 	loadButton
-		area [125, 700, 75 , 75]
+		area [520, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 0
-		underlay "AscendancyMenuButtonNonActive"
+		iconOffsetFromLeft 7
+		textOffsetFromLeft 70
+		underlay "AscendancyMenuScreenButtonIconLarge"
 		overlay "Null"
-		icon "SinglePlayerSetupScreenPlayNewGameButton"
-		text "NO_TEXT"
+		icon "AscendancyIconsMainForward"
+		text "IDSSinglePlayerSetupScreenWatchGameButton"
 	galaxyInfoWindow
 		area [285, 152, 455, 254]
 tutorial

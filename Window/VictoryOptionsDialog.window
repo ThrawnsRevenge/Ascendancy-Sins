@@ -7,90 +7,90 @@ contentRefArea [1000, 100, 508, 335]
 titleRefArea [-5000, -5000, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 acceptButton
-	area [1675, 500, 75, 75]
+	area [1500, 500, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyMenuButtonNonActive"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "DialogScreenAcceptButton"
-	text "NO_TEXT"
+	icon "AscendancyIconsMainAccept"
+	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleStringId "IDSGameOptionsDialogTitle"
 diplomaticVictoryEnabledButton
-	area [25, 40, 220 , 46]
+	area [250, 40, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsDiplomaticVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleDiplomacyOn"
 		text "IDSGameOptionsDiplomaticVictoryEnabledTrue"
 	false
-		icon "GameOptionsDiplomaticVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleDiplomacyOff"
 		text "IDSGameOptionsDiplomaticVictoryEnabledFalse"
 flagshipVictoryEnabledButton
-	area [25, 92, 220 , 46]
+	area [250, 125, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsFlagshipVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleFlagshipOn"
 		text "IDSGameOptionsFlagshipVictoryEnabledTrue"
 	false
-		icon "GameOptionsFlagshipVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleFlagshipOff"
 		text "IDSGameOptionsFlagshipVictoryEnabledFalse"
 homeworldVictoryEnabledButton
-	area [25, 144, 220 , 46]
+	area [250, 210, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsHomeworldVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleCapitalOn"
 		text "IDSGameOptionsHomeworldVictoryEnabledTrue"
 	false
-		icon "GameOptionsHomeworldVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleCapitalOff"
 		text "IDSGameOptionsHomeworldVictoryEnabledFalse"
 researchVictoryEnabledButton
-	area [257, 40, 220 , 46]
+	area [500, 40, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsResearchVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleResearchOn"
 		text "IDSGameOptionsResearchVictoryEnabledTrue"
 	false
-		icon "GameOptionsResearchVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleResearchOff"
 		text "IDSGameOptionsResearchVictoryEnabledFalse"
 occupationVictoryEnabledButton
-	area [257, 92, 220 , 46]
+	area [500, 125, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsOccupationVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleConquestOn"
 		text "IDSGameOptionsOccupationVictoryEnabledTrue"
 	false
-		icon "GameOptionsOccupationVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleConquestOff"
 		text "IDSGameOptionsOccupationVictoryEnabledFalse"
 alliedVictoryEnabledButton
-	area [257, 144, 220 , 46]
+	area [500, 210, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 10
-	textOffsetFromLeft 60
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
+	iconOffsetFromLeft 150
+	textOffsetFromLeft 70
+	underlay "AscendancyButtonsScreenIconToggleLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsAlliedVictoryEnabled"
+		icon "AscendancyIconsVictoryOptionsToggleAlliedOn"
 		text "IDSGameOptionsAlliedVictoryEnabledTrue"
 	false
-		icon "GameOptionsAlliedVictoryDisabled"
+		icon "AscendancyIconsVictoryOptionsToggleAlliedOff"
 		text "IDSGameOptionsAlliedVictoryEnabledFalse"

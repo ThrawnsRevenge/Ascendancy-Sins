@@ -1,5 +1,5 @@
 TXT
-tabButtonIcon "OptionsScreenKeyBindingsTabButton"
+tabButtonIcon "AscendancyIconsMainKey"
 tabButtonText "IDSOptionsScreenKeyBindingsTabButton"
 uiMappingList
 	area [50, 100, 455, 510]
@@ -17,7 +17,7 @@ resetAllMappingsButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"		
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenKeyBindingsResetAllMappings"
 	text "IDSOptionsScreenKeyBindingsResetAllMappings"
 addMappingButton
@@ -26,7 +26,7 @@ addMappingButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenKeyBindingsAddMapping"
 	text "IDSOptionsScreenKeyBindingsAddMapping"
 clearMappingButton
@@ -35,9 +35,9 @@ clearMappingButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenKeyBindingsClearMapping"
 	text "IDSOptionsScreenKeyBindingsClearMapping"
 showMappingsOnInfoCardsCheckBox
 	area [49, 62, 220, 30]
-	text "IDSOptionsScreenUserInterfaceOptionsShowMappingsOnInfoCards"	
+	text "IDSOptionsScreenUserInterfaceOptionsShowMappingsOnInfoCards"

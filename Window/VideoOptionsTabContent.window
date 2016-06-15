@@ -1,5 +1,5 @@
 TXT
-tabButtonIcon "OptionsScreenVideoOptionsTabButton"
+tabButtonIcon "AscendancyIconsMainCamera"
 tabButtonText "IDSOptionsScreenVideoOptionsTabButton"
 resolutionListArea [50, 100, 220, 406]
 refreshRateListArea [285, 100, 220, 406]
@@ -11,7 +11,7 @@ resetButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenVideoOptionsReset"
 	text "IDSOptionsScreenVideoOptionsReset"
 applyChangesButton
@@ -20,7 +20,7 @@ applyChangesButton
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	overlay "ScreenButtonOverlayLarge"
 	icon "OptionsScreenVideoOptionsApplyChanges"
 	text "IDSOptionsScreenVideoOptionsApplyChanges"
 resolutionListLabel
