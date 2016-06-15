@@ -15,10 +15,10 @@ NameStringID "IDS_FRIGATE_STRIKECRUISER_NAME"
 DescriptionStringID "IDS_FRIGATE_STRIKECRUISER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 400.000000
+	credits 4000000.000000
 	metal 70.000000
 	crystal 15.000000
-slotCount 5.000000
+slotCount 500000.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000

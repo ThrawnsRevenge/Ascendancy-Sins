@@ -433,6 +433,16 @@ GameEventDef:ColonizePlanetBlockedByEnemyStarBase
 	onlyAddIfSelected FALSE	
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:RuinPlanetNotRuinable
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:PirateFleetArrived
 	categoryId "Threat"
 	hudButtonBrush "GameEventButtonPirateFleetArrived"

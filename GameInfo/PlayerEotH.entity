@@ -54,10 +54,9 @@ entities
 			entityDefName "EotH_Warlord"
 			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
-			count 6
+			count 5
 			entityDefName "Remnant_AITrap"
 			entityDefName "EotH_CT11"
-			entityDefName "Remnant_AITrap"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
@@ -255,6 +254,7 @@ gameEventData
 	GameEventSound:ColonizePlanetHasTakeoverCulture "UI_COMMON_DEFAULTERROR"
 	GameEventSound:ColonizePlanetHasDebuff "UI_COMMON_DEFAULTERROR"
 	GameEventSound:ColonizePlanetBlockedByEnemyStarBase "UI_COMMON_DEFAULTERROR"
+	GameEventSound:RuinPlanetNotRuinable "UI_COMMON_DEFAULTERROR"
 	GameEventSound:PirateFleetArrived "EVENTREMNANT_PIRATEFLEETARRIVED"
 	GameEventSound:PirateRaidImminent "EVENTREMNANT_PIRATERAIDIMMINENT"
 	GameEventSound:PirateRaidLaunched "EVENTREMNANT_PIRATERAIDLAUNCHED"

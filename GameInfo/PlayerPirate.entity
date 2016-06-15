@@ -179,6 +179,7 @@ gameEventData
 	GameEventSound:ColonizePlanetHasTakeoverCulture "UI_COMMON_DEFAULTERROR"
 	GameEventSound:ColonizePlanetHasDebuff "UI_COMMON_DEFAULTERROR"
 	GameEventSound:ColonizePlanetBlockedByEnemyStarBase "UI_COMMON_DEFAULTERROR"
+	GameEventSound:RuinPlanetNotRuinable "UI_COMMON_DEFAULTERROR"
 	GameEventSound:PirateFleetArrived "UI_TECH_PIRATEFLEETARRIVED"
 	GameEventSound:PirateRaidImminent "UI_TECH_PIRATERAIDIMMINENT"
 	GameEventSound:PirateRaidLaunched "UI_TECH_PIRATERAIDLAUNCHED"
