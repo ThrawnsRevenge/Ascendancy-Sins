@@ -103,10 +103,10 @@ periodicAction
 	buffInstantActionType "GiveCreditsToPlayer"
 	instantActionTriggerType "AlwaysPerform"
 	credits
-		Level:0 -0.400000
-		Level:1 -0.400000
-		Level:2 -0.400000
-		Level:3 -0.400000
+		Level:0 -0.040000
+		Level:1 -0.040000
+		Level:2 -0.040000
+		Level:3 -0.040000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
