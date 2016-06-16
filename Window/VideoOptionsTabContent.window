@@ -1,50 +1,50 @@
 TXT
 tabButtonIcon "AscendancyIconsMainCamera"
 tabButtonText "IDSOptionsScreenVideoOptionsTabButton"
-resolutionListArea [50, 100, 220, 406]
-refreshRateListArea [285, 100, 220, 406]
-multiSampleTypeListArea [520, 100, 220, 186]
-anisotropyLevelListArea [520, 320, 220, 186]
+resolutionListArea [0, 100, 220, 406]
+refreshRateListArea [235, 100, 220, 406]
+multiSampleTypeListArea [470, 100, 220, 186]
+anisotropyLevelListArea [470, 320, 220, 186]
 resetButton
-	area [50, 620, 220, 46]
+	area [0, 650, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "OptionsScreenVideoOptionsReset"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainReset"
 	text "IDSOptionsScreenVideoOptionsReset"
 applyChangesButton
-	area [520, 620, 220, 46]
+	area [470, 650, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "OptionsScreenVideoOptionsApplyChanges"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainAccept"
 	text "IDSOptionsScreenVideoOptionsApplyChanges"
 resolutionListLabel
-	area [50, 70, 220, 30]
+	area [0, 70, 220, 30]
 	fontId "Label"
 	text "IDSOptionsScreenVideoOptionsResolutionList"
 refreshRateListLabel
-	area [285, 70, 220, 30]
+	area [235, 70, 220, 30]
 	fontId "Label"
 	text "IDSOptionsScreenVideoOptionsRefreshRateList"
 multiSampleTypeListLabel
-	area [520, 70, 220, 30]
+	area [470, 70, 220, 30]
 	fontId "Label"
 	text "IDSOptionsScreenVideoOptionsMultiSampleTypeList"
 anisotropyLevelListLabel
-	area [520, 290, 220, 30]
+	area [470, 290, 220, 30]
 	fontId "Label"
 	text "IDSOptionsScreenVideoOptionsAnisotorpyLevelList"
 isWindowedCheckBox
-	area [49, 568, 220, 30]
+	area [0, 568, 220, 30]
 	text "IDSOptionsScreenVideoOptionsIsWindowed"
 gammaScrollBar
-	area [50, 520, 350, 30]
+	area [0, 520, 350, 30]
 	text "IDSOptionsScreenVideoOptionsGamma"
 useSystemCursorCheckBox
-	area [249, 568, 220, 30]
+	area [200, 568, 220, 30]
 	text "IDSOptionsScreenVideoOptionsUseSystemCursor"

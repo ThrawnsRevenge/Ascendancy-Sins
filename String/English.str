@@ -21698,43 +21698,43 @@ StringInfo
 	Value "MAIN MENU"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenNewGameTabButton"
-	Value "NEW GAME"
+	Value "New Game"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"
-	Value "LOAD GAME"
+	Value "Load Game"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadRecordedGameTabButton"
-	Value "WATCH GAME"
+	Value "Watch Game"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenTutorialTabButton"
-	Value "TUTORIALS"
+	Value "Tutorials"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenTutorialTitle"
 	Value "These are not the tutorials you're looking for..."
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayerSetupTabButton"
-	Value "PLAYER SETUP"
+	Value "Player Setup"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
-	Value "MAP DESIGNER"
+	Value "Map Designer"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenAchievementsTabButton"
-	Value "ACHIEVEMENTS"
+	Value "Achievements"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayNewGameButton"
-	Value "PLAY"
+	Value "Play"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenLoadGameButton"
-	Value "LOAD"
+	Value "Load"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenWatchGameButton"
-	Value "WATCH"
+	Value "Watch"
 StringInfo
 	ID "IDSSinglePlayerGameLobbyScreenBackButton"
-	Value "BACK"
+	Value "Back"
 StringInfo
 	ID "IDSSinglePlayerGameLobbyScreenStartGameButton"
-	Value "START"
+	Value "Start"
 StringInfo
 	ID "IDSPlayerSetupChangeNameButton"
 	Value "Change Name"
@@ -21746,7 +21746,7 @@ StringInfo
 	Value "Change Picture Set"
 StringInfo
 	ID "IDSGalaxyRandomizerPreview"
-	Value "PREVIEW"
+	Value "Preview"
 StringInfo
 	ID "IDSGalaxyRandomizerCreateScenario"
 	Value "Create"
@@ -22265,28 +22265,28 @@ StringInfo
 	Value "%d Hz"
 StringInfo
 	ID "IDSOptionsScreenTitle"
-	Value "OPTIONS"
+	Value "Options"
 StringInfo
 	ID "IDSOptionsScreenBackButton"
-	Value "BACK"
+	Value "Back"
 StringInfo
 	ID "IDSOptionsScreenSoundOptionsTabButton"
-	Value "SOUND"
+	Value "Sound"
 StringInfo
 	ID "IDSOptionsScreenVideoOptionsTabButton"
-	Value "VIDEO"
+	Value "Video"
 StringInfo
 	ID "IDSOptionsScreenEffectOptionsTabButton"
-	Value "EFFECTS"
+	Value "Effects"
 StringInfo
 	ID "IDSOptionsScreenKeyBindingsTabButton"
-	Value "KEY BINDINGS"
+	Value "Key Bindings"
 StringInfo
 	ID "IDSOptionsScreenManageModsTabButton"
-	Value "MODS"
+	Value "Mods"
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsTabButton"
-	Value "INTERFACE"
+	Value "Interface"
 StringInfo
 	ID "IDSOptionsScreenKeyBindingsResetAllMappings"
 	Value "Reset All"
@@ -22325,88 +22325,88 @@ StringInfo
 	Value "Full Screen Gamma:"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowPlanetColor"
-	Value "Planets Detail - Low"
+	Value "Planets Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumPlanetColor"
-	Value "Planet Detail - Medium"
+	Value "Planet Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighPlanetColor"
-	Value "Planet Detail - High"
+	Value "Planet Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestPlanetColor"
-	Value "Planet Detail - Highest"
+	Value "Planet Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipColor"
-	Value "Ship Detail - Low"
+	Value "Ship Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumShipColor"
-	Value "Ship Detail - Medium"
+	Value "Ship Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighShipColor"
-	Value "Ship Detail - High"
+	Value "Ship Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipColor"
-	Value "Ship Detail - Highest"
+	Value "Ship Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipData"
-	Value "Ship Extras - Low"
+	Value "Ship Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumShipData"
-	Value "Ship Extras - Medium"
+	Value "Ship Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighShipData"
-	Value "Ship Extras - High"
+	Value "Ship Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipData"
-	Value "Ship Extras - Highest"
+	Value "Ship Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipBump"
-	Value "Ship Bump - Low"
+	Value "Ship Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumShipBump"
-	Value "Ship Bump - Medium"
+	Value "Ship Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighShipBump"
-	Value "Ship Bump - High"
+	Value "Ship Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipBump"
-	Value "Ship Bump - Highest"
+	Value "Ship Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleColor"
-	Value "Building Detail - Low"
+	Value "Building Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumModuleColor"
-	Value "Building Detail - Medium"
+	Value "Building Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighModuleColor"
-	Value "Building Detail - High"
+	Value "Building Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleColor"
-	Value "Building Detail - Highest"
+	Value "Building Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleData"
-	Value "Building Extras - Low"
+	Value "Building Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumModuleData"
-	Value "Building Extras - Medium"
+	Value "Building Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighModuleData"
-	Value "Building Extras - High"
+	Value "Building Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleData"
-	Value "Building Extras - Highest"
+	Value "Building Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleBump"
-	Value "Building Bump - Low"
+	Value "Building Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityMediumModuleBump"
-	Value "Building Bump - Medium"
+	Value "Building Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighModuleBump"
-	Value "Building Bump - High"
+	Value "Building Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleBump"
-	Value "Building Bump - Highest"
+	Value "Building Bump"
 StringInfo
 	ID "IDSOptionsScreenSoundOptionsReset"
 	Value "Reset"
@@ -23180,19 +23180,19 @@ StringInfo
 	Value "Password:"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInSmall"
-	Value "MAP TYPE > SMALL"
+	Value "Map Type > Small"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInMedium"
-	Value "MAP TYPE > MEDIUM"
+	Value "Map Type > Medium"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelBuiltInLarge"
-	Value "MAP TYPE > LARGE"
+	Value "Map Type > Large"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelUserGenerated"
-	Value "MAP TYPE > DESIGNER"
+	Value "Map Type > Designer"
 StringInfo
 	ID "IDSGalaxySetupWindowScenerioListLabelGalaxyForge"
-	Value "MAP TYPE > GALAXY FORGE"
+	Value "Map Type > Galaxy Forge"
 StringInfo
 	ID "IDSGameOptionsDialogTitle"
 	Value "Game Options"
@@ -23201,10 +23201,10 @@ StringInfo
 	Value "Victory Options"
 StringInfo
 	ID "IDSGameOptionsAreTeamsLockedTrue"
-	Value "LOCKED TEAMS"
+	Value "Locked Teams"
 StringInfo
 	ID "IDSGameOptionsAreTeamsLockedFalse"
-	Value "LOCKED TEAMS"
+	Value "Locked Teams"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveTrue"
 	Value "Pirates Active"
@@ -23219,133 +23219,133 @@ StringInfo
 	Value "Black Market Disabled"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartTrue"
-	Value "HEROES"
+	Value "Heroes"
 StringInfo
 	ID "IDSGameOptionsUseQuickStartFalse"
-	Value "HEROES"
+	Value "Heroes"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledTrue"
-	Value "RANDOM EVENTS"
+	Value "Random Events"
 StringInfo
 	ID "IDSGameOptionsAreRandomEventsEnabledFalse"
-	Value "RANDOM EVENTS"
+	Value "Random Events"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
-	Value "VICTORY SPEED"
+	Value "Victory Speed"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedNormal"
-	Value "VICTORY SPEED"
+	Value "Victory Speed"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedFast"
-	Value "VICTORY SPEED"
+	Value "Victory Speed"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedFaster"
-	Value "VICTORY SPEED"
+	Value "Victory Speed"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedSlow"
-	Value "BUILDING SPEED"
+	Value "Building Speed"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedNormal"
-	Value "BUILDING SPEED"
+	Value "Building Speed"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedFast"
-	Value "BUILDING SPEED"
+	Value "Building Speed"
 StringInfo
 	ID "IDSGameOptionsBuildSpeedFaster"
-	Value "BUILDING SPEED"
+	Value "Building Speed"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedSlow"
-	Value "CULTURE RATE"
+	Value "Culture Rate"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedNormal"
-	Value "CULTURE RATE"
+	Value "Culture Rate"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedFast"
-	Value "CULTURE RATE"
+	Value "Culture Rate"
 StringInfo
 	ID "IDSGameOptionsCultureSpeedFaster"
-	Value "CULTURE RATE"
+	Value "Culture Rate"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedSlow"
-	Value "RESEARCH SPEED"
+	Value "Research Speed"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedNormal"
-	Value "RESEARCH SPEED"
+	Value "Research Speed"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedFast"
-	Value "RESEARCH SPEED"
+	Value "Research Speed"
 StringInfo
 	ID "IDSGameOptionsResearchSpeedFaster"
-	Value "RESEARCH SPEED"
+	Value "Research Speed"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedSlow"
-	Value "INCOME RATES"
+	Value "Income Rate"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedNormal"
-	Value "INCOME RATES"
+	Value "Income Rate"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFast"
-	Value "INCOME RATES"
+	Value "Income Rate"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFaster"
-	Value "INCOME RATES"
+	Value "Income Rate"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedSlow"
-	Value "SHIP SPEEDS"
+	Value "Ship Speeds"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedNormal"
-	Value "SHIP SPEEDS"
+	Value "Ship Speeds"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedFast"
-	Value "SHIP SPEEDS"
+	Value "Ship Speeds"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedFaster"
-	Value "SHIP SPEEDS"
+	Value "Ship Speeds"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarSmall"
-	Value "FLEET SIZE"
+	Value "Fleet Sizes"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarNormal"
-	Value "FLEET SIZE"
+	Value "Fleet Sizes"
 StringInfo
 	ID "IDSGameOptionsFleetSupplyScalarLarge"
-	Value "FLEET SIZE"
+	Value "Fleet Sizes"
 StringInfo
 	ID "IDSGameOptionsDiplomaticVictoryEnabledTrue"
-	Value "DIPLOMATIC"
+	Value "Diplomatic"
 StringInfo
 	ID "IDSGameOptionsDiplomaticVictoryEnabledFalse"
-	Value "DIPLOMATIC"
+	Value "Diplomatic"
 StringInfo
 	ID "IDSGameOptionsFlagshipVictoryEnabledTrue"
-	Value "FLAGSHIP"
+	Value "Flagship"
 StringInfo
 	ID "IDSGameOptionsFlagshipVictoryEnabledFalse"
-	Value "FLAGSHIP"
+	Value "Flagship"
 StringInfo
 	ID "IDSGameOptionsHomeworldVictoryEnabledTrue"
-	Value "HOMEWORLD"
+	Value "Homeworld"
 StringInfo
 	ID "IDSGameOptionsHomeworldVictoryEnabledFalse"
-	Value "HOMEWORLD"
+	Value "Homeworld"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledTrue"
-	Value "RESEARCH"
+	Value "Research"
 StringInfo
 	ID "IDSGameOptionsResearchVictoryEnabledFalse"
-	Value "RESEARCH"
+	Value "Research"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledTrue"
-	Value "CONQUEST"
+	Value "Conquest"
 StringInfo
 	ID "IDSGameOptionsOccupationVictoryEnabledFalse"
-	Value "CONQUEST"
+	Value "Conquest"
 StringInfo
 	ID "IDSGameOptionsAlliedVictoryEnabledTrue"
-	Value "ALLIED"
+	Value "Allied"
 StringInfo
 	ID "IDSGameOptionsAlliedVictoryEnabledFalse"
-	Value "ALLIED"
+	Value "Allied"
 StringInfo
 	ID "IDSGameOptionsOneVictor"
 	Value "No Allied Victory"
@@ -23378,13 +23378,13 @@ StringInfo
 	Value "Locked Allied Victory"
 StringInfo
 	ID "IDSGalaxySetupWindowChangeMapTypeButton"
-	Value "SWITCH MAP TYPE"
+	Value "Switch Map Type"
 StringInfo
 	ID "IDSGalaxySetupWindowOpenGameOptionsDialog"
-	Value "GAME OPTIONS"
+	Value "Game Options"
 StringInfo
 	ID "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
-	Value "VICTORY OPTIONS"
+	Value "Victory Options"
 StringInfo
 	ID "IDSEmpireWindowSelectionButtonOwnedColonyShips"
 	Value "Colony Ships"
@@ -23714,13 +23714,13 @@ StringInfo
 	Value "Show Opening Cinematic"
 StringInfo
 	ID "IDSManageSaveGamesTabButton"
-	Value "FILES"
+	Value "Files"
 StringInfo
 	ID "IDSManageSaveGamesEraseButton"
-	Value "Erase"
+	Value "Delete"
 StringInfo
 	ID "IDSManageSaveGamesEraseAllButton"
-	Value "Erase Current Set"
+	Value "Delete All"
 StringInfo
 	ID "IDSPlayerSetupWindowAIPlayerNameFormat"
 	Value "%s %s"

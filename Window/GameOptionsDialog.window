@@ -19,9 +19,9 @@ titleStringId "IDSGameOptionsDialogTitle"
 areTeamsLockedButton
 	area [150, 95, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
-	textOffsetFromLeft 68
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsGameOptionsToggleLockedTeamsOn"
@@ -34,7 +34,7 @@ arePiratesActiveButton
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 40
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsToggleOn"
@@ -45,9 +45,9 @@ arePiratesActiveButton
 useQuickStartButton
 	area [150, 20, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
-	textOffsetFromLeft 68
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsGameOptionsToggleHeroesOn"
@@ -58,9 +58,9 @@ useQuickStartButton
 randomEventsEnabledButton
 	area [150, 170, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
-	textOffsetFromLeft 68
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsGameOptionsToggleRandomEventsOn"

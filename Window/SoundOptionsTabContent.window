@@ -2,13 +2,13 @@ TXT
 tabButtonIcon "AscendancyIconsMainSound"
 tabButtonText "IDSOptionsScreenSoundOptionsTabButton"
 resetButton
-	area [50, 620, 220, 46]
+	area [0, 650, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 9
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "OptionsScreenSoundOptionsReset"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainReset"
 	text "IDSOptionsScreenSoundOptionsReset"
 stopSoundsWhenWindowLosesFocusCheckBox
 	area [50, 276, 200, 30]

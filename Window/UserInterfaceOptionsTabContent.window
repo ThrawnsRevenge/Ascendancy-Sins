@@ -2,16 +2,16 @@ TXT
 tabButtonIcon "AscendancyIconsMainUserInterface"
 tabButtonText "IDSOptionsScreenUserInterfaceOptionsTabButton"
 resetButton
-	area [50, 620, 220 , 75]
+	area [0, 650, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 7
+	iconOffsetFromLeft 9
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	icon "AscendancyIconsMainReset"
 	text "IDSOptionsScreenUserInterfaceOptionsReset"
 toggleScreenShotModeButton
-	area [50, 470, 220, 75]
+	area [0, 472, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 35
@@ -22,77 +22,77 @@ toggleScreenShotModeButton
 	onText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOn"
 	offText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOff"
 showInfoCardsCheckBox
-	area [49, 280, 220, 30]
+	area [0, 280, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowInfoCards"
 showGavWellCheckBox
-	area [49, 316, 220, 30]
+	area [0, 316, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowGavWell"
 showConnectionsCheckBox
-	area [49, 352, 220, 30]
+	area [0, 352, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowConnections"
 showNamesCheckBox
-	area [49, 172, 220, 30]
+	area [0, 172, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowNames"
 showTeamColorsCheckBox
-	area [49, 100, 220, 30]
+	area [0, 100, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowTeamColors"
 showMainViewIconsCheckBox
-	area [49, 388, 220, 30]
+	area [0, 388, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowMainViewIcons"
 showMeshPlayerOwnerIconAlwaysCheckBox
-	area [49, 424, 220, 30]
+	area [0, 424, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowMeshPlayerOwnerIconAlways"
 showEmpireWindowAlliesCheckBox
-	area [284, 172, 220, 30]
+	area [264, 100, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowAllies"
 showEmpireWindowBackdropCheckBox
-	area [284, 316, 220, 30]
+	area [264, 316, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowBackdrop"
 showEmpireWindowFleetsCheckBox
-	area [284, 352, 220, 30]
+	area [264, 280, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowFleets"
 showEmpireWindowHyperspacersCheckBox
-	area [284, 136, 220, 30]
+	area [264, 64, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowHyperspacers"
 alwaysShowEmpireWindowFleetsCheckBox
-	area [284, 388, 220, 30]
+	area [264, 244, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAlwaysShowEmpireWindowFleets"
 autoPinPlanetsCheckBox
-	area [284, 208, 220, 30]
+	area [264, 136, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinPlanets"
 autoPinCapitalShipsCheckBox
-	area [284, 244, 220, 30]
+	area [264, 172, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinCapitalShips"
 autoPinFrigatesCheckBox
-	area [284, 280, 220, 30]
+	area [264, 208, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinFrigates"
 showCargoShipMainViewIconsCheckBox
-	area [49, 244, 220, 30]
+	area [0, 244, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowCargoShipMainViewIcons"
 showTacticalGridCheckBox
-	area [49, 208, 220, 30]
+	area [0, 208, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowTacticalGrid"
 alwaysAutoPlaceExtractorsCheckBox
-	area [49, 64, 220, 30]
+	area [0, 64, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAlwaysAutoPlaceExtractors"
 invertCameraHorizontalRotationCheckBox
-	area [284, 552, 220, 30]
+	area [264, 460, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraHorizontalRotation"
 invertCameraVerticalRotationCheckBox
-	area [284, 588, 220, 30]
+	area [264, 496, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraVerticalRotation"
 isCameraZoomToCursorCheckBox
-	area [284, 444, 220, 30]
+	area [264, 352, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsIsCameraZoomToCursor"
 isCameraFreeRotateEnabledCheckBox
-	area [284, 516, 220, 30]
+	area [264, 388, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsIsCameraFreeRotateEnabled"
 enableAutoStrafeCheckBox
-	area [284, 480, 220, 30]
+	area [264, 424, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsEnableAutoStrafeCheckBox"
 showQuickNPCWindowCheckBox
-	area [49, 552, 220, 30]
+	area [264, 532, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowQuickNPCWindowCheckBox"
 zoomSensitivityScrollBar
-	area [284, 638, 455, 30]
+	area [10, 580, 455, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsZoomSensitivity"

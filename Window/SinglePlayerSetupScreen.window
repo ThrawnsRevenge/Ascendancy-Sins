@@ -12,7 +12,7 @@ tabWindow
 	titleOverlay "TabWindowTitleOverlay"
 	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [260, 0, 760, 808]
+	contentArea [260, 0, 714, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
 	contentBackdrop "AscendancyBackdropMenuSinglePlayer"

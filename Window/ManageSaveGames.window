@@ -2,30 +2,30 @@ TXT
 tabButtonIcon "AscendancyIconsMainGrid"
 tabButtonText "IDSManageSaveGamesTabButton"
 fileNameListLabel
-	area [50, 90, 220, 30]
+	area [0, 90, 220, 30]
 	fontId "ButtonLabel"
 fileNameList
-	area [50, 120, 220, 510]
+	area [0, 120, 220, 510]
 	itemGap 3
 selectGameSaveTypeWindow
-	area [50, 635, 220, 46]
+	area [0, 635, 220, 46]
 eraseButton
-	area [520, 673, 220, 44]
+	area [0, 702, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "ManageSaveGamesEraseButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainDelete"
 	text "IDSManageSaveGamesEraseButton"
 eraseAllButton
-	area [520, 621, 220, 44]
+	area [240, 702, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "ManageSaveGamesEraseAllButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainDelete"
 	text "IDSManageSaveGamesEraseAllButton"
 galaxyInfoWindow
 	area [285, 120, 455, 254]
