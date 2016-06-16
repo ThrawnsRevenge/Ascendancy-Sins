@@ -5,7 +5,7 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
-randomEventDefCount 8
+randomEventDefCount 9
 	randomEventDef
 		id "DEATHSEED"
 		nameID "IDS_RANDOMEVENT_DEATHSEED_NAME"
@@ -107,7 +107,7 @@ randomEventDefCount 8
 		respawnCount 0
 		nextSpawnTimeMin 1200.0
 		nextSpawnTimeMax 3000.0
-		spawnWeight 0.01
+		spawnWeight 0.02
 	randomEventDef
 		id "PEREGRINESNEST"
 		nameID "IDS_RANDOMEVENT_PEREGRINESNEST_NAME"
@@ -121,4 +121,18 @@ randomEventDefCount 8
 		respawnCount 0
 		nextSpawnTimeMin 600.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.20
+		spawnWeight 0.05
+	randomEventDef
+		id "SSIINCURSION"
+		nameID "IDS_RANDOMEVENT_RUUVI_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDRUUVI"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventSsiRuu"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomNonHomeworld"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 1200.0
+		nextSpawnTimeMax 3000.0
+		spawnWeight 0.05

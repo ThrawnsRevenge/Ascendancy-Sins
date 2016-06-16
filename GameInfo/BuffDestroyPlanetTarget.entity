@@ -6,7 +6,11 @@ stackingLimit -1
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
+instantAction
+	buffInstantActionType "MakeDead"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 instantAction
 	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"

@@ -218,9 +218,7 @@ ringListItemStringId "IDSGalaxyRandomizerRingListItem"
 newScenarioTemplateName "RandomTemplate"
 newStarTemplate
 	type "RandomStar"
-	radius 100.000000
-	moveAreaRadius 10.000000
-	hyperspaceExitRadius 10.000000
+	radius 100.000000	
 	connectionStarRadiusRange 0.500000
 	connectionChance 0.750000
 	maxPlayerCount 2

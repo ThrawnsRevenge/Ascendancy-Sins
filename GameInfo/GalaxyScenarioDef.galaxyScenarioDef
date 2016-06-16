@@ -2093,7 +2093,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.05"
+				param "0.01"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -2115,7 +2115,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.05"
+				param "0.01"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 15
