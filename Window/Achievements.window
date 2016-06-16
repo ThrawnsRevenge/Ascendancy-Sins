@@ -7,7 +7,7 @@ percCompleteLabel
 	fontId "WindowSubTitle"
 	text "IDSAchievementsWindowPercCompleteLabel"
 percCompleteValue
-	area [250, 62 , 40, 30]
+	area [330, 62 , 40, 30]
 	fontId "WindowSubTitle"
 selectedName
 	area [0, 104, 220, 30]

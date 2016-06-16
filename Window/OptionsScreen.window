@@ -1,7 +1,7 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [ 50 , 120]
+	buttonTopLeftOffset [ 15 , 120]
 	buttonSize [ 75 , 75 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
@@ -29,7 +29,7 @@ tabWindow
 		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [50, 700, 75 , 75]
+		area [15, 700, 75 , 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -8
 		textOffsetFromLeft 85

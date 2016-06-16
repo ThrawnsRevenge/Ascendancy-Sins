@@ -4,7 +4,7 @@ backdropBrush "AscendancyBackdropDialogSelect"
 titleOverlayBrush "DialogTitleOverlay"
 size [3000 , 600]
 contentRefArea [1200, 120, 500, 400]
-titleRefArea [-5000, -5000, 508, 30]
+titleRefArea [1200, 60, 371, 30]
 titleOverlayRefArea [0, 0, 556, 90]
 cancelButton
 	area [1220, 520, 220, 75]

@@ -4,7 +4,7 @@ backdropBrush "AscendancyBackdropDialogSelect"
 titleOverlayBrush "PlayerThemePickerScreenTitleOverlay"
 size [3000 , 600]
 contentRefArea [1200, 200, 371, 207]
-titleRefArea [-5000, -5000, 508, 30]
+titleRefArea [1200, 60, 371, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 cancelButton
 	area [1230, 320, 220, 75]

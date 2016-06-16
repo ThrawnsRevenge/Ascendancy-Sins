@@ -16,7 +16,7 @@ scenarioFileLocationButton
 	area [11, 520, 200 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 42
+	textOffsetFromLeft 35
 	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "Null"
 	BuiltInSmall

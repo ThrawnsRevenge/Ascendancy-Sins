@@ -1,9 +1,9 @@
 TXT
 changeTypeButton
-	area [11, -53, 200 , 75]
+	area [11, -15, 200 , 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 42
+	textOffsetFromLeft 35
 	underlay "AscendancyMenuScreenButtonNoIconLarge"
 	overlay "Null"
 	icon "Null"

@@ -21710,7 +21710,7 @@ StringInfo
 	Value "TUTORIALS"
 StringInfo
 	ID "IDSSinglePlayerSetupScreenTutorialTitle"
-	Value "Tutorials"
+	Value "These are not the tutorials you're looking for..."
 StringInfo
 	ID "IDSSinglePlayerSetupScreenPlayerSetupTabButton"
 	Value "PLAYER SETUP"
@@ -22283,7 +22283,7 @@ StringInfo
 	Value "KEY BINDINGS"
 StringInfo
 	ID "IDSOptionsScreenManageModsTabButton"
-	Value "MODIFICATIONS"
+	Value "MODS"
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsTabButton"
 	Value "INTERFACE"
@@ -23714,7 +23714,7 @@ StringInfo
 	Value "Show Opening Cinematic"
 StringInfo
 	ID "IDSManageSaveGamesTabButton"
-	Value "MANAGE SAVE GAMES"
+	Value "FILES"
 StringInfo
 	ID "IDSManageSaveGamesEraseButton"
 	Value "Erase"

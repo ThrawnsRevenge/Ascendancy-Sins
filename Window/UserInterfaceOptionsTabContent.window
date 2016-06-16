@@ -2,23 +2,23 @@ TXT
 tabButtonIcon "AscendancyIconsMainUserInterface"
 tabButtonText "IDSOptionsScreenUserInterfaceOptionsTabButton"
 resetButton
-	area [50, 620, 220, 46]
+	area [50, 620, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	icon "OptionsScreenUserInterfaceOptionsReset"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainReset"
 	text "IDSOptionsScreenUserInterfaceOptionsReset"
 toggleScreenShotModeButton
-	area [50, 470, 220, 46]
+	area [50, 470, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"
-	onIcon "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOn"
-	offIcon "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOff"
+	textOffsetFromLeft 35
+	underlay "AscendancyMenuScreenButtonNoIconLarge"
+	overlay "Null"
+	onIcon "Null"
+	offIcon "Null"
 	onText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOn"
 	offText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOff"
 showInfoCardsCheckBox
