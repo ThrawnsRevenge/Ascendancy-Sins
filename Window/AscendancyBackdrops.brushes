@@ -1,15 +1,25 @@
-TXT 
+TXT
 onlyLoadOnDemand FALSE
-brushCount 8
+brushCount 10 
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
   fileName "AscendancyBackdropMenuSinglePlayer"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
+  name "AscendancyBackdropMenuSinglePlayerLobby"
+  content "Simple"
+  fileName "AscendancyBackdropMenuSinglePlayerLobby"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
   name "AscendancyBackdropMenuNetworkGame"
   content "Simple"
   fileName "AscendancyBackdropMenuNetworkGame"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuNetworkGameLobby"
+  content "Simple"
+  fileName "AscendancyBackdropMenuNetworkGameLobby"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
   name "AscendancyBackdropMenuInternetGame"

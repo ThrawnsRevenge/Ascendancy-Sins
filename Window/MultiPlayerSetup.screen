@@ -11,10 +11,10 @@ tabWindow
 		text "IDSMultiPlayerSetupScreenBackButton"
 	closeButtonDef
 		iconArea [10, 0, 30, 30]
-		textArea [50, 0, 100, 30]	
+		textArea [50, 0, 100, 30]
 sharedScreenButtonDef
 	iconArea [10, 0, 30, 30]
-	textArea [50, 0, 100, 30]	
+	textArea [50, 0, 100, 30]
 sharedScreenTextEntryDef
 	fontId "TextEntry"
 sharedScreenLabelDef
@@ -43,5 +43,4 @@ newGameContentWindow
 	playNewGameButton
 		area [600, 650, 150, 30]
 		icon "MultiPlayerSetupScreenPlayNewGameButton"
-		text "IDSMultiPlayerSetupScreenPlayNewGameButton"	
-			
+		text "IDSMultiPlayerSetupScreenPlayNewGameButton"

@@ -19,9 +19,9 @@ titleStringId "IDSGameOptionsDialogTitle"
 diplomaticVictoryEnabledButton
 	area [250, 40, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleDiplomacyOn"
@@ -32,9 +32,9 @@ diplomaticVictoryEnabledButton
 flagshipVictoryEnabledButton
 	area [250, 125, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleFlagshipOn"
@@ -45,9 +45,9 @@ flagshipVictoryEnabledButton
 homeworldVictoryEnabledButton
 	area [250, 210, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleCapitalOn"
@@ -58,9 +58,9 @@ homeworldVictoryEnabledButton
 researchVictoryEnabledButton
 	area [500, 40, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleResearchOn"
@@ -71,9 +71,9 @@ researchVictoryEnabledButton
 occupationVictoryEnabledButton
 	area [500, 125, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleConquestOn"
@@ -84,9 +84,9 @@ occupationVictoryEnabledButton
 alliedVictoryEnabledButton
 	area [500, 210, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 150
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "AscendancyButtonsScreenIconToggleLarge"
+	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	true
 		icon "AscendancyIconsVictoryOptionsToggleAlliedOn"

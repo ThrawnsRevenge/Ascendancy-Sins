@@ -14,7 +14,7 @@ enableModButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "ManageModsEnableModButton"
+	icon "AscendancyIconsMainAccept"
 	text "IDSManageModsEnableModButton"
 disableModButton
 	area [470, 357, 220, 75]
@@ -23,7 +23,7 @@ disableModButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "ManageModsDisableModButton"
+	icon "AscendancyIconsMainCancel"
 	text "IDSManageModsDisableModButton"
 increaseModPriorityButton
 	area [470, 409, 220, 75]
@@ -32,7 +32,7 @@ increaseModPriorityButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "ManageModsIncreaseModPriorityButton"
+	icon "AscendancyIconsMainUp"
 	text "IDSManageModsIncreaseModPriorityButton"
 decreaseModPriorityButton
 	area [470, 461, 220, 75]
@@ -41,7 +41,7 @@ decreaseModPriorityButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "ManageModsDecreaseModPriorityButton"
+	icon "AscendancyIconsMainDown"
 	text "IDSManageModsDecreaseModPriorityButton"
 showModPathButton
 	area [470, 253, 220, 75]
@@ -50,7 +50,7 @@ showModPathButton
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
-	icon "ManageModsShowModPathButton"
+	icon "AscendancyIconsMainFolder"
 	text "IDSManageModsShowModPathButton"
 applyModChangesButton
 	area [470, 650, 220, 75]
@@ -71,10 +71,10 @@ enabledModNameListLabel
 	text "IDSManageModsEnabledModNameListLabel"
 enabledModChecksumHeaderLabel
 	area [470, 149, 220, 30]
-	fontId "WindowSubTitle2"
+	fontId "Label"
 	text "IDSManageModsEnabledModChecksum"
 enabledModChecksumValueLabel
 	area [470, 201, 220, 30]
-	fontId "WindowSubTitle2"
+	fontId "Label"
 showModPathDialogTitleStringId "IDSManageModsShowModPathDialogTitle"
 showModPathDialogContentFontId "Label"

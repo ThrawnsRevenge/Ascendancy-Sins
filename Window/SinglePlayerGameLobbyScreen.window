@@ -1,5 +1,5 @@
 TXT
-backdrop "AscendancyBackdropMenuSinglePlayer"
+backdrop "AscendancyBackdropMenuSinglePlayerLobby"
 backButton
 	area [59, 651, 220 , 46]
 	fontId "ButtonLabel"
