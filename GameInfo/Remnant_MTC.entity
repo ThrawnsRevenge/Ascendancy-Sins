@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_MTC"
 picture "PICTURE_FRIGATE_MTC"
 NameStringID "IDS_FRIGATE_MTC_NAME"

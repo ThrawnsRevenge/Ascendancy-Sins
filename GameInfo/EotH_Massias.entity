@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_MASSIAS_INTERDICTOR"
 picture "PICTURE_FRIGATE_MASSIAS"
 NameStringID "IDS_FRIGATE_MASSIAS_NAME"

@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Heavy"
-statCountType "FrigateHeavy"
+frigateRoleType "Siege" 
+statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_VSDII"
 picture "CAPITALSHIPPICTURE_VSDII"
 NameStringID "IDS_CAPITALSHIP_VSDII_NAME"

@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "Support"
+statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_418_IMMOBILZER"
 picture "PICTURE_FRIGATE_IMMOBILIZER"
 NameStringID "IDS_FRIGATE_IMMOBILIZER_NAME"
