@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2289
+entityNameCount 2291
 entityName "Remnant_AITrap.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
@@ -116,6 +116,7 @@ entityName "EotH_Intego.entity"
 entityName "EotH_Nuruodo.entity"
 entityName "EotH_Kariek.entity"
 entityName "EotH_Esseles.entity"
+entityName "EotH_Oto.entity"
 entityName "EotH_Auriette.entity"
 entityName "EotH_Massias.entity"
 entityName "EotH_Phalanx.entity"
@@ -691,6 +692,7 @@ entityName "AbilityCreateEmpress.entity"
 entityName "AbilityCreateEsseles.entity"
 entityName "AbilityCreateEsselesIR.entity"
 entityName "AbilityCreateEsselesEotH.entity"
+entityName "AbilityCreateOto.entity"
 entityName "AbilityISDColonize.entity"
 entityName "AbilityDestroyPlanet.entity"
 entityName "AbilityGilzeanColonize.entity"
