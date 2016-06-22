@@ -11,9 +11,9 @@ subValue ff7E7E7E
 playerColor:0 ffFF0000
 playerColor:1 ffFF7A00
 playerColor:2 ff854800
-playerColor:3 ff8FD81D
+playerColor:3 ff7fa376
 playerColor:4 ff007037
-playerColor:5 ff0EADFF
+playerColor:5 ffffde00
 playerColor:6 ff0044AE
 playerColor:7 ffFF87FF
 playerColor:8 ff8822B7
@@ -55,10 +55,10 @@ maxAllianceEnemy ffFF2800
 minHull ffFF0000
 middleHull ffFFC705
 maxHull ff8FD81D
-minShields ffFF0000
-maxShields FFFFC705
-minAntiMatter ff0A79B2
-maxAntiMatter ff0EADFF
+minShields ff05b5ff
+maxShields FF05b5ff
+minAntiMatter ffb20a0a
+maxAntiMatter ffb20a0a
 minPlanetHealth ffffff00
 maxPlanetHealth ffffff00
 minConstruction ffffff00

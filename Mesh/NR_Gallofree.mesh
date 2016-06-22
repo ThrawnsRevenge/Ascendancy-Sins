@@ -17,7 +17,7 @@ MeshData
 		Specular ffffffff
 		Emissive ffffffff
 		Glossiness 32.000000
-	NumPoints 19
+	NumPoints 21
 	Point
 		DataString "Center"
 		Position [ 0.000000 0 0.000000 ]
@@ -104,6 +104,20 @@ MeshData
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
 		DataString "Ability-0"
+		Position [ 0.0000015 -0.946281 13.6151505 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Ability-1"
+		Position [ 0.0000015 -0.946281 13.6151505 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Ability-2"
 		Position [ 0.0000015 -0.946281 13.6151505 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

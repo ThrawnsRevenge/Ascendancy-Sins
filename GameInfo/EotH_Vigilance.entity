@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Light"
-statCountType "FrigateLight"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_VIGILANCE_GUNSHIP"
 picture "PICTURE_FRIGATE_VIGILANCE"
 NameStringID "IDS_FRIGATE_VIGILANCE_NAME"

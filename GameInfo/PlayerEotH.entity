@@ -146,7 +146,7 @@ entities
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
-		entityDefName "EotH_Esseles"
+		entityDefName "EotH_Oto"
 	flagship "EotH_Stent"
 debrisData
 	numRandomMeshNamesLarge 8

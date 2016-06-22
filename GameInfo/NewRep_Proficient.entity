@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Heavy"
-statCountType "FrigateHeavy"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_PROFICIENT"
 picture "HUDICON_PROFICIENT"
 NameStringID "IDS_FRIGATE_PROFICIENT_NAME"

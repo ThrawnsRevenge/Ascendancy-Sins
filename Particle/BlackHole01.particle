@@ -1,0 +1,392 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime TRUE
+	TotalLifeTime 10.000000
+	NumEmitters 6
+	EmitterType "Point"
+	EmitterContents
+		Name "Main Ring"
+		Enabled TRUE
+		EmitRate 9.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.017453
+		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff6b6b64
+		ParticleWidth 50000.000000
+		ParticleHeight 50000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex01.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "Ring Deets"
+		Enabled TRUE
+		EmitRate 5.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.017453
+		ParticleMaxStartAngularSpeed 1.221730
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 50000.000000
+		ParticleHeight 50000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex02.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "WideRing Up"
+		Enabled TRUE
+		EmitRate 14.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 4.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.087266
+		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff464640
+		ParticleWidth 40000.000000
+		ParticleHeight 40000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 1.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex01.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "InnerRing Up"
+		Enabled TRUE
+		EmitRate 4.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.017453
+		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff6b6b64
+		ParticleWidth 50000.000000
+		ParticleHeight 50000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 1.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex01.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "InnerRing Down"
+		Enabled TRUE
+		EmitRate 4.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.017453
+		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff6b6b64
+		ParticleWidth 50000.000000
+		ParticleHeight 50000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 -1.000000 ]
+			 [ 0.000000 1.000000 -0.000000 ]
+		RotateAboutForward -90.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex01.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "WideRing Down"
+		Enabled TRUE
+		EmitRate 14.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 4.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.087266
+		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff464640
+		ParticleWidth 40000.000000
+		ParticleHeight 40000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 -1.000000 ]
+			 [ 0.000000 1.000000 -0.000000 ]
+		RotateAboutForward -90.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\W_RingTex01.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	NumAffectors 5
+	AffectorType "Fade"
+	AffectorContents
+		Name "(new) Fade-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 4
+		attachedEmitterName "Main Ring"
+		attachedEmitterName "Ring Deets"
+		attachedEmitterName "InnerRing Up"
+		attachedEmitterName "InnerRing Down"
+		DoFadeOut TRUE
+		FadeOutTime 1.000000
+		DoFadeIn TRUE
+		FadeInTime 1.000000
+	AffectorType "SizeOscillator"
+	AffectorContents
+		Name "(new) SizeOscillator-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "Main Ring"
+		attachedEmitterName "Ring Deets"
+		TransitionPeriod 1.900000
+		BeginSizeX 70000.000000
+		BeginSizeY 70000.000000
+		EndSizeX 40000.000000
+		EndSizeY 40000.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "WideRing Up"
+		attachedEmitterName "WideRing Down"
+		WidthInflateRate 30000.000000
+		HeightInflateRate 30000.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "(new) Fade-2"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "WideRing Up"
+		attachedEmitterName "WideRing Down"
+		DoFadeOut TRUE
+		FadeOutTime 3.000000
+		DoFadeIn TRUE
+		FadeInTime 1.000000
+	AffectorType "SizeOscillator"
+	AffectorContents
+		Name "(copy) (new) SizeOscillator-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "InnerRing Up"
+		attachedEmitterName "InnerRing Down"
+		TransitionPeriod 1.800000
+		BeginSizeX 90000.000000
+		BeginSizeY 90000.000000
+		EndSizeX 60000.000000
+		EndSizeY 60000.000000
+	length 0.000000

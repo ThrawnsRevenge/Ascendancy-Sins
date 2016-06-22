@@ -1,7 +1,7 @@
 ﻿TXT
 MeshData
 	maxDiffuseMipLevel 0
-	hasValidTangents FALSE
+	hasValidTangents TRUE
 	BoundingRadius 12439.705078
 	MaxBoundingExtents [ 12439.7021485 12439.7021485 12439.703125 ]
 	MinBoundingExtents [ -12439.703125 -12439.7021485 -12439.7021485 ]
@@ -14,12 +14,12 @@ MeshData
 		TeamColorTextureFileName ""
 		Diffuse ffffffff
 		Ambient ffffffff
-		Specular ffe5e5e5
-		Emissive ff000000
-		Glossiness 16.000000
+		Specular ffffffff
+		Emissive ffffffff
+		Glossiness 20.000000
 	NumPoints 4
 	Point
-		DataString "Flair-StarParticle_Blue"
+		DataString "Flair-BlackHole01"
 		Position [ 0.000000 0 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 -0.000000 ]
