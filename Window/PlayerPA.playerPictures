@@ -1,42 +1,42 @@
 TXT
 pictureCount 1
 LargeScreenPicture
-	textureName "Ascendancy_Player_Portrait_Large"
-	startTopLeft [ 613 , 1 ]
-	width 203
-	height 232
+	textureName "AscendancyPortraits"
+	startTopLeft [ 570 , 0 ]
+	width 190
+	height 190
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0
 SmallScreenPicture
-	textureName "Ascendancy_Player_Portrait_Small"
-	startTopLeft [ 181 , 1 ]
-	width 59
-	height 70
+	textureName "AscendancyPortraits"
+	startTopLeft [ 560 , 380 ]
+	width 60
+	height 60
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0
 BottomBarPicture
-	textureName "Ascendancy_Player_Portrait_Window"
-	startTopLeft [ 514 , 1 ]
-	width 170
-	height 90
+	textureName "AscendancyPortraits"
+	startTopLeft [ 570 , 0 ]
+	width 190
+	height 190
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0
 ButtonIcon
-	textureName "Ascendancy_Player_Portrait_Button"
-	startTopLeft [ 76 , 1 ]
-	width 24
-	height 28
+	textureName "AscendancyPortraits"
+	startTopLeft [ 500 , 500 ]
+	width 40
+	height 40
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0
 MediumScreenPicture
-	textureName "Ascendancy_Player_Portrait_Medium"
-	startTopLeft [ 292 , 1 ]
-	width 96
-	height 110
+	textureName "AscendancyPortraits"
+	startTopLeft [ 285 , 380 ]
+	width 95
+	height 95
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0

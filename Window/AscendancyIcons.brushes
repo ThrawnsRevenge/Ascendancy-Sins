@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 58
+brushCount 81
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -524,6 +524,222 @@ brush
     fileName "AscendancyIconsMain"
     pixelBox [ 120 , 160 , 40 , 40 ]
 brush
+  name "AscendancyIconsMainRandom"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainSwords"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 200 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 200 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 200 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 200 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 200 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainComputer"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 240 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 240 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 240 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 240 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 240 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainCredits"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 280 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 280 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 280 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 280 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 280 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainShield"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 320 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 320 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 320 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 320 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 320 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainResearch"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 360 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 360 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 360 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 360 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 360 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainRecruit"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 400 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 400 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 400 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 400 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 400 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainLieutenant"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 440 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 440 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 440 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 440 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 440 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainCaptain"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 480 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 480 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 480 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 480 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 480 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainAdmiral"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 520 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 520 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 520 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 520 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 520 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainGrandAdmiral"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 560 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 560 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 560 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 560 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 560 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainEmperor"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 280 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 240 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 200 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 240 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 600 , 160 , 40 , 40 ]
+brush
   name "AscendancyIconsGaugeLevel1"
   content "Simple"
   fileName "AscendancyIconsGaugeLevels"
@@ -902,3 +1118,58 @@ brush
   Normal
     fileName "AscendancyIconsVictoryOptionsToggle"
     pixelBox [ 200 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber1"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 550 , 173 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber2"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 590 , 173 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber3"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 630 , 173 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber4"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 670 , 173 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber5"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 710 , 173 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber6"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 550 , 213 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber7"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 590 , 213 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber8"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 630 , 213 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber9"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 670 , 213 , 40 , 40 ]
+brush
+  name "AscendancyIconsNumber10"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 710 , 213 , 40 , 40 ]
+brush
+  name "AscendancyIconsRandomRace"
+  content "Simple"
+	fileName "AscendancyPortraits"
+	pixelBox [ 500 , 540 , 40 , 40 ]

@@ -121,23 +121,23 @@ animation-PlayerTabButtonAttentionIndicator
 	framesPerSecond 10
 animation-PlayerSetupReadyToStartTrue
 	numFrames 1
-	textureName "Buttons_Ascendancy_Icons"
-	startTopLeft [222,90]
-	width 30
-	height 30
+	textureName "AscendancyPlayerReadyAnimation"
+	startTopLeft [ 0 , 520]
+	width 40
+	height 40
 	numPerRow 1
 	horizontalStride 0
-	verticalStride 33
+	verticalStride 40
 	framesPerSecond 3
 animation-PlayerSetupReadyToStartFalse
 	numFrames 13
-	textureName "Animation_Checkbox.tga"
-	startTopLeft [1,0]
-	width 30
-	height 30
+	textureName "AscendancyPlayerReadyAnimation"
+	startTopLeft [ 0 , 0 ]
+	width 40
+	height 40
 	numPerRow 1
 	horizontalStride 0
-	verticalStride 33
+	verticalStride 40
 	framesPerSecond 15
 animation-OpenRelationshipWindowButtonOverlay
 	numFrames 16

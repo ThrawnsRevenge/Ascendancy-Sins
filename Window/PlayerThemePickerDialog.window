@@ -3,7 +3,7 @@ backdropDimPercentage 0.9
 backdropBrush "AscendancyBackdropDialogSelect"
 titleOverlayBrush "PlayerThemePickerScreenTitleOverlay"
 size [3000 , 600]
-contentRefArea [1200, 200, 371, 207]
+contentRefArea [1220, 200, 371, 207]
 titleRefArea [1200, 60, 371, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 cancelButton
@@ -26,10 +26,10 @@ acceptButton
 	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleTextId "IDS_DIALOGWINDOW_TITLETEXT_PLAYERTHEMEPICKERWINDOW"
 themeButtonSize [32 , 32]
-themeButtonStride [51, 50]
+themeButtonStride [50, 50]
 themeButtonTopLeftOffset [-5000, -5000]
 themeButtonMaxRowCount 10
-colorButtonSize [19 , 19]
+colorButtonSize [32 , 32]
 colorButtonStride [50, 50]
 colorButtonTopLeftOffset [ 0 , 50]
 colorButtonMaxRowCount 10

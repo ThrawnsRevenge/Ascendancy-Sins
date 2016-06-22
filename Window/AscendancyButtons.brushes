@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 11
+brushCount 12
 brush
   name "AscendancyMenuButtonNonActive"
   content "States"
@@ -121,7 +121,7 @@ brush
 		pixelBox [ 0 , 0 , 220 , 75 ]
 brush
   name "AscendancyButtonsScreenIconToggleLarge"
-  content "States"
+  content "States" 
   Disabled
     fileName "AscendancyButtonsScreenIconToggleLarge"
 		pixelBox [ 0 , 150 , 220 , 75 ]
@@ -173,3 +173,18 @@ brush
   Normal
     fileName "AscendancyButtonsScreenThemeSelect"
 		pixelBox [ 0 , 64 , 32 , 32 ]
+brush
+  name "AscendancyButtonsPlayerSetupRow"
+  content "Margins"
+	stretchMargins
+		left 300
+		right 300
+		top 0
+		bottom 0
+	contentMargins
+		left 2
+		right 2
+		top 0
+		bottom 0
+  fileName "AscendancyIconsMain"
+	pixelBox [ 1000 , 0 , 24 , 40 ]

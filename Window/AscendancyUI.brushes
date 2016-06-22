@@ -1,6 +1,6 @@
-TXT
+TXT 
 onlyLoadOnDemand FALSE
-brushCount 14
+brushCount 15
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
@@ -108,7 +108,7 @@ brush
 		bottom 0
   fileName "AscendancyUI"
 	pixelBox [ 0 , 123 , 9 , 50 ]
-brush 
+brush
   name "AscendancyHorizontalScrollLeftArrow"
   content "Simple"
   fileName "Null"
@@ -166,3 +166,8 @@ brush
   content "Simple"
   fileName "AscendancyUI"
   pixelBox [ 359 , 0 , 19 , 19 ]
+brush
+  name "AscendancyLobbyRowItem"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 0 , 323 , 550 , 45 ]

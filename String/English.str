@@ -2720,22 +2720,22 @@ StringInfo
 	Value "Zero Command"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_EASY"
-	Value "Beginner"
+	Value "Recruit"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_MEDIUM"
-	Value "Easy"
+	Value "Lieutenant"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_HARD"
-	Value "Normal"
+	Value "Captain"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_UNFAIR"
-	Value "Hard"
+	Value "Admiral"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_NIGHTMARE"
-	Value "Very Hard"
+	Value "Grand Admiral"
 StringInfo
 	ID "IDS_PLAYERAIDIFFICULTY_IMPOSSIBLE"
-	Value "Tryhard"
+	Value "Emperor"
 StringInfo
 	ID "IDS_PLAYERAISTYLE_RANDOM"
 	Value "Random"

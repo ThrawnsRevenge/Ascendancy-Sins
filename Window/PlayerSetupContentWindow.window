@@ -3,9 +3,9 @@ picturePreviewWindow
 	area [7, 300, 784 , 338]
 	backdrop "AscendancyBackdropScreenFactionLogo"
 	overlay "PlayerSetupPicturePreviewWindowOverlay"
-	racePictureArea-0 [71, 57, 195 , 219]
-	racePictureArea-1 [294, 58, 195 , 219]
-	racePictureArea-2 [519, 59, 195 , 219]
+	racePictureArea-0 [78, 73, 190 , 190]
+	racePictureArea-1 [297, 73, 190 , 190]
+	racePictureArea-2 [516, 73, 190 , 190]
 changeNameButton
 	area [400, 200, 220, 75]
 	fontId "ButtonLabel"

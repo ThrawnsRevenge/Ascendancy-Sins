@@ -1,100 +1,99 @@
 TXT
-rowSize [1000, 42]
+rowSize [1000, 47]
 startTopLeft [0, 0]
 nameLabelDef
-	area [100, 5, 150, 28]
+	area [100, 0, 200, 45]
 	fontId "ButtonLabel"
 	activeHumanColor ffffffff
 	humanColor ffffffff
 	nonHumanColor ffffffff
 	aiNameFormat "IDSPlayerSetupWindowAIPlayerNameFormat"
 themeButtonDef
-	area [48, 0, 45 , 38]
+	area [47 , 0 , 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"			
+	underlay "Null"
+	overlay "Null"
 raceButtonDef
-	area [255, 0, 218 , 38]
+	area [350, 0, 45 , 45]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 5
-	textOffsetFromLeft 35
-	underlay "ScreenButtonUnderlayLargeShort"
-	overlay "Null"		
+	iconOffsetFromLeft 5010
+	textOffsetFromLeft -5000
+	underlay "Null"
+	overlay "Null"
 	randomRaceNameStringId "IDSPlayerSetupWindowRandomRaceName"
-	randomRacePictureIcon "RandomRacePictureIcon"
+	randomRacePictureIcon "AscendancyIconsRandomRace"
 statusButtonDef
-	area [0, 0, 45 , 38]
-	fontId "ButtonLabel"
-	iconOffsetFromLeft 
-	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"		
-	slotStatusIcon-Available "PlayerStatusAvailable"
-	slotStatusIcon-AvailableForFriend "PlayerStatusAvailableForFriend"
-	slotStatusIcon-Human "PlayerStatusHuman"
-	slotStatusIcon-AI "PlayerStatusAI"
-	slotStatusIcon-Closed "PlayerStatusClosed"	
-readyToStartButtonDef
-	area [630, 0 , 45 , 38]
+	area [0, 0, 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"		
+	underlay "Null"
+	overlay "Null"
+	slotStatusIcon-Available "AscendancyIconsMainUser"
+	slotStatusIcon-AvailableForFriend "AscendancyIconsMainUser"
+	slotStatusIcon-Human "AscendancyIconsMainUser"
+	slotStatusIcon-AI "AscendancyIconsMainComputer"
+	slotStatusIcon-Closed "AscendancyIconsMainCancel"
+readyToStartButtonDef
+	area [500, 0 , 45 , 45]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 0
+	underlay "Null"
+	overlay "Null"
 	readyToStartBrushAnimationTrue "PlayerSetupReadyToStartTrue"
 	readyToStartBrushAnimationFalse "PlayerSetupReadyToStartFalse"
 teamButtonDef
-	area [475, 0, 105 , 38]
+	area [400, 0, 45 , 45]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 40
-	underlay "ScreenButtonUnderlaySmall"
-	overlay "ScreenButtonOverlaySmall"		
+	iconOffsetFromLeft 5010
+	textOffsetFromLeft -5000
+	underlay "Null"
+	overlay "Null"
 	teamTextFormatId "IDSPlayerSetupWindowTeamButtonFormat"
-	teamIcon-0 "PlayerTeam0"
-	teamIcon-1 "PlayerTeam1"
-	teamIcon-2 "PlayerTeam2"
-	teamIcon-3 "PlayerTeam3"
-	teamIcon-4 "PlayerTeam4"
-	teamIcon-5 "PlayerTeam5"
-	teamIcon-6 "PlayerTeam6"
-	teamIcon-7 "PlayerTeam7"
-	teamIcon-8 "PlayerTeam8"
-	teamIcon-9 "PlayerTeam9"
+	teamIcon-0 "AscendancyIconsNumber1"
+	teamIcon-1 "AscendancyIconsNumber2"
+	teamIcon-2 "AscendancyIconsNumber3"
+	teamIcon-3 "AscendancyIconsNumber4"
+	teamIcon-4 "AscendancyIconsNumber5"
+	teamIcon-5 "AscendancyIconsNumber6"
+	teamIcon-6 "AscendancyIconsNumber7"
+	teamIcon-7 "AscendancyIconsNumber8"
+	teamIcon-8 "AscendancyIconsNumber9"
+	teamIcon-9 "AscendancyIconsNumber10"
 aiDifficultyButtonDef
-	area [582, 0, 45 , 38]
+	area [440, 0, 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 2
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"		
-	aiDifficultyIcon-Easy "PlayerAIDifficultyEasy"
-	aiDifficultyIcon-Medium "PlayerAIDifficultyMedium"
-	aiDifficultyIcon-Hard "PlayerAIDifficultyHard"
-	aiDifficultyIcon-Unfair "PlayerAIDifficultyUnfair"
-	aiDifficultyIcon-Nightmare "PlayerAIDifficultyNightmare"
-	aiDifficultyIcon-Impossible "PlayerAIDifficultyImpossible"
+	underlay "Null"
+	overlay "Null"
+	aiDifficultyIcon-Easy "AscendancyIconsMainRecruit"
+	aiDifficultyIcon-Medium "AscendancyIconsMainLieutenant"
+	aiDifficultyIcon-Hard "AscendancyIconsMainCaptain"
+	aiDifficultyIcon-Unfair "AscendancyIconsMainAdmiral"
+	aiDifficultyIcon-Nightmare "AscendancyIconsMainGrandAdmiral"
+	aiDifficultyIcon-Impossible "AscendancyIconsMainEmperor"
 aiStyleButtonDef
-	area [630, 0 , 45 , 38]
+	area [500, 0 , 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 2
-	textOffsetFromLeft 0	
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"			
-	aiStyleIcon-Random "PlayerAIStyleRandom"
-	aiStyleIcon-Aggressive "PlayerAIStyleAggressive"
-	aiStyleIcon-Defensive "PlayerAIStyleDefensive"
-	aiStyleIcon-Research "PlayerAIStyleResearch"
-	aiStyleIcon-Economic "PlayerAIStyleEconomic"
+	textOffsetFromLeft 0
+	underlay "Null"
+	overlay "Null"
+	aiStyleIcon-Random "AscendancyIconsMainRandom"
+	aiStyleIcon-Aggressive "AscendancyIconsMainSwords"
+	aiStyleIcon-Defensive "AscendancyIconsMainShield"
+	aiStyleIcon-Research "AscendancyIconsMainResearch"
+	aiStyleIcon-Economic "AscendancyIconsMainCredits"
 icoPlayerInfoButtonDef
-	area [582, 0, 45 , 38]
+	area [450, 0, 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
 	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"		
+	overlay "ScreenButtonOverlayTiny"
 	icon "PlayerSetupOpenICOPlayerInfo"
 useRaceSelectDialog TRUE
-

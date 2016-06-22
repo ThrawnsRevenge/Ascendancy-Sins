@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 10 
+brushCount 10
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
@@ -50,4 +50,4 @@ brush
   name "AscendancyBackdropScreenFactionLogo"
   content "Simple"
   fileName "AscendancyBackdropScreenFactionLogo"
-  pixelBox [ 0 , 0 , 640 , 192 ]
+  pixelBox [ 0 , 0 , 640 , 256 ]
