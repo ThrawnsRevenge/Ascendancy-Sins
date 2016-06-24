@@ -180,6 +180,16 @@ planetUpgradeDef
 			tradeIncomeModifier 0.000000
 			shipBuildRateModifier 0.000000
 			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
 ringsChance 0.100000
 isColonizable FALSE
 planetTypeForResearch "Uncolonizable"

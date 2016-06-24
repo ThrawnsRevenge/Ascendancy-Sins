@@ -959,3 +959,34 @@ GameplayConstants
 		occupationVictoryPlanetName "Occupation"
 		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
 		occupationVictoryTime 1200
+	outlawSectorsData
+		militiaMainViewXOffsetScalar 0
+		militiaMainViewYOffsetScalar -.75		
+		militiaMainViewIconSizeScalar .55
+		militiaMainViewIconXOffsetScalar 0.0
+		militiaMainViewIconYOffsetScalar -.4		
+		militiaHUDIconSizeScalar .4
+		militiaHUDIconXOffsetScalar 0.0
+		militiaHUDIconYOffsetScalar .05
+		spawnShips
+			minFleetPoints 0.000000
+			maxFleetPoints 0.000000
+			requiredShipCount 0
+			randomShipCount 0
+			randomShip
+		baseFleetCapacity 0.0
+		maxFleetSupplyPerPlanetPopulation .025
+		fleetSupplyMin 100.0
+		fleetSupplyMax 2000.0
+		fleetSupplyScalarAtMinFleetSupply 1.0
+		fleetSupplyScalarAtMaxFleetSupply 3.75
+		timeBetweenSpawnShipsAtMinFleetSupply 600.0
+		timeBetweenSpawnShipsAtMaxFleetSupply 240.0
+		timeBetweenSpawnShipsVariancePercent .25
+		planetsAtMinFleetSupplyScalar 15
+		planetsAtMaxFleetSupplyScalar 100
+		minPlanetsFleetSupplyScalar 1		
+		maxPlanetsFleetSupplyScalar .15
+		pirateBountyBonusScalar 1.25
+		pirateRaidRaidTimeScalar .85
+

@@ -551,6 +551,7 @@ hudSkinData
 	UserActionIconUpgradePlanetTacticalModules "ActionIconPlanetUpgradeTacticalModules"
 	UserActionIconUpgradePlanetSocial "ActionIconPlanetUpgradeSocial"
 	UserActionIconUpgradePlanetIndustry "ActionIconPlanetUpgradeIndustry"
+	UserActionIconUpgradePlanetSmuggler "ActionIconPlanetUpgradeIndustry"
 	UserActionIconBuildResourceAsteroidExtractor "ActionIconBuildResourceAsteroidExtractor"
 	UserActionIconPing "BottomWindowButtonPing"
 	UserActionIconPingAllyAttack "ActionIconPingAllyAttack"
