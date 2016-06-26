@@ -1,6 +1,30 @@
 TXT
 NumStrings 8554
 StringInfo
+	ID "IDS_INFOCARD_STRINGINFO_BOUNTYINCAMOUNTWITHBONUS"
+	Value "Next Increment: *VALUE0* *VALUE1* (*VALUE2* + *VALUE3*)"
+StringInfo
+	ID "IDS_INFOCARD_STRINGINFO_BONUSACTIVE"
+	Value "Pirate Turf Bonus Active"
+StringInfo
+	ID "IDSEconomyInfoCardTotalSmugglingIncome"
+	Value "*VALUE0* Smuggling Income *SPACING160* *VALUE1* *SPACING195*/sec"
+StringInfo
+	ID "IDSEconomyInfoCardTotalSmugglingLoss"
+	Value "*VALUE0* Smuggling Loss *SPACING160* *VALUE1* *SPACING195*/sec"
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_DESC"
+	Value "Dedicate this planet towards greater population and cultural influence at the cost of trade and industry. Choosing this path locks out Industry and Smuggling Specialization."
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_DESC"
+	Value "Dedicate this planet towards trade income and ship building at the cost of culture and population. Choosing this path locks out Social and Smuggling Specialization."
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADESMUGGLER_NAME"
+	Value "Smuggling Specialization"
+StringInfo
+	ID "IDS_INFOCARD_PLANETUPGRADESMUGGLER_DESC"
+	Value "Dedicate this planet towards stealing a cut of the global trade profits but incur heavy tax penalties due to corruption. Choosing this path locks out Social and Industry specialization."
+StringInfo
 	ID "IDS_FRIGATE_STARHOME_NAME"
 	Value "Star Home"
 StringInfo

@@ -17,11 +17,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.017453
-		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 0.523599
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff6b6b64
+		ParticleStartColor ff343432
 		ParticleWidth 50000.000000
 		ParticleHeight 50000.000000
 		MeshName ""
@@ -65,11 +65,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.017453
-		ParticleMaxStartAngularSpeed 1.221730
+		ParticleMaxStartAngularSpeed 0.698132
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
+		ParticleStartColor ff404040
 		ParticleWidth 50000.000000
 		ParticleHeight 50000.000000
 		MeshName ""
@@ -113,11 +113,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.087266
-		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMaxStartAngularSpeed 0.349066
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff464640
+		ParticleStartColor ff232322
 		ParticleWidth 40000.000000
 		ParticleHeight 40000.000000
 		MeshName ""
@@ -161,11 +161,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.017453
-		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 0.349066
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff6b6b64
+		ParticleStartColor ff232322
 		ParticleWidth 50000.000000
 		ParticleHeight 50000.000000
 		MeshName ""
@@ -209,11 +209,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.017453
-		ParticleMaxStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 0.349066
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff6b6b64
+		ParticleStartColor ff232322
 		ParticleWidth 50000.000000
 		ParticleHeight 50000.000000
 		MeshName ""
@@ -257,11 +257,11 @@ ParticleSimulation
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.087266
-		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMaxStartAngularSpeed 0.349066
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
-		ParticleStartColor ff464640
+		ParticleStartColor ff232322
 		ParticleWidth 40000.000000
 		ParticleHeight 40000.000000
 		MeshName ""

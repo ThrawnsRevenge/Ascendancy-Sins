@@ -356,6 +356,40 @@ planetUpgradeDef
 			tradeIncomeModifier 0.600000
 			shipBuildRateModifier 0.677090
 			cultureSpreadRateModifier -0.625001
+	path:Smuggler
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			corruptionPercent 0.250000
+			smugglingPercent 0.015000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			corruptionPercent 0.500000
+			smugglingPercent 0.030000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.045000
 ringsChance 0.050000
 isColonizable TRUE
 planetTypeForResearch "Volcanic"
