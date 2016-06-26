@@ -25,11 +25,11 @@ acceptButton
 	icon "AscendancyIconsMainAccept"
 	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleTextId "IDS_DIALOGWINDOW_TITLETEXT_PLAYERTHEMEPICKERWINDOW"
-themeButtonSize [32 , 32]
+themeButtonSize [50 , 50]
 themeButtonStride [50, 50]
 themeButtonTopLeftOffset [-5000, -5000]
 themeButtonMaxRowCount 10
-colorButtonSize [32 , 32]
+colorButtonSize [50 , 50]
 colorButtonStride [50, 50]
 colorButtonTopLeftOffset [ 0 , 50]
 colorButtonMaxRowCount 10

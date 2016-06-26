@@ -13,7 +13,7 @@ iconSizes
 	solarSystem [50, 50]
 	solarSystemPlanet [10, 10]
 	fleet [40, 40]
-planetPlayerThemeOffsetFromCenter -60
+planetPlayerThemeOffsetFromCenter -70
 planetNameOffsetFromTop -35
 planetNameFontId "PlanetNameMainView"
 meshBarsMinWidth 10
@@ -23,8 +23,8 @@ tacticalGridLineSpacing 2000
 iconOverlayDef
 	homePlanet "AscendancyMainViewPlanetCapitalOverlay"
 	artifactPlanet "AscendancyMainViewPlanetHolocronOverlay"
-	resourceAsteroidMetal "MainViewIconEntityOverlayResourceExtractorMetal"
-	resourceAsteroidCrystal "MainViewIconEntityOverlayResourceExtractorCrystal"
+	resourceAsteroidMetal "Null"
+	resourceAsteroidCrystal "Null"
 	unspentAbilityPointsAndUnassignedSquads ""
 	unspentAbilityPoints ""
 	unassignedSquads ""

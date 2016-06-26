@@ -1,4 +1,4 @@
-﻿TXT
+AscendancyInfoCardPlanetOceanic﻿TXT
 entityType "Planet"
 meshInfoCount 5
 meshInfo
@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_MOUNTAIN"
-	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
-	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
+	hudIcon "AscendancyInfoCardPlanetMountain"
+	smallHudIcon "AscendancyEmpireTreePlanetMountain"
+	infoCardIcon "AscendancyInfoCardPlanetMountain"
 	mainViewIcon "AscendancyMainViewPlanetMountain"
 	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
-	picture "HUDICON_PLANET_MOUNTAIN"
+	picture "AscendancyInfoCardPlanetMountain"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_MOUNTAINOUS"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_MOUNTAIN"
-	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
-	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
+	hudIcon "AscendancyInfoCardPlanetMountain"
+	smallHudIcon "AscendancyEmpireTreePlanetMountain"
+	infoCardIcon "AscendancyInfoCardPlanetMountain"
 	mainViewIcon "AscendancyMainViewPlanetMountain"
 	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
-	picture "HUDICON_PLANET_MOUNTAIN"
+	picture "AscendancyInfoCardPlanetMountain"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_MOUNTAINOUS"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_MOUNTAIN"
-	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
-	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
+	hudIcon "AscendancyInfoCardPlanetMountain"
+	smallHudIcon "AscendancyEmpireTreePlanetMountain"
+	infoCardIcon "AscendancyInfoCardPlanetMountain"
 	mainViewIcon "AscendancyMainViewPlanetMountain"
 	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
-	picture "HUDICON_PLANET_MOUNTAIN"
+	picture "AscendancyInfoCardPlanetMountain"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_MOUNTAINOUS"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_MOUNTAIN"
-	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
-	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
+	hudIcon "AscendancyInfoCardPlanetMountain"
+	smallHudIcon "AscendancyEmpireTreePlanetMountain"
+	infoCardIcon "AscendancyInfoCardPlanetMountain"
 	mainViewIcon "AscendancyMainViewPlanetMountain"
 	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
-	picture "HUDICON_PLANET_MOUNTAIN"
+	picture "AscendancyInfoCardPlanetMountain"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_MOUNTAINOUS"
@@ -69,12 +69,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_MOUNTAIN"
-	smallHudIcon "HUDICONSMALL_PLANET_MOUNTAIN"
-	infoCardIcon "HUDICON_PLANET_MOUNTAIN"
+	hudIcon "AscendancyInfoCardPlanetMountain"
+	smallHudIcon "AscendancyEmpireTreePlanetMountain"
+	infoCardIcon "AscendancyInfoCardPlanetMountain"
 	mainViewIcon "AscendancyMainViewPlanetMountain"
 	undetectedMainViewIcon "AscendancyMainViewPlanetMountain_NoIntelligence"
-	picture "HUDICON_PLANET_MOUNTAIN"
+	picture "AscendancyInfoCardPlanetMountain"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff

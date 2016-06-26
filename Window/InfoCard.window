@@ -25,16 +25,16 @@ textPosition-DefaultStatistic
 	offset 150
 	width 50
 iconOverlayDef
-	homePlanet "HUDIconEntityOverlayHomePlanet"
-	artifactPlanet "HUDIconEntityOverlayArtifact"
-	resourceAsteroidMetal ""
-	resourceAsteroidCrystal ""
+	homePlanet "AscendancyEmpireTreePlanetCapitalOverlay"
+	artifactPlanet "Null"
+	resourceAsteroidMetal "AscendancyIconsMainViewDurasteel"
+	resourceAsteroidCrystal "AscendancyIconsMainViewTibannaGas"
 	unspentAbilityPointsAndUnassignedSquads ""
 	unspentAbilityPoints ""
-	unassignedSquads ""	
+	unassignedSquads ""
 	partiallyStacked ""
 	almostFullyStacked ""
-	fullyStacked ""		
+	fullyStacked ""
 	fleetLeader "HUDIconEntityOverlayFleetLeader"
 stringInfoIconSizeDefault [22, 12]
 stringInfoTextSizeCredits [35, 12]
@@ -43,6 +43,3 @@ maxIndividualPlanetIncomeItems 15
 maxIndividualOrderItems 10
 maxIndividualCapitalShips 16
 nextResearchValueIcon "InfoCardIconNextResearchSubjectLevelValue"
-
-
-

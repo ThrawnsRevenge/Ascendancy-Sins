@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
-	infoCardIcon "HUDICON_PLANET_DESERT"
+	hudIcon "AscendancyInfoCardPlanetDesert"
+	smallHudIcon "AscendancyEmpireTreePlanetDesert"
+	infoCardIcon "AscendancyInfoCardPlanetDesert"
 	mainViewIcon "AscendancyMainViewPlanetDesert"
 	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
-	picture "HUDICON_PLANET_DESERT"
+	picture "AscendancyInfoCardPlanetDesert"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_DESERT"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
-	infoCardIcon "HUDICON_PLANET_DESERT"
+	hudIcon "AscendancyInfoCardPlanetDesert"
+	smallHudIcon "AscendancyEmpireTreePlanetDesert"
+	infoCardIcon "AscendancyInfoCardPlanetDesert"
 	mainViewIcon "AscendancyMainViewPlanetDesert"
 	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
-	picture "HUDICON_PLANET_DESERT"
+	picture "AscendancyInfoCardPlanetDesert"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_DESERT"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT"
-	infoCardIcon "HUDICON_PLANET_DESERT"
+	hudIcon "AscendancyInfoCardPlanetDesert"
+	smallHudIcon "AscendancyEmpireTreePlanetDesert"
+	infoCardIcon "AscendancyInfoCardPlanetDesert"
 	mainViewIcon "AscendancyMainViewPlanetDesert"
 	undetectedMainViewIcon "AscendancyMainViewPlanetDesert_NoIntelligence"
-	picture "HUDICON_PLANET_DESERT"
+	picture "AscendancyInfoCardPlanetDesert"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7fb87a10

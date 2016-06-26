@@ -10,12 +10,12 @@ Icon
 	verticalStride 40
 IconOverlay
 	textureName "AscendancyThemes"
-	startTopLeft [ 420 , 0 ]
-	width 40
-	height 40
+	startTopLeft [ 396 , 95 ]
+	width 16
+	height 16
 	rowItemCount 1
-	horizontalStride 40
-	verticalStride 40
+	horizontalStride 16
+	verticalStride 16
 Picture
 	textureName "AscendancyThemes"
 	startTopLeft [ 95 , 0 ]

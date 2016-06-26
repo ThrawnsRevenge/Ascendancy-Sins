@@ -1,16 +1,16 @@
 TXT
-offsetFromRight [-165, 220]
-highResOffsetFromRight [-165, 180]
+offsetFromRight [-200, 220]
+highResOffsetFromRight [-200, 180]
 rowScrollBarUnitHeight 32
 scrollBarOffsetFromLeft 138
 scrollBarOffsetFromTop 12
 scrollBarWidth 15
 iconOverlayCursorOver "HUDIconEntityUnderlayUnderCursorFrame"
-diplomacyVictoryIcon "HUDIconPopulation"
-researchVictoryIcon "HUDIconResearch"
-occupationVictoryIcon "BottomEntityInfoIconPlanetAllegiance"
-flagshipVictoryIcon "HUDIconFlagship"
-homeworldVictoryIcon "HUDIconCapital"
+diplomacyVictoryIcon "AscendancyIconsVictoryOptionsToggleDiplomacyOff"
+researchVictoryIcon "AscendancyIconsVictoryOptionsToggleResearchOff"
+occupationVictoryIcon "AscendancyIconsVictoryOptionsToggleConquestOff"
+flagshipVictoryIcon "AscendancyIconsVictoryOptionsToggleFlagshipOff"
+homeworldVictoryIcon "AscendancyIconsVictoryOptionsToggleCapitalOff"
 toggleButtonIconOn "EmpireWindowToggleChildrenVisibleOn"
 toggleButtonIconOff "EmpireWindowToggleChildrenVisibleOff"
 toggleButtonArea [0,10,20,20]
@@ -20,4 +20,4 @@ playerIconArea [50,4,32,32]
 entityArea [90,4,32,32]
 timeArea [90,10,60,32]
 percentageArea [90,10,32,32]
-textFontID "PlanetNameEmpireWindow"
+textFontID "Label"

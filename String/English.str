@@ -7496,7 +7496,7 @@ StringInfo
 	Value "?"
 StringInfo
 	ID "IDS_UNDETECTED_PLANET_NAME"
-	Value "an undiscovered world"
+	Value "Unscouted"
 StringInfo
 	ID "IDS_NO_PLAYEROWNER_NAME"
 	Value "None"
@@ -23018,7 +23018,7 @@ StringInfo
 	Value "No mission is currently requested."
 StringInfo
 	ID "IDSPlayerScreenInfoCardGiveResourcesButtonNameFormat"
-	Value "Give %s"
+	Value "%s"
 StringInfo
 	ID "IDSPlayerScreenInfoCardGiveResourcesButtonNameDesc"
 	Value "This will permanently give resources to the other player. The resources given will be taxed by the receiver's fleet upkeep level."

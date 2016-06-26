@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ARBOREAL"
-	smallHudIcon "HUDICONSMALL_PLANET_ARBOREAL"
-	infoCardIcon "HUDICON_PLANET_ARBOREAL"
+	hudIcon "AscendancyInfoCardPlanetArboreal"
+		smallHudIcon "AscendancyEmpireTreePlanetArboreal"
+	infoCardIcon "AscendancyInfoCardPlanetArboreal"
 	mainViewIcon "AscendancyMainViewPlanetArboreal"
 	undetectedMainViewIcon "AscendancyMainViewPlanetArboreal_NoIntelligence"
-	picture "HUDICON_PLANET_ARBOREAL"
+	picture "AscendancyInfoCardPlanetArboreal"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ARBOREAL"
-	smallHudIcon "HUDICONSMALL_PLANET_ARBOREAL"
-	infoCardIcon "HUDICON_PLANET_ARBOREAL"
+	hudIcon "AscendancyInfoCardPlanetArboreal"
+	smallHudIcon "AscendancyEmpireTreePlanetArboreal"
+	infoCardIcon "AscendancyInfoCardPlanetArboreal"
 	mainViewIcon "AscendancyMainViewPlanetArboreal"
 	undetectedMainViewIcon "AscendancyMainViewPlanetArboreal_NoIntelligence"
-	picture "HUDICON_PLANET_ARBOREAL"
+	picture "AscendancyInfoCardPlanetArboreal"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ARBOREAL"
-	smallHudIcon "HUDICONSMALL_PLANET_ARBOREAL"
-	infoCardIcon "HUDICON_PLANET_ARBOREAL"
+	hudIcon "AscendancyInfoCardPlanetArboreal"
+	smallHudIcon "AscendancyEmpireTreePlanetArboreal"
+	infoCardIcon "AscendancyInfoCardPlanetArboreal"
 	mainViewIcon "AscendancyMainViewPlanetArboreal"
 	undetectedMainViewIcon "AscendancyMainViewPlanetArboreal_NoIntelligence"
-	picture "HUDICON_PLANET_ARBOREAL"
+	picture "AscendancyInfoCardPlanetArboreal"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ARBOREAL"
-	smallHudIcon "HUDICONSMALL_PLANET_ARBOREAL"
-	infoCardIcon "HUDICON_PLANET_ARBOREAL"
+	hudIcon "AscendancyInfoCardPlanetArboreal"
+	smallHudIcon "AscendancyEmpireTreePlanetArboreal"
+	infoCardIcon "AscendancyInfoCardPlanetArboreal"
 	mainViewIcon "AscendancyMainViewPlanetArboreal"
 	undetectedMainViewIcon "AscendancyMainViewPlanetArboreal_NoIntelligence"
-	picture "HUDICON_PLANET_ARBOREAL"
+	picture "AscendancyInfoCardPlanetArboreal"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ARBOREAL"
@@ -69,12 +69,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ARBOREAL"
-	smallHudIcon "HUDICONSMALL_PLANET_ARBOREAL"
-	infoCardIcon "HUDICON_PLANET_ARBOREAL"
+	hudIcon "AscendancyInfoCardPlanetArboreal"
+	smallHudIcon "AscendancyEmpireTreePlanetArboreal"
+	infoCardIcon "AscendancyInfoCardPlanetArboreal"
 	mainViewIcon "AscendancyMainViewPlanetArboreal"
 	undetectedMainViewIcon "AscendancyMainViewPlanetArboreal_NoIntelligence"
-	picture "HUDICON_PLANET_ARBOREAL"
+	picture "AscendancyInfoCardPlanetArboreal"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff

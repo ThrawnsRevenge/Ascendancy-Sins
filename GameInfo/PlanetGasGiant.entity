@@ -9,12 +9,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GAS_GIANT"
-	smallHudIcon "HUDICONSMALL_PLANET_GAS_GIANT"
-	infoCardIcon "HUDICON_PLANET_GAS_GIANT"
+	hudIcon "AscendancyInfoCardPlanetGasGiant"
+	smallHudIcon "AscendancyEmpireTreePlanetGasGiant"
+	infoCardIcon "AscendancyInfoCardPlanetGasGiant"
 	mainViewIcon "AscendancyMainViewPlanetGasGiant"
 	undetectedMainViewIcon "AscendancyMainViewPlanetGasGiant_NoIntelligence"
-	picture "HUDICON_PLANET_GAS_GIANT"
+	picture "AscendancyInfoCardPlanetGasGiant"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GAS_GIANT"
-	smallHudIcon "HUDICONSMALL_PLANET_GAS_GIANT"
-	infoCardIcon "HUDICON_PLANET_GAS_GIANT"
+	hudIcon "AscendancyInfoCardPlanetGasGiant"
+	smallHudIcon "AscendancyEmpireTreePlanetGasGiant"
+	infoCardIcon "AscendancyInfoCardPlanetGasGiant"
 	mainViewIcon "AscendancyMainViewPlanetGasGiant"
 	undetectedMainViewIcon "AscendancyMainViewPlanetGasGiant_NoIntelligence"
-	picture "HUDICON_PLANET_GAS_GIANT"
+	picture "AscendancyInfoCardPlanetGasGiant"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GAS_GIANT"
-	smallHudIcon "HUDICONSMALL_PLANET_GAS_GIANT"
-	infoCardIcon "HUDICON_PLANET_GAS_GIANT"
+	hudIcon "AscendancyInfoCardPlanetGasGiant"
+	smallHudIcon "AscendancyEmpireTreePlanetGasGiant"
+	infoCardIcon "AscendancyInfoCardPlanetGasGiant"
 	mainViewIcon "AscendancyMainViewPlanetGasGiant"
 	undetectedMainViewIcon "AscendancyMainViewPlanetGasGiant_NoIntelligence"
-	picture "HUDICON_PLANET_GAS_GIANT"
+	picture "AscendancyInfoCardPlanetGasGiant"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GAS_GIANT"
-	smallHudIcon "HUDICONSMALL_PLANET_GAS_GIANT"
-	infoCardIcon "HUDICON_PLANET_GAS_GIANT"
+	hudIcon "AscendancyInfoCardPlanetGasGiant"
+	smallHudIcon "AscendancyEmpireTreePlanetGasGiant"
+	infoCardIcon "AscendancyInfoCardPlanetGasGiant"
 	mainViewIcon "AscendancyMainViewPlanetGasGiant"
 	undetectedMainViewIcon "AscendancyMainViewPlanetGasGiant_NoIntelligence"
-	picture "HUDICON_PLANET_GAS_GIANT"
+	picture "AscendancyInfoCardPlanetGasGiant"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7fbd9626

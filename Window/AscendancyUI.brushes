@@ -1,6 +1,6 @@
-TXT 
+TXT
 onlyLoadOnDemand FALSE
-brushCount 15
+brushCount 23
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
@@ -171,3 +171,53 @@ brush
   content "Simple"
   fileName "AscendancyUI"
   pixelBox [ 0 , 323 , 550 , 45 ]
+brush
+  name "AscendancyListBox"
+	content "Margins"
+	stretchMargins
+		left 12
+		right 12
+		top 12
+		bottom 12
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 3
+	fileName "AscendancyUI"
+	pixelBox [ 421 , 253 , 99 , 64 ]
+brush
+  name "AscendancyListSelectedItem"
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 550 , 296 , 255 , 27 ]
+brush
+  name "AscendancyPlayerScreenPortrait"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 0 , 368 , 200 , 200 ]
+brush
+  name "AscendancyPlayerScreenTradePanel"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 200 , 368 , 470 , 50 ]
+brush
+  name "AscendancyPlayerScreenPactNoAgreement"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 200 , 418 , 42 , 32 ]
+brush
+  name "AscendancyPlayerScreenPactWeAgree"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 200 , 450 , 42 , 32 ]
+brush
+  name "AscendancyPlayerScreenPactTheyAgree"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 200 , 482 , 42 , 32 ]
+brush
+  name "AscendancyPlayerScreenPactBothAgree"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 200 , 514 , 42 , 32 ]

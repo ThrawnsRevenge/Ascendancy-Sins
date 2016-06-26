@@ -3,14 +3,14 @@ onlyLoadOnDemand FALSE
 brushCount 84
 brush
 	name "MAINVIEWICON_RESOURCEASTEROIDMETAL"
-	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 969 , 902 , 29 , 29 ]
+  content "Simple"
+  fileName "AscendancyIconsMisc"
+  pixelBox [ 0 , 0 , 40 , 40 ]
 brush
 	name "MAINVIEWICON_RESOURCEASTEROIDCRYSTAL"
-	content "Simple"
-	fileName "HudIcon_Planets"
-	pixelBox [ 969 , 872 , 29 , 29 ]
+  content "Simple"
+  fileName "AscendancyIconsMisc"
+  pixelBox [ 40 , 0 , 40 , 40 ]
 brush
 	name "MainViewIconEntityOverlayHomePlanet"
 	content "Simple"

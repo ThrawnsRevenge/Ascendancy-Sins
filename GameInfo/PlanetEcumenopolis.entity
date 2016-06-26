@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_URBAN"
-	smallHudIcon "HUDICONSMALL_PLANET_URBAN"
-	infoCardIcon "HUDICON_PLANET_URBAN"
+	hudIcon "AscendancyInfoCardPlanetUrban"
+	smallHudIcon "AscendancyEmpireTreePlanetUrban"
+	infoCardIcon "AscendancyInfoCardPlanetUrban"
 	mainViewIcon "AscendancyMainViewPlanetUrban"
 	undetectedMainViewIcon "AscendancyMainViewPlanetUrban_NoIntelligence"
-	picture "HUDICON_PLANET_URBAN"
+	picture "AscendancyInfoCardPlanetUrban"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8fa69dec

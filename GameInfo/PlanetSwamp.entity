@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_SWAMP"
-	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
-	infoCardIcon "INFOCARDICON_PLANET_SWAMP"
+	hudIcon "AscendancyInfoCardPlanetSwamp"
+	smallHudIcon "AscendancyEmpireTreePlanetSwamp"
+	infoCardIcon "AscendancyInfoCardPlanetSwamp"
 	mainViewIcon "AscendancyMainViewPlanetSwamp"
 	undetectedMainViewIcon "AscendancyMainViewPlanetSwamp_NoIntelligence"
-	picture "HUDICON_PLANET_SWAMP"
+	picture "AscendancyInfoCardPlanetSwamp"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_SWAMP"
-	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
-	infoCardIcon "INFOCARDICON_PLANET_SWAMP"
+	hudIcon "AscendancyInfoCardPlanetSwamp"
+	smallHudIcon "AscendancyEmpireTreePlanetSwamp"
+	infoCardIcon "AscendancyInfoCardPlanetSwamp"
 	mainViewIcon "AscendancyMainViewPlanetSwamp"
 	undetectedMainViewIcon "AscendancyMainViewPlanetSwamp_NoIntelligence"
-	picture "HUDICON_PLANET_SWAMP"
+	picture "AscendancyInfoCardPlanetSwamp"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_SWAMP"
-	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
-	infoCardIcon "INFOCARDICON_PLANET_SWAMP"
+	hudIcon "AscendancyInfoCardPlanetSwamp"
+	smallHudIcon "AscendancyEmpireTreePlanetSwamp"
+	infoCardIcon "AscendancyInfoCardPlanetSwamp"
 	mainViewIcon "AscendancyMainViewPlanetSwamp"
 	undetectedMainViewIcon "AscendancyMainViewPlanetSwamp_NoIntelligence"
-	picture "HUDICON_PLANET_SWAMP"
+	picture "AscendancyInfoCardPlanetSwamp"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_SWAMP"
-	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
-	infoCardIcon "INFOCARDICON_PLANET_SWAMP"
+	hudIcon "AscendancyInfoCardPlanetSwamp"
+	smallHudIcon "AscendancyEmpireTreePlanetSwamp"
+	infoCardIcon "AscendancyInfoCardPlanetSwamp"
 	mainViewIcon "AscendancyMainViewPlanetSwamp"
 	undetectedMainViewIcon "AscendancyMainViewPlanetSwamp_NoIntelligence"
-	picture "HUDICON_PLANET_SWAMP"
+	picture "AscendancyInfoCardPlanetSwamp"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_SWAMP"
@@ -69,12 +69,12 @@ meshInfo
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_SWAMP"
-	smallHudIcon "HUDICONSMALL_PLANET_SWAMP"
-	infoCardIcon "INFOCARDICON_PLANET_SWAMP"
+	hudIcon "AscendancyInfoCardPlanetSwamp"
+	smallHudIcon "AscendancyEmpireTreePlanetSwamp"
+	infoCardIcon "AscendancyInfoCardPlanetSwamp"
 	mainViewIcon "AscendancyMainViewPlanetSwamp"
 	undetectedMainViewIcon "AscendancyMainViewPlanetSwamp_NoIntelligence"
-	picture "HUDICON_PLANET_SWAMP"
+	picture "AscendancyInfoCardPlanetSwamp"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff

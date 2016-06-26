@@ -18,9 +18,9 @@ SmallScreenPicture
 	verticalStride 0
 BottomBarPicture
 	textureName "AscendancyPortraits"
-	startTopLeft [ 570 , 0 ]
-	width 190
-	height 190
+	startTopLeft [ 560 , 380 ]
+	width 60
+	height 60
 	rowItemCount 1
 	horizontalStride 0
 	verticalStride 0

@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC"
-	infoCardIcon "HUDICON_PLANET_VOLCANIC"
+	hudIcon "AscendancyInfoCardPlanetVolcanic"
+	smallHudIcon "AscendancyEmpireTreePlanetVolcanic"
+	infoCardIcon "AscendancyInfoCardPlanetVolcanic"
 	mainViewIcon "AscendancyMainViewPlanetVolcanic"
 	undetectedMainViewIcon "AscendancyMainViewPlanetVolcanic_NoIntelligence"
-	picture "HUDICON_PLANET_VOLCANIC"
+	picture "AscendancyInfoCardPlanetVolcanic"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC"
-	infoCardIcon "HUDICON_PLANET_VOLCANIC"
+	hudIcon "AscendancyInfoCardPlanetVolcanic"
+	smallHudIcon "AscendancyEmpireTreePlanetVolcanic"
+	infoCardIcon "AscendancyInfoCardPlanetVolcanic"
 	mainViewIcon "AscendancyMainViewPlanetVolcanic"
 	undetectedMainViewIcon "AscendancyMainViewPlanetVolcanic_NoIntelligence"
-	picture "HUDICON_PLANET_VOLCANIC"
+	picture "AscendancyInfoCardPlanetVolcanic"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC"
-	infoCardIcon "HUDICON_PLANET_VOLCANIC"
+	hudIcon "AscendancyInfoCardPlanetVolcanic"
+	smallHudIcon "AscendancyEmpireTreePlanetVolcanic"
+	infoCardIcon "AscendancyInfoCardPlanetVolcanic"
 	mainViewIcon "AscendancyMainViewPlanetVolcanic"
 	undetectedMainViewIcon "AscendancyMainViewPlanetVolcanic_NoIntelligence"
-	picture "HUDICON_PLANET_VOLCANIC"
+	picture "AscendancyInfoCardPlanetVolcanic"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC"
-	infoCardIcon "HUDICON_PLANET_VOLCANIC"
+	hudIcon "AscendancyInfoCardPlanetVolcanic"
+	smallHudIcon "AscendancyEmpireTreePlanetVolcanic"
+	infoCardIcon "AscendancyInfoCardPlanetVolcanic"
 	mainViewIcon "AscendancyMainViewPlanetVolcanic"
 	undetectedMainViewIcon "AscendancyMainViewPlanetVolcanic_NoIntelligence"
-	picture "HUDICON_PLANET_VOLCANIC"
+	picture "AscendancyInfoCardPlanetVolcanic"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f6b1e00

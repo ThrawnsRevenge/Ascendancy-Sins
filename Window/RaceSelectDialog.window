@@ -1,5 +1,5 @@
 TXT
-backdropDimPercentage 0.1
+backdropDimPercentage 0.9
 backdropBrush "Null"
 titleOverlayBrush ""
 size [ 1024 , 768 ]
@@ -8,7 +8,7 @@ titleRefArea [90, 40, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 numFactionWindows 4
 	factionSelectWindowDef
-		backdropBrush "FactionSelectNewRepublic"
+		backdropBrush "AscendancyBackdropFactionSelectNR"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [0,0]
@@ -73,37 +73,37 @@ numFactionWindows 4
 			rightFactionTechFive "NewRepResearch_Global_ShieldsMitigation"
 			rightFactionTechSix "NewRepResearch_AbilityUnlock_BoardingParty"
 		selectLeftButton
-			area [474, 530, 216 , 35]
-			underlayBrush "ScreenButtonUnderlayLargeShort"
+			area [510, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectSelectNR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
-			buttonTextArea [ 0 , 0 , 216 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
-			buttonTextArea [162,-20,50,100]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRandomButton
-			area [340, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [440, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectRandomNR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		previousRaceButton
-			area [207, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [370, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectPreviousNR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		nextRaceButton
-			area [691, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [580, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectNextNR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 	factionSelectWindowDef
-		backdropBrush "FactionSelectRemnant"
+		backdropBrush "AscendancyBackdropFactionSelectIR"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [0,0]
@@ -168,37 +168,37 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_Global_Inexorable"
 			rightFactionTechSix "RemnantResearch_AbilityUnlock_HVGun"
 		selectLeftButton
-			area [474, 530, 216 , 35]
-			underlayBrush "ScreenButtonUnderlayLargeShort"
+			area [510, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectSelectIR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
-			buttonTextArea [ 0 , 0 , 216 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTREMNANT"
-			buttonTextArea [162,-20,50,100]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRandomButton
-			area [340, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [440, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectRandomIR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		previousRaceButton
-			area [207, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [370, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectPreviousIR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		nextRaceButton
-			area [691, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [580, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectNextIR"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 	factionSelectWindowDef
-		backdropBrush "FactionSelectEotH"
+		backdropBrush "AscendancyBackdropFactionSelectEOTH"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [-5000,-5000]
@@ -263,37 +263,37 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_AbilityUnlock_HVGun"
 			rightFactionTechSix "EotHResearch_Global_Engines"
 		selectLeftButton
-			area [474, 530, 216 , 35]
-			underlayBrush "ScreenButtonUnderlayLargeShort"
+			area [510, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectSelectEOTH"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
-			buttonTextArea [ 0 , 0 , 216 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTEOTH"
-			buttonTextArea [162,-20,50,100]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRandomButton
-			area [340, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [440, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectRandomEOTH"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		previousRaceButton
-			area [207, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [370, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectPreviousEOTH"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		nextRaceButton
-			area [691, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [580, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectNextEOTH"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 	factionSelectWindowDef
-		backdropBrush "FactionSelectPA"
+		backdropBrush "AscendancyBackdropFactionSelectPA"
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "Null"
 		smallFactionPortraitOffset [-5000,-5000]
@@ -310,7 +310,7 @@ numFactionWindows 4
 		raceDescriptionID "IDS_EMPTY"
 		raceDescriptionArea [420,27,190,190]
 		leftPlayerNameArea [-5000,370,0,0]
-		rightPlayerNameArea [-5000, -5000 , 0 , 0 
+		rightPlayerNameArea [-5000, -5000 , 0 , 0
 		playerDescriptionFont "InfoCardStandard"
 		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
 		leftPlayerDescriptionArea [555,350,400,500]
@@ -358,33 +358,32 @@ numFactionWindows 4
 			rightFactionTechFive "RemnantResearch_AbilityUnlock_HVGun"
 			rightFactionTechSix "AlignmentResearch_Global_Reach"
 		selectLeftButton
-			area [474, 530, 216 , 35]
-			underlayBrush "ScreenButtonUnderlayLargeShort"
+			area [510, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectSelectPA"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTALIGNMENT"
-			buttonTextArea [ 0 , 0 , 216 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRightButton
 			area [-5000 , -5000 , 230 , 105]
 			underlayBrush "Null"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTNEWREP"
-			buttonTextArea [162,-20,50,100]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		selectRandomButton
-			area [340, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [440, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectRandomPA"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		previousRaceButton
-			area [207, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [370, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectPreviousPA"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]
 		nextRaceButton
-			area [691, 530, 132 , 35]
-			underlayBrush "ScreenButtonUnderlayMedium"
+			area [580, 475, 75 , 75]
+			underlayBrush "AscendancyButtonsFactionSelectNextPA"
 			buttonTextFont "ButtonLabel"
-			buttonTextID "IDS_RACESELECTDIALOG_NEXTRACE"
-			buttonTextArea [ 0 , 0 , 132 , 35 ]
-	
+			buttonTextID "NO_TEXT"
+			buttonTextArea [ 0 , 0 , 0 , 0 ]

@@ -11,7 +11,7 @@ resetButton
 	icon "AscendancyIconsMainReset"
 	text "IDSOptionsScreenUserInterfaceOptionsReset"
 toggleScreenShotModeButton
-	area [0, 472, 220, 75]
+	area [0, 492, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 35
@@ -22,77 +22,77 @@ toggleScreenShotModeButton
 	onText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOn"
 	offText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOff"
 showInfoCardsCheckBox
-	area [0, 280, 220, 30]
+	area [0, 300, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowInfoCards"
 showGavWellCheckBox
-	area [0, 316, 220, 30]
+	area [0, 336, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowGavWell"
 showConnectionsCheckBox
-	area [0, 352, 220, 30]
+	area [0, 372, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowConnections"
 showNamesCheckBox
-	area [0, 172, 220, 30]
+	area [0, 192, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowNames"
 showTeamColorsCheckBox
-	area [0, 100, 220, 30]
+	area [0, 120, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowTeamColors"
 showMainViewIconsCheckBox
-	area [0, 388, 220, 30]
+	area [0, 408, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowMainViewIcons"
 showMeshPlayerOwnerIconAlwaysCheckBox
-	area [0, 424, 220, 30]
+	area [0, 444, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowMeshPlayerOwnerIconAlways"
 showEmpireWindowAlliesCheckBox
-	area [264, 100, 220, 30]
+	area [264, 120, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowAllies"
 showEmpireWindowBackdropCheckBox
-	area [264, 316, 220, 30]
+	area [264, 336, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowBackdrop"
 showEmpireWindowFleetsCheckBox
-	area [264, 280, 220, 30]
+	area [264, 300, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowFleets"
 showEmpireWindowHyperspacersCheckBox
-	area [264, 64, 220, 30]
+	area [264, 84, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowHyperspacers"
 alwaysShowEmpireWindowFleetsCheckBox
-	area [264, 244, 220, 30]
+	area [264, 264, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAlwaysShowEmpireWindowFleets"
 autoPinPlanetsCheckBox
-	area [264, 136, 220, 30]
+	area [264, 156, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinPlanets"
 autoPinCapitalShipsCheckBox
-	area [264, 172, 220, 30]
+	area [264, 192, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinCapitalShips"
 autoPinFrigatesCheckBox
-	area [264, 208, 220, 30]
+	area [264, 228, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAutoPinFrigates"
 showCargoShipMainViewIconsCheckBox
-	area [0, 244, 220, 30]
+	area [0, 264, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowCargoShipMainViewIcons"
 showTacticalGridCheckBox
-	area [0, 208, 220, 30]
+	area [0, 228, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowTacticalGrid"
 alwaysAutoPlaceExtractorsCheckBox
-	area [0, 64, 220, 30]
+	area [0, 84, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsAlwaysAutoPlaceExtractors"
 invertCameraHorizontalRotationCheckBox
-	area [264, 460, 220, 30]
+	area [264, 480, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraHorizontalRotation"
 invertCameraVerticalRotationCheckBox
-	area [264, 496, 220, 30]
+	area [264, 516, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraVerticalRotation"
 isCameraZoomToCursorCheckBox
-	area [264, 352, 220, 30]
+	area [264, 372, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsIsCameraZoomToCursor"
 isCameraFreeRotateEnabledCheckBox
-	area [264, 388, 220, 30]
+	area [264, 408, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsIsCameraFreeRotateEnabled"
 enableAutoStrafeCheckBox
-	area [264, 424, 220, 30]
+	area [264, 444, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsEnableAutoStrafeCheckBox"
 showQuickNPCWindowCheckBox
-	area [264, 532, 220, 30]
+	area [264, 552, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowQuickNPCWindowCheckBox"
 zoomSensitivityScrollBar
-	area [10, 580, 455, 30]
+	area [10, 600, 455, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsZoomSensitivity"

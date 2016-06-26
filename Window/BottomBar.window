@@ -16,31 +16,31 @@ pictureWindow
 openEntityDetailsButton
 	area [663, 18, 50 , 14]
 	onBrush "BottomWindowButtonOpenRenameWindow"
-	offBrush "BottomWindowButtonOpenRenameWindow"	
+	offBrush "BottomWindowButtonOpenRenameWindow"
 toggleScuttleButton
 	area [311, 59, 50, 35]
 	onBrush "BottomWindowButtonToggleScuttleOn"
-	offBrush "BottomWindowButtonToggleScuttleOff"	
+	offBrush "BottomWindowButtonToggleScuttleOff"
 pingButton
 	area [663, 59, 50, 35]
 	onBrush "BottomWindowButtonPing"
-	offBrush "BottomWindowButtonPing"	
+	offBrush "BottomWindowButtonPing"
 increaseGameSpeedButton
 	area [690, 36, 23 , 17]
 	onBrush "BottomWindowButtonIncreaseGameSpeed"
-	offBrush "BottomWindowButtonIncreaseGameSpeed_Off"	
+	offBrush "BottomWindowButtonIncreaseGameSpeed_Off"
 decreaseGameSpeedButton
 	area [663, 36, 23 , 17]
 	onBrush "BottomWindowButtonDecreaseGameSpeed"
-	offBrush "BottomWindowButtonDecreaseGameSpeed_Off"			
+	offBrush "BottomWindowButtonDecreaseGameSpeed_Off"
 toggleIsAutoPlaceModuleActiveButton
 	area [311, 18, 50, 35]
 	onBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOn"
-	offBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"		
+	offBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"
 entityInfoWindow
-	area [396, -15, 233, 26]	
+	area [396, -15, 233, 26]
 	iconArea [5, 0, 24, 24]
-	textArea [32, 4, 40, 24]
+	textArea [32, 6, 40, 24]
 	ShipHull [0, 1, 100, 30]
 	ShipShield [80, 1, 100, 30]
 	ShipAntimatter [160, 1, 100, 30]

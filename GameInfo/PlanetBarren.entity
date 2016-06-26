@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_BARREN"
-	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
-	infoCardIcon "HUDICON_PLANET_BARREN"
+	hudIcon "AscendancyInfoCardPlanetBarren"
+	smallHudIcon "AscendancyEmpireTreePlanetBarren"
+	infoCardIcon "AscendancyInfoCardPlanetBarren"
 	mainViewIcon "AscendancyMainViewPlanetBarren"
 	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
-	picture "HUDICON_PLANET_BARREN"
+	picture "AscendancyInfoCardPlanetBarren"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_BARREN"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_BARREN"
-	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
-	infoCardIcon "HUDICON_PLANET_BARREN"
+	hudIcon "AscendancyInfoCardPlanetBarren"
+	smallHudIcon "AscendancyEmpireTreePlanetBarren"
+	infoCardIcon "AscendancyInfoCardPlanetBarren"
 	mainViewIcon "AscendancyMainViewPlanetBarren"
 	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
-	picture "HUDICON_PLANET_BARREN"
+	picture "AscendancyInfoCardPlanetBarren"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_BARREN"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_BARREN"
-	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
-	infoCardIcon "HUDICON_PLANET_BARREN"
+	hudIcon "AscendancyInfoCardPlanetBarren"
+	smallHudIcon "AscendancyEmpireTreePlanetBarren"
+	infoCardIcon "AscendancyInfoCardPlanetBarren"
 	mainViewIcon "AscendancyMainViewPlanetBarren"
 	undetectedMainViewIcon "AscendancyMainViewPlanetBarren_NoIntelligence"
-	picture "HUDICON_PLANET_BARREN"
+	picture "AscendancyInfoCardPlanetBarren"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7fb87a10

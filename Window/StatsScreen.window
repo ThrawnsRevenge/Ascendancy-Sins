@@ -1,41 +1,41 @@
 TXT
-tabWindow
-	topLeftOffset [0, -20]
-	buttonTopLeftOffset [33, 97]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	tabWindow
+	topLeftOffset [0, 50]
+	buttonTopLeftOffset [ 55 , 90]
+	buttonSize [ 50 , 50 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSStatsScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 40, 190, 40]
-	titleOverlayArea [21, 33, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
+	titleOverlayArea [12, 4, 208 , 59]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropArea [0, 0, 210, 749]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 808]
-	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
+	contentArea [260, 0, 714, 768]
+	buttonsBackdrop "Null"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuInGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameActive"
+		overlay "Null"
 	closeButton
-		area [33, 724, 170 , 46]
+		area [55, 682, 50 , 50]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"					
-		icon "ScreenBackButton"
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
+		icon "AscendancyIconsMainCancel"
 		text "IDSStatsScreenCloseButton"
 statsContentWindowSharedDef
 	gameStatTypeListArea [50, 516, 690, 228]
@@ -65,25 +65,25 @@ metalStatsContentWindow
 	tabButtonText "IDSStatsScreenTabButtonMetal"
 crystalStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonCrystal"
-	tabButtonText "IDSStatsScreenTabButtonCrystal"	
+	tabButtonText "IDSStatsScreenTabButtonCrystal"
 shipsStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonShips"
-	tabButtonText "IDSStatsScreenTabButtonShips"	
+	tabButtonText "IDSStatsScreenTabButtonShips"
 capitalShipsStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonCapitalShips"
 	tabButtonText "IDSStatsScreenTabButtonCapitalShips"
 titansStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonTitans"
-	tabButtonText "IDSStatsScreenTabButtonTitans"	
+	tabButtonText "IDSStatsScreenTabButtonTitans"
 modulesStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonModules"
-	tabButtonText "IDSStatsScreenTabButtonModules"	
+	tabButtonText "IDSStatsScreenTabButtonModules"
 planetsStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonPlanets"
-	tabButtonText "IDSStatsScreenTabButtonPlanets"	
+	tabButtonText "IDSStatsScreenTabButtonPlanets"
 combatStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonCombat"
-	tabButtonText "IDSStatsScreenTabButtonCombat"	
+	tabButtonText "IDSStatsScreenTabButtonCombat"
 empireStatsContentWindow
 	tabButtonIcon "StatsScreenTabButtonEmpire"
-	tabButtonText "IDSStatsScreenTabButtonEmpire"	
+	tabButtonText "IDSStatsScreenTabButtonEmpire"

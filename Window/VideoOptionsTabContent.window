@@ -8,7 +8,7 @@ anisotropyLevelListArea [470, 320, 220, 186]
 resetButton
 	area [0, 650, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 7
+	iconOffsetFromLeft 9
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"

@@ -9,12 +9,12 @@ meshInfo
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE"
-	infoCardIcon "HUDICON_PLANET_ICE"
+	hudIcon "AscendancyInfoCardPlanetIce"
+	smallHudIcon "AscendancyEmpireTreePlanetIce"
+	infoCardIcon "AscendancyInfoCardPlanetIce"
 	mainViewIcon "AscendancyMainViewPlanetIce"
 	undetectedMainViewIcon "AscendancyMainViewPlanetIce_NoIntelligence"
-	picture "HUDICON_PLANET_ICE"
+	picture "AscendancyInfoCardPlanetIce"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE"
-	infoCardIcon "HUDICON_PLANET_ICE"
+	hudIcon "AscendancyInfoCardPlanetIce"
+	smallHudIcon "AscendancyEmpireTreePlanetIce"
+	infoCardIcon "AscendancyInfoCardPlanetIce"
 	mainViewIcon "AscendancyMainViewPlanetIce"
 	undetectedMainViewIcon "AscendancyMainViewPlanetIce_NoIntelligence"
-	picture "HUDICON_PLANET_ICE"
+	picture "AscendancyInfoCardPlanetIce"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE"
-	infoCardIcon "HUDICON_PLANET_ICE"
+	hudIcon "AscendancyInfoCardPlanetIce"
+	smallHudIcon "AscendancyEmpireTreePlanetIce"
+	infoCardIcon "AscendancyInfoCardPlanetIce"
 	mainViewIcon "AscendancyMainViewPlanetIce"
 	undetectedMainViewIcon "AscendancyMainViewPlanetIce_NoIntelligence"
-	picture "HUDICON_PLANET_ICE"
+	picture "AscendancyInfoCardPlanetIce"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ICE"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE"
-	infoCardIcon "HUDICON_PLANET_ICE"
+	hudIcon "AscendancyInfoCardPlanetIce"
+	smallHudIcon "AscendancyEmpireTreePlanetIce"
+	infoCardIcon "AscendancyInfoCardPlanetIce"
 	mainViewIcon "AscendancyMainViewPlanetIce"
 	undetectedMainViewIcon "AscendancyMainViewPlanetIce_NoIntelligence"
-	picture "HUDICON_PLANET_ICE"
+	picture "AscendancyInfoCardPlanetIce"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7f52afe1

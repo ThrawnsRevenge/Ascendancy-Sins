@@ -35,14 +35,14 @@ openNPCButton
 	area [0, 0, 0, 0]
 	onBrush "Null"
 	offBrush "Null"
-toggleAttachedToEntityButton	
-	area [29, 29, 23, 16]
+toggleAttachedToEntityButton
+	area [29, 30, 23, 16]
 	onBrush "BottomWindowButtonToggleZoomToCursorOn"
-	offBrush "BottomWindowButtonToggleZoomToCursorOff"	
+	offBrush "BottomWindowButtonToggleZoomToCursorOff"
 toggleScreenShotModeButton
-	area [3, 29, 23 , 16]
+	area [3, 30, 23 , 16]
 	onBrush "BottomWindowButtonToggleScreenShotModeOn"
-	offBrush "BottomWindowButtonToggleScreenShotModeOff"	
+	offBrush "BottomWindowButtonToggleScreenShotModeOff"
 shipSlotSummaryWindow
 	area [96, 56, 33, 24]
 	fontId "AssetAndResourceAmount"
@@ -53,19 +53,18 @@ leftCap
 	highResGapTolerance 1
 	lowResArea [238, 10, 214, 37]
 	highResArea [238, 10, 214, 37]
-	playerIconArea [0, 0, 30, 37]
-	playerNameArea [35, 0, 179, 37]
-	playerNameFont "Label"
+	playerIconArea [5, -2, 30, 37]
+	playerNameArea [40, 0, 179, 37]
+	playerNameFont "PlayerName"
 rightCap
 	highResGapTolerance 200
 	lowResArea [-300, 0, 300, 39]
 	highResArea [-36, 0, 45, 39]
-	playerIconArea [0, 0, 30, 30]
+	playerIconArea [5, -2, 30, 30]
 	playerNameArea [30, 0, 30, 30]
-	playerNameFont "Label"
+	playerNameFont "PlayerName"
 voiceChatActiveWindow
 	area [475, 100, 0, 0]
 	iconArea [0,0,0,0]
 	textArea [30,2,0,0]
 	fontId "NotificationPlayer"
-

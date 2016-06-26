@@ -9,12 +9,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 2000.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ASTEROID"
-	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
-	infoCardIcon "HUDICON_PLANET_ASTEROID"
+	hudIcon "AscendancyInfoCardPlanetAsteroid"
+	smallHudIcon "AscendancyEmpireTreePlanetAsteroid"
+	infoCardIcon "AscendancyInfoCardPlanetAsteroid"
 	mainViewIcon "AscendancyMainViewPlanetAsteroid"
 	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
-	picture "HUDICON_PLANET_ASTEROID"
+	picture "AscendancyInfoCardPlanetAsteroid"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ASTEROIDCRESCENT"
@@ -24,12 +24,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 2000.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ASTEROID"
-	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
-	infoCardIcon "HUDICON_PLANET_ASTEROID"
+	hudIcon "AscendancyInfoCardPlanetAsteroid"
+	smallHudIcon "AscendancyEmpireTreePlanetAsteroid"
+	infoCardIcon "AscendancyInfoCardPlanetAsteroid"
 	mainViewIcon "AscendancyMainViewPlanetAsteroid"
 	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
-	picture "HUDICON_PLANET_ASTEROID"
+	picture "AscendancyInfoCardPlanetAsteroid"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ASTEROIDFIELD"
@@ -39,12 +39,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 2000.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ASTEROID"
-	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
-	infoCardIcon "HUDICON_PLANET_ASTEROID"
+	hudIcon "AscendancyInfoCardPlanetAsteroid"
+	smallHudIcon "AscendancyEmpireTreePlanetAsteroid"
+	infoCardIcon "AscendancyInfoCardPlanetAsteroid"
 	mainViewIcon "AscendancyMainViewPlanetAsteroid"
 	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
-	picture "HUDICON_PLANET_ASTEROID"
+	picture "AscendancyInfoCardPlanetAsteroid"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ASTEROIDLINE"
@@ -54,12 +54,12 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 2000.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ASTEROID"
-	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID"
-	infoCardIcon "HUDICON_PLANET_ASTEROID"
+	hudIcon "AscendancyInfoCardPlanetAsteroid"
+	smallHudIcon "AscendancyEmpireTreePlanetAsteroid"
+	infoCardIcon "AscendancyInfoCardPlanetAsteroid"
 	mainViewIcon "AscendancyMainViewPlanetAsteroid"
 	undetectedMainViewIcon "AscendancyMainViewPlanetAsteroid_NoIntelligence"
-	picture "HUDICON_PLANET_ASTEROID"
+	picture "AscendancyInfoCardPlanetAsteroid"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.000000
 glowColor 7f52afe1

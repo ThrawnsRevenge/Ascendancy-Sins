@@ -1,41 +1,41 @@
 TXT
 tabWindow
-	topLeftOffset [0, 100]
-	buttonTopLeftOffset [33, 90]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [0, -2, 170, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	topLeftOffset [0, 0]
+	buttonTopLeftOffset [ 0 , 90]
+	buttonSize [ 50 , 50 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSNPCScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 20, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [12, 4, 208 , 59]
 	titleOverlay "TabWindowTitleOverlay"
 	buttonsBackdropArea [0, 0, 210, 749]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 749]
-	buttonsBackdrop "TabWindowButtonBackdropInGame"
+	contentArea [260, 0, 714, 768]
+	buttonsBackdrop "Null"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropInGame"
+	contentBackdrop "AscendancyBackdropMenuInGame"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 10
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 10
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"		
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameActive"
+		overlay "Null"
 	closeButton
-		area [33, 665, 170 , 46]
+		area [0, 682, 50 , 50]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
-		icon "DialogScreenCloseButton"
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
+		icon "AscendancyIconsMainCancel"
 		text "IDSNPCScreenCloseButton"
 pirateContentWindow
 	tabButtonIcon "NPCScreenPirateTabButton"
@@ -108,7 +108,7 @@ pirateContentWindow
 				iconOffsetFromLeft 24
 				textOffsetFromLeft 40
 				underlay "ScreenButtonUnderlaySmall"
-				overlay "ScreenButtonOverlaySmall"			
+				overlay "ScreenButtonOverlaySmall"
 		countdownWindowDef
 			area [32, 585, 733, 73]
 			timeArea [45, 25, 60, 30]
@@ -407,36 +407,36 @@ marketContentWindow
 			largeAmount 500
 		sellButtonPressAmount
 			smallAmount 100
-			largeAmount 500		
+			largeAmount 500
 		bucketQuantityButtonInternals
 			area [118, 104, 105, 38]
 			fontId "ButtonLabel"
 			iconOffsetFromLeft 18
 			textOffsetFromLeft 50
 			underlay "ScreenButtonUnderlaySmall"
-			overlay "ScreenButtonOverlaySmall"				
+			overlay "ScreenButtonOverlaySmall"
 		bucketPriceButtonInternals
 			area [3, 104, 105, 38]
 			fontId "ButtonLabel"
 			iconOffsetFromLeft 18
 			textOffsetFromLeft 50
 			underlay "ScreenButtonUnderlaySmall"
-			overlay "ScreenButtonOverlaySmall"				
+			overlay "ScreenButtonOverlaySmall"
 		sellButtonInternals
 			area [0, 52, 220, 46]
 			fontId "ButtonLabel"
 			iconOffsetFromLeft 22
 			textOffsetFromLeft 70
 			underlay "ScreenButtonUnderlayLarge"
-			overlay "ScreenButtonOverlayLarge"						
+			overlay "ScreenButtonOverlayLarge"
 		buyButtonInternals
 			area [0, 0, 220, 46]
 			fontId "ButtonLabel"
 			iconOffsetFromLeft 22
 			textOffsetFromLeft 70
 			underlay "ScreenButtonUnderlayLarge"
-			overlay "ScreenButtonOverlayLarge"		
-		priceFont "Label"				
+			overlay "ScreenButtonOverlayLarge"
+		priceFont "Label"
 	metalWindowDef
 		area [62, 466, 220 , 150]
 		backdropArea [-0 , -56 , 392 , 257]
@@ -474,8 +474,8 @@ marketContentWindow
 	graphWindowDef
 		area [268, 213, 257, 236]
 		graphArea [38, 19, 183, 90]
-		backdrop "MarketScreenGraphBackdrop"		
-		overlay "MarketScreenGraphOverlay"		
+		backdrop "MarketScreenGraphBackdrop"
+		overlay "MarketScreenGraphOverlay"
 		metalLineColor ffffc705
 		crystalLineColor ffff87ff
 	sharedPriceWindowDef

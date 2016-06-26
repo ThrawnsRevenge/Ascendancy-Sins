@@ -1,28 +1,28 @@
 TXT
 width 200
-maxRowIconCount 5
-rowHeight 30
+maxRowIconCount 7
+rowHeight 40
 itemOffsetFromTop 30
 rowScrollBarUnitHeight 20
 scrollBarOffsetFromLeft 1
 scrollBarOffsetFromTop 39
 scrollBarWidth 15
-toggleButtonIndent 40
-parentIconIndent 60
-childIconIndent 60
+toggleButtonIndent 0
+parentIconIndent 40
+childIconIndent 40
 iconTextSpacing 10
 iconIconSpacing 0
 tutorialAreaHeightOffset -75
-toggleButtonSize [20, 30]
+toggleButtonSize [30, 30]
 iconSize [30, 30]
 textSize [200, 30]
 nameFontId "PlanetNameEmpireWindow"
-toggleButtonIconOn "EmpireWindowToggleChildrenVisibleOn"
-toggleButtonIconOff "EmpireWindowToggleChildrenVisibleOff"
+toggleButtonIconOn "AscendancyIconsMainUp"
+toggleButtonIconOff "AscendancyIconsMainDown"
 isPinnedIconOverlay "EmpireWindowIsPinnedIconOverlay"
 iconOverlayDef
-	homePlanet "EmpireWindowIconEntityOverlayHomePlanet"
-	artifactPlanet "EmpireWindowIconEntityOverlayArtifact"
+	homePlanet "AscendancyEmpireTreePlanetCapitalOverlay"
+	artifactPlanet "Null"
 	resourceAsteroidMetal "EmpireWindowIconEntityOverlayResourceExtractorMetal"
 	resourceAsteroidCrystal "EmpireWindowIconEntityOverlayResourceExtractorCrystal"
 	unspentAbilityPointsAndUnassignedSquads "HUDIconEntityOverlayUnspentAbilityPointsAndUnassignedSquads"
@@ -53,43 +53,43 @@ selectionWindowDef
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 0
 		underlay "Null"
-		overlay "Null"			
+		overlay "Null"
 	hotKeyButton-0
 		area [159, 54, 27 , 29]
 		icon "EmpireWindowHotKeyGroup0"
 	hotKeyButton-1
 		area [35, 21, 27 , 29]
-		icon "EmpireWindowHotKeyGroup1"	
+		icon "EmpireWindowHotKeyGroup1"
 	hotKeyButton-2
 		area [66, 21, 27 , 29]
-		icon "EmpireWindowHotKeyGroup2"	
+		icon "EmpireWindowHotKeyGroup2"
 	hotKeyButton-3
 		area [97, 21, 27 , 29]
-		icon "EmpireWindowHotKeyGroup3"		
+		icon "EmpireWindowHotKeyGroup3"
 	hotKeyButton-4
 		area [128, 21, 27 , 29]
-		icon "EmpireWindowHotKeyGroup4"		
+		icon "EmpireWindowHotKeyGroup4"
 	hotKeyButton-5
 		area [159, 21, 27 , 29]
-		icon "EmpireWindowHotKeyGroup5"		
+		icon "EmpireWindowHotKeyGroup5"
 	hotKeyButton-6
 		area [35, 54, 27 , 29]
-		icon "EmpireWindowHotKeyGroup6"		
+		icon "EmpireWindowHotKeyGroup6"
 	hotKeyButton-7
 		area [66, 54, 27 , 29]
-		icon "EmpireWindowHotKeyGroup7"		
+		icon "EmpireWindowHotKeyGroup7"
 	hotKeyButton-8
 		area [97, 54, 27 , 29]
-		icon "EmpireWindowHotKeyGroup8"		
+		icon "EmpireWindowHotKeyGroup8"
 	hotKeyButton-9
 		area [128, 54, 27 , 29]
-		icon "EmpireWindowHotKeyGroup9"			
+		icon "EmpireWindowHotKeyGroup9"
 	sharedSelectionButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 7
 		textOffsetFromLeft 40
 		underlay "ScreenButtonUnderlaySearch"
-		overlay "ScreenButtonOverlaySearch"		
+		overlay "ScreenButtonOverlaySearch"
 	selectionButton-OwnedColonyShips
 		area [32 , 87, 152 , 46]
 		text "IDSEmpireWindowSelectionButtonOwnedColonyShips"
@@ -105,11 +105,11 @@ selectionWindowDef
 	selectionButton-OwnedStarbases
 		area [32 , 295, 152 , 46]
 		text "IDSEmpireWindowSelectionButtonOwnedStarbases"
-		infoCardDescStringId "IDSEmpireWindowInfoCardSelectionButtonDescOwnedStarbases"	
+		infoCardDescStringId "IDSEmpireWindowInfoCardSelectionButtonDescOwnedStarbases"
 	selectionButton-OwnedEnvoys
 		area [32 , 347, 152 , 46]
 		text "IDSEmpireWindowSelectionButtonOwnedEnvoys"
-		infoCardDescStringId "IDSEmpireWindowInfoCardSelectionButtonDescOwnedEnvoys"	
+		infoCardDescStringId "IDSEmpireWindowInfoCardSelectionButtonDescOwnedEnvoys"
 	selectionButton-OwnedPlanetsWithResourceAsteroids
 		area [32 , 555, 152 , 46]
 		text "IDSEmpireWindowSelectionButtonOwnedPlanetsWithResourceAsteroids"

@@ -11,8 +11,8 @@ textListDef
 	contentMarginRight 2
 	scrollBarWidth 19
 	scrollWheelPositionMovement 10
-	backdropBrush "ListWindowBackdrop"
-	itemSelectedBackdropBrush "ListWindowSelectedItem"
+	backdropBrush "AscendancyListBox"
+	itemSelectedBackdropBrush "AscendancyListSelectedItem"
 screenButtonDef
 	offsetWhenPressed [1, 1]
 	textColorWhenDisabled ff555555

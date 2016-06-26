@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 12
+brushCount 35
 brush
   name "AscendancyMenuButtonNonActive"
   content "States"
@@ -37,6 +37,60 @@ brush
   Normal
     fileName "AscendancyButtonsMenu"
     pixelBox [ 0 , 150 , 75 , 75 ]
+brush
+  name "AscendancyMenuButtonInGameNonActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 150 , 50 , 50 ]
+  Pressed
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+  CursorOver
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 50 , 50 , 50 ]
+  Focused
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+  Normal
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 0 , 50 , 50 ]
+brush
+  name "AscendancyMenuButtonInGameActive"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 150 , 50 , 50 ]
+  Pressed
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+  CursorOver
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+  Focused
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+  Normal
+    fileName "AscendancyButtonsMenuInGame"
+    pixelBox [ 0 , 100 , 50 , 50 ]
+brush
+  name "AscendancyMenuScreenButtonMedium"
+	content "States"
+	Disabled
+		fileName "AscendancyButtonsScreenMedium"
+		pixelBox [ 0 , 80 , 130 , 40 ]
+	Pressed
+		fileName "AscendancyButtonsScreenMedium"
+		pixelBox [ 0 , 40 , 130 , 40 ]
+	CursorOver
+		fileName "AscendancyButtonsScreenMedium"
+		pixelBox [ 0 , 40 , 130 , 40 ]
+	Focused
+		fileName "AscendancyButtonsScreenMedium"
+		pixelBox [ 0 , 40 , 130 , 40 ]
+	Normal
+		fileName "AscendancyButtonsScreenMedium"
+		pixelBox [ 0 , 0 , 130 , 40 ]
 brush
   name "AscendancyMenuScreenButtonSmall"
 	content "States"
@@ -120,59 +174,419 @@ brush
     fileName "AscendancyButtonsScreenGauge"
 		pixelBox [ 0 , 0 , 220 , 75 ]
 brush
-  name "AscendancyButtonsScreenIconToggleLarge"
-  content "States" 
-  Disabled
-    fileName "AscendancyButtonsScreenIconToggleLarge"
-		pixelBox [ 0 , 150 , 220 , 75 ]
-  Pressed
-    fileName "AscendancyButtonsScreenIconToggleLarge"
-		pixelBox [ 0 , 75 , 220 , 75 ]
-  CursorOver
-    fileName "AscendancyButtonsScreenIconToggleLarge"
-		pixelBox [ 0 , 75 , 220 , 75 ]
-  Focused
-    fileName "AscendancyButtonsScreenIconToggleLarge"
-		pixelBox [ 0 , 75 , 220 , 75 ]
-  Normal
-    fileName "AscendancyButtonsScreenIconToggleLarge"
-		pixelBox [ 0 , 0 , 220 , 75 ]
-brush
   name "AscendancyButtonsScreenThemeSelectOff"
   content "States"
   Disabled
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 96 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
   Pressed
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 32 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
   CursorOver
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 32 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
   Focused
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 64 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
   Normal
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 0 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
 brush
   name "AscendancyButtonsScreenThemeSelectOn"
   content "States"
   Disabled
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 96 , 32 , 32 ]
+		pixelBox [ 0 , 0 , 50 , 50 ]
   Pressed
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 64 , 32 , 32 ]
+		pixelBox [ -1 , 50 , 50 , 50 ]
   CursorOver
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 64 , 32 , 32 ]
+		pixelBox [ -1 , 50 , 50 , 50 ]
   Focused
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 64 , 32 , 32 ]
+		pixelBox [ -1 , 50 , 50 , 50 ]
   Normal
     fileName "AscendancyButtonsScreenThemeSelect"
-		pixelBox [ 0 , 64 , 32 , 32 ]
+		pixelBox [ -1 , 50 , 50 , 50 ]
+brush
+  name "AscendancyButtonsScreenIconOnly"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsScreenIconOnly"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsScreenIconOnly"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsScreenIconOnly"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsScreenIconOnly"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsScreenIconOnly"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectPreviousEOTH"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectNextEOTH"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 75 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectRandomEOTH"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 150 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 150 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectSelectEOTH"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 225 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectEOTH"
+		pixelBox [ 225 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectPreviousNR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectNextNR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 75 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectRandomNR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 150 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 150 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectSelectNR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 225 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectNR"
+		pixelBox [ 225 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectPreviousIR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectNextIR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 75 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectRandomIR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 150 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 150 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectSelectIR"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 225 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectIR"
+		pixelBox [ 225 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectPreviousPA"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectNextPA"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 75 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectRandomPA"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 150 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 150 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectSelectPA"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 225 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectPA"
+		pixelBox [ 225 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectPreviousHapes"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 0 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 0 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 0 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectNextHapes"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 75 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 75 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 75 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectRandomHapes"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 150 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 150 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 150 , 0 , 75 , 75 ]
+brush
+  name "AscendancyButtonsFactionSelectSelectHapes"
+  content "States"
+  Disabled
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 225 , 150 , 75 , 75 ]
+  Pressed
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  CursorOver
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Focused
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 225 , 75 , 75 , 75 ]
+  Normal
+    fileName "AscendancyButtonsFactionSelectHapes"
+		pixelBox [ 225 , 0 , 75 , 75 ]
 brush
   name "AscendancyButtonsPlayerSetupRow"
   content "Margins"
