@@ -1,6 +1,6 @@
 TXT
-	tabWindow
-	topLeftOffset [0, 50]
+  tabWindow
+	topLeftOffset [0, 0]
 	buttonTopLeftOffset [ 55 , 90]
 	buttonSize [ 50 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
@@ -10,12 +10,12 @@ TXT
 	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [12, 4, 208 , 59]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropArea [0, 0, 290, 768]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [260, 0, 714, 768]
-	buttonsBackdrop "Null"
+	contentArea [290, 0, 734, 768]
+	buttonsBackdrop "AscendancyBackdropMenuInGameMenu"
 	buttonsBackdropDetail ""
-	contentBackdrop "AscendancyBackdropMenuInGame"
+	contentBackdrop "AscendancyBackdropMenuInGameContent"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
@@ -38,52 +38,52 @@ TXT
 		icon "AscendancyIconsMainCancel"
 		text "IDSStatsScreenCloseButton"
 statsContentWindowSharedDef
-	gameStatTypeListArea [50, 516, 690, 228]
+	gameStatTypeListArea [0, 516, 690, 228]
 	gameStatTypeListItemGap 3
-	minValueArea [70, 399, 81 , 34]
-	maxValueArea [70, 124, 81 , 34]
-	maxTimeArea [640, 446, 81 , 34]
-	graphArea [158, 129, 555, 298]
-	graphBackdropArea [30, 80, 730 , 442]
-	showPlayerButtonTopLeft [149, 438]
-	showPlayerButtonSize [56 , 52]
+	minValueArea [20, 396, 81 , 34]
+	maxValueArea [20, 128, 81 , 34]
+	maxTimeArea [585, 446, 81 , 34]
+	graphArea [128, 129, 550, 300]
+	graphBackdropArea [126, 129, 550 , 300]
+	showPlayerButtonTopLeft [129, 438]
+	showPlayerButtonSize [86 , 52]
 	showPlayerButtonStride [47, 0]
 	spacingBetweenGraphLines 0
-	minValueUnderlay "StatsScreenMinValueUnderlay"
-	minValueOverlay "StatsScreenMinValueOverlay"
-	maxValueUnderlay "StatsScreenMaxValueUnderlay"
-	maxValueOverlay "StatsScreenMaxValueOverlay"
-	maxTimeUnderlay "StatsScreenMaxTimeUnderlay"
-	maxTimeOverlay "StatsScreenMaxTimeOverlay"
-	graphUnderlay "StatsScreenGraphUnderlay"
-	graphOverlay "StatsScreenGraphOverlay"
+	minValueUnderlay "AscendancyMenuScreenButtonSmall"
+	minValueOverlay "Null"
+	maxValueUnderlay "AscendancyMenuScreenButtonSmall"
+	maxValueOverlay "Null"
+	maxTimeUnderlay "AscendancyMenuScreenButtonSmall"
+	maxTimeOverlay "Null"
+	graphUnderlay "AscendancyStatsGraph"
+	graphOverlay "Null"
 creditsStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonCredits"
+	tabButtonIcon "AscendancyIconsMainCredits"
 	tabButtonText "IDSStatsScreenTabButtonCredits"
 metalStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonMetal"
+	tabButtonIcon "AscendancyIconsMainDurasteel"
 	tabButtonText "IDSStatsScreenTabButtonMetal"
 crystalStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonCrystal"
+	tabButtonIcon "AscendancyIconsMainTibannaGas"
 	tabButtonText "IDSStatsScreenTabButtonCrystal"
 shipsStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonShips"
+	tabButtonIcon "AscendancyIconsMainFleet"
 	tabButtonText "IDSStatsScreenTabButtonShips"
 capitalShipsStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonCapitalShips"
+	tabButtonIcon "AscendancyIconsMainFlagship"
 	tabButtonText "IDSStatsScreenTabButtonCapitalShips"
 titansStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonTitans"
+	tabButtonIcon "AscendancyIconsMainFlagship"
 	tabButtonText "IDSStatsScreenTabButtonTitans"
 modulesStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonModules"
+	tabButtonIcon "AscendancyIconsMainStation"
 	tabButtonText "IDSStatsScreenTabButtonModules"
 planetsStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonPlanets"
+	tabButtonIcon "AscendancyIconsMainPlanet"
 	tabButtonText "IDSStatsScreenTabButtonPlanets"
 combatStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonCombat"
+	tabButtonIcon "AscendancyIconsMainSwords"
 	tabButtonText "IDSStatsScreenTabButtonCombat"
 empireStatsContentWindow
-	tabButtonIcon "StatsScreenTabButtonEmpire"
+	tabButtonIcon "AscendancyIconsMainFlag"
 	tabButtonText "IDSStatsScreenTabButtonEmpire"

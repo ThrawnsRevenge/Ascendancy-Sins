@@ -583,12 +583,12 @@ hudSkinData
 	ResourceInfoCardIconCredits "InfoCardIconCredits"
 	ResourceInfoCardIconMetal "InfoCardIconMetal"
 	ResourceInfoCardIconCrystal "InfoCardIconCrystal"
-	ResearchFieldButtonIconCombat "ResearchScreenTabButtonCombatPsi"
-	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePsi"
-	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPsi"
-	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPsi"
-	ResearchFieldButtonIconFleet "Civilopedia_Icon"
-	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
+	ResearchFieldButtonIconCombat "AscendancyIconsMainSwords"
+	ResearchFieldButtonIconDefense "AscendancyIconsMainShield"
+	ResearchFieldButtonIconNonCombat "AscendancyIconsMainPlanet"
+	ResearchFieldButtonIconDiplomacy "AscendancyIconsMainDiplomacy"
+	ResearchFieldButtonIconFleet "AscendancyIconsMainInfo"
+	ResearchFieldButtonIconArtifact "AscendancyIconsMainEmperor"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
 	QuestStatusIconKillCapitalShips "HUDIconQuestKillCapitalShips"
@@ -689,19 +689,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 250 ]
+			area [ 0 , 100 , 710 , 250 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Fleet"
 		block
-			area [ 30 , 280 , 710 , 190 ]
+			area [ 0 , 360 , 710 , 190 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Subsystems"
 		block
-			area [ 30 , 480, 710 , 210 ]
+			area [ 0 , 560, 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
@@ -709,7 +709,7 @@ researchScreenData
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 330 ]
+			area [ 0 , 100 , 710 , 330 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
@@ -717,19 +717,19 @@ researchScreenData
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 50 , 710 , 250 ]
+			area [ 0 , 100 , 710 , 250 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Economy"
 		block
-			area [ 30 , 310 , 710 , 160 ]
+			area [ 0 , 360 , 710 , 160 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
 			picture "IR_Research_Block_Development"
 		block
-			area [ 30 , 480 , 710 , 160 ]
+			area [ 0 , 560 , 710 , 160 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
@@ -737,7 +737,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 210 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
@@ -745,16 +745,16 @@ researchScreenData
 	Artifact
 		blockCount 1
 		block
-			area [ 9 , 49 , 776 , 631 ]
-			backdrop "ResearchScreenBlockBackdropArtifact0Psi"
+			area [ -50 , 49 , 776 , 631 ]
+			backdrop "Null"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""
 	Fleet
 		blockCount 1
 		block
-			area [ 0 , 10 , 800 , 700 ]
-			backdrop "Civilopedia"
+			area [ 0 , 100 , 800 , 700 ]
+			backdrop "AscendancyQuickReference"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""

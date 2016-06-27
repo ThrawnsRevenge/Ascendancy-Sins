@@ -1,41 +1,41 @@
 TXT
 tabWindow
-	topLeftOffset [0, 39]
-	buttonTopLeftOffset [33, 90]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	topLeftOffset [0, 0]
+	buttonTopLeftOffset [ 55 , 90]
+	buttonSize [ 50 , 50 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSResearchScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 20, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [12, 4, 208 , 59]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropArea [0, 0, 290, 768]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 749]
-	buttonsBackdrop "TabWindowButtonBackdropInGame"
+	contentArea [290, 0, 734, 768]
+	buttonsBackdrop "AscendancyBackdropMenuInGameMenu"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropInGame"
+	contentBackdrop "AscendancyBackdropMenuInGameContent"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"		
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameActive"
+		overlay "Null"
 	closeButton
-		area [33, 665, 170 , 46]
+		area [55, 682, 50 , 50]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
-		icon "ResearchScreenCloseButton"
+		iconOffsetFromLeft -10
+		textOffsetFromLeft 60
+		underlay "AscendancyMenuButtonInGameNonActive"
+		overlay "Null"
+		icon "AscendancyIconsMainCancel"
 		text "IDSResearchScreenCloseButton"
 buttonSharedDef
 	requiredAsPrerequisiteOverlayTime 30

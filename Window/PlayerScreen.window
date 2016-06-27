@@ -183,13 +183,13 @@ playerTabContentWindowDef
 		peaceTreatyAllianceWindowDef
 			area [30, 582, 330 , 75]
 		tradeAllianceWindowDef
-			area [300, 529, 330, 46]
+			area [300, 476, 330, 46]
 		externalVisionAllianceWindowDef
-			area [300, 635, 330, 46]
+			area [300, 529, 330, 46]
 		internalVisionAllianceWindowDef
-			area [30, 635, 330, 46]
+			area [300, 582, 330, 46]
 		managePactsWindowDef
-			area [300, 582,  220 , 75]
+			area [30, 635,  220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -219,7 +219,7 @@ playerTabContentWindowDef
 			cooldownTimeOverlay "AscendancyPlayerScreenPactBothAgree"
 			cooldownTimeFontId "Label"
 		offerMissionWindowDef
-			area [300, 476,  220 , 75]
+			area [300, 635,  220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -233,18 +233,18 @@ playerTabContentWindowDef
 			noMissionStatusIcon "AscendancyPlayerScreenPactNoAgreement"
 			missionOfferedStatusIcon "AscendancyPlayerScreenPactBothAgree"
 		happinessWindowDef
-			area [12, 380, 304 , 110]
-			textArea [123, 10, 65, 33]
-			barArea [74, 0, 152, 110]
-			barIndicatorSize [27 , 110]
+			area [0, 420, 200 , 64]
+			textArea [50, 35, 100, 33]
+			barArea [0, 16, 200, 32]
+			barIndicatorSize [20 , 32]
 			textFontId "Label"
-			backdropForAIPlayer "PlayerScreenHappinessBackdropForAIPlayer"
-			backdropForHumanPlayer "PlayerScreenHappinessBackdropForHumanPlayer"
-			overlay "PlayerScreenHappinessOverlay"
-			barIndicator "PlayerScreenHappinessBarIndicator"
+			backdropForAIPlayer "AscendancyPlayerScreenHappinessMeter"
+			backdropForHumanPlayer "AscendancyPlayerScreenHappinessMeter"
+			overlay "Null"
+			barIndicator "AscendancyPlayerScreenHappinessMarker"
 		questWindowDef
-			area [290, 178, 468 , 180]
-			backdrop "PlayerScreenQuestBackdrop"
+			area [217, 225, 470 , 150]
+			backdrop "AscendancyPlayerScreenPactPanel"
 			titleLabelDef
 				area [50, 12, 200, 20]
 				text "IDSPlayerScreenQuestTitleLabel"
@@ -334,7 +334,7 @@ playerTabContentWindowDef
 				buttonTextId "IDSPlayerScreenRejectMissionButton"
 	createMissionWindowDef
 		area [0, 0, 788 , 719]
-		buttonsBackdrop "PlayerScreenAlliancesBackdrop"
+		buttonsBackdrop "Null"
 		buttonsArea [400,300,0,0]
 		labelFont "Label"
 		strengthFont "Label"
@@ -348,7 +348,7 @@ playerTabContentWindowDef
 		planetTypeLabelArea [290,260,0,0]
 		planetNameLabelArea [510,260,0,0]
 		cancelOfferMissionDef
-			area [290, 500, 220 , 75]
+			area [50, 650, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -359,7 +359,7 @@ playerTabContentWindowDef
 			buttonIcon "AscendancyIconsMainCancel"
 			buttonTextId "IDSPlayerScreenCancelOfferMissionButton"
 		submitOfferMissionDef
-			area [510, 500, 220 , 75]
+			area [450, 650, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -370,7 +370,7 @@ playerTabContentWindowDef
 			buttonIcon "AscendancyIconsMainAccept"
 			buttonTextId "IDSPlayerScreenSubmitOfferMissionButton"
 		changeMissionTypeDef
-			area [70, 180, 220 , 75]
+			area [40, 180, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -379,71 +379,71 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 			BombAnyPlanet
-				icon "BombPlanetMission"
+				icon "AscendancyIconsMainPlanet"
 				text "IDSCreateMissionBombPlanetLabel"
 			GiveResources
-				icon "GiveResourcesMission"
+				icon "AscendancyIconsMainDurasteel"
 				text "IDSCreateMissionGiveResourcesLabel"
 			KillShips
-				icon "KillShipsMission"
+				icon "AscendancyIconsMainFleet"
 				text "IDSCreateMissionKillShipsLabel"
 			KillCapitalShips
-				icon "KillCapitalShipsMission"
+				icon "AscendancyIconsMainFlagship"
 				text "IDSCreateMissionKillCapitalShipsLabel"
 			KillCivilianStructures
-				icon "KillCivilianMission"
+				icon "AscendancyIconsMainStation"
 				text "IDSCreateMissionKillCivStructuresLabel"
 			KillTacticalStructures
-				icon "KillTacticalMission"
+				icon "AscendancyIconsMainStation"
 				text "IDSCreateMissionKillTactStructuresLabel"
 			SendEnvoy
-				icon "SendEnvoyMission"
+				icon "AscendancyIconsMainMail"
 				text "IDSCreateMissionSendEnvoyLabel"
 		playerTargetDef
-			area [290, 180, 220 , 75]
+			area [260, 180, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
-				iconOffsetFromLeft 7
+				iconOffsetFromLeft 5
 				textOffsetFromLeft 70
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		quantityButtonSharedDef
 			TimeLimit
 				label "IDSPlayerScreenDurationButton"
-				brush "PlayerScreenCreateMissionDuration"
+				brush "AscendancyIconsMainStopWatch"
 			PriceCredits
 				label "IDSPlayerScreenPriceCreditsButton"
-				brush "PlayerScreenCreateMissionCredits"
+				brush "AscendancyIconsMainCredits"
 			PriceMetal
 				label "IDSPlayerScreenPriceMetalButton"
-				brush "PlayerScreenCreateMissionMetal"
+				brush "AscendancyIconsMainDurasteel"
 			PriceCrystal
 				label "IDSPlayerScreenPriceCrystalButton"
-				brush "PlayerScreenCreateMissionCrystal"
+				brush "AscendancyIconsMainTibannaGas"
 			RewardCredits
 				label "IDSPlayerScreenRewardCreditsButton"
-				brush "PlayerScreenCreateMissionCredits"
+				brush "AscendancyIconsMainCredits"
 			RewardMetal
 				label "IDSPlayerScreenRewardMetalButton"
-				brush "PlayerScreenCreateMissionMetal"
+				brush "AscendancyIconsMainDurasteel"
 			RewardCrystal
 				label "IDSPlayerScreenRewardCrystalButton"
-				brush "PlayerScreenCreateMissionCrystal"
+				brush "AscendancyIconsMainTibannaGas"
 			KillShips
 				label "IDSPlayerScreenKillShipsButton"
-				brush "PlayerScreenCreateMissionKillNumber"
+				brush "AscendancyIconsMainFleet"
 			KillCapitalShips
 				label "IDSPlayerScreenKillCapitalShipsButton"
-				brush "PlayerScreenCreateMissionKillNumber"
+				brush "AscendancyIconsMainFlagship"
 			KillTacticalStructures
 				label "IDSPlayerScreenKillTacticalStructuresButton"
-				brush "PlayerScreenCreateMissionKillNumber"
+				brush "AscendancyIconsMainStation"
 			KillCivilianStructures
 				label "IDSPlayerScreenKillCivilianStructuresButton"
-				brush "PlayerScreenCreateMissionKillNumber"
+				brush "AscendancyIconsMainStation"
 		timeLimitDef
-			area [510, 180, 220 , 75]
+			area [480, 180, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -452,7 +452,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		priceCreditsDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -461,7 +461,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		priceMetalDef
-			area [290, 245, 220 , 75]
+			area [260, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -470,7 +470,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		priceCrystalDef
-			area [510, 245, 220 , 75]
+			area [480, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -479,7 +479,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		rewardCreditsDef
-			area [70, 310, 220 , 75]
+			area [40, 310, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -488,7 +488,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		rewardMetalDef
-			area [290, 310, 220 , 75]
+			area [260, 310, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -497,7 +497,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		rewardCrystalDef
-			area [510, 310, 220 , 75]
+			area [480, 310, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -506,7 +506,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		killShipsDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -515,7 +515,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		killCapitalShipsDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -524,7 +524,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		killTacticalStructuresDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -533,7 +533,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		killCivilianStructuresDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -542,7 +542,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		planetStarDef
-			area [70, 245, 220 , 75]
+			area [40, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -551,7 +551,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		planetTypeDef
-			area [290, 245, 220 , 75]
+			area [260, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -560,7 +560,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		planetNameDef
-			area [510, 245, 220 , 75]
+			area [480, 245, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -569,7 +569,7 @@ playerTabContentWindowDef
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
 		changeLevelDef
-			area [70, 375, 220 , 75]
+			area [40, 375, 220 , 75]
 			buttonInternals
 				area [0, 0, 220 , 75]
 				fontId "ButtonLabel"
@@ -577,12 +577,12 @@ playerTabContentWindowDef
 				textOffsetFromLeft 70
 				underlay "AscendancyMenuScreenButtonIconLarge"
 				overlay "Null"
-			buttonIcon "ChangeMapTypeButton"
+			buttonIcon "AscendancyIconsMainLevels"
 			buttonTextId "IDSPlayerScreenChangeMissionLevel"
 	playerScreenManagePactsDef
 		area [0, 0, 788 , 719]
 		buttonsBackdrop "Null"
-		buttonsArea [200,360,0,0]
+		buttonsArea [367,385,0,0]
 		icon1Area [0, 100, 100, 100]
 		name1Area [100, 100, 300, 100]
 		icon2Area [0, 210, 100, 100]

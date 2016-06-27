@@ -1,7 +1,7 @@
 TXT
 tabWindow
 	topLeftOffset [0, 0]
-	buttonTopLeftOffset [ 0 , 90]
+	buttonTopLeftOffset [ 55 , 90]
 	buttonSize [ 50 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
@@ -10,12 +10,12 @@ tabWindow
 	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [12, 4, 208 , 59]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropArea [0, 0, 290, 768]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [260, 0, 714, 768]
-	buttonsBackdrop "Null"
+	contentArea [290, 0, 734, 768]
+	buttonsBackdrop "AscendancyBackdropMenuInGameMenu"
 	buttonsBackdropDetail ""
-	contentBackdrop "AscendancyBackdropMenuInGame"
+	contentBackdrop "AscendancyBackdropMenuInGameContent"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
@@ -29,35 +29,35 @@ tabWindow
 		underlay "AscendancyMenuButtonInGameActive"
 		overlay "Null"
 	closeButton
-		area [0, 682, 50 , 50]
+		area [55, 682, 50 , 50]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
 		textOffsetFromLeft 60
 		underlay "AscendancyMenuButtonInGameNonActive"
 		overlay "Null"
 		icon "AscendancyIconsMainCancel"
-		text "IDSPlayerScreenCloseButton"
+		text "IDSNPCScreenCloseButton"
 relationshipsTabContentWindowDef
 	currentPlayerFrame
-		hoverArea [250,250,265,350]
-		portraitFrameArea [145, 70, 0 , 0]
-		portraitPictureArea [145, 95, 0 , 0]
+		hoverArea [235,250,265,350]
+		portraitFrameArea [0, 50, 200 , 200]
+		portraitPictureArea [0, 50, 200 , 200]
 		portraitDeadOverlayArea [145, 70, 0 , 0]
 		diplomaticPointsArea [145, 360, 0, 0]
 		diplomaticPointsLabelArea [145, 330, 0, 0]
-		portraitUnderlay "PlayerScreenPortraitUnderlay"
+		portraitUnderlay "AscendancyPlayerScreenPortrait"
 		portraitOverlay "Null"
 		portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDead"
 		portraitBackdrop "PlayerScreenHappinessBackdropForHumanPlayer"
-		portraitBackdropArea [145,365,0,0]
-		iconArea [140, -120, 0, 0]
-		nameArea [140, -50, 0, 0]
+		portraitBackdropArea [0,0,200,2000]
+		iconArea [70, -90, 50, 50]
+		nameArea [70, -150, 50, 50]
 		nameFont "NotificationPlayer"
 		diplomacyPointsFont "WindowSubTitle2"
 		diplomacyPointsLabelFont "Label"
 	otherPlayersCount 9
 		otherPlayerFrame
-			hoverArea [100,60,104,122]
+			hoverArea [20,140,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -68,7 +68,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [70,215,104,122]
+			hoverArea [10,265,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -79,7 +79,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [70,340,104,122]
+			hoverArea [10,390,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -90,7 +90,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [140,520,104,122]
+			hoverArea [80,570,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -101,7 +101,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [355,560,104,122]
+			hoverArea [295,590,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -112,7 +112,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [570,520,104,122]
+			hoverArea [510,570,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -123,7 +123,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [640,340,104,122]
+			hoverArea [580,390,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -134,7 +134,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [640,215,104,122]
+			hoverArea [580,265,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -145,7 +145,7 @@ relationshipsTabContentWindowDef
 			relationshipArea [60, 130, 0, 0]
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [610,60,104,122]
+			hoverArea [570,140,104,122]
 			portraitFrameArea [45, 90, 0 , 0]
 			portraitPictureArea [20, 35, 43 , 68]
 			portraitDeadOverlayArea [21, 25, 43 , 68]
@@ -167,14 +167,14 @@ relationshipsTabContentWindowDef
 	leftDownTubeCaps "Null"
 	rightDownTubeCaps "Null"
 	downTubeCaps "Null"
-	otherPlayerOneTubeArea [233, 200, 0, 0]
-	otherPlayerTwoTubeArea [222, 280, 0, 0]
-	otherPlayerThreeTubeArea [222, 410, 0, 0]
-	otherPlayerFourTubeArea [250, 505, 0, 0]
-	otherPlayerFiveTubeArea [395, 520, 0, 0]
-	otherPlayerSixTubeArea [540, 505, 0, 0]
-	otherPlayerSevenTubeArea [568, 410, 0, 0]
-	otherPlayerEightTubeArea [568, 280, 0, 0]
-	otherPlayerNineTubeArea [557, 202, 0, 0]
-	legendArea [395,180,0,0]
+	otherPlayerOneTubeArea [173, 250, 0, 0]
+	otherPlayerTwoTubeArea [162, 330, 0, 0]
+	otherPlayerThreeTubeArea [162, 460, 0, 0]
+	otherPlayerFourTubeArea [190, 555, 0, 0]
+	otherPlayerFiveTubeArea [335, 560, 0, 0]
+	otherPlayerSixTubeArea [480, 555, 0, 0]
+	otherPlayerSevenTubeArea [508, 460, 0, 0]
+	otherPlayerEightTubeArea [508, 330, 0, 0]
+	otherPlayerNineTubeArea [497, 252, 0, 0]
+	legendArea [335,240,0,0]
 	legendFont "ButtonLabel"

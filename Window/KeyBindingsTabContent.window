@@ -39,5 +39,5 @@ clearMappingButton
 	icon "Null"
 	text "IDSOptionsScreenKeyBindingsClearMapping"
 showMappingsOnInfoCardsCheckBox
-	area [0, 62, 220, 30]
+	area [0, 625, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowMappingsOnInfoCards"

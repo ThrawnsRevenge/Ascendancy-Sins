@@ -22994,10 +22994,10 @@ StringInfo
 	Value "Kill Capital Ships"
 StringInfo
 	ID "IDSCreateMissionKillCivStructuresLabel"
-	Value "Kill Civilian Structures"
+	Value "Kill Civ. Struct"
 StringInfo
 	ID "IDSCreateMissionKillTactStructuresLabel"
-	Value "Kill Tactical Structures"
+	Value "Kill Mil. Struct"
 StringInfo
 	ID "IDSCreateMissionSendEnvoyLabel"
 	Value "Send Envoy"
