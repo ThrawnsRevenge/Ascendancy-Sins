@@ -1,6 +1,6 @@
 TXT 
 onlyLoadOnDemand FALSE
-brushCount 29
+brushCount 30 
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
@@ -230,12 +230,12 @@ brush
   name "AscendancyPlayerScreenHappinessMeter"
   content "Simple"
   fileName "AscendancyUI"
-  pixelBox [ 750 , 418 , 200 , 32 ]
+  pixelBox [ 550 , 324 , 200 , 32 ]
 brush
   name "AscendancyPlayerScreenHappinessMarker"
   content "Simple"
   fileName "AscendancyUI"
-  pixelBox [ 950 , 418 , 20 , 32 ]
+  pixelBox [ 750 , 324 , 20 , 32 ]
 brush
   name "AscendancyQuickReference"
   content "Simple"
@@ -261,3 +261,8 @@ brush
     bottom 5
   fileName "AscendancyUI"
   pixelBox [ 550 , 568 , 23 , 286 ]
+brush
+  name "AscendancyEmpireWindow"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 750 , 368 , 200 , 600 ]

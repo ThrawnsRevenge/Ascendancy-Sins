@@ -110,7 +110,7 @@ brush
 		fileName "AscendancyButtonsScreenSmall"
 		pixelBox [ 0 , 0 , 110 , 40 ]
 brush
-  name "AscendancyMenuScreenButtonNoIconLarge"
+  name "AscendancyMenuScreenButtonNoIconLarge" 
 	content "States"
   Disabled
     fileName "AscendancyButtonsScreenNoIconLarge"
