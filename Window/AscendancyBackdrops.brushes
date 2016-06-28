@@ -1,6 +1,6 @@
 TXT 
 onlyLoadOnDemand FALSE
-brushCount 16
+brushCount 17 
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
@@ -27,6 +27,11 @@ brush
   fileName "AscendancyBackdropMenuInternetGame"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
+  name "AscendancyBackdropMenuInternetGameLobby"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInternetGameLobby"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
   name "AscendancyBackdropMenuOptions"
   content "Simple"
   fileName "AscendancyBackdropMenuOptions"
@@ -43,7 +48,7 @@ brush
   pixelBox [ 0 , 0 , 3000 , 600 ]
 brush
   name "AscendancyBackdropDialogSelect"
-  content "Simple"
+  content "Simple" 
   fileName "AscendancyBackdropDialogSelect"
   pixelBox [ 0 , 0 , 3000 , 600 ]
 brush

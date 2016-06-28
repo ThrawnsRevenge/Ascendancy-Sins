@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 96
+brushCount 97 
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -560,7 +560,7 @@ brush
     fileName "AscendancyIconsMain"
     pixelBox [ 200 , 160 , 40 , 40 ]
 brush
-  name "AscendancyIconsMainComputer"
+  name "AscendancyIconsMainComputer" 
   content "States"
   Disabled
     fileName "AscendancyIconsMain"
@@ -973,6 +973,24 @@ brush
   Normal
     fileName "AscendancyIconsMain"
     pixelBox [ 120 , 320 , 40 , 40 ]
+brush
+  name "AscendancyIconsMainChat"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 440 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 400 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 360 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 400 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsMain"
+    pixelBox [ 160 , 320 , 40 , 40 ]
 brush
   name "AscendancyIconsGaugeLevel1"
   content "Simple"

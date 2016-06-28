@@ -89,11 +89,11 @@ aiStyleButtonDef
 	aiStyleIcon-Research "AscendancyIconsMainResearch"
 	aiStyleIcon-Economic "AscendancyIconsMainCredits"
 icoPlayerInfoButtonDef
-	area [450, 0, 45 , 45]
+	area [440, 0, 45 , 45]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 0
-	underlay "ScreenButtonUnderlayTiny"
-	overlay "ScreenButtonOverlayTiny"
-	icon "PlayerSetupOpenICOPlayerInfo"
+	underlay "Null"
+	overlay "Null"
+	icon "AscendancyIconsMainUser"
 useRaceSelectDialog TRUE

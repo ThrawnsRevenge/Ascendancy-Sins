@@ -22094,7 +22094,7 @@ StringInfo
 	Value "Host Setup"
 StringInfo
 	ID "IDSICOLobbyScreenChangeChannelButton"
-	Value "Change/Create Channel"
+	Value "Change Channel"
 StringInfo
 	ID "IDSICOLobbyScreenShowPlayerInfoFromChatChannelButton"
 	Value "View Player"
@@ -22103,7 +22103,7 @@ StringInfo
 	Value "Show Channel Changes"
 StringInfo
 	ID "IDSICOLobbyScreenChangeChannelDialogWindowTitle"
-	Value "Change/Create Channel"
+	Value "Change Channel"
 StringInfo
 	ID "IDSICOLobbyScreenICOUsersCountLabelFormat"
 	Value "%d Players Online."

@@ -1,73 +1,73 @@
 TXT
-backdrop "ICOGameLobbyScreenBackdrop"
+backdrop "AscendancyBackdropMenuInternetGameLobby"
 textEntryDef
 	labelFontId "Label"
 	textEntryFontId "ChatTextEntry"
 backButton
-	area [59, 651, 220 , 46]
+	area [40, 680, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
-	icon "ScreenBackButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainBack"
 	text "IDSICOGameLobbyScreenBackButton"
 startGameButton
-	area [749, 651, 220 , 46]
+	area [730, 680, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
-	icon "ICOGameLobbyScreenStartGameButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainForward"
 	text "IDSICOGameLobbyScreenStartGameButton"
 openGameOptionsDialogButton
-	area [288, 651, 220 , 46]
+	area [270, 680, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
-	icon "OpenGameOptionsDialog"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainGamepad"
 	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
 openVictoryOptionsDialogButton
-	area [518, 651, 220 , 46]
+	area [500, 680, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
-	icon "OpenGameOptionsDialog"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
+	icon "AscendancyIconsMainFlag"
 	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"		
 chatReceivedTextList
-	area [720, 230, 250, 370]
-	itemGap 3
+	area [30, 475, 550, 165]
+	itemGap 1
 chatEntry
-	area [720, 608, 250, 36]
+	area [30, 639, 550, 35]
 	labelWidth 0
 	labelText ""
 playerSetupWindow
-	area [30, 230, 700, 500]
+	area [30, 100, 700, 500]
 galaxyInfoWindow
-	area [60, 62, 500, 500]
+	area [600, 70, 400, 400]
 channelNameWindow
-	area [720, 100, 220, 60]
+	area [750, 20, 220, 60]
 	labelArea [0, 0, 80, 60]
-	valueArea [90, 0, 220, 60]
-	labelFontId "WindowSubTitle"
-	valueFontId "TabbedScreenTitle"
+	valueArea [75, 0, 220, 60]
+	labelFontId "ButtonLabel"
+	valueFontId "ButtonLabel"
 	labelStringId "IDSICOLobbyScreenChatChannelName"
 changeChannelButton
-	area [740, 165, 220, 46]
+	area [600, 620, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 55
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "ICOLobbyScreenChangeChannelButton"
+	iconOffsetFromLeft 7
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"				
+	icon "AscendancyIconsMainChat"
 	text "IDSICOLobbyScreenChangeChannelButton"
 victoryInfoFont "ButtonLabel"
-victoryInfoPosition [465,198]
+victoryInfoPosition [600,605]
 spaceBetweenVictoryInfo -25
 
 

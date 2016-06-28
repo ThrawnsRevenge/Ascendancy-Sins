@@ -1,28 +1,28 @@
 TXT
-backdropDimPercentage 0.7
-backdropBrush "DialogBackdrop"
-titleOverlayBrush "DialogTitleOverlay"
-size [556 , 517]
-contentRefArea [90, 130, 371, 207]
-titleRefArea [90, 40, 371, 30]
-titleOverlayRefArea [0, 0, 556, 90]
+backdropDimPercentage 0.9
+backdropBrush "AscendancyBackdropDialogSelect"
+titleOverlayBrush "PlayerThemePickerScreenTitleOverlay"
+size [3000 , 600]
+contentRefArea [1220, 200, 371, 207]
+titleRefArea [1200, 60, 371, 30]
+titleOverlayRefArea [0, 0, 693, 90]
 cancelButton
-	area [93, 400, 170, 46]
+	area [1420, 440, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 30
-	textOffsetFromLeft 60
-	underlay "TabButtonUnderlayActive"
-	overlay "TabButtonOverlayActive"	
-	icon "DialogScreenCloseButton"
+	iconOffsetFromLeft 7
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"	
+	icon "AscendancyIconsMainCancel"
 	text "IDS_DIALOGWINDOW_CANCELBUTTON"
 acceptButton
-	area [295, 400, 170, 46]
+	area [1180, 440, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 30
-	textOffsetFromLeft 60
-	underlay "TabButtonUnderlayActive"
-	overlay "TabButtonOverlayActive"		
-	icon "DialogScreenAcceptButton"
+	iconOffsetFromLeft 7
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"	
+	icon "AscendancyIconsMainCancel"
 	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
 titleTextId "IDSICOLobbyScreenChangeChannelDialogWindowTitle"
 channelNameTextEntry

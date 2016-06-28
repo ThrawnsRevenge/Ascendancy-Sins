@@ -1,41 +1,41 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [33, 97]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	buttonTopLeftOffset [ 15 , 100]
+	buttonSize [ 75 , 75 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSICOLobbyScreenTitle"
 	titleFontId "TabbedScreenTitle"
-	titleArea [20, 40, 190, 40]
+	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 808]
+	contentArea [260, 0, 714, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
-		overlay "MenuButtonOverlay"						
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonActive"
+		overlay "MenuButtonOverlay"
 	closeButton
-		area [33, 724, 170 , 46]
+		area [15, 700, 75 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
-		overlay "MenuButtonOverlay"				
-		icon "ScreenBackButton"
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonNonActive"
+		overlay "MenuButtonOverlay"
+		icon "AscendancyIconsMainBack"
 		text "IDSICOLobbyScreenCloseButton"
 textEntryDef
 	labelFontId "Label"
@@ -51,7 +51,7 @@ checkBoxDef
 	boxOverlayWhenOn "CheckBoxCheckStateTrue"
 	boxOverlayWhenOff ""
 chatContentWindow
-	tabButtonIcon "ICOLobbyScreenChatTabButton"
+	tabButtonIcon "AscendancyIconsMainChat"
 	tabButtonText "IDSICOLobbyScreenChatTabButton"
 	icoUsersCountLabel
 		area [520, 115, 455, 30]
@@ -69,79 +69,79 @@ chatContentWindow
 	channelNameWindow
 		area [50, 110, 220, 30]
 		labelArea [0, 0, 80, 30]
-		valueArea [90, 0, 455, 30]
-		labelFontId "WindowSubTitle"
-		valueFontId "TabbedScreenTitle"
+		valueArea [75, 0, 455, 30]
+		labelFontId "ButtonLabel"
+		valueFontId "ButtonLabel"
 		labelStringId "IDSICOLobbyScreenChatChannelName"
 	changeChannelButton
-		area [520, 620, 220, 46]
+		area [520, 610, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 65
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenChangeChannelButton"
+		iconOffsetFromLeft 7
+		textOffsetFromLeft 70
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainEdit"
 		text "IDSICOLobbyScreenChangeChannelButton"
 	showPlayerInfoButton
-		area [520, 568, 220, 46]
+		area [520, 550, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
-		textOffsetFromLeft 65
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenShowPlayerInfoFromChatChannelButton"
+		iconOffsetFromLeft 7
+		textOffsetFromLeft 70
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainUser"
 		text "IDSICOLobbyScreenShowPlayerInfoFromChatChannelButton"
 	showChannelPlayerChangesCheckBox
 		area [49, 704, 30, 46]
 		text "IDSICOLobbyScreenShowChannelPlayerChangesCheckBox"	
 manageFriendsContentWindow
-	tabButtonIcon "ICOLobbyScreenManageFriendsTabButton"
+	tabButtonIcon "AscendancyIconsMainUsers"
 	tabButtonText "IDSICOLobbyScreenManageFriendsTabButton"
 	friendNameListLabel
-		area [50, 110, 220, 30]
+		area [0, 110, 220, 30]
 		fontId "WindowSubTitle"
 		text "IDSICOLobbyScreenManageFriendsFriendNameListLabel"
 	friendNameList
-		area [50, 152, 220, 566]
+		area [0, 152, 220, 566]
 		itemGap 3
 	addFriendButton
-		area [285, 620, 220, 46]
+		area [235, 570, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenManageFriendsAddFriendButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainAddUser"
 		text "IDSICOLobbyScreenManageFriendsAddFriendButton"	
 	removeFriendButton
-		area [285, 672, 220, 46]
+		area [235, 650, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenManageFriendsRemoveFriendButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainCancel"
 		text "IDSICOLobbyScreenManageFriendsRemoveFriendButton"	
 	joinFriendChannel
-		area [520, 620, 220, 46]
+		area [470, 570, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenManageFriendsJoinFriendChannelButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"		
+		icon "AscendancyIconsMainChat"
 		text "IDSICOLobbyScreenManageFriendsJoinFriendChannelButton"	
 	joinFriendGame
-		area [520, 672, 220, 46]
+		area [470, 650, 220, 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenManageFriendsJoinFriendGameButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainGamepad"
 		text "IDSICOLobbyScreenManageFriendsJoinFriendGameButton"	
 	friendInfoWindow
-		area [285, 152, 1000, 1000]
+		area [235, -50, 700, 700]
 		statusLabel
 			area [0, 200, 220, 20]
 			fontId "Label"
@@ -191,148 +191,148 @@ manageFriendsContentWindow
 			fontId "Label"
 		steamIconArea [0, 0, 0, 0]
 hostNewGameContentWindow
-	tabButtonIcon "ICOLobbyScreenHostNewGameTabButton"
+	tabButtonIcon "AscendancyIconsMainPlay"
 	tabButtonText "IDSICOLobbyScreenHostNewGameTabButton"
 	gameNameAndPasswordEntryWindow
-		area [285, 418, 455, 66]
+		area [235, 565, 455, 66]
 	galaxySetupWindow
-		area [50, 100, 700, 700]
+		area [00, 100, 700, 700]
 	hostNewGameButton
-		area [520, 700, 220 , 46]
+		area [470, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenHostNewGameButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"
+		icon "AscendancyIconsMainForward"
 		text "IDSICOLobbyScreenHostNewGameButton"	
 	friendsOnlyButton
-		area [285, 642, 220, 46]
+		area [470, 642, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
 		FriendsOnly
-			icon "ICOLobbyScreenGameForFriendsOnly"
+			icon "AscendancyIconsMainUser"
 			text "IDSICOLobbyScreenGameForFriendsOnly"
 		Anyone
-			icon "ICOLobbyScreenGameForAnyone"
+			icon "AscendancyIconsMainUsers"
 			text "IDSICOLobbyScreenGameForAnyone"		
 	testGameHostingStatusWindow
-		area [520, 636, 220, 30]
+		area [470, 636, 220, 30]
 		fontId "Label"
 		isTestingStringId "IDSICOLobbyScreenIsGameHostingTestActive"
 hostSavedGameContentWindow
-	tabButtonIcon "ICOLobbyScreenHostSavedGameTabButton"
+	tabButtonIcon "AscendancyIconsMainLoad"
 	tabButtonText "IDSICOLobbyScreenHostSavedGameTabButton"
 	gameNameAndPasswordEntryWindow
-		area [285, 596, 455, 66]
+		area [235, 565, 455, 66]
 	hostSavedGameButton
-		area [520, 672, 220 , 46]
+		area [470, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenHostSavedGameButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"
+		icon "AscendancyIconsMainForward"
 		text "IDSICOLobbyScreenHostSavedGameButton"		
 	friendsOnlyButton
-		area [285, 672, 220 , 46]
+		area [470, 642, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
 		FriendsOnly
-			icon "ICOLobbyScreenGameForFriendsOnly"
+			icon "AscendancyIconsMainUser"
 			text "IDSICOLobbyScreenGameForFriendsOnly"
 		Anyone
-			icon "ICOLobbyScreenGameForAnyone"
-			text "IDSICOLobbyScreenGameForAnyone"				
+			icon "AscendancyIconsMainUsers"
+			text "IDSICOLobbyScreenGameForAnyone"			
 	testGameHostingStatusWindow
-		area [285, 562, 220, 30]
+		area [235, 562, 220, 30]
 		fontId "Label"
 		isTestingStringId "IDSICOLobbyScreenIsGameHostingTestActive"		
 	fileNameListLabel
-		area [50, 110 , 220, 30]
-		fontId "WindowSubTitle"
+		area [0, 90 , 220, 30]
+		fontId "ButtonLabel"
 	fileNameList
-		area [50, 152 , 220, 510]
+		area [0, 122 , 220, 510]
 		itemGap 3
 	selectGameSaveTypeWindow
-		area [50, 673, 220, 46]		
+		area [0, 635, 220, 46]		
 	galaxyInfoWindow
-		area [285, 152, 455, 254]	
+		area [235, 122, 455, 254]	
 joinGameContentWindow
-	tabButtonIcon "ICOLobbyScreenJoinGameTabButton"
+	tabButtonIcon "AscendancyIconsMainAddUser"
 	tabButtonText "IDSICOLobbyScreenJoinGameTabButton"
 	gamesAvailableToJoinCountLabel
-		area [520, 115, 455, 30]
+		area [470, 115, 455, 30]
 		fontId "Label"		
 	gamesStartedCountLabel
-		area [520, 85, 455, 30]
+		area [470, 85, 455, 30]
 		fontId "Label"			
 	joinGameButton
-		area [520, 672, 220 , 46]
+		area [470, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"		
-		icon "ICOLobbyScreenJoinGameButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"		
+		icon "AscendancyIconsMainForward"
 		text "IDSICOLobbyScreenJoinGameButton"			
 	refreshButton
-		area [50, 672, 220, 46]
+		area [0, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"		
-		icon "ICOLobbyScreenRefreshGameNameListButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"		
+		icon "AscendancyIconsMainReset"
 		text "IDSICOLobbyScreenRefreshGameNameListButton"			
 	gameNameTextListLabel
-		area [50, 110, 220, 30]
-		fontId "WindowSubTitle"
+		area [0, 90, 220, 30]
+		fontId "ButtonLabel"
 		text "IDSICOLobbyScreenGameNameTextListLabel"
 	gameNameTextList
-		area [50 , 152 , 220, 510]
+		area [0 , 122 , 220, 510]
 		itemGap 3
 	gameNameTextEntryLabel
-		area [285, 152, 100, 30]
+		area [235, 152, 100, 30]
 		fontId "Label"
 		text "IDSICOLobbyScreenGameNameTextEntryLabel"
 	gameNameTextEntry
-		area [415, 152, 315, 30]
+		area [315, 152, 250, 30]
 		labelWidth 0
 		labelText ""
 	friendsOnlyButton
-		area [285, 672, 220 , 46]
+		area [235, 700, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"					
 		FriendsOnly
-			icon "ICOLobbyScreenGameForFriendsOnly"
+			icon "AscendancyIconsMainUser"
 			text "IDSICOLobbyScreenGameHostedByFriendsOnly"
 		Anyone
-			icon "ICOLobbyScreenGameForAnyone"
+			icon "AscendancyIconsMainUsers"
 			text "IDSICOLobbyScreenGameHostedByAnyone"		
 	minPlayerCountTextEntry
-		area [285, 622, 110, 32]
+		area [0, 660, 110, 32]
 		labelWidth 70
 		labelText "IDSICOLobbyScreenPlayerRangeFilter"	
 	maxPlayerCountTextEntry
-		area [405, 622, 63, 32]
+		area [120, 660, 63, 32]
 		labelWidth 23
 		labelText "IDSICOLobbyScreenPlayerRangeFilter2"	
 	filtersLabel
-		area [285, 582, 110, 32]
-		fontId "WindowSubTitle"
+		area [0, 630, 110, 32]
+		fontId "ButtonLabel"
 		text "IDSICOLobbyScreenJoinGameFiltersLabel"	
 	customGameInfoWindow
-		area [285, 181, 500, 500]
+		area [235, 195, 500, 500]
 		humanPlayerCountAreas
 			area [255, 120, 80, 30]
 			labelOffsetFromLeft 0
@@ -502,19 +502,19 @@ joinGameContentWindow
 		victorySpeedStringId-Fast "IDSShipPhysicsSpeedFast"
 		victorySpeedStringId-Faster "IDSShipPhysicsSpeedFaster"
 hostSetupContentWindow
-	tabButtonIcon "ICOLobbyScreenHostSetupTabButton"
+	tabButtonIcon "AscendancyIconsMainComputer"
 	tabButtonText "IDSICOLobbyScreenHostSetupTabButton"
 	hostGameOnProxyServerCheckBox
 		area [49, 248, 30, 46]
 		text "IDSICOLobbyScreenHostGameOnProxyServerCheckBox"		
 	testHostCapabilityButton
-		area [49, 152, 220 , 46]
+		area [49, 132, 220 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 0
+		iconOffsetFromLeft 7
 		textOffsetFromLeft 70
-		underlay "ScreenButtonUnderlayLarge"
-		overlay "ScreenButtonOverlayLarge"				
-		icon "ICOLobbyScreenTestHostCapabilityButton"
+		underlay "AscendancyMenuScreenButtonIconLarge"
+		overlay "Null"				
+		icon "AscendancyIconsMainForward"
 		text "IDSICOLobbyScreenHostTestHostCapabilityButton"				
 	hostCapabilityLabel
 		area [49, 204, 30, 46]
@@ -528,10 +528,10 @@ hostSetupContentWindow
 	hostCapabilityStatusStringOutsideClientsCanJoin "IDSICOLobbyScreenHostCapabilityStatusStringCanJoin"
 	hostCapabilityStatusStringOutsideClientsCannotJoin "IDSICOLobbyScreenHostCapabilityStatusStringOutsideClientsCannotJoin"
 playerSetupContentWindow
-	tabButtonIcon "MultiPlayerSetupScreenPlayerSetupTabButton"
+	tabButtonIcon "AscendancyIconsMainUser"
 	tabButtonText "IDSMultiPlayerSetupScreenPlayerSetupTabButton"
 galaxyRandomizer
-	tabButtonIcon "MultiPlayerSetupScreenGalaxyRandomizerTabButton"
+	tabButtonIcon "AscendancyIconsMainDesign"
 	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
 	galaxyRandomizerWindow
-		area [50, 48, 700, 700]
+		area [0, 18, 700, 700]

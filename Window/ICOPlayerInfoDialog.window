@@ -1,55 +1,55 @@
 TXT
-backdropDimPercentage 0.7
-backdropBrush "PlayerInfoScreenBackdrop"
-titleOverlayBrush "PlayerInfoScreenTitleOverlay"
-size [693 , 645]
-contentRefArea [93, 100, 508, 335]
-titleRefArea [90, 40, 508, 30]
+backdropDimPercentage 0.9
+backdropBrush "AscendancyBackdropDialogSelect"
+titleOverlayBrush "PlayerThemePickerScreenTitleOverlay"
+size [3000 , 600]
+contentRefArea [1220, 200, 371, 207]
+titleRefArea [1200, 60, 371, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 cancelButton
-	area [343, 528, 220, 46]
+	area [1450, 525, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"	
-	icon "DialogScreenCloseButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"	
+	icon "AscendancyIconsMainCancel"
 	text "IDSICOPlayerInfoDialogCancelButton"
 addFriendButton
-	area [0, 323, 220, 46]
+	area [0, 265, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "ICOLobbyScreenManageFriendsAddFriendButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"					
+	icon "AscendancyIconsMainAddUser"
 	text "IDSICOLobbyScreenManageFriendsAddFriendButton"		
 joinChannelButton
-	area [0, 375, 220, 46]
+	area [230, 265, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "ICOLobbyScreenManageFriendsJoinFriendChannelButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"		
+	icon "AscendancyIconsMainChat"
 	text "IDSICOLobbyScreenManageFriendsJoinFriendChannelButton"	
 joinGameButton
-	area [0, 428, 220, 46]
+	area [230, 205, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "ICOLobbyScreenManageFriendsJoinFriendGameButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"			
+	icon "AscendancyIconsMainGamepad"
 	text "IDSICOLobbyScreenManageFriendsJoinFriendGameButton"
 sendWhisperButton
-	area [0, 271, 220, 46]
+	area [0, 205, 220, 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"				
-	icon "ICOLobbyScreenManageFriendsSendWhisperButton"
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"					
+	icon "AscendancyIconsMainChat"
 	text "IDSICOLobbyScreenManageFriendsSendWhisperButton"		
 playerInfoWindow
 	area [255, 50, 513, 335]

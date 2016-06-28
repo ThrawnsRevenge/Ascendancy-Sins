@@ -1,47 +1,47 @@
 TXT
 tabWindow
 	topLeftOffset [0, -20]
-	buttonTopLeftOffset [33, 97]
-	buttonSize [ 170 , 52 ]
-	buttonIndicatorArea [148, -2, 72, 52]
-	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	buttonTopLeftOffset [ 15 , 100]
+	buttonSize [ 75 , 75 ]
+	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSICOLoginScreenTitle"
 	titleFontId "TabbedScreenTitle"
 	titleArea [-5000, -5000, 190, 40]
 	titleOverlayArea [21, 33, 190, 40]
 	titleOverlay "TabWindowTitleOverlay"
-	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropArea [0, 0, 300, 808]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
-	contentArea [230, 0, 814, 808]
+	contentArea [260, 0, 714, 808]
 	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
 	buttonsBackdropDetail ""
-	contentBackdrop "AscendancyBackdropMenuInternetGame"
+	contentBackdrop "AscendancyBackdropMenuSinglePlayer"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 40
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
 	activeButtonInternals
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 40
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayActive"
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonActive"
 		overlay "MenuButtonOverlay"
 	closeButton
-		area [33, 724, 170 , 46]
+		area [15, 700, 75 , 75]
 		fontId "ButtonLabel"
-		iconOffsetFromLeft 40
-		textOffsetFromLeft 50
-		underlay "TabButtonUnderlayNonActive"
+		iconOffsetFromLeft -8
+		textOffsetFromLeft 85
+		underlay "AscendancyMenuButtonNonActive"
 		overlay "MenuButtonOverlay"
-		icon "ScreenBackButton"
+		icon "AscendancyIconsMainBack"
 		text "IDSICOLoginScreenCloseButton"
 textEntryDef
 	labelFontId "Label"
 	textEntryFontId "TextEntry"
 loginContentWindow
-	tabButtonIcon "ICOLoginScreenLoginTabButton"
+	tabButtonIcon "AscendancyIconsMainUser"
 	tabButtonText "IDSICOLoginScreenLoginTabButton"
 	accountNameTextEntry
 		area [50, 152, 530, 30]
