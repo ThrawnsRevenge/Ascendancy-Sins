@@ -500,21 +500,21 @@ hudSkinData
 	fleetIcon "MainViewIconFleetTech9"
 	Bandbox "BANDBOX"
 	FogOfWar "FogOfWar"
-	ActionGridSlotBackdrop "ActionGridSlotBackdropTech"
-	BottomWindowBackdrop "BottomWindowBackdropTech"
-	BottomWindowOverlay "BottomWindowOverlayTech"
-	TopWindowBackdrop "TopWindowBackdropTech"
-	TopWindowOverlay "TopWindowOverlayTech"
-	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropTech"
-	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdropTech"
-	TopWindowLeftCapLowRes "TopWindowLeftCapLowResTech"
-	TopWindowLeftCapHighRes "TopWindowLeftCapHighResTech"
-	TopWindowRightCapLowRes "TopWindowRightCapLowResTech"
-	TopWindowRightCapHighRes "TopWindowRightCapHighResTech"
-	EmpireWindowBackdrop "EmpireWindowOptionsWindowBackdropTech"
-	EmpireWindowHighResBackdrop "EmpireWindowOptionsWindowHighResBackdropTech"
-	QuickMarketBackdrop "QuickMarketBackdropTech"
-	QuickMarketBackdropNoPirates "QuickMarketBackdropNoPiratesTech"
+	ActionGridSlotBackdrop "Null"
+	BottomWindowBackdrop "AscendancySkinsNewRepublicBottomBar"
+	BottomWindowOverlay "Null"
+	TopWindowBackdrop "AscendancySkinsNewRepublicTopBar"
+	TopWindowOverlay "Null"
+	InfoCardAttachedToBottomBackdrop "AscendancySkinsNewRepublicInfoCard"
+	InfoCardAttachedToScreenEdgeBackdrop "AscendancyMenuToolTip"
+	TopWindowLeftCapLowRes "AscendancySkinsNewRepublicLeftCap"
+	TopWindowLeftCapHighRes "AscendancySkinsNewRepublicLeftCap"
+	TopWindowRightCapLowRes "AscendancySkinsNewRepublicRightCap"
+	TopWindowRightCapHighRes "AscendancySkinsNewRepublicRightCap"
+	EmpireWindowBackdrop "AscendancySkinsNewRepublicEmpireWindow"
+	EmpireWindowHighResBackdrop "AscendancySkinsNewRepublicEmpireWindow"
+	QuickMarketBackdrop "AscendancySkinsNewRepublicQuickMarket"
+	QuickMarketBackdropNoPirates "AscendancySkinsNewRepublicQuickMarket"
 	UnknownPlanetHUDIcon "AscendancyInfoCardPlanetUnknown"
 	UnknownPlanetHUDSmallIcon "AscendancyEmpireTreePlanetUnknown"
 	UnknownPlanetInfoCardIcon "AscendancyInfoCardPlanetUnknown"
@@ -583,12 +583,12 @@ hudSkinData
 	ResourceInfoCardIconCredits "InfoCardIconCredits"
 	ResourceInfoCardIconMetal "InfoCardIconMetal"
 	ResourceInfoCardIconCrystal "InfoCardIconCrystal"
-	ResearchFieldButtonIconCombat "ResearchScreenTabButtonCombatTech"
-	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefenseTech"
-	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatTech"
-	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyTech"
-	ResearchFieldButtonIconFleet "Civilopedia_Icon"
-	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
+	ResearchFieldButtonIconCombat "AscendancyIconsMainSwords"
+	ResearchFieldButtonIconDefense "AscendancyIconsMainShield"
+	ResearchFieldButtonIconNonCombat "AscendancyIconsMainPlanet"
+	ResearchFieldButtonIconDiplomacy "AscendancyIconsMainDiplomacy"
+	ResearchFieldButtonIconFleet "AscendancyIconsMainInfo"
+	ResearchFieldButtonIconArtifact "AscendancyIconsMainEmperor"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
 	QuestStatusIconKillCapitalShips "HUDIconQuestKillCapitalShips"
@@ -689,19 +689,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 230 ]
+			area [ 0 , 100 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Fleet"
 		block
-			area [ 30 , 260 , 710 , 230 ]
+			area [ 0 , 340 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Subsystems"
 		block
-			area [ 30 , 500, 710 , 210 ]
+			area [ 0 , 580, 710 , 150 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
@@ -709,7 +709,7 @@ researchScreenData
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 20 , 710 , 310 ]
+			area [ 0 , 100 , 710 , 310 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
@@ -717,19 +717,19 @@ researchScreenData
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 230 ]
+			area [ 0 , 100 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Economy"
 		block
-			area [ 30 , 260 , 710 , 230 ]
+			area [ 0 , 340 , 710 , 230 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Background"
 			title ""
 			picture "NR_Research_Block_Development"
 		block
-			area [ 30 , 500 , 710 , 210 ]
+			area [ 0 , 580 , 710 , 150 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
@@ -737,7 +737,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 20 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 210 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""
@@ -745,16 +745,16 @@ researchScreenData
 	Artifact
 		blockCount 1
 		block
-			area [ 9 , 49 , 776 , 631 ]
-			backdrop "ResearchScreenBlockBackdropArtifact0Tech"
+			area [ -50 , 49 , 776 , 631 ]
+			backdrop "Null"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""
 	Fleet
 		blockCount 1
 		block
-			area [ 0 , 10 , 800 , 700 ]
-			backdrop "Civilopedia"
+			area [ 0 , 100 , 800 , 700 ]
+			backdrop "AscendancyQuickReference"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""

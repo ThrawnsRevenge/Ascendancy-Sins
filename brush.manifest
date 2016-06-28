@@ -1,5 +1,5 @@
 TXT
-brushFileCount 34
+brushFileCount 38
 brushFile "Achievements.brushes"
 brushFile "GameEvent.brushes"
 brushFile "GameOver.brushes"
@@ -34,3 +34,7 @@ brushFile "AscendancyBackdrops.brushes"
 brushFile "AscendancyUI.brushes"
 brushFile "AscendancyPlanets.brushes"
 brushFile "AscendancyIcons.brushes"
+brushFile "AscendancySkinsNewRepublic.brushes"
+brushFile "AscendancySkinsEmpireOfTheHand.brushes"
+brushFile "AscendancySkinsImperialRemnant.brushes"
+brushFile "AscendancySkinsPentastarAlignment.brushes"

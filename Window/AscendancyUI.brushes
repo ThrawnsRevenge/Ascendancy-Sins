@@ -1,6 +1,6 @@
 TXT 
 onlyLoadOnDemand FALSE
-brushCount 28
+brushCount 29
 brush
   name "AscendancyScenarioPictureUnderlay"
   content "Simple"
@@ -246,3 +246,18 @@ brush
   content "Simple"
   fileName "AscendancyUI"
   pixelBox [ 0 , 568 , 550 , 300 ]
+brush
+  name "AscendancyMenuToolTip"
+  content "Margins"
+  stretchMargins
+    left 10
+    right 10
+    top 10
+    bottom 10
+  contentMargins
+    left 10
+    right 10
+    top 5
+    bottom 5
+  fileName "AscendancyUI"
+  pixelBox [ 550 , 568 , 23 , 286 ]

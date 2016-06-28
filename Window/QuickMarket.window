@@ -14,7 +14,7 @@ metalWindow
 		overlay "Null"
 		icon "Null"
 	sellButton
-		area [76, 1, 73, 24]
+		area [76, 0, 73, 24]
 		fontId "Label"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 32
@@ -22,7 +22,7 @@ metalWindow
 		overlay "Null"
 		icon "Null"
 crystalWindow
-	area [29, 30, 148, 24]
+	area [29, 29, 148, 24]
 	buyButton
 		area [0, 0, 73, 24]
 		fontId "Label"
@@ -32,7 +32,7 @@ crystalWindow
 		overlay "Null"
 		icon "Null"
 	sellButton
-		area [76, 1, 73, 24]
+		area [76, 0, 73, 24]
 		fontId "Label"
 		iconOffsetFromLeft 0
 		textOffsetFromLeft 32

@@ -1,0 +1,48 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 8
+brush
+  name "AscendancySkinsNewRepublicBottomBar"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 107 , 381 , 810 , 150 ]
+brush
+  name "AscendancySkinsNewRepublicTopBar"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 285 , -2 , 455 , 85 ]
+brush
+  name "AscendancySkinsNewRepublicInfoCard"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 12
+		right 12
+		top 14
+		bottom 14
+	fileName "AscendancySkinNR"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
+  name "AscendancySkinsNewRepublicLeftCap"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+  name "AscendancySkinsNewRepublicRightCap"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+  name "AscendancySkinsNewRepublicEmpireWindow"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+  name "AscendancySkinsNewRepublicQuickMarket"
+  content "Simple"
+  fileName "AscendancySkinNR"
+  pixelBox [ 781 , 0 , 178 , 63 ]

@@ -1,0 +1,48 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 8
+brush
+  name "AscendancySkinsPentastarAlignmentBottomBar"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 107 , 381 , 810 , 150 ]
+brush
+  name "AscendancySkinsPentastarAlignmentTopBar"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 285 , -2 , 455 , 85 ]
+brush
+  name "AscendancySkinsPentastarAlignmentInfoCard"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 12
+		right 12
+		top 14
+		bottom 14
+	fileName "AscendancySkinPA"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
+  name "AscendancySkinsPentastarAlignmentLeftCap"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+  name "AscendancySkinsPentastarAlignmentRightCap"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+  name "AscendancySkinsPentastarAlignmentEmpireWindow"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+  name "AscendancySkinsPentastarAlignmentQuickMarket"
+  content "Simple"
+  fileName "AscendancySkinPA"
+  pixelBox [ 781 , 0 , 178 , 63 ]

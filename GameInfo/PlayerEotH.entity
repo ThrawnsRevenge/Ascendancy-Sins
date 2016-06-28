@@ -481,21 +481,21 @@ hudSkinData
 	fleetIcon "MainViewIconFleetPhase9"
 	Bandbox "BANDBOX"
 	FogOfWar "FogOfWar"
-	ActionGridSlotBackdrop "ActionGridSlotBackdropPhase"
-	BottomWindowBackdrop "BottomWindowBackdropPhase"
-	BottomWindowOverlay "BottomWindowOverlayPhase"
-	TopWindowBackdrop "TopWindowBackdropPhase"
-	TopWindowOverlay "TopWindowOverlayPhase"
-	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropPhase"
-	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdropPhase"
-	TopWindowLeftCapLowRes "TopWindowLeftCapLowResPhase"
-	TopWindowLeftCapHighRes "TopWindowLeftCapHighResPhase"
-	TopWindowRightCapLowRes "TopWindowRightCapLowResPhase"
-	TopWindowRightCapHighRes "TopWindowRightCapHighResPhase"
-	EmpireWindowBackdrop "EmpireWindowOptionsWindowBackdropPhase"
-	EmpireWindowHighResBackdrop "EmpireWindowOptionsWindowHighResBackdropPhase"
-	QuickMarketBackdrop "QuickMarketBackdropPhase"
-	QuickMarketBackdropNoPirates "QuickMarketBackdropNoPiratesPhase"
+	ActionGridSlotBackdrop "Null"
+	BottomWindowBackdrop "AscendancySkinsEmpireOfTheHandBottomBar"
+	BottomWindowOverlay "Null"
+	TopWindowBackdrop "AscendancySkinsEmpireOfTheHandTopBar"
+	TopWindowOverlay "Null"
+	InfoCardAttachedToBottomBackdrop "AscendancySkinsEmpireOfTheHandInfoCard"
+	InfoCardAttachedToScreenEdgeBackdrop "AscendancyMenuToolTip"
+	TopWindowLeftCapLowRes "AscendancySkinsEmpireOfTheHandLeftCap"
+	TopWindowLeftCapHighRes "AscendancySkinsEmpireOfTheHandLeftCap"
+	TopWindowRightCapLowRes "AscendancySkinsEmpireOfTheHandRightCap"
+	TopWindowRightCapHighRes "AscendancySkinsEmpireOfTheHandRightCap"
+	EmpireWindowBackdrop "AscendancySkinsEmpireOfTheHandEmpireWindow"
+	EmpireWindowHighResBackdrop "AscendancySkinsEmpireOfTheHandEmpireWindow"
+	QuickMarketBackdrop "AscendancySkinsEmpireOfTheHandQuickMarket"
+	QuickMarketBackdropNoPirates "AscendancySkinsEmpireOfTheHandQuickMarket"
 	UnknownPlanetHUDIcon "AscendancyInfoCardPlanetUnknown"
 	UnknownPlanetHUDSmallIcon "AscendancyEmpireTreePlanetUnknown"
 	UnknownPlanetInfoCardIcon "AscendancyInfoCardPlanetUnknown"
@@ -564,12 +564,12 @@ hudSkinData
 	ResourceInfoCardIconCredits "InfoCardIconCredits"
 	ResourceInfoCardIconMetal "InfoCardIconMetal"
 	ResourceInfoCardIconCrystal "InfoCardIconCrystal"
-	ResearchFieldButtonIconCombat "ResearchScreenTabButtonCombatPhase"
-	ResearchFieldButtonIconDefense "ResearchScreenTabButtonDefensePhase"
-	ResearchFieldButtonIconNonCombat "ResearchScreenTabButtonNonCombatPhase"
-	ResearchFieldButtonIconDiplomacy "ResearchScreenTabButtonDiplomacyPhase"
-	ResearchFieldButtonIconFleet "Civilopedia_Icon"
-	ResearchFieldButtonIconArtifact "ResearchScreenTabButtonArtifact"
+	ResearchFieldButtonIconCombat "AscendancyIconsMainSwords"
+	ResearchFieldButtonIconDefense "AscendancyIconsMainShield"
+	ResearchFieldButtonIconNonCombat "AscendancyIconsMainPlanet"
+	ResearchFieldButtonIconDiplomacy "AscendancyIconsMainDiplomacy"
+	ResearchFieldButtonIconFleet "AscendancyIconsMainInfo"
+	ResearchFieldButtonIconArtifact "AscendancyIconsMainEmperor"
 	QuestStatusIconBombAnyPlanet "HUDIconQuestBombAnyPlanet"
 	QuestStatusIconKillShips "HUDIconQuestKillShips"
 	QuestStatusIconKillCapitalShips "HUDIconQuestKillCapitalShips"
@@ -670,19 +670,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 250 ]
+			area [ 0 , 100 , 710 , 250 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Fleet"
 		block
-			area [ 30 , 280 , 710 , 170 ]
+			area [ 0 , 360 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Subsystems"
 		block
-			area [ 30 , 460 , 710 , 150 ]
+			area [ 0 , 540 , 710 , 150 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
@@ -690,7 +690,7 @@ researchScreenData
 	Defense
 		blockCount 1
 		block
-			area [ 30 , 20 , 710 , 260 ]
+			area [ 0 , 100 , 710 , 260 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
@@ -698,19 +698,19 @@ researchScreenData
 	NonCombat
 		blockCount 3
 		block
-			area [ 30 , 20 , 710 , 230 ]
+			area [ 0 , 100 , 710 , 230 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Economy"
 		block
-			area [ 30 , 260 , 710 , 170 ]
+			area [ 0 , 340 , 710 , 170 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Background"
 			title ""
 			picture "EOTH_Research_Block_Development"
 		block
-			area [ 30 , 440 , 710 , 210 ]
+			area [ 0 , 520 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
@@ -718,7 +718,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 30 , 50 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 210 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
@@ -726,16 +726,16 @@ researchScreenData
 	Artifact
 		blockCount 1
 		block
-			area [ 9 , 49 , 776 , 631 ]
-			backdrop "ResearchScreenBlockBackdropArtifact0Phase"
+			area [ -50 , 49 , 776 , 631 ]
+			backdrop "Null"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""
 	Fleet
 		blockCount 1
 		block
-			area [ 0 , 10 , 800 , 700 ]
-			backdrop "Civilopedia"
+			area [ 0 , 100 , 800 , 700 ]
+			backdrop "AscendancyQuickReference"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""

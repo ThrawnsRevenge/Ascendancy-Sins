@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS3_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS3_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 3 , 2 ]
+	pos [ 3 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1

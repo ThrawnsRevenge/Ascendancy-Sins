@@ -1,0 +1,48 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 8
+brush
+  name "AscendancySkinsEmpireOfTheHandBottomBar"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 107 , 381 , 810 , 150 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandTopBar"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 285 , -2 , 455 , 85 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandInfoCard"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 12
+		right 12
+		top 14
+		bottom 14
+	fileName "AscendancySkinEOTH"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandLeftCap"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandRightCap"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandEmpireWindow"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+  name "AscendancySkinsEmpireOfTheHandQuickMarket"
+  content "Simple"
+  fileName "AscendancySkinEOTH"
+  pixelBox [ 781 , 0 , 178 , 63 ]

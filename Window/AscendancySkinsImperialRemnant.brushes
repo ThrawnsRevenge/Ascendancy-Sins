@@ -1,0 +1,48 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 8
+brush
+  name "AscendancySkinsImperialRemnantBottomBar"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 107 , 381 , 810 , 150 ]
+brush
+  name "AscendancySkinsImperialRemnantTopBar"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 285 , -2 , 455 , 85 ]
+brush
+  name "AscendancySkinsImperialRemnantInfoCard"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 12
+		right 12
+		top 14
+		bottom 14
+	fileName "AscendancySkinIR"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
+  name "AscendancySkinsImperialRemnantLeftCap"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+  name "AscendancySkinsImperialRemnantRightCap"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+  name "AscendancySkinsImperialRemnantEmpireWindow"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+  name "AscendancySkinsImperialRemnantQuickMarket"
+  content "Simple"
+  fileName "AscendancySkinIR"
+  pixelBox [ 781 , 0 , 178 , 63 ]
