@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "AntiModule"
-statCountType "FrigateAntiModule"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_VSDI"
 picture "CAPITALSHIPPICTURE_VSDI"
 NameStringID "IDS_CAPITALSHIP_VSDI_NAME"

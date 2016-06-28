@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "AntiModule"
-statCountType "FrigateAntiModule"
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_WARLORD_GUNBOAT"
 picture "PICTURE_FRIGATE_WARLORD"
 NameStringID "IDS_FRIGATE_WARLORD_NAME"
