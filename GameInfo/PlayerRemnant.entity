@@ -58,12 +58,10 @@ entities
 			entityDefName "Remnant_Dreadnaught"
 			entityDefName "Remnant_SentinelConstructor"
 		NotOnPage
-			count 5
-			entityDefName "Remnant_AITrap"
+			count 3
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
-			entityDefName "Remnant_FrigateResearch"
 	researchInfo
 		count 94
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"

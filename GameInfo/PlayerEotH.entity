@@ -54,12 +54,10 @@ entities
 			entityDefName "EotH_Warlord"
 			entityDefName "EotH_ConsenConstructor"
 		NotOnPage
-			count 5
-			entityDefName "Remnant_AITrap"
+			count 3
 			entityDefName "EotH_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
-			entityDefName "Remnant_FrigateResearch"
 	researchInfo
 		count 82
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"

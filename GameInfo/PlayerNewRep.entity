@@ -59,14 +59,12 @@ entities
 			entityDefName "NewRep_Proficient"
 			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
-			count 7
+			count 5
 			entityDefName "NewRep_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
-			entityDefName "Remnant_AITrap"
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
-			entityDefName "Remnant_FrigateResearch"
 	researchInfo
 		count 88
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
