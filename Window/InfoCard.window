@@ -35,7 +35,7 @@ iconOverlayDef
 	partiallyStacked ""
 	almostFullyStacked ""
 	fullyStacked ""
-	fleetLeader "HUDIconEntityOverlayFleetLeader"
+	fleetLeader "AscendancyIconsFleetLeader"
 stringInfoIconSizeDefault [22, 12]
 stringInfoTextSizeCredits [35, 12]
 stringInfoTextSizeResource [30, 12]

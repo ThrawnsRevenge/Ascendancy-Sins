@@ -31,7 +31,7 @@ iconOverlayDef
 	partiallyStacked "HUDIconEntityOverlayPartiallyStacked"
 	almostFullyStacked "HUDIconEntityOverlayAlmostFullyStacked"
 	fullyStacked "HUDIconEntityOverlayFullyStacked"
-	fleetLeader "HUDIconEntityOverlayFleetLeader"
+	fleetLeader "AscendancyIconsFleetLeader"
 optionsWindowDef
 	toggleSelectionMenuButton
 		area [38, 2, 33, 24]

@@ -1,55 +1,46 @@
 TXT
 pipCloud(Modules)
-	segmentCount 8
+	segmentCount 5
 	segmentLayout
 		textureName "AscendancyPlanetsMainView"
-		startTopLeft [497 , 331]
-		width 4
-		height 14
-		rowItemCount 8
-		horizontalStride 4
+		startTopLeft [440 , 285]
+		width 6
+		height 6
+		rowItemCount 1
+		horizontalStride 14
 		verticalStride 0
-	segmentOffset [10, -4]
-	segmentOffset [14, -4]
-	segmentOffset [18, -4]
-	segmentOffset [22, -4]
-	segmentOffset [26, -4]
-	segmentOffset [30, -4]
-	segmentOffset [34, -4]
-	segmentOffset [38, -4]
+	segmentOffset [11, 0]
+	segmentOffset [16, 2]
+	segmentOffset [21, 3]
+	segmentOffset [26, 2]
+	segmentOffset [31, 0]
 pipCloud(FriendlyShips)
-	segmentCount 8
+	segmentCount 5
 	segmentLayout
 		textureName "AscendancyPlanetsMainView"
-		startTopLeft [476 , 316]
-		width 14
-		height 4
+		startTopLeft [440 , 285]
+		width 6
+		height 6
 		rowItemCount 1
-		horizontalStride 0
-		verticalStride -4
-	segmentOffset [11, 38]
-	segmentOffset [11, 34]
-	segmentOffset [11, 30]
-	segmentOffset [11, 26]
-	segmentOffset [11, 22]
-	segmentOffset [11, 18]
-	segmentOffset [11, 14]
-	segmentOffset [11, 10]
+		horizontalStride 14
+		verticalStride 0
+	segmentOffset [15, 33]
+	segmentOffset [13, 28]
+	segmentOffset [12, 23]
+	segmentOffset [13, 18]
+	segmentOffset [16, 13]
 pipCloud(EnemyShips)
-	segmentCount 8
+	segmentCount 5
 	segmentLayout
 		textureName "AscendancyPlanetsMainView"
-		startTopLeft [536 , 316]
-		width 14
-		height 4
+		startTopLeft [440 , 285]
+		width 6
+		height 6
 		rowItemCount 1
-		horizontalStride 0
-		verticalStride -4
-	segmentOffset [0, 38]
-	segmentOffset [0, 34]
-	segmentOffset [0, 30]
-	segmentOffset [0, 26]
-	segmentOffset [0, 22]
-	segmentOffset [0, 18]
-	segmentOffset [0, 14]
-	segmentOffset [0, 10]
+		horizontalStride 14
+		verticalStride 0
+	segmentOffset [4, 33]
+	segmentOffset [6, 28]
+	segmentOffset [7, 23]
+	segmentOffset [6, 18]
+	segmentOffset [4, 13]

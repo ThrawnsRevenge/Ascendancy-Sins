@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 97 
+brushCount 98
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -1435,3 +1435,8 @@ brush
   content "Simple"
   fileName "AscendancyIconsMisc"
   pixelBox [ 40 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsFleetLeader"
+  content "Simple"
+  fileName "AscendancyUI"
+  pixelBox [ 750 , 173 , 40 , 40]
