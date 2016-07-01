@@ -5,7 +5,7 @@ brush
   name "AscendancySkinsImperialRemnantBottomBar"
   content "Simple"
   fileName "AscendancySkinIR"
-  pixelBox [ 107 , 381 , 810 , 150 ]
+  pixelBox [ 107 , 380 , 810 , 150 ]
 brush
   name "AscendancySkinsImperialRemnantTopBar"
   content "Simple"

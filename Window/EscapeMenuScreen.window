@@ -44,7 +44,7 @@ quitGame
 	tabButtonIcon "AscendancyIconsMainPower"
 	tabButtonText "IDSEscapeMenuScreenQuitGameTabButton"
 	quitGameButton
-		area [0, 200, 220, 75]
+		area [50, 200, 220, 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 5
 		textOffsetFromLeft 70
@@ -53,7 +53,7 @@ quitGame
 		icon "AscendancyIconsMainPower"
 		text "IDSEscapeMenuScreenQuitGameButton"
 	surrenderButton
-		area [240, 200, 220, 75]
+		area [290, 200, 220, 75]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 5
 		textOffsetFromLeft 70

@@ -14,11 +14,11 @@ playerColor:2 ff854800
 playerColor:3 ff7fa376
 playerColor:4 ff007037
 playerColor:5 ffffde00
-playerColor:6 ff0044AE
+playerColor:6 ff0080ff
 playerColor:7 ffFF87FF
 playerColor:8 ff8822B7
 playerColor:9 ff00FFFF
-playerColor:NPC ffbdbdbd
+playerColor:NPC ffdddddd
 chatTextContext:GameSystemMessage ffFFC705
 chatTextContext:GameMessageToAllSent ffddeeff
 chatTextContext:GameMessageToAllReceived ffddeeff

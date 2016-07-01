@@ -31,7 +31,7 @@ iconOverlayDef
 	partiallyStacked ""
 	almostFullyStacked ""
 	fullyStacked ""
-	fleetLeader ""
+	fleetLeader "AscendancyIconsFleetLeader"
 solarSystemIconPlanet "MAINVIEWICON_SOLARSYSTEM_PLANET"
 solarSystemIconCapitalShip ""
 solarSystemIconFrigate ""

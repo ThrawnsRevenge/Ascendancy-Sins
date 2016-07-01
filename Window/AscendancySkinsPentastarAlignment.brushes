@@ -5,7 +5,7 @@ brush
   name "AscendancySkinsPentastarAlignmentBottomBar"
   content "Simple"
   fileName "AscendancySkinPA"
-  pixelBox [ 107 , 381 , 810 , 150 ]
+  pixelBox [ 107 , 380 , 810 , 150 ]
 brush
   name "AscendancySkinsPentastarAlignmentTopBar"
   content "Simple"

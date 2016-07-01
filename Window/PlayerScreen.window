@@ -3,7 +3,7 @@ tabWindow
 	topLeftOffset [0, 0]
 	buttonTopLeftOffset [ 55 , 90]
 	buttonSize [ 50 , 50 ]
-	buttonIndicatorArea [0, 0, 0, 0]
+	buttonIndicatorArea [-5, 0, 10, 50]
 	buttonIndicatorBackdrop "Null"
 	titleStringId "IDSPlayerScreenTitle"
 	titleFontId "TabbedScreenTitle"

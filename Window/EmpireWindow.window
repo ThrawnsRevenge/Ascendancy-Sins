@@ -2,7 +2,7 @@ TXT
 width 200
 maxRowIconCount 7
 rowHeight 40
-itemOffsetFromTop 30
+itemOffsetFromTop 10
 rowScrollBarUnitHeight 20
 scrollBarOffsetFromLeft 1
 scrollBarOffsetFromTop 39
@@ -12,11 +12,11 @@ parentIconIndent 40
 childIconIndent 40
 iconTextSpacing 10
 iconIconSpacing 0
-tutorialAreaHeightOffset -75
+tutorialAreaHeightOffset -5000
 toggleButtonSize [30, 30]
 iconSize [30, 30]
 textSize [200, 30]
-nameFontId "PlanetNameEmpireWindow"
+nameFontId "ButtonLabel"
 toggleButtonIconOn "AscendancyIconsMainUp"
 toggleButtonIconOff "AscendancyIconsMainDown"
 isPinnedIconOverlay "EmpireWindowIsPinnedIconOverlay"
@@ -34,15 +34,15 @@ iconOverlayDef
 	fleetLeader "AscendancyIconsFleetLeader"
 optionsWindowDef
 	toggleSelectionMenuButton
-		area [38, 2, 33, 24]
+		area [83, 2, 33, 24]
 		openIcon "EmpireWindowOptionsWindowSelectionMenuOpenButton"
 		closedIcon "EmpireWindowOptionsWindowSelectionMenuClosedButton"
 		infoCardIcon "EmpireWindowOptionsWindowSelectionMenuInfoCardIcon"
 	toggleIsPinnedButton
-		area [1, 2, 33, 24]
+		area [46, 2, 33, 24]
 		icon "EmpireWindowOptionsWindowToggleIsPinnedButton"
 	toggleIsStackedButton
-		area [75, 2, 33, 24]
+		area [120, 2, 33, 24]
 		isStackedIcon "EmpireWindowOptionsWindowIsStackedButton"
 		isNotStackedIcon "EmpireWindowOptionsWindowIsNotStackedButton"
 selectionWindowDef

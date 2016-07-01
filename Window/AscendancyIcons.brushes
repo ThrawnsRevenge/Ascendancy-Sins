@@ -1371,7 +1371,7 @@ brush
     fileName "AscendancyIconsVictoryOptionsToggle"
     pixelBox [ 200 , 160 , 40 , 40 ]
 brush
-  name "AscendancyIconsNumber1"
+  name "AscendancyIconsNumber1" 
   content "Simple"
   fileName "AscendancyUI"
   pixelBox [ 550 , 173 , 40 , 40 ]

@@ -111,13 +111,13 @@ animation-PirateTabButtonAttentionIndicator
 	framesPerSecond 16
 animation-PlayerTabButtonAttentionIndicator
 	numFrames 16
-	textureName "Animation_ButtonAttention.tga"
-	startTopLeft [1,1]
-	width 167
-	height 41
+	textureName "AscendancyButtonAttentionAnimation.tga"
+	startTopLeft [0,0]
+	width 10
+	height 50
 	numPerRow 4
-	horizontalStride 168
-	verticalStride 42
+	horizontalStride 10
+	verticalStride 50
 	framesPerSecond 10
 animation-PlayerSetupReadyToStartTrue
 	numFrames 1

@@ -5,7 +5,7 @@ brush
   name "AscendancySkinsEmpireOfTheHandBottomBar"
   content "Simple"
   fileName "AscendancySkinEOTH"
-  pixelBox [ 107 , 381 , 810 , 150 ]
+  pixelBox [ 107 , 380 , 810 , 150 ]
 brush
   name "AscendancySkinsEmpireOfTheHandTopBar"
   content "Simple"
