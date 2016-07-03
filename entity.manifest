@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2291
+entityNameCount 2293
 entityName "Remnant_AITrap.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
@@ -731,6 +731,8 @@ entityName "AbilityOverwhelmCapital.entity"
 entityName "AbilityPowerToShields.entity"
 entityName "AbilityPowerToShieldsCapital.entity"
 entityName "BuffPowerToShields.entity"
+entityName "AbilitySsiColonize.entity"
+entityName "BuffSsiExpand.entity"
 entityName "AbilityTractorBeam.entity"
 entityName "AbilityThrawnDoctrine.entity"
 entityName "AbilityConsumeShip.entity"

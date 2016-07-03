@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityISDColonize"
+ability:0 "AbilitySsiColonize"
 ability:1 "AbilityEntechmentShree"
 ability:2 ""
 ability:3 ""
