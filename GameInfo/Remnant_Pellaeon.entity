@@ -1,49 +1,98 @@
 ﻿TXT
-entityType "Frigate"
+entityType "CapitalShip"
+ability:0 "AbilityTractorBeam"
+ability:1 "AbilityNumericalSuperiority"
+ability:2 "AbilityCloakRemnant"
+ability:3 "AbilityOverwhelmCapital"
+ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
-canBomb FALSE
-typeCount 1
-frigateRoleType "Siege" 
-statCountType "FrigateSiege"
-mainViewIcon "MAINVIEWICON_VSDII"
-picture "CAPITALSHIPPICTURE_VSDII"
-NameStringID "IDS_CAPITALSHIP_VSDII_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_VSDII_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 2.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 6
+	burstDelay 0.200000
+	fireDelay 0.000000
+	muzzleEffectName "MuzzleGreen_Single_Large"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 2
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+	hitEffectName "TurbolaserPlanetImpact"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "TurbolaserGreen_Single"
+mainViewIcon "HUDICON_RESEARCH_PELLAEON"
 basePrice
-	credits 860.000000
-	metal 75.000000
-	crystal 40.000000
-slotCount 8.000000
-BuildTime 60.000000
-hasLevels FALSE
-ExperiencePointsForDestroying 40.000000
-MaxHullPoints 3185.000000
-MaxShieldPoints 3185.000000
-HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 20.000000
-BaseArmorPoints 2.000000
-maxMitigation 0.600000
+	credits 1400.000000
+	metal 105.000000
+	crystal 55.000000
+slotCount 1.000000
+BuildTime 85.000000
+MaxHullPoints
+	StartValue 6500.000000
+	ValueIncreasePerLevel 144.000000
+MaxShieldPoints
+	StartValue 6500.000000
+	ValueIncreasePerLevel 162.000000
+HullPointRestoreRate
+	StartValue 1.800000
+	ValueIncreasePerLevel 0.120000
+ShieldPointRestoreRate
+	StartValue 20.600000
+	ValueIncreasePerLevel 0.240000
+ArmorPointsFromExperience
+	StartValue 6.000000
+	ValueIncreasePerLevel 0.540000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 72.000000
+	ValueIncreasePerLevel 0.000000
+AntiMatterRestoreRate
+	StartValue 0.00000
+	ValueIncreasePerLevel 0.000000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_SPAWNHERO_PELLAEON_NAME"
+DescriptionStringID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_ISDII"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_VSDII"
+		Subject "RemnantResearch_ShipUnlock_Pellaeon"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
 numRandomDebrisLarge 0
-numRandomDebrisSmall 5
+numRandomDebrisSmall 10
 numSpecificDebris 0
-armorType "Medium"
-hudIcon "HUDICON_VSDII"
-smallHudIcon "HUDICONSMALL_CRUISER"
-infoCardIcon "HUDICONSMALL_CRUISER"
-minZoomDistanceMult 2.000000
-NumWeapons 4
+armorType "CapitalShip"
+hudIcon "HUDICON_ISDII"
+smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
+infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+minZoomDistanceMult 1.750000
+NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -52,10 +101,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 120.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -92,12 +141,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 120.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 40.000000
-	DamagePerBank:RIGHT 40.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.000000
+	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
@@ -132,7 +181,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 240.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 40.000000
 	DamagePerBank:RIGHT 40.000000
@@ -146,7 +195,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
+		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "MuzzleGreen_Single_Larger"
@@ -163,54 +212,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Dual"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 40.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 40.000000
-	DamagePerBank:RIGHT 40.000000
-	Range 10000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RemnantResearch_ShipUnlock_CrimsonCommand"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Larger"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "TurbolaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Dual"
+		projectileTravelEffectName "TurbolaserGreen_Octuple"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -218,16 +220,15 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-hasWeaponLevels FALSE
-mass 2000.000000
-ShieldMeshName "IR_VSD"
+mass 10000.000000
+ShieldMeshName "IR_ISDII"
 renderShield TRUE
-maxAccelerationLinear 200.000000
+maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 3.700000
+maxAccelerationAngular 1.000000
 maxDecelerationAngular 9.999996
-maxSpeedLinear 825.000000
+maxSpeedLinear 525.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
@@ -236,46 +237,44 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "Remnant_Scimitar_Squad"
-squadAntiMatterCost:3 12.000000
-maxNumCommandPoints 1
+squadTypeEntityDef:3 "Remnant_TIEDefender_Squad"
+squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "EVENTIR_STRIKEATTACKTWO"
-SoundID "EVENTIR_STRIKEATTACKTHREE"
-SoundID "EVENTIR_STRIKEATTACKONE"
+SoundID "EVENTIR_ISDIIATTACKTWO"
+SoundID "EVENTIR_ISDIIATTACKTHREE"
+SoundID "EVENTIR_ISDIIATTACKONE"
 NumSoundsFor:ONCREATION 1
-SoundID "EVENTIR_STRIKESELECTONE"
+SoundID "EVENTIR_ISDIISELECTONE"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "EVENTIR_STRIKEMOVETWO"
-SoundID "EVENTIR_STRIKEMOVETHREE"
-SoundID "EVENTIR_STRIKEMOVEONE"
+SoundID "EVENTIR_ISDIIMOVETWO"
+SoundID "EVENTIR_ISDIIMOVETHREE"
+SoundID "EVENTIR_ISDIIMOVEONE"
 NumSoundsFor:ONSELECTED 3
-SoundID "EVENTIR_STRIKESELECTONE"
-SoundID "EVENTIR_STRIKESELECTTWO"
-SoundID "EVENTIR_STRIKESELECTTHREE"
+SoundID "EVENTIR_ISDIISELECTONE"
+SoundID "EVENTIR_ISDIISELECTTWO"
+SoundID "EVENTIR_ISDIISELECTTHREE"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "EVENTIR_STRIKEMOVETWO"
+SoundID "EVENTIR_ISDIIMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_VSD"
+	meshName "IR_ISDII"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
-ExplosionName "Frigate1"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.031500
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.052500
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
-ability:0 "AbilityBombardEmpire"
-ability:1 "AbilityOverwhelm"
-ability:2 ""
-ability:3 "AbilityThrawnDoctrine"
-ability:4 "AbilityPassiveLowLifeT2"
-MaxAntiMatter 24.000000
-AntiMatterRestoreRate 0.000000
-cargoType "Invalid"
-maxCargoCapacity 0.000000
 formationRank 0
-minShadow 0.100000
-maxShadow 0.800000
-allegianceDecreasePerRoundtrip 0.000000
+minShadow 0.000000
+maxShadow 1.000000

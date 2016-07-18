@@ -11,7 +11,7 @@ researchWindowLocation
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
-	RequiredFactionNameID ""
+	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 90.000000
@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ShipMaxSlotsWhenOnlyAlliedWithSameRaceSameFactionPlayers"
 	baseValue 0.000000
-	perLevelValue 100.000000
+	perLevelValue 200.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

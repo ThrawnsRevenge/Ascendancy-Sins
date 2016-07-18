@@ -50,27 +50,22 @@ entities
 			entityDefName "Remnant_EscortCarrier"
 			entityDefName "Remnant_Lambda"
 		Page:1
-			count 6
+			count 7
 			entityDefName "Remnant_Immobilizer"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Remnant_VSDII"
 			entityDefName "Remnant_MTC"
 			entityDefName "Remnant_Dreadnaught"
 			entityDefName "Remnant_SentinelConstructor"
+			entityDefName "Remnant_CrimsonCommand"
 		NotOnPage
 			count 3
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 94
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_PLANETBOMBING"
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_THRUSTER"
-		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_SUPPLY"
-		entityDefName "RemnantResearch_Diplomacy_Missions"
+		count 96
+		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
 		entityDefName "RemnantResearch_Economy_Durasteel01"
@@ -81,7 +76,6 @@ entities
 		entityDefName "RemnantResearch_Economy_Tibanna02"
 		entityDefName "RemnantResearch_Economy_MilitaryComplex"
 		entityDefName "RemnantResearch_Economy_TaxBase"
-		entityDefName "RemnantResearch_Katana"
 		entityDefName "RemnantResearch_Global_ImperialPurity"
 		entityDefName "RemnantResearch_Global_CityPlanning"
 		entityDefName "RemnantResearch_Global_RuralDevelopment"
@@ -93,6 +87,7 @@ entities
 		entityDefName "RemnantResearch_Global_Rationing"
 		entityDefName "RemnantResearch_Global_PellaeonDoctrine"
 		entityDefName "RemnantResearch_Global_DaalaDoctrine"
+		entityDefName "RemnantResearch_Global_DeclarePalpatine"
 		entityDefName "RemnantResearch_Global_Integration"
 		entityDefName "RemnantResearch_Global_Spaarti"
 		entityDefName "RemnantResearch_Global_MixedRaceMilitary"
@@ -113,15 +108,20 @@ entities
 		entityDefName "RemnantResearch_Global_Inexorable"
 		entityDefName "RemnantResearch_Global_MonitorJumps"
 		entityDefName "RemnantResearch_Global_Ruthless"
-		entityDefName "RemnantResearch_Global_HelpingHand"
+		entityDefName "RemnantResearch_Global_RuthlessDaala"
+		entityDefName "RemnantResearch_Global_EmperorsWill"
+		entityDefName "ReallyRemnantResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Global_DissidentExpulsion"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
 		entityDefName "RemnantResearch_Flat_Turbolasers2"
 		entityDefName "RemnantResearch_Flat_Turbolasers3"
+		entityDefName "RemnantResearch_Flat_MCPS"
 		entityDefName "RemnantResearch_Flat_FearMongering"
 		entityDefName "RemnantResearch_Flat_ShockAndAwe"
 		entityDefName "RemnantResearch_Flat_HolonetMonitoring"
 		entityDefName "RemnantResearch_Flat_PowerSymbol"
+		entityDefName "RemnantResearch_AbilityUnlock_MoleMiners"
+		entityDefName "RemnantResearch_AbilityUnlock_Cloak"
 		entityDefName "RemnantResearch_AbilityUnlock_MissileInterference"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
 		entityDefName "RemnantResearch_AbilityUnlock_DentingStrike"
@@ -135,6 +135,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_TIEDefender"
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "RemnantResearch_ShipUnlock_VSDII"
+		entityDefName "RemnantResearch_ShipUnlock_CrimsonCommand"
 		entityDefName "RemnantResearch_ShipUnlock_ISDII"
 		entityDefName "RemnantResearch_ShipUnlock_MTC"
 		entityDefName "RemnantResearch_ShipUnlock_EscortCarrier"
@@ -148,6 +149,8 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
 		entityDefName "RemnantResearch_ShipUnlock_Allegiance"
+		entityDefName "RemnantResearch_ShipUnlock_Daala"
+		entityDefName "RemnantResearch_ShipUnlock_Pellaeon"
 		entityDefName "RemnantResearch_MaxShipSlots0"
 		entityDefName "RemnantResearch_MaxShipSlots1"
 		entityDefName "RemnantResearch_MaxShipSlots2"
@@ -721,7 +724,7 @@ researchScreenData
 			title ""
 			picture "IR_Research_Block_Economy"
 		block
-			area [ 0 , 360 , 710 , 160 ]
+			area [ 0 , 360 , 710 , 170 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Background"
 			title ""
@@ -735,7 +738,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 0 , 100 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 810 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""
@@ -820,7 +823,7 @@ numResearchFields 6
 field "IDS_RESEARCHFIELD_COMBAT"
 field "IDS_RESEARCHFIELD_DEFENSE"
 field "IDS_RESEARCHFIELD_EMPIRE"
-field "IDS_RESEARCHFIELD_DIPLOMACY"
+field "IDS_RESEARCHFIELD_LEADERSHIP"
 field "IDS_RESEARCHFIELD_ARTIFACT"
 field "IDS_RESEARCHFIELD_CIVILOPEDIA"
 playerThemeGroupName "PlayerRemnant"

@@ -7,14 +7,14 @@ NameStringID "IDS_TITAN_SOVEREIGN_NAME"
 DescriptionStringID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 0 ]
-ResearchField "Combat"
+	pos [ 7 , 8 ]
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RemnantResearch_ShipUnlock_Executor"
 		Level 1
-	RequiredFactionNameID ""
+	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 40.000000

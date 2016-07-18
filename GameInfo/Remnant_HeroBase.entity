@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
-ability:0 "AbilitySpawnHeroGalaxyGunConstructor"
-ability:1 ""
+ability:0 "AbilitySpawnHeroDaala"
+ability:1 "AbilitySpawnHeroPellaeon"
 ability:2 ""
 ability:3 ""
 ability:4 ""

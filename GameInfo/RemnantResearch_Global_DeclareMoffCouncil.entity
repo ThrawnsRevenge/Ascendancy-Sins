@@ -1,17 +1,17 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_PELLAEON"
-smallHudIcon "HUDICON_RESEARCH_PELLAEON"
+hudIcon "HUDICON_RESEARCH_MOFFCOUNCIL"
+smallHudIcon "HUDICON_RESEARCH_MOFFCOUNCIL"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_PELLAEONDOCTRINE_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_PELLAEONDOCTRINE_DESCRIPTION"
+NameStringID "IDS_CHANGEFACTION_MOFFCOUNCIL"
+DescriptionStringID "IDS_CHANGEFACTION_MOFFCOUNCIL_DESC"
 researchWindowLocation
 	block 0
-	pos [ 0 , 4 ]
+	pos [ 0 , 0]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
-	RequiredFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
+	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 100.000000
@@ -24,16 +24,14 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
+MaxNumResearchLevels 0
 priority 1.000000
-researchBoolModifiers 2
-researchModifier
-	modifierType "RemoveRacialRelationPenalty"
+researchBoolModifiers 1
 researchModifier
 	modifierType "SetFaction"
-	factionNameID "IDS_CHANGEFACTION_PELLAEON"
+	factionNameID "IDS_CHANGEFACTION_MOFFCOUNCIL"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

@@ -1,20 +1,17 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_TIEDEFENDER"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_DEFENDER"
+hudIcon "HUDICON_VSDII"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_VSDII"
 infoCardIcon ""
-NameStringID "IDS_TIEDEFENDER_NAME"
-DescriptionStringID "IDS_TIEDEFENDER_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_CRIMSON_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_CRIMSON_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 3 ]
-ResearchField "Combat"
+	pos [ 2 , 1 ]
+ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_TIEInterceptor"
-		Level 1
-	RequiredFactionNameID ""
+	NumResearchPrerequisites 0
+	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 50.000000
@@ -27,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

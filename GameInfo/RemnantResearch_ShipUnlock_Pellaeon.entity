@@ -1,31 +1,31 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_LAMBDA"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_LAMBDA"
+hudIcon "HUDICON_RESEARCH_PELLAEON"
+smallHudIcon "HUDICON_RESEARCH_PELLAEON"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_LAMBDA_NAME"
-DescriptionStringID "IDS_FRIGATE_LAMBDA_DESCRIPTION"
+NameStringID "IDS_SPAWNHERO_PELLAEON_NAME"
+DescriptionStringID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 1 ]
-ResearchField "Combat"
+	pos [ 5 , 4 ]
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
-	RequiredFactionNameID ""
+	RequiredFactionNameID "IDS_CHANGEFACTION_PELLAEON"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 50.000000
-PerLevelUpgradeTime 5.000000
+BaseUpgradeTime 100.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 175.000000
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 0
-onlyWorksIfTierLabsExist TRUE
+Tier 5
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

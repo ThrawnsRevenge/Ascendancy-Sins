@@ -1967,7 +1967,7 @@ planetItemsTemplate
 				param "Remnant"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1981,6 +1981,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Frigate:Mu"
 				item "Remnant:Module:GalaxyGun"
+				item "Remnant:Module:HeroBase"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Sentinel"
 		group

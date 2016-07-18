@@ -31,7 +31,7 @@ maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_VSDII"
+		Subject "RemnantResearch_ShipUnlock_CrimsonCommand"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -257,7 +257,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTIR_STRIKEMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_VSD"
+	meshName "IR_CrimsonCommand"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

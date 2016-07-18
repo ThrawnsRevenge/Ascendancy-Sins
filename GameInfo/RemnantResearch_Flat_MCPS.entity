@@ -1,28 +1,28 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_FLEETINCREASE"
-smallHudIcon "HUDICON_RESEARCH_FLEETINCREASE"
+hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_MIXEDRACEMILITARY_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_MIXEDRACEMILITARY_DESCRIPTION"
+NameStringID "IDS_REMNANTRESEARCH_MCPS_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_MCPS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 4 ]
+	pos [ 4 , 0 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_Global_Integration"
+		Subject "RemnantResearch_Global_MawInstallation"
 		Level 1
-	RequiredFactionNameID "IDS_CHANGEFACTION_PELLAEON"
+	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 45.000000
-PerLevelUpgradeTime 5.000000
+BaseUpgradeTime 95.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 600.000000
-	metal 50.000000
-	crystal 100.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
@@ -34,9 +34,10 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "ShipMaxSlots"
+	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 100.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

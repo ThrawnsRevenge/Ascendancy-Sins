@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "BuffSpawnHeroPellaeonDisabler"
+	conditionBuffShortName ""
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 1000.000000
+		requiredShipCount 1
+		requiredShip
+			type "Remnant_Pellaeon"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 1.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 3.000000
+	buffType "BuffSpawnHeroPellaeonDisablerSpawner"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -1,5 +1,20 @@
 TXT
-NumStrings 8464
+NumStrings 8483
+StringInfo
+	ID "IDS_CHANGEFACTION_MOFFCOUNCIL"
+	Value "Moff Council"
+StringInfo
+	ID "IDS_CHANGEFACTION_MOFFCOUNCIL_DESC"
+	Value "By default, the Moff Council is currently ruling the Empire. Pick a side."
+StringInfo
+	ID "IDS_CHANGEFACTION_PALPATINE"
+	Value "Palpatine"
+StringInfo
+	ID "IDS_CHANGEFACTION_PELLAEON"
+	Value "Gilad Pellaeon"
+StringInfo
+	ID "IDS_CHANGEFACTION_DAALA"
+	Value "Natasi Daala"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_BOUNTYINCAMOUNTWITHBONUS"
 	Value "Next Increment: *VALUE0* *VALUE1* (*VALUE2* + *VALUE3*)"
@@ -981,6 +996,12 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_VSDII_DESCRIPTION"
 	Value "A refined subclass of the Victory, the Mk II's greater speed and laser armament allow it to pursue and engage enemies in ship-to-ship action."
+StringInfo
+	ID "IDS_CAPITALSHIP_CRIMSON_NAME"
+	Value "Crimson Command"
+StringInfo
+	ID "IDS_CAPITALSHIP_CRIMSON_DESCRIPTION"
+	Value "Daala appropriates the Crimson Command fleet from Teradoc's forces, replacing your VSDIIs with these upgraded and crimson-hulled variants."
 StringInfo
 	ID "IDS_TITAN_EXECUTOR_NAME"
 	Value "Executor Star Destroyer"
@@ -2198,10 +2219,16 @@ StringInfo
 	Value "Gives a power boost to defensive structures."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_DAALADOCTRINE_NAME"
-	Value "Daala Doctrine"
+	Value "Support Daala"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_DAALADOCTRINE_DESCRIPTION"
-	Value "There is only one true Empire."
+	Value "Support Daala in her strict policies to reunite the Empire and crush her opposition. Grants access to unique technologies."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_PALPATINE_NAME"
+	Value "Support Palpatine"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_PALPATINE_DESCRIPTION"
+	Value "The true Emperor has returned to retake the galaxy with more superweapons than ever before. Grants access to unique technologies."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RUTHLESS_NAME"
 	Value "Ruthless"
@@ -2245,6 +2272,9 @@ StringInfo
 	ID "IDS_REMNANT_RESEARCHFIELD_COMBAT"
 	Value "Military"
 StringInfo
+	ID "IDS_RESEARCHFIELD_LEADERSHIP"
+	Value "Regime Change"
+StringInfo
 	ID "IDS_REMNANT_RESEARCHFIELD_DEFENSE"
 	Value "Orbital Defense"
 StringInfo
@@ -2279,10 +2309,10 @@ StringInfo
 	Value "Production is shifted to military ventures from other industries."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_PELLAEONDOCTRINE_NAME"
-	Value "Pellaeon Doctrine"
+	Value "Support Pellaeon"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_PELLAEONDOCTRINE_DESCRIPTION"
-	Value "Pellaeon's policies liberalized the Empire, removing penalties in relations with non-Imperial factions."
+	Value "Support Pellaeon in his policies liberalized the Empire and improve the Imperial fleet, removing penalties in relations with non-Imperial factions. Grants access to unique technologies."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_INTEGRATION_NAME"
 	Value "Integration"
@@ -2545,11 +2575,20 @@ StringInfo
 	ID "IDS_SCIMITAR_DESC"
 	Value "A heavy fighter which excels at assaulting capital ships."
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_NAME"
-	Value "Galaxy Gun Constructor"
+	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
+	Value "Natasi Daala"
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUNCONSTRUCTOR_DESCRIPTION"
-	Value "Calls in a constructor which can build the galaxy gun. Can only be used once."
+	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+	Value "Natasi Daala and Knight Hammer will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
+StringInfo
+	ID "IDS_SPAWNHERO_PELLAEON_NAME"
+	Value "Gilad Pellaeon"
+StringInfo
+	ID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
+	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet. If he dies, he cannot respawn."
+StringInfo
+	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
+	Value "As the leader of the Empire, Natasi Daala reunited all of the Warlords. She commands the Executor-class, Knight Hammer, a modified ship with black stealth armour."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
 	Value "Galaxy Gun"
@@ -2557,11 +2596,29 @@ StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_DESCRIPTION"
 	Value "Begins construction on the Galaxy Gun."
 StringInfo
+	ID "IDS_ABILITY_MOLEMINER_NAME"
+	Value "Deploy Mole Miners"
+StringInfo
+	ID "IDS_ABILITY_MOLEMINER_DESCRIPTION"
+	Value "Send mole miners into the target ship, allowing a brief period for troop dropships to capture the ship."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_NAME"
 	Value "Strike Cruiser"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_STRIKECRUISER_DESCRIPTION"
 	Value "Grants access to the Strike Cruiser."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_MCPS_NAME"
+	Value "Metal-Crystal Phase Shifter"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_MCPS_DESCRIPTION"
+	Value "A technology developed by the Maw Installation scientists which reduces the structural integrity of enemy ship's hull, increasing damage done to it."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_EMPERORSWILL_NAME"
+	Value "Emperor's Will"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_EMPERORSWILL_DESCRIPTION"
+	Value "Propaganda makes your worlds nearly impregnable to enemy culture, however nobody outside of the Empire will willingly join it."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_TIEINTERCEPTOR_NAME"
 	Value "TIE Interceptor"
@@ -7877,7 +7934,7 @@ StringInfo
 	Value "Neutral"
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_LOYALIST"
-	Value "Loyalist"
+	Value "Moff Council"
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_REBEL"
 	Value "Rebel"

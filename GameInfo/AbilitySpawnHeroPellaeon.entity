@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffSpawnHeroPellaeonSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 8000.000000
+	metal 1000.000000
+	crystal 700.000000
+cooldownTime
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Pellaeon"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_SPAWNHERO_PELLAEON_NAME"
+descStringID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
+hudIcon "HUDICON_RESEARCH_PELLAEON"
+smallHudIcon "HUDICON_RESEARCH_PELLAEON"
