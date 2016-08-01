@@ -11,9 +11,8 @@ numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 1
-entityBoolModifier "DisableAbilities"
+numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "OwnerNoLongerHasBuff"
-	buffTypeToQuery "BuffSpawnHeroDaalaDisablerSpawnerCheck"
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffPassiveLowLifeDaala"

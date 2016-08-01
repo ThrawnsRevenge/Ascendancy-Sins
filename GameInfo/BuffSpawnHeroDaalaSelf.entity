@@ -10,10 +10,8 @@ isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
-	conditionBuffType "BuffSpawnHeroDaalaDisabler"
-	conditionBuffShortName ""
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
@@ -27,10 +25,19 @@ instantAction
 	spawnShipsArrivalDelayTime 1.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 instantAction
-	buffInstantActionType "ApplyBuffToSelf"
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
-	delayTime 3.000000
+	delayTime 25.000000
 	buffType "BuffSpawnHeroDaalaDisablerSpawner"
+	targetFilter
+		numOwnerships 2
+		ownership "Player"
+		ownership "Allied"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -44,4 +51,9 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000

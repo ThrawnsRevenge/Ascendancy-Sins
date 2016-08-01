@@ -738,7 +738,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 0 , 100 , 710 , 810 ]
+			area [ 0 , 100 , 710 , 610 ]
 			backdrop "Remnant_Research_Block_Background"
 			tierIndicatorBackdrop "Remnant_Research_Level_Bottom_Background"
 			title ""

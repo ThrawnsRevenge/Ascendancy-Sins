@@ -3,8 +3,8 @@ entityType "Titan"
 ability:0 "AbilityNumericalSuperiorityExecutor"
 ability:1 "AbilityConcussionBarrage"
 ability:2 "AbilityPowerSymbol"
-ability:3 "AbilityFearAura"
-ability:4 "AbilityPassiveLowLife"
+ability:3 "AbilityPassiveLowLifeDaala"
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_SPAWNHERO_DAALA_NAME"
-DescriptionStringID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
+NameStringID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
+DescriptionStringID "IDS_DAALA_DESCRIPTION"
 picture "HUDICON_EXECUTOR"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -86,11 +86,10 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 4
+UpgradeTypeCount 3
 UpgradeType "RemnantUpgrade_Executor_AbilityA"
 UpgradeType "RemnantUpgrade_Executor_AbilityB"
 UpgradeType "RemnantUpgrade_Executor_AbilityC"
-UpgradeType "RemnantUpgrade_Executor_AbilityD"
 numRandomDebrisLarge 10
 numRandomDebrisSmall 30
 numSpecificDebris 1

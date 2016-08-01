@@ -1,5 +1,5 @@
 TXT
-NumStrings 8483
+NumStrings 8484
 StringInfo
 	ID "IDS_CHANGEFACTION_MOFFCOUNCIL"
 	Value "Moff Council"
@@ -2579,7 +2579,10 @@ StringInfo
 	Value "Natasi Daala"
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
-	Value "Natasi Daala and Knight Hammer will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
+	Value "Natasi Daala and her custom Executor-class will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
+StringInfo
+	ID "IDS_DAALA_DESCRIPTION"
+	Value "Natasi Daala is the supreme commander of Imperial forces, most notable in her reign for uniting the Imperial Warlords."
 StringInfo
 	ID "IDS_SPAWNHERO_PELLAEON_NAME"
 	Value "Gilad Pellaeon"
