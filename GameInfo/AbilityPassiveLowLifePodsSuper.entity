@@ -14,9 +14,8 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 2
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RemnantResearch_AIHelp_CapitalsOne"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

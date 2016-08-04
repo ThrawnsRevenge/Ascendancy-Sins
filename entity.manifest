@@ -1,5 +1,6 @@
 TXT
-entityNameCount 2324
+entityNameCount 2325
+entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
 entityName "BuffSpawnHeroPellaeonDisabler.entity"
