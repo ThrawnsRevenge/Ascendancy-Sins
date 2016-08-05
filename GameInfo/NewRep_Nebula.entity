@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityOverwhelmCapital"
 ability:1 "AbilityTargetHangar"
-ability:2 ""
+ability:2 "AbilityDeployKwing"
 ability:3 ""
 ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
@@ -279,8 +279,8 @@ squadTypeEntityDef:1 "NewRep_Awing_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "NewRep_Bwing_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "NewRep_Kwing_Squad"
-squadAntiMatterCost:3 24.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTNR_NEBULAATTACKTWO"
 SoundID "EVENTNR_NEBULAATTACKTHREE"

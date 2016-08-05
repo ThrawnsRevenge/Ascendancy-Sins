@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffKWingRemove"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 3
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
+	maxTargetCount
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 10.000000
+		Level:3 10.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.150000
+		Level:1 0.150000
+		Level:2 0.150000
+		Level:3 0.150000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

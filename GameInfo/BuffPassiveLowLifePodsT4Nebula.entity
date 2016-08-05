@@ -1,0 +1,134 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 6
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsLinked"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSlimProfile"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "Fighter"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "LinkedSquad"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc" 
+	hullPerc
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+	buffType "BuffPassiveLowLifeFifty"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc" 
+	hullPerc
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
+	buffType "BuffPassiveLowLifeTwentyFive"
+		effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc" 
+	hullPerc
+		Level:0 0.150000
+		Level:1 0.150000
+		Level:2 0.150000
+		Level:3 0.150000
+	buffType "BuffPassiveLowLifeFifteen"
+		effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerIsAboutToDie" 
+	buffType "BuffSpawnPods"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction	
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffFighterCountSafety"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
+	buffInstantActionType "GiveCreditsToPlayer"
+	instantActionTriggerType "AlwaysPerform"
+	credits
+		Level:0 -0.060000
+		Level:1 -0.060000
+		Level:2 -0.060000
+		Level:3 -0.060000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

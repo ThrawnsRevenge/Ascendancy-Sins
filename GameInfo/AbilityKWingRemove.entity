@@ -1,0 +1,38 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffKWingRemoveSelf"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 100.000000
+	Level:1 100.000000
+	Level:2 10.000000
+	Level:3 5.000000
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_KWING_NAME"
+descStringID "IDS_ABILITY_KWING_DESCRIPTION"
+hudIcon "HUDABILITYICON_INTERDICT"
+smallHudIcon "HUDABILITYICON_INTERDICT"
+infoCardIcon ""

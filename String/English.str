@@ -1,5 +1,5 @@
 TXT
-NumStrings 8484
+NumStrings 8486
 StringInfo
 	ID "IDS_CHANGEFACTION_MOFFCOUNCIL"
 	Value "Moff Council"
@@ -69,6 +69,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
 	Value "Disables the target owned ship, removing upkeep costs but also shutting off all major systems. This ability can be re-used to reactivate the ship."
+StringInfo
+	ID "IDS_ABILITY_DEPLOYKWING_NAME"
+	Value "Deploy K-Wings"
+StringInfo
+	ID "IDS_ABILITY_DEPLOYKWING_DESCRIPTION"
+	Value "Deploys a small squadron of K-Wings, which can travel independently of their carrier. Only one active squad at a time per carrier."
 StringInfo
 	ID "IDS_ABILITY_NEUTRALOBJECT_NAME"
 	Value "Captureable Object"

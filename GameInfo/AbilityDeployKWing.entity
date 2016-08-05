@@ -1,0 +1,44 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffDeployKWing"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 24.000000
+	Level:1 24.000000
+	Level:2 24.000000
+	Level:3 24.000000
+cooldownTime
+	Level:0 35.000000
+	Level:1 35.000000
+	Level:2 35.000000
+	Level:3 35.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DEPLOYKWING_NAME"
+descStringID "IDS_ABILITY_DEPLOYKWING_DESCRIPTION"
+hudIcon "HUDICON_KWING"
+smallHudIcon "HUDICON_KWING"
+infoCardIcon ""
