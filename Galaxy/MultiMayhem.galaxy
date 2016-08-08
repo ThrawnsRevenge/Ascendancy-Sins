@@ -3,7 +3,7 @@ versionNumber 4
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Fool's Bargain"
-browseDescription "A large map covering from the Core to OVersector Outer and Chiss Space to Mon Calamari, including diverse starting points"
+browseDescription "A large map covering from the Core to Oversector Outer and Chiss Space to Mon Calamari, including diverse starting points"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.150000
@@ -60,8 +60,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE

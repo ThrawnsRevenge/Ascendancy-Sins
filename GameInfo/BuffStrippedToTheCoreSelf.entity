@@ -18,8 +18,8 @@ instantAction
 		requiredShipCount 1
 		requiredShip
 			type "Remnant_WorldDevastator"
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 3.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
