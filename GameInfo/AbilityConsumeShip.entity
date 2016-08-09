@@ -13,10 +13,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotInvulnerable"
 range
-	Level:0 200.000000
-	Level:1 200.000000
-	Level:2 200.000000
-	Level:3 200.000000
+	Level:0 3000.000000
+	Level:1 3000.000000
+	Level:2 3000.000000
+	Level:3 3000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

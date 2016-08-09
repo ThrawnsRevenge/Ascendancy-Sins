@@ -167,7 +167,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTPA_GLADIATORMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Allegiance"
+	meshName "PA_Gladiator"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

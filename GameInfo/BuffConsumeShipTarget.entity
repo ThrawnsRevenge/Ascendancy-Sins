@@ -7,18 +7,24 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 3
 instantAction
 	buffInstantActionType "MakeDead"
 	instantActionTriggerType "OnDelay"
+	delayTime 7.000000
+instantAction
+	buffInstantActionType "InitializeMovementTowardLastSpawner"
+	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
+	minLinearSpeed 800.000000
+	maxLinearSpeed 800.000000
+instantAction
+	buffInstantActionType "ResetPhysicsState"
+	instantActionTriggerType "OnBuffFinish"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 3
-entityBoolModifier "DisablePhaseJump"
-entityBoolModifier "DisableLinearEngines"
-entityBoolModifier "DisableAngularEngines"
+numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
