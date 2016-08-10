@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityDeployKWing"
+ability:0 ""
 ability:1 "AbilitySignalInterference"
 ability:2 "AbilityAlphaStrike"
 ability:3 "AbilityScrambleTransmissions"
@@ -237,8 +237,8 @@ squadTypeEntityDef:1 "NewRep_Awing_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "NewRep_Bwing_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 ""
-squadAntiMatterCost:3 0.000000
+squadTypeEntityDef:3 "NewRep_Kwing_Squad"
+squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTNR_ENDURANCEATTACKTWO"
 SoundID "EVENTNR_ENDURANCEATTACKTHREE"
