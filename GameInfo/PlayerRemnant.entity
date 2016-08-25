@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 97
+		count 99
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -100,6 +100,8 @@ entities
 		entityDefName "RemnantResearch_Global_FieldTraining"
 		entityDefName "RemnantResearch_Global_Impenetrable"
 		entityDefName "RemnantResearch_Global_ImpenetrableTwo"
+		entityDefName "RemnantResearch_Global_FortressWorlds"
+		entityDefName "RemnantResearch_Global_FortressWorldsTwo"
 		entityDefName "RemnantResearch_Global_CommStation"
 		entityDefName "RemnantResearch_Global_ThrawnDoctrine"
 		entityDefName "RemnantResearch_Global_RepairPlatform"

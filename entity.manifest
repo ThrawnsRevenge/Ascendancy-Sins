@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2334
+entityNameCount 2336
 entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
@@ -509,6 +509,8 @@ entityName "RemnantResearch_Global_Inexorable.entity"
 entityName "RemnantResearch_Global_DaalaDoctrine.entity"
 entityName "RemnantResearch_Global_ReplaceableParts.entity"
 entityName "RemnantResearch_Global_DissidentExpulsion.entity"
+entityName "RemnantResearch_Global_FortressWorlds.entity"
+entityName "RemnantResearch_Global_FortressWorldsTwo.entity"
 entityName "RemnantResearch_Global_CityPlanning.entity"
 entityName "RemnantResearch_Global_RuralDevelopment.entity"
 entityName "RemnantResearch_Global_BombingDamage.entity"

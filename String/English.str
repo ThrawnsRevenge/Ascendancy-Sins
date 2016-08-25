@@ -1,5 +1,14 @@
 TXT
-NumStrings 8490
+NumStrings 8493
+StringInfo
+	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
+	Value "Fortress Worlds"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_FORRESSWORLDS_DESCRIPTION"
+	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more tactical structures."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_FORRESSWORLDSTWO_DESCRIPTION"
+	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more starbases."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_NAME"
 	Value "Rushed Training"
