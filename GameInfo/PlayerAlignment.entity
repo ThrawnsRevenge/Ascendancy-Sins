@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 84
+		count 85
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "AlignmentResearch_Global_CityPlanning"
@@ -96,6 +96,7 @@ entities
 		entityDefName "AlignmentResearch_Global_InQuestors"
 		entityDefName "AlignmentResearch_Global_Training"
 		entityDefName "AlignmentResearch_Global_Payoff"
+		entityDefName "AlignmentResearch_Flat_InstantBuild"
 		entityDefName "AlignmentResearch_Economy_Durasteel01"
 		entityDefName "AlignmentResearch_Economy_Durasteel02"
 		entityDefName "AlignmentResearch_Economy_Durasteel03"

@@ -1,5 +1,17 @@
 TXT
-NumStrings 8486
+NumStrings 8490
+StringInfo
+	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_NAME"
+	Value "Rushed Training"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_DESCRIPTION"
+	Value "In order to more quickly epand the Imperial fleet, training is more compact for new recruits."
+StringInfo
+	ID "IDS_PARESEARCH_INSTANTBUILD_NAME"
+	Value "Swarm"
+StringInfo
+	ID "IDS_PARESEARCH_INSTANTBUILD_DESCRIPTION"
+	Value "For 60 seconds after entering a system, fighters can instantly deploy."
 StringInfo
 	ID "IDS_CHANGEFACTION_MOFFCOUNCIL"
 	Value "Moff Council"

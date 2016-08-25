@@ -32,7 +32,11 @@ researchBoolModifiers 1
 researchModifier
 	modifierType "SetFaction"
 	factionNameID "IDS_CHANGEFACTION_PALPATINE"
-researchFloatModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "CultureSpreadRateAdjustment"
+	baseValue 0.000000
+	perLevelValue -1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
