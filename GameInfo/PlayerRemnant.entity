@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 99
+		count 100
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -135,6 +135,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_Sovereign"
 		entityDefName "RemnantResearch_ShipUnlock_Immobilizer"
 		entityDefName "RemnantResearch_ShipUnlock_TIEInterceptor"
+		entityDefName "RemnantResearch_ShipUnlock_TIEDroid"
 		entityDefName "RemnantResearch_ShipUnlock_TIEDefender"
 		entityDefName "RemnantResearch_ShipUnlock_VSDI"
 		entityDefName "RemnantResearch_ShipUnlock_VSDII"

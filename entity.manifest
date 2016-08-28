@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2336
+entityNameCount 2339
 entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
@@ -413,6 +413,8 @@ entityName "Remnant_Lambda.entity"
 entityName "Remnant_EscortCarrier.entity"
 entityName "Remnant_TIEFighter.entity"
 entityName "Remnant_TIEFighter_Squad.entity"
+entityName "Remnant_TIEDroid.entity"
+entityName "Remnant_TIEDroid_Squad.entity"
 entityName "Remnant_TIEInterceptor.entity"
 entityName "Remnant_TIEInterceptor_Squad.entity"
 entityName "Remnant_TIEBomber.entity"
@@ -489,6 +491,7 @@ entityName "RemnantResearch_ShipUnlock_Lambda.entity"
 entityName "RemnantResearch_ShipUnlock_WorldDevastator.entity"
 entityName "RemnantResearch_ShipUnlock_Esseles.entity"
 entityName "RemnantResearch_ShipUnlock_Daala.entity"
+entityName "RemnantResearch_ShipUnlock_TIEDroid.entity"
 entityName "RemnantResearch_ShipUnlock_Pellaeon.entity"
 entityName "RemnantResearch_Diplomacy_Missions.entity"
 entityName "ReallyRemnantResearch_Diplomacy_Missions.entity"

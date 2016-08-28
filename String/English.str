@@ -1,5 +1,11 @@
 TXT
-NumStrings 8493
+NumStrings 8495
+StringInfo
+	ID "IDS_FIGHTERTIEDROID_NAME"
+	Value "TIE Droid"
+StringInfo
+	ID "IDS_FIGHTERTIEDROID_DESC"
+	Value "An automated TIE fighter with similar capabilities to the standard model, however which does not deplete fighter supply."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
 	Value "Fortress Worlds"

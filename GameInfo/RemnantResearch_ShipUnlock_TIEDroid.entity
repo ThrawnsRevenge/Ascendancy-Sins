@@ -1,17 +1,17 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
-smallHudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
+hudIcon "HUDICON_TIEDROID"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_TIEDROID"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_DESCRIPTION"
+NameStringID "IDS_FIGHTERTIEDROID_NAME"
+DescriptionStringID "IDS_FIGHTERTIEDROID_DESC"
 researchWindowLocation
 	block 0
-	pos [ 3 , 6 ]
+	pos [ 1 , 8 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
-	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
+	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 50.000000
@@ -24,16 +24,12 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 3
+Tier 1
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
-researchModifier
-	modifierType "PlanetSlotsTacticalIncrease"
-	baseValue 0.000000
-	perLevelValue 6.000000
+researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

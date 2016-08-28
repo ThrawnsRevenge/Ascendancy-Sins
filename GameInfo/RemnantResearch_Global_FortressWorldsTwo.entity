@@ -8,7 +8,7 @@ DescriptionStringID "IDS_REMNANTRESEARCH_FORTRESSWORLDSTWO_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 5 , 6 ]
-ResearchField "Defense"
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
