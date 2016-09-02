@@ -1,5 +1,5 @@
 TXT
-NumStrings 8499
+NumStrings 8503
 StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
@@ -879,6 +879,18 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_VISVIA_DESCRIPTION"
 	Value "A massive defensive platform with four prominent primary turrets which can deal massive damage to individual targets, along with a multitude of smaller weaponry."
+StringInfo
+	ID "IDS_PLANETMODULE_IERO_NAME"
+	Value "Iero Weapons Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_IERO_DESCRIPTION"
+	Value "A small defensive platform armed with ion cannons and megamaser turrets."
+StringInfo
+	ID "IDS_PLANETMODULE_TEICHOS_NAME"
+	Value "Teichos Weapons Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_TEICHOS_DESCRIPTION"
+	Value "A medium defensive platform armed with ion cannons and megamaser turrets."
 StringInfo
 	ID "IDS_PLANETMODULE_BRASK_NAME"
 	Value "Brask Hangar Station"

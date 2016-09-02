@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2344
+entityNameCount 2347
 entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
@@ -132,6 +132,8 @@ entityName "EotH_Efodio.entity"
 entityName "EotH_Peltast.entity"
 entityName "EotH_Esseles.entity"
 entityName "EotH_Oto.entity"
+entityName "EotH_Teichos.entity"
+entityName "EotH_Iero.entity"
 entityName "EotH_Auriette.entity"
 entityName "EotH_Massias.entity"
 entityName "EotH_Phalanx.entity"
@@ -240,6 +242,7 @@ entityName "EotHResearch_ShipUnlock_Phalanx.entity"
 entityName "EotHResearch_ShipUnlock_Esseles.entity"
 entityName "EotHResearch_ShipUnlock_Visvia.entity"
 entityName "EotHResearch_ShipUnlock_Oto.entity"
+entityName "EotHResearch_ShipUnlock_Teichos.entity"
 entityName "EotHResearch_ShipUnlock_Brask.entity"
 entityName "EotHResearch_ShipUnlock_Krsiss.entity"
 entityName "EotHResearch_ShipUnlock_Furion.entity"

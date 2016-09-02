@@ -20,9 +20,10 @@ entities
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "EotH_CombatLab"
 		Page:1
-			count 3
-			entityDefName "EotH_Visvia"
 			entityDefName "EotH_Brask"
+			entityDefName "EotH_Iero"
+			entityDefName "EotH_Teichos"
+			entityDefName "EotH_Visvia"
 			entityDefName "EotH_RepairPlatform"
 	titanInfo
 		Page:0
@@ -61,7 +62,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 85
+		count 86
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
@@ -80,6 +81,7 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Massias"
 		entityDefName "EotHResearch_ShipUnlock_Brask"
 		entityDefName "EotHResearch_ShipUnlock_Visvia"
+		entityDefName "EotHResearch_ShipUnlock_Teichos"
 		entityDefName "EotHResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
