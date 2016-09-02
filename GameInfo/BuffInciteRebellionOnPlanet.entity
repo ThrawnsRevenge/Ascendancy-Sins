@@ -15,10 +15,10 @@ instantAction
 	effectInfo
 		effectAttachInfo
 			attachType "Above"
-		smallEffectName "CapitalBuff_PlanetMania"
-		mediumEffectName "CapitalBuff_PlanetMania"
-		largeEffectName "CapitalBuff_PlanetMania"
-		soundID "EFFECT_PLANETMANIA"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

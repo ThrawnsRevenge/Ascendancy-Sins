@@ -1,19 +1,16 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_PHALANX"
-smallHudIcon "HUDICON_PHALANX"
+hudIcon "HUDICON_ASCENDANCY"
+smallHudIcon "HUDICON_ASCENDANCY"
 infoCardIcon ""
-NameStringID "IDS_CAPITALSHIP_PHALANX_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_PELTAST_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 0 ]
+	pos [ 4 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Ascendancy"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -27,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 6
+Tier 4
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

@@ -1,19 +1,16 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_SYNDIC"
-smallHudIcon "HUDICON_SYNDIC"
+hudIcon "HUDICON_ASCENDANCY"
+smallHudIcon "HUDICON_ASCENDANCY"
 infoCardIcon ""
-NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_ASCENDANCY_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_ASCENDANCY_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 4 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Vigilance"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

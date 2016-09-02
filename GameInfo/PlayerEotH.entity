@@ -29,10 +29,12 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 4
-			entityDefName "EotH_Ascendancy"
+			count 6
 			entityDefName "EotH_Syndic"
+			entityDefName "EotH_Ascendancy"
 			entityDefName "EotH_Phalanx"
+			entityDefName "EotH_Efodio"
+			entityDefName "EotH_Peltast"
 			entityDefName "EotH_Intego"
 	frigateInfo
 		Page:0
@@ -59,7 +61,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 83
+		count 85
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
@@ -69,8 +71,10 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Auriette"
 		entityDefName "EotHResearch_ShipUnlock_Warlord"
 		entityDefName "EotHResearch_ShipUnlock_Chaf"
-		entityDefName "EotHResearch_ShipUnlock_Syndic"
+		entityDefName "EotHResearch_ShipUnlock_Ascendancy"
 		entityDefName "EotHResearch_ShipUnlock_Alaria"
+		entityDefName "EotHResearch_ShipUnlock_Efodio"
+		entityDefName "EotHResearch_ShipUnlock_Peltast"
 		entityDefName "EotHResearch_ShipUnlock_Phalanx"
 		entityDefName "EotHResearch_ShipUnlock_Intego"
 		entityDefName "EotHResearch_ShipUnlock_Massias"

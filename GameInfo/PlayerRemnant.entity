@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 100
+		count 101
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -86,6 +86,7 @@ entities
 		entityDefName "RemnantResearch_Global_StrengthInNumbers"
 		entityDefName "RemnantResearch_Global_Rationing"
 		entityDefName "RemnantResearch_Global_PellaeonDoctrine"
+		entityDefName "RemnantResearch_Global_PellaeonGavrisom"
 		entityDefName "RemnantResearch_Global_DaalaDoctrine"
 		entityDefName "RemnantResearch_Global_DeclarePalpatine"
 		entityDefName "RemnantResearch_Global_Integration"

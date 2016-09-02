@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityPhalanxMicroJump"
+ability:0 "AbilityGilzeanColonize"
 ability:1 "AbilityTargetHangar"
 ability:2 "AbilityCloak"
 ability:3 "AbilityKineticMegamaser"
@@ -67,7 +67,7 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 48.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
@@ -79,10 +79,7 @@ NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_Syndic"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Syndic"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

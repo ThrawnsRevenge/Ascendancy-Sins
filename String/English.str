@@ -1,5 +1,5 @@
 TXT
-NumStrings 8495
+NumStrings 8499
 StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
@@ -986,7 +986,19 @@ StringInfo
 	Value "Ascendancy Star Destroyer"
 StringInfo
 	ID "IDS_CAPITALSHIP_ASCENDANCY_DESCRIPTION"
-	Value "A versatile warship with relatively strong weapons."
+	Value "A dedicated carrier designed with a mix of Chiss and Imperial technology."
+StringInfo
+	ID "IDS_CAPITALSHIP_EFODIO_NAME"
+	Value "Efodio Fleet Tender"
+StringInfo
+	ID "IDS_CAPITALSHIP_EFODIO_DESCRIPTION"
+	Value "A utility ship designed to both carry material and protect convoys."
+StringInfo
+	ID "IDS_CAPITALSHIP_PELTAST_NAME"
+	Value "Peltast Star Destoryer"
+StringInfo
+	ID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"
+	Value "A fragile but powerful warship which excels at eliminating enemy capital ships from a distance."
 StringInfo
 	ID "IDS_CAPITALSHIP_ISDI_NAME"
 	Value "Imperial Star Destroyer"
