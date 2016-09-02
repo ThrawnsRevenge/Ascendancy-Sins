@@ -20,6 +20,7 @@ entities
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "EotH_CombatLab"
 		Page:1
+			count 5
 			entityDefName "EotH_Brask"
 			entityDefName "EotH_Iero"
 			entityDefName "EotH_Teichos"

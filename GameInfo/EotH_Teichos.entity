@@ -28,6 +28,7 @@ statCountType "ModulePointDefense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Teichos"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
