@@ -431,7 +431,7 @@ StringInfo
 	Value "Reactor Cooling"
 StringInfo
 	ID "IDS_EOTHRESEARCH_SPEEDBOOST_DESCRIPTION"
-	Value "Improvements to reactor cooling allows engines to draw more power."
+	Value "Improvements to reactor cooling allows engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on level. Only applies to ships constructed after the tech is researched."
 StringInfo
 	ID "IDS_BULWARK_NAME"
 	Value "Bulwark"
