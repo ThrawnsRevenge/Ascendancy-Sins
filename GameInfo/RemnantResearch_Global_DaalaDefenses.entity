@@ -8,6 +8,7 @@ DescriptionStringID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 2 , 2 ]
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
@@ -35,4 +36,5 @@ researchModifier
 	perLevelValue 0.150000
 	linkedWeaponClass "Invalid"
 artifactPicture ""
+uniqueOverlayBrush ""
 dlcId 204880
