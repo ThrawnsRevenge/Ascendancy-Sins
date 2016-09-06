@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2347
+entityNameCount 2349
 entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
@@ -546,6 +546,8 @@ entityName "RemnantResearch_Global_PellaeonGavrisom.entity"
 entityName "RemnantResearch_Global_MonitorJumps.entity"
 entityName "RemnantResearch_Global_SpreadFire.entity"
 entityName "RemnantResearch_Global_Spaarti.entity"
+entityName "RemnantResearch_Global_DaalaStarbases.entity"
+entityName "RemnantResearch_Global_DaalaDefenses.entity"
 entityName "RemnantResearch_Flat_Turbolasers.entity"
 entityName "RemnantResearch_Flat_Turbolasers2.entity"
 entityName "RemnantResearch_Flat_Turbolasers3.entity"

@@ -1,5 +1,11 @@
 TXT
-NumStrings 8503
+NumStrings 8505
+StringInfo
+	ID "IDS_REMNANTRESEARCH_FORWARDBASES_NAME"
+	Value "Forward Bases"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_FORWARDBASES_DESCRIPTION"
+	Value "Daala's fervour to recapture lost Imperial territory spurs production of offensive bases.."
 StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
@@ -9782,10 +9788,10 @@ StringInfo
 	Value "Militia teams temporarily join ship crews within the gravity well, bolstering armor defenses within friendly territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_NAME"
-	Value "Militia Weaponry"
+	Value "Last Stand"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_DESCRIPTION"
-	Value "Militia teams temporarily join ship crews within the gravity well, bolstering weapon damage within friendly territory."
+	Value "Your forces fight more fiercely in defense of your territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MINE_CONTROL_NAME"
 	Value "Mine Control"

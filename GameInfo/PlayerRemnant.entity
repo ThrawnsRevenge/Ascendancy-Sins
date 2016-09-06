@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 101
+		count 103
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -114,6 +114,8 @@ entities
 		entityDefName "RemnantResearch_Global_Ruthless"
 		entityDefName "RemnantResearch_Global_RuthlessDaala"
 		entityDefName "RemnantResearch_Global_EmperorsWill"
+		entityDefName "RemnantResearch_Global_DaalaStarbases"
+		entityDefName "RemnantResearch_Global_DaalaDefenses"
 		entityDefName "ReallyRemnantResearch_Global_HelpingHand"
 		entityDefName "RemnantResearch_Global_DissidentExpulsion"
 		entityDefName "RemnantResearch_Flat_Turbolasers"
