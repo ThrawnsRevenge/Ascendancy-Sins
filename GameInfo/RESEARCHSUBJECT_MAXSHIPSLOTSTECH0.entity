@@ -37,7 +37,7 @@ researchModifier
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue 0.093750
+	perLevelValue 0.047750
 researchModifier
 	modifierType "ShipMaxSlotLevel"
 	baseValue 0.000000
