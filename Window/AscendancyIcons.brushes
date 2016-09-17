@@ -16,7 +16,7 @@ brush
   Focused
     fileName "AscendancyIconsMain"
     pixelBox [ 0 , 80 , 40 , 40 ]
-  Normal 
+  Normal
     fileName "AscendancyIconsMain"
     pixelBox [ 0 , 0 , 40 , 40 ]
 brush
@@ -560,7 +560,7 @@ brush
     fileName "AscendancyIconsMain"
     pixelBox [ 200 , 160 , 40 , 40 ]
 brush
-  name "AscendancyIconsMainComputer" 
+  name "AscendancyIconsMainComputer"
   content "States"
   Disabled
     fileName "AscendancyIconsMain"
@@ -1081,7 +1081,7 @@ brush
     pixelBox [ 0 , 80 , 40 , 40 ]
   Normal
     fileName "AscendancyIconsGameOptionsToggle"
-    pixelBox [ 1 , 160 , 40 , 40 ]
+    pixelBox [ 0 , 160 , 40 , 40 ]
 brush
   name "AscendancyIconsGameOptionsToggleHeroesOff"
   content "States"
@@ -1371,7 +1371,7 @@ brush
     fileName "AscendancyIconsVictoryOptionsToggle"
     pixelBox [ 200 , 160 , 40 , 40 ]
 brush
-  name "AscendancyIconsNumber1" 
+  name "AscendancyIconsNumber1"
   content "Simple"
   fileName "AscendancyUI"
   pixelBox [ 550 , 173 , 40 , 40 ]
