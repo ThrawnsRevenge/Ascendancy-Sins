@@ -38,12 +38,12 @@ openVictoryOptionsDialogButton
 	underlay "AscendancyMenuScreenButtonIconLarge"
 	overlay "Null"
 	icon "AscendancyIconsMainFlag"
-	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"		
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
 chatReceivedTextList
-	area [30, 475, 550, 165]
+	area [30, 570, 550, 115]
 	itemGap 1
 chatEntry
-	area [30, 639, 550, 35]
+	area [600, 650, 400, 35]
 	labelWidth 0
 	labelText ""
 playerSetupWindow
@@ -58,16 +58,14 @@ channelNameWindow
 	valueFontId "ButtonLabel"
 	labelStringId "IDSICOLobbyScreenChatChannelName"
 changeChannelButton
-	area [600, 620, 220, 75]
+	area [600, 580, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
 	underlay "AscendancyMenuScreenButtonIconLarge"
-	overlay "Null"				
+	overlay "Null"
 	icon "AscendancyIconsMainChat"
 	text "IDSICOLobbyScreenChangeChannelButton"
 victoryInfoFont "ButtonLabel"
-victoryInfoPosition [600,605]
+victoryInfoPosition [-5000,605]
 spaceBetweenVictoryInfo -25
-
-

@@ -40,16 +40,16 @@ openVictoryOptionsDialogButton
 	icon "AscendancyIconsMainFlag"
 	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
 chatReceivedTextList
-	area [30, 475, 550, 165]
+	area [30, 570, 550, 115]
 	itemGap 1
 chatEntry
-	area [30, 639, 550, 35]
+	area [600, 650, 400, 35]
 	labelWidth 0
 	labelText ""
 playerSetupWindow
 	area [30, 100, 700, 500]
 galaxyInfoWindow
 	area [600, 70, 400, 400]
-victoryInfoFont "ButtonLabel"
-victoryInfoPosition [600,665]
+victoryInfoFont "ListItemSmall"
+victoryInfoPosition [ -5000, 640 ]
 spaceBetweenVictoryInfo -25
