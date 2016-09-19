@@ -2,67 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
 	TotalLifeTime 9000.000000
-	NumEmitters 3
-	EmitterType "Sphere"
-	EmitterContents
-		Name "InwardStreaks"
-		Enabled TRUE
-		EmitRate 80.000000
-		HasInfiniteEmitCount FALSE
-		MaxEmitCount 70
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 50000.000000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ff00c8ff
-		ParticleWidth 75.000000
-		ParticleHeight 300.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 10000.000000
-		BillboardAnchor 0
-		ParticleFacing 1
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\W_SPARKLE.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		SphereRadiusXMax 1200.000000
-		SphereRadiusXMin 1000.000000
-		SphereRadiusYMax 1200.000000
-		SphereRadiusYMin 1000.000000
-		SphereRadiusZMax 1200.000000
-		SphereRadiusZMin 1000.000000
-		ParticleMaxStartSpeedAzimuthalTangential 0.000000
-		ParticleMaxStartSpeedPolarTangential 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 3.141593
-		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 6.283185
+	NumEmitters 2
 	EmitterType "Point"
 	EmitterContents
 		Name "Glow"
@@ -81,9 +21,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff003c80
-		ParticleWidth 7500.000000
-		ParticleHeight 7500.000000
+		ParticleStartColor ff801e00
+		ParticleWidth 2000.000000
+		ParticleHeight 2000.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -130,8 +70,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 6000.000000
-		ParticleHeight 1500.000000
+		ParticleWidth 500.000000
+		ParticleHeight 500.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -149,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_NotAdditive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "E:\User\My Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\Ascendancy\Textures\AscendancyIonGunActiveParticle.dds"
+		textureName "E:\User\My Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\Ascendancy\Textures\AscendancyHealingDepletedParticle.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -172,8 +112,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "InwardStreaks"
+		numAttachedEmitters 0
 		MinForce 1000.000000
 		MaxForce 10000.000000
 		Point [ 0.000000 0.000000 0.000000 ]
@@ -222,7 +161,7 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "(new) Point-1"
-		TransitionPeriod 5.000000
+		TransitionPeriod 2.500000
 		StartColor ffffffff
 		StartAlpha 1.000000
 		EndColor ffffffff
