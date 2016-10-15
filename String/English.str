@@ -1,5 +1,5 @@
 TXT
-NumStrings 8505
+NumStrings 8507
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_NAME"
 	Value "Forward Bases"
@@ -96,6 +96,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
 	Value "Installs upgraded weapons on the target allied ship."
+StringInfo
+	ID "IDS_ABILITY_VETERANCY_NAME"
+	Value "Veterancy"
+StringInfo
+	ID "DS_ABILITY_VETERANCY_DESCRIPTION"
+	Value "If this ship participates in the destruction of an enemy ship, it has a chance to improve the skill of its crew, increasing its stats as shown. This can stack up to 20 times."
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_NAME"
 	Value "Mothball"

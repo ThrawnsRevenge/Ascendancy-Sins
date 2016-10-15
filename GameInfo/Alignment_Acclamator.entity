@@ -220,7 +220,7 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 ""
 ability:1 ""
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 72.000000
 AntiMatterRestoreRate 0.000000

@@ -136,7 +136,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 ""
 ability:1 ""
-ability:2 ""
+ability:2 "AbilityVeteran"
 ability:3 "AbilityThrawnDoctrine"
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 0.000000

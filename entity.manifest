@@ -1,5 +1,10 @@
 TXT
-entityNameCount 2349
+entityNameCount 2354
+entityName "AbilityVeteran.entity"
+entityName "BuffVeteran.entity"
+entityName "BuffVeteranSelf.entity"
+entityName "BuffVeteranChance.entity"
+entityName "BuffVeteranBonus.entity"
 entityName "DummyResearch_AlwaysOn.entity"
 entityName "AbilitySpawnHeroPellaeon.entity"
 entityName "BuffSpawnHeroPellaeonSelf.entity"
