@@ -16,8 +16,7 @@ instantAction
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 1
-entityBoolModifier "DisablePhaseJump"
+numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
