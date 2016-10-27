@@ -19,8 +19,8 @@ mainViewIcon "MAINVIEWICON_SQUADTECHCOMBAT"
 picture "PICTURE_SQUADTECHCOMBAT"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SQUADTECHCOMBAT_NAME"
-descriptionStringID "IDS_SQUADTECHCOMBAT_DESC"
+nameStringID "IDS_SWARM_DROID_NAME"
+descriptionStringID "IDS_SWARM_DROID_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

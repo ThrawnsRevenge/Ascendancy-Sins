@@ -1,5 +1,5 @@
 TXT
-NumStrings 8507
+NumStrings 8515
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_NAME"
 	Value "Forward Bases"
@@ -993,8 +993,8 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
 	Value "A large ship with an emphasis on speed and firepower at the expense of defenses."
-	StringInfo
-ID "IDS_CAPITALSHIP_INTEGO_NAME"
+StringInfo
+	ID "IDS_CAPITALSHIP_INTEGO_NAME"
 	Value "Intego Destroyer"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
@@ -1271,13 +1271,13 @@ StringInfo
 	Value "Independent Warlord"
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDWARLORDS"
-	Value "An independent Warlord group has begun attacking the galaxy."
+	Value "An %s group has begun attacking the galaxy at %s."
 StringInfo
 	ID "IDS_RANDOMEVENT_RUUVI_NAME"
 	Value "Ssi Ruuvi Invasion"
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDRUUVI"
-	Value "A group of Ssi Ruuvi ships has invaded."
+	Value "A %s has begun at %s."
 StringInfo
 	ID "IDS_RANDOMEVENT_PEREGRINESNEST_NAME"
 	Value "Garm Bel Iblis"
@@ -25518,6 +25518,30 @@ StringInfo
 StringInfo
 	ID "IDS_TITAN_BELLATOR_DESCRIPTION"
 	Value "The Bellator-class dreadnought was a design based on the Mandator- and Mandator II-classes. It diverged from its predecessors by being shorter and faster and the design was referred to in the Imperial Military as a 'fast dreadnought'."
+StringInfo
+	ID "IDS_CAPITALSHIP_SHREE_NAME"
+	Value "Shree-class Battle Cruiser"
+StringInfo
+	ID "IDS_CAPITALSHIP_SHREE_DESCRIPTION"
+	Value "The central warship of the Ssi-ruuvi Imperium fleet, the Shree is often deployed as a command ship during naval actions."
+StringInfo
+	ID "IDS_CAPITALSHIP_LWHEKK_NAME"
+	Value "Lwhekk-class Manufacturing Ship"
+StringInfo
+	ID "IDS_CAPITALSHIP_LWHEKK_DESCRIPTION"
+	Value "A large, undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary weaponry.
+StringInfo
+	ID "IDS_FRIGATE_WURRIF_NAME"
+	Value "Wuriff-class Light Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_WURRIF_DESCRIPTION"
+	Value "A midrange escort cruiser, the Wuriff continues the trend of a heavy focus on ion weaponry."
+StringInfo
+	ID "IDS_SWARM_DROID_NAME"
+	Value "Swarm-class Battle Droid"
+StringInfo
+	ID "IDS_SWARM_DROID_DESC"
+	Value "The Ssi-Ruuk equivalent to fighters, powered by two entenched lives. Individually weak, but made up for by superior numbers."
 StringInfo
 	ID "NO_TEXT"
 	Value ""

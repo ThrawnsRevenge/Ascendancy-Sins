@@ -12,7 +12,7 @@ hudIcon "HUDICON_SWARM"
 smallHudIcon "HUDICONSMALL_SQUADTECHCOMBAT"
 infoCardIcon "INFOCARDICON_SQUADTECHCOMBAT"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_FIGHTERTECHCOMBAT_NAME"
+nameStringID "IDS_SWARM_DROID_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
