@@ -31,7 +31,7 @@ maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_Esseles"
+		Subject "NewRepResearch_ShipUnlock_Empress"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

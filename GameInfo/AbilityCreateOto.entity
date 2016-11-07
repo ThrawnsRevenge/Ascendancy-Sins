@@ -36,7 +36,7 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_PLANETMODULE_EMPRESS_NAME"
-descStringID "IDS_PLANETMODULE_EMPRESS_DESCRIPTION"
+nameStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"
+descStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_DESCRIPTION"
 hudIcon "HUDICON_EMPRESS"
 smallHudIcon "HUDICON_EMPRESS"

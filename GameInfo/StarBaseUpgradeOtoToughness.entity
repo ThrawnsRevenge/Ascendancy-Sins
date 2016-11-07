@@ -19,19 +19,19 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 8000.000000
+		value 13000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 1.500000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 10000.000000
+		value 13000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 6.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.600000
+		value 0.700000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 6.000000
@@ -54,19 +54,19 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 16000.000000
+		value 22000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 3.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 18000.000000
+		value 22000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 8.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.600000
+		value 0.700000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 9.000000
@@ -89,19 +89,19 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 24000.000000
+		value 33000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 4.500000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 24000.000000
+		value 33000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 9.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.600000
+		value 0.700000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 12.000000
@@ -124,19 +124,19 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 30500.000000
+		value 44000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 6.750000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 32500.000000
+		value 44000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 13.500000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.600000
+		value 0.700000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 16.500000

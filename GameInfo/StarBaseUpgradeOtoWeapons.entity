@@ -1,20 +1,20 @@
 ﻿TXT
 entityType "StarBaseUpgrade"
-stageCount 4
+stageCount 3
 stage
 	price
 		credits 0.000000
 		metal 0.000000
 		crystal 0.000000
 	upgradeTime 0.000000
-	nameStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_NAME"
-	descStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC0"
+	nameStringID "IDS_STARBASEUPGRADETECHWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHWEAPONS_DESC0"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+	hudIcon "HUDIconStarBaseUpgradeTechWeapons0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechWeapons0"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
@@ -23,9 +23,9 @@ stage
 		credits 1800.000000
 		metal 275.000000
 		crystal 150.000000
-	upgradeTime 45.000000
-	nameStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_NAME"
-	descStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC0"
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADETECHWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHWEAPONS_DESC0"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
@@ -35,8 +35,8 @@ stage
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
-		propertyType "WeaponDamage"
-		value 0.100000
+		propertyType "WeaponUpgradeLevel"
+		value 1.000000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -44,8 +44,8 @@ stage
 		metal 275.000000
 		crystal 150.000000
 	upgradeTime 60.000000
-	nameStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_NAME"
-	descStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC0"
+	nameStringID "IDS_STARBASEUPGRADETECHWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHWEAPONS_DESC2"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
@@ -55,27 +55,7 @@ stage
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
-		propertyType "WeaponDamage"
-		value 0.200000
-	upgradeBoolPropertyCount 0
-stage
-	price
-		credits 2700.000000
-		metal 425.000000
-		crystal 225.000000
-	upgradeTime 75.000000
-	nameStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_NAME"
-	descStringID "IDS_STARBASEUPGRADEPHASEWEAPONS_DESC0"
-	researchPrerequisites
-		NumResearchPrerequisites 0
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-	infoCardIcon ""
-	upgradePropertyCount 1
-	upgradeProperty
-		propertyType "WeaponDamage"
-		value 0.30000
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
 	upgradeBoolPropertyCount 0
 xpModifier 75.000000

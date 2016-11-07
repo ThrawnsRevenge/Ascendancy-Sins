@@ -19,13 +19,13 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 4000.000000
+		value 8000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 1.500000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 7000.000000
+		value 10000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 6.000000
@@ -54,13 +54,13 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 6000.000000
+		value 16000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 3.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 9000.000000
+		value 20000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 8.000000
@@ -89,13 +89,13 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 9000.000000
+		value 26000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 4.500000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 13000.000000
+		value 30000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 9.000000
@@ -124,13 +124,13 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 12500.000000
+		value 30000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 6.750000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 15500.000000
+		value 35500.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 13.500000
