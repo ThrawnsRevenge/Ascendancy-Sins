@@ -1,5 +1,8 @@
 TXT
-NumStrings 8515
+NumStrings 8516
+StringInfo
+	ID "IDS_CENTERPOINT_NAME"
+	Value "Centerpoint Station"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_NAME"
 	Value "Forward Bases"
@@ -11,7 +14,7 @@ StringInfo
 	Value "TIE Droid"
 StringInfo
 	ID "IDS_FIGHTERTIEDROID_DESC"
-	Value "An automated TIE fighter with similar capabilities to the standard model, however which does not deplete fighter supply."
+	Value "An automated TIE fighter with similar capabilities to the standard model, but does not deplete fighter supply."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
 	Value "Fortress Worlds"
@@ -263,7 +266,7 @@ StringInfo
 	Value "Ruling Families"
 StringInfo
 	ID "IDS_EOTHRESEARCH_RULINGFAMILIES_DESCRIPTION"
-	Value "The empire of the Hand begins to re-establish closer ties with the Chiss Ascendancy, allowing the filtering of Ascendancy resources and personnel into the Hand."
+	Value "The Empire of the Hand begins to re-establish closer ties with the Chiss Ascendancy, allowing the filtering of Ascendancy resources and personnel into the Hand."
 StringInfo
 	ID "IDS_EOTHRESEARCH_IROKINI_NAME"
 	Value "Irokini Family"
@@ -311,13 +314,13 @@ StringInfo
 	Value "Urban Operations"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_URBAN_DESCRIPTION"
-	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planmets with high populations."
+	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planets with high populations."
 StringInfo
 	ID "IDS_EOTHRESEARCH_CONQUER_URBAN_NAME"
 	Value "Urban Operations"
 StringInfo
 	ID "IDS_EOTHRESEARCH_CONQUER_URBAN_DESCRIPTION"
-	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planmets with high populations."
+	Value "New Republic SpecForce units are trained to operate in urban environments with minimal civilian casualties, allowing invasions of planets with high populations."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_DESERT_NAME"
 	Value "Sandtroopers"
@@ -329,7 +332,7 @@ StringInfo
 	Value "Snowtroopers"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CONQUER_ICE_DESCRIPTION"
-	Value "Equips Stormtroopers with Snowtrooper armour, allowing them to operate in desert environments."
+	Value "Equips Stormtroopers with Snowtrooper armour, allowing them to operate in subzero environments."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_NAME"
 	Value "Echo Base"
@@ -443,7 +446,7 @@ StringInfo
 	Value "Reactor Cooling"
 StringInfo
 	ID "IDS_EOTHRESEARCH_SPEEDBOOST_DESCRIPTION"
-	Value "Improvements to reactor cooling allows engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on level. Only applies to ships constructed after the tech is researched."
+	Value "Improvements to reactor cooling allow engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on level. Only applies to ships constructed after the tech is researched."
 StringInfo
 	ID "IDS_BULWARK_NAME"
 	Value "Bulwark"
@@ -485,7 +488,7 @@ StringInfo
 	Value "Smuggler's Alliance"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SMUGGLERSALLIANCE_DESCRIPTION"
-	Value "Connections with smuggling groups gives the New Repiblic cheaper access to underground tibanna and durasteel markets."
+	Value "Connections with smuggling groups give the New Repiblic cheaper access to underground tibanna and durasteel markets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_BIDDING_NAME"
 	Value "Open Bidding"
@@ -836,7 +839,7 @@ StringInfo
 	Value "Immobilizer 418 Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_IMMOBILIZER_DESCRIPTION"
-	Value "A significant component of the Imperial fleet the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
+	Value "A significant component of the Imperial fleet, the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_NAME"
 	Value "Fleet Tender: Alaria Freighter"
@@ -848,19 +851,19 @@ StringInfo
 	Value "Bu'direch Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
-	Value "A fusion of the old Republic dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
+	Value "A fusion of the old Republic Dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
 StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_NAME"
 	Value "Dreadnaught Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_DESCRIPTION"
-	Value "Outdated and crew intensive the Dreadnaught nonetheless remains a potent weapon in the right hands."
+	Value "Outdated and crew intensive, the Dreadnaught nonetheless remains a potent weapon in the right hands."
 StringInfo
 	ID "IDS_FRIGATE_KATANADREADNAUGHT_NAME"
 	Value "Katana Dreadnaught"
 StringInfo
 	ID "IDS_FRIGATE_KATANADREADNAUGHT_DESCRIPTION"
-	Value "A modified dreadnaught with added ion cannons."
+	Value "A modified Dreadnaught with added ion cannons and a small hangar."
 StringInfo
 	ID "IDS_FRIGATE_ASCENT_NAME"
 	Value "Frontier Scout"
@@ -914,13 +917,13 @@ StringInfo
 	Value "Dauntless Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
-	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates ."
+	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates."
 StringInfo
 	ID "IDS_FRIGATE_BAC_NAME"
 	Value "Bothan Assault Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_BAC_DESCRIPTION"
-	Value "An impressively powerful and flexible replacement for the aging Victory Star Destroyer."
+	Value "An impressively powerful and flexible (and more importantly, non-Imperial) replacement for the aging Victory Star Destroyer."
 StringInfo
 	ID "IDS_FRIGATE_ASSAULT_NAME"
 	Value "Assault Frigate"
@@ -968,7 +971,7 @@ StringInfo
 	Value "Battle Dragon"
 StringInfo
 	ID "IDS_FRIGATE_BDRAGON_DESCRIPTION"
-	Value "The primary capital ship of the Hapan Navy. Most effective when used en masse against single targets to make up for antiquated weapon systems. "
+	Value "The primary capital ship of the Hapan Navy. Most effective when used en masse against single targets to make up for antiquated weapon systems."
 StringInfo
 	ID "IDS_FRIGATE_NOVACRUISER_NAME"
 	Value "Nova Cruiser"
@@ -1235,7 +1238,7 @@ StringInfo
 	Value "Establish Garrison"
 StringInfo
 	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
-	Value "Sends military supplies o the surface of a planet to establish a new garrison, granting control of the planet."
+	Value "Sends military supplies to the surface of a planet to establish a new garrison, granting control of the planet."
 StringInfo
 	ID "IDS_ABILITY_BELLATORREACTOR_NAME"
 	Value "Transfer Reactor"
@@ -1796,7 +1799,7 @@ StringInfo
 	Value "Destroy Planet"
 StringInfo
 	ID "IDS_ABILITY_ANNIHILATEPLANET_DESC"
-	Value "Fires a warhead at the target planet, destroyign it entirely."
+	Value "Fires a warhead at the target planet, destroying it entirely."
 StringInfo
 	ID "IDS_ABILITY_IMPOSINGPRESENCE_NAME"
 	Value "Imposing Presence"
@@ -1916,7 +1919,7 @@ StringInfo
 	Value "Hull Breach"
 StringInfo
 	ID "IDS_ABILITY_BREACH_DESCRIPTION"
-	Value "The BAC shoots a high-powered turbolaser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
+	Value "The vessel shoots a high-powered turbolaser shot, puncturing the hull and causing damage until the affected area can be closed off. If the hull integrity is below 10%, this destroys the ship."
 StringInfo
 	ID "IDS_ABILITY_BOTHANSPIES_NAME"
 	Value "Bothan Spy Network"
@@ -1964,7 +1967,7 @@ StringInfo
 	Value "Iron Grip"
 StringInfo
 	ID "IDS_ABILITY_AURAOFFEAR_DESCRIPTION"
-	Value "The fear of failure causes Imperials to recklessly attack their enemies, dealing increased damage but also leacving themselves more vulnerable to attack."
+	Value "The fear of failure causes Imperials to recklessly attack their enemies, dealing increased damage but also leaving themselves more vulnerable to attack."
 StringInfo
 	ID "IDS_ABILITY_COORDINATE_NAME"
 	Value "Coordinate Fighters"
@@ -2033,13 +2036,13 @@ StringInfo
 	Value "Allows your CT11 to install a Hypervelocity Gun on the planet's surface, which can automatically target attacking enemy ships every 60 seconds"
 StringInfo
 	ID "IDS_ABILITY_PLANETARYION_NAME"
-	Value "Planetary  Ion Cannon"
+	Value "Planetary Ion Cannon"
 StringInfo
 	ID "IDS_ABILITY_PLANETARYION_DESCRIPTION"
-	Value "Allows your CT11 to install an Ion Cannon on the planetès surface, which can automatically target attacking enemy ships every 60 seconds."
+	Value "Allows your CT11 to install an Ion Cannon on the planet's surface, which can automatically target attacking enemy ships every 60 seconds."
 StringInfo
 	ID "IDS_ABILITY_PLANETARYMEGAMASER_NAME"
-	Value "Planetary  Megamser"
+	Value "Planetary Megamaser"
 StringInfo
 	ID "IDS_ABILITY_PLANETARYMEGAMASER_DESCRIPTION"
 	Value "Allows your CT11 to install a giant megamaser on the planet's surface, which every 60 seconds can fire at up to two enemy ships, the kinetic impact of which throws off their targeting systems."
@@ -2048,7 +2051,7 @@ StringInfo
 	Value "Shield Aegis"
 StringInfo
 	ID "IDS_ABILITY_SHIELDAEGIS_DESCRIPTION"
-	Value "This ship boosts boosts the shield mitigation of ships around it."
+	Value "This ship boosts the shield mitigation of ships around it."
 StringInfo
 	ID "IDS_ABILITY_DOCK_NAME"
 	Value "Dock"
@@ -2330,7 +2333,7 @@ StringInfo
 	Value "Holonet Transceiver"
 StringInfo
 	ID "IDS_COMMSTATION_DESCRIPTION"
-	Value "Holonet news broadcasts are used to spread your factions' culture."
+	Value "Holonet news broadcasts are used to spread your faction's culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TRADESTATION_NAME"
 	Value "Trade Port"
@@ -2447,7 +2450,7 @@ StringInfo
 	Value "Final Hour"
 StringInfo
 	ID "IDS_ABILITY_RAM_DESCRIPTION"
-	Value "This ship will ram the target, doing large amounts of damage the target and destroying itself."
+	Value "This ship will ram the target, doing large amounts of damage to the target and destroying itself."
 StringInfo
 	ID "IDS_ABILITY_RHAZERSEDGE_NAME"
 	Value "Rhazer's Edge"
@@ -25529,13 +25532,13 @@ StringInfo
 	Value "Lwhekk-class Manufacturing Ship"
 StringInfo
 	ID "IDS_CAPITALSHIP_LWHEKK_DESCRIPTION"
-	Value "A large, undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary weaponry.
+	Value "A large yet undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary equipment.
 StringInfo
 	ID "IDS_FRIGATE_WURRIF_NAME"
 	Value "Wuriff-class Light Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_WURRIF_DESCRIPTION"
-	Value "A midrange escort cruiser, the Wuriff continues the trend of a heavy focus on ion weaponry."
+	Value "A midrange escort cruiser, the Wuriff features a heavy focus on ion weaponry."
 StringInfo
 	ID "IDS_SWARM_DROID_NAME"
 	Value "Swarm-class Battle Droid"

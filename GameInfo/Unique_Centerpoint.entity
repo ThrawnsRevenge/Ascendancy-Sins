@@ -37,7 +37,7 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MAINVIEWICON_GALAXY_GUN"
 experiencePointsForDestroying 150.000000
-nameStringID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
+nameStringID "IDS_CENTERPOINT_NAME"
 picture "HUDICON_GALAXYGUN"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateGalaxyGun"
