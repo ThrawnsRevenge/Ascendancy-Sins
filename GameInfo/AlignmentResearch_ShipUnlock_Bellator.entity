@@ -35,7 +35,7 @@ researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "TitanConstructionCap"
-	baseValue 0.000000
+	baseValue 1.000000
 	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
