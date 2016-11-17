@@ -20,7 +20,7 @@ picture "HUDICON_SKIPRAY"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_SKIPRAY_NAME"
-descriptionStringID "IDS_SKIPRAY_DESC"
+descriptionStringID "IDS_SKIPRAY_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

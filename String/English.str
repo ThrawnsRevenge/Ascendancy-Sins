@@ -1135,7 +1135,7 @@ StringInfo
 	ID "IDS_TIEFIGHTER_NAME"
 	Value "TIE Fighter"
 StringInfo
-	ID "IDS_FIGTERTIEFIGHTER_DESC"
+	ID "IDS_FIGHTERTIEFIGHTER_DESC"
 	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
 StringInfo
 	ID "IDS_FIGHTERV19_NAME"
@@ -1144,25 +1144,25 @@ StringInfo
 	ID "IDS_V19_NAME"
 	Value "V19 Torrent"
 StringInfo
-	ID "IDS_FIGTERV19_DESC"
+	ID "IDS_FIGHTERV19_DESC"
 	Value "An old Republic design which costs less supply to field, but is weaker than most other craft."
 StringInfo
 	ID "IDS_FIGHTERTIEBOMBER_NAME"
 	Value "TIE Bomber"
 StringInfo
-	ID "IDS_FIGTERTIEBOMBER_DESC"
+	ID "IDS_FIGHTERTIEBOMBER_DESC"
 	Value "A squadron of bombers meant to assault enemy cruisers and capital ships."
 StringInfo
 	ID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
 	Value "TIE Interceptor"
 StringInfo
-	ID "IDS_FIGTERTIEINTERCEPTOR_DESC"
+	ID "IDS_FIGHTERTIEINTERCEPTOR_DESC"
 	Value "A superiority fighter which can intercept and destroy enemy fighters and bombers."
 StringInfo
 	ID "IDS_FIGHTERTIEDEFENDER_NAME"
 	Value "TIE Defender"
 StringInfo
-	ID "IDS_FIGTERTIEDEFENDER_DESC"
+	ID "IDS_FIGHTERTIEDEFENDER_DESC"
 	Value "A heavy specialty fighter, and the strongest in the Imperial arsenal. It can function effectively as a fighter and bomber."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS0_NAME"
@@ -1610,7 +1610,7 @@ StringInfo
 	Value "Skipray Blastboat"
 StringInfo
 	ID "IDS_SKIPRAY_DESCRIPTION"
-	Value "A versatile and large craft which serves as a bomber in the Alignment fleet."
+	Value "A versatile and large craft which serves as a heavy bomber in the Alignment fleet."
 StringInfo
 	ID "IDS_FIGHTERMIYTILBOMBER_NAME"
 	Value "Miy'til Bomber"
