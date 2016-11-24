@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2359
+entityNameCount 2360
 entityName "AbilityVeteran.entity"
 entityName "BuffVeteran.entity"
 entityName "BuffVeteranSelf.entity"
@@ -40,6 +40,7 @@ entityName "StarBaseUpgradeEmpressHangar.entity"
 entityName "StarBaseUpgradeEmpressToughness.entity"
 entityName "StarBaseUpgradeEmpressWeapons.entity"
 entityName "StarBaseUpgradeEmpressDamage.entity"
+entityName "StarBaseUpgradeEmpressRestore.entity"
 entityName "StarBaseUpgradeOtoRestore.entity"
 entityName "StarBaseUpgradeOtoHangar.entity"
 entityName "StarBaseUpgradeOtoToughness.entity"
