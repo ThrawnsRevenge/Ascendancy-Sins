@@ -7,7 +7,7 @@ NameStringID "IDS_NEWREPRESEARCH_RESPONSIBLEGOVERNMENT_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_RESPONSIBLEGOVERNMENT_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 4 , 2 ]
+	pos [ 4 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0

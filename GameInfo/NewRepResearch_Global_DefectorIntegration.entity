@@ -7,7 +7,7 @@ NameStringID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_DEFECTORINTEGRATION_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 2 , 2 ]
+	pos [ 2 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0
