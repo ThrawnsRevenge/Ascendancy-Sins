@@ -1,34 +1,16 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTarget"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffAltorProtect"
-targetFilter
-	numOwnerships 1
-	ownership "Friendly"
-	numObjects 5
-	object "CapitalShip"
-	object "Frigate"
-	object "PlanetModule"
-	object "StarBase"
-	object "Corvette"
-	numSpaces 1
-	space "Normal"
-	numConstraints 1
-	constraint "NotSelf"
-range
-	Level:0 1200.000000
-	Level:1 1200.000000
-	Level:2 1200.000000
-	Level:3 1200.000000
+buffType "BuffRepairDroids"
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
+	smallEffectName "Ability_RepairPlatformTechActivate"
+	mediumEffectName "Ability_RepairPlatformTechActivate"
+	largeEffectName "Ability_RepairPlatformTechActivate"
+	soundID "EFFECT_REPAIR_TECH"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -40,7 +22,7 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyInCombat"
+aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -54,17 +36,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 240.000000
-	Level:1 220.000000
-	Level:2 180.000000
-	Level:3 140.000000
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_ALTORPROTECT_NAME"
-descStringID "IDS_ABILITY_ALTORPROTECT_DESCRIPTION"
-hudIcon "HUDABILITYICON_PROTECT"
-smallHudIcon "HUDABILITYICON_PROTECT"
+nameStringID "IDS_ABILITY_REPAIRDROIDS_NAME"
+descStringID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
+hudIcon "HUDABILITYICON_REPAIR"
+smallHudIcon "HUDABILITYICON_REPAIR"
 infoCardIcon ""

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2360
+entityNameCount 2364
 entityName "AbilityVeteran.entity"
 entityName "BuffVeteran.entity"
 entityName "BuffVeteranSelf.entity"
@@ -763,6 +763,10 @@ entityName "AbilityInterdictCapital.entity"
 entityName "AbilityKatanaSpawn.entity"
 entityName "AbilityPassiveLowLifeDaala.entity"
 entityName "BuffPassiveLowLifeDaala.entity"
+entityName "AbilityRepairDroids.entity"
+entityName "BuffRepairDroids.entity"
+entityName "AbilityCorporateTakeover.entity"
+entityName "BuffCorporateTakeoverTarget.entity"
 entityName "AbilityDeployKWing.entity"
 entityName "AbilityKWingRemove.entity"
 entityName "BuffKWingRemove.entity"

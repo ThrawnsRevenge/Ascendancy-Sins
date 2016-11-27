@@ -1,5 +1,5 @@
 TXT
-NumStrings 8516
+NumStrings 8522
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
@@ -1855,6 +1855,18 @@ StringInfo
 	ID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
 	Value "The Viscount drains its own shields to restore shields to all allied ships in its vicinity."
 StringInfo
+	ID "IDS_ABILITY_REPAIRDROIDS_NAME"
+	Value "Repair Droids"
+StringInfo
+	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
+	Value "Droids are rapidly deployed to repair the hull of the vessel."
+StringInfo
+	ID "IDS_ABILITY_CORPORATETAKEOVER_NAME"
+	Value "Corporate Takeover"
+StringInfo
+	ID "IDS_ABILITY_CORPORATETAKEOVER_DESCRIPTION"
+	Value "Everyone has a price. Allows you to buy off the crew of the target corvette, frigate or cruiser."
+StringInfo
 	ID "IDS_ABILITY_CONCUSSIONBARRAGE_NAME"
 	Value "Concussion Barrage"
 StringInfo
@@ -2109,6 +2121,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_TRACTORBEAM_DESCRIPTION"
 	Value "Immobilizes target."
+StringInfo
+	ID "IDS_ABILITY_TRACTORLOCKDOWN_NAME"
+	Value "Tractor Lockdown"
+StringInfo
+	ID "IDS_ABILITY_TRACTORLOCKDOWN_DESCRIPTION"
+	Value "Immobilizes several targets with tractor beams."
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "Degrading Systems"

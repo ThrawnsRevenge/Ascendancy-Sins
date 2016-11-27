@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityTractorBeam"
-ability:1 "AbilityNumericalSuperiority"
-ability:2 ""
+ability:1 "AbilityRepairDroids"
+ability:2 "AbilityCorporateTakeover"
 ability:3 "AbilityOverwhelmCapital"
 ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
