@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityCloak"
-ability:1 "AbilityPhalanxMicroJump"
-ability:2 ""
-ability:3 ""
+ability:0 "AbilitySnipe"
+ability:1 "AbilityOvercharge"
+ability:2 "AbilityEscapeVelocity"
+ability:3 "AbilityEmergencyShielding"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -49,10 +49,10 @@ basePrice
 slotCount 1.000000
 BuildTime 80.000000
 MaxHullPoints
-	StartValue 4030.000000
+	StartValue 3830.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4030.000000
+	StartValue 3830.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -105,7 +105,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1500.000000
+	DamagePerBank:FRONT 800.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

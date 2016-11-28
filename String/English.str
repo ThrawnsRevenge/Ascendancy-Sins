@@ -1,5 +1,5 @@
 TXT
-NumStrings 8522
+NumStrings 8526
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
@@ -2127,6 +2127,18 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_TRACTORLOCKDOWN_DESCRIPTION"
 	Value "Immobilizes several targets with tractor beams."
+StringInfo
+	ID "IDS_ABILITY_EMERGENCYSHIELDING_NAME"
+	Value "Emergency Shielding"
+StringInfo
+	ID "IDS_ABILITY_EMERGENCYSHIELDING_DESCRIPTION"
+	Value "All emergency power gets routed from offensive systems to shielding."
+StringInfo
+	ID "IDS_ABILITY_ESCAPEVELOCITY_NAME"
+	Value "Escape Velocity"
+StringInfo
+	ID "IDS_ABILITY_ESCAPEVELOCITY_DESCRIPTION"
+	Value "All emergency power gets routed from offensive and shielding to engines."
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "Degrading Systems"
@@ -12842,10 +12854,10 @@ StringInfo
 	Value "The Titan sacrifices some of its own hull and antimatter to restore the hull and antimatter to nearby friendly ships. You must have enough hull and antimatter for this effect to take place."
 StringInfo
 	ID "IDS_ABILITY_OVERCHARGE_NAME"
-	Value "Overcharge"
+	Value "Analyze Weakness"
 StringInfo
 	ID "IDS_ABILITY_OVERCHARGE_DESCRIPTION"
-	Value "The next ability the titan uses will be enhanced for far greater effect."
+	Value "The Peltast's targetting computers home in on a weak part of the enemy hull, increasing damage against it."
 StringInfo
 	ID "IDS_ABILITY_PHASECLOAK_NAME"
 	Value "Selective Phasing"
@@ -13175,10 +13187,10 @@ StringInfo
 	Value "The after effects of planetary bombardment are made more severe, causing population growth to be reduced more sharply for a period of time."
 StringInfo
 	ID "IDS_ABILITY_SNIPE_NAME"
-	Value "Snipe"
+	Value "Fire Main Cannon"
 StringInfo
 	ID "IDS_ABILITY_SNIPE_DESCRIPTION"
-	Value "The titan fires an extremely powerful, long-range shell, dealing massive damage to a single target."
+	Value "The Peltast fires its main cannon, dealing massive damage to a single target."
 StringInfo
 	ID "IDS_ABILITY_SOLARFLARES_NAME"
 	Value "Solar Flares"
