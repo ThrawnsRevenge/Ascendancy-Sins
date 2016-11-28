@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2364
+entityNameCount 2367
 entityName "AbilityVeteran.entity"
 entityName "BuffVeteran.entity"
 entityName "BuffVeteranSelf.entity"
@@ -805,6 +805,9 @@ entityName "BuffPowerToShields.entity"
 entityName "AbilitySsiColonize.entity"
 entityName "BuffSsiExpand.entity"
 entityName "AbilityTractorBeam.entity"
+entityName "AbilityTractorLockdown.entity"
+entityName "BuffTractorLockdownMarker.entity"
+entityName "BuffTractorBeamLockdownTarget.entity"
 entityName "AbilityThrawnDoctrine.entity"
 entityName "AbilityConsumeShip.entity"
 entityName "AbilityHypervelocityGun.entity"
