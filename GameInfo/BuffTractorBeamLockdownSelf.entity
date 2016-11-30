@@ -7,21 +7,19 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 1
 instantAction
-	buffInstantActionType "DoInterrupt"
+	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-instantAction
-	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffTractorBeamLockdownSelf"
+	buffType "BuffTractorLockdownMarker"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"
 	

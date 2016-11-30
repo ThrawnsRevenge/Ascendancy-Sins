@@ -6,7 +6,7 @@ stackingLimit -1
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
 instantAction
 	buffInstantActionType "PlayPersistantBeamEffect"
 	instantActionTriggerType "OnDelay"
@@ -45,6 +45,18 @@ instantAction
 		beamGlowColor ffffffff
 		beamCoreColor C0C0C0C0
 		beamTilingRate -0.500000
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffTractorLockdownMarkerTarget"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

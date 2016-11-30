@@ -1,5 +1,5 @@
 TXT
-NumStrings 8526
+NumStrings 8532
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
@@ -94,6 +94,12 @@ StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
 	Value "When this ship launches a torpedo, it splits and hits two other nearby targets after the first."
 StringInfo
+	ID "IDS_ABILITY_EMPBURST_NAME"
+	Value "EMP Burst"
+StringInfo
+	ID "IDS_ABILITY_EMPBURST_DESCRIPTION"
+	Value "An EMP wave disrupts the subsystems of enemy ships in the area of effect."
+StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
 StringInfo
@@ -105,6 +111,12 @@ StringInfo
 StringInfo
 	ID "DS_ABILITY_VETERANCY_DESCRIPTION"
 	Value "If this ship participates in the destruction of an enemy ship, it has a chance to improve the skill of its crew, increasing its stats as shown. This can stack up to 20 times."
+StringInfo
+	ID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
+	Value "Upgrade Computers"
+StringInfo
+	ID "DS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
+	Value "Targeting computers are upgraded, improving the ability to target critical systems. Increases both chance to hit and damage on hit."
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_NAME"
 	Value "Mothball"
@@ -1919,7 +1931,13 @@ StringInfo
 	Value "Force Projection"
 StringInfo
 	ID "IDS_ABILITY_PROJECTFORCE_DESCRIPTION"
-	Value "Jedi on board the ship use the force to trick enemies into perceiving multiple copies of this ship."
+	Value "Jedi on board the ship use the force to trick enemies into perceiving illusory ships."
+StringInfo
+	ID "IDS_ABILITY_PIERCINGBLOWS_NAME"
+	Value "Piercing Blows"
+StringInfo
+	ID "IDS_ABILITY_PIERCINGBLOWS_DESCRIPTION"
+	Value "The Nebulaès heavy turbolasers reduce the armour of its target as it hits."
 StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Probe Droids"

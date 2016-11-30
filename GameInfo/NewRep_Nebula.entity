@@ -2,8 +2,8 @@
 entityType "CapitalShip"
 ability:0 "AbilityOverwhelmCapital"
 ability:1 "AbilityTargetHangar"
-ability:2 ""
-ability:3 ""
+ability:2 "AbilityProjectForceNebula"
+ability:3 "AbilityPiercingBlows"
 ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
