@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityConsumeShip"
 ability:1 "AbilityReconstructShip"
 ability:2 "AbilityDebrisVacuum"
-ability:3 ""
+ability:3 "AbilityCloseQuarters"
 ability:4 "AbilityPassiveLowLifeSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

@@ -100,6 +100,18 @@ StringInfo
 	ID "IDS_ABILITY_EMPBURST_DESCRIPTION"
 	Value "An EMP wave disrupts the subsystems of enemy ships in the area of effect."
 StringInfo
+	ID "IDS_ABILITY_PUNISHINGFIREPOWER_NAME"
+	Value "Punishing Firepower"
+StringInfo
+	ID "IDS_ABILITY_PUNISHINGFIREPOWER_DESCRIPTION"
+	Value "A fervor overtakes the crews of surrounding ships, increasing their damage output but also amplifying damage done to them. Can stack up to 3 times."
+StringInfo
+	ID "IDS_ABILITY_SHIELDSCAN_NAME"
+	Value "Planetary Shield Scan"
+StringInfo
+	ID "IDS_ABILITY_SHIELDSCAN_DESCRIPTION"
+	Value "Analyzes the shields of planets while firing, allowing coordinated fire between gaps in shielding and amplifying all damage against the target planet. Stacks up to 10 times from different Torpedo Spheres."
+StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
 StringInfo

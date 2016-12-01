@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2390
+entityNameCount 2395
 entityName "BuffLaunchShuttleGalleon.entity"
 entityName "AbilityVeteran.entity"
 entityName "BuffVeteran.entity"
@@ -693,6 +693,11 @@ entityName "AbilityProtectionism.entity"
 entityName "BuffProtectionismSelf.entity"
 entityName "AbilitySmugglersDenWeapons.entity"
 entityName "BuffSmugglersDenWeapons.entity"
+entityName "AbilityShieldScan.entity"
+entityName "BuffShieldScanTarget.entity"
+entityName "BuffShieldScan.entity"
+entityName "AbilityPunishingFirepower.entity"
+entityName "BuffPunishingFirepower.entity"
 entityName "AbilityKineticMegamaser.entity"
 entityName "BuffKineticMegamaser.entity"
 entityName "BuffKineticMegamaserTarget.entity"
