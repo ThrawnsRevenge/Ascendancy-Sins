@@ -20,7 +20,14 @@ instantAction
 		largeEffectName "CapitalBuff_PlanetMania"
 		soundID "EFFECT_PLANETMANIA"
 numPeriodicActions 0
-numOverTimeActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreAllegiance"
+	allegianceRestoreRate
+		Level:0 -0.0005000
+		Level:1 -0.0005000
+		Level:2 -0.0005000
+		Level:3 -0.0005000
 numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "CultureSpreadRateForOwner"
