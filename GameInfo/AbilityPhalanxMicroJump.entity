@@ -26,7 +26,8 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyWhenMovingFar"
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 19000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

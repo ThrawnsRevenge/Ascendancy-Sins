@@ -1,5 +1,8 @@
 TXT
-NumStrings 8551
+NumStrings 8552
+StringInfo
+	ID "IDSGalaxySetupWindowInviteViaOverlayTitle"
+	Value "Invite Friends"
 StringInfo
 	ID "IDSMainMenuScreenDLC1Button"
 	Value " "

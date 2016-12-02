@@ -369,6 +369,12 @@ joinGameContentWindow
 			valueOffsetFromLeft 130
 			iconOffsetFromLeft 110
 			iconWidth 30
+		areOutlawSectorsActiveAreas
+			area [0, 120, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
 		isBlackMarketActiveAreas
 			area [0, 120, 100, 30]
 			labelOffsetFromLeft 0

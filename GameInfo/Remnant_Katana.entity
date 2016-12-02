@@ -49,10 +49,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 125.000000
-	DamagePerBank:RIGHT 125.000000
+	DamagePerBank:LEFT 165.000000
+	DamagePerBank:RIGHT 165.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE

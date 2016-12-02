@@ -6,7 +6,7 @@ explosionEffectGroup
 	explosionEffectDef
 		totalPlayTime 15
 		makeMeshInvisibleTime 4
-		subExplosionCount 20
+		subExplosionCount 12
 		subExplosion
 			type "Effect"
 			playTime 0
@@ -154,98 +154,6 @@ explosionEffectGroup
 				soundCount 2
 				sound "EXPLOSION_CAPITALSHIPDEATH"
 				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Center"
-			particleSystemName "Explosion_PlanetModuleLarge2"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Effect"
-			playTime 4
-			cameraShakeMaxSize 23000.0
-			cameraShakeStrength 0.4
-			cameraShakeDuration 2.0
-			location "Surface"
-			particleSystemName "Explosion_CapitalShip"
-			explosionSounds
-				soundCount 2
-				sound "EXPLOSION_CAPITALSHIPDEATH"
-				sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
-		subExplosion
-			type "Sound"
-			playTime 5.5
-			cameraShakeMaxSize 38000.0
-			cameraShakeStrength 1.0
-			cameraShakeDuration 0.0
-			explosionSounds
-				soundCount 0
 explosionEffectGroup
 	groupName "CapitalShip0"
 	explosionEffectDefCount 4

@@ -21,6 +21,15 @@ startGameButton
 	overlay "Null"
 	icon "AscendancyIconsMainForward"
 	text "IDSICOGameLobbyScreenStartGameButton"
+openInviteOverlayButton
+	area [619, 55, 133 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -5
+	textOffsetFromLeft 43
+	underlay "ScreenButtonUnderlayMedium"
+	overlay "ScreenButtonOverlayMedium"			
+	icon "PlayerStatusAvailableForFriend"
+	text "IDSGalaxySetupWindowInviteViaOverlayTitle"
 openGameOptionsDialogButton
 	area [270, 680, 220 , 75]
 	fontId "ButtonLabel"
