@@ -29,6 +29,13 @@ periodicAction
 		Level:2 0.100000
 		Level:3 0.100000
 	buffType "BuffVeteranBonus"
+		effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0

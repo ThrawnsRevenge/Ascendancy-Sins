@@ -37,6 +37,7 @@ cooldownTime
 	Level:1 30.000000
 	Level:2 30.000000
 	Level:3 30.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

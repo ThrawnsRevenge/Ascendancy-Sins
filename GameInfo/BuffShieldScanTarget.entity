@@ -12,7 +12,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
 	instantActionTriggerType "OnWeaponFired"
 	numWeaponClasses 1
-	weaponClassForWeaponPassive "PLANETBOMBARDMENT
+	weaponClassForWeaponPassive "PLANETBOMBARDMENT"
 	passiveWeaponEffectChance
 		Level:0 1.000000
 		Level:1 1.000000
@@ -22,7 +22,7 @@ instantAction
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 6
+		numObjects 1
 		object "Planet"
 		numSpaces 1
 		space "Normal"

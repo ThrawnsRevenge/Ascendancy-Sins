@@ -1,5 +1,5 @@
 TXT
-NumStrings 8532
+NumStrings 8547
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
@@ -112,6 +112,18 @@ StringInfo
 	ID "IDS_ABILITY_SHIELDSCAN_DESCRIPTION"
 	Value "Analyzes the shields of planets while firing, allowing coordinated fire between gaps in shielding and amplifying all damage against the target planet. Stacks up to 10 times from different Torpedo Spheres."
 StringInfo
+	ID "IDS_ABILITY_FIGHTERCONNERNETS_NAME"
+	Value "Anti-Fighter Conner Nets"
+StringInfo
+	ID "IDS_ABILITY_FIGHTERCONNERNETS_DESCRIPTION"
+	Value "Shoots out dozens of small conner nets, disabling fighters in a large radius."
+StringInfo
+	ID "IDS_ABILITY_COORDINATEDSTRIKE_NAME"
+	Value "Coordinated Strike"
+StringInfo
+	ID "IDS_ABILITY_COORDINATEDSTRIKE_DESCRIPTION"
+	Value "Tactical computers aboard the Ascendancy feed information to fighters hosted from this ship, improving their performance."
+StringInfo
 	ID "IDS_ABILITY_UPGRADEWEAPONS_NAME"
 	Value "Upgrade Weapons"
 StringInfo
@@ -171,6 +183,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
 	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
+StringInfo
+	ID "IDS_ABILITY_TARGETINGJAMMER_NAME"
+	Value "Targeting Jammer"
+StringInfo
+	ID "IDS_ABILITY_TARGETINGJAMMER_DESCRIPTION"
+	Value "Scrambles enemy transmissions and targeting computers, reducing their ability to effectively target ships. Cannot stack."
 StringInfo
 	ID "IDS_ABILITY_BLACKMARKETWEAPONS_NAME"
 	Value "Black Market Weapons"
@@ -12495,6 +12513,21 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLOAK_DESCRIPTION"
 	Value "Turns the ship invisible until deactivated. Cannot fire or be fired at while invisible."
+StringInfo
+	ID "IDS_ABILITY_CONNERNET_NAME"
+	Value "ConnerNet"
+StringInfo
+	ID "IDS_ABILITY_CONNERNET_DESCRIPTION"
+	Value "Launches a net which disables the subsystems of an enemy ship. If the ship is below 20% health, it can be captured by troop dropships."
+StringInfo
+	ID "IDS_ABILITY_COORDINATEDCLOAK_NAME"
+	Value "Enable Fleet Cloak"
+StringInfo
+	ID "IDS_ABILITY_COORDINATEDCLOAKOFF_NAME"
+	Value "Disable Fleet Cloak"
+StringInfo
+	ID "IDS_ABILITY_COORDINATEDCLOAK_DESCRIPTION"
+	Value "Turns the ship and all surrounding ships invisible until deactivated. Cannot fire or be fired at while invisible."
 StringInfo
 	ID "IDS_ABILITY_EVASIVEMANEOUVERS_NAME"
 	Value "Evasive Maneuvers"

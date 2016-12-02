@@ -30,3 +30,4 @@ numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
 	buffTypeToQuery "BuffSpawnHeroDaalaDisablerSpawner"
+	

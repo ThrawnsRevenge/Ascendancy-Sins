@@ -3,6 +3,7 @@ entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -19,6 +20,8 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
+	toggleStateOnNameStringID "IDS_ABILITY_MOTHBALL_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

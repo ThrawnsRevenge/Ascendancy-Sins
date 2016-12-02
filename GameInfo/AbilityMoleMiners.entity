@@ -6,7 +6,7 @@ buffType "BuffMoleMiner"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 5
+	numObjects 3
 	object "CapitalShip"
 	object "Frigate"
 	object "Corvette"

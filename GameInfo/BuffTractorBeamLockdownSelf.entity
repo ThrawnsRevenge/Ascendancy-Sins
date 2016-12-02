@@ -9,7 +9,7 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
+	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffTractorLockdownMarker"

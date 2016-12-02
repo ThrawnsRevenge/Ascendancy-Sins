@@ -181,7 +181,7 @@ planetUpgradeDef
 			shipBuildRateModifier 0.000000
 			cultureSpreadRateModifier 0.000000
 	path:Smuggler
-		stageCount 4
+		stageCount 1
 		stage
 			price
 				credits 0.000000

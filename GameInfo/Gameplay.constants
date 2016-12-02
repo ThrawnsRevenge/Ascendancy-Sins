@@ -973,7 +973,6 @@ GameplayConstants
 			maxFleetPoints 0.000000
 			requiredShipCount 0
 			randomShipCount 0
-			randomShip
 		baseFleetCapacity 0.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0

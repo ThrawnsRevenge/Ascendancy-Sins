@@ -29,7 +29,6 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Passive"
-orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -39,4 +38,3 @@ descStringID "IDS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
 hudIcon "HUDABILITYICON_OVERWHELM"
 smallHudIcon "HUDABILITYICON_OVERWHELM"
 infoCardIcon ""
-
