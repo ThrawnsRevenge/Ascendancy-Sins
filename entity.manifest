@@ -1,5 +1,10 @@
 TXT
-entityNameCount 2402
+entityNameCount 2407
+entityName "BuffGloryOfTheNewOrderPlanet.entity"
+entityName "BuffGloryOfTheNewOrderShips.entity"
+entityName "BuffGloryOfTheNewOrderPlanetInterfere.entity"
+entityName "BuffGloryOfTheNewOrderSelf.entity"
+entityName "AbilityGloryOfTheNewOrder.entity"
 entityName "BuffLaunchShuttleGalleon.entity"
 entityName "AbilityVeteran.entity"
 entityName "BuffVeteran.entity"
