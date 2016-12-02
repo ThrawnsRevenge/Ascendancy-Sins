@@ -677,7 +677,7 @@ StringInfo
 	Value "New Republic"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
-	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is spreading their democratic message throughout the galaxy.
+	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is spreading their democratic message throughout the galaxy."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_REMNANT_DESCRIPTION"
 	Value "The Imperial Remnant comprises the splinter factions of the once-great Galactic Empire after the death of the Emperor at Endor. The Imperial Remnant relies on large superweapons like the Sovereign, Executor and Galaxy Gun to overwhelm their foes and reunite the galaxy under the firm hand of a new Emperor. The Imperial fleet is comprised of masses of Star Destroyers and TIE Fighters to support these superweapons, placing an emphasis on quantity over quality. Culturally, the Empire focuses on suppression."
@@ -25637,7 +25637,7 @@ StringInfo
 	Value "Lwhekk-class Manufacturing Ship"
 StringInfo
 	ID "IDS_CAPITALSHIP_LWHEKK_DESCRIPTION"
-	Value "A large yet undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary equipment.
+	Value "A large yet undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary equipment."
 StringInfo
 	ID "IDS_FRIGATE_WURRIF_NAME"
 	Value "Wuriff-class Light Cruiser"
