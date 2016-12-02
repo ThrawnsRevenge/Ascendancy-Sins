@@ -16,6 +16,7 @@ randomEventDefCount 9
 		spawnLocation "RandomLocation"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
+		respawnCount 0
 		nextSpawnTimeMin 2400.0
 		nextSpawnTimeMax 4800.0
 		spawnWeight 0.05

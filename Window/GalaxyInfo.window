@@ -7,6 +7,7 @@ pictureDef
 	pictureOverlay "Null"
 scenarioContentDef
 	descArea [0, 385, 455, 94]
+	descAreaForRequiredDLC [0, 250, 455, 94]
 	scenarioNameDef
 		area [0, 310, 220, 20]
 		valueOffsetFromLeft 0
@@ -29,6 +30,7 @@ scenarioContentDef
 		labelStringId "IDSGalaxyInfoWindowScenarioRecommendedGameTypesLabel"
 	invalidScenarioMessageArea [235, 158, 455, 94]
 	invalidScenarioMessageString "IDSGalaxyInfoWindowInvalidScenario"
+	scenarioRequiredDLCString "IDSGalaxyInfoWindowScenarioRequiredDLC"
 	scenarioMissingDLCString "IDSGalaxyInfoWindowScenarioMissingDLC"
 savedFileContentDef
 	fileNameDef

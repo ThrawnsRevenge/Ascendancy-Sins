@@ -42,6 +42,19 @@ arePiratesActiveButton
 	false
 		icon "AscendancyIconsToggleOff"
 		text "IDSGameOptionsArePiratesActiveFalse"
+areOutlawSectorsActiveButton
+	area [150, 245, 220 , 75]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsAreOutlawSectorsActiveTrue"
+		text "IDSGameOptionsAreOutlawSectorsActiveTrue"
+	false
+		icon "GameOptionsAreOutlawSectorsActiveFalse"
+		text "IDSGameOptionsAreOutlawSectorsActiveFalse"
 useQuickStartButton
 	area [150, 20, 220 , 75]
 	fontId "ButtonLabel"

@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 298
+planetItemTypeCount 285
 planetItemType
 	designName "Unique:Frigate:Katana"
 	entityDefName "Remnant_Katana"
@@ -996,9 +996,6 @@ planetItemType
 planetItemType
 	designName "Psi:Module:Mine"
 	entityDefName "SpaceMinePsi"
-planetItemType
-	designName "Psi:Module:Cannon"
-	entityDefName "PLANETMODULE_PSIORBITALCANNON"
 planetItemType
 	designName "Psi:Module:CapitalShipFactory"
 	entityDefName "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
@@ -1129,12 +1126,6 @@ planetItemType
 	designName "Phase:Frigate:Constructor"
 	entityDefName "FrigatePhaseModuleConstructor"	
 planetItemType
-	designName "Phase:Corvette:Loyalist"
-	entityDefName "CorvettePhaseLoyalist"
-planetItemType
-	designName "Phase:Corvette:Rebel"
-	entityDefName "CorvettePhaseRebel"
-planetItemType
 	designName "Phase:Frigate:Envoy"
 	entityDefName "FrigatePhaseEnvoy"
 planetItemType
@@ -1174,12 +1165,6 @@ planetItemType
 	designName "Psi:Frigate:Envoy"
 	entityDefName "FrigatePsiEnvoy"
 planetItemType
-	designName "Psi:Corvette:Loyalist"
-	entityDefName "CorvettePsiLoyalist"
-planetItemType
-	designName "Psi:Corvette:Rebel"
-	entityDefName "CorvettePsiRebel"
-planetItemType
 	designName "Tech:Frigate:AntiFighter"
 	entityDefName "FrigateTechAntiFighter"
 planetItemType
@@ -1215,12 +1200,6 @@ planetItemType
 planetItemType
 	designName "Tech:Frigate:Envoy"
 	entityDefName "FrigateTechEnvoy"
-planetItemType
-	designName "Tech:Corvette:Loyalist"
-	entityDefName "CorvetteTechLoyalist"
-planetItemType
-	designName "Tech:Corvette:Rebel"
-	entityDefName "CorvetteTechRebel"
 planetItemType
 	designName "Phase:StarBase"
 	entityDefName "StarBasePhase"
@@ -1284,24 +1263,6 @@ planetItemType
 planetItemType
 	designName "Tech:CapitalShip:Transport"
 	entityDefName "CAPITALSHIP_TECHTRANSPORT"
-planetItemType
-	designName "Phase:Titan:Loyalist"
-	entityDefName "TITAN_PHASELOYALIST"
-planetItemType
-	designName "Phase:Titan:Rebel"
-	entityDefName "TITAN_PHASEREBEL"
-planetItemType
-	designName "Psi:Titan:Loyalist"
-	entityDefName "TITAN_PSILOYALIST"
-planetItemType
-	designName "Psi:Titan:Rebel"
-	entityDefName "TITAN_PSIREBEL"
-planetItemType
-	designName "Tech:Titan:Loyalist"
-	entityDefName "TITAN_TECHLOYALIST"
-planetItemType
-	designName "Tech:Titan:Rebel"
-	entityDefName "TITAN_TECHREBEL"
 planetItemType
 	designName "Pirate:Frigate:Medium"
 	entityDefName "FrigatePirateMedium"
@@ -1546,8 +1507,8 @@ planetItemType
 	designName "Remnant:Capital:Altor"
 	entityDefName "Remnant_Altor"
 planetItemType
-	designName "Remnant:Capital:Praetor"
-	entityDefName "Remnant_Praetor"
+	designName "Alignment:Capital:Praetor"
+	entityDefName "Alignment_Praetor"
 planetItemType
 	designName "Remnant:Capital:WorldDevastator"
 	entityDefName "Remnant_WorldDevastator"
@@ -3048,18 +3009,14 @@ planetItemsTemplate
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:StarHome"
-validPictureGroups 7
-pictureGroup "PlayerPhase"
-pictureGroup "PlayerPsi"
-pictureGroup "PlayerTech"
+validPictureGroups 5
+pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
 pictureGroup "PlayerNewRep"
 pictureGroup "PlayerEotH"
 pictureGroup "PlayerHapans"
-validThemeGroups 8
-themeGroup "PlayerPhase"
-themeGroup "PlayerPsi"
-themeGroup "PlayerTech"
+validThemeGroups 6
+themeGroup "PlayerAlignment"
 themeGroup "PlayerRemnant"
 themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"

@@ -1,5 +1,8 @@
 TXT
-NumStrings 8547
+NumStrings 8551
+StringInfo
+	ID "IDSMainMenuScreenDLC1Button"
+	Value " "
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
@@ -23461,6 +23464,12 @@ StringInfo
 	ID "IDSGameOptionsArePiratesActiveFalse"
 	Value "Pirates Inactive"
 StringInfo
+	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
+	Value "Outlaws Active"
+StringInfo
+	ID "IDSGameOptionsAreOutlawSectorsActiveFalse"
+	Value "Outlaws Inactive"
+StringInfo
 	ID "IDSGameOptionsIsBlackMarketEnabledTrue"
 	Value "Black Market Enabled"
 StringInfo
@@ -25505,6 +25514,9 @@ StringInfo
 	Value "You are victorious.""
 StringInfo
 	ID "IDSGalaxyInfoWindowScenarioMissingDLC"
+	Value "This map requires the following DLC to play: %s."
+StringInfo
+	ID "IDSGalaxyInfoWindowScenarioRequiredDLC"
 	Value "This map requires the following DLC to play: %s."
 StringInfo
 	ID "IDS_DLC_NAME_228601"

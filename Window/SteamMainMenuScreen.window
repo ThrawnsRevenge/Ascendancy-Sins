@@ -53,7 +53,7 @@ quitButton
 	overlay "Null"			
 	icon "Null"
 	text "IDS_EMPTY"
-dlcButton
+dlc1Button
 	area [23, 707, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
@@ -61,18 +61,22 @@ dlcButton
 	underlay "DLCButtonStates"
 	overlay ""			
 	icon ""
-	text "IDSMainMenuScreenDLCButton"
-soundtrackDLC1Button
-	area [5000, 5000, 220, 46]
+	text "IDSMainMenuScreenDLC1Button"
+dlc2Button
+	area [23, 707, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 0
 	underlay "DLCButtonStates"
 	overlay ""			
 	icon ""
-	text "IDSMainMenuScreenSoundtrackDLC1Button"
-planetDLC1Back "DLCButtonBackgroundPlanetDLC1"
-phenomenaDLC1Back "DLCButtonBackgroundPhenomenaDLC1"
-soundtrackDLC1Back "DLCButtonBackgroundSoundtrackDLC1"
-dlcBackFrameRefArea [15, 545, 250, 213]
-dlcBackNoFrameRefArea [15, 624, 250, 213]
+	text "IDSMainMenuScreenDLC1Button"
+dlcForbiddenWorldsBack "DLCButtonBackgroundForbiddenWorlds"
+dlcStellarPhenomenaBack "DLCButtonBackgroundStellarPhenomena"
+dlcOutlawSectorsBack "DLCButtonBackgroundOutlawSectors"
+dlcSoundtrackBack "DLCButtonBackgroundSoundtrack"
+dlcAshesBack "DLCButtonBackgroundAshes"
+dlc1BackFrameRefArea [15, 545, 250, 213]
+dlc1BackNoFrameRefArea [15, 624, 250, 213]
+dlc2BackFrameRefArea [15, 545, 250, 213]
+dlc2BackNoFrameRefArea [15, 624, 250, 213]
