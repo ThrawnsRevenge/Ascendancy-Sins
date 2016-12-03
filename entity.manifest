@@ -1,5 +1,7 @@
 TXT
-entityNameCount 2244
+entityNameCount 2246
+entityName "BuffReassuringPresence.entity"
+entityName "AbilityReassuringPresence.entity"
 entityName "BuffWeaponOverload.entity"
 entityName "AbilityWeaponOverload.entity"
 entityName "BuffGloryOfTheNewOrderPlanet.entity"
