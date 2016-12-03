@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_DominationOnTarget"
+		mediumEffectName "Buff_DominationOnTarget"
+		largeEffectName "Buff_DominationOnTarget"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+	overTimeAction
+		buffOverTimeActionType "RestoreShields"
+			shieldRestoreRate
+				Level:0 30.000000
+				Level:1 32.000000
+				Level:2 34.000000
+				Level:3 36.000000
+numEntityModifiers 1
+	entityModifier
+		buffEntityModifierType "ShieldPointRestoreRate"
+		value
+			Level:0 1.500000
+			Level:1 1.600000
+			Level:2 1.700000
+			Level:3 1.800000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+	
