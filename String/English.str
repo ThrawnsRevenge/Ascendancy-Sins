@@ -5369,10 +5369,10 @@ StringInfo
 	Value "Change attacker target chance"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_CHANCETOIGNORESHIELDS"
-	Value "Phase Missile efficiency"
+	Value "Chance to hit shield gap"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_CHANCETOABSORBWITHSHIELDS"
-	Value "Phase Missile block"
+	Value "Proton Torpedo block"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_CHANCETODODGE"
 	Value "Chance to dodge"
