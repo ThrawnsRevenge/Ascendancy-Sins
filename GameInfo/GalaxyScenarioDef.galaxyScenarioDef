@@ -1100,19 +1100,19 @@ planetItemType
 	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Cosmetic:TitanPhaseLoyalist"
-	entityDefName "TITAN_PHASELOYALIST_COSMETIC"
+	entityDefName "Cosmetic_Executor"
 planetItemType
 	designName "Cosmetic:TitanPhaseRebel"
-	entityDefName "TITAN_PHASEREBEL_COSMETIC"
+	entityDefName "Cosmetic_Bellator"
 planetItemType
 	designName "Unique:Starbase:Centerpoint"
 	entityDefName "Unique_Centerpoint"
 planetItemType
 	designName "Pirate:Module:HangarDefense"
-	entityDefName "PLANETMODULE_TECHORBITALHANGARDEFENSE"
+	entityDefName "Remnant_GolanI"
 planetItemType
 	designName "Pirate:Module:RepairPlatform"
-	entityDefName "PLANETMODULE_TECHORBITALREPAIRPLATFORM"
+	entityDefName "Remnant_GolanII"
 planetItemType
 	designName "Remnant:Module:FrigateFactory"
 	entityDefName "Remnant_FrigateShipyard"
@@ -1154,10 +1154,10 @@ planetItemType
 	entityDefName "Remnant_RepairPlatform"
 planetItemType
 	designName "Remnant:Module:Durasteel"
-	entityDefName "PLANETMODULE_PSIORBITALMETALEXTRACTOR"
+	entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 planetItemType
 	designName "Remnant:Module:Tibanna"
-	entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
+	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 planetItemType
 	designName "Remnant:Module:CapitalShipyard"
 	entityDefName "Remnant_CapitalShipyard"
@@ -1274,7 +1274,7 @@ planetItemType
 	entityDefName "Remnant_CommStation"
 planetItemType
 	designName "Alignment:Module:PolicyLab"
-	entityDefName "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
+	entityDefName "Remnant_PolicyLab"
 planetItemType
 	designName "Alignment:Module:GolanI"
 	entityDefName "Remnant_GolanI"
@@ -1313,7 +1313,7 @@ planetItemType
 	entityDefName "NewRep_CommStation"
 planetItemType
 	designName "NewRep:Module:PolicyLab"
-	entityDefName "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
+	entityDefName "NewRep_PolicyLab"
 planetItemType
 	designName "NewRep:Module:GolanI"
 	entityDefName "NewRep_GolanI"

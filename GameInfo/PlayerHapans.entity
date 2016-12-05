@@ -17,9 +17,9 @@ entities
 			entityDefName "NewRep_TradeStation"
 			entityDefName "NewRep_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
-			entityDefName "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
+			entityDefName "NewRep_CapitalShipyard"
 			entityDefName "NewRep_PolicyLab"
-			entityDefName "PLANETMODULE_TECHORBITALREFINERY"
+			entityDefName "NewRep_SmugglerDen"
 		Page:1
 			count 4
 			entityDefName "NewRep_GolanI"

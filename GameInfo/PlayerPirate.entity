@@ -12,33 +12,32 @@ entities
 		Page:0
 			count 9
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+			entityDefName "NewRep_FrigateShipyard"
+			entityDefName "NewRep_CombatLab"
+			entityDefName "NewRep_TradeStation"
+			entityDefName "NewRep_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
-			entityDefName "PLANETMODULE_TECHORBITALCOMBATLABORATORY"
-			entityDefName "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY"
-			entityDefName "PLANETMODULE_TECHORBITALFRIGATEFACTORY"
-			entityDefName "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
-			entityDefName "PLANETMODULE_TECHORBITALCULTURECENTER"
-			entityDefName "PLANETMODULE_TECHORBITALTRADEPORT"
-			entityDefName "PLANETMODULE_TECHORBITALREFINERY"
+			entityDefName "NewRep_CapitalShipyard"
+			entityDefName "NewRep_PolicyLab"
+			entityDefName "NewRep_SmugglerDen"
 		Page:1
-			count 6
-			entityDefName "PLANETMODULE_TECHORBITALGAUSSDEFENSE"
-			entityDefName "PLANETMODULE_TECHORBITALHANGARDEFENSE"
-			entityDefName "PLANETMODULE_TECHORBITALREPAIRPLATFORM"
-			entityDefName "PLANETMODULE_TECHORBITALJUMPBLOCKER"
-			entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
+			count 5
+			entityDefName "NewRep_GolanI"
+			entityDefName "NewRep_GolanII"
+			entityDefName "NewRep_GolanIII"
+			entityDefName "NewRep_TitanFactory"
+			entityDefName "NewRep_XQ"
 	titanInfo
 		Page:0
 			count 0
 	capitalShipInfo
 		Page:0
 			count 5
-			entityDefName "CAPITALSHIP_TECHBATTLESHIP"
-			entityDefName "CAPITALSHIP_TECHCARRIER"
-			entityDefName "CAPITALSHIP_TECHCOLONY"
-			entityDefName "CAPITALSHIP_TECHSUPPORT"
-			entityDefName "CAPITALSHIP_TECHSIEGE"
+			entityDefName "NewRep_MC80"
+			entityDefName "NewRep_MC80b"
+			entityDefName "NewRep_MC90"
+			entityDefName "NewRep_Nebula"
+			entityDefName "NewRep_Endurance"
 	frigateInfo
 		Page:0
 			count 5
