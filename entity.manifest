@@ -1,5 +1,5 @@
 TXT
-entityNameCount 1832
+entityNameCount 1842
 entityName "BuffReassuringPresence.entity"
 entityName "AbilityReassuringPresence.entity"
 entityName "BuffWeaponOverload.entity"
@@ -64,6 +64,16 @@ entityName "StarBaseUpgradeEsselesHangar.entity"
 entityName "StarBaseUpgradeEsselesBlockColonize.entity"
 entityName "StarBaseUpgradeEsselesCulture.entity"
 entityName "StarBaseUpgradeEsselesPopulation.entity"
+entityName "AbilityFrigateColonizeRanged.entity"
+entityName "BuffCapturePlanet.entity"
+entityName "BuffInvulnerable.entity"
+entityName "AbilityDesignateShipyard.entity"
+entityName "BuffDesignateShipyardEffectSelf.entity"
+entityName "BuffDesignateShipyardEffect.entity"
+entityName "RandomEvent_CapitalShipyard.entity"
+entityName "RandomEvent_BuffCreateCapitalShipyardSelf.entity"
+entityName "RandomEvent_CreateCapitalShipyard.entity"
+entityName "RandomEvent_ShipyardSpawner.entity"
 entityName "RandomEventWarlords.entity"
 entityName "RandomEventSsiRuu.entity"
 entityName "RandomEventPeregrine.entity"

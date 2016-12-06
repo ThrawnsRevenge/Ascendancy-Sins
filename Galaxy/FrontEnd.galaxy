@@ -45,44 +45,11 @@ randomizerParams
 		extraPlanetGroupCount 0
 starCount 1
 	star
-		type "RandomNonGreenStar"
+		type "BlackHoleStar"
 		radius 75
 		moveAreaRadius 60000.000000
 		hyperspaceExitRadius 50000.000000
 		connectionStarRadiusRange .5
 		connectionChance .75
 		maxPlayerCount 0
-		ringCount 3
-		ring
-			starRadiusRange
-				minPercentage 0.5
-				maxPercentage 0.7
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 7
-				maxCount 7
-				planetTypeCount 1
-				planetType "Ecumenopolis"
-		ring
-			starRadiusRange
-				minPercentage 0.2
-				maxPercentage 0.4
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 7
-				maxCount 7
-				planetTypeCount 1
-				planetType "Terran"
-		ring
-			starRadiusRange
-				minPercentage 0.7
-				maxPercentage 1.0
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 7
-				maxCount 7
-				planetTypeCount 1
-				planetType "Ice"
+		ringCount 0

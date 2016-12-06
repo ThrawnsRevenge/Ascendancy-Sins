@@ -932,7 +932,10 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 176
+planetItemTypeCount 177
+planetItemType
+	designName "Unique:Frigate:ShipyardDesignate"
+	entityDefName "RandomEvent_ShipyardSpawner"
 planetItemType
 	designName "Unique:Frigate:Katana"
 	entityDefName "Remnant_Katana"
@@ -1480,7 +1483,7 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 75
+planetItemsTemplateCount 76
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1722,6 +1725,26 @@ planetItemsTemplate
 			items 1
 				item "Unique:Starbase:Centerpoint"
 planetItemsTemplate
+	templateName "Template:Unique:DesignateShipyard"
+	subTemplates 0	
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.10"
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 1
+				item "Unique:Frigate:ShipyardDesignate"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.10"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Unique:Frigate:ShipyardDesignate"
+planetItemsTemplate
 	templateName "Template:Unique:KatanaFleet"
 	subTemplates 0	
 	groups 2
@@ -1771,9 +1794,10 @@ planetItemsTemplate
 				item "Unique:Frigate:Katana"
 planetItemsTemplate
 	templateName "Template:Unique:Random"
-	subTemplates 2
+	subTemplates 3
 		template "Template:Unique:Centerpoint"
 		template "Template:Unique:KatanaFleet"
+		template "Template:Unique:DesignateShipyard"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
