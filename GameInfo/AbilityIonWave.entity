@@ -1,0 +1,84 @@
+TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffIonWave"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+weaponBank "FRONT"
+range
+	Level:0 9000.000000
+	Level:1 9000.000000
+	Level:2 9000.000000
+	Level:3 9000.000000
+coneAngle
+	Level:0 1.570000
+	Level:1 1.570000
+	Level:2 1.570000
+	Level:3 1.570000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 6.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+onlyAutoCastWhenTargetsInBank "FRONT"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+descStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+hudIcon "HUDABILITYICON_PROTECTOR"
+smallHudIcon "HUDABILITYICON_PROTECTOR"
+infoCardIcon ""
+

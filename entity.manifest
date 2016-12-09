@@ -1,5 +1,10 @@
 TXT
-entityNameCount 1844
+entityNameCount 1849
+entityName "NewRepUpgrade_Viscount_AbilityB.entity"
+entityName "NewRepUpgrade_Viscount_AbilityC.entity"
+entityName "NewRepUpgrade_Viscount_AbilityD.entity"
+entityName "BuffIonWave.entity"
+entityName "AbilityIonWave.entity"
 entityName "BuffReassuringPresence.entity"
 entityName "AbilityReassuringPresence.entity"
 entityName "BuffWeaponOverload.entity"

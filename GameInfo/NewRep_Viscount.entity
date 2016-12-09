@@ -2,7 +2,7 @@
 entityType "Titan"
 ability:0 "AbilityReassuringPresence"
 ability:1 ""
-ability:2 ""
+ability:2 "AbilityIonWave"
 ability:3 ""
 ability:4 "AbilityPassiveLowLifePodsSuper"
 defaultAutoAttackRange "GravityWell"
@@ -83,8 +83,9 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 1
+UpgradeTypeCount 4
 UpgradeType "NewRepUpgrade_Viscount_AbilityA"
+UpgradeType "NewRepUpgrade_Viscount_AbilityC"
 numRandomDebrisLarge 15
 numRandomDebrisSmall 40
 numSpecificDebris 0

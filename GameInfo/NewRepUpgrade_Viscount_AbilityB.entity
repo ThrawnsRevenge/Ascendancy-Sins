@@ -1,0 +1,81 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	descStringID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDABILITYICON_PROTECTOR"
+	smallHudIcon "HUDABILITYICON_PROTECTOR"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	descStringID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDABILITYICON_PROTECTOR"
+	smallHudIcon "HUDABILITYICON_PROTECTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	descStringID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDABILITYICON_PROTECTOR"
+	smallHudIcon "HUDABILITYICON_PROTECTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	descStringID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDABILITYICON_PROTECTOR"
+	smallHudIcon "HUDABILITYICON_PROTECTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 3.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
+	descStringID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDABILITYICON_PROTECTOR"
+	smallHudIcon "HUDABILITYICON_PROTECTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 4.000000
+	upgradeBoolPropertyCount 0
+	
