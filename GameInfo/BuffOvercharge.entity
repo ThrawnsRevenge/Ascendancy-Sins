@@ -16,9 +16,9 @@ instantAction
 		effectAttachInfo
 			attachType "Ability"
 			abilityIndex 0
-		smallEffectName "TitanAbility_Overcharge_Buff"
-		mediumEffectName "TitanAbility_Overcharge_Buff"
-		largeEffectName "TitanAbility_Overcharge_Buff"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0

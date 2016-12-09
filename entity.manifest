@@ -1,5 +1,5 @@
 TXT
-entityNameCount 1842
+entityNameCount 1844
 entityName "BuffReassuringPresence.entity"
 entityName "AbilityReassuringPresence.entity"
 entityName "BuffWeaponOverload.entity"
@@ -907,6 +907,8 @@ entityName "AbilityAlphaStrike.entity"
 entityName "AbilityShieldRestore.entity"
 entityName "AbilityConcussionBarrage.entity"
 entityName "AbilityTargetHangar.entity"
+entityName "BuffAntiMatterDetonate.entity"
+entityName "BuffAntiMatterDetonateDisable.entity"
 entityName "AbilityInciteRebellion.entity"
 entityName "AbilityScrambleTransmissions.entity"
 entityName "AbilityReflectiveShields.entity"
