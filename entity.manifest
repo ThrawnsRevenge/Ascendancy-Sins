@@ -1,5 +1,9 @@
 TXT
-entityNameCount 1849
+entityNameCount 1853
+entityName "BuffRepairDroidsCapital.entity"
+entityName "AbilityRepairDroidsCapital.entity"
+entityName "BuffReflectiveShieldsCapital.entity"
+entityName "AbilityReflectiveShieldsCapital.entity"
 entityName "NewRepUpgrade_Viscount_AbilityB.entity"
 entityName "NewRepUpgrade_Viscount_AbilityC.entity"
 entityName "NewRepUpgrade_Viscount_AbilityD.entity"

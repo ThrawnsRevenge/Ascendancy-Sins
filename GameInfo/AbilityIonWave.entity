@@ -46,7 +46,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityCLevel"
+sourcePropertyType "AbilityBLevel"
 aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 6.000000
@@ -76,9 +76,9 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
-descStringID "IDS_ABILITY_SHIELDRESTORE_NAME"
-hudIcon "HUDABILITYICON_PROTECTOR"
-smallHudIcon "HUDABILITYICON_PROTECTOR"
+nameStringID "IDS_ABILITY_IONWAVE_NAME"
+descStringID "IDS_ABILITY_IONWAVE_DFESCRIPTION"
+hudIcon "HUDABILITYICON_BELLATORREACTOR"
+smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
 infoCardIcon ""
 

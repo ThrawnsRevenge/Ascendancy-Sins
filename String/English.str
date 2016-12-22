@@ -1,5 +1,17 @@
 TXT
-NumStrings 8552
+NumStrings 8555
+StringInfo
+	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
+	Value "The Viscount sends out a fleet of repair droids to repair nearby ships."
+StringInfo
+	ID "IDS_ABILITY_REFLECTIVESHIELDSCAPITAL_DESCRIPTION"
+	Value "The Viscount passively reflects damage back on its attackers."
+StringInfo
+	ID "IDS_ABILITY_IONWAVE_NAME"
+	Value "IONIC WAVE"
+StringInfo
+	ID "IDS_ABILITY_IONWAVE_DESCRIPTION"
+	Value "The Viscount unleashes an Ionic Wave from its Feedback Array."
 StringInfo
 	ID "IDSGalaxySetupWindowInviteViaOverlayTitle"
 	Value "Invite Friends"

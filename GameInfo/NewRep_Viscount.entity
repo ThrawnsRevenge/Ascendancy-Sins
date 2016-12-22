@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityReassuringPresence"
-ability:1 ""
-ability:2 "AbilityIonWave"
-ability:3 ""
+ability:1 "AbilityIonWave"
+ability:2 "AbilityReflectiveshieldsCapital"
+ability:3 "AbilityRepairDroidsCapital"
 ability:4 "AbilityPassiveLowLifePodsSuper"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -85,7 +85,9 @@ Prerequisites
 statCountType "Titan"
 UpgradeTypeCount 4
 UpgradeType "NewRepUpgrade_Viscount_AbilityA"
+UpgradeType "NewRepUpgrade_Viscount_AbilityB"
 UpgradeType "NewRepUpgrade_Viscount_AbilityC"
+UpgradeType "NewRepUpgrade_Viscount_AbilityD"
 numRandomDebrisLarge 15
 numRandomDebrisSmall 40
 numSpecificDebris 0
