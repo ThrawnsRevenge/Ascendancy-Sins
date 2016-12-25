@@ -20,7 +20,7 @@ picture "HUDICON_TIEDEFENDER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERTIEDEFENDER_NAME"
-descriptionStringID "IDS_FIGHTERTIEDEFENDER_DESC"
+descriptionStringID "IDS_FIGHTERTIEDEFENDER_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

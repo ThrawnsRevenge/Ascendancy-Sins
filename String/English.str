@@ -1,5 +1,5 @@
 TXT
-NumStrings 8555
+NumStrings 8556
 StringInfo
 	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
 	Value "The Viscount sends out a fleet of repair droids to repair nearby ships."
@@ -8,7 +8,7 @@ StringInfo
 	Value "The Viscount passively reflects damage back on its attackers."
 StringInfo
 	ID "IDS_ABILITY_IONWAVE_NAME"
-	Value "IONIC WAVE"
+	Value "Ionic Wave"
 StringInfo
 	ID "IDS_ABILITY_IONWAVE_DESCRIPTION"
 	Value "The Viscount unleashes an Ionic Wave from its Feedback Array."
@@ -26,12 +26,12 @@ StringInfo
 	Value "Forward Bases"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_DESCRIPTION"
-	Value "Daala's fervour to recapture lost Imperial territory spurs production of offensive bases.."
+	Value "Daala's fervour to recapture lost Imperial territory spurs production of offensive bases."
 StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
 StringInfo
-	ID "IDS_FIGHTERTIEDROID_DESC"
+	ID "IDS_FIGHTERTIEDROID_DESCRIPTION"
 	Value "An automated TIE fighter with similar capabilities to the standard model, but does not deplete fighter supply."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
@@ -1204,25 +1204,25 @@ StringInfo
 	ID "IDS_V19_NAME"
 	Value "V19 Torrent"
 StringInfo
-	ID "IDS_FIGHTERV19_DESC"
+	ID "IDS_FIGHTERV19_DESCRIPTION"
 	Value "An old Republic design which costs less supply to field, but is weaker than most other craft."
 StringInfo
 	ID "IDS_FIGHTERTIEBOMBER_NAME"
 	Value "TIE Bomber"
 StringInfo
-	ID "IDS_FIGHTERTIEBOMBER_DESC"
+	ID "IDS_FIGHTERTIEBOMBER_DESCRIPTION"
 	Value "A squadron of bombers meant to assault enemy cruisers and capital ships."
 StringInfo
 	ID "IDS_FIGHTERTIEINTERCEPTOR_NAME"
 	Value "TIE Interceptor"
 StringInfo
-	ID "IDS_FIGHTERTIEINTERCEPTOR_DESC"
+	ID "IDS_FIGHTERTIEINTERCEPTOR_DESCRIPTION"
 	Value "A superiority fighter which can intercept and destroy enemy fighters and bombers."
 StringInfo
 	ID "IDS_FIGHTERTIEDEFENDER_NAME"
 	Value "TIE Defender"
 StringInfo
-	ID "IDS_FIGHTERTIEDEFENDER_DESC"
+	ID "IDS_FIGHTERTIEDEFENDER_DESCRIPTION"
 	Value "A heavy specialty fighter, and the strongest in the Imperial arsenal. It can function effectively as a fighter and bomber."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXSHIPSLOTS0_NAME"
@@ -2740,7 +2740,7 @@ StringInfo
 	ID "IDS_SCIMITAR_NAME"
 	Value "Scimitar Bomber"
 StringInfo
-	ID "IDS_SCIMITAR_DESC"
+	ID "IDS_SCIMITAR_DESCRIPTION"
 	Value "A heavy fighter which excels at assaulting capital ships."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"

@@ -20,7 +20,7 @@ picture "HUDICON_TIEDROID"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERTIEDROID_NAME"
-descriptionStringID "IDS_FIGHTERTIEDROID_DESC"
+descriptionStringID "IDS_FIGHTERTIEDROID_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

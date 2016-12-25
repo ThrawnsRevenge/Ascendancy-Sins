@@ -20,7 +20,7 @@ picture "HUDICON_V19TORRENT"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERV19_NAME"
-descriptionStringID "IDS_FIGHTERV19_DESC"
+descriptionStringID "IDS_FIGHTERV19_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

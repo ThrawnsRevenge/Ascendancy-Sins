@@ -20,7 +20,7 @@ picture "HUDICON_TIEBOMBER"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERTIEBOMBER_NAME"
-descriptionStringID "IDS_FIGHTERTIEBOMBER_DESC"
+descriptionStringID "IDS_FIGHTERTIEBOMBER_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

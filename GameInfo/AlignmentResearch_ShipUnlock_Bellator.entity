@@ -4,7 +4,7 @@ hudIcon "HUDICON_BELLATOR"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_BELLATOR"
 infoCardIcon ""
 NameStringID "IDS_TITAN_UNLOCK_BELLATOR_NAME"
-DescriptionStringID "IDS_TITAN_UNLOCK_BELLATOR_DESCRIPTION"
+DescriptionStringID "IDS_TITAN_BELLATOR_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 7 , 2 ]

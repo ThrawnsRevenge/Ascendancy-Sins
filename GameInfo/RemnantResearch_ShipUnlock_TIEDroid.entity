@@ -4,7 +4,7 @@ hudIcon "HUDICON_TIEDROID"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_TIEDROID"
 infoCardIcon ""
 NameStringID "IDS_FIGHTERTIEDROID_NAME"
-DescriptionStringID "IDS_FIGHTERTIEDROID_DESC"
+DescriptionStringID "IDS_FIGHTERTIEDROID_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 1 , 8 ]

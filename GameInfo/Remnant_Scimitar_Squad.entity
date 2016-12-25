@@ -20,7 +20,7 @@ picture "HUDICON_SCIMITAR"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_SCIMITAR_NAME"
-descriptionStringID "IDS_SCIMITAR_DESC"
+descriptionStringID "IDS_SCIMITAR_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
