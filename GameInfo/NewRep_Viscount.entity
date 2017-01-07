@@ -2,7 +2,7 @@
 entityType "Titan"
 ability:0 "AbilityReassuringPresence"
 ability:1 "AbilityIonWave"
-ability:2 "AbilityReflectiveshieldsCapital"
+ability:2 "AbilityReflectiveShieldsCapital"
 ability:3 "AbilityRepairDroidsCapital"
 ability:4 "AbilityPassiveLowLifePodsSuper"
 defaultAutoAttackRange "GravityWell"

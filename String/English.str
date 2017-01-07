@@ -1,8 +1,17 @@
 TXT
-NumStrings 8556
+NumStrings 8559
+StringInfo
+	ID "IDS_ABILITY_COMMUNICATIONJAM_NAME"
+	Value "Communication Jamming"
+StringInfo
+	ID "IDS_ABILITY_COMMUNICATIONJAM_DESCRIPTION"
+	Value "The Dominator activates a wide band communication jamming frequency affecting enemy weapon targetting."
 StringInfo
 	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
 	Value "The Viscount sends out a fleet of repair droids to repair nearby ships."
+StringInfo
+	ID "IDS_ABILITY_REFLECTIVESHIELDSCAPITAL_NAME"
+	Value "Reflective Shields"
 StringInfo
 	ID "IDS_ABILITY_REFLECTIVESHIELDSCAPITAL_DESCRIPTION"
 	Value "The Viscount passively reflects damage back on its attackers."

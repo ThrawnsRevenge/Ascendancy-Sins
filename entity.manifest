@@ -1,5 +1,7 @@
 TXT
-entityNameCount 1853
+entityNameCount 1855
+entityName "BuffCommunicationJam.entity"
+entityName "AbilityCommunicationJam.entity"
 entityName "BuffRepairDroidsCapital.entity"
 entityName "AbilityRepairDroidsCapital.entity"
 entityName "BuffReflectiveShieldsCapital.entity"
