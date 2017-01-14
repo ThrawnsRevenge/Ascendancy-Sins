@@ -10,7 +10,7 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 2
+numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
@@ -21,10 +21,17 @@ entityModifier
 entityModifier
 	buffEntityModifierType "DamageAsDamageTargetFromForward"
 	value
-		Level:0 -1.000000
-		Level:1 -1.500000
-		Level:2 -2.000000
-		Level:3 -2.500000
+		Level:0 -0.800000
+		Level:1 -0.850000
+		Level:2 -0.900000
+		Level:3 -0.9500000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 0.200000
+		Level:1 0.250000
+		Level:2 0.300000
+		Level:3 0.350000
 numEntityBoolModifiers 1
 entityBoolModifier "NextAbilityAmplified"
 numFinishConditions 1
