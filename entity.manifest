@@ -1,5 +1,13 @@
 TXT
-entityNameCount 1855
+entityNameCount 1863
+entityName "BuffBarrierShield.entity"
+entityName "AbilityBarrierShield.entity"
+entityName "BuffMicrojumpTitan2.entity"
+entityName "BuffMicrojumpTitan.entity"
+entityName "AbilityMicrojumpTitan.entity"
+entityName "AlignmentUpgrade_Bellator_AbilityB.entity"
+entityName "AlignmentUpgrade_Bellator_AbilityC.entity"
+entityName "AlignmentUpgrade_Bellator_AbilityD.entity"
 entityName "BuffCommunicationJam.entity"
 entityName "AbilityCommunicationJam.entity"
 entityName "BuffRepairDroidsCapital.entity"

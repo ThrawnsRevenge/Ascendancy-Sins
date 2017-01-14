@@ -1,0 +1,53 @@
+TXT
+entityType "Ability"
+buffInstantActionType "ApplyArbitraryTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffMicrojumpTitan"
+range
+	Level:0 20000.000000
+	Level:1 26000.000000
+	Level:2 33000.000000
+	Level:3 40000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_MicroPhaseJump"
+	mediumEffectName "Ability_MicroPhaseJump"
+	largeEffectName "Ability_MicroPhaseJump"
+	soundID "EFFECT_MICROPHASEJUMP"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 19000.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 50.000000
+	Level:2 40.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MICROJUMPTITAN_NAME"
+descStringID "IDS_ABILITY_MICROJUMPTITAN_DESCRIPTION"
+hudIcon "HUDABILITYICON_MICROJUMP"
+smallHudIcon "HUDABILITYICON_MICROJUMP"
+infoCardIcon ""

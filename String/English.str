@@ -1,5 +1,17 @@
 TXT
-NumStrings 8559
+NumStrings 8563
+StringInfo
+	ID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	Value "Barrier Shield"
+StringInfo
+	ID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	Value "The vessel activates a powerful barrier shield decreasing damage taken from its frontal arc."
+StringInfo
+	ID "IDS_ABILITY_MICROJUMPTITAN_NAME"
+	Value "Microjump"
+StringInfo
+	ID "IDS_ABILITY_MICROJUMPTITAN_DESCRIPTION"
+	Value "The vessel initiates a short hyperspace burst allowing it to engage enemies at a range of its choice."
 StringInfo
 	ID "IDS_ABILITY_COMMUNICATIONJAM_NAME"
 	Value "Communication Jamming"

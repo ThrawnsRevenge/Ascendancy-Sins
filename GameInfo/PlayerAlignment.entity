@@ -33,8 +33,7 @@ entities
 			entityDefName "Alignment_Bellator"
 	capitalShipInfo
 		Page:0
-			count 5
-			entityDefName "Alignment_Lucrehulk"
+			count 4
 			entityDefName "Alignment_ISDII"
 			entityDefName "Alignment_Dominator"
 			entityDefName "Alignment_Secutor"

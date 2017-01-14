@@ -1,0 +1,81 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDABILITYICON_BELLATORREACTOR"
+	smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDABILITYICON_BELLATORREACTOR"
+	smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 1
+	hudIcon "HUDABILITYICON_BELLATORREACTOR"
+	smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 3
+	hudIcon "HUDABILITYICON_BELLATORREACTOR"
+	smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 3.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
+	descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 5
+	hudIcon "HUDABILITYICON_BELLATORREACTOR"
+	smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 4.000000
+	upgradeBoolPropertyCount 0
+	
