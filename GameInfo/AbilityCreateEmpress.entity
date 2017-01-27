@@ -23,9 +23,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 resourceCost
-	credits 2000.000000
-	metal 250.000000
-	crystal 180.000000
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
 cooldownTime
 	Level:0 10.000000
 	Level:1 0.000000

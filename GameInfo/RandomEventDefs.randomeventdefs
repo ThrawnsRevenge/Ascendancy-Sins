@@ -119,7 +119,7 @@ randomEventDefCount 9
 		spawnLocation "RandomNonHomeworld"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		respawnCount 0
+		respawnCount 1
 		nextSpawnTimeMin 600.0
 		nextSpawnTimeMax 1200.0
 		spawnWeight 0.05
@@ -133,7 +133,7 @@ randomEventDefCount 9
 		spawnLocation "RandomNonHomeworld"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		respawnCount 0
+		respawnCount 2
 		nextSpawnTimeMin 1200.0
 		nextSpawnTimeMax 3000.0
-		spawnWeight 0.05
+		spawnWeight 0.55

@@ -24,16 +24,16 @@ periodicAction
 		requiredShipCount 3
 		requiredShip
 			type "Ssi_Shree"
-			minCount 2
-			maxCount 5
+			minCount 1
+			maxCount 3
 		requiredShip
 			type "Ssi_Wurrif"
-			minCount 4
-			maxCount 10
+			minCount 2
+			maxCount 7
 		requiredShip
 			type "Ssi_Lwhekk"
-			minCount 2
-			maxCount 5
+			minCount 1
+			maxCount 3
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"

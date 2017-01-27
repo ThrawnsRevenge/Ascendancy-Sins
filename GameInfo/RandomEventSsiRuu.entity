@@ -20,15 +20,15 @@ instantAction
 		requiredShip
 			type "Ssi_Shree"
 			minCount 2
-			maxCount 10
+			maxCount 5
 		requiredShip
 			type "Ssi_Wurrif"
 			minCount 4
-			maxCount 20
+			maxCount 12
 		requiredShip
 			type "Ssi_Lwhekk"
 			minCount 2
-			maxCount 10
+			maxCount 7
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
