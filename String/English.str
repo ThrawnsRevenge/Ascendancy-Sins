@@ -1,5 +1,11 @@
 TXT
-NumStrings 8563
+NumStrings 8565
+StringInfo
+	ID "IDS_ABILITY_ALTORLINK_NAME"
+	Value "Targetting Link"
+StringInfo
+	ID "IDS_ABILITY_ALTORLINK_DESCRIPTION"
+	Value "The Vessel Assists a nearby combatant with targeting greatly increasing the combatants rate of fire and chances of scoring a direct hit."
 StringInfo
 	ID "IDS_ABILITY_BARRIERSHIELD_NAME"
 	Value "Barrier Shield"

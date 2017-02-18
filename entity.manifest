@@ -1,5 +1,7 @@
 TXT
-entityNameCount 1863
+entityNameCount 1865
+entityName "BuffAltorLink.entity"
+entityName "AbilityAltorLink.entity"
 entityName "BuffBarrierShield.entity"
 entityName "AbilityBarrierShield.entity"
 entityName "BuffMicrojumpTitan2.entity"

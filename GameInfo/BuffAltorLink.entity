@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "FlagshipAbility_Invulnerability"
+		mediumEffectName "FlagshipAbility_Invulnerability"
+		largeEffectName "FlagshipAbility_Invulnerability"
+		soundID "EFFECT_FLAGSHIPINVULNERABILITY"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.300000
+		Level:1 0.400000
+		Level:2 0.550000
+		Level:3 0.600000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -0.300000
+		Level:1 -0.400000
+		Level:2 -0.550000
+		Level:3 -0.600000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 24.000000
+		Level:1 36.000000
+		Level:2 48.000000
+		Level:3 60.000000
