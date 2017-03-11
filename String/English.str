@@ -1,5 +1,17 @@
 TXT
-NumStrings 8565
+NumStrings 8569
+StringInfo
+	ID "IDS_ABILITY_PLASMATORPEDO_DESCRIPTION"
+	Value "The Type 25 Plasma Torpedo is designed to inflict maximum damage on enemy vessels, when impacting shields super heated plasma is able to breach through to the vessels hull plating causing additional damage."
+StringInfo
+	ID "IDS_ABILITY_PLASMATORPEDO_NAME"
+	Value "Plasma Torpedo Volley"
+StringInfo
+	ID "IDS_ABILITY_ELECTRONICBAFFLE_DESCRIPTION"
+	Value "The vessel has been specifically designed to support fleet operations while under heavy fire, its enhanced electronic baffle allows its shields to survive consecutive Turbolaser and Ion Canon impacts with little damage to its shields."
+StringInfo
+	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
+	Value "Electronic Baffle"
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_NAME"
 	Value "Targetting Link"

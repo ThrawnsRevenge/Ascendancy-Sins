@@ -1,5 +1,9 @@
 TXT
-entityNameCount 1865
+entityNameCount 1869
+entityName "BuffPlasmaTorpedo.entity"
+entityName "AbilityPlasmaTorpedo.entity"
+entityName "BuffElectronicBaffle.entity"
+entityName "AbilityElectronicBaffle.entity"
 entityName "BuffAltorLink.entity"
 entityName "AbilityAltorLink.entity"
 entityName "BuffBarrierShield.entity"

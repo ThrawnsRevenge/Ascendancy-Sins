@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityAltorFighters"
 ability:1 "AbilityAltorRepair"
 ability:2 "AbilityAltorLink"
-ability:3 ""
+ability:3 "AbilityElectronicBaffle"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
