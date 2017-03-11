@@ -36,3 +36,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+	
