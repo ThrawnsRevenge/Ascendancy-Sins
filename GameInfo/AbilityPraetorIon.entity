@@ -24,7 +24,7 @@ weaponEffectOriginType "Targetter"
 weaponEffectAttachInfo
 	attachType "Ability"
 	abilityIndex 0
-weaponEffectImpactOffsetType "Center"
+weaponEffectImpactOffsetType "RandomMesh"
 canWeaponEffectHitHull TRUE
 canWeaponEffectHitShields TRUE
 weaponEffectsDef

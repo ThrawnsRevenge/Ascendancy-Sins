@@ -16,6 +16,11 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
 levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 3.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 8.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
