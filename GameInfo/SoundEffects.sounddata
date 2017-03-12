@@ -3629,7 +3629,7 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+	alternateGroup ""
 effect
 	name "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
 	fileName "Weapon_Turbolaser.ogg"
@@ -3644,7 +3644,7 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+	alternateGroup ""
 effect
 	name "WEAPON_IONCANNON_MUZZLE"
 	fileName "Weapon_IonCannon.ogg"
@@ -3659,7 +3659,7 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+	alternateGroup ""
 effect
 	name "WEAPON_LASER_MUZZLE"
 	fileName "Weapon_Fighter_TieFighter_Laser_Muzzle.ogg"
@@ -3674,7 +3674,7 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+	alternateGroup ""
 effect
 	name "WEAPON_PROTON_MUZZLE"
 	fileName "Weapon_Proton.ogg"
@@ -3689,7 +3689,7 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+	alternateGroup ""
 effect
 	name "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE"
 	fileName "Weapon_TechCapitalLaserLight_Muzzle.ogg"

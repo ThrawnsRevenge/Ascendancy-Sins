@@ -16,7 +16,7 @@ instantAction
 	buffInstantActionType "InitializeMovementTowardLastSpawner"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	minLinearSpeed 800.000000
+	minLinearSpeed 100.000000
 	maxLinearSpeed 800.000000
 instantAction
 	buffInstantActionType "ResetPhysicsState"
