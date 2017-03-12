@@ -129,7 +129,7 @@ planetUpgradeDef
 			upgradeTime 45.000000
 			maxPopulation 90.000000
 			populationGrowthRate 0.025000
-			developmentTaxPenalty -0.2500
+			developmentTaxPenalty -0.250000
 		stage
 			price
 				credits 350.000000
