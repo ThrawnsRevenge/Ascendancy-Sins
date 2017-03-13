@@ -58,7 +58,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Double"
+		projectileTravelEffectName "TurbolaserGreen_Single"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -98,7 +98,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Single"
+		projectileTravelEffectName "TurbolaserGreen_Double"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -172,7 +172,7 @@ UpgradeType "StarBaseUpgradeRemComDamage"
 UpgradeType "StarBaseUpgradeRemnantMilitarySpecialization"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Bilbringi"
+	meshName "IR_Cardan"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
