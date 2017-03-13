@@ -14,7 +14,7 @@ targetFilter
 	numConstraints 0
 effectInfo
 	effectAttachInfo
-		attachType ""
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""

@@ -5,7 +5,7 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffReflectiveShields"
 effectInfo
 	effectAttachInfo
-		attachType ""
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
