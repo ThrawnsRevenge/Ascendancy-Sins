@@ -33,7 +33,8 @@ entities
 			entityDefName "Alignment_Bellator"
 	capitalShipInfo
 		Page:0
-			count 4
+			count 5
+			entityDefName "Alignment_Lucrehulk"
 			entityDefName "Alignment_ISDII"
 			entityDefName "Alignment_Dominator"
 			entityDefName "Alignment_Secutor"
@@ -64,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 85
+		count 83
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "AlignmentResearch_Global_CityPlanning"
@@ -148,8 +149,6 @@ entities
 		entityDefName "AlignmentResearch_MaxShipSlots5"
 		entityDefName "AlignmentResearch_MaxShipSlots6"
 		entityDefName "AlignmentResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 	starBaseInfo
 		count 3
 		entityDefName "Remnant_GalaxyGun"

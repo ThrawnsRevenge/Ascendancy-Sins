@@ -7,15 +7,15 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Support"
-statCountType "FrigateUtility0"
+frigateRoleType "Carrier"
+statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_ACCLAMATOR"
 picture "HUDICON_ACCLAMATOR"
 NameStringID "IDS_FRIGATE_ACCLAMATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_ACCLAMATOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 350.000000
+	credits 450.000000
 	metal 35.000000
 	crystal 75.000000
 slotCount 5.000000
