@@ -5,7 +5,7 @@ MeshData
 	BoundingRadius 6.896630
 	MaxBoundingExtents [ 5.468443 1.398700 3.746515 ]
 	MinBoundingExtents [ -5.408914 -3.732000 -2.223157 ]
-	NumMaterials 2
+	NumMaterials 1
 	Material
 		DiffuseTextureFileName "PA_Torrent-cl.dds"
 		SelfIlluminationTextureFileName "PA_Torrent-da.dds"

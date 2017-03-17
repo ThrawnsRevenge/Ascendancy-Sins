@@ -40,47 +40,7 @@ hudIcon "HUDICON_ESCAPEPOD"
 smallHudIcon "HUDICONSMALL_CIVILIAN_SHIP"
 infoCardIcon "HUDICONSMALL_CIVILIAN_SHIP"
 minZoomDistanceMult 4.000000
-NumWeapons 1
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIVERYLIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 10.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 3500.000000
-	PreBuffCooldownTime 5.500000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.300000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.250000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.400000
-		muzzleSounds
-			soundCount 3
-			sound "AA_WEAPON_LIGHT_BLASTER"
-			sound "AA_WEAPON_LIGHT_BLASTER_ALT1"
-			sound "AA_WEAPON_LIGHT_BLASTER_ALT2"
-		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
+NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

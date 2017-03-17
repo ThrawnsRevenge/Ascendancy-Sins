@@ -1,5 +1,6 @@
 TXT
 MeshData
+	maxDiffuseMipLevel 0
 	hasValidTangents TRUE
 	BoundingRadius 2.078207
 	MaxBoundingExtents [ 1.345586 2.060867 0.809106 ]

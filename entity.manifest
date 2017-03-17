@@ -1,6 +1,8 @@
 TXT
-entityNameCount 1850
+entityNameCount 1852
 entityName "BuffAltorLink.entity"
+entityName "BuffStrippedToTheCoreSelf.entity"
+entityName "BuffStrippedToTheCoreTarget.entity"
 entityName "AbilityAltorLink.entity"
 entityName "BuffBarrierShield.entity"
 entityName "AbilityBarrierShield.entity"

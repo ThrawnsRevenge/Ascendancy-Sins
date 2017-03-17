@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 177
+planetItemTypeCount 178
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1170,6 +1170,9 @@ planetItemType
 planetItemType
 	designName "Remnant:SSD:Executor"
 	entityDefName "Remnant_Executor"
+planetItemType
+	designName "Remnant:Frigate:Constructor"
+	entityDefName "Remnant_CT11"
 planetItemType
 	designName "Remnant:SSD:Sovereign"
 	entityDefName "Remnant_Sovereign"
