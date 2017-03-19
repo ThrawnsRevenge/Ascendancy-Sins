@@ -1,5 +1,11 @@
 TXT
-NumStrings 8569
+NumStrings 8571
+StringInfo
+	ID "IDS_ABILITY_COMMANDSPEED_DESCRIPTION"
+	Value "The Intego acts as a command and control node for vessels in range providing updated enemy fleet movement predictions allowing friendly vessels to close at a faster rate to their designated targets."
+StringInfo
+	ID "IDS_ABILITY_COMMANDSPEED_NAME"
+	Value "Target Tracking Node"
 StringInfo
 	ID "IDS_ABILITY_PLASMATORPEDO_DESCRIPTION"
 	Value "The Type 25 Plasma Torpedo is designed to inflict maximum damage on enemy vessels, when impacting shields super heated plasma is able to breach through to the vessels hull plating causing additional damage."

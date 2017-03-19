@@ -1,5 +1,8 @@
 TXT
-entityNameCount 1856
+entityNameCount 1859
+entityName "AbilityCommandSpeed.entity"
+entityName "BuffCommandSpeed.entity"
+entityName "BuffCommandSpeedRadius.entity"
 entityName "BuffAltorLink.entity"
 entityName "BuffStrippedToTheCoreSelf.entity"
 entityName "BuffStrippedToTheCoreTarget.entity"
