@@ -35,7 +35,7 @@ entities
 		Page:0
 			count 5
 			entityDefName "NewRep_MC80"
-			entityDefName "NewRep_MC80b"
+			entityDefName "NewRep_MC80B"
 			entityDefName "NewRep_MC90"
 			entityDefName "NewRep_Nebula"
 			entityDefName "NewRep_Endurance"
@@ -51,13 +51,8 @@ entities
 			entityDefName "NewRep_Hajen"
 			entityDefName "NewRep_CR90Envoy"
 		Page:1
-			count 6
-			entityDefName "NewRep_AssaultFrigate"
-			entityDefName "NewRep_BAC"
+			count 1
 			entityDefName "NewRep_MC30c"
-			entityDefName "NewRep_Dauntless"
-			entityDefName "NewRep_Proficient"
-			entityDefName "NewRep_GallofreeConstructor"
 		NotOnPage
 			count 5
 			entityDefName "NewRep_CT11"

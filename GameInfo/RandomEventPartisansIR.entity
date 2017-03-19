@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 7
+		requiredShip
+			type "Remnant_Strikecruiser"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "Remnant_Carrack"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "Remnant_Lancer"
+			minCount 7
+			maxCount 7
+		requiredShip
+			type "Remnant_EscortCarrier"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "Remnant_VSDI"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "Remnant_VSDII"
+			minCount 2
+			maxCount 7
+		requiredShip
+			type "Remnant_Dreadnaught"
+			minCount 1
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "Remnant_ISDI"
+			weight 1
+		randomShip
+			type "Remnant_ISDII"
+			weight 1
+		randomShip
+			type "Remnant_Altor"
+			weight 1
+		randomShip
+			type "Remnant_TorpedoSphere"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

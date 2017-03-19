@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 7
+		requiredShip
+			type "NewRep_MC30c"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "NewRep_MC40a"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "NewRep_AssaultFrigate"
+			minCount 7
+			maxCount 7
+		requiredShip
+			type "NewRep_CR90"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "NewRep_Proficient"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "NewRep_Hajen"
+			minCount 2
+			maxCount 7
+		requiredShip
+			type "NewRep_Quasar"
+			minCount 1
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "NewRep_MC80"
+			weight 1
+		randomShip
+			type "NewRep_MC80B"
+			weight 1
+		randomShip
+			type "NewRep_MC90"
+			weight 1
+		randomShip
+			type "NewRep_Nebula"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

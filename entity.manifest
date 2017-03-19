@@ -1,5 +1,5 @@
 TXT
-entityNameCount 1852
+entityNameCount 1856
 entityName "BuffAltorLink.entity"
 entityName "BuffStrippedToTheCoreSelf.entity"
 entityName "BuffStrippedToTheCoreTarget.entity"
@@ -109,6 +109,10 @@ entityName "RandomEventDeathSeedPlanetDetermine.entity"
 entityName "RandomEventDeathSeedTradeShip.entity"
 entityName "RandomEventDeathSeedTradeShipDetermine.entity"
 entityName "RandomEventDeathSeedCooldown.entity"
+entityName "RandomEventPartisansIR.entity"
+entityName "RandomEventPartisansNR.entity"
+entityName "RandomEventPartisansPA.entity"
+entityName "RandomEventPartisansEotH.entity"
 entityName "Unique_Centerpoint.entity"
 entityName "PlanetAridOcean.entity"
 entityName "PlanetEcumenopolis.entity"

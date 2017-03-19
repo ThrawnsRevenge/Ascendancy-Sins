@@ -6,9 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Siege"
-statCountType "FrigateSiege"
+typeCount 2
+frigateRoleType "Carrier"
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_BAC"
 picture "HUDICON_BAC"
 NameStringID "IDS_FRIGATE_BAC_NAME"

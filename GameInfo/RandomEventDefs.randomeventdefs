@@ -5,7 +5,27 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
-randomEventDefCount 9
+randomEventDefCount 10	
+	randomEventDef
+		id "PARTISANS"
+		nameID "IDS_RANDOMEVENT_PARTISANS_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
+		spawnType "RacialBuffAtLocation"
+		racialBuffCount 4			
+			race "IDS_PLAYERRACENAME_REMNANT"
+			buff "RandomEventPartisansIR"
+			race "IDS_PLAYERRACENAME_NEWREP"
+			buff "RandomEventPartisansNR"
+			race "IDS_PLAYERRACENAME_ALIGNMENT"
+			buff "RandomEventPartisansPA"
+			race "IDS_PLAYERRACENAME_EOTH"
+			buff "RandomEventPartisansEotH"
+		playerOwnerType "Rebel"
+		spawnLocation "TriggerLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "TriggerCultureFlip"
+		triggerWeight 0.25
+		spawnWeight 1.0
 	randomEventDef
 		id "DEATHSEED"
 		nameID "IDS_RANDOMEVENT_DEATHSEED_NAME"
