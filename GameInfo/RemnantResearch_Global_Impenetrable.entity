@@ -29,11 +29,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 3
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
-researchModifier
-	modifierType "ShipBuildRateAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.100000
+researchFloatModifiers 2
 researchModifier
 	modifierType "ModuleBuildRateAdjustment"
 	baseValue 0.000000

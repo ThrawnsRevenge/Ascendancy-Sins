@@ -102,7 +102,7 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityHajenRepair"
 ability:1 "AbilityHajenFighters"
 ability:2 "AbilityPowerToShields"
-ability:3 "AbilityVeteran"
+ability:3 ""
 ability:4 ""
 MaxAntiMatter 350.000000
 AntiMatterRestoreRate 0.100000
