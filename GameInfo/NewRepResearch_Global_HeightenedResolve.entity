@@ -7,10 +7,13 @@ NameStringID "IDS_NEWREPRESEARCH_HEIGHTENEDRESOLVE_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_HEIGHTENEDRESOLVE_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 0 ]
+	pos [ 7 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_Global_CultureDamage01"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
