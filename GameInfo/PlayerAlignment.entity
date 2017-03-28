@@ -149,14 +149,9 @@ entities
 		entityDefName "AlignmentResearch_MaxShipSlots6"
 		entityDefName "AlignmentResearch_MaxShipSlots7"
 	starBaseInfo
-<<<<<<< HEAD
 		count 2
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Alignment_Validusia"
-=======
-		count 1
-		entityDefName "Remnant_CommandStation"
->>>>>>> cffd5ae799109428d0692fc03939b28a168be5c8
 	flagship "Alignment_Grant"
 debrisData
 	numRandomMeshNamesLarge 10

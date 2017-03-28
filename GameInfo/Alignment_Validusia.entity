@@ -167,11 +167,11 @@ statCountType "StarBase"
 creationSourceAbility "AbilityCreateValidusia"
 maxUpgradeLevelCount 8
 UpgradeTypeCount 5
-UpgradeType "StarBaseUpgradeEmpressToughness"
-UpgradeType "StarBaseUpgradeEmpressHangar"
-UpgradeType "StarBaseUpgradeEmpressWeapons"
-UpgradeType "StarBaseUpgradeEmpressDamage"
-UpgradeType "StarBaseUpgradeEmpressRestore"
+UpgradeType "StarBaseUpgradeValidusiaToughness"
+UpgradeType "StarBaseUpgradeValidusiaHangar"
+UpgradeType "StarBaseUpgradeValidusiaRestore"
+UpgradeType "StarBaseUpgradeValidusiaDamage"
+UpgradeType "StarBaseUpgradeValidusiaTradePort"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "PA_Validusia"
