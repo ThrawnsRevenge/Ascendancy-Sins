@@ -161,7 +161,7 @@ squadTypeEntityDef:3 "Alignment_Skipray_Squad"
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MAINVIEWICON_EMPRESS_STATION"
 experiencePointsForDestroying 150.000000
-nameStringID "IDS_PLANETMODULE_EMPRESS_NAME"
+nameStringID "IDS_PLANETMODULE_VALIDUSIA_NAME"
 picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateValidusia"

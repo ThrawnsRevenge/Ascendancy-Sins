@@ -1,6 +1,15 @@
 TXT
-NumStrings 8575
+NumStrings 8578
 StringInfo
+	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
+	Value "Validusia Trade Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_NAME"
+	Value "Validusia Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_DESCRIPTION"
+	Value "It became quickly apparent to the leaders of the Pentastar Allignment that greater emphasis on Trade meant opportunistic pirates and enemies would prey upon the many helpless cargo vessels that were the lifeblood of the allignment.  A station capable of protecting its many trade routes was vital in design, the Validusia Command Station represents the answer to that aim."
+StringInfo	
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
 	Value "Astromech Droids"
 StringInfo
