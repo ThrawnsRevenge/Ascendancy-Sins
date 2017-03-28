@@ -57,7 +57,7 @@ entities
 			entityDefName "Alignment_Enforcer"
 			entityDefName "Remnant_VSDI"
 			entityDefName "Alignment_Procursator"
-			entityDefName "Remnant_SentinelConstructor"
+			entityDefName "Alignment_SentinelConstructor"
 		NotOnPage
 			count 4
 			entityDefName "Remnant_CT11"
@@ -150,10 +150,9 @@ entities
 		entityDefName "AlignmentResearch_MaxShipSlots6"
 		entityDefName "AlignmentResearch_MaxShipSlots7"
 	starBaseInfo
-		count 3
+		count 2
 		entityDefName "Remnant_GalaxyGun"
-		entityDefName "Remnant_CommandStation"
-		entityDefName "Remnant_Esseles"
+		entityDefName "Alignment_Validusia"
 	flagship "Alignment_Grant"
 debrisData
 	numRandomMeshNamesLarge 10

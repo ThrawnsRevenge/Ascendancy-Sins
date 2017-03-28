@@ -1,5 +1,8 @@
 TXT
-entityNameCount 1859
+entityNameCount 1862
+entityName "AbilityCreateValidusia.entity"
+entityName "Alignment_SentinelConstructor.entity"
+entityName "Alignment_Validusia.entity"
 entityName "AbilityCommandSpeed.entity"
 entityName "BuffCommandSpeed.entity"
 entityName "BuffCommandSpeedRadius.entity"
