@@ -182,7 +182,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityResilient"
 ability:1 ""
-ability:2 "AbilityVeteran"
+ability:2 ""
 ability:3 "AbilityBombardEmpire"
 ability:4 "AbilityPassiveLowLifePodsT3"
 MaxAntiMatter 12.000000

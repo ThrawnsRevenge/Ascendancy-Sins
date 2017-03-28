@@ -63,7 +63,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 86
+		count 85
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
@@ -83,7 +83,6 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Brask"
 		entityDefName "EotHResearch_ShipUnlock_Visvia"
 		entityDefName "EotHResearch_ShipUnlock_Teichos"
-		entityDefName "EotHResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
 		entityDefName "EotHResearch_ShipUnlock_Krsiss"

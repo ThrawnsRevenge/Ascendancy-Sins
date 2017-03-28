@@ -268,7 +268,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
-ability:2 "AbilityVeteran"
+ability:2 ""
 ability:3 "AbilityThrawnDoctrine"
 ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 24.000000

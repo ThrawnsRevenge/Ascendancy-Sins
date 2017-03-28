@@ -263,7 +263,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityHullBreach"
 ability:1 "AbilityBothanSpies"
-ability:2 "AbilityVeteran"
+ability:2 ""
 ability:3 "AbilityBombardEmpire"
 ability:4 "AbilityPassiveLowLifeT3"
 MaxAntiMatter 12.000000

@@ -183,7 +183,7 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityBlockadeRunner"
 ability:2 ""
-ability:3 "AbilityVeteran"
+ability:3 ""
 ability:4 "AbilityPassiveLowLifePods"
 MaxAntiMatter 12.000000
 AntiMatterRestoreRate 0.000000

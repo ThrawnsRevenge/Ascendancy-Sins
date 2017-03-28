@@ -179,7 +179,7 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilitySlimProfile"
 ability:1 "AbilityBlockadeRunner"
 ability:2 ""
-ability:3 "AbilityVeteran"
+ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 10.000000
 AntiMatterRestoreRate 0.000000

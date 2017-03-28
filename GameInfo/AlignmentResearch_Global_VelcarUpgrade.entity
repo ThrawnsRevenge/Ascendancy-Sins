@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 0.100000
 	linkedPlanetUpgradeType "CivilianModules"
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"

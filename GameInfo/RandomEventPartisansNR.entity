@@ -22,7 +22,7 @@ instantAction
 			minCount 2
 			maxCount 3
 		requiredShip
-			type "NewRep_MC40a"
+			type "NewRep_MC40"
 			minCount 2
 			maxCount 2
 		requiredShip
