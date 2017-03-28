@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 83
+		count 82
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AbilityUnlock_HVGun"
 		entityDefName "AlignmentResearch_Global_CityPlanning"
@@ -136,7 +136,6 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
-		entityDefName "RemnantResearch_ShipUnlock_Esseles"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
 		entityDefName "AlignmentResearch_ShipUnlock_Bellator"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
@@ -150,9 +149,14 @@ entities
 		entityDefName "AlignmentResearch_MaxShipSlots6"
 		entityDefName "AlignmentResearch_MaxShipSlots7"
 	starBaseInfo
+<<<<<<< HEAD
 		count 2
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Alignment_Validusia"
+=======
+		count 1
+		entityDefName "Remnant_CommandStation"
+>>>>>>> cffd5ae799109428d0692fc03939b28a168be5c8
 	flagship "Alignment_Grant"
 debrisData
 	numRandomMeshNamesLarge 10
