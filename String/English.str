@@ -1,5 +1,17 @@
 TXT
-NumStrings 8571
+NumStrings 8575
+StringInfo
+	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
+	Value "Astromech Droids"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_ASTROMECHS_DESCRIPTION"
+	Value "Astromech droids are distributed to all New Republic ships, allowing them to conduct repairs without the need for fleet tenders."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_NAME"
+	Value "restraining Bolts"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_DESCRIPTION"
+	Value "Restraining bolts are installed on astromechs when on duty, reducing the incidence of snide comments and improving their work efficiency."
 StringInfo
 	ID "IDS_ABILITY_COMMANDSPEED_DESCRIPTION"
 	Value "The Intego acts as a command and control node for vessels in range providing updated enemy fleet movement predictions allowing friendly vessels to close at a faster rate to their designated targets."
