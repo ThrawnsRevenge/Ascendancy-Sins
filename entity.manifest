@@ -1,12 +1,8 @@
 TXT
-<<<<<<< HEAD
 entityNameCount 1862
 entityName "AbilityCreateValidusia.entity"
 entityName "Alignment_SentinelConstructor.entity"
 entityName "Alignment_Validusia.entity"
-=======
-entityNameCount 1850
->>>>>>> cffd5ae799109428d0692fc03939b28a168be5c8
 entityName "AbilityCommandSpeed.entity"
 entityName "BuffCommandSpeed.entity"
 entityName "BuffCommandSpeedRadius.entity"
