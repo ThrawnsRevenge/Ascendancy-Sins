@@ -1,10 +1,5 @@
 TXT
-entityNameCount 1861
-entityName "StarBaseUpgradeValidusiaTradePort.entity"
-entityName "StarBaseUpgradeValidusiaHangar.entity"
-entityName "StarBaseUpgradeValidusiaRestore.entity"
-entityName "StarBaseUpgradeValidusiaToughness.entity"
-entityName "StarBaseUpgradeValidusiaDamage.entity"
+entityNameCount 1855
 entityName "AbilityCreateValidusia.entity"
 entityName "Alignment_SentinelConstructor.entity"
 entityName "Alignment_Validusia.entity"
