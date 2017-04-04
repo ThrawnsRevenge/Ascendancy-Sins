@@ -19,8 +19,8 @@ mainViewIcon "MAINVIEWICON_BOMBER_SQUADRON"
 picture "HUDICON_SKIPRAY"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
-nameStringID "IDS_SKIPRAY_NAME"
-descriptionStringID "IDS_SKIPRAY_DESCRIPTION"
+nameStringID "IDS_FIGHTERSKIPRAY_NAME"
+descriptionStringID "IDS_FIGHTERSKIPRAY_DESCRIPTION"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

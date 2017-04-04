@@ -1,5 +1,5 @@
 TXT
-NumStrings 8578
+NumStrings 8576
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
 	Value "Validusia Trade Station"
@@ -8,7 +8,7 @@ StringInfo
 	Value "Validusia Station"
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_DESCRIPTION"
-	Value "It became quickly apparent to the leaders of the Pentastar Allignment that greater emphasis on Trade meant opportunistic pirates and enemies would prey upon the many helpless cargo vessels that were the lifeblood of the allignment.  A station capable of protecting its many trade routes was vital in design, the Validusia Command Station represents the answer to that aim."
+	Value "A greater emphasis on trade would see an increase of opportunistic pirates and enemies preying upon the helpless cargo vessels along the Alignment's many trade routes.  It quickly became apparent to the leaders of the Pentastar Allignment that a station capable of protecting its economic lifeblood was vital. The Validusia Command Station represents the answer to that aim."
 StringInfo	
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
 	Value "Astromech Droids"
@@ -17,25 +17,25 @@ StringInfo
 	Value "Astromech droids are distributed to all New Republic ships, allowing them to conduct repairs without the need for fleet tenders."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_NAME"
-	Value "restraining Bolts"
+	Value "Restraining Bolts"
 StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_DESCRIPTION"
 	Value "Restraining bolts are installed on astromechs when on duty, reducing the incidence of snide comments and improving their work efficiency."
 StringInfo
 	ID "IDS_ABILITY_COMMANDSPEED_DESCRIPTION"
-	Value "The Intego acts as a command and control node for vessels in range providing updated enemy fleet movement predictions allowing friendly vessels to close at a faster rate to their designated targets."
+	Value "The Intego acts as a command and control node for vessels in range by providing updated enemy fleet movement predictions, allowing friendly vessels to close at a faster rate to their designated targets."
 StringInfo
 	ID "IDS_ABILITY_COMMANDSPEED_NAME"
 	Value "Target Tracking Node"
 StringInfo
 	ID "IDS_ABILITY_PLASMATORPEDO_DESCRIPTION"
-	Value "The Type 25 Plasma Torpedo is designed to inflict maximum damage on enemy vessels, when impacting shields super heated plasma is able to breach through to the vessels hull plating causing additional damage."
+	Value "The Type 25 Plasma Torpedo is designed to inflict maximum damage on enemy vessels, when impacting shields super heated plasma is able to breach through to the vessel's hull plating causing additional damage."
 StringInfo
 	ID "IDS_ABILITY_PLASMATORPEDO_NAME"
 	Value "Plasma Torpedo Volley"
 StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_DESCRIPTION"
-	Value "The vessel has been specifically designed to support fleet operations while under heavy fire, its enhanced electronic baffle allows its shields to survive consecutive Turbolaser and Ion Canon impacts with little damage to its shields."
+	Value "The vessel has been specifically designed to support fleet operations while under heavy fire; its enhanced electronic baffle allows its shields to survive consecutive Turbolaser and Ion Cannon impacts with little damage to its shields."
 StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
 	Value "Electronic Baffle"
@@ -44,7 +44,7 @@ StringInfo
 	Value "Targetting Link"
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_DESCRIPTION"
-	Value "The Vessel Assists a nearby combatant with targeting greatly increasing the combatants rate of fire and chances of scoring a direct hit."
+	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
 StringInfo
 	ID "IDS_ABILITY_BARRIERSHIELD_NAME"
 	Value "Barrier Shield"
@@ -113,7 +113,7 @@ StringInfo
 	Value "Rushed Training"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_DESCRIPTION"
-	Value "In order to more quickly epand the Imperial fleet, training is more compact for new recruits."
+	Value "In order to more quickly expand the Imperial fleet, training is more compact for new recruits."
 StringInfo
 	ID "IDS_PARESEARCH_INSTANTBUILD_NAME"
 	Value "Swarm"
@@ -290,7 +290,7 @@ StringInfo
 	Value "SPMAT Beam"
 StringInfo
 	ID "IDS_ABILITY_SPMATBEAM_DESCRIPTION"
-	Value "SPMAT artillery brigades held in the Venators hangar fire at the designated target."
+	Value "SPMAT artillery brigades held in the Venator's hangar fire at the designated target."
 StringInfo
 	ID "IDS_ABILITY_IMPERIALFUROR_NAME"
 	Value "Imperial Furor"
@@ -767,7 +767,7 @@ StringInfo
 	Value "Created in secret by Emperor Palpatine and Grand Admiral Thrawn, the Empire of the Hand is an expansive political and military conglomeration loosely associated with the Chiss Ascendancy and Galactic Empire. Because of the large territory which they must patrol, the Empire of the Hand relies on a fleet of fast and hard-hitting, yet fragile ships. Thrawn maintained several characteristics of the Imperial New Order, however in a more open way towards non-humans; he also detested the use of superweapons."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
-	Value "The Pentastar Alignment formed in 4 ABY after the Battle of Endor primarily with the Imperial forces under Grand Moff Ardus Kaine of Oversector Outer. Because much of the territory except for Oversector Outer is from the backwater worlds of the outer rim, much of the Pentastar forces are comprised of a mix of outdated technology from the Clone Wars in support of state-of-the-art Imperial battleships. They Alignment is a primarily corporation-based faction, with a heavy emphasis on trade."
+	Value "The Pentastar Alignment formed in 4 ABY after the Battle of Endor primarily with the Imperial forces under Grand Moff Ardus Kaine of Oversector Outer. Because much of the territory except for Oversector Outer is from the backwater worlds of the Outer Rim, much of the Pentastar forces are comprised of a mix of outdated technology from the Clone Wars in support of state-of-the-art Imperial battleships. The Alignment is a primarily corporation-based faction, with a heavy emphasis on trade."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 	Value "Random"
@@ -1258,14 +1258,8 @@ StringInfo
 	ID "IDS_FIGHTERTIEFIGHTER_NAME"
 	Value "TIE Fighter"
 StringInfo
-	ID "IDS_TIEFIGHTER_NAME"
-	Value "TIE Fighter"
-StringInfo
 	ID "IDS_FIGHTERTIEFIGHTER_DESC"
 	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
-StringInfo
-	ID "IDS_FIGHTERV19_NAME"
-	Value "V19 Torrent"
 StringInfo
 	ID "IDS_V19_NAME"
 	Value "V19 Torrent"
@@ -1732,10 +1726,10 @@ StringInfo
 	ID "IDS_FIGHTERXWING_DESCRIPTION"
 	Value "The workhorse fighter of the New Republic, capable of combating enemy fighters as well as assaulting larger vessels, although not as effective at either job as dedicated interceptors or bombers."
 StringInfo
-	ID "IDS_SKIPRAY_NAME"
+	ID "IDS_FIGHTERSKIPRAY_NAME"
 	Value "Skipray Blastboat"
 StringInfo
-	ID "IDS_SKIPRAY_DESCRIPTION"
+	ID "IDS_FIGHTERSKIPRAY_DESCRIPTION"
 	Value "A versatile and large craft which serves as a heavy bomber in the Alignment fleet."
 StringInfo
 	ID "IDS_FIGHTERMIYTILBOMBER_NAME"
