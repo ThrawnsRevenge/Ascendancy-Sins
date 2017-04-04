@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 178
+planetItemTypeCount 182
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1222,6 +1222,9 @@ planetItemType
 	designName "Remnant:Frigate:Immobilizer"
 	entityDefName "Remnant_Immobilizer"
 planetItemType
+	designName "Alignment:Module:HeroBase"
+	entityDefName "Alignment_HeroBase"
+planetItemType
 	designName "Alignment:Frigate:Vindicator"
 	entityDefName "Alignment_Vindicator"
 planetItemType
@@ -1309,6 +1312,9 @@ planetItemType
 	designName "Remnant:Frigate:VSDII"
 	entityDefName "Remnant_VSDII"
 planetItemType
+	designName "NewRep:Module:HeroBase"
+	entityDefName "NewRep_HeroBase"
+planetItemType
 	designName "NewRep:Module:FrigateFactory"
 	entityDefName "NewRep_FrigateShipyard"
 planetItemType
@@ -1383,6 +1389,9 @@ planetItemType
 planetItemType
 	designName "NewRep:Frigate:Ferret"
 	entityDefName "NewRep_Ferret"
+planetItemType
+	designName "EotH:Module:HeroBase"
+	entityDefName "EotH_HeroBase"
 planetItemType
 	designName "EotH:Module:FrigateFactory"
 	entityDefName "EotH_FrigateShipyard"
@@ -1630,7 +1639,7 @@ planetItemsTemplate
 				param "Alignment"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "Alignment:Module:FrigateFactory"
 				item "Alignment:Module:CommStation"
 				item "Remnant:Frigate:Constructor"
@@ -1645,13 +1654,14 @@ planetItemsTemplate
 				item "Remnant:Frigate:Mu"
 				item "Alignment:Frigate:Venator"
 				item "Remnant:Frigate:Sentinel"
+				item "Alignment:Module:HeroBase"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "NewRep"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "NewRep:Module:FrigateFactory"
 				item "NewRep:Module:CommStation"
 				item "NewRep:Frigate:Constructor"
@@ -1667,6 +1677,7 @@ planetItemsTemplate
 				item "NewRep:Frigate:Gallofree"
 				item "NewRep:Frigate:AssaultFrigate"
 				item "NewRep:Frigate:AssaultFrigate"
+				item "NewRep:Module:HeroBase"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1692,7 +1703,7 @@ planetItemsTemplate
 				param "EotH"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
 				item "EotH:Frigate:Constructor"
@@ -1707,6 +1718,7 @@ planetItemsTemplate
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Kariek"
 				item "EotH:Frigate:Budirech"
+				item "EotH:Module:HeroBase"
 planetItemsTemplate
 	templateName "Template:Unique:Centerpoint"
 	subTemplates 0	

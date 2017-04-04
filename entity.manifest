@@ -1,5 +1,8 @@
 TXT
-entityNameCount 1855
+entityNameCount 1858
+entityName "EotH_HeroBase.entity"
+entityName "Alignment_HeroBase.entity"
+entityName "NewRep_HeroBase.entity"
 entityName "AbilityCreateValidusia.entity"
 entityName "Alignment_SentinelConstructor.entity"
 entityName "Alignment_Validusia.entity"
