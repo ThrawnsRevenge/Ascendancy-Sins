@@ -1,5 +1,29 @@
 TXT
-NumStrings 8576
+NumStrings 8584
+StringInfo
+	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
+	Value "UI Scale"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleData"
+	Value "Building Extras - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleBump"
+	Value "Building Bump - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipData"
+	Value "Ship Extras - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipBump"
+	Value "Ship Bump - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleColor"
+	Value "Building Detail - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipColor"
+	Value "Ship Detail - Extreme"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremePlanetColor"
+	Value "Planet Detail - Extreme"
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
 	Value "Validusia Trade Station"
