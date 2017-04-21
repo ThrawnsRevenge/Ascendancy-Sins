@@ -7,10 +7,13 @@ NameStringID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 6 ]
+	pos [ 3 , 9 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_ReplaceableParts"
+		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

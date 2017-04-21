@@ -7,12 +7,12 @@ NameStringID "IDS_REMNANTRESEARCH_RUTHLESS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 1 ]
+	pos [ 5 , 2 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
-		ResearchPrerequisite
-		Subject "RemnantResearch_Global_Ruthless"
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_ImperialPurity"
 		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0

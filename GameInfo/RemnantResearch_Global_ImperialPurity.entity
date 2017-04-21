@@ -7,10 +7,16 @@ NameStringID "IDS_REMNANTRESEARCH_IMPERIALPURITY_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_IMPERIALPURITY_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 2 ]
+	pos [ 4 , 1 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_DaalaDefenses"
+		Level 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Flat_MCPS"
+		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

@@ -7,12 +7,15 @@ NameStringID "IDS_REMNANTRESEARCH_MIXEDRACEMILITARY_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_MIXEDRACEMILITARY_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 4 ]
+	pos [ 4 , 5 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RemnantResearch_Global_Integration"
+		Level 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_AbilityUnlock_MoleMiners"
 		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PELLAEON"
 	RequiredCompletedResearchSubjects 0

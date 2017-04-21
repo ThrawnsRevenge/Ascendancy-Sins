@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_PALPATINE_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_PALPATINE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 7]
+	pos [ 0 , 9]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0

@@ -10,8 +10,11 @@ researchWindowLocation
 	pos [ 1 , 8 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
-	RequiredFactionNameID ""
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_DeclarePalpatine"
+		Level 1
+	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 50.000000

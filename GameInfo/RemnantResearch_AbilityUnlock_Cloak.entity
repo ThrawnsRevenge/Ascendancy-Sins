@@ -7,10 +7,13 @@ NameStringID "IDS_ABILITY_CLOAK_NAME"
 DescriptionStringID "IDS_ABILITY_CLOAK_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 5 ]
+	pos [ 7 , 5 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_ThrawnDoctrine"
+		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PELLAEON"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

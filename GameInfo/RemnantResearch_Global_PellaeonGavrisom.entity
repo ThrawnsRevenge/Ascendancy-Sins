@@ -7,10 +7,13 @@ NameStringID "IDS_NEWREPRESEARCH_PELLAEONGAVRISOM_NAME"
 DescriptionStringID "IDS_NEWREPRESEARCH_PELLAEONGAVRISOM_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 5 ]
+	pos [ 5 , 6 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Pellaeon"
+		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PELLAEON"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 5
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

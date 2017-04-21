@@ -7,12 +7,12 @@ NameStringID "IDS_REMNANTRESEARCH_MCPS_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_MCPS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 0 ]
+	pos [ 3 , 2 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_Global_MawInstallation"
+		Subject "RemnantResearch_Global_DaalaDefenses"
 		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_DAALA"
 	RequiredCompletedResearchSubjects 0
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 3
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000

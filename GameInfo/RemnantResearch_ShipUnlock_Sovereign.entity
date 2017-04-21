@@ -7,12 +7,12 @@ NameStringID "IDS_TITAN_SOVEREIGN_NAME"
 DescriptionStringID "IDS_TITAN_SOVEREIGN_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 8 ]
+	pos [ 5 , 8 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Executor"
+		Subject "RemnantResearch_Global_EmperorsWill"
 		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
 	RequiredCompletedResearchSubjects 0
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 0.000000
 	crystal 25.000000
-Tier 7
+Tier 5
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

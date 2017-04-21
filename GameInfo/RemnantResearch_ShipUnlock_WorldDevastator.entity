@@ -7,10 +7,16 @@ NameStringID "IDS_UNLOCK_WORLDDEVASTATOR_NAME"
 DescriptionStringID "IDS_UNLOCK_WORLDDEVASTATOR_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 7 ]
+	pos [ 6 , 9 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Sovereign"
+		Level 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_Global_FortressWorldsTwo"
+		Level 1
 	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
