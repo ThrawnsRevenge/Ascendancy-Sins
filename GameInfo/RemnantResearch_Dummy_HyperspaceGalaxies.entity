@@ -1,0 +1,37 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_HYPERSPACEFREE"
+smallHudIcon "HUDICON_RESEARCH_HYPERSPACEFREE"
+infoCardIcon ""
+NameStringID "IDS_FREERESEARCH_HYPERSPACE_NAME"
+DescriptionStringID "IDS_FREERESEARCH_HYPERSPACE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 0 , 2 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 0.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 00.000000
+	metal 0.000000
+	crystal 0.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 0
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "AllowGalaxyTravel"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

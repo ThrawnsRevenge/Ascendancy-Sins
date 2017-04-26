@@ -166,12 +166,13 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateValidusia"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 5
+UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeValidusiaToughness"
 UpgradeType "StarBaseUpgradeValidusiaHangar"
 UpgradeType "StarBaseUpgradeValidusiaRestore"
 UpgradeType "StarBaseUpgradeValidusiaDamage"
 UpgradeType "StarBaseUpgradeValidusiaTradePort"
+UpgradeType "StarBaseUpgradeValidusiaDrydockArms"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "PA_Validusia"

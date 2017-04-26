@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_MUNIFICENT"
+hudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
+smallHudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_NAME"
+DescriptionStringID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 1 , 1 ]
+	block 1
+	pos [ 5 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -24,12 +24,16 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
-onlyWorksIfTierLabsExist TRUE
+Tier 5
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "StarBaseUpgradeCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.200000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

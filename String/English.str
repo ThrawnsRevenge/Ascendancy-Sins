@@ -1,5 +1,5 @@
 TXT
-NumStrings 8584
+NumStrings 8612
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -70,6 +70,12 @@ StringInfo
 	ID "IDS_ABILITY_ALTORLINK_DESCRIPTION"
 	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
 StringInfo
+	ID "IDS_ABILITY_DRYDOCKARMS_NAME"
+	Value "Targetting Link"
+StringInfo
+	ID "IDS_ABILITY_DRYDOCKARMS_DESCRIPTION"
+	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
+StringInfo
 	ID "IDS_ABILITY_BARRIERSHIELD_NAME"
 	Value "Barrier Shield"
 StringInfo
@@ -111,6 +117,48 @@ StringInfo
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_NAME"
+	Value "Modular Construction"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_DESCRIPTION"
+	Value "Parts for the Validusia are constructed separately and brought to the field, making contruction less expensive."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_RESALEVALUE_NAME"
+	Value "Resale Value"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_RESALEVALUE_DESCRIPTION"
+	Value "When being dismantled, raw materials from assets are auctioned off to the highest bidder."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINONE_NAME"
+	Value "Supply Chains"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINONE_DESCRIPTION"
+	Value "Supply chains are established in your territory, resupplying your ships while within your culture."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINTWO_NAME"
+	Value "Field Supply"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINTWO_DESCRIPTION"
+	Value "Supply chains are set up between all fleets (ships will passively regenerate supply regardless of location)."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINTHREE_NAME"
+	Value "Improved Field Supply"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_SUPPLYCHAINTHREE_DESCRIPTION"
+	Value "Supply chains are improved, increasing the rate by which fleets supply themselves."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXITCLAUSE_NAME"
+	Value "Exit Clause"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_EXITCLAUSE_DESCRIPTION"
+	Value "Corporate lawyers find loopholes to remove obligations from missions with smaller penalties."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_ECONOMICTIES_NAME"
+	Value "Economic Ties"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_ECONOMICTIES_DESCRIPTION"
+	Value "Doing business with other factions improves our relations with them."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_NAME"
 	Value "Forward Bases"
@@ -333,6 +381,18 @@ StringInfo
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
 	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
+	Value "Open Markets"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
+	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DEFENSIVEWALL_NAME"
+	Value "Defensive Wall"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DEFENSIVEWALL_DESCRIPTION"
+	Value "The Alignment reduces its upkeep quality on existing structures to allow for more to be constructed."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_CORPORATEOUTREACH_NAME"
 	Value "Corporate Outreach"
@@ -967,6 +1027,12 @@ StringInfo
 	ID "IDS_FRIGATE_LANCER_DESCRIPTION"
 	Value "Armed exclusively with anti-starfighter laser cannons the sluggish Lancer is designed to screen Imperial ships from enemy fighters."
 StringInfo
+	ID "IDS_FRIGATE_RAIDER_NAME"
+	Value "Raider Corvette"
+StringInfo
+	ID "IDS_FRIGATE_RAIDER_DESCRIPTION"
+	Value "A sleek corvette designed to counter enemy starfighters."
+StringInfo
 	ID "IDS_FRIGATE_CARRACK_NAME"
 	Value "Carrack Cruiser"
 StringInfo
@@ -1443,6 +1509,24 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 	Value "A CR90 model refitted for diplomatic missions"
+StringInfo
+	ID "IDS_HERO_BESK_NAME"
+	Value "Elta Besk"
+StringInfo
+	ID "IDS_HERO_BESK_DESCRIPTION"
+	Value "Head of Dynamic Automota, Elta Besk is one of the founding members of the Pentastar Alignment. Commands an ISDII with significant droid-based support abilities."
+StringInfo
+	ID "IDS_HERO_DEKEET_NAME"
+	Value "Elta Besk"
+StringInfo
+	ID "IDS_HERO_DEKEET_DESCRIPTION"
+	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Praetor and provides several governance bonuses to your planets."
+StringInfo
+	ID "IDS_HERO_KAINE_NAME"
+	Value "Ardus Kaine"
+StringInfo
+	ID "IDS_HERO_KAINE_DESCRIPTION"
+	Value "After Endor, Grand Moff Ardus Kaine struck out on his own to form the Pentastar Alignment, bringing together several high-ranking Imperials and local corporations. He commands the Executor-class Reaper, and provides combat bonuses to the Alignment fleet [DOES NOT RESPAWN]"
 StringInfo
 	ID "IDS_HERO_THRAWN_NAME"
 	Value "Thrawn - Chimera"

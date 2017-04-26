@@ -27,7 +27,10 @@ stage
 	nameStringID "IDS_ABILITY_EMPRESSRESTORE_NAME"
 	descStringID "IDS_ABILITY_EMPRESSRESTORE_DESCRIPTION"
 	researchPrerequisites
-		NumResearchPrerequisites 0
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "AlignmentResearch_AbilityUnlock_FortifiedRefueling"
+			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	hudIcon "HUDABILITYICON_RESTOCK"

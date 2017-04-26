@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_MUNIFICENT"
+hudIcon "HUDICON_KAINE"
+smallHudIcon "HUDICON_KAINE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_FRIGATE_KAINE_NAME"
+DescriptionStringID "IDS_FRIGATE_KAINE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 1 ]
+	pos [ 7 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_Bellator"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 7
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

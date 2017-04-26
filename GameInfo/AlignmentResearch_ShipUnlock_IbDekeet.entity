@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_MUNIFICENT"
+hudIcon "HUDICON_BESK"
+smallHudIcon "HUDICON_BESK"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_FRIGATE_BESK_NAME"
+DescriptionStringID "IDS_FRIGATE_BESK_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 1 ]
+	pos [ 6 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_Praetor"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 6
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

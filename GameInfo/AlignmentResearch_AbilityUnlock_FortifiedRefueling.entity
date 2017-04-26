@@ -1,14 +1,14 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_MUNIFICENT"
+hudIcon "HUDICON_RESEARCH_ABILITY"
+smallHudIcon "HUDICON_RESEARCH_ABILITY"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_ABILITY_EMPRESSRESTORE_NAME"
+DescriptionStringID "IDS_ABILITY_EMPRESSRESTORE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 1 ]
-ResearchField "Combat"
+	pos [ 2 , 1 ]
+ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -24,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

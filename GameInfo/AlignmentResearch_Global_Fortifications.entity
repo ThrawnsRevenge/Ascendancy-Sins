@@ -1,14 +1,14 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_MUNIFICENT"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_MUNIFICENT"
+hudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
+smallHudIcon "HUDICON_RESEARCH_TACTICALINCREASE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_NAME"
+DescriptionStringID "IDS_REMNANTRESEARCH_FORTIFICATIONS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 1 ]
-ResearchField "Combat"
+	pos [ 1 , 2 ]
+ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -29,7 +29,11 @@ onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetSlotsTacticalIncrease"
+	baseValue 0.000000
+	perLevelValue 8.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
