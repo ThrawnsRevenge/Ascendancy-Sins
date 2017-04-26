@@ -29,11 +29,15 @@ onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
-	modifierType "PlanetSlotsTacticalIncrease"
+	modifierType "StarBaseWeaponTargetPerBankAdjustment"
 	baseValue 0.000000
-	perLevelValue 8.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "StarBaseWeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

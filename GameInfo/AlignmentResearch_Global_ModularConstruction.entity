@@ -6,7 +6,7 @@ infoCardIcon ""
 NameStringID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_NAME"
 DescriptionStringID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_DESCRIPTION"
 researchWindowLocation
-	block 1
+	block 0
 	pos [ 6 , 1 ]
 ResearchField "Defense"
 Prerequisites

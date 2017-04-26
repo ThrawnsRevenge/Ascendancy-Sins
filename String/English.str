@@ -118,6 +118,12 @@ StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_ENHANCEDDEFENSE_NAME"
+	Value "Enhanced Defense"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_ENHANCEDDEFENSE_DESCRIPTION"
+	Value "Extra funding is invested in the protection of Starbases."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_MODULARCONSTRUCTION_NAME"
 	Value "Modular Construction"
 StringInfo
