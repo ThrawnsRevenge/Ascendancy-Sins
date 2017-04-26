@@ -7,7 +7,7 @@ NameStringID "IDS_REMNANTRESEARCH_DIVERSEMILITARY_NAME"
 DescriptionStringID "IDS_REMNANTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 6 , 1 ]
+	pos [ 7 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 6
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000

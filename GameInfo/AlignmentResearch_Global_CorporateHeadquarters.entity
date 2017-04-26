@@ -7,7 +7,7 @@ NameStringID "IDS_CORPORATEHEADQUARTERS_NAME"
 DescriptionStringID "IDS_CORPORATEHEADQUARTERS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 4 , 2 ]
+	pos [ 5 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -24,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 5
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
