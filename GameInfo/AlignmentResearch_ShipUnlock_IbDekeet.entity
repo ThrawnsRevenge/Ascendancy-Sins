@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_BESK"
 smallHudIcon "HUDICON_BESK"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_BESK_NAME"
-DescriptionStringID "IDS_FRIGATE_BESK_DESCRIPTION"
+NameStringID "IDS_HERO_DEKEET_NAME"
+DescriptionStringID "IDS_HERO_DEKEET_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 6 , 1 ]

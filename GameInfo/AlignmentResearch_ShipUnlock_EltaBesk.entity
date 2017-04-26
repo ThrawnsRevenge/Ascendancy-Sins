@@ -3,11 +3,11 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_BESK"
 smallHudIcon "HUDICON_BESK"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_BESK_NAME"
-DescriptionStringID "IDS_FRIGATE_BESK_DESCRIPTION"
+NameStringID "IDS_HERO_BESK_NAME"
+DescriptionStringID "IDS_HERO_BESK_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 3 ]
+	pos [ 2 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

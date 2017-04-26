@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_KAINE"
 smallHudIcon "HUDICON_KAINE"
 infoCardIcon ""
-NameStringID "IDS_FRIGATE_KAINE_NAME"
-DescriptionStringID "IDS_FRIGATE_KAINE_DESCRIPTION"
+NameStringID "IDS_HERO_KAINE_NAME"
+DescriptionStringID "IDS_HERO_KAINE_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 7 , 3 ]

@@ -71,10 +71,10 @@ StringInfo
 	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
 StringInfo
 	ID "IDS_ABILITY_DRYDOCKARMS_NAME"
-	Value "Targetting Link"
+	Value "Drydock Arm"
 StringInfo
 	ID "IDS_ABILITY_DRYDOCKARMS_DESCRIPTION"
-	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
+	Value "One of the refueling arms of the Validusia can be outfitted with construction facilities."
 StringInfo
 	ID "IDS_ABILITY_BARRIERSHIELD_NAME"
 	Value "Barrier Shield"
@@ -1517,7 +1517,7 @@ StringInfo
 	Value "Head of Dynamic Automota, Elta Besk is one of the founding members of the Pentastar Alignment. Commands an ISDII with significant droid-based support abilities."
 StringInfo
 	ID "IDS_HERO_DEKEET_NAME"
-	Value "Elta Besk"
+	Value "Ib Dekeet"
 StringInfo
 	ID "IDS_HERO_DEKEET_DESCRIPTION"
 	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Praetor and provides several governance bonuses to your planets."
