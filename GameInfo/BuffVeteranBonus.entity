@@ -26,4 +26,7 @@ entityModifier
 		Level:2 -0.025000
 		Level:3 -0.025000
 numEntityBoolModifiers 0
-numFinishConditions 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"
+	
