@@ -100,3 +100,4 @@ uiScaleTextEntry
 	area [-5000, -5000, 200, 30]
 	labelWidth 150
 	labelText "IDSOptionsScreenUserInterfaceOptionsUIScale"
+
