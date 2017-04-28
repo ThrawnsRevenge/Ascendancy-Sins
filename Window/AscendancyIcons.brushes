@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 98
+brushCount 100
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -1154,6 +1154,42 @@ brush
   Normal
     fileName "AscendancyIconsGameOptionsToggle"
     pixelBox [ 80 , 160 , 40 , 40 ]
+brush
+  name "AscendancyIconsGameOptionsToggleOutlawsOff"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 40 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 0 , 40 , 40 ]
+brush
+  name "AscendancyIconsGameOptionsToggleOutlawsOn"
+  content "States"
+  Disabled
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 120 , 40 , 40 ]
+  Pressed
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 80 , 40 , 40 ]
+  CursorOver
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 160 , 40 , 40 ]
+  Focused
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 80 , 40 , 40 ]
+  Normal
+    fileName "AscendancyIconsGameOptionsToggle"
+    pixelBox [ 120 , 160 , 40 , 40 ]
 brush
   name "AscendancyIconsVictoryOptionsToggleDiplomacyOff"
   content "States"

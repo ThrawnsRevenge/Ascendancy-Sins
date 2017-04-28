@@ -1,5 +1,5 @@
 TXT
-NumStrings 8724
+NumStrings 8726
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -23654,10 +23654,10 @@ StringInfo
 	Value "Pirates Inactive"
 StringInfo
 	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
-	Value "Outlaws Active"
+	Value "Outlaws"
 StringInfo
 	ID "IDSGameOptionsAreOutlawSectorsActiveFalse"
-	Value "Outlaws Inactive"
+	Value "Outlaws"
 StringInfo
 	ID "IDSGameOptionsIsBlackMarketEnabledTrue"
 	Value "Black Market Enabled"
@@ -25491,6 +25491,12 @@ StringInfo
 StringInfo
 	ID "IDS_GAMEOPTION_LOCKEDTEAMS_DESCRIPTION"
 	Value "Teams start the game with Peace Treaties between all players. Treaties cannot be broken."
+StringInfo
+	ID "IDS_GAMEOPTION_OUTLAWSECTORSACTIVE_NAME"
+	Value "Outlaws"
+StringInfo
+	ID "IDS_GAMEOPTION_OUTLAWSECTORSACTIVE_DESCRIPTION"
+	Value "This feature is not yet implemented for the Ascendancy mod."
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_NAME"
 	Value "Pirates"

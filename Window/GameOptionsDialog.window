@@ -45,15 +45,15 @@ arePiratesActiveButton
 areOutlawSectorsActiveButton
 	area [150, 245, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
+	iconOffsetFromLeft 5
 	textOffsetFromLeft 70
-	underlay "ScreenButtonUnderlayLarge"
-	overlay "ScreenButtonOverlayLarge"			
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"
 	true
-		icon "GameOptionsAreOutlawSectorsActiveTrue"
+		icon "AscendancyIconsGameOptionsToggleOutlawsOn"
 		text "IDSGameOptionsAreOutlawSectorsActiveTrue"
 	false
-		icon "GameOptionsAreOutlawSectorsActiveFalse"
+		icon "AscendancyIconsGameOptionsToggleOutlawsOff"
 		text "IDSGameOptionsAreOutlawSectorsActiveFalse"
 useQuickStartButton
 	area [150, 20, 220 , 75]
