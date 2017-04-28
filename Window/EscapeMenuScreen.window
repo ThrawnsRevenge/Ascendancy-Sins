@@ -1,7 +1,7 @@
 TXT
 tabWindow
 	topLeftOffset [0, 0]
-	buttonTopLeftOffset [ 55 , 90]
+	buttonTopLeftOffset [ 55 , 110]
 	buttonSize [ 50 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
@@ -13,9 +13,9 @@ tabWindow
 	buttonsBackdropArea [0, 0, 290, 768]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
 	contentArea [290, 0, 734, 768]
-	buttonsBackdrop "AscendancyBackdropMenuInGameMenu"
+	buttonsBackdrop "Null"
 	buttonsBackdropDetail ""
-	contentBackdrop "AscendancyBackdropMenuInGameContent"
+	contentBackdrop "AscendancyBackdropMenuInGameMainMenu"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10

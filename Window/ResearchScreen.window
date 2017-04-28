@@ -1,7 +1,7 @@
 TXT
 tabWindow
 	topLeftOffset [0, 0]
-	buttonTopLeftOffset [ 55 , 90]
+	buttonTopLeftOffset [ 55 , 110]
 	buttonSize [ 50 , 50 ]
 	buttonIndicatorArea [0, 0, 0, 0]
 	buttonIndicatorBackdrop "Null"
@@ -13,9 +13,9 @@ tabWindow
 	buttonsBackdropArea [0, 0, 290, 768]
 	buttonsBackdropDetailArea [0, 0, 210, 749]
 	contentArea [290, 0, 734, 768]
-	buttonsBackdrop "AscendancyBackdropMenuInGameMenu"
+	buttonsBackdrop "Null"
 	buttonsBackdropDetail ""
-	contentBackdrop "AscendancyBackdropMenuInGameContent"
+	contentBackdrop "AscendancyBackdropMenuInGameResearch"
 	nonActiveButtonInternals
 		fontId "ButtonLabel"
 		iconOffsetFromLeft -10
@@ -39,7 +39,7 @@ tabWindow
 		text "IDSResearchScreenCloseButton"
 buttonSharedDef
 	requiredAsPrerequisiteOverlayTime 30
-	unknownArtifactPicture "ArtifactPictureUnknown"		
+	unknownArtifactPicture "ArtifactPictureUnknown"
 treeSharedDef
 	basicTreeDef
 		pictureTopLeft [0, 0]
@@ -103,12 +103,12 @@ combatContentWindow
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
   		buttonSpacing [20, 10]
-		buttonSpecificDef	
+		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
-			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"		
+			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"
 		isBackdropStretched TRUE
 defenseContentWindow
 	blockWindowSharedDef
@@ -117,12 +117,12 @@ defenseContentWindow
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
   		buttonSpacing [20, 10]
-		buttonSpecificDef	
+		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
-			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"		
+			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"
 		isBackdropStretched TRUE
 nonCombatContentWindow
 	blockWindowSharedDef
@@ -145,12 +145,12 @@ diplomacyContentWindow
  		buttonTopLeftOffset [100, 10]
   		buttonSize [55 , 45]
   		buttonSpacing [20, 10]
-		buttonSpecificDef	
+		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
 			backdrop "ResearchWindowButtonBackdrop"
 			overlay ""
-			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"		
+			maxLevelOverlay "ResearchWindowButtonMaxLevelOverlay"
 		isBackdropStretched TRUE
 fleetContentWindow
 	blockWindowSharedDef
@@ -159,12 +159,12 @@ fleetContentWindow
 		buttonTopLeftOffset [80, 218]
 		buttonSize [63 , 48]
 		buttonSpacing [17, 8]
-		buttonSpecificDef	
+		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
 			backdrop "Null"
 			overlay "ScreenButtonOverlaySupply"
-			maxLevelOverlay "ScreenButtonOverlaySUpply"	
+			maxLevelOverlay "ScreenButtonOverlaySUpply"
 		isBackdropStretched FALSE
 artifactContentWindow
 	blockWindowSharedDef
@@ -173,11 +173,10 @@ artifactContentWindow
 		buttonTopLeftOffset [70, 80]
 		buttonSize [199, 100]
 		buttonSpacing [20, 20]
-		buttonSpecificDef	
+		buttonSpecificDef
 			barsOffsetFromTop 4
 			barsWidthModifier -5
 			backdrop ""
 			overlay ""
-			maxLevelOverlay ""		
+			maxLevelOverlay ""
 		isBackdropStretched FALSE
-		

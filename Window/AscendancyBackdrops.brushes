@@ -1,6 +1,6 @@
-TXT 
+TXT
 onlyLoadOnDemand FALSE
-brushCount 17 
+brushCount 22
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
@@ -48,7 +48,7 @@ brush
   pixelBox [ 0 , 0 , 3000 , 600 ]
 brush
   name "AscendancyBackdropDialogSelect"
-  content "Simple" 
+  content "Simple"
   fileName "AscendancyBackdropDialogSelect"
   pixelBox [ 0 , 0 , 3000 , 600 ]
 brush
@@ -86,3 +86,28 @@ brush
   content "Simple"
   fileName "AscendancyBackdropMenuInGame"
   pixelBox [ 290 , 0 , 734 , 768 ]
+brush
+  name "AscendancyBackdropMenuInGameResearch"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInGameResearch"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuInGameMainMenu"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInGameMainMenu"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuInGameDiplomacy"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInGameDiplomacy"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuInGameRelationships"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInGameRelationships"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropMenuInGameOverview"
+  content "Simple"
+  fileName "AscendancyBackdropMenuInGameOverview"
+  pixelBox [ 0 , 0 , 3000 , 768 ]

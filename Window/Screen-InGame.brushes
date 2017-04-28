@@ -2053,7 +2053,7 @@ brush
 	name "ResearchWindowArrowUp1Right1"
 	content "Simple"
 	fileName "Ascendancy_Research"
-	pixelBox [ 1 , 255 , 75 , 34 ]
+	pixelBox [ 1 , 250 , 75 , 39 ]
 brush
 	name "ResearchWindowArrowUp1Right2"
 	content "Simple"
@@ -4286,4 +4286,3 @@ brush
 	Normal
 		fileName "AscendancyMainIcons"
 		pixelBox [ 431 , 1 , 42 , 42 ]
-		
