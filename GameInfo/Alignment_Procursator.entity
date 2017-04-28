@@ -222,7 +222,7 @@ EngineSoundID "Engine_CapShip1"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
 ability:2 "AbilityResilient"
-ability:3 ""
+ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.001000
