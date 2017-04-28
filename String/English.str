@@ -1,5 +1,5 @@
 TXT
-NumStrings 8612
+NumStrings 8724
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -33,7 +33,7 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_DESCRIPTION"
 	Value "A greater emphasis on trade would see an increase of opportunistic pirates and enemies preying upon the helpless cargo vessels along the Alignment's many trade routes.  It quickly became apparent to the leaders of the Pentastar Allignment that a station capable of protecting its economic lifeblood was vital. The Validusia Command Station represents the answer to that aim."
-StringInfo	
+StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
 	Value "Astromech Droids"
 StringInfo
