@@ -94,10 +94,9 @@ showQuickNPCWindowCheckBox
 	area [264, 552, 220, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsShowQuickNPCWindowCheckBox"
 zoomSensitivityScrollBar
-	area [10, 585, 455, 30]
+	area [10, 600, 455, 30]
 	text "IDSOptionsScreenUserInterfaceOptionsZoomSensitivity"
 uiScaleTextEntry
-	area [10, 618, 200, 30]
+	area [-5000, -5000, 200, 30]
 	labelWidth 150
 	labelText "IDSOptionsScreenUserInterfaceOptionsUIScale"
-
