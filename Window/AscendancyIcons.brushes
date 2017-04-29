@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 100
+brushCount 101
 brush
   name "AscendancyIconsMainForward"
   content "States"
@@ -1046,6 +1046,11 @@ brush
   content "Simple"
   fileName "AscendancyIconsGaugeDetailLevels"
   pixelBox [ 75 , 75 , 75 , 75 ]
+brush
+  name "AscendancyIconsGaugeDetailUltra"
+  content "Simple"
+  fileName "AscendancyIconsGaugeDetailLevels"
+  pixelBox [ 0 , 150 , 75 , 75 ]
 brush
   name "AscendancyIconsGameOptionsToggleLockedTeamsOff"
   content "States"

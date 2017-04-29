@@ -5,25 +5,25 @@ StringInfo
 	Value "UI Scale"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeModuleData"
-	Value "Building Extras - Extreme"
+	Value "Building Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeModuleBump"
-	Value "Building Bump - Extreme"
+	Value "Building Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeShipData"
-	Value "Ship Extras - Extreme"
+	Value "Ship Extras"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeShipBump"
-	Value "Ship Bump - Extreme"
+	Value "Ship Bump"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeModuleColor"
-	Value "Building Detail - Extreme"
+	Value "Building Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremeShipColor"
-	Value "Ship Detail - Extreme"
+	Value "Ship Detail"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityExtremePlanetColor"
-	Value "Planet Detail - Extreme"
+	Value "Planet Detail"
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
 	Value "Validusia Trade Station"
