@@ -49,3 +49,6 @@ sharedDef
 		labelFontId "Label"
 		labelWidth 150
 	anchorOffset [0, 52]
+	textEntryDef
+		labelFontId "Label"
+		textEntryFontId "TextEntry"

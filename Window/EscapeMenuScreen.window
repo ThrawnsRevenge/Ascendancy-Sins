@@ -225,3 +225,6 @@ optionsScreenSharedDef
 		labelFontId "Label"
 		labelWidth 150
 	anchorOffset [0, 20]
+	textEntryDef
+		labelFontId "Label"
+		textEntryFontId "TextEntry"

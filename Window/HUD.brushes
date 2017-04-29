@@ -9,7 +9,7 @@ brush
 brush
 	name "MicBrush"
 	content "Simple"
-	fileName "SkinTech"
+	fileName "AscendancyPixel"
 	pixelBox [ 0 , 0 , 64 , 64 ]
 brush
 	name "DebugOverlay"
@@ -1110,184 +1110,54 @@ brush
 	pixelBox [ 331 , 391 , 30 , 30 ]
 brush
 	name "EmpireWindowHotKeyGroup1"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 83 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 83 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 83 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 83 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 83 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 550 , 173 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup2"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 124 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 124 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 124 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 124 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 124 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 590 , 173 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup3"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 165 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 165 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 165 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 165 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 165 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 630 , 173 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup4"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 206 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 206 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 206 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 206 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 206 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 670 , 173 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup5"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 247 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 247 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 247 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 247 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 247 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 710 , 173 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup6"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 288 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 288 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 288 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 288 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 288 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 550 , 213 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup7"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 329 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 329 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 329 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 329 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 329 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 590 , 213 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup8"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 370 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 370 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 370 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 370 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 370 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 630 , 213 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup9"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 411 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 411 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 411 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 411 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 411 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 670 , 213 , 40 , 40 ]
 brush
 	name "EmpireWindowHotKeyGroup0"
-	content "States"
-	Disabled
-		fileName "AscendancyMainIcons_Small_Disabled"
-		pixelBox [ 452 , 37 , 42 , 37 ]
-	Pressed
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 452 , 37 , 42 , 37 ]
-	CursorOver
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 452 , 37 , 42 , 37 ]
-	Focused
-		fileName "AscendancyMainIcons_Small_Active"
-		pixelBox [ 452 , 37 , 42 , 37 ]
-	Normal
-		fileName "AscendancyMainIcons_Small"
-		pixelBox [ 452 , 37 , 42 , 37 ]
+	content "Simple"
+	fileName "AscendancyUI"
+	pixelBox [ 710 , 213 , 40 , 40 ]
 brush
 	name "EmpireWindowIconEntityOverlayHomePlanet"
 	content "Simple"
