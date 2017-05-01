@@ -44,22 +44,22 @@ hudIcon "HUDICON_ASSAULTFRIGATE"
 smallHudIcon "HUDICONSMALL_CRUISER"
 infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 2.500000
-NumWeapons 3
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYLIGHT"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 0.000000
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 10000.000000
-	PreBuffCooldownTime 2.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
@@ -67,10 +67,10 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
+		burstCount 4
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
@@ -84,47 +84,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "LaserRed_Dual"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIVERYLIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
-	Range 10000.000000
-	PreBuffCooldownTime 2.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleRed_Single_Large"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE"
-			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE_ALT1"
-			sound "WEAPON_FIGHTER_NR_LASER_MUZZLE_ALT2"
-		hitEffectName "TurbolaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "LaserRed_Quad"
+		projectileTravelEffectName "TurbolaserRed_Single"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -133,13 +93,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 75.000000
-	DamagePerBank:RIGHT 75.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 10000.000000
-	PreBuffCooldownTime 2.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
@@ -150,13 +110,13 @@ Weapon
 		burstCount 2
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzleRed_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_FRIGATE_LASER_MUZZLE"
-			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT1"
-			sound "WEAPON_FRIGATE_LASER_MUZZLE_ALT2"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
 		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -164,7 +124,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserRed_Single"
+		projectileTravelEffectName "TurbolaserRed_Dual"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 0
