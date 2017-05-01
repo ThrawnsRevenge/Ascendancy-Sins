@@ -46,10 +46,10 @@ basePrice
 slotCount 1.000000
 BuildTime 85.000000
 MaxHullPoints
-	StartValue 8200.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 8200.000000
+	StartValue 7000.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -141,7 +141,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 500.000000
+	DamagePerBank:FRONT 350.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 50.000000
 	DamagePerBank:RIGHT 50.000000

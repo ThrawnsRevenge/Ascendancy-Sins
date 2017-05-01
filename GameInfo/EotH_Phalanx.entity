@@ -49,10 +49,10 @@ basePrice
 slotCount 1.000000
 BuildTime 110.000000
 MaxHullPoints
-	StartValue 5000.000000
+	StartValue 5500.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 5400.000000
+	StartValue 5500.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -105,10 +105,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
 	Range 10000.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter TRUE
@@ -119,7 +119,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 2
+		burstCount 4
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName ""
@@ -147,7 +147,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 260.000000
+	DamagePerBank:FRONT 340.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 210.000000
 	DamagePerBank:RIGHT 210.000000
@@ -187,7 +187,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 140.000000
 	DamagePerBank:RIGHT 140.000000

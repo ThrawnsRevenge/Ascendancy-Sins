@@ -46,7 +46,7 @@ basePrice
 slotCount 1.000000
 BuildTime 200.000000
 MaxHullPoints
-	StartValue 12700.000000
+	StartValue 11700.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
 	StartValue 11700.000000
@@ -102,7 +102,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 400.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 90.000000
 	DamagePerBank:RIGHT 90.000000

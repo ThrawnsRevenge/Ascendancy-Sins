@@ -49,7 +49,7 @@ MaxHullPoints
 	StartValue 4020.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4550.000000
+	StartValue 5000.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -98,7 +98,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 240.000000
+	DamagePerBank:FRONT 275.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -138,7 +138,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 210.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
