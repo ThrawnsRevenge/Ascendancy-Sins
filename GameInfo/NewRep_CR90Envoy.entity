@@ -95,7 +95,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHSUPPORTSHIP"
 ability:0 "AbilityDiplomaticImmunity"
 ability:1 "AbilityGoodwill"
-ability:2 ""
+ability:2 "AbilityArbitrateTariff"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000

@@ -12,7 +12,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Global_SmugglersAlliance"
+		Subject "NewRepResearch_ShipUnlock_Smuggler"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

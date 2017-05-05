@@ -17,7 +17,7 @@ MeshData
 		Specular ffffffff
 		Emissive ffffffff
 		Glossiness 50.000000
-	NumPoints 15
+	NumPoints 19
 	Point
 		DataString "Center"
 		Position [ 0.000000 0 0.000000 ]
@@ -96,6 +96,20 @@ MeshData
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 1.000000 0.000000 -0.000000 ]
 	Point
+		DataString "Weapon-0"
+		Position [ -24.695727 13.0419465 49.7651535 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-0"
+		Position [ 23.740908 13.0419465 49.7651535 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
 		DataString "Weapon-1"
 		Position [ -24.6957315 13.0419465 13.102137 ]
 		Orientation
@@ -110,19 +124,33 @@ MeshData
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 1.000000 0.000000 -0.000000 ]
 	Point
-		DataString "Weapon-2"
+		DataString "Weapon-1"
 		Position [ -17.97486 13.0419465 -11.726616 ]
 		Orientation
 			 [ -0.000000 0.000000 1.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ -1.000000 0.000000 -0.000000 ]
 	Point
-		DataString "Weapon-2"
+		DataString "Weapon-1"
 		Position [ 17.2517835 13.0419465 -11.726619 ]
 		Orientation
 			 [ -0.000000 0.000000 -1.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 1.000000 0.000000 -0.000000 ]
+	Point
+		DataString "Weapon-1"
+		Position [ -17.97486 13.0419465 -11.726616 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-1"
+		Position [ 17.2517835 13.0419465 -11.726619 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
 	NumVertices 9336
 	Vertex
 		Position [ 0.1114005 0.1725495 -11.049558 ]

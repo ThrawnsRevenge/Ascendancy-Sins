@@ -10,7 +10,10 @@ researchWindowLocation
 	pos [ 5 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_Global_ShieldsBase"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

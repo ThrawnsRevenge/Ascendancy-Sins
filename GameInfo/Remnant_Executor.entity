@@ -109,10 +109,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1250.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 1250.000000
-	DamagePerBank:RIGHT 1250.000000
+	DamagePerBank:LEFT 1750.000000
+	DamagePerBank:RIGHT 1750.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -149,10 +149,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 300.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 200.000000
-	DamagePerBank:RIGHT 200.000000
+	DamagePerBank:LEFT 500.000000
+	DamagePerBank:RIGHT 500.000000
 	Range 10000.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter TRUE
@@ -191,10 +191,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 900.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
+	DamagePerBank:LEFT 650.000000
+	DamagePerBank:RIGHT 650.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
@@ -225,7 +225,7 @@ Weapon
 		projectileTravelEffectName "Ion_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 2
+TargetCountPerBank:FRONT 0
 TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3

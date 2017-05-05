@@ -13,9 +13,9 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	spawnShipsLevelCount 1
-	spawnShips
-		minFleetPoints 150.000000
-		maxFleetPoints 350.000000
+		spawnShips
+		minFleetPoints 20.000000
+		maxFleetPoints 60.000000
 		requiredShipCount 7
 		requiredShip
 			type "NewRep_MC30c"
@@ -45,19 +45,7 @@ instantAction
 			type "NewRep_Quasar"
 			minCount 1
 			maxCount 2
-		randomShipCount 4
-		randomShip
-			type "NewRep_MC80"
-			weight 1
-		randomShip
-			type "NewRep_MC80B"
-			weight 1
-		randomShip
-			type "NewRep_MC90"
-			weight 1
-		randomShip
-			type "NewRep_Nebula"
-			weight 1
+		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 numPeriodicActions 0

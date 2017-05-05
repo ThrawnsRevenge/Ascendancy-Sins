@@ -28,7 +28,7 @@ MeshData
 		Specular ffffffff
 		Emissive ffffffff
 		Glossiness 141.600006
-	NumPoints 22
+	NumPoints 25
 	Point
 		DataString "Center"
 		Position [ 0.000000 0 0.000000 ]
@@ -60,6 +60,27 @@ MeshData
 	Point
 		DataString "Flair-Flair_Blink"
 		Position [ 7.8987675 -15.4775865 40.060881 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-1"
+		Position [ 24.3570435 13.8404235 131.7626385 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-1"
+		Position [ 23.840322 20.192766 72.503769 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-1"
+		Position [ -23.937459 20.137071 72.772218 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]

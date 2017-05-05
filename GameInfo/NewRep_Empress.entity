@@ -26,11 +26,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 250.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
-	Range 8000.000000
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 400.000000
+	DamagePerBank:LEFT 400.000000
+	DamagePerBank:RIGHT 400.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -66,11 +66,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
-	Range 8000.000000
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 200.000000
+	Range 1100.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -107,11 +107,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 32.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 200.000000
+	Range 11000.000000
 	PreBuffCooldownTime 13.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -165,11 +165,13 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateEmpress"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 5
+UpgradeTypeCount 7
 UpgradeType "StarBaseUpgradeEmpressToughness"
 UpgradeType "StarBaseUpgradeEmpressHangar"
 UpgradeType "StarBaseUpgradeEmpressWeapons"
 UpgradeType "StarBaseUpgradeEmpressDamage"
+UpgradeType "StarBaseUpgradeEmpressArrays"
+UpgradeType "StarBaseUpgradeEmpressGovernment"
 UpgradeType "StarBaseUpgradeEmpressRestore"
 MeshNameInfoCount 1
 MeshNameInfo

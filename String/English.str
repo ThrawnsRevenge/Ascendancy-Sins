@@ -1,5 +1,5 @@
 TXT
-NumStrings 8726
+NumStrings 8624
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -33,6 +33,30 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_DESCRIPTION"
 	Value "A greater emphasis on trade would see an increase of opportunistic pirates and enemies preying upon the helpless cargo vessels along the Alignment's many trade routes.  It quickly became apparent to the leaders of the Pentastar Allignment that a station capable of protecting its economic lifeblood was vital. The Validusia Command Station represents the answer to that aim."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DIPLOMATICCORPS_NAME"
+	Value "Diplomat Corps"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_DIPLOMATICCORPS_DESCRIPTION"
+	Value "Trained diplomats negotiate deals for the New Republic, mitigating fallout and increasing benefits from galactic arrangements."	
+StringInfo
+	ID "IDS_NEWREPRESEARCH_COALITIONBUILDERS_NAME"
+	Value "Coalition Builders"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_COALITIONBUILDERS_DESCRIPTION"
+	Value "New Republic diplomats redouble their efforts on improving relations with other groups."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_COMMARRAYS_NAME"
+	Value "Onboard Holonet"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_COMMARRAYS_DESCRIPTION"
+	Value "Holonet transievers are installed on Empress stations, allowing them to spread your culture."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_EMERGENCYGOVERNMENT_NAME"
+	Value "Pinnacle Base"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_EMERGENCYGOVERNMENT_DESCRIPTION"
+	Value "Planetary governments can be moved to orbital stations, preventing loss of the planet."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
 	Value "Astromech Droids"
@@ -8888,7 +8912,7 @@ StringInfo
 	Value "Arbitrate Tariff"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF_DESCRIPTION"
-	Value "Grants the Arbitrate Tariff ability to Neruda Envoy, which boosts trade and refinery ship income in order to boost relations."
+	Value "Grants the Arbitrate Tariff ability to Envoys, which boosts trade ship income in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASECLOAK_NAME"
 	Value "Selective Phasing"

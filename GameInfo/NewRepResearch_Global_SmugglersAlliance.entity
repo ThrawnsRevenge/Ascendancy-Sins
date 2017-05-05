@@ -12,7 +12,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Economy_TradeStation"
+		Subject "NewRepResearch_Global_ExpandedTrade"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
