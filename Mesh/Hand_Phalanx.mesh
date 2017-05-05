@@ -17,6 +17,7 @@ MeshData
 		Specular ffffffff
 		Emissive ffffffff
 		Glossiness 32.000000
+	NumPoints 31
 	Point
 		DataString "Above"
 		Position [ 0.000000 91.517709 0.000000 ]
