@@ -61,8 +61,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_Dukat_name"
-descStringID "C_spawn_Dukat_desc"
-hudIcon "C_res_icon_Dukat"
-smallHudIcon "C_res_icon_Dukat"
+nameStringID "C_spawn_Ackbar_name"
+descStringID "C_spawn_Ackbar_desc"
+hudIcon "C_res_icon_Ackbar"
+smallHudIcon "C_res_icon_Ackbar"
 infoCardIcon ""
