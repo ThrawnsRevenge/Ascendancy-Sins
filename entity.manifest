@@ -1,5 +1,13 @@
 TXT
-entityNameCount 1903
+entityNameCount 1911
+entityName "Buff_Hero_AckbarSelf.entity"
+entityName "Buff_Spawn_Hero_Ackbar_Self.entity"
+entityName "Buff_Hero_Ackbar_Planet.entity"
+entityName "Buff_Hero_Remove_Ackbar.entity"
+entityName "Buff_Spawn_Hero_Ackbar_Safety.entity"
+entityName "Buff_Spawn_Hero_Planet_Ackbar.entity"
+entityName "Ability_Spawn_Hero_Ackbar.entity"
+entityName "Ability_Hero_Ackbar.entity"
 entityName "Buff_E4X_SpawnHeroSafetyRemove.entity"
 entityName "Buff_E4X_SpawnHeroIncreaseCooldown.entity"
 entityName "Buff_E4X_SpawnHeroTimeDelay.entity"

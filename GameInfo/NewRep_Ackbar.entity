@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityShieldAegis"
-ability:1 "AbilityBulwark"
+ability:1 "AbilityPassiveLowLifePodsT4"
 ability:2 "AbilityPowerToShieldsCapital"
 ability:3 "AbilityReflectiveshields"
-ability:4 "AbilityPassiveLowLifePodsT4"
+ability:4 "Ability_Hero_Ackbar"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

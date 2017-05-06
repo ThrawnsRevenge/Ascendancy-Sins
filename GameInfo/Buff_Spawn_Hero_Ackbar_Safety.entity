@@ -19,7 +19,7 @@ instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 20.000000
-	buffTypeToRemove "C_Buff_Spawn_Hero_Dukat_Planet"
+	buffTypeToRemove "Buff_Spawn_Hero_Planet_Ackbar"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
