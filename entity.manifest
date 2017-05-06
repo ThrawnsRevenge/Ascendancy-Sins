@@ -1,5 +1,5 @@
 TXT
-entityNameCount 1915
+entityNameCount 1916
 entityName "BuffSpawnHeroHanSoloDisablerSpawnerCheck.entity"
 entityName "BuffSpawnHeroKarrdeDisablerSpawnerCheck.entity"
 entityName "BuffSpawnHeroAckbarDisablerSpawnerCheck.entity"
@@ -455,6 +455,7 @@ entityName "NewRepResearch_Global_ExpandedTrade.entity"
 entityName "NewRepResearch_Global_DemocraticPeaceTheory.entity"
 entityName "NewRepResearch_Global_TaxBreaks.entity"
 entityName "NewRepResearch_Global_DefenseForce.entity"
+entityName "NewRepResearch_Global_Immigration.entity"
 entityName "NewRepResearch_Global_CultureSpread.entity"
 entityName "NewRepResearch_Global_CultureDamage01.entity"
 entityName "NewRepResearch_Global_CultureDamage00.entity"

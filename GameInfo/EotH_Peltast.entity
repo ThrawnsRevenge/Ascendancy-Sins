@@ -105,11 +105,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1200.000000
+	DamagePerBank:FRONT 1700.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 15000.000000
 	PreBuffCooldownTime 12.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -216,7 +216,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Single"
+		projectileTravelEffectName "MegaMaser_Quad"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -225,7 +225,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Hand_Ascendancy"
+ShieldMeshName "EotH_Peltast"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -261,7 +261,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTEH_ASCENDANCYMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Hand_Ascendancy"
+	meshName "EotH_Peltast"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
