@@ -167,7 +167,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTNR_CR90MOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "NR_CR90"
+	meshName "NR_Falcon"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
