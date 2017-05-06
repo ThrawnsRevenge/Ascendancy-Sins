@@ -1,5 +1,13 @@
 TXT
-entityNameCount 1911
+entityNameCount 1919
+entityName "Buff_Spawn_Hero_Planet_HanSolo.entity"
+entityName "Buff_Hero_Remove_HanSolo.entity"
+entityName "Ability_Spawn_Hero_HanSolo.entity"
+entityName "Buff_Spawn_Hero_HanSolo_Self.entity"
+entityName "Buff_Spawn_Hero_HanSolo_Safety.entity"
+entityName "Ability_Hero_HanSolo.entity"
+entityName "Buff_Hero_HanSoloSelf.entity"
+entityName "Buff_Hero_HanSolo_Planet.entity"
 entityName "Buff_Hero_AckbarSelf.entity"
 entityName "Buff_Spawn_Hero_Ackbar_Self.entity"
 entityName "Buff_Hero_Ackbar_Planet.entity"

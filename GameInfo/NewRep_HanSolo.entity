@@ -179,8 +179,8 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 ""
 ability:1 "AbilityBlockadeRunner"
 ability:2 ""
-ability:3 ""
-ability:4 "AbilityPassiveLowLife"
+ability:3 "AbilityPassiveLowLife"
+ability:4 "Ability_Hero_HanSolo"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
