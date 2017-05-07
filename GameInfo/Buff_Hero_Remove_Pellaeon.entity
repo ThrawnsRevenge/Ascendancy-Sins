@@ -12,7 +12,7 @@ instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "C_Buff_Spawn_Hero_Dukat_Self"
+	buffTypeToRemove "Buff_Spawn_Hero_Pellaeon_Self"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

@@ -2,7 +2,7 @@
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
 ability:0 "Ability_Spawn_Hero_Thrawn"
-ability:1 ""
+ability:1 "Ability_Spawn_Hero_Pellaeon"
 ability:2 ""
 ability:3 ""
 ability:4 ""

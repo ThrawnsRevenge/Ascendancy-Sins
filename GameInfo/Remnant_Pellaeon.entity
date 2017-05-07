@@ -4,7 +4,7 @@ ability:0 "AbilityTractorBeam"
 ability:1 "AbilityNumericalSuperiority"
 ability:2 "AbilityCloakRemnant"
 ability:3 "AbilityOverwhelmCapital"
-ability:4 ""
+ability:4 "Ability_Hero_Pellaeon"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
