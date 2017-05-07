@@ -1,5 +1,5 @@
 TXT
-NumStrings 8626
+NumStrings 8628
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -63,6 +63,12 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_EMERGENCYGOVERNMENT_DESCRIPTION"
 	Value "Planetary governments can be moved to orbital stations, preventing loss of the planet."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_STANDUNITED_NAME"
+	Value "Stand United"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_STANDUNITED_DESCRIPTION"
+	Value "The loss of an allied planet inspires New Republic ships to fight harder."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS_NAME"
 	Value "Astromech Droids"
