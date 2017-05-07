@@ -24,4 +24,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "Buff_Hero_HanSoloSelf
+	buffTypeToQuery "Buff_Hero_HanSoloSelf"
