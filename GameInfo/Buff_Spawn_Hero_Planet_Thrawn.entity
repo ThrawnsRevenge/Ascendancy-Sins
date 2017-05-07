@@ -18,7 +18,7 @@ instantAction
 		maxFleetPoints 31.000000
 		requiredShipCount 1
 		requiredShip
-			type "C_Hero_Dukat"
+			type "Remnant_Thrawn"
 			minCount 1
 			maxCount 1
 		randomShipCount 0
@@ -27,7 +27,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnBuffFinish"
-	buffType "C_Buff_Hero_Dukat_Remove"
+	buffType "Buff_Hero_Remove_Thrawn"
 	travelSpeed 900000.000000
 	hasWeaponEffects FALSE
 numPeriodicActions 0

@@ -1,5 +1,14 @@
 TXT
-entityNameCount 1928
+entityNameCount 1937
+entityName "Remnant_Thrawn.entity"
+entityName "Buff_Hero_Remove_Thrawn.entity"
+entityName "Buff_Spawn_Hero_Planet_Thrawn.entity"
+entityName "Buff_Hero_ThrawnSelf.entity"
+entityName "Ability_Hero_Thrawn.entity"
+entityName "Buff_Hero_Thrawn_Planet.entity"
+entityName "Buff_Spawn_Hero_Thrawn_Safety.entity"
+entityName "Buff_Spawn_Hero_Thrawn_Self.entity"
+entityName "Ability_Spawn_Hero_Thrawn.entity"
 entityName "Buff_Hero_Remove_Karrde.entity"
 entityName "Buff_Spawn_Hero_Planet_Karrde.entity"
 entityName "Buff_Hero_KarrdeSelf.entity"
