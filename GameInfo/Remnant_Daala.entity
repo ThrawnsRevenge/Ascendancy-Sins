@@ -3,7 +3,7 @@ entityType "Titan"
 ability:0 "AbilityNumericalSuperiorityExecutor"
 ability:1 "AbilityConcussionBarrage"
 ability:2 "AbilityPowerSymbol"
-ability:3 ""
+ability:3 "Ability_Hero_Daala"
 ability:4 "Ability_Hero_Daala"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
