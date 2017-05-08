@@ -1,5 +1,14 @@
 TXT
-entityNameCount 1945
+entityNameCount 1954
+entityName "Remnant_Daala.entity"
+entityName "Buff_Hero_Remove_Daala.entity"
+entityName "Buff_Spawn_Hero_Planet_Daala.entity"
+entityName "Buff_Hero_DaalaSelf.entity"
+entityName "Ability_Hero_Daala.entity"
+entityName "Buff_Hero_Daala_Planet.entity"
+entityName "Buff_Spawn_Hero_Daala_Safety.entity"
+entityName "Buff_Spawn_Hero_Daala_Self.entity"
+entityName "Ability_Spawn_Hero_Daala.entity"
 entityName "Remnant_Pellaeon.entity"
 entityName "Buff_Hero_Remove_Pellaeon.entity"
 entityName "Buff_Spawn_Hero_Planet_Pellaeon.entity"
