@@ -1,5 +1,5 @@
 TXT
-entityNameCount 1954
+entityNameCount 1956
 entityName "Remnant_Daala.entity"
 entityName "Buff_Hero_Remove_Daala.entity"
 entityName "Buff_Spawn_Hero_Planet_Daala.entity"
@@ -467,6 +467,7 @@ entityName "NewRepResearch_Global_CoalitionForces.entity"
 entityName "NewRepResearch_Global_FieldTraining.entity"
 entityName "NewRepResearch_Global_SmugglersAlliance.entity"
 entityName "NewRepResearch_Global_RebelRoots.entity"
+entityName "NewRepResearch_Global_StandUnited.entity"
 entityName "NewRepResearch_Global_CommunicationArrays.entity"
 entityName "NewRepResearch_Global_EmergencyGovernment.entity"
 entityName "NewRepResearch_Global_SlowProduction.entity"
@@ -832,6 +833,7 @@ entityName "AlignmentResearch_MaxShipSlots6.entity"
 entityName "AlignmentResearch_MaxShipSlots7.entity"
 entityName "AlignmentUpgrade_Bellator_AbilityA.entity"
 entityName "AbilityCaptureableObject.entity"
+entityName "BuffPlanetForAPlanet.entity"
 entityName "BuffCaptureableObject.entity"
 entityName "BuffCaptureableObjectSpawner.entity"
 entityName "BuffBinaryDisable.entity"
