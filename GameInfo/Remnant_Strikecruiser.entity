@@ -18,7 +18,7 @@ basePrice
 	credits 400.000000
 	metal 70.000000
 	crystal 15.000000
-slotCount 5.000000
+slotCount 4.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000

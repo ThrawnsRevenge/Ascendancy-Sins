@@ -39,7 +39,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ShipMaxSlotsWhenOnlyAlliedWithSameRaceSameFactionPlayers"
 	baseValue 0.000000
-	perLevelValue 200.000000
+	perLevelValue 50.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

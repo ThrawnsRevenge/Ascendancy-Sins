@@ -33,11 +33,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 100.000000
+	perLevelValue 35.000000
 researchModifier
 	modifierType "CapitalShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 5.000000
+	perLevelValue 4.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
