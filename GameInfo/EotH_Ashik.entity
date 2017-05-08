@@ -141,7 +141,7 @@ ability:0 "AbilityExplore"
 ability:1 "AbilityCaptureNeutralEntity"
 ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "Ability_Hero_Ashik"
 MaxAntiMatter 5.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

@@ -4,7 +4,7 @@ ability:0 "AbilityGilzeanColonize"
 ability:1 "AbilityPhalanxMicroJump"
 ability:2 "AbilityCloak"
 ability:3 "AbilityKineticMegamaser"
-ability:4 "AbilityPassiveLowLifeT3"
+ability:4 "Ability_Hero_Aralani"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
