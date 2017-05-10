@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "C_Buff_Hero_Dukat_Self"
+buffType "Buff_Hero_AralaniSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Dukat_name"
-descStringID "C_ability_Dukat_desc"
-hudIcon "C_res_icon_Dukat"
-smallHudIcon "C_res_icon_Dukat"
+nameStringID "C_ability_Aralani_name"
+descStringID "C_ability_Aralani_desc"
+hudIcon "C_res_icon_Aralani"
+smallHudIcon "C_res_icon_Aralani"
 infoCardIcon ""

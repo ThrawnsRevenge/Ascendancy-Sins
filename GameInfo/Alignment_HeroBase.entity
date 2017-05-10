@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
-ability:0 ""
-ability:1 ""
+ability:0 "Ability_Spawn_Hero_IbDekeet"
+ability:1 "Ability_Spawn_Hero_EltaBesk"
 ability:2 ""
 ability:3 ""
 ability:4 ""

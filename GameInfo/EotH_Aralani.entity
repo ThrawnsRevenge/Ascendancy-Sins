@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityNumericalSuperiority"
-ability:1 "AbilityFighterConnerNets"
-ability:2 "AbilityCoordinatedStrike"
-ability:3 "AbilityCloak"
-ability:4 "Ability_Hero_Stent"
+ability:0 "AbilityGilzeanColonize"
+ability:1 "AbilityPhalanxMicroJump"
+ability:2 "AbilityCloak"
+ability:3 "AbilityKineticMegamaser"
+ability:4 "Ability_Hero_Aralani"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -41,18 +41,18 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASCENDANCY"
+mainViewIcon "MAINVIEWICON_SYNDIC_DESTROYER"
 basePrice
-	credits 1300.000000
-	metal 60.000000
-	crystal 20.000000
+	credits 1500.000000
+	metal 90.000000
+	crystal 40.000000
 slotCount 1.000000
-BuildTime 80.000000
+BuildTime 70.000000
 MaxHullPoints
-	StartValue 4430.000000
+	StartValue 4500.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4430.000000
+	StartValue 4500.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -67,7 +67,7 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 48.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
@@ -75,14 +75,11 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_ASCENDANCY_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_ASCENDANCY_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ASCENDANCY"
+NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_Syndic"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Ascendancy"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -92,11 +89,91 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASCENDANCY"
+hudIcon "HUDICON_SYNDIC"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
-NumWeapons 3
+NumWeapons 4
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 150.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "MegamaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "MegaMaser_Dual"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 125.000000
+	DamagePerBank:RIGHT 125.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "MegamaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "MegaMaser_Single"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -107,8 +184,8 @@ Weapon
 		WeaponClassType "ION"
 	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 108.000000
+	DamagePerBank:RIGHT 108.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
@@ -145,50 +222,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 70.000000
-	DamagePerBank:RIGHT 70.000000
-	Range 10000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Larger"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "MegamaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Dual"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 80.000000
-	DamagePerBank:RIGHT 80.000000
+	DamagePerBank:LEFT 120.000000
+	DamagePerBank:RIGHT 120.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -220,12 +257,12 @@ Weapon
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 0
+TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Hand_Ascendancy"
+ShieldMeshName "Hand_Syndic"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -244,31 +281,31 @@ squadAntiMatterCost:2 12.000000
 squadTypeEntityDef:3 "EotH_Scarsiss_Squad"
 squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "EVENTEH_ASCENDANCYATTACKTWO"
-SoundID "EVENTEH_ASCENDANCYATTACKTHREE"
-SoundID "EVENTEH_ASCENDANCYATTACKONE"
+SoundID "EVENTEH_SYNDICATTACKTWO"
+SoundID "EVENTEH_SYNDICATTACKTHREE"
+SoundID "EVENTEH_SYNDICATTACKONE"
 NumSoundsFor:ONCREATION 1
-SoundID "EVENTEH_ASCENDANCYSELECTONE"
+SoundID "EVENTEH_SYNDICSELECTONE"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "EVENTEH_ASCENDANCYMOVETWO"
-SoundID "EVENTEH_ASCENDANCYMOVETHREE"
-SoundID "EVENTEH_ASCENDANCYMOVEONE"
+SoundID "EVENTEH_SYNDICMOVETWO"
+SoundID "EVENTEH_SYNDICMOVETHREE"
+SoundID "EVENTEH_SYNDICMOVEONE"
 NumSoundsFor:ONSELECTED 3
-SoundID "EVENTEH_ASCENDANCYSELECTONE"
-SoundID "EVENTEH_ASCENDANCYSELECTTWO"
-SoundID "EVENTEH_ASCENDANCYSELECTTHREE"
+SoundID "EVENTEH_SYNDICSELECTONE"
+SoundID "EVENTEH_SYNDICSELECTTWO"
+SoundID "EVENTEH_SYNDICSELECTTHREE"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "EVENTEH_ASCENDANCYMOVETWO"
+SoundID "EVENTEH_SYNDICMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Hand_Ascendancy"
+	meshName "Hand_Syndic"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 2.000000
+	StartValue 1.000000
 	ValueIncreasePerLevel 0.000000
 weaponCooldownDecreasePerc
 	StartValue 0.000000

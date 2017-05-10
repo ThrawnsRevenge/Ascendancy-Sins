@@ -27,7 +27,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnBuffFinish"
-	buffType "Buff_Hero_Daala_Remove"
+	buffType "Buff_Hero_Remove_Daala"
 	travelSpeed 900000.000000
 	hasWeaponEffects FALSE
 numPeriodicActions 0

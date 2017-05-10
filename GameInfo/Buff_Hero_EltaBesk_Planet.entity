@@ -11,12 +11,12 @@ numInstantActions 2
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnBuffFinish"
-	buffTypeToRemove "C_Buff_Spawn_Hero_Dukat_Planet"
+	buffTypeToRemove "Buff_Spawn_Hero_Planet_EltaBesk"
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "C_Buff_Spawn_Hero_Dukat_Safety"
+	buffTypeToRemove "Buff_Spawn_Hero_EltaBesk_Safety"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
@@ -24,4 +24,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "C_Buff_Hero_Dukat_Self"
+	buffTypeToQuery "Buff_Hero_EltaBeskSelf"
