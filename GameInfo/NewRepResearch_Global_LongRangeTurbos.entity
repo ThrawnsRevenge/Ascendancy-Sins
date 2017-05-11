@@ -1,23 +1,23 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_SUPPORTIVEFIRE"
-smallHudIcon "HUDICON_RESEARCH_SUPPORTIVEFIRE"
+hudIcon "HUDICON_RESEARCH_INSPIRE"
+smallHudIcon "HUDICON_RESEARCH_INSPIRE"
 infoCardIcon ""
-NameStringID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_NAME"
-DescriptionStringID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_DESCRIPTION"
+NameStringID "IDS_NEWREPRESEARCH_RANGEUPGRADE_NAME"
+DescriptionStringID "IDS_NEWREPRESEARCH_RANGEUPGRADE_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 5 , 0 ]
-ResearchField "Diplomacy"
+	block 1
+	pos [ 7 , 3 ]
+ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Global_CoalitionForPeace"
+		Subject "NewRepResearch_Global_CultureDamage01"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 60.000000
+BaseUpgradeTime 105.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
 	credits 1600.000000
@@ -27,17 +27,17 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 5
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "WeaponDamageAdjustmentForEachAlliedPlayerInGravityWell""
+	modifierType "WeaponRangeAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
-	linkedWeaponClass "LASERTECH"
+	perLevelValue 0.075000
+	linkedWeaponClass "Invalid"
 artifactPicture ""
-uniqueOverlayBrush ""
+uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

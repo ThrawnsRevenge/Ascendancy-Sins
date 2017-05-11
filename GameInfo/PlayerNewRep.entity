@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 98
+		count 104
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -133,6 +133,9 @@ entities
 		entityDefName "NewRepResearch_Global_BomberSuperiority"
 		entityDefName "NewRepResearch_Global_BomberSuperiority02"
 		entityDefName "NewRepResearch_Global_Astromech01"
+		entityDefName "NewRepResearch_Global_DiplomatCorps"
+		entityDefName "NewRepResearch_Global_Shelters"
+		entityDefName "NewRepResearch_Global_LongRangeTurbos"
 		entityDefName "NewRepResearch_Global_Astromech02"
 		entityDefName "NewRepResearch_Global_FighterPower"
 		entityDefName "NewRepResearch_Global_DefectorIntegration"
@@ -147,7 +150,10 @@ entities
 		entityDefName "NewRepResearch_Global_DemocraticPeaceTheory"
 		entityDefName "NewRepResearch_Global_ExtendedReach"
 		entityDefName "RemnantResearch_Global_Fortifications"
+		entityDefName "NewRepResearch_Global_UnifyingForce"
 		entityDefName "NewRepResearch_Global_CoalitionForPeace"
+		entityDefName "NewRepResearch_Global_CoalitionBuilders"
+		entityDefName "NewRepResearch_Global_LongRangeturbos"
 		entityDefName "NewRepResearch_Global_FreeTrade"
 		entityDefName "NewRepResearch_Global_DefensiveFormation"
 		entityDefName "NewRepResearch_Global_DefenseForce"
@@ -746,7 +752,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 0 , 100 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 410 ]
 			backdrop "NewRepublic_Research_Block_Background"
 			tierIndicatorBackdrop "NewRepublic_Research_Level_Bottom_Background"
 			title ""

@@ -6,9 +6,9 @@ infoCardIcon ""
 NameStringID "IDS_FREERESEARCH_HYPERSPACE_NAME"
 DescriptionStringID "IDS_FREERESEARCH_HYPERSPACE_DESCRIPTION"
 researchWindowLocation
-	block 0
+	block 1
 	pos [ 0 , 2 ]
-ResearchField "Diplomacy"
+ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

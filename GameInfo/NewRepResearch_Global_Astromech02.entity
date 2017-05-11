@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Global_Astromechs01"
+		Subject "NewRepResearch_Global_Astromech01"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

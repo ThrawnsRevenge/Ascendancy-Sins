@@ -1,5 +1,5 @@
 TXT
-NumStrings 8628
+NumStrings 8634
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -39,6 +39,24 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_IMMIGRATION_DESCRIPTION"
 	Value "Open immigration policies lead to faster population growth on Republic planets."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_RANGEUPGRADE_NAME"
+	Value "Long-Range Weapons"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_RANGEUPGRADE_DESCRIPTION"
+	Value "Upgraded targetting computers increases the effective range for all weapons."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SHELTERS_NAME"
+	Value "Resiliant Populace"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SHELTERS_DESCRIPTION"
+	Value "The dedicated population of the New Republic helps planets recover more quickly after bombardment."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_UNIFYINGFORCE_NAME"
+	Value "Unifying Force"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_UNIFYINGFORCE_DESCRIPTION"
+	Value "The New Republic more effectively solidifies its relationships with other factions."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_DIPLOMATICCORPS_NAME"
 	Value "Diplomat Corps"

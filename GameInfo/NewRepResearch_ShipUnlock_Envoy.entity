@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+hudIcon "HUDICON_CR90"
+smallHudIcon "HUDICON_CR90"
 infoCardIcon ""
-NameStringID "IDS_NEWREPRESEARCH_COALITIONFORPEACE_NAME"
-DescriptionStringID "IDS_NEWREPRESEARCH_COALITIONFORPEACE_DESCRIPTION"
+NameStringID "IDS_FRIGATE_CR90ENVOY_NAME"
+DescriptionStringID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 0 ]
+	pos [ 0 , 1 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -24,17 +24,12 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
-onlyWorksIfTierLabsExist FALSE
+Tier 0
+onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
-researchModifier
-	modifierType "WeaponDamageAdjustmentForEachAlliedPlayerInGravityWell"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "Invalid"
+researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880
