@@ -214,7 +214,7 @@ RenderCloudsVS(
 
 void RenderCloudsPS(VsCloudsOutput i, out float4 oColor0:COLOR0) 
 { 
-	float noiseScale = 10.f;
+	float noiseScale = 6.0f;
 	
 	float rotatationTime = g_Time / 800;
 	float indexTime = g_Time/70;
@@ -235,9 +235,10 @@ void RenderCloudsPS(VsCloudsOutput i, out float4 oColor0:COLOR0)
 	
 	//Atmosphere Scattering
     float ratio = 1.f - max(dot(normal, view), 0.f);
-	float4 atmosphere = g_GlowColor * pow(ratio, 2.f);
+	float4 atmosphere = g_GlowColor * pow(ratio, 1.f);
 		
-	oColor0 = (cloudColor + atmosphere) * dotLightNormal;
+//	oColor0 = (cloudColor + atmosphere) * dotLightNormal;
+	oColor0 = (cloudColor * 1.3f + atmosphere ) * dotLightNormal;	
 		
 	oColor0.a = lerp(1.f, 0.f, (i.PercentHeight - .8f) / .2f);
 }

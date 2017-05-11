@@ -58,13 +58,8 @@ float4 GetPixelColor( float4 iColor, float2 iTexCoord )
 	float minTime = 5.9f;
 	float timeScale = lerp( maxTime, minTime, temperatureStart );
 	
-	float time = g_Time;
-	
 	//keep time from getting too big
-	if( time > maxTime )
-	{
-		time = time - maxTime;
-	}
+	float time = g_Time % maxTime + 750;
 		
 	float noiseTime = time / timeScale;
 	float3 noiseIndex = float3(iTexCoord.x, iTexCoord.y, noiseTime);

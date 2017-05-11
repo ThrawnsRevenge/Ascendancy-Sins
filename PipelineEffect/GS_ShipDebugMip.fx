@@ -1,62 +1,59 @@
-float4x4 g_WorldViewProjection : WorldViewProjection;
+shared float4x4	g_ViewProjection : ViewProjection;
 
 texture	g_TextureDiffuse0 : Diffuse;
+texture g_TextureDiffuse1 : Diffuse;
+float colorMultiplier = 1.f;
 
-float2 g_DiffuseTextureSize;
-float2 g_DebugTextureSize;
-
-sampler TextureColorSampler = sampler_state{
-    Texture = <g_TextureDiffuse0>;
-#ifndef Anisotropy
-    Filter = LINEAR;
-#else
-	Filter = ANISOTROPIC;
-	MaxAnisotropy = AnisotropyLevel;
-#endif
-};
-
-struct VsOutput
+void RenderSceneFirstPassVS(
+	float3 iPosition : POSITION, 
+	float4 iColor0 : COLOR0,
+	float2 iTexCoord0 : TEXCOORD0,
+	out float4 oPosition : POSITION,
+    out float4 oColor0 : COLOR0,
+    out float2 oTexCoord0 : TEXCOORD0)
 {
-	float4 Position	: POSITION;
-	float2 TexCoord : TEXCOORD0;
-};
-
-VsOutput RenderSceneVS( 
-	float3 position : POSITION, 
-	float3 normal : NORMAL,
-	float3 tangent : TANGENT,
-	float2 texCoord : TEXCOORD0)
-{
-	VsOutput output;
-	
-	output.Position = mul(float4(position, 1.0f), g_WorldViewProjection);
-	output.TexCoord = float2(texCoord.x * g_DiffuseTextureSize.x / g_DebugTextureSize.x,
-		texCoord.y * g_DiffuseTextureSize.y / g_DebugTextureSize.y);
-    
-    return output;
+    oPosition = mul(float4(iPosition, 1), g_ViewProjection);
+    oColor0	= float4(colorMultiplier, colorMultiplier, colorMultiplier, iColor0.a);
+    oTexCoord0 = iTexCoord0;
 }
 
-float4 GetFinalPixelColor(float2 texCoord)
+void RenderSceneSecondPassVS(
+	float3 iPosition : POSITION, 
+	float4 iColor0 : COLOR0,
+	float2 iTexCoord0 : TEXCOORD0,
+	out float4 oPosition : POSITION,
+    out float4 oColor0 : COLOR0,
+    out float2 oTexCoord0 : TEXCOORD0)
 {
-	return tex2D(TextureColorSampler, texCoord);
+    oPosition = mul(float4(iPosition, 1), g_ViewProjection);
+    float c = colorMultiplier;
+    oColor0	= float4(c, c, c, iColor0[3]);
+    oTexCoord0 = iTexCoord0;
 }
 
-float4 RenderScenePS(VsOutput input) : COLOR0
-{ 
-	return GetFinalPixelColor(input.TexCoord);
-}
-
-technique RenderWithPixelShader
+technique RenderWithoutPixelShader
 {
     pass Pass0
-    {          
-        VertexShader = compile vs_3_0 RenderSceneVS();
-        PixelShader = compile ps_3_0 RenderScenePS();
-		AlphaTestEnable = FALSE;
-        AlphaBlendEnable = TRUE;
-		SrcBlend = ONE;
-		DestBlend = ZERO;
-		ZEnable = TRUE;
-		ZWriteEnable = TRUE;			   
+    {   	        
+        VertexShader = compile vs_1_1 RenderSceneFirstPassVS();
+        PixelShader = NULL;
+		ZWriteEnable = false;
+		AlphaTestEnable = false;
+		AlphaBlendEnable = true;
+		SrcBlend = SRCALPHA;
+		DestBlend = ONE;
+		Texture[0] = <g_TextureDiffuse0>;
+    }
+    
+	pass Pass1
+    {   	        
+        VertexShader = compile vs_1_1 RenderSceneSecondPassVS();
+        PixelShader = NULL;
+		ZWriteEnable = false;
+		AlphaTestEnable = false;
+		AlphaBlendEnable = true;
+		SrcBlend = SRCALPHA;
+		DestBlend = ONE;
+		Texture[0] = <g_TextureDiffuse1>;
     }
 }
