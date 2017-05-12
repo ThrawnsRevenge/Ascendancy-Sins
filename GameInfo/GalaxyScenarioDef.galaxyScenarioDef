@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 182
+planetItemTypeCount 181
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"

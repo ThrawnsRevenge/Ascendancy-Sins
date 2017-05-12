@@ -11,8 +11,8 @@ frigateRoleType "Corvette"
 statCountType "FrigateCorvette"
 mainViewIcon "MAINVIEWICON_YT1300"
 picture "HUDICON_YT1300"
-NameStringID "IDS_CORVETTE_YT1300_NAME"
-DescriptionStringID "IDS_CORVETTE_YT1300_DESCRIPTION"
+NameStringID "IDS_CORVETTE_SMUGGLER_NAME"
+DescriptionStringID "IDS_CORVETTE_SMUGGLER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_YT1300"
 basePrice
 	credits 190.000000

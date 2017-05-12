@@ -1,5 +1,5 @@
 TXT
-NumStrings 8634
+NumStrings 8636
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -2209,11 +2209,17 @@ StringInfo
 	ID "IDS_ABILITY_PROJECTFORCE_DESCRIPTION"
 	Value "Jedi on board the ship use the force to trick enemies into perceiving illusory ships."
 StringInfo
+	ID "IDS_CORVETTE_SMUGGLER_NAME"
+	Value "Smuggler"
+StringInfo
+	ID "IDS_CORVETTE_SMUGGLER_DESCRIPTION"
+	Value "A small fast, corellian freighter with light weaponry and abilities which disrupt enemy commerce."
+StringInfo
 	ID "IDS_ABILITY_PIERCINGBLOWS_NAME"
 	Value "Piercing Blows"
 StringInfo
 	ID "IDS_ABILITY_PIERCINGBLOWS_DESCRIPTION"
-	Value "The Nebulaès heavy turbolasers reduce the armour of its target as it hits."
+	Value "The Nebula's heavy turbolasers reduce the armour of its target as it hits."
 StringInfo
 	ID "IDS_ABILITY_PROBEDROIDS_NAME"
 	Value "Probe Droids"
