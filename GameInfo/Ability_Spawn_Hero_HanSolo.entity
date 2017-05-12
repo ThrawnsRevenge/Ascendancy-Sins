@@ -58,7 +58,10 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "NewRepResearch_ShipUnlock_Solo"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "C_spawn_HanSolo_name"

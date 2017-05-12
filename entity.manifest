@@ -1,5 +1,6 @@
 TXT
-entityNameCount 2006
+entityNameCount 2007
+entityName "RemnantResearch_ShipUnlock_Thrawn.entity"
 entityName "EotH_Ashik.entity"
 entityName "Buff_Hero_Remove_Ashik.entity"
 entityName "Buff_Spawn_Hero_Planet_Ashik.entity"
