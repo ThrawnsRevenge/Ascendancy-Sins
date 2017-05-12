@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 104
+		count 106
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -79,6 +79,7 @@ entities
 		entityDefName "RemnantResearch_Global_ShieldGenerator"
 		entityDefName "RemnantResearch_Global_ShieldGeneratorUpgrade"
 		entityDefName "NewRepResearch_ShipUnlock_Ackbar"
+		entityDefName "NewRepResearch_ShipUnlock_Envoy"
 		entityDefName "NewRepResearch_ShipUnlock_Solo"
 		entityDefName "NewRepResearch_ShipUnlock_Karrde"
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
@@ -153,6 +154,7 @@ entities
 		entityDefName "NewRepResearch_Global_UnifyingForce"
 		entityDefName "NewRepResearch_Global_CoalitionForPeace"
 		entityDefName "NewRepResearch_Global_CoalitionBuilders"
+		entityDefName "NewRepResearch_Global_CoalitionForces"
 		entityDefName "NewRepResearch_Global_LongRangeturbos"
 		entityDefName "NewRepResearch_Global_FreeTrade"
 		entityDefName "NewRepResearch_Global_DefensiveFormation"

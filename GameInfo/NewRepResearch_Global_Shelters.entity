@@ -31,9 +31,9 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "HullPointsRegenAdjustment"
+	modifierType "PlanetHealthRegenRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 5.000000
+	perLevelValue 0.125000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880
