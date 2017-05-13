@@ -5,7 +5,7 @@ browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Balance Point"
 browseDescription "A four player symmetrical map intended for two teams of two, using non-canon placements"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.150000
 planetBonusDensity 0.400000
 normalStartHomePlanetUpgradeLevel:Population 3
