@@ -32,10 +32,10 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 8030.000000
+MaxHullPoints 6030.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
-MaxShieldPoints 8030.000000
+MaxShieldPoints 6030.000000
 ShieldPointRestoreRate 25.000000
 maxShieldMitigation 0.500000
 ExperiencePointsForDestroying 50.000000
@@ -86,10 +86,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 280.000000
-	DamagePerBank:BACK 280.000000
-	DamagePerBank:LEFT 280.000000
-	DamagePerBank:RIGHT 280.000000
+	DamagePerBank:FRONT 180.000000
+	DamagePerBank:BACK 180.000000
+	DamagePerBank:LEFT 180.000000
+	DamagePerBank:RIGHT 180.000000
 	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -126,10 +126,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 150.000000
-	DamagePerBank:BACK 150.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:FRONT 120.000000
+	DamagePerBank:BACK 120.000000
+	DamagePerBank:LEFT 120.000000
+	DamagePerBank:RIGHT 120.000000
 	Range 11000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE

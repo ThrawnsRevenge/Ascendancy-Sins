@@ -16,7 +16,7 @@ hudIcon "HUDICON_VISVIA"
 smallHudIcon "EMPIREICON_VISVIA_DEFENSE_STATION"
 infoCardIcon "EMPIREICON_VISVIA_DEFENSE_STATION"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 6.000000
+planetUpgradeSlotCount 4.000000
 basePrice
 	credits 1600.000000
 	metal 105.000000
@@ -32,10 +32,10 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 10010.000000
+MaxHullPoints 8010.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
-MaxShieldPoints 10010.000000
+MaxShieldPoints 8010.000000
 ShieldPointRestoreRate 20.000000
 maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 50.000000
@@ -86,8 +86,8 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 440.000000
-	DamagePerBank:BACK 440.000000
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
@@ -131,7 +131,7 @@ Weapon
 	DamagePerBank:LEFT 1000.000000
 	DamagePerBank:RIGHT 1000.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.000000
+	PreBuffCooldownTime 12.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000

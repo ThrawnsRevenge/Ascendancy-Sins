@@ -16,7 +16,7 @@ hudIcon "HUDICON_GOLANIII"
 smallHudIcon "EMPIREICON_GOLAN_III_PLATFORM"
 infoCardIcon "EMPIREICON_GOLAN_III_PLATFORM"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 5.000000
+planetUpgradeSlotCount 4.000000
 basePrice
 	credits 700.000000
 	metal 60.000000
@@ -32,10 +32,10 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 10010.000000
+MaxHullPoints 7810.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
-MaxShieldPoints 10010.000000
+MaxShieldPoints 7810.000000
 ShieldPointRestoreRate 20.000000
 maxShieldMitigation 0.500000
 ExperiencePointsForDestroying 50.000000
@@ -90,10 +90,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 400.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
+	DamagePerBank:FRONT 250.000000
+	DamagePerBank:BACK 250.000000
+	DamagePerBank:LEFT 250.000000
+	DamagePerBank:RIGHT 250.000000
 	Range 12000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
