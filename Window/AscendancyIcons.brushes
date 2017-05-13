@@ -182,7 +182,7 @@ brush
     fileName "AscendancyIconsMain"
     pixelBox [ 360 , 0 , 40 , 40 ]
 brush
-  name "AscendancyIconsMainUsers"
+  name "AscendancyIconsMainUsers" 
   content "States"
   Disabled
     fileName "AscendancyIconsMain"

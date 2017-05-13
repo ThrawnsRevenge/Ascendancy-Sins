@@ -22,13 +22,13 @@ startGameButton
 	icon "AscendancyIconsMainForward"
 	text "IDSICOGameLobbyScreenStartGameButton"
 openInviteOverlayButton
-	area [619, 55, 133 , 38]
+	area [794, 580, 220 , 75]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft -5
-	textOffsetFromLeft 43
-	underlay "ScreenButtonUnderlayMedium"
-	overlay "ScreenButtonOverlayMedium"			
-	icon "PlayerStatusAvailableForFriend"
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 70
+	underlay "AscendancyMenuScreenButtonIconLarge"
+	overlay "Null"			
+	icon "AscendancyIconsMainUsers"
 	text "IDSGalaxySetupWindowInviteViaOverlayTitle"
 openGameOptionsDialogButton
 	area [270, 680, 220 , 75]
@@ -52,13 +52,13 @@ chatReceivedTextList
 	area [30, 570, 550, 115]
 	itemGap 1
 chatEntry
-	area [600, 650, 400, 35]
+	area [585, 650, 425, 35]
 	labelWidth 0
 	labelText ""
 playerSetupWindow
 	area [30, 100, 700, 500]
 galaxyInfoWindow
-	area [600, 70, 400, 400]
+	area [585, 70, 425, 400]
 channelNameWindow
 	area [750, 20, 220, 60]
 	labelArea [0, 0, 80, 60]
@@ -67,7 +67,7 @@ channelNameWindow
 	valueFontId "ButtonLabel"
 	labelStringId "IDSICOLobbyScreenChatChannelName"
 changeChannelButton
-	area [600, 580, 220, 75]
+	area [580, 580, 220, 75]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 7
 	textOffsetFromLeft 70
