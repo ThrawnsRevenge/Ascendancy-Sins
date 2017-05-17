@@ -14,12 +14,12 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 75.000000
+BaseUpgradeTime 60.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1600.000000
-	metal 300.000000
-	crystal 475.000000
+	credits 900.000000
+	metal 30.000000
+	crystal 75.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.300000
+	perLevelValue 0.250000
 	linkedPlanetType "Ice"
 artifactPicture ""
 uniqueOverlayBrush ""

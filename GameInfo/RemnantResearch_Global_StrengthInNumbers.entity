@@ -33,7 +33,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue -0.050000
 researchModifier
 	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000

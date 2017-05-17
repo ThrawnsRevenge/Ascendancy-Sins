@@ -569,17 +569,17 @@ GameplayConstants
 		cultureConnectionReferenceLength 850000
 		allegianceShiftRateScalar 1.45
 	researchSpeedData-Slow
-		researchRateGameSpeedScalar -4.75
+		researchRateGameSpeedScalar -2.00
 	researchSpeedData-Normal
-		researchRateGameSpeedScalar -1.3
+		researchRateGameSpeedScalar -0.7
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar -0.15
-	researchSpeedData-Faster
 		researchRateGameSpeedScalar -0.05
+	researchSpeedData-Faster
+		researchRateGameSpeedScalar 0.05
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar 0.15
+		incomeRateGameSpeedScalar 0.17
 	incomeSpeedData-Fast
 		incomeRateGameSpeedScalar 0.25
 	incomeSpeedData-Faster
