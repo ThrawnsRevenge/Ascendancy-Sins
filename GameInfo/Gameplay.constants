@@ -571,19 +571,19 @@ GameplayConstants
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -2.00
 	researchSpeedData-Normal
-		researchRateGameSpeedScalar -0.7
+		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar -0.05
+		researchRateGameSpeedScalar -0.02
 	researchSpeedData-Faster
 		researchRateGameSpeedScalar 0.05
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar 0.17
+		incomeRateGameSpeedScalar 0.35
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.25
+		incomeRateGameSpeedScalar 0.55
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 0.50
+		incomeRateGameSpeedScalar 0.75
 	fleetSupplyData-Small
 		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal

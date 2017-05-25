@@ -36,7 +36,7 @@ MaxHullPoints 7810.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 12.000000
 MaxShieldPoints 7810.000000
-ShieldPointRestoreRate 20.000000
+ShieldPointRestoreRate 120.000000
 maxShieldMitigation 0.500000
 ExperiencePointsForDestroying 50.000000
 resourceExtractionType "Invalid"
