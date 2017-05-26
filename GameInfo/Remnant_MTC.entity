@@ -141,7 +141,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityHajenFighters"
 ability:1 "AbilityMTCHangar"
-ability:2 ""
+ability:2 "AbilityRepairPlatformRemnant"
 ability:3 ""
 ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 150.000000
