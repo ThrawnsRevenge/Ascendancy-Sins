@@ -1,5 +1,7 @@
 TXT
-entityNameCount 2011
+entityNameCount 2013
+entityName "Buff_Han_Luckyshot.entity"
+entityName "Ability_Han_LuckyShot.entity"
 entityName "Buff_Han_Falcon.entity"
 entityName "Ability_Han_Falcon.entity"
 entityName "Buff_Han_FlyCasual.entity"
