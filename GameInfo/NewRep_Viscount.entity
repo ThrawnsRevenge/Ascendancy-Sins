@@ -56,9 +56,9 @@ MaxShieldPoints
 	ValueIncreasePerLevel 100.000000
 HullPointRestoreRate
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.100000
 ShieldPointRestoreRate
-	StartValue 85.500000
+	StartValue 75.500000
 	ValueIncreasePerLevel 0.700000
 ArmorPointsFromExperience
 	StartValue 6.500000

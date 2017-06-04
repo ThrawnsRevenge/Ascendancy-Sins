@@ -26,7 +26,7 @@ ExperiencePointsForDestroying 40.000000
 MaxHullPoints 2020.000000
 MaxShieldPoints 2800.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 45.000000
+ShieldPointRestoreRate 25.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites
