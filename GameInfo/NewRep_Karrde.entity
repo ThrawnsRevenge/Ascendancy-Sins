@@ -9,10 +9,10 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "MAINVIEWICON_CR90"
-picture "HUDICON_CR90"
-NameStringID "IDS_FRIGATE_CR90_NAME"
-DescriptionStringID "IDS_FRIGATE_CR90_DESCRIPTION"
+mainViewIcon "HUDICON_KARRDE"
+picture "HUDICON_KARRDE"
+NameStringID "IDS_ABILITY_HERO_KARRDE_NAME"
+DescriptionStringID "IDS_ABILITY_HERO_KARRDE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
 	credits 200.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_CR90"
-smallHudIcon "HUDICONSMALL_FRIGATE"
-infoCardIcon "HUDICONSMALL_FRIGATE"
+hudIcon "HUDICON_KARRDE"
+smallHudIcon "HUDICON_KARRDE"
+infoCardIcon "HUDICON_KARRDE"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon

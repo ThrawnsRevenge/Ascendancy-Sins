@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_Karrde_name"
-descStringID "C_spawn_Karrde_desc"
-hudIcon "C_res_icon_Karrde"
-smallHudIcon "C_res_icon_Karrde"
+nameStringID "IDS_ABILITY_SPAWN_KARRDE_NAME"
+descStringID "IDS_ABILITY_SPAWN_KARRDE_DESCRIPTION"
+hudIcon "HUDICON_KARRDE"
+smallHudIcon "HUDICON_KARRDE"
 infoCardIcon ""

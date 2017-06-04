@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Ackbar_name"
-descStringID "C_ability_Ackbar_desc"
-hudIcon "C_res_icon_Ackbar"
-smallHudIcon "C_res_icon_Ackbar"
+nameStringID "IDS_ABILITY_HERO_ACKBAR_NAME"
+descStringID "IDS_ABILITY_HERO_ACKBAR_DESCRIPTION"
+hudIcon "HUDICON_ACKBAR"
+smallHudIcon "HUDICON_ACKBAR"
 infoCardIcon ""

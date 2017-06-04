@@ -1,5 +1,5 @@
 TXT
-NumStrings 8636
+NumStrings 8648
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -117,6 +117,42 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
 	Value "Electronic Baffle"
+StringInfo
+	ID "IDS_ABILITY_SPAWN_KARRDE_NAME"
+	Value "Call Talon Karrde"
+StringInfo
+	ID "IDS_ABILITY_SPAWN_KARRDE_DESCRIPTION"
+	Value "The New Republic calls for the assistance of the smuggler Talon Karrde and his flagship, the Wild Karrde."
+StringInfo
+	ID "IDS_ABILITY_SPAWN_ACKBAR_NAME"
+	Value "Call Admiral Ackbar"
+StringInfo
+	ID "IDS_ABILITY_SPAWN_ACKBAR_DESCRIPTION"
+	Value "The New Republic calls for the assistance of supreme commander of New Republic forces, Admiral Ackbar in Home One."
+StringInfo
+	ID "IDS_ABILITY_SPAWN_SOLO_NAME"
+	Value "Call Han & Chewbacca"
+StringInfo
+	ID "IDS_ABILITY_SPAWN_SOLO_DESCRIPTION"
+	Value "The New Republic calls for the assistance of General Solo and the Millenium Falcon."
+StringInfo
+	ID "IDS_ABILITY_HERO_KARRDE_NAME"
+	Value "Talon Karrde - Wild Karrde"
+StringInfo
+	ID "IDS_ABILITY_HERO_KARRDE_DESCRIPTION"
+	Value "The leader of the Smuggler's Alliance. Karrde grants several economic bonuses and can call for allied smuggler help in battle."
+StringInfo
+	ID "IDS_ABILITY_HERO_ACKBAR_NAME"
+	Value "Admiral Ackbar - Home One"
+StringInfo
+	ID "IDS_ABILITY_HERO_ACKBAR_DESCRIPTION"
+	Value "A masterful tactician in charge of all New Republic forces. Provides significant buffs to allied forces."
+StringInfo
+	ID "IDS_ABILITY_HERO_SOLO_NAME"
+	Value "Han & Chewie - Millenium Falcon"
+StringInfo
+	ID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
+	Value "A former smuggler who excels at eliminating enemy fighters."
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_NAME"
 	Value "Targetting Link"
