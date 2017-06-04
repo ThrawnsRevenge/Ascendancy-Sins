@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Siege" 
-statCountType "FrigateSiege"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_VSDII"
 picture "CAPITALSHIPPICTURE_VSDII"
 NameStringID "IDS_CAPITALSHIP_VSDII_NAME"
@@ -25,7 +25,7 @@ ExperiencePointsForDestroying 40.000000
 MaxHullPoints 3185.000000
 MaxShieldPoints 3185.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 90.000000
+ShieldPointRestoreRate 30.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites

@@ -7,7 +7,7 @@ ability:2 "AbilityMothball"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 300.000000
-AntiMatterRestoreRate 1.000000
+AntiMatterRestoreRate 5.000000
 numRandomDebrisLarge 4
 numRandomDebrisSmall 12
 numSpecificDebris 0

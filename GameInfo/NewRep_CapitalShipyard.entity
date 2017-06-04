@@ -16,7 +16,7 @@ hudIcon "HUDICON_CAPITALSHIPYARD"
 smallHudIcon "EMPIREICON_CAPITAL_SHIPYARD"
 infoCardIcon "EMPIREICON_CAPITAL_SHIPYARD"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 8.000000
+planetUpgradeSlotCount 4.000000
 basePrice
 	credits  5000.000000
 	metal 500.000000
