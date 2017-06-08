@@ -1,0 +1,57 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyArbitraryTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Buff_Han_WhereItCounts"
+range
+	Level:0 15000.000000
+	Level:1 20000.000000
+	Level:2 25000.000000
+	Level:3 30000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_MicroPhaseJump"
+	mediumEffectName "Ability_MicroPhaseJump"
+	largeEffectName "Ability_MicroPhaseJump"
+	soundID "EFFECT_MICROPHASEJUMP"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 19000.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 60.000000
+	Level:2 40.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MICROJUMP_NAME"
+descStringID "IDS_ABILITY_MICROJUMP_DESCRIPTION"
+hudIcon "HUDABILITYICON_MICROJUMP"
+smallHudIcon "HUDABILITYICON_MICROJUMP"
+infoCardIcon ""

@@ -2,7 +2,7 @@ TXT
 entityType "CapitalShip"
 ability:0 "Ability_Han_FlyCasual"
 ability:1 "Ability_Han_LuckyShot"
-ability:2 ""
+ability:2 "Ability_Han_WhereItCounts"
 ability:3 "Ability_Han_Falcon"
 ability:4 "Ability_Hero_HanSolo"
 defaultAutoAttackRange "GravityWell"
