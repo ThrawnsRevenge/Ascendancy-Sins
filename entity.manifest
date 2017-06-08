@@ -1,5 +1,8 @@
 TXT
-entityNameCount 2015
+entityNameCount 2018
+entityName "Buff_Ackbar_ConcentrateFireTargetLock.entity"
+entityName "Buff_Ackbar_ConcentrateFireTargetSelf.entity"
+entityName "Ability_Ackbar_ConcentrateFire.entity"
 entityName "Buff_Han_WhereItCounts.entity"
 entityName "Ability_Han_WhereItCounts.entity"
 entityName "Buff_Han_Luckyshot.entity"

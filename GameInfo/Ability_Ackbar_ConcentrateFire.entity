@@ -1,0 +1,61 @@
+TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Buff_Ackbar_ConcentrateFireTargetSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "HasWeapons"
+range
+	Level:0 4500.000000
+	Level:1 4500.000000
+	Level:2 4500.000000
+	Level:3 4500.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 55.000000
+	Level:1 45.000000
+	Level:2 35.000000
+	Level:3 25.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+NumResearchPrerequisites 0
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MICROJUMP_NAME"
+descStringID "IDS_ABILITY_MICROJUMP_NAME"
+hudIcon "HUDABILITYICON_MICROJUMP"
+smallHudIcon "HUDABILITYICON_MICROJUMP"
+infoCardIcon ""
+
