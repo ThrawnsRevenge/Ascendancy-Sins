@@ -32,8 +32,7 @@ entityModifier
 		Level:1 0.250000
 		Level:2 0.300000
 		Level:3 0.350000
-numEntityBoolModifiers 1
-entityBoolModifier "NextAbilityAmplified"
+numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
