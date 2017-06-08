@@ -1,64 +1,86 @@
 TXT
-entityType "Frigate"
+entityType "CapitalShip"
+ability:0 "Ability_Han_FlyCasual"
+ability:1 "Ability_Han_LuckyShot"
+ability:2 ""
+ability:3 "Ability_Han_Falcon"
+ability:4 "Ability_Hero_HanSolo"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack TRUE
 autoJoinFleetDefault TRUE
-canBomb FALSE
-typeCount 1
-frigateRoleType "Corvette"
-statCountType "FrigateCorvette"
+canBomb False
 mainViewIcon "HUDICON_SOLO"
-picture "HUDICON_SOLO"
-NameStringID "IDS_ABILITY_HERO_SOLO_NAME"
-DescriptionStringID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_YT1300"
 basePrice
 	credits 190.000000
 	metal 20.000000
 	crystal 10.000000
 slotCount 3.000000
 BuildTime 15.000000
-hasLevels FALSE
-ExperiencePointsForDestroying 8.000000
-MaxHullPoints 3000.000000
-MaxShieldPoints 3000.000000
-HullPointRestoreRate 0.800000
-ShieldPointRestoreRate 0.500000
-BaseArmorPoints 1.000000
-maxMitigation 0.600000
+MaxHullPoints
+	StartValue 1200.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 1200.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 2.800000
+	ValueIncreasePerLevel 0.000000
+ShieldPointRestoreRate
+	StartValue 5.500000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 3.500000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.600000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 260.000000
+	ValueIncreasePerLevel 35.000000
+AntiMatterRestoreRate
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_ABILITY_HERO_SOLO_NAME"
+DescriptionStringID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
+picture "HUDICON_SOLO"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipUtility2"
 numRandomDebrisLarge 0
-numRandomDebrisSmall 10
+numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
 hudIcon "HUDICON_YT1300"
 smallHudIcon "MAINVIEWICON_YT1300"
 infoCardIcon "INFOCARDICON_YT1300"
-minZoomDistanceMult 6.000000
+minZoomDistanceMult 1.250000
 NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
+		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 80.000000
-	DamagePerBank:BACK 80.000000
-	DamagePerBank:LEFT 80.000000
-	DamagePerBank:RIGHT 80.000000
-	Range 3000.000000
+	DamagePerBank:FRONT 20.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10000.000000
 	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.300000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -82,47 +104,45 @@ Weapon
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "LaserRed_Dual"
 Weapon
-	WeaponType "Missile"
+	WeaponType "Projectile"
 	damageEnums
-		AttackType "CORVETTE"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 50.000000
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 3500.000000
-	PreBuffCooldownTime 15.000000
-	CanFireAtFighter FALSE
+	DamagePerBank:LEFT 10.000000
+	DamagePerBank:RIGHT 10.000000
+	Range 10000.000000
+	PreBuffCooldownTime 1.000000
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.150000
-	TravelSpeed 1300.000000
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Missile"
-		burstCount 3
-		burstDelay 0.500000
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName ""
+		muzzleEffectName "MuzzleRed_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Explosion_CapitalShip_mini2"
+			soundCount 3
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT1"
+			sound "WEAPON_FIGHTER_XWING_LASERBURST_MUZZLE_ALT2"
+		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
-		missileTravelEffectName "Conc_Missile"
-		missileStartTurningDistance 100.000000
-		missileSlowTurnRate 0.708997
-		missileMaxSlowTurnTime 6.000000
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "LaserRed_Single"			
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -130,18 +150,17 @@ TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-hasWeaponLevels FALSE
-mass 800.000000
-ShieldMeshName "NR_Falcon"
+mass 1500.000000
+ShieldMeshName "NR_CR90"
 renderShield TRUE
-maxAccelerationLinear 500.000000
-maxAccelerationStrafe 150.000000
-maxDecelerationLinear 1000.000000
-maxAccelerationAngular 50.000000
-maxDecelerationAngular 75.000000
-maxSpeedLinear 900.000000
-maxRollRate 2.000000
-maxRollAngle 35.000000
+maxAccelerationLinear 165.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 9.000000
+maxDecelerationAngular 9.000000
+maxSpeedLinear 700.000000
+maxRollRate 20.000000
+maxRollAngle 85.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
@@ -150,7 +169,6 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_0"
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_1"
@@ -177,19 +195,18 @@ meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechCorvette"
 ExplosionName "Frigate0"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "Ability_Han_FlyCasual"
-ability:1 "Ability_Han_LuckyShot"
-ability:2 ""
-ability:3 "Ability_Han_Falcon"
-ability:4 "Ability_Hero_HanSolo"
-MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.000000
-cargoType "Invalid"
-maxCargoCapacity 0.000000
 formationRank 0
-minShadow 0.100000
-maxShadow 0.800000
-allegianceDecreasePerRoundtrip 0.000000
+minShadow 0.000000
+maxShadow 0.400000
