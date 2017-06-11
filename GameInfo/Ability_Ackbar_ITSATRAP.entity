@@ -1,28 +1,11 @@
-TXT
+﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyTargettedBuffToSelf"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Ackbar_ConcentrateFireTargetSelf"
-targetFilter
-	numOwnerships 1
-	ownership "Enemy"
-	numObjects 4
-	object "Frigate"
-	object "Corvette"
-	object "CapitalShip"
-	object "Titan"
-	numSpaces 1
-	space "Normal"
-	numConstraints 1
-	constraint "HasWeapons"
-range
-	Level:0 4500.000000
-	Level:1 4500.000000
-	Level:2 4500.000000
-	Level:3 4500.000000
+buffType "Buff_Ackbar_ITSATRAP"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Above"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -30,30 +13,44 @@ effectInfo
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility TRUE
+isUltimateAbility FALSE
 maxNumLevels 4
-levelSourceType "FixedLevel0"
-aiUseTime "OnlyInCombat"
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "None"
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 cooldownTime
-	Level:0 55.000000
-	Level:1 45.000000
-	Level:2 35.000000
-	Level:3 25.000000
+	Level:0 60.000000
+	Level:1 55.000000
+	Level:2 50.000000
+	Level:3 45.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_MICROJUMP_NAME"
-descStringID "IDS_ABILITY_MICROJUMP_NAME"
+nameStringID "unknown_name"
+descStringID "unknown_desc"
 hudIcon "HUDABILITYICON_MICROJUMP"
 smallHudIcon "HUDABILITYICON_MICROJUMP"
 infoCardIcon ""
-

@@ -1,5 +1,7 @@
 TXT
-entityNameCount 2018
+entityNameCount 2020
+entityName "Buff_Ackbar_ITSATRAP.entity"
+entityName "Ability_Ackbar_ITSATRAP.entity"
 entityName "Buff_Ackbar_ConcentrateFireTargetLock.entity"
 entityName "Buff_Ackbar_ConcentrateFireTargetSelf.entity"
 entityName "Ability_Ackbar_ConcentrateFire.entity"
