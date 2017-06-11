@@ -1,5 +1,10 @@
 TXT
-entityNameCount 2020
+entityNameCount 2025
+entityName "Buff_Ackbar_HomeOne.entity"
+entityName "Ability_Ackbar_HomeOne.entity"
+entityName "Buff_Ackbar_CommandShip_Self.entity"
+entityName "Buff_Ackbar_CommandShip_Target.entity"
+entityName "Ability_Ackbar_CommandShip.entity"
 entityName "Buff_Ackbar_ITSATRAP.entity"
 entityName "Ability_Ackbar_ITSATRAP.entity"
 entityName "Buff_Ackbar_ConcentrateFireTargetLock.entity"

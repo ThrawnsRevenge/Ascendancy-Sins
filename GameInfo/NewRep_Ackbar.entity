@@ -2,8 +2,8 @@
 entityType "CapitalShip"
 ability:0 "Ability_Ackbar_ConcentrateFire"
 ability:1 "Ability_Ackbar_ITSATRAP"
-ability:2 "AbilityPowerToShieldsCapital"
-ability:3 "AbilityReflectiveshields"
+ability:2 "Ability_Ackbar_CommandShip"
+ability:3 "ABility_Ackbar_HomeOne"
 ability:4 "Ability_Hero_Ackbar"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
