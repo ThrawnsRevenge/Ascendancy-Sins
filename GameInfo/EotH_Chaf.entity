@@ -268,7 +268,7 @@ ability:1 "AbilityResilient"
 ability:2 "AbilityOverwhelm"
 ability:3 ""
 ability:4 "AbilityPassiveLowLifeT3"
-MaxAntiMatter 0.000000
+MaxAntiMatter 200.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000

@@ -63,7 +63,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 84
+		count 85
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
@@ -97,6 +97,7 @@ entities
 		entityDefName "EotHResearch_Global_PlanetSpecialization00"
 		entityDefName "EotHResearch_Global_PlanetSpecialization01"
 		entityDefName "EotHResearch_Global_SpeedBoostArmour"
+		entityDefName "EotHResearch_Global_SpreadFire"
 		entityDefName "EotHResearch_Global_Engines"
 		entityDefName "EotHResearch_Global_Engines2"
 		entityDefName "EotHResearch_Global_ExitDistance"
