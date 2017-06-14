@@ -163,7 +163,7 @@ entities
 		entityDefName "RemnantResearch_Global_SpreadFire"
 		entityDefName "RemnantResearch_Global_StrengthInNumbers"
 		entityDefName "RemnantResearch_Global_Xenophobia"
-		entityDefName "RemnantResearch_ShipUnlock_CommandStation"
+		entityDefName "AlignmentResearch_ShipUnlock_Validusia"
 		entityDefName "RemnantResearch_ShipUnlock_GolanII"
 		entityDefName "RemnantResearch_ShipUnlock_GolanIII"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"

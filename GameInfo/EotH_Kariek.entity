@@ -51,8 +51,8 @@ Weapon
 		WeaponClassType "LASERTECH"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 90.000000
-	DamagePerBank:RIGHT 90.000000
+	DamagePerBank:LEFT 70.000000
+	DamagePerBank:RIGHT 70.000000
 	Range 10000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
