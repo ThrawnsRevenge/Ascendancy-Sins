@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 120.000000
+	DamagePerBank:FRONT 90.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -181,7 +181,7 @@ ability:1 "AbilityBlockadeRunner"
 ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
-MaxAntiMatter 0.000000
+MaxAntiMatter 10.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000

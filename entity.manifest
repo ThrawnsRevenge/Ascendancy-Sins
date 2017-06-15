@@ -1,11 +1,5 @@
 TXT
-entityNameCount 2031
-entityName "Buff_Karrde_Surprise_TargetColumn.entity
-entityName "Buff_Karrde_Surprise_Target.entity"
-entityName "Buff_Karrde_Surprise_Activate.entity"
-entityName "Ability_Karrde_Surprise.entity"
-entityName "Buff_Karrde_SpyNetwork.entity"
-entityName "Ability_Karrde_SpyNetwork.entity"
+entityNameCount 2026
 entityName "Buff_Ackbar_HomeOne.entity"
 entityName "Ability_Ackbar_HomeOne.entity"
 entityName "Buff_Ackbar_CommandShip_Self.entity"
@@ -845,6 +839,7 @@ entityName "AlignmentResearch_ShipUnlock_V19Torrent.entity"
 entityName "AlignmentResearch_ShipUnlock_EltaBesk.entity"
 entityName "AlignmentResearch_ShipUnlock_IbDekeet.entity"
 entityName "AlignmentResearch_ShipUnlock_ArdusKaine.entity"
+entityName "AlignmentResearch_ShipUnlock_Validusia.entity"
 entityName "AlignmentResearch_Economy_Durasteel01.entity"
 entityName "AlignmentResearch_Economy_Durasteel02.entity"
 entityName "AlignmentResearch_Economy_Durasteel03.entity"
