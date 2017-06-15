@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_SpyNetwork"
+buffType "Buff_Karrde_SpyNetwork"
 targetFilter
 	numOwnerships 3
 	ownership "NoOwner"

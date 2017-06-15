@@ -1,5 +1,11 @@
 TXT
-entityNameCount 2025
+entityNameCount 2031
+entityName "Buff_Karrde_Surprise_TargetColumn.entity
+entityName "Buff_Karrde_Surprise_Target.entity"
+entityName "Buff_Karrde_Surprise_Activate.entity"
+entityName "Ability_Karrde_Surprise.entity"
+entityName "Buff_Karrde_SpyNetwork.entity"
+entityName "Ability_Karrde_SpyNetwork.entity"
 entityName "Buff_Ackbar_HomeOne.entity"
 entityName "Ability_Ackbar_HomeOne.entity"
 entityName "Buff_Ackbar_CommandShip_Self.entity"
