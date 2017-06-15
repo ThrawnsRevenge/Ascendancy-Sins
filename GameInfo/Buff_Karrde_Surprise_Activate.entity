@@ -40,7 +40,7 @@ instantAction
 		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"	
 	hitShieldsEffectSounds
 		soundCount 1
-		WEAPONIMPACT_GENERICHEAVY_HITSHIELDS
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInColumn"
