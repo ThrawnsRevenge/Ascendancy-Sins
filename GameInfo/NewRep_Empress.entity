@@ -143,10 +143,10 @@ Weapon
 		missileMaxSlowTurnTime 1.000000
 m_weaponIndexForRange 1
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 3
+TargetCountPerBank:BACK 3
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 ShieldMeshName "NR_Empress"
 renderShield TRUE
