@@ -2,7 +2,7 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Ackbar_HomeOne"
+buffType "Buff_Thrawn_Chimaera"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

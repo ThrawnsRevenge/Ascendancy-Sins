@@ -1,5 +1,16 @@
 TXT
-entityNameCount 2037
+entityNameCount 2048
+entityName "Buff_Thrawn_Chimaera.entity"
+entityName "Ability_Thrawn_Chimaera.entity"
+entityName "Ability_Thrawn_DarkForceRising.entity"
+entityName "Buff_Noghri_Recourse.entity"
+entityName "Buff_Noghri_Target_Convert.entity"
+entityName "Buff_Noghri_Target_Chance.entity"
+entityName "Buff_Noghri_Target.entity"
+entityName "Ability_Thrawn_Noghri.entity"
+entityName "Buff_Thrawn_CommandShip_Target.entity"
+entityName "Buff_Thrawn_CommandShip_Self.entity"
+entityName "Ability_Thrawn_CommandShip.entity"
 entityName "Buff_Karrde_WildKarrde.entity"
 entityName "Ability_Karrde_WildKarrde.entity"
 entityName "Buff_Karrde_SmugglersAlliance.entity"

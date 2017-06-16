@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityTractorBeam"
-ability:1 "AbilityNumericalSuperiority"
-ability:2 "AbilityCloakRemnant"
-ability:3 "AbilityOverwhelmCapital"
+ability:0 "Ability_Thrawn_CommandShip"
+ability:1 "Ability_Thrawn_Noghri"
+ability:2 "Ability_Thrawn_DarkForceRising"
+ability:3 "Ability_Thrawn_Chimaera"
 ability:4 "Ability_Hero_Thrawn"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
