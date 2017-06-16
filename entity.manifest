@@ -1,5 +1,11 @@
 TXT
-entityNameCount 2065
+entityNameCount 2071
+entityName "Buff_Daala_CriticalStrike_Target.entity"
+entityName "Buff_Daala_CriticalStrike_TargetColumn.entity"
+entityName "Buff_Daala_CriticalStrike_Activate.entity"
+entityName "Ability_Daala_CriticalStike.entity"
+entityName "Buff_Daala_DissidentSuppresion.entity"
+entityName "Ability_Daala_DissidentSuppresion.entity"
 entityName "Buff_Pellaeon_LongService.entity"
 entityName "Ability_Pellaeon_LongService.entity"
 entityName "Buff_Pellaeon_CloakSelf.entity"
