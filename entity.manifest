@@ -1,11 +1,16 @@
 TXT
-entityNameCount 2071
+entityNameCount 2076
+entityName "Buff_Daala_Nighthammer.entity"
+entityName "Ability_Daala_Nighthammer.entity"
+entityName "Buff_Daala_TarkinDoctrine_Target.entity"
+entityName "Buff_Daala_TarkinDoctrineSelf.entity"
+entityName "Ability_Daala_TarkinDoctrine.entity"
 entityName "Buff_Daala_CriticalStrike_Target.entity"
 entityName "Buff_Daala_CriticalStrike_TargetColumn.entity"
 entityName "Buff_Daala_CriticalStrike_Activate.entity"
-entityName "Ability_Daala_CriticalStike.entity"
-entityName "Buff_Daala_DissidentSuppresion.entity"
-entityName "Ability_Daala_DissidentSuppresion.entity"
+entityName "Ability_Daala_CriticalStrike.entity"
+entityName "Buff_Daala_DissidentSuppression.entity"
+entityName "Ability_Daala_DissidentSuppression.entity"
 entityName "Buff_Pellaeon_LongService.entity"
 entityName "Ability_Pellaeon_LongService.entity"
 entityName "Buff_Pellaeon_CloakSelf.entity"
