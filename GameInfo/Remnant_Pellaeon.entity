@@ -2,8 +2,8 @@
 entityType "CapitalShip"
 ability:0 "Ability_Pellaeon_CommandShip"
 ability:1 "Ability_Pellaeon_AsteroidShunt"
-ability:2 ""
-ability:3 ""
+ability:2 "Ability_Pellaeon_Cloak"
+ability:3 "Ability_Pellaeon_LongService"
 ability:4 "Ability_Hero_Pellaeon"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -64,10 +64,10 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 80.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
-	StartValue 0.00000
+	StartValue 0.10000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
 	StartValue 0.300000

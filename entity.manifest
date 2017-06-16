@@ -1,5 +1,10 @@
 TXT
-entityNameCount 2060
+entityNameCount 2065
+entityName "Buff_Pellaeon_LongService.entity"
+entityName "Ability_Pellaeon_LongService.entity"
+entityName "Buff_Pellaeon_CloakSelf.entity"
+entityName "Buff_Pellaeon_CloakTarget.entity"
+entityName "Ability_Pellaeon_Cloak.entity"
 entityName "Buff_Pellaeon_DetonateAsteroidAreaDamage.entity"
 entityName "Buff_Pellaeon_DetonateAsteroidTarget.entity"
 entityName "Buff_Pellaeon_DetonateAsteroidSelf.entity"
