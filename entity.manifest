@@ -1,5 +1,17 @@
 TXT
-entityNameCount 2048
+entityNameCount 2060
+entityName "Buff_Pellaeon_DetonateAsteroidAreaDamage.entity"
+entityName "Buff_Pellaeon_DetonateAsteroidTarget.entity"
+entityName "Buff_Pellaeon_DetonateAsteroidSelf.entity"
+entityName "Ability_Pellaeon_DetonateAsteroid.entity"
+entityName "Buff_Pellaeon_HideAsteroid.entity"
+entityName "Ability_Pellaeon_HideAsteroid.entity"
+entityName "Remnant_AsteroidShunt.entity"
+entityName "Buff_Pellaeon_AsteroidShunt.entity"
+entityName "Ability_Pellaeon_AsteroidShunt.entity"
+entityName "Buff_Pellaeon_CommandShip_Self.entity"
+entityName "Buff_Pellaeon_CommandShip_Target.entity"
+entityName "Ability_Pellaeon_CommandShip.entity"
 entityName "Buff_Thrawn_Chimaera.entity"
 entityName "Ability_Thrawn_Chimaera.entity"
 entityName "Ability_Thrawn_DarkForceRising.entity"
