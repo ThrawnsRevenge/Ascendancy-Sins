@@ -2,10 +2,10 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Ackbar_HomeOne"
+buffType "Buff_Pellaeon_CommandShip_Self"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""

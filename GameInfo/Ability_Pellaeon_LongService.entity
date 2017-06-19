@@ -2,7 +2,7 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Ackbar_HomeOne"
+buffType "Buff_Pellaeon_LongService"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

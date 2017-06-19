@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 ""
-ability:1 ""
-ability:2 ""
-ability:3 ""
+ability:0 "Ability_Daala_DissidentSuppression"
+ability:1 "Ability_Daala_CriticalStrike"
+ability:2 "Ability_Daala_TarkinDoctrine"
+ability:3 "Ability_Daala_Nighthammer"
 ability:4 "Ability_Hero_Daala"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

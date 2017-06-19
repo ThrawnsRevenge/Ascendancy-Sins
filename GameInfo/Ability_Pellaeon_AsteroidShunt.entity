@@ -2,14 +2,14 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Ackbar_HomeOne"
+buffType "Buff_Pellaeon_AsteroidShunt"
 effectInfo
-	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -21,14 +21,24 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
+aiUseTime "OnlyWithNoOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
 isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+useCostType "Resources"
+resourceCost
+	credits 300.000000
+	metal 300.000000
+	crystal 300.000000
+cooldownTime
+	Level:0 45.000000
+	Level:1 35.000000
+	Level:2 25.000000
+	Level:3 15.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

@@ -1,0 +1,82 @@
+TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 4
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Remnant_Katana"
+		weight 1				
+spawnShips
+	minFleetPoints 30.000000
+	maxFleetPoints 30.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Remnant_Katana"
+		weight 1	
+spawnShips
+	minFleetPoints 40.000000
+	maxFleetPoints 40.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Remnant_Katana"
+		weight 1		
+spawnShips
+	minFleetPoints 60.000000
+	maxFleetPoints 60.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Remnant_Katana"
+		weight 1
+spawnShipsArrivalDelayTime 4.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 0.000000
+	metal   0.000000
+	crystal 0.000000
+requiredShipSlots
+	Level:0 20.000000
+	Level:1 30.000000
+	Level:2 40.000000
+	Level:3 60.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID ""
+descStringID ""
+hudIcon ""
+smallHudIcon ""
+infoCardIcon ""
