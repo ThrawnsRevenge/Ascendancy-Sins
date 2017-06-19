@@ -64,7 +64,7 @@ NumResearchPrerequisites 1
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_SOLO_NAME"
+nameStringID "IDS_SPAWNHERO_SOLO_NAME"
 descStringID "IDS_HERO_SOLO_DESCRIPTION"
 hudIcon "HUDICON_SOLO"
 smallHudIcon "HUDICON_SOLO"

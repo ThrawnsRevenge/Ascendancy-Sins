@@ -64,7 +64,7 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_DEKEET_NAME"
+nameStringID "IDS_SPAWNHERO_DEKEET_NAME"
 descStringID "IDS_HERO_DEKEET_DESCRIPTION"
 hudIcon "HUDICON_DEKEET"
 smallHudIcon "HUDICON_DEKEET"

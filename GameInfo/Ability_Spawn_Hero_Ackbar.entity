@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_SPAWN_ACKBAR_NAME"
-descStringID "IDS_ABILITY_SPAWN_ACKBAR_DESCRIPTION"
+nameStringID "IDS_SPAWNHERO_ACKBAR_NAME"
+descStringID "IDS_HERO_ACKBAR_DESCRIPTION"
 hudIcon "HUDICON_ACKBAR"
 smallHudIcon "HUDICON_ACKBAR"
 infoCardIcon ""

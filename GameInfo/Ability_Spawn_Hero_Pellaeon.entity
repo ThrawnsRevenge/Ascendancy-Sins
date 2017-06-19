@@ -64,7 +64,7 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_PELLAEON_NAME"
+nameStringID "IDS_SPAWNHERO_PELLAEON_NAME"
 descStringID "IDS_HERO_PELLAEON_DESCRIPTION"
 hudIcon "HUDICON_PELLAEON"
 smallHudIcon "HUDICON_PELLAEON"

@@ -64,7 +64,7 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_ASHIK_NAME"
+nameStringID "IDS_SPAWNHERO_ASHIK_NAME"
 descStringID "IDS_HERO_ASHIK_DESCRIPTION"
 hudIcon "HUDICON_ASHIK"
 smallHudIcon "HUDICON_ASHIK"

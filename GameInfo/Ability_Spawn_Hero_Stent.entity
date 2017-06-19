@@ -64,7 +64,7 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_STENT_NAME"
+nameStringID "IDS_SPAWNHERO_STENT_NAME"
 descStringID "IDS_HERO_STENT_DESCRIPTION"
 hudIcon "HUDICON_STENT"
 smallHudIcon "HUDICON_STENT"

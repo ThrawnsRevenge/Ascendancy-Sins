@@ -64,7 +64,7 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_KARRDE_NAME"
+nameStringID "IDS_SPAWNHERO_KARRDE_NAME"
 descStringID "IDS_HERO_KARRDE_DESCRIPTION"
 hudIcon "HUDICON_KARRDE"
 smallHudIcon "HUDICON_KARRDE"

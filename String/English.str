@@ -118,58 +118,67 @@ StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
 	Value "Electronic Baffle"
 StringInfo
-	ID "IDS_ABILITY_SPAWN_KARRDE_NAME"
+	ID "IDS_SPAWNHERO_KARRDE_NAME"
 	Value "Call Talon Karrde"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_KARRDE_DESCRIPTION"
 	Value "The New Republic calls for the assistance of the smuggler Talon Karrde and his flagship, the Wild Karrde."
 StringInfo
-	ID "IDS_ABILITY_SPAWN_ACKBAR_NAME"
-	Value "Call Admiral Ackbar"
+	ID "IDS_SPAWNHERO_ACKBAR_NAME"
+	Value "Recruit Admiral Ackbar"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_ACKBAR_DESCRIPTION"
 	Value "The New Republic calls for the assistance of supreme commander of New Republic forces, Admiral Ackbar in Home One."
 StringInfo
-	ID "IDS_ABILITY_SPAWN_SOLO_NAME"
-	Value "Call Han & Chewbacca"
+	ID "IDS_SPAWNHERO_SOLO_NAME"
+	Value "Recruit Han & Chewbacca"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_SOLO_DESCRIPTION"
 	Value "The New Republic calls for the assistance of General Solo and the Millenium Falcon."
 StringInfo
-	ID "IDS_ABILITY_HERO_KARRDE_NAME"
+	ID "IDS_HERO_KARRDE_NAME"
 	Value "Talon Karrde - Wild Karrde"
 StringInfo
-	ID "IDS_ABILITY_HERO_KARRDE_DESCRIPTION"
+	ID "IDS_HERO_KARRDE_DESCRIPTION"
 	Value "The leader of the Smuggler's Alliance. Karrde grants several economic bonuses and can call for allied smuggler help in battle."
 StringInfo
-	ID "IDS_ABILITY_HERO_ACKBAR_NAME"
-	Value "Admiral Ackbar - Home One"
+	ID "IDS_HERO_ACKBAR_NAME"
+	Value "Ackbar - Home One"
 StringInfo
-	ID "IDS_ABILITY_HERO_ACKBAR_DESCRIPTION"
-	Value "A masterful tactician in charge of all New Republic forces. Provides significant buffs to allied forces."
+	ID "IDS_HERO_ACKBAR_DESCRIPTION"
+	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
-	ID "IDS_ABILITY_HERO_SOLO_NAME"
+	ID "IDS_HERO_SOLO_NAME"
 	Value "Han & Chewie - Millenium Falcon"
 StringInfo
-	ID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
+	ID "IDS_HERO_SOLO_DESCRIPTION"
 	Value "A former smuggler who excels at eliminating enemy fighters."
 StringInfo
-	ID "IDS_ABILITY_HERO_ASHIK_NAME"
+	ID "IDS_HERO_ASHIK_NAME"
 	Value "Ashik - Fel Ascent"
 StringInfo
-	ID "IDS_ABILITY_HERO_ASHIK_DESCRIPTION"
+	ID "IDS_SPAWNHERO_ASHIK_NAME"
+	Value "Recruit Ashik"
+StringInfo
+	ID "IDS_HERO_ASHIK_DESCRIPTION"
 	Value "Future head of personal security to Emperor Fel, Ashik commands a small gunship in anti-fighter operations."
 StringInfo
-	ID "IDS_ABILITY_HERO_ARALANI_NAME"
+	ID "IDS_HERO_ARALANI_NAME"
 	Value "Ar'alani - Frontier"
 StringInfo
-	ID "IDS_ABILITY_HERO_ARALANI_DESCRIPTION"
+	ID "IDS_SPAWNHERO_ARALANI_NAME"
+	Value "Recruit Ar'Alani"
+StringInfo
+	ID "IDS_HERO_ARALANI_DESCRIPTION"
 	Value "A long-serving admiral in the Chiss Expansionary Defense Force who was sympathetic to Thrawn's goals. Provides command bonuses to her fleet."
 StringInfo
-	ID "IDS_ABILITY_HERO_STENT_NAME"
+	ID "IDS_HERO_STENT_NAME"
 	Value "Stent - Ascendancy"
 StringInfo
-	ID "IDS_ABILITY_HERO_STENT_DESCRIPTION"
+	ID "IDS_SPAWNHERO_STENT_NAME"
+	Value "Recruit Stent"
+StringInfo
+	ID "IDS_HERO_STENT_DESCRIPTION"
 	Value "The somewhat hot-headed commander of Thrawn's household phalanx, the Chiss soldiers loyal to Thrawn within the Empire of the Hand."
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_NAME"
@@ -1660,6 +1669,9 @@ StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 	Value "A CR90 model refitted for diplomatic missions"
 StringInfo
+	ID "IDS_SPAWNHERO_BESK_NAME"
+	Value "Recruit Elta Besk"
+StringInfo
 	ID "IDS_HERO_BESK_NAME"
 	Value "Elta Besk"
 StringInfo
@@ -1669,14 +1681,23 @@ StringInfo
 	ID "IDS_HERO_DEKEET_NAME"
 	Value "Ib Dekeet"
 StringInfo
+	ID "IDS_SPAWNHERO_DEKEET_NAME"
+	Value "Recruit Ib Dekeet"
+StringInfo
 	ID "IDS_HERO_DEKEET_DESCRIPTION"
 	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Praetor and provides several governance bonuses to your planets."
 StringInfo
+	ID "IDS_SPAWNHERO_KAINE_NAME"
+	Value "Recruit Ardus Kaine"
+StringInfo
 	ID "IDS_HERO_KAINE_NAME"
-	Value "Ardus Kaine"
+	Value "Ardus Kaine - Reaper"
 StringInfo
 	ID "IDS_HERO_KAINE_DESCRIPTION"
 	Value "After Endor, Grand Moff Ardus Kaine struck out on his own to form the Pentastar Alignment, bringing together several high-ranking Imperials and local corporations. He commands the Executor-class Reaper, and provides combat bonuses to the Alignment fleet [DOES NOT RESPAWN]"
+StringInfo
+	ID "IDS_SPAWNHERO_THRAWN_NAME"
+	Value "Recruit Thrawn"
 StringInfo
 	ID "IDS_HERO_THRAWN_NAME"
 	Value "Thrawn - Chimera"
@@ -1684,23 +1705,11 @@ StringInfo
 	ID "IDS_HERO_THRAWN_DESCRIPTION"
 	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy. This vessel serves as the flagship for the Remnant in flagship victory mode."
 StringInfo
-	ID "IDS_HERO_STENT_NAME"
-	Value "Stent - Thrawn's Hand"
-StringInfo
-	ID "IDS_HERO_STENT_DESCRIPTION"
-	Value "A Chiss commander of Thrawn's Houshold Phalanx, and a devoted member of the Empire of the Hand bent on the destruction of all threats to the Chiss Ascendancy. This vessel serves as the flagship for the Hand in flagship victory mode."
-StringInfo
 	ID "IDS_HERO_GRANT_NAME"
 	Value "Grant - Oriflamme"
 StringInfo
 	ID "IDS_HERO_GRANT_DESCRIPTION"
 	Value "A Tapani nobleman turned Grand Admiral who, after the fall of the Empire, took refuge in the Pentastar Alignment. This vessel serves as the flagship for the Pentastar Alignment in flagship victory mode."
-StringInfo
-	ID "IDS_HERO_ACKBAR_NAME"
-	Value "Ackbar - Home One"
-StringInfo
-	ID "IDS_HERO_ACKBAR_DESCRIPTION"
-	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_FRIGATE_ESCAPEPOD_NAME"
 	Value "Escape Pod"
