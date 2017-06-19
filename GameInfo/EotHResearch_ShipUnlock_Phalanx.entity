@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Ascendancy"
+		Subject "EotHResearch_ShipUnlock_Stent"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

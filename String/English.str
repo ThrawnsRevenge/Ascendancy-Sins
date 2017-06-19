@@ -1,5 +1,5 @@
 TXT
-NumStrings 8648
+NumStrings 8664
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -153,6 +153,24 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
 	Value "A former smuggler who excels at eliminating enemy fighters."
+StringInfo
+	ID "IDS_ABILITY_HERO_ASHIK_NAME"
+	Value "Ashik - Fel Ascent"
+StringInfo
+	ID "IDS_ABILITY_HERO_ASHIK_DESCRIPTION"
+	Value "Future head of personal security to Emperor Fel, Ashik commands a small gunship in anti-fighter operations."
+StringInfo
+	ID "IDS_ABILITY_HERO_ARALANI_NAME"
+	Value "Ar'alani - Frontier"
+StringInfo
+	ID "IDS_ABILITY_HERO_ARALANI_DESCRIPTION"
+	Value "A long-serving admiral in the Chiss Expansionary Defense Force who was sympathetic to Thrawn's goals. Provides command bonuses to her fleet."
+StringInfo
+	ID "IDS_ABILITY_HERO_STENT_NAME"
+	Value "Stent - Ascendancy"
+StringInfo
+	ID "IDS_ABILITY_HERO_STENT_DESCRIPTION"
+	Value "The somewhat hot-headed commander of Thrawn's household phalanx, the Chiss soldiers loyal to Thrawn within the Empire of the Hand."
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_NAME"
 	Value "Targetting Link"
@@ -502,11 +520,47 @@ StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_REACH_DESCRIPTION"
 	Value "Pentastar controlling interests in galactic corporations redirect a portion of their revenues from purchases across the galaxy into the Alignment."
 StringInfo
+	ID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_NAME"
+	Value "Recycling"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_DESCRIPTION"
+	Value "Your nearby capital ships retrieve processed materials for re-use by the Empire of the Hand."
+StringInfo
+	ID "IDS_EOTHRESEARCH_IMPREGNABLE_NAME"
+	Value "Impregnable"
+StringInfo
+	ID "IDS_EOTHRESEARCH_IMPREGNABLE_DESCRIPTION"
+	Value "Hand defense station crews fight to hold the last line of defense doing increased damage against enemy targets."
+StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
 	Value "Rapid Deployment"
 StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_DESCRIPTION"
 	Value "Prefabricated parts allow Empire of the Hand orbital structures to be built more quickly."
+StringInfo
+	ID "IDS_EOTHRESEARCH_HOLDOUTS_NAME"
+	Value "Holdouts"
+StringInfo
+	ID "IDS_EOTHRESEARCH_HOLDOUTS_DESCRIPTION"
+	Value "When fighting for home territory, Hand ships assume more defensive positions, using their armour plating to mitigate more damage."
+StringInfo
+	ID "IDS_EOTHRESEARCH_SELECTIVERELATIONS_NAME"
+	Value "Selective Relations"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SELECTIVERELATIONS_DESCRIPTION"
+	Value "The Empire of the Hand is able to be more selective of which missions it accepts, with lower consequences."
+StringInfo
+	ID "IDS_EOTHRESEARCH_GREATERGOOD_NAME"
+	Value "Greater Good"
+StringInfo
+	ID "IDS_EOTHRESEARCH_GREATERGOOD_DESCRIPTION"
+	Value "In order to protect the galaxy, the Empire of the Hand is willing to work more closely with all groups."
+StringInfo
+	ID "IDS_EOTHRESEARCH_SHIELDUPGRADE_NAME"
+	Value "Resilience"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SHIELDUPGRADE_DESCRIPTION"
+	Value "Hand engineers improve shields of all vessels to compensate for their weaker hulls."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
 	Value "Velcar Free Commerce"
@@ -10965,12 +11019,6 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RESEARCHRATEINCREASE_DESCRIPTION"
 	Value "The whole of the Unity focuses thought on research, which reduces the time required to make breakthroughs."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_NAME"
-	Value "Wreckage Auto-Salvage"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_DESCRIPTION"
-	Value "Resources from newly destroyed capital ships and planet structures are automatically collected by your nearby capital ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SALVAGEEFFICIENCY_NAME"
 	Value "Improved Salvaging"
