@@ -1,0 +1,60 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_PlanetMania"
+		mediumEffectName "CapitalBuff_PlanetMania"
+		largeEffectName "CapitalBuff_PlanetMania"
+		soundID ""
+instantAction
+	buffInstantActionType "MakeDead"
+	instantActionTriggerType "OnDelay"
+	delayTime 240.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 -0.100000
+		Level:1 -0.100000
+		Level:2 -0.100000
+		Level:3 -0.100000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.100000
+		Level:1 -0.100000
+		Level:2 -0.100000
+		Level:3 -0.100000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.300000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

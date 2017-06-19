@@ -1,0 +1,33 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 2
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+		delayTime 1.000000
+	buffType "C_Buff_FirstSpawnerSelfDestructCheck"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AntimatterCostOfNonUltimates"
+	value
+		Level:0 8.000000
+		Level:1 8.000000
+		Level:2 8.000000
+		Level:3 8.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+		buffTypeToQuery "C_Buff_FirstSpawnerSelf"
+		

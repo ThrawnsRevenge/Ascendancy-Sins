@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 20.000000
+		Level:1 30.000000
+		Level:2 35.500000
+		Level:3 40.000000	
+	damageAffectType "AFFECTS_ONLY_SHIELDS"
+	damageType "ENERGY"
+	isDamageShared "FALSE"	
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
+		Level:3 -1.000000		
+numEntityBoolModifiers 1
+entityBoolModifier "DisableAbilities"
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 12.000000
+		Level:2 15.000000
+		Level:3 20.000000
