@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "PlanetPopulationGrowthRate"
+	value
+		Level:0 0.400000
+		Level:1 0.600000
+		Level:2 0.800000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "ShipBuildTime"
+	value
+		Level:0 -0.300000
+		Level:1 -0.500000
+		Level:2 -0.800000
+		Level:3 -1.200000
+entityModifier
+	buffEntityModifierType "PlanetModuleBuildTime"
+	value
+		Level:0 -0.300000
+		Level:1 -0.500000
+		Level:2 -0.800000
+		Level:3 -1.200000
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 120.000000
+		Level:1 150.000000
+		Level:2 180.000000
+		Level:3 200.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

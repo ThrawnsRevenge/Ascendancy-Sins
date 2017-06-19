@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityBulwark"
-ability:1 "AbilityEMPBurst"
-ability:2 "AbilityImposingPresence"
-ability:3 "AbilityPraetorIon"
+ability:0 "Ability_IbDekeet_CorporateAcquisition"
+ability:1 "Ability_IbDekeet_PlanetaryGovernance"
+ability:2 ""
+ability:3 ""
 ability:4 "Ability_Hero_IbDekeet"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
