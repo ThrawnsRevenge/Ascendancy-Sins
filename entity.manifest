@@ -1,8 +1,5 @@
 TXT
-<<<<<<< HEAD
-entityNameCount 2047
-=======
-entityNameCount 2076
+entityNameCount 2086
 entityName "Buff_Daala_Nighthammer.entity"
 entityName "Ability_Daala_Nighthammer.entity"
 entityName "Buff_Daala_TarkinDoctrine_Target.entity"
@@ -42,7 +39,6 @@ entityName "Ability_Thrawn_Noghri.entity"
 entityName "Buff_Thrawn_CommandShip_Target.entity"
 entityName "Buff_Thrawn_CommandShip_Self.entity"
 entityName "Ability_Thrawn_CommandShip.entity"
->>>>>>> origin/master
 entityName "Buff_Karrde_WildKarrde.entity"
 entityName "Ability_Karrde_WildKarrde.entity"
 entityName "Buff_Karrde_SmugglersAlliance.entity"
