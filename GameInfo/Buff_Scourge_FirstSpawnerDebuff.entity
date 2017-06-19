@@ -12,7 +12,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 		delayTime 1.000000
-	buffType "C_Buff_FirstSpawnerSelfDestructCheck"
+	buffType "Buff_Scourge_FirstSpawnerSelfDestructCheck"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
@@ -29,5 +29,5 @@ finishCondition
 	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"
-		buffTypeToQuery "C_Buff_FirstSpawnerSelf"
+		buffTypeToQuery "Buff_Scourge_FirstSpawnerSelf"
 		

@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2120
+entityNameCount 2125
+entityName "Buff_IbDekeet_Velcar.entity"
+entityName "Ability_IbDekeet_Velcar.entity"
+entityName "Buff_IbDekeet_FortressMode.entity"
+entityName "Ability_IbDekeet_FortressMode.entity"
 entityName "Buff_IbDekeet_PlanetaryGovernanceSelf.entity"
 entityName "Buff_IbDekeet_PlanetaryGovernance.entity"
 entityName "Ability_IbDekeet_PlanetaryGovernance.entity"
@@ -20,6 +24,7 @@ entityName "Buff_Scourge_FirstSpawnerSelfDestruct.entity"
 entityName "Buff_Scourge_FirstSpawnerSelfDestructCheck.entity"
 entityName "Buff_Scourge_FirstSpawnerSelfDestructTimer.entity"
 entityName "Buff_Scourge_FirstSpawner.entity"
+entityName "Buff_Scourge_FirstSpawnerNoWarp.entity"
 entityName "Ability_Scourge_FirstSpawner.entity"
 entityName "Ability_Kaine_Scourge.entity"
 entityName "Buff_Kaine_DissidentSuppression.entity"

@@ -2,7 +2,7 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Kaine_IonTorpedoStrike.entity"
+buffType "Buff_Kaine_IonTorpedoStrike"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
