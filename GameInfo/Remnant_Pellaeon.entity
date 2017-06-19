@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_SPAWNHERO_PELLAEON_NAME"
-DescriptionStringID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
+NameStringID "IDS_HERO_PELLAEON_NAME"
+DescriptionStringID "IDS_HERO_PELLAEON_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ISDII"
 Prerequisites
 	NumResearchPrerequisites 1

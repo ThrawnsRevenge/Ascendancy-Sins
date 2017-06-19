@@ -11,8 +11,8 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_MUNIFICENT"
 picture "HUDICON_MUNIFICENT"
-NameStringID "IDS_FRIGATE_MUNIFICENT_NAME"
-DescriptionStringID "IDS_FRIGATE_MUNIFICENT_DESCRIPTION"
+NameStringID "IDS_HERO_BESK_NAME"
+DescriptionStringID "IDS_HERO_BESK_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
 	credits 350.000000

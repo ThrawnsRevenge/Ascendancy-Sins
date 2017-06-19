@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_ASCENDANCY_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_ASCENDANCY_DESCRIPTION"
+NameStringID "IDS_HERO_STENT_NAME"
+DescriptionStringID "IDS_HERO_STENT_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ASCENDANCY"
 Prerequisites
 	NumResearchPrerequisites 1

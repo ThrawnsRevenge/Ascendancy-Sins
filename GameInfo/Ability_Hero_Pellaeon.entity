@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Pellaeon_name"
-descStringID "C_ability_Pellaeon_desc"
-hudIcon "C_res_icon_Pellaeon"
-smallHudIcon "C_res_icon_Pellaeon"
+nameStringID "IDS_HERO_PELLAEON_NAME"
+descStringID "IDS_HERO_PELLAEON_DESCRIPTION"
+hudIcon "HUDICON_PELLAEON"
+smallHudIcon "HUDICON_PELLAEON"
 infoCardIcon ""

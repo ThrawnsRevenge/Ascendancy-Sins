@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_SPAWNHERO_THRAWN_NAME"
-DescriptionStringID "IDS_SPAWNHERO_THRAWN_DESCRIPTION"
+NameStringID "IDS_HERO_THRAWN_NAME"
+DescriptionStringID "IDS_HERO_THRAWN_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ISDII"
 Prerequisites
 	NumResearchPrerequisites 1

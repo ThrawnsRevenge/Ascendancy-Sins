@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
+NameStringID "IDS_HERO_ARALANI_NAME"
+DescriptionStringID "IDS_HERO_ARALANI_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_Syndic"
 Prerequisites
 	NumResearchPrerequisites 0

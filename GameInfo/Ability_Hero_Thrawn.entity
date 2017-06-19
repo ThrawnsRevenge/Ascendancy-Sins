@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Thrawn_name"
-descStringID "C_ability_Thrawn_desc"
-hudIcon "C_res_icon_Thrawn"
-smallHudIcon "C_res_icon_Thrawn"
+nameStringID "IDS_HERO_THRAWN_NAME"
+descStringID "IDS_HERO_THRAWN_DESCRIPTION"
+hudIcon "HUDICON_THRAWN"
+smallHudIcon "HUDICON_THRAWN"
 infoCardIcon ""

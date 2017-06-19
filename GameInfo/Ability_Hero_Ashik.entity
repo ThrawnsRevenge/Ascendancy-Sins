@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Ashik_name"
-descStringID "C_ability_Ashik_desc"
-hudIcon "C_res_icon_Ashik"
-smallHudIcon "C_res_icon_Ashik"
+nameStringID "IDS_HERO_ASHIK_NAME"
+descStringID "IDS_HERO_ASHIK_DESCRIPTION"
+hudIcon "HUDICON_ASHIK"
+smallHudIcon "HUDICON_ASHIK"
 infoCardIcon ""

@@ -12,8 +12,8 @@ frigateRoleType "ResourceCapturer"
 statCountType "FrigateScout"
 mainViewIcon "MAINVIEWICON_FRONTIER_SCOUT"
 picture "PICTURE_FRIGATE_TECHCOLONY"
-NameStringID "IDS_FRIGATE_ASCENT_NAME"
-DescriptionStringID "IDS_FRIGATE_ASCENT_DESCRIPTION"
+NameStringID "IDS_HERO_ASHIK_NAME"
+DescriptionStringID "IDS_HERO_ASHIK_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000

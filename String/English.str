@@ -3067,23 +3067,38 @@ StringInfo
 	ID "IDS_SCIMITAR_DESCRIPTION"
 	Value "A heavy fighter which excels at assaulting capital ships."
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
-	Value "Natasi Daala"
+	ID "IDS_HERO_PALPATINE_NAME"
+	Value "Palpatine - Eclipse I"
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+	ID "IDS_SPAWNHERO_PALPATINE_NAME"
+	Value "Recruit Emperor Palpatine"
+StringInfo
+	ID "IDS_SPAWNHERO_PALPATINE_DESCRIPTION"
+	Value "Emperor Palpatine and his unique flagship, the Eclipse, will join your fleet. If killed, he cannot return, ironically."
+StringInfo
+	ID "IDS_HERO_PALPATINE_DESCRIPTION"
+	Value "The Emperor embodies the idea of ruling with an iron fist. His flagship, the Eclipse, is equipped with a superlaser and hundreds of weapon emplacements."
+StringInfo
+	ID "IDS_HERO_DAALA_NAME"
+	Value "Natasi Daala - Knight Hammer"
+StringInfo
+	ID "IDS_SPAWNHERO_DAALA_NAME"
+	Value "Recruit Natasi Daala"
+StringInfo
+	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala and her custom Executor-class will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
 StringInfo
-	ID "IDS_DAALA_DESCRIPTION"
+	ID "IDS_HERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala is the supreme commander of Imperial forces, most notable in her reign for uniting the Imperial Warlords."
 StringInfo
 	ID "IDS_SPAWNHERO_PELLAEON_NAME"
-	Value "Gilad Pellaeon"
+	Value "Recruit Gilad Pellaeon"
 StringInfo
-	ID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
-	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet. If he dies, he cannot respawn."
+	ID "IDS_HERO_PELLAEON_NAME"
+	Value "Pellaeon - Right to Rule"
 StringInfo
-	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
-	Value "As the leader of the Empire, Natasi Daala reunited all of the Warlords. She commands the Executor-class, Knight Hammer, a modified ship with black stealth armour."
+	ID "IDS_HERO_PELLAEON_DESCRIPTION"
+	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
 	Value "Galaxy Gun"

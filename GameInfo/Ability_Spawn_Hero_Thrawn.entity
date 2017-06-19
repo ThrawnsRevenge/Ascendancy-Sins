@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_Thrawn_name"
-descStringID "C_spawn_Thrawn_desc"
-hudIcon "C_res_icon_Thrawn"
-smallHudIcon "C_res_icon_Thrawn"
+nameStringID "IDS_HERO_THRAWN_NAME"
+descStringID "IDS_HERO_THRAWN_DESCRIPTION"
+hudIcon "HUDICON_THRAWN"
+smallHudIcon "HUDICON_THRAWN"
 infoCardIcon ""

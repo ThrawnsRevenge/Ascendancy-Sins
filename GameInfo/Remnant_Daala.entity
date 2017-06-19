@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
-DescriptionStringID "IDS_DAALA_DESCRIPTION"
+NameStringID "IDS_HERO_DAALA_NAME"
+DescriptionStringID "IDS_HERO_DAALA_DESCRIPTION"
 picture "HUDICON_EXECUTOR"
 Prerequisites
 	NumResearchPrerequisites 1

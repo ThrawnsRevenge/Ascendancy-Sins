@@ -64,8 +64,8 @@ NumResearchPrerequisites 1
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_EltaBesk_name"
-descStringID "C_spawn_EltaBesk_desc"
-hudIcon "C_res_icon_EltaBesk"
-smallHudIcon "C_res_icon_EltaBesk"
+nameStringID "IDS_HERO_BESK_NAME"
+descStringID "IDS_HERO_BESK_DESCRIPTION"
+hudIcon "HUDICON_BESK"
+smallHudIcon "HUDICON_BESK"
 infoCardIcon ""

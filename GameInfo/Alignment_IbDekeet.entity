@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_PRAETOR_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_PRAETOR_DESCRIPTION"
+NameStringID "IDS_HERO_DEKEET_NAME"
+DescriptionStringID "IDS_HERO_DEKEET_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PRAETOR"
 Prerequisites
 	NumResearchPrerequisites 1

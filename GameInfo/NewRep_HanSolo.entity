@@ -45,8 +45,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_ABILITY_HERO_SOLO_NAME"
-DescriptionStringID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
+NameStringID "IDS_HERO_SOLO_NAME"
+DescriptionStringID "IDS_HERO_SOLO_DESCRIPTION"
 picture "HUDICON_SOLO"
 Prerequisites
 	NumResearchPrerequisites 0

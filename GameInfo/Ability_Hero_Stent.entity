@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Stent_name"
-descStringID "C_ability_Stent_desc"
-hudIcon "C_res_icon_Stent"
-smallHudIcon "C_res_icon_Stent"
+nameStringID "IDS_HERO_STENT_NAME"
+descStringID "IDS_HERO_STENT_DESCRIPTION"
+hudIcon "HUDICON_STENT"
+smallHudIcon "HUDICON_STENT"
 infoCardIcon ""
