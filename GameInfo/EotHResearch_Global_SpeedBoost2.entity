@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_Global_SpeedBoost"
+		Subject "EotHResearch_Global_SpeedBoostArmour"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

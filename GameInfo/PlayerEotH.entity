@@ -63,7 +63,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 98
+		count 97
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
@@ -77,7 +77,6 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Chaf"
 		entityDefName "EotHResearch_ShipUnlock_Ascendancy"
 		entityDefName "EotHResearch_ShipUnlock_Alaria"
-		entityDefName "EotHResearch_ShipUnlock_Efodio"
 		entityDefName "EotHResearch_ShipUnlock_Peltast"
 		entityDefName "EotHResearch_ShipUnlock_Phalanx"
 		entityDefName "EotHResearch_ShipUnlock_Intego"
