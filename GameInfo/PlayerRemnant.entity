@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 103
+		count 104
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -154,6 +154,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_TorpedoSphere"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
+		entityDefName "RemnantResearch_ShipUnlock_Palpatine"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
 		entityDefName "RemnantResearch_ShipUnlock_Allegiance"
 		entityDefName "RemnantResearch_ShipUnlock_Daala"

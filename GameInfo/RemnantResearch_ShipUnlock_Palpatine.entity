@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_PALPATINE"
+smallHudIcon "HUDICON_PALPATINE"
+infoCardIcon ""
+NameStringID "IDS_HERO_PALPATINE_NAME"
+DescriptionStringID "IDS_HERO_PALPATINE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 7 , 8 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RemnantResearch_ShipUnlock_Sovereign"
+		Level 1
+	RequiredFactionNameID "IDS_CHANGEFACTION_PALPATINE"
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 6000.000000
+	metal 1200.000000
+	crystal 500.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

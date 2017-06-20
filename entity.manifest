@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2128
+entityNameCount 2129
 entityName "Buff_IbDekeet_Velcar.entity"
 entityName "Ability_IbDekeet_Velcar.entity"
 entityName "Buff_IbDekeet_FortressMode.entity"
@@ -105,6 +105,7 @@ entityName "Buff_Han_Falcon.entity"
 entityName "Ability_Han_Falcon.entity"
 entityName "Buff_Han_FlyCasual.entity"
 entityName "Ability_Han_FlyCasual.entity"
+entityName "RemnantResearch_ShipUnlock_Palpatine.entity"
 entityName "RemnantResearch_ShipUnlock_Thrawn.entity"
 entityName "EotH_Ashik.entity"
 entityName "Buff_Hero_Remove_Ashik.entity"
