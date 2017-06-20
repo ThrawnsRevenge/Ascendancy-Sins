@@ -224,7 +224,7 @@ Weapon
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
+TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE

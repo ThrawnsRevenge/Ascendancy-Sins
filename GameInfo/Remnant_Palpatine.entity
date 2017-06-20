@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityISDColonize"
-ability:1 "AbilityProbeDroids"
-ability:2 "AbilityTractorBeam"
-ability:3 "AbilityMoleMiners"
-ability:4 "AbilityPassiveLowLifeT3"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -46,13 +46,13 @@ basePrice
 slotCount 1.000000
 BuildTime 80.000000
 MaxHullPoints
-	StartValue 5000.000000
-	ValueIncreasePerLevel 144.000000
+	StartValue 50000.000000
+	ValueIncreasePerLevel 1044.000000
 MaxShieldPoints
-	StartValue 5000.000000
-	ValueIncreasePerLevel 162.000000
+	StartValue 50000.000000
+	ValueIncreasePerLevel 1044.000000
 HullPointRestoreRate
-	StartValue 1.800000
+	StartValue 20.800000
 	ValueIncreasePerLevel 0.120000
 ShieldPointRestoreRate
 	StartValue 30.600000
@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_PALPATINE_NAME"
 DescriptionStringID "IDS_HERO_PALPATINE_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ISDI"
+picture "HUDICON_PALPATINE"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -85,7 +85,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_ISDI"
+hudIcon "HUDICON_PALPATINE"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
@@ -98,10 +98,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 1650.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:LEFT 900.000000
+	DamagePerBank:RIGHT 900.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -138,10 +138,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 300.000000
+	DamagePerBank:FRONT 500.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
