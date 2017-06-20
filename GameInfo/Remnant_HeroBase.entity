@@ -4,7 +4,7 @@ minZoomDistanceMult 2.000000
 ability:0 "Ability_Spawn_Hero_Thrawn"
 ability:1 "Ability_Spawn_Hero_Pellaeon"
 ability:2 "Ability_Spawn_Hero_Daala"
-ability:3 ""
+ability:3 "Ability_Spawn_Hero_Palpatine"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

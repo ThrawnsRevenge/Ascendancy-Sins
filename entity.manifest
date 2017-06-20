@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2125
+entityNameCount 2128
 entityName "Buff_IbDekeet_Velcar.entity"
 entityName "Ability_IbDekeet_Velcar.entity"
 entityName "Buff_IbDekeet_FortressMode.entity"
@@ -169,6 +169,8 @@ entityName "Buff_Hero_Pellaeon_Planet.entity"
 entityName "Buff_Spawn_Hero_Pellaeon_Safety.entity"
 entityName "Buff_Spawn_Hero_Pellaeon_Self.entity"
 entityName "Ability_Spawn_Hero_Pellaeon.entity"
+entityName "Buff_Spawn_Hero_Palpatine_Self.entity"
+entityName "Ability_Spawn_Hero_Palpatine.entity"
 entityName "Remnant_Thrawn.entity"
 entityName "Buff_Hero_Remove_Thrawn.entity"
 entityName "Buff_Spawn_Hero_Planet_Thrawn.entity"
@@ -752,6 +754,7 @@ entityName "Remnant_CT11_GalaxyGun.entity"
 entityName "Remnant_WorldDevastator.entity"
 entityName "Remnant_Chimera.entity"
 entityName "Remnant_Pellaeon.entity"
+entityName "Remnant_Palpatine.entity"
 entityName "Remnant_FrigateShipyard.entity"
 entityName "Remnant_CapitalShipyard.entity"
 entityName "Remnant_HeroBase.entity"
