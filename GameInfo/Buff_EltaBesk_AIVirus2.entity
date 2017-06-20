@@ -1,0 +1,130 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Buff_EltaBesk_AIVirusHit"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	minRandomAngularSpeed 0.410000
+	maxRandomAngularSpeed 0.8200000
+	minRandomLinearSpeed 0.000000
+	maxRandomLinearSpeed 0.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithChainTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "Buff_EltaBesk_AIVirus3"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "Titan"	
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 3000.000000
+		Level:1 4000.000000
+		Level:2 5000.000000
+		Level:3 6000.000000
+	maxTargetCount
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 2.000000
+		Level:3 2.000000
+	chainDelay 1.000000
+	hasWeaponEffects TRUE
+		weaponEffectOriginType "Targetter"
+		weaponEffectAttachInfo
+		attachType "Center"
+		weaponEffectImpactOffsetType "Center"
+		canWeaponEffectHitHull FALSE
+		canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+				sound ""
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+				sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+				sound ""
+		beamEffectSounds
+			soundCount 1
+				sound ""
+		beamGlowTextureName ""
+		beamCoreTextureName ""
+		beamWidth 60.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+numPeriodicActions 0
+numOverTimeActions 2
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 10.000000
+		Level:1 15.000000
+		Level:2 20.000000
+		Level:3 25.000000
+	damageAffectType "AFFECTS_ONLY_SHIELDS"
+	damageType "ENERGY"
+	isDamageShared "FALSE"
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 10.000000
+		Level:1 15.000000
+		Level:2 20.000000
+		Level:3 25.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "PHYSICAL"
+	isDamageShared "FALSE"
+numEntityModifiers 0
+numEntityBoolModifiers 4
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "DisableAbilities"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 11.000000
+		Level:2 12.000000
+		Level:3 15.000000
+finishCondition
+	finishConditionType "OwnerChanged"
