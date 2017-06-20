@@ -1,5 +1,18 @@
 TXT
-entityNameCount 2129
+entityNameCount 2141
+entityName "Buff_EltaBesk_Dynamic.entity"
+entityName "Ability_EltaBesk_Dynamic.entity"
+entityName "Buff_EltaBesk_AIVirusActivated.entity"
+entityName "Buff_EltaBesk_AIVirus4.entity"
+entityName "Buff_EltaBesk_AIVirus3.entity"
+entityName "Buff_EltaBesk_AIVirus2.entity"
+entityName "Buff_EltaBesk_AIVirus1.entity"
+entityName "Buff_EltaBesk_AIVirusHit.entity"
+entityName "Ability_EltaBesk_AIVirus.entity"
+entityName "Buff_EltaBesk_Buzzdroids.entity"
+entityName "Ability_EltaBesk_BuzzDroids.entity"
+entityName "Buff_EltaBesk_BattleDroidSwarm.entity"
+entityName "Ability_EltaBesk_BattleDroidSwarm.entity"
 entityName "Buff_IbDekeet_Velcar.entity"
 entityName "Ability_IbDekeet_Velcar.entity"
 entityName "Buff_IbDekeet_FortressMode.entity"

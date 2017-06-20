@@ -1,33 +1,80 @@
 ﻿TXT
-entityType "Frigate"
+entityType "CapitalShip"
+ability:0 "Ability_EltaBesk_BattleDroidSwarm"
+ability:1 "Ability_EltaBesk_BuzzDroids"
+ability:2 "Ability_EltaBesk_AIVirus"
+ability:3 "Ability_EltaBesk_Dynamic"
+ability:4 "Ability_Hero_Eltabesk"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
-canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
-statCountType "FrigateLongRange"
-mainViewIcon "MAINVIEWICON_MUNIFICENT"
-picture "HUDICON_MUNIFICENT"
-NameStringID "IDS_HERO_BESK_NAME"
-DescriptionStringID "IDS_HERO_BESK_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 2.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 6
+	burstDelay 0.200000
+	fireDelay 0.000000
+	muzzleEffectName "MuzzleGreen_Single_Large"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 2
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+		sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+	hitEffectName "TurbolaserImpact"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "TurbolaserGreen_Single"
+mainViewIcon "MAINVIEWICON_PRAETOR"
 basePrice
-	credits 350.000000
-	metal 55.000000
-	crystal 25.000000
+	credits 4000.000000
+	metal 300.000000
+	crystal 180.000000
 slotCount 3.000000
 BuildTime 55.000000
-hasLevels FALSE
-ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1885.000000
-MaxShieldPoints 1885.000000
-HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 20.000000
-BaseArmorPoints 2.000000
-maxMitigation 0.600000
+MaxHullPoints
+	StartValue 1885.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 1885.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 1.800000
+	ValueIncreasePerLevel 0.120000
+ShieldPointRestoreRate
+	StartValue 20.000000
+	ValueIncreasePerLevel 0.240000
+ArmorPointsFromExperience
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.540000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 60.000000
+	ValueIncreasePerLevel 0.000000
+AntiMatterRestoreRate
+	StartValue 0.00000
+	ValueIncreasePerLevel 0.001000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_HERO_BESK_NAME"
+DescriptionStringID "IDS_HERO_BESK_DESCRIPTION"
+picture "HUDICON_MUNIFICENT"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -35,14 +82,17 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 5
-numSpecificDebris 0
+numSpecificDebris 1
+specificDebrisMeshName "DebrisTechLarge"
 armorType "Medium"
-hudIcon "HUDICON_MUNIFICENT"
+hudIcon "HUDICON_PRAETOR"
 smallHudIcon "HUDICONSMALL_CRUISER"
 infoCardIcon "HUDICONSMALL_CRUISER"
-minZoomDistanceMult 2.000000
+minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
@@ -171,8 +221,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-hasWeaponLevels FALSE
-mass 2000.000000
+mass 10000.000000
 ShieldMeshName "PA_Munificent"
 renderShield TRUE
 maxAccelerationLinear 200.000000
@@ -180,18 +229,17 @@ maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
 maxAccelerationAngular 3.700000
 maxDecelerationAngular 9.999996
-maxSpeedLinear 825.000000
+maxSpeedLinear 335.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
-squadTypeEntityDef:0 ""
-squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
-squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
-squadAntiMatterCost:2 0.000000
-squadTypeEntityDef:3 ""
-squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
+squadAntiMatterCost:0 12.000000
+squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
+squadAntiMatterCost:1 12.000000
+squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadAntiMatterCost:2 12.000000
+squadTypeEntityDef:3 "Alignment_Skipray_Squad"
+squadAntiMatterCost:3 12.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTPA_MUNIFICENTATTACKTWO"
 SoundID "EVENTPA_MUNIFICENTATTACKTHREE"
@@ -215,21 +263,19 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
-ExplosionName "Frigate1"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.031500
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.052500
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
-ability:0 "AbilityBombardEmpire"
-ability:1 ""
-ability:2 ""
-ability:3 ""
-ability:4 "Ability_Hero_EltaBesk"
-MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.001000
-cargoType "Invalid"
-maxCargoCapacity 0.000000
 formationRank 0
-minShadow 0.100000
-maxShadow 0.800000
-allegianceDecreasePerRoundtrip 0.000000
-
+minShadow 0.000000
+maxShadow 1.000000
