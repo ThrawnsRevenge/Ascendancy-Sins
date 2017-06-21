@@ -1,5 +1,5 @@
 TXT
-NumStrings 8672
+NumStrings 8674
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -99,6 +99,12 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_DESCRIPTION"
 	Value "Restraining bolts are installed on astromechs when on duty, reducing the incidence of snide comments and improving their work efficiency."
+StringInfo
+	ID "IDS_ABILITY_BATTLEMEDITATION_DESCRIPTION"
+	Value "Palpatine uses the force to more effectively coordinate the forces under his control, increasing their effectiveness but also increasing the damage they take."
+StringInfo
+	ID "IDS_ABILITY_BATTLEMEDITATION_NAME"
+	Value "Battle Meditation"
 StringInfo
 	ID "IDS_ABILITY_COMMANDSPEED_DESCRIPTION"
 	Value "The Intego acts as a command and control node for vessels in range by providing updated enemy fleet movement predictions, allowing friendly vessels to close at a faster rate to their designated targets."

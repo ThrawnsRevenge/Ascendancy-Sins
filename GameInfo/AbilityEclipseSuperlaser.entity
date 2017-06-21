@@ -33,8 +33,12 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
-levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityBLevel"
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "IsCapitalShipOrstarbaseOrTitan"
 isAutoCastAvailable TRUE
