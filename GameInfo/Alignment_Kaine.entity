@@ -81,7 +81,7 @@ picture "HUDICON_EXECUTOR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RemnantResearch_ShipUnlock_Daala"
+		Subject "AlignmentResearch_ShipUnlock_ArdusKaine"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
