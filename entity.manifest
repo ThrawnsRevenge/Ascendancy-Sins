@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2146
+entityNameCount 2138
 entityName "Buff_EltaBesk_Dynamic.entity"
 entityName "Ability_EltaBesk_Dynamic.entity"
 entityName "Buff_EltaBesk_AIVirusActivated.entity"
@@ -31,14 +31,6 @@ entityName "Ability_Kaine_Reaper.entity"
 entityName "Buff_Kaine_IonTorpedoStrike.entity"
 entityName "Ability_Kaine_IonTorpedoStrike.entity"
 entityName "Alignment_Scourge.entity"
-entityName "Buff_Scourge_FirstSpawnerSelf.entity"
-entityName "Buff_Scourge_FirstSpawnerDebuff.entity"
-entityName "Buff_Scourge_FirstSpawnerSelfDestruct.entity"
-entityName "Buff_Scourge_FirstSpawnerSelfDestructCheck.entity"
-entityName "Buff_Scourge_FirstSpawnerSelfDestructTimer.entity"
-entityName "Buff_Scourge_FirstSpawner.entity"
-entityName "Buff_Scourge_FirstSpawnerNoWarp.entity"
-entityName "Ability_Scourge_FirstSpawner.entity"
 entityName "Ability_Kaine_Scourge.entity"
 entityName "Buff_Kaine_DissidentSuppression.entity"
 entityName "Ability_Kaine_DissidentSuppression.entity"

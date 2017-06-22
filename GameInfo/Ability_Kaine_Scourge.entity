@@ -2,50 +2,86 @@
 entityType "Ability"
 buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
-spawnShipsLevelCount 1
+spawnShipsLevelCount 4
 spawnShips
-	minFleetPoints 160.000000
-	maxFleetPoints 160.000000
-	requiredShipCount 1
-		requiredShip
-		type "Alignment_Scourge"
-		minCount 2
-		maxCount 2
-	randomShipCount 0
-spawnShipsArrivalDelayTime 1.000000
+	minFleetPoints 02.000000
+	maxFleetPoints 02.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 03.000000
+	maxFleetPoints 03.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 04.000000
+	maxFleetPoints 04.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 05.000000
+	maxFleetPoints 05.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShipsArrivalDelayTime 4.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityALevel"
-aiUseTime "OnlyWhenTakingDamage"
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
+useCostType "ResourcesAndMustHaveCapitalCrew"
+resourceCost
+	credits 2800.000000
+	metal 400.000000
+	crystal 250.000000
+requiredShipSlots
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+requiredCapitalShipSlots
 	Level:0 0.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 600.000000
-	Level:1 600.000000
-	Level:2 600.000000
-	Level:3 600.000000
+	Level:0 240.000000
+	Level:1 200.000000
+	Level:2 180.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
-	RequiredCompletedResearchSubjects 0	
-nameStringID ""
-descStringID ""
-hudIcon ""
-smallHudIcon ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ABILITY_REINFORCEMENTS_NAME"
+descStringID "R_ABILITY_REINFORCEMENTS_DESC"
+hudIcon "R_hudicon_fullbarrage"
+smallHudIcon "R_hudicon_fullbarrage"
 infoCardIcon ""

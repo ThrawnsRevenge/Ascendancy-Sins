@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SPAWNHERO_DAALA_NAME"
-descStringID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
-hudIcon "HUDICON_DAALA"
-smallHudIcon "HUDICON_DAALA"
+nameStringID ""
+descStringID ""
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""
