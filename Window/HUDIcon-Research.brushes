@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 615
+brushCount 616
 brush
 	name "HUDICON_RESEARCH_BULWARK"
 	content "States"
@@ -379,6 +379,24 @@ brush
 	Normal
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 883 , 83 , 50 , 37 ]
+brush
+	name "HUDICON_PALPATINE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
 brush
 	name "HUDICON_RESEARCH_CULTURECOSTDECREASE"
 	content "States"

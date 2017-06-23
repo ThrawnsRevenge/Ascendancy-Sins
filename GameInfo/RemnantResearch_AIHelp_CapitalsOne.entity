@@ -24,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 2.000000
@@ -33,11 +33,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ExperienceConstantGainRate"
 	baseValue 0.000000
-	perLevelValue 0.96666
+	perLevelValue 1.26666
 researchModifier
 	modifierType "ExperienceConstantGainLevelCap"
 	baseValue 2.000000
-	perLevelValue 0.000000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

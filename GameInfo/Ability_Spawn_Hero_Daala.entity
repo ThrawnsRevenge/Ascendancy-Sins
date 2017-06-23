@@ -66,6 +66,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_SPAWNHERO_DAALA_NAME"
 descStringID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
-hudIcon "HUDICON_DAALA"
-smallHudIcon "HUDICON_DAALA"
+hudIcon "HUDICON_RESEARCH_DAALA"
+smallHudIcon "HUDICON_RESEARCH_DAALA"
 infoCardIcon ""

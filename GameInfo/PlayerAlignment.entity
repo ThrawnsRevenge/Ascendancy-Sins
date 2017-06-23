@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 101
+		count 102
 		entityDefName "AlignmentResearch_AbilityUnlock_Embargo"
 		entityDefName "AlignmentResearch_AbilityUnlock_DrydockArms"
 		entityDefName "AlignmentResearch_AbilityUnlock_FortifiedRefueling"
@@ -138,7 +138,8 @@ entities
 		entityDefName "AlignmentResearch_ShipUnlock_StarGalleon"
 		entityDefName "AlignmentResearch_ShipUnlock_Venator"
 		entityDefName "AlignmentResearch_ShipUnlock_Vindicator"
-		entityDefName "DummyResearch_AlwaysOn"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 		entityDefName "NewRepResearch_Global_PellaeonGavrisom"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"

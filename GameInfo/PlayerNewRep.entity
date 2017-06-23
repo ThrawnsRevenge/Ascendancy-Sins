@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 106
+		count 104
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -172,8 +172,6 @@ entities
 		entityDefName "NewRepResearch_MaxShipSlots5"
 		entityDefName "NewRepResearch_MaxShipSlots6"
 		entityDefName "NewRepResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "NewRep_Empress"

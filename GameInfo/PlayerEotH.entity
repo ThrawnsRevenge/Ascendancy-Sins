@@ -63,7 +63,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 97
+		count 95
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
@@ -159,8 +159,6 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "EotH_Oto"
