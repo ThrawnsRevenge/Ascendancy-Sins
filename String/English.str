@@ -1,5 +1,221 @@
 TXT
-NumStrings 8674
+NumStrings 8746
+StringInfo
+	ID "IDS_ABILITY_IONBARRAGE_NAME"
+	Value "Ion Barrage"
+StringInfo
+	ID "IDS_ABILITY_IONBARRAGE_DESCRIPTION"
+	Value "Sends out a salvo of powerful Ion Cannon blasts, doing damage to enemy shielding and slowing their recovery."
+StringInfo
+	ID "IDS_ABILITY_REAPER_NAME"
+	Value "Reaper"
+StringInfo
+	ID "IDS_ABILITY_REAPER_DESCRIPTION"
+	Value "The flagship of the Pentastar Alignment."
+StringInfo
+	ID "IDS_ABILITY_SCOURGE_NAME"
+	Value "Scourge Squadron Leader"
+StringInfo
+	ID "IDS_ABILITY_SCOURGE_DESCRIPTION"
+	Value "Kaine summons help from other Scourge Squadron Star Destroyers temporarily."
+StringInfo
+	ID "IDS_ABILITY_VELCAR_NAME"
+	Value "Velcar"
+StringInfo
+	ID "IDS_ABILITY_VELCAR_DESCRIPTION"
+	Value "Dekeet's flagship, Velcar, is upgraded with private sector contractors to improve its functionality."
+StringInfo
+	ID "IDS_ABILITY_TIESWARM_NAME"
+	Value "TIE Swarm"
+StringInfo
+	ID "IDS_ABILITY_TIESWARM_DESCRIPTION"
+	Value "Increase the number and build rate of fighters from the Velcar for a short duration."
+StringInfo
+	ID "IDS_ABILITY_PLANETARYGOVERNANCE_NAME"
+	Value "Planetary Governance"
+StringInfo
+	ID "IDS_ABILITY_PLANETARYGOVERNANCE_DESCRIPTION"
+	Value "Improves the economy of any gravity well in which he is present."
+StringInfo
+	ID "IDS_ABILITY_FORTRESSMODE_NAME"
+	Value "Full Power"
+StringInfo
+	ID "IDS_ABILITY_FORTRESSMODE_DESCRIPTION"
+	Value "Temporarily switches all power from engines to combat systems, increasing shielding, weapon power, and weapon range for a short time."
+StringInfo
+	ID "IDS_ABILITY_ASTEROIDSHUNT_NAME"
+	Value "Asteroid Shunt"
+StringInfo
+	ID "IDS_ABILITY_ASTEROIDSHUNT_DESCRIPTION"
+	Value "Pellaeon adapts Thrawn's strategy from Coruscant, deploying cloaked asteroids as orbital mines."
+StringInfo
+	ID "IDS_ABILITY_FLEETCLOAK_NAME"
+	Value "Fleet Cloak"
+StringInfo
+	ID "IDS_ABILITY_FLEETCLOAK_DESCRIPTION"
+	Value "Pellaeon cloaks all ships in his vicinity."
+StringInfo
+	ID "IDS_ABILITY_RIGHTTORULE_NAME"
+	Value "Right to Rule"
+StringInfo
+	ID "IDS_ABILITY_RIGHTTORULE_DESCRIPTION"
+	Value "Pellaeon's command ship is staffed by the best crew available to the Empire."
+StringInfo
+	ID "IDS_ABILITY_COMMANDPELLAEON_NAME"
+	Value "Old Man of the Empire"
+StringInfo
+	ID "IDS_ABILITY_COMMANDPELLAEON_DESCRIPTION"
+	Value "Pellaeon's experience makes has made him one of the most capable admirals the galaxy has ever seen, surpassed only by Thrawn and Ackbar."
+StringInfo
+	ID "IDS_ABILITY_DARKFORCERISING_NAME"
+	Value "Dark Force Rising"
+StringInfo
+	ID "IDS_ABILITY_DARKFORCERISING_DESCRIPTION"
+	Value "Thrawn calls several Katana Fleet dreadnaughts in for support."
+StringInfo
+	ID "IDS_ABILITY_NOGHRI_NAME"
+	Value "Noghri Strike Team"
+StringInfo
+	ID "IDS_ABILITY_NOGHRI_DESCRIPTION"
+	Value "Thrawn dispatches Noghri commando teams to enemy vessels, damaging subsystems."
+StringInfo
+	ID "IDS_ABILITY_COMMANDTHRAWN_NAME"
+	Value "Brilliant Command"
+StringInfo
+	ID "IDS_ABILITY_COMMANDTHRAWN_DESCRIPTION"
+	Value "Thrawn's strategies vastly improve the effectiveness of ships under his command."
+StringInfo
+	ID "IDS_ABILITY_CHIMAERA_NAME"
+	Value "Chimaera"
+StringInfo
+	ID "IDS_ABILITY_CHIMAERA_DESCRIPTION"
+	Value "Thrawn expects and inspires excellence in his crew."
+StringInfo
+	ID "IDS_ABILITY_SURPRISE_NAME"
+	Value "Surprise!"
+StringInfo
+	ID "IDS_ABILITY_SURPRISE_DESCRIPTION"
+	Value "Karrde deploys three retractable turbolasers to fire a powerful salvo at a target vessel."
+StringInfo
+	ID "IDS_ABILITY_SMUGGLERSALLIANCE_NAME"
+	Value "Smuggler's Alliance"
+StringInfo
+	ID "IDS_ABILITY_SMUGGLERSALLIANCE_DESCRIPTION"
+	Value "Karrde summons allied smugglers from his secret organization to help in battle temporarily."
+StringInfo
+	ID "IDS_ABILITY_SPYNETWORK_NAME"
+	Value "Spy Network"
+StringInfo
+	ID "IDS_ABILITY_SPYNETWORK_DESCRIPTION"
+	Value "Karrde uses his contacts and hijacked ommuncations arrays to fully detect what's occuring in a targetted gravity well."
+StringInfo
+	ID "IDS_ABILITY_WILDKARRDE_NAME"
+	Value "Wild Karrde"
+StringInfo
+	ID "IDS_ABILITY_WILDKARRDE_DESCRIPTION"
+	Value "The equipment and crew on the Wild Karrde are the finest money can buy without official sanction."
+StringInfo
+	ID "IDS_ABILITY_AIVIRUS_NAME"
+	Value "AI Virus"
+StringInfo
+	ID "IDS_ABILITY_AIVIRUS_DESCRIPTION"
+	Value "Engineers from Dynamic Automata infect enemy computer systems with a virus, causing various systems to malfunction."
+StringInfo
+	ID "IDS_ABILITY_CORPORATEACQUISITION_NAME"
+	Value "Corporate Acquisition"
+StringInfo
+	ID "IDS_ABILITY_CORPORATEACQUISITION_DESCRIPTION"
+	Value "Besk raids the target planet, siphoning cridets from local businesses."
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_NAME"
+	Value "Ruthless Leader"
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
+	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
+StringInfo
+	ID "IDS_ABILITY_DYNAMIC_NAME"
+	Value "Dynamic"
+StringInfo
+	ID "IDS_ABILITY_DYNAMIC_DESCRIPTION"
+	Value "The crew of Besk's flagship, the Dynamic,live up to the ship's name and thrive in various circumstances."
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_NAME"
+	Value "Ruthless Leader"
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
+	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
+StringInfo
+	ID "IDS_ABILITY_TARKINDOCTRINE_NAME"
+	Value "Ruthless Leader"
+StringInfo
+	ID "IDS_ABILITY_TARKINDOCTRINE_DESCRIPTION"
+	Value "Daala uses her leadership style, inspired by Grand Moff Tarkin, to inspire her forces towards greater heights."
+StringInfo
+	ID "IDS_ABILITY_CRITICALSTRIKE_NAME"
+	Value "Critical Strike"
+StringInfo
+	ID "IDS_ABILITY_CRITICALSTRIKE_DESCRIPTION"
+	Value "Knight Hammer targets one enemy capital vessels with a focused high powered energy blast from multiple turbolasers."
+StringInfo
+	ID "IDS_ABILITY_NIGHTHAMMER_NAME"
+	Value "Knight Hammer"
+StringInfo
+	ID "IDS_ABILITY_NIGHTHAMMER_DESCRIPTION"
+	Value "Knight Hammer's various upgrades to subsystems increase its own power in combat."
+StringInfo
+	ID "IDS_ABILITY_ITSATRAP_NAME"
+	Value "IT'S A TRAP!"
+StringInfo
+	ID "IDS_ABILITY_ITSATRAP_DESCRIPTION"
+	Value "Ackbar helpfully points out the obvious, putting his fleet on increased guard for a limited time, significantly decreasing damage taken."
+StringInfo
+	ID "IDS_ABILITY_HOMEONECOMMAND_NAME"
+	Value "Fleet Command"
+StringInfo
+	ID "IDS_ABILITY_HOMEONECOMMAND_DESCRIPTION"
+	Value "Ackbar's sound strategies make the most of the ships under his command."
+StringInfo
+	ID "IDS_ABILITY_DISSIDENTSUPPRESSION_NAME"
+	Value "Dissident Suppression"
+StringInfo
+	ID "IDS_ABILITY_DISSIDENTSUPPRESSION_DESCRIPTION"
+	Value "Daala increases the bombing damage of her fleet, crushing all opposition on the planet."
+StringInfo
+	ID "IDS_ABILITY_CONCENTRATEFIRE_NAME"
+	Value "Concentrate Fire"
+StringInfo
+	ID "IDS_ABILITY_CONCENTRATEFIRE_DESCRIPTION"
+	Value "Ackbar designates a target in the enemy fleet, causing all allied ships to attack it while doing increased damage."
+StringInfo
+	ID "IDS_ABILITY_HOMEONE_NAME"
+	Value "Home One"
+StringInfo
+	ID "IDS_ABILITY_HOMEONE_DESCRIPTION"
+	Value "As the command ship of the New Republic fleet, the Home One crews are the best available, increasing their capabilities."
+StringInfo
+	ID "IDS_ABILITY_FALCON_NAME"
+	Value "A Few Modifications"
+StringInfo
+	ID "IDS_ABILITY_FALCON_DESCRIPTION"
+	Value "The Falcon is no ordinary YT-1300. Han has made several changes, upgrading subsystems."
+StringInfo
+	ID "IDS_ABILITY_WHEREITCOUNTS_NAME"
+	Value "Where It Counts"
+StringInfo
+	ID "IDS_ABILITY_WHEREITCOUNTS_DESCRIPTION"
+	Value "The Falcon quickly jumps to safety at another location."
+StringInfo
+	ID "IDS_ABILITY_LUCKSHOT_NAME"
+	Value "Lucky Shot"
+StringInfo
+	ID "IDS_ABILITY_LUCKYSHOT_DESCRIPTION"
+	Value "The Falcon's dorsal and ventral turrets quickly destroy all enemy ships around it."
+StringInfo
+	ID "IDS_ABILITY_FLYCASUAL_NAME"
+	Value "Fly Casual"
+StringInfo
+	ID "IDS_ABILITY_FLYCASUAL_DESCRIPTION"
+	Value "Han flies the Falcon in an inconspicuous way, causing enemy ships to ignore them for a small period of time."
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"

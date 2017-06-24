@@ -57,8 +57,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID ""
-descStringID ""
+nameStringID "IDS_ABILITY_PLANETARYGOVERNANCE_NAME"
+descStringID "IDS_ABILITY_PLANETARYGOVERNANCE_DESCRIPTION"
 hudIcon ""
 smallHudIcon ""
 infoCardIcon ""
