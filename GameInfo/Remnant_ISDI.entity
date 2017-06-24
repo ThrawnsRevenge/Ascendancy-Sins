@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityISDColonize"
-ability:1 "AbilityProbeDroids"
+ability:1 "AbilityOverwhelmCapital"
 ability:2 "AbilityTractorBeam"
 ability:3 "AbilityMoleMiners"
 ability:4 "AbilityPassiveLowLifeT3"
