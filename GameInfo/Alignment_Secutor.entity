@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityNumericalSuperiority"
 ability:1 "AbilityAlphaStrike"
 ability:2 "AbilityTractorBeam"
-ability:3 "AbilityISDColonize"
+ability:3 "AbilityOverwhelmCapital"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
