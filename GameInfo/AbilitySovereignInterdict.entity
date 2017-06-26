@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffSovereignInterdictSelf"
 effectInfo
@@ -10,6 +10,8 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_INTERDICTIMMOBILIZERON_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_INTERDICTIMMOBILIZERON_DESCRIPTION"
 needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -24,7 +26,18 @@ isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 20.000000
+	Level:2 10.000000
+	Level:3 5.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

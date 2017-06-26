@@ -175,7 +175,7 @@ entities
 	starBaseInfo
 		count 1
 		entityDefName "NewRep_Empress"
-	flagship "NewRep_HomeOne"
+	flagship "NewRep_Leia"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

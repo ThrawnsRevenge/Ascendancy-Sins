@@ -1,5 +1,29 @@
 TXT
-NumStrings 8674
+NumStrings 8682
+StringInfo
+	ID "IDS_HERO_PESTAGE_NAME"
+	Value "Sate Pestage"
+StringInfo
+	ID "IDS_HERO_PESTAGE_DESCRIPTION"
+	Value "The Grand Vizier of the Empire under Palpatine. Pestage took over de facto control of the Empire after Palpatine's death. If this unit dies, the Remnant is defeated."
+StringInfo
+	ID "IDS_HERO_GRANT_NAME"
+	Value "Octavian Grant"
+StringInfo
+	ID "IDS_HERO_GRANT_DESCRIPTION"
+	Value "An Imperial Grand Admiral who sought to retire in the Pentastar Alignment after Endor. If this unit dies, the Alignment is defeated."
+StringInfo
+	ID "IDS_HERO_PARCK_NAME"
+	Value "Voss Parck"
+StringInfo
+	ID "IDS_HERO_PARCK_DESCRIPTION"
+	Value "Thrawn's second in command. After Thrawn's departure to lead the Empire, Parck continued leading the Hand to live up to Thrawn's vision. If this unit dies, the Hand is defeated."
+StringInfo
+	ID "IDS_HERO_LEIA_NAME"
+	Value "Leia Organa-Solo"
+StringInfo
+	ID "IDS_HERO_LEIA_DESCRIPTION"
+	Value "A skilled diplomat and force-sensitive hero of the Rebellion. If Leia is killed, the New Republic is defeated."
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"

@@ -1,0 +1,277 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityFlagship"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 20.000000
+basePopulationKilled 0.800000
+bombingFreqTime 4.000000
+baseRange 3000.000000
+bombTransitTime 2.500000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 3
+	burstDelay 0.200000
+	fireDelay 0.000000
+	muzzleEffectName "MuzzleGreen_Single_Large"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 2
+		sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+		sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+	hitEffectName "TurbolaserPlanetImpact"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "TurbolaserGreen_Single"
+mainViewIcon "HUDICON_RESEARCH_GRANT"
+basePrice
+	credits 1180.000000
+	metal 100.000000
+	crystal 50.000000
+slotCount 1.000000
+BuildTime 80.000000
+MaxHullPoints
+	StartValue 10000.000000
+	ValueIncreasePerLevel 144.000000
+MaxShieldPoints
+	StartValue 10000.000000
+	ValueIncreasePerLevel 162.000000
+HullPointRestoreRate
+	StartValue 1.800000
+	ValueIncreasePerLevel 0.120000
+ShieldPointRestoreRate
+	StartValue 30.600000
+	ValueIncreasePerLevel 0.240000
+ArmorPointsFromExperience
+	StartValue 6.000000
+	ValueIncreasePerLevel 0.540000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 72.000000
+	ValueIncreasePerLevel 0.000000
+AntiMatterRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_HERO_GRANT_NAME"
+DescriptionStringID "IDS_HERO_GRANT_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_ISDI"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 0
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "HUDICON_RESEARCH_GRANT"
+smallHudIcon "HUDICONSMALL_RESEARCH_GRANT"
+infoCardIcon "HUDICONSMALL_RESEARCH_GRANT"
+minZoomDistanceMult 1.750000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleGreen_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "TurbolaserGreen_Single"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_ONLY_SHIELDS"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "ION"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.400000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleBlue_Single_Large"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
+		hitEffectName "IonImpact_Large"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Ion_Single"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 10000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleGreen_Single_Larger"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "TurbolaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "TurbolaserGreen_Double"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 10000.000000
+ShieldMeshName "IR_ISDI"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 525.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
+squadAntiMatterCost:0 12.000000
+squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
+squadAntiMatterCost:1 12.000000
+squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadAntiMatterCost:2 12.000000
+squadTypeEntityDef:3 "Remnant_Scimitar_Squad"
+squadAntiMatterCost:3 12.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "EVENTIR_ISDIATTACKTWO"
+SoundID "EVENTIR_ISDIATTACKTHREE"
+SoundID "EVENTIR_ISDIATTACKONE"
+NumSoundsFor:ONCREATION 1
+SoundID "EVENTIR_ISDISELECTONE"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "EVENTIR_ISDIMOVETWO"
+SoundID "EVENTIR_ISDIMOVETHREE"
+SoundID "EVENTIR_ISDIMOVEONE"
+NumSoundsFor:ONSELECTED 3
+SoundID "EVENTIR_ISDISELECTONE"
+SoundID "EVENTIR_ISDISELECTTWO"
+SoundID "EVENTIR_ISDISELECTTHREE"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "EVENTIR_ISDIMOVETWO"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "IR_ISDI"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.031500
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.052500
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_CapShip1"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

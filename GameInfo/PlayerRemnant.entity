@@ -171,7 +171,7 @@ entities
 		count 2
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
-	flagship "Remnant_Chimera"
+	flagship "Remnant_Pestage"
 debrisData
 	numRandomMeshNamesLarge 10
 	randomMeshName "DebrisPsiGenericLarge0"

@@ -32,6 +32,48 @@ instantAction
 		mediumEffectName "Ability_OrbitalCannonTechMuzzle"
 		largeEffectName "Ability_OrbitalCannonTechMuzzle"
 		soundID "WEAPON_TECHORBITALCANNON_MUZZLE"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerDoesNotHaveBuff"
+	conditionBuffType "BuffDestroyPlanetFirst"
+	conditionBuffShortName ""
+	buffType "BuffDestroyPlanetFirst"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "BuffDestroyPlanetFirst"
+	conditionBuffShortName ""
+	buffType "BuffDestroyPlanetSecond"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "BuffDestroyPlanetSecond"
+	conditionBuffShortName ""
+	buffType "BuffDestroyPlanetThird"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
