@@ -70,8 +70,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_ALPHASTRIKE_NAME"
-descStringID "IDS_ABILITY_ALPHASTRIKE_NAME"
+nameStringID "IDS_ABILITY_LUCKYSHOT_NAME"
+descStringID "IDS_ABILITY_LUCKYSHOT_DESCRIPTION"
 hudIcon "HUDABILITYICON_ALPHASTRIKE"
 smallHudIcon "HUDABILITYICON_ALPHASTRIKE"
 infoCardIcon ""

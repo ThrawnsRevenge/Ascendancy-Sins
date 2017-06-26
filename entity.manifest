@@ -1,5 +1,17 @@
 TXT
-entityNameCount 2143
+entityNameCount 2155
+entityName "Buff_Stent_ParametricShield.entity"
+entityName "Ability_Stent_ParametricShield.entity"
+entityName "Buff_Stent_Retribution.entity"
+entityName "Ability_Stent_Retribution.entity"
+entityName "Buff_Stent_PlasmaRoundAmplified.entity"
+entityName "Buff_Stent_PlasmaRoundNormal.entity"
+entityName "Buff_Stent_PlasmaRound.entity"
+entityName "Ability_Stent_PlasmaRound.entity"
+entityName "Buff_Stent_GraviticRoundTarget.entity"
+entityName "Buff_Stent_GraviticRoundNormal.entity"
+entityName "Buff_Stent_GraviticRoundAmplified.entity"
+entityName "Ability_Stent_GraviticRound.entity"
 entityName "Buff_EltaBesk_Dynamic.entity"
 entityName "Ability_EltaBesk_Dynamic.entity"
 entityName "Buff_EltaBesk_AIVirusActivated.entity"

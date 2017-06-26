@@ -1,0 +1,107 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerHasBuff"
+	conditionBuffType "Buff_Stent_ParametricShield"
+	conditionBuffShortName ""
+	buffType "Buff_Stent_GraviticRoundNormal"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "StarBase"
+		object "PlanetModule"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	range
+		Level:0 2500.000000
+		Level:1 2500.000000
+		Level:2 2500.000000
+		Level:3 2500.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "Buff_Stent_ParametricShield"
+	conditionBuffShortName ""
+	buffType "Buff_Stent_GraviticRoundAmplified"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	range
+		Level:0 5000.000000
+		Level:1 5000.000000
+		Level:2 5000.000000
+		Level:3 5000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 4.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000

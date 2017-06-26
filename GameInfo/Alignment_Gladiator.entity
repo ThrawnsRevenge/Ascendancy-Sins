@@ -16,7 +16,7 @@ DescriptionStringID "IDS_FRIGATE_GLADIATOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
 	credits 225.000000
-	metal 60.000000
+	metal 40.000000
 	crystal 15.000000
 slotCount 3.000000
 BuildTime 25.000000

@@ -54,8 +54,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID ""
-descStringID ""
+nameStringID "IDS_ABILITY_SPYNETWORK_NAME"
+descStringID "IDS_ABILITY_SPYNETWORK_DESCRIPTION"
 hudIcon ""
 smallHudIcon ""
 infoCardIcon ""

@@ -1,8 +1,8 @@
-TXT
+﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Kaine_IonTorpedoStrike"
+buffType "Buff_Stent_PlasmaRound"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
@@ -15,28 +15,42 @@ targetFilter
 	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 0
+	numConstraints 2
+	constraint "NotInvulnerable"
+	constraint "HasWeapons"
 range
-	Level:0 5000.000000
-	Level:1 5000.000000
-	Level:2 5000.000000
-	Level:3 5000.000000
-maxTargetCount
-	Level:0 -1.000000
-	Level:1 -1.000000
-	Level:2 -1.000000
-	Level:3 -1.000000
-effectInfo
-	effectAttachInfo
-		attachType "Center"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
-travelSpeed 1000.000000
-effectStaggerDelay 0.000000
-hasWeaponEffects FALSE
-needsToFaceTarget FALSE
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
+travelSpeed 10000.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName ""
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	projectileTravelEffectName ""
+needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
@@ -49,10 +63,10 @@ minExperienceLevelRequired
 	Level:3 6.000000
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 10.000000
-	Level:1 10.000000
-	Level:2 10.000000
-	Level:3 10.000000
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 4.000000
+	Level:3 4.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -66,17 +80,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 120.000000
-	Level:1 120.000000
-	Level:2 120.000000
-	Level:3 120.000000
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_IONBARRAGE_NAME"
-descStringID "IDS_ABILITY_IONBARRAGE_DESCRIPTION"
+nameStringID ""
+descStringID ""
 hudIcon ""
 smallHudIcon ""
 infoCardIcon ""

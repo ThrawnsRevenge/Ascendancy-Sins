@@ -16,7 +16,7 @@ hudIcon "HUDICON_NAVALCOMMAND"
 smallHudIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 infoCardIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 0.000000
 basePrice
 	credits 900.000000
 	metal 100.000000

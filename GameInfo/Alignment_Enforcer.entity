@@ -16,7 +16,7 @@ DescriptionStringID "IDS_FRIGATE_ENFORCER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
 	credits 300.000000
-	metal 35.000000
+	metal 60.000000
 	crystal 20.000000
 slotCount 4.000000
 BuildTime 45.000000
