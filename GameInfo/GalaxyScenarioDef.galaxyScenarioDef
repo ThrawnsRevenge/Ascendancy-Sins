@@ -932,7 +932,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 181
+planetItemTypeCount 180
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1074,9 +1074,6 @@ planetItemType
 planetItemType
 	designName "Artifact:StrongCulture"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
-planetItemType
-	designName "Artifact:WormholeTravel"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"	
 planetItemType
 	designName "Artifact:BuildTimeReduction"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"	

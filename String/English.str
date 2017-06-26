@@ -5678,10 +5678,10 @@ StringInfo
 	Value "*VALUE0*: *SPACING170* *VALUE1*"
 StringInfo
 	ID "IDSInfoCardArtifactUndiscoveredDesc"
-	Value "Your empire has not discovered this artifact yet. Exploring your empire's planets has a chance to find artifacts."
+	Value "Your empire has not discovered this holocron yet. Exploring your empire's planets has a chance to find holocrons."
 StringInfo
 	ID "IDSInfoCardArtifactUnownedStatus"
-	Value "You no longer own this artifact."
+	Value "You no longer own this holocron."
 StringInfo
 	ID "IDS_INFOCARD_GAMEEVENTCATEGORYTITLEFORMAT"
 	Value "%s Reports"
@@ -12125,58 +12125,58 @@ StringInfo
 	Value "By harnessing the Unity's collective mind, all capital ships continously gain experience until the level cap. In addition, they receive bonus experience in combat."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_NAME"
-	Value "Jump Drive Relic"
+	Value "Galaxies Far, Far Away"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
-	Value "A highly advanced jump drive discovered in crash wreckage. Nearly undamaged, its technology allows travel to distant star systems at greatly accelerated rates and reduces the size of your empire's phase drives, decreasing ship mass."
+	Value "This holocron contains navigational information to reach other galaxies."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Resilient Metaloids"
+	Value "Improved Astromech Algorithms"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "A previously undiscovered compound grants quickened hull repair rates and increased armor when incorporated into hull plating, and hardens planets from bombardment."
+	Value "This holocron contains advanced astromech programming which can be used to make repairs more efficient."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
-	Value "Phase Accelerator"
+	Value "Navigational Charts"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "Deciphering the function of a hidden Phase Drive prototype greatly increases the speed at which your ships Phase Jump."
+	Value "This holocron contains detailed maps of galactic hyperlanes, allowing faster travel between planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
-	Value "Power Core Relic"
+	Value "Logistic Theory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
-	Value "A power source left behind by an ancient race, it significantly increases antimatter capacity and regeneration rates."
+	Value "Information stored in this holocron allows for passive restoration of fighter supply for some factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
-	Value "Ion Field Generator"
+	Value "Planetary Shield"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
-	Value "A large planetary energy system that emits charged particles into the upper atmosphere, creating a partial barrier to orbital bombardment. Also forces enemies to approach closer to the planet before beginning bombardment."
+	Value "A large planetary shield, creating a partial barrier to orbital bombardment. Also forces enemies to approach closer to the planet before beginning bombardment."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-	Value "Planetary Organic AI"
+	Value "Eficient Bureaucracy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
-	Value "A sentient cybernetic artificial intelligence manages all aspects of population development on your empire's planets, yielding higher populations, growth and tax rates."
+	Value "Improved systems for managing all aspects of population development on your empire's planets, yielding higher populations, growth and tax rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
-	Value "Data Archive"
+	Value "Ancient Holocron"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
-	Value "An advanced storage and simulation engine, it facilitates the act of performing research, thus reducing research time and cost."
+	Value "A long-lost repository of knowledge, it facilitates the act of performing research, thus reducing research time and cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-	Value "Relativistic Factories"
+	Value "Construction Methods"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
 	Value "Uncovered factory designs allow ships and modules to be constructed in a relativistically accelerated frame of reference, making them build at a quicker rate. These advanced factories also allow you to support additional civilian structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
-	Value "Manifest Dominion"
+	Value "Improved Holonet Arrays"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
-	Value "Holographic documents of unknown origin foretell your empire to become the galaxy's one true power. Culture spread rates, resistance to hostile culture, and relations with other factions are increased."
+	Value "Holonet arrays are improved accross your faction. Culture spread rates, resistance to hostile culture, and relations with other factions are increased."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
 	Value "Matter Compressor"
@@ -12185,10 +12185,10 @@ StringInfo
 	Value "An atomic scale scanning and reordering system, it allows all manner of products to be spatially compressed in order to make for more efficient transport through your empire's trade network."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
-	Value "Kinetic Intensifier"
+	Value "Condensed Tibanna"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
-	Value "Powerful quantum accelerator technology slightly increases the range and damage of all weapons."
+	Value "New methods for weaponized gas compression slightly increases the range and damage of all weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_NAME"
 	Value "Jump Field Generator"
@@ -20789,7 +20789,7 @@ StringInfo
 	Value "Non Combat research done"
 StringInfo
 	ID "IDS_GameStat_ArtifactResearchUpgradesDone"
-	Value "Artifact discoveries"
+	Value "Holocron discoveries"
 StringInfo
 	ID "IDS_GameStat_FleetResearchUpgradesDone"
 	Value "Fleet research done"
@@ -20813,7 +20813,7 @@ StringInfo
 	Value "Starbase upgrades"
 StringInfo
 	ID "IDS_GameStat_ArtifactLevelPlanetUpgradesDone"
-	Value "Planet upgrades - Artifacts"
+	Value "Planet upgrades - Holocrons"
 StringInfo
 	ID "IDS_GameStat_QuestsReceived"
 	Value "Quests Received"
@@ -24275,7 +24275,7 @@ StringInfo
 	Value "Logistical Slots"
 StringInfo
 	ID "IDSEmpireWindowSelectionButtonPlanetsWithArtifacts"
-	Value "Artifacts"
+	Value "Holocrons"
 StringInfo
 	ID "IDSStatsScreenTitle"
 	Value "STATISTICS"
@@ -24659,7 +24659,7 @@ StringInfo
 	Value "Select all planets with available Civilian Slots."
 StringInfo
 	ID "IDSEmpireWindowInfoCardSelectionButtonDescOwnedPlanetsWithArtifacts"
-	Value "Select all planets with discovered Artifacts."
+	Value "Select all planets with discovered holocrons."
 StringInfo
 	ID "IDSEmpireWindowInfoCardToggleShowChildrenButton"
 	Value "Toggle Expanded"
@@ -24902,7 +24902,7 @@ StringInfo
 	Value "Tip: Planets with low Allegiance will have lower credit and resource income."
 StringInfo
 	ID "IDSLoadScreenTip27"
-	Value "Tip: Explore planets from their Planet Development menu to find valuable artifacts and other bonuses."
+	Value "Tip: Explore planets from their Planet Development menu to find valuable holocrons and other bonuses."
 StringInfo
 	ID "IDSLoadScreenTip28"
 	Value "Tip: Completing missions for other empires will raise their opinion of you, eventually leading to peace offers and other treaties."
@@ -24956,7 +24956,7 @@ StringInfo
 	Value "Select civilian slot planets"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_SELECTPLANETSWITHARTIFACTS"
-	Value "Select artifact planets"
+	Value "Select holocron planets"
 StringInfo
 	ID "IDSAchievementsWindowPercCompleteLabel"
 	Value "Achievements Completed:"
