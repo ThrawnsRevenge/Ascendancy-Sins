@@ -240,7 +240,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_FLYCASUAL_DESCRIPTION"
 	Value "Han flies the Falcon in an inconspicuous way, causing enemy ships to ignore them for a small period of time."
->>>>>>> origin/master
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
