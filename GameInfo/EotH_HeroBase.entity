@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
-ability:0 "Ability_Spawn_Hero_Ashik"
+ability:0 "Ability_Spawn_Hero_Siath"
 ability:1 "Ability_Spawn_Hero_Aralani"
 ability:2 "Ability_Spawn_Hero_Stent"
 ability:3 ""

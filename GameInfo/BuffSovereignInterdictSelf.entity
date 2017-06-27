@@ -57,3 +57,4 @@ entityBoolModifier "DisableWeapons"
 numFinishConditions 1
 finishCondition
 	finishConditionType "OwnerChanged"
+	

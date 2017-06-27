@@ -12,12 +12,12 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Buff_Spawn_Hero_Planet_Ashik"
+	buffType "Buff_Spawn_Hero_Planet_Siath"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Buff_Spawn_Hero_Ashik_Safety"
+	buffType "Buff_Spawn_Hero_Siath_Safety"
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"

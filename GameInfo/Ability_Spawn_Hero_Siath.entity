@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Spawn_Hero_Ashik_Self"
+buffType "Buff_Spawn_Hero_Siath_Self"
 targetFilter
 	numOwnerships 1
 	ownership "Player"
@@ -60,12 +60,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Ashik"
+		Subject "EotHResearch_ShipUnlock_Siath"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SPAWNHERO_ASHIK_NAME"
-descStringID "IDS_HERO_ASHIK_DESCRIPTION"
-hudIcon "HUDICON_ASHIK"
-smallHudIcon "HUDICON_ASHIK"
+nameStringID "IDS_SPAWNHERO_Siath_NAME"
+descStringID "IDS_HERO_Siath_DESCRIPTION"
+hudIcon "HUDICON_Siath"
+smallHudIcon "HUDICON_Siath"
 infoCardIcon ""

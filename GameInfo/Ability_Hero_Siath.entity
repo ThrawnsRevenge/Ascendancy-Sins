@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Hero_AshikSelf"
+buffType "Buff_Hero_SiathSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_ASHIK_NAME"
-descStringID "IDS_HERO_ASHIK_DESCRIPTION"
-hudIcon "HUDICON_ASHIK"
-smallHudIcon "HUDICON_ASHIK"
+nameStringID "IDS_HERO_Siath_NAME"
+descStringID "IDS_HERO_Siath_DESCRIPTION"
+hudIcon "HUDICON_Siath"
+smallHudIcon "HUDICON_Siath"
 infoCardIcon ""

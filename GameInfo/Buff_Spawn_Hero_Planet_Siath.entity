@@ -18,7 +18,7 @@ instantAction
 		maxFleetPoints 31.000000
 		requiredShipCount 1
 		requiredShip
-			type "EotH_Ashik"
+			type "EotH_Siath"
 			minCount 1
 			maxCount 1
 		randomShipCount 0
@@ -27,7 +27,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnBuffFinish"
-	buffType "Buff_Hero_Remove_Ashik"
+	buffType "Buff_Hero_Remove_Siath"
 	travelSpeed 900000.000000
 	hasWeaponEffects FALSE
 numPeriodicActions 0

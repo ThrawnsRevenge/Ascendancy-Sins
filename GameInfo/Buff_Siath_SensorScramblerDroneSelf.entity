@@ -4,15 +4,29 @@ onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "RemoveBuffOfType"
+	buffInstantActionType "CreateFrigate"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "Buff_Spawn_Hero_Ashik_Self"
+	frigateType "EotH_SensorScramblerDrone"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	matchOwnerDamageState FALSE
+	impulse 35000.000000
+	expiryTime
+		Level:0 60.000000
+		Level:1 60.000000
+		Level:2 60.000000
+		Level:3 60.000000
+	spawnFrigateSoundID "EFFECT_DEPLOYSIEGETURRET"
+	postSpawnBuff ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

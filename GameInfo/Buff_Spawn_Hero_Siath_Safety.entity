@@ -19,7 +19,7 @@ instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 20.000000
-	buffTypeToRemove "Buff_Spawn_Hero_Planet_Ashik"
+	buffTypeToRemove "Buff_Spawn_Hero_Planet_Siath"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
