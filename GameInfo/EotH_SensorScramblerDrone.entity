@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AbilityCreated"
 statCountType "FrigateSpawnedByAbility"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASENANITE"
-picture "Unit_Picture_Rom"
+picture ""
 NameStringID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
@@ -37,8 +37,8 @@ numRandomDebrisSmall 2
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "MAINVIEWICON_FRIGATE_PHASENANITE"
-smallHudIcon "R_icon_decoydrone"
-infoCardIcon "R_icon_decoydrone"
+smallHudIcon ""
+infoCardIcon ""
 minZoomDistanceMult 12.000000
 NumWeapons 0
 m_weaponIndexForRange 0

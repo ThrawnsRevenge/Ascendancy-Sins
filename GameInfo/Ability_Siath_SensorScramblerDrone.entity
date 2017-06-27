@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Siath_DecoyDroneSelf"
+buffType "Buff_Siath_SensorScramblerDroneSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
