@@ -1,5 +1,11 @@
 TXT
-NumStrings 8767
+NumStrings 8769
+StringInfo
+	ID "IDS_HERO_SIATH_NAME"
+	Value "Siath - Battlehammer"
+StringInfo
+	ID "IDS_HERO_SIATH_DESCRIPTION"
+	Value "A high-ranking Chiss admiral within Thrawn's household phalanx forces."
 StringInfo
 	ID "IDS_HERO_KAINE_NAME"
 	Value "Ardus Kaine - Reaper"
@@ -48,6 +54,78 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_SCOURGE_DESCRIPTION"
 	Value "Kaine summons help from other Scourge Squadron Star Destroyers temporarily."
+StringInfo
+	ID "IDS_ABILITY_SENSORSCRAMBLER_NAME"
+	Value "Sensor Scrambler"
+StringInfo
+	ID "IDS_ABILITY_SENSORSCRAMBLER_DESCRIPTION"
+	Value "Deploys autonomous drones which draw enemy fire to themselves."
+StringInfo
+	ID "IDS_ABILITY_CHISSINTEL_NAME"
+	Value "Hand Intelligence"
+StringInfo
+	ID "IDS_ABILITY_CHISSINTEL_DESCRIPTION"
+	Value "Deploys scouts to the target gravity well to gather intelligence for the Hand of Thrawn's archives."
+StringInfo
+	ID "IDS_ABILITY_BATTLEHAMMER_NAME"
+	Value "Battlehammer"
+StringInfo
+	ID "IDS_ABILITY_BATTLEHAMMER_DESCRIPTION"
+	Value "Siath's intense discipline grants bonuses to his crew."
+StringInfo
+	ID "IDS_ABILITY_GRAVITYBOMB_NAME"
+	Value "Gravity Bomb"
+StringInfo
+	ID "IDS_ABILITY_GRAVITYBOMB_DESCRIPTION"
+	Value "The detonation of this bomb draws in nearby objects causing increased damage upon impact."
+StringInfo
+	ID "IDS_ABILITY_RETRIBUTION_NAME"
+	Value "Retribution"
+StringInfo
+	ID "IDS_ABILITY_RETRIBUTION_DESCRIPTION"
+	Value "As the flagship of the commander of Thrawn's Chiss forces, Retribution has the most skilled crews in the Hand fleet."
+StringInfo
+	ID "IDS_ABILITY_DAMPENING_NAME"
+	Value "Sensor Dampening"
+StringInfo
+	ID "IDS_ABILITY_DAMPENING_DESCRIPTION"
+	Value "Frontier reduces the effectiveness of sensors on surrounding enemies, reducing response time on attacks and causing increased damage to those targets."
+StringInfo
+	ID "IDS_ABILITY_DECORATEDCOMMANDER_NAME"
+	Value "Decorated Commander"
+StringInfo
+	ID "IDS_ABILITY_DECORATEDCOMMANDER_DESCRIPTION"
+	Value "Ar'alani's decades of experience within the Chiss Expansionary Defense Force grants significant bonuses to her forces."
+StringInfo
+	ID "IDS_ABILITY_FRONTIER_NAME"
+	Value "Frontier"
+StringInfo
+	ID "IDS_ABILITY_FRONTIER_DESCRIPTION"
+	Value "Ar'alani's crews benefit from her years of experience, improving their effectiveness."
+StringInfo
+	ID "IDS_ABILITY_TARGETENGINES_NAME"
+	Value "Target Engines"
+StringInfo
+	ID "IDS_ABILITY_TARGETENGINES_DESCRIPTION"
+	Value "Directs the Frontier's fire to enemy engines, crippling them."
+StringInfo
+	ID "IDS_ABILITY_PLASMAROUND_NAME"
+	Value "Plasma Round"
+StringInfo
+	ID "IDS_ABILITY_PLASMAROUND_DESCRIPTION"
+	Value "Retribution shoots a powerful round capable of seeping through the target's shields and directly damaging the hull."
+StringInfo
+	ID "IDS_ABILITY_GRAVITICROUND_NAME"
+	Value "Gravitic Round"
+StringInfo
+	ID "IDS_ABILITY_GRAVITICROUND_DESCRIPTION"
+	Value "Retribution shoots a gravity bomb at the target, drawing surrounding matter in and causing damage."
+StringInfo
+	ID "IDS_ABILITY_PARAMETRICSHIELD_NAME"
+	Value "Parametric Shield"
+StringInfo
+	ID "IDS_ABILITY_PARAMETRICSHIELD_DESCRIPTION"
+	Value "Directs energy first to shields, and then towards amplifying the next ability cast."
 StringInfo
 	ID "IDS_ABILITY_VELCAR_NAME"
 	Value "Velcar"

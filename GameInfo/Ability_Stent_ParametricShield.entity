@@ -44,8 +44,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_BARRIERSHIELD_NAME"
-descStringID "IDS_ABILITY_BARRIERSHIELD_DESCRIPTION"
+nameStringID "IDS_ABILITY_PARAMETRICSHIELD_NAME"
+descStringID "IDS_ABILITY_PARAMETRICSHIELD_DESCRIPTION"
 hudIcon "HUDABILITYICON_BELLATORREACTOR"
 smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
 infoCardIcon ""
