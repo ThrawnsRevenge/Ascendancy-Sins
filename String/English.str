@@ -1,5 +1,11 @@
 TXT
-NumStrings 8754
+NumStrings 8767
+StringInfo
+	ID "IDS_HERO_KAINE_NAME"
+	Value "Ardus Kaine - Reaper"
+StringInfo
+	ID "IDS_HERO_KAINE_DESCRIPTION"
+	Value "A highly intelligent Grand Moff who formed the Pentastar Alignment soon after the death of the Empire ."
 StringInfo
 	ID "IDS_HERO_PESTAGE_NAME"
 	Value "Sate Pestage"
@@ -266,7 +272,10 @@ StringInfo
 	Value "Planet Detail"
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
-	Value "Validusia Trade Station"
+	Value "Validusia Space Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VALIDUSIA_DESCRIPTION"
+	Value "A large space station specializing in defense and supply."
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_NAME"
 	Value "Validusia Station"
@@ -481,6 +490,18 @@ StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
+	Value "Diverse Military"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
+	Value "The Alignment allows aliens in the military, decreasing allegiance among human populations."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
+	Value "Diverse Military"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
+	Value "The Alignment allows aliens in the military, decreasing allegiance among human populations."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_ENHANCEDDEFENSE_NAME"
 	Value "Enhanced Defense"
 StringInfo
@@ -664,7 +685,7 @@ StringInfo
 	ID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
 	Value "Upgrade Computers"
 StringInfo
-	ID "DS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
+	ID "IDS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
 	Value "Targeting computers are upgraded, improving the ability to target critical systems. Increases both chance to hit and damage on hit."
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_NAME"
@@ -688,7 +709,7 @@ StringInfo
 	ID "IDS_ABILITY_UPGRADEDEFENSES_NAME"
 	Value "Upgrade Defenses"
 StringInfo
-	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
+	ID "IDS_ABILITY_UPGRADEDEFENSES_DESCRIPTION"
 	Value "Installs upgraded plating and shields on the target allied ship."
 StringInfo
 	ID "IDS_ABILITY_KINETICMEGAMASER_NAME"
@@ -823,6 +844,12 @@ StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCAR_DESCRIPTION"
 	Value "Incorporates the Velcar Free Commerce Zone into the Pentastar Alignment, raising trade revenues but lowering loyalty because of slave labour."
 StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PRIVATELEASING_NAME"
+	Value "Private Surplus"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PRIVATELEASING_DESCRIPTION"
+	Value "When scuttling ships, private companies can bid for the materials."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
 	Value "Institutionalized Slavery"
 StringInfo
@@ -954,6 +981,12 @@ StringInfo
 StringInfo
 	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_DESCRIPTION"
 	Value "Allows the establishment of New Republic bases on arctic worlds."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_NAME"
+	Value "Coalition Forces"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_DESCRIPTION"
+	Value "Damage increases for every ally in a gravity well fighting alongside our forces."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFORCES_NAME"
 	Value "Supporting Fire"
@@ -1343,10 +1376,10 @@ StringInfo
 	Value "An old Corellian vessel with moderate firepower whose main use comes from its adaptability."
 StringInfo
 	ID "IDS_FRIGATE_AURIETTE_NAME"
-	Value "Au'riette Fleet Carrier"
+	Value "Ormos Fleet Carrier"
 StringInfo
 	ID "IDS_FRIGATE_AURIETTE_DESCRIPTION"
-	Value "A large support vessel dedicated to the transport of a sizeable complement of starfighters."
+	Value "A small carrier dedicated to the transport of a sizeable complement of starfighters."
 StringInfo
 	ID "IDS_FRIGATE_DECIMATOR_NAME"
 	Value "Decimator Cruiser"
@@ -1355,13 +1388,13 @@ StringInfo
 	Value "A hardy and versatile combat cruiser."
 StringInfo
 	ID "IDS_FRIGATE_KARIEK_NAME"
-	Value "Kariek Cruiser"
+	Value "Frouro Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_KARIEK_DESCRIPTION"
-	Value "A heavily armed and shielded frigate let down only by its uncharacteristically weak hull."
+	Value "A small fast frigate with heavy weaponry but a weak hull."
 StringInfo
 	ID "IDS_FRIGATE_MASSIAS_NAME"
-	Value "Massias Interdictor"
+	Value "Prolipsi Interdictor"
 StringInfo
 	ID "IDS_FRIGATE_MASSIAS_DESCRIPTION"
 	Value "A curious blend of Chiss and Imperial technology, the Massias is a small yet versatile frigate able to trap enemies within an artificial gravity well."
@@ -1463,13 +1496,13 @@ StringInfo
 	Value "A significant component of the Imperial fleet, the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_NAME"
-	Value "Fleet Tender: Alaria Freighter"
+	Value "Fleet Tender: Afthonia Freighter"
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
 	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_NAME"
-	Value "Bu'direch Cruiser"
+	Value "Prosvoli Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
 	Value "A fusion of the old Republic Dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
@@ -1487,7 +1520,7 @@ StringInfo
 	Value "A modified Dreadnaught with added ion cannons and a small hangar."
 StringInfo
 	ID "IDS_FRIGATE_ASCENT_NAME"
-	Value "Frontier Scout"
+	Value "Synoro Scout"
 StringInfo
 	ID "IDS_FRIGATE_ASCENT_DESCRIPTION"
 	Value "A sleek and inconspicuous vessel designed to get quickly into and out of new territories for the Empire of the Hand without drawing undue attention."
@@ -2037,6 +2070,12 @@ StringInfo
 StringInfo
 	ID "IDS_EOTHRESEARCH_EXITDISTANCE_DESCRIPTION"
 	Value "Improvements to navigation computers allows Empire of the Hand ships to exit hyperspace farther into a system."
+StringInfo
+	ID "IDS_EOTHRESEARCH_MEGAMASERS_NAME"
+	Value "Megamaser Improvements"
+StringInfo
+	ID "IDS_EOTHRESEARCH_MEGAMASERS_DESCRIPTION"
+	Value "Hand maser technolology is improved, increasing damage dealt by maser-based weaponry."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_SHIELDUPGRADE_NAME"
 	Value "Shielding"
@@ -2794,7 +2833,7 @@ StringInfo
 	ID "IDS_ABILITY_OVERWHELM_NAME"
 	Value "Overwhelm"
 StringInfo
-	ID "IDS_ABILITY_OVERHWHELM_DESCRIPTION"
+	ID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	Value "Transfers engine and shield generator power to weapons, dealing more damage for a short time."
 StringInfo
 	ID "IDS_ABILITY_PTS_NAME"

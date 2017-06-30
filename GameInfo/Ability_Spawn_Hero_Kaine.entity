@@ -64,8 +64,9 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID ""
-descStringID ""
-hudIcon ""
-smallHudIcon ""
+nameStringID "IDS_HERO_KAINE_NAME"
+descStringID "IDS_HERO_KAINE_DESCRIPTION"
+hudIcon "HUDICON_KAINE"
+smallHudIcon "HUDICON_KAINE"
 infoCardIcon ""
+

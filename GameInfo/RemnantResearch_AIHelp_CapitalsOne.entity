@@ -33,10 +33,10 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ExperienceConstantGainRate"
 	baseValue 0.000000
-	perLevelValue 1.26666
+	perLevelValue 2.86666
 researchModifier
 	modifierType "ExperienceConstantGainLevelCap"
-	baseValue 2.000000
+	baseValue 3.000000
 	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
