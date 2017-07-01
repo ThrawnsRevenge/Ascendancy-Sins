@@ -2,7 +2,7 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Parck_Strikefast"
+buffType "Buff_Leia_DiplomaticImmunity"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -21,20 +21,36 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "HullDamageExceedsAmount"
+	onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_STRIKEFAST_NAME"
-descStringID "IDS_ABILITY_STRIKEFAST_DESCRIPTION"
-hudIcon "HUDABILITYICON_PROTECT"
-smallHudIcon "HUDABILITYICON_PROTECT"
+nameStringID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
+descStringID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
+hudIcon "HUDABILITYICON_ALPHASTRIKE"
+smallHudIcon "HUDABILITYICON_ALPHASTRIKE"
 infoCardIcon ""

@@ -2,10 +2,10 @@ TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Parck_Strikefast"
+buffType "Buff_Grant_CommandShip_Self"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -33,8 +33,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_STRIKEFAST_NAME"
-descStringID "IDS_ABILITY_STRIKEFAST_DESCRIPTION"
+nameStringID "IDS_ABILITY_GRANDADMIRAL_NAME"
+descStringID "IDS_ABILITY_GRANDADMIRAL_DESCRIPTION"
 hudIcon "HUDABILITYICON_PROTECT"
 smallHudIcon "HUDABILITYICON_PROTECT"
 infoCardIcon ""

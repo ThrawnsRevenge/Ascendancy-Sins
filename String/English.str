@@ -1,5 +1,29 @@
 TXT
-NumStrings 8769
+NumStrings 8801
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
+	Value "Diplomatic Immunity"
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
+	Value "Leia is able to escape damage for a brief period."
+StringInfo
+	ID "IDS_ABILITY_CIUTRIC_NAME"
+	Value "Ciutric"
+StringInfo
+	ID "IDS_ABILITY_CIUTRIC_DESCRIPTION"
+	Value "Pestage's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_ABILITY_REBELDREAM_NAME"
+	Value "Rebel Dream"
+StringInfo
+	ID "IDS_ABILITY_REBELDREAM_DESCRIPTION"
+	Value "Leia's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_ABILITY_ORIFLAMME_NAME"
+	Value "Oriflamme"
+StringInfo
+	ID "IDS_ABILITY_ORIFLAMME_DESCRIPTION"
+	Value "Grant's crew gains extra bonuses as he gains levels."
 StringInfo
 	ID "IDS_HERO_SIATH_NAME"
 	Value "Siath - Battlehammer"

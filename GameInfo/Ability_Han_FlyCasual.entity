@@ -41,16 +41,16 @@ antiMatterCost
 	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
-	Level:1 95.000000
-	Level:2 60.000000
-	Level:3 45.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 90.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_FLYCASUAL_NAME"
-descStringID "IDS_ABILITY_fLYCASUAL_DESCRIPTION"
+descStringID "IDS_ABILITY_FLYCASUAL_DESCRIPTION"
 hudIcon "HUDABILITYICON_ALPHASTRIKE"
 smallHudIcon "HUDABILITYICON_ALPHASTRIKE"
 infoCardIcon ""

@@ -1,5 +1,21 @@
 TXT
-entityNameCount 2177
+entityNameCount 2193
+entityName "Buff_Pestage_Ciutric.entity"
+entityName "Ability_Pestage_Ciutric.entity"
+entityName "Buff_Leia_RebelDream.entity"
+entityName "Ability_Leia_RebelDream.entity"
+entityName "Buff_Leia_DiplomaticImmunity.entity"
+entityName "Ability_Leia_DiplomaticImmunity.entity"
+entityName "Buff_Parck_Strikefast.entity"
+entityName "Ability_Parck_Strikefast.entity"
+entityName "Buff_Parck_CommandShip_Target.entity"
+entityName "Buff_Parck_CommandShip_Self.entity"
+entityName "Ability_Parck_CommandShip.entity"
+entityName "Buff_Grant_Oriflamme.entity"
+entityName "Ability_Grant_Oriflamme.entity"
+entityName "Buff_Grant_CommandShip_Target.entity"
+entityName "Buff_Grant_CommandShip_Self.entity"
+entityName "Ability_Grant_CommandShip.entity"
 entityName "Buff_Aralani_Frontier.entity"
 entityName "Ability_Aralani_Frontier.entity"
 entityName "Buff_Aralani_TargetEnginesTarget.entity"
