@@ -1,11 +1,12 @@
 TXT
-entityNameCount 2193
+entityNameCount 2194
 entityName "Buff_Pestage_Ciutric.entity"
 entityName "Ability_Pestage_Ciutric.entity"
 entityName "Buff_Leia_RebelDream.entity"
 entityName "Ability_Leia_RebelDream.entity"
 entityName "Buff_Leia_DiplomaticImmunity.entity"
 entityName "Ability_Leia_DiplomaticImmunity.entity"
+entityName "EotH_Parck.entity"
 entityName "Buff_Parck_Strikefast.entity"
 entityName "Ability_Parck_Strikefast.entity"
 entityName "Buff_Parck_CommandShip_Target.entity"
