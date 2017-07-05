@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_Siath"
-smallHudIcon "HUDICON_Siath"
+hudIcon "HUDICON_SIATH"
+smallHudIcon "HUDICON_SIATH"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_HERO_Siath_NAME"
-DescriptionStringID "IDS_ABILITY_HERO_Siath_DESCRIPTION"
+NameStringID "IDS_HERO_SIATH_NAME"
+DescriptionStringID "IDS_HERO_SIATH_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 3 ]
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Economy_SmugglersDen"
+		Subject "EotHResearch_Shipunlock_Intego"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 0
+Tier 7
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000

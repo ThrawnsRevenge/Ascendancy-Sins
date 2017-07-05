@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_INTEGO_DESTROYER"
+mainViewIcon "HUDICON_SIATH"
 basePrice
 	credits 2200.000000
 	metal 120.000000
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_SIATH_NAME"
 DescriptionStringID "IDS_HERO_SIATH_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_INTEGO"
+picture "HUDICON_SIATH"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -93,8 +93,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_INTEGO"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+smallHudIcon "HUDICON_SIATH"
+infoCardIcon "HUDICON_SIATH"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

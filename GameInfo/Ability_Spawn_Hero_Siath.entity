@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SPAWNHERO_Siath_NAME"
-descStringID "IDS_HERO_Siath_DESCRIPTION"
-hudIcon "HUDICON_Siath"
-smallHudIcon "HUDICON_Siath"
+nameStringID "IDS_SPAWNHERO_SIATH_NAME"
+descStringID "IDS_HERO_SIATH_DESCRIPTION"
+hudIcon "HUDICON_SIATH"
+smallHudIcon "HUDICON_SIATH"
 infoCardIcon ""

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8801
+NumStrings 8802
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -27,6 +27,9 @@ StringInfo
 StringInfo
 	ID "IDS_HERO_SIATH_NAME"
 	Value "Siath - Battlehammer"
+StringInfo
+	ID "IDS_SPAWNHERO_SIATH_NAME"
+	Value "Recruit Admiral Siath"
 StringInfo
 	ID "IDS_HERO_SIATH_DESCRIPTION"
 	Value "A high-ranking Chiss admiral within Thrawn's household phalanx forces."
