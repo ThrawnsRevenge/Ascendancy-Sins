@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Invalid"
 statCountType "CapitalShipBattleship"
-mainViewIcon "HUDICON_GRANT"
-picture "HUDICON_GRANT"
+mainViewIcon "HUDICON_RESEARCH_GRANT"
+picture "HUDICON_RESEARCH_GRANT"
 NameStringID "IDS_HERO_GRANT_NAME"
 DescriptionStringID "IDS_HERO_GRANT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_GRANT"
-smallHudIcon "HUDICON_GRANT"
-infoCardIcon "HUDICON_GRANT"
+hudIcon "HUDICON_RESEARCH_GRANT"
+smallHudIcon "HUDICON_RESEARCH_GRANT"
+infoCardIcon "HUDICON_RESEARCH_GRANT"
 minZoomDistanceMult 2.000000
 NumWeapons 3
 Weapon

@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserRed_Single"
-mainViewIcon "HUDICON_ACKBAR"
+mainViewIcon "HUDICON_RESEARCH_ACKBAR"
 basePrice
 	credits 1700.000000
 	metal 120.000000
@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_ACKBAR_NAME"
 DescriptionStringID "IDS_HERO_ACKBAR_DESCRIPTION"
-picture "HUDICON_MC90"
+picture "HUDICON_RESEARCH_ACKBAR"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -85,8 +85,8 @@ numRandomDebrisLarge 3
 numRandomDebrisSmall 7
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_ACKBAR"
-smallHudIcon "HUDICON_ACKBAR"
+hudIcon "HUDICON_RESEARCH_ACKBAR"
+smallHudIcon "HUDICON_RESEARCH_ACKBAR"
 infoCardIcon "HUDICON_RESEARCH_ACKBAR"
 minZoomDistanceMult 1.750000
 NumWeapons 2

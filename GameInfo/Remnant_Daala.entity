@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_DAALA_NAME"
 DescriptionStringID "IDS_HERO_DAALA_DESCRIPTION"
-picture "HUDICON_EXECUTOR"
+picture "HUDICON_RESEARCH_DAALA"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -93,8 +93,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
 hudIcon "HUDICON_RESEARCH_DAALA"
-smallHudIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
+smallHudIcon "HUDICON_RESEARCH_DAALA"
+infoCardIcon "HUDICON_RESEARCH_DAALA"
 minZoomDistanceMult 1.250000
 NumWeapons 3
 Weapon

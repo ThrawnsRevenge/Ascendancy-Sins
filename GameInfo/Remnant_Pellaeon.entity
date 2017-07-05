@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_PELLAEON_NAME"
 DescriptionStringID "IDS_HERO_PELLAEON_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ISDII"
+picture "HUDICON_RESEARCH_PELLAEON"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -88,9 +88,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_ISDII"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_PELLAEON"
+smallHudIcon "HUDICON_RESEARCH_PELLAEON"
+infoCardIcon "HUDICON_RESEARCH_PELLAEON"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

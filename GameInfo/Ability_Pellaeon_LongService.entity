@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_RIGHTTORULE_NAME"
 descStringID "IDS_ABILITY_RIGHTTORULE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDICON_RESEARCH_PELLAEON"
+smallHudIcon "HUDICON_RESEARCH_PELLAEON"
 infoCardIcon ""

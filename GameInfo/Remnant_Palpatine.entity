@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "MAINVIEWICON_ISDI"
+mainViewIcon "HUDICON_PALPATINE"
 basePrice
 	credits 1180.000000
 	metal 100.000000
@@ -86,8 +86,8 @@ numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
 hudIcon "HUDICON_PALPATINE"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+smallHudIcon "HUDICON_PALPATINE"
+infoCardIcon "HUDICON_PALPATINE"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon

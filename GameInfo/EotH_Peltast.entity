@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASCENDANCY"
+mainViewIcon "MAINVIEWICON_PELTAST"
 basePrice
 	credits 1300.000000
 	metal 60.000000

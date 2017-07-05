@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_CHIMAERA_NAME"
 descStringID "IDS_ABILITY_CHIMAERA_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
-infoCardIcon ""
+hudIcon "HUDICON_RESEARCH_THRAWN"
+smallHudIcon "HUDICON_RESEARCH_THRAWN"
+infoCardIcon "HUDICON_RESEARCH_THRAWN"

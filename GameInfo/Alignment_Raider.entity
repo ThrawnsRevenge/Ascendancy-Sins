@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "MAINVIEWICON_RAIDER_CORVETTE"
+mainViewIcon "MAINVIEWICON_RAIDER"
 picture "HUDICON_LANCER"
 NameStringID "IDS_FRIGATE_RAIDER_NAME"
 DescriptionStringID "IDS_FRIGATE_RAIDER_DESCRIPTION"

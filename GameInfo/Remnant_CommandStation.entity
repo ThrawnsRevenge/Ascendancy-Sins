@@ -147,7 +147,7 @@ TargetCountPerBank:BACK 4
 TargetCountPerBank:LEFT 4
 TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
-ShieldMeshName "IR_Bilbringi"
+ShieldMeshName "IR_Cardan"
 renderShield TRUE
 squadTypeEntityDef:0 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:0 0.000000

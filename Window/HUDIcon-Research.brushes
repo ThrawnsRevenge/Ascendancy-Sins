@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 616
+brushCount 620
 brush
 	name "HUDICON_RESEARCH_BULWARK"
 	content "States"
@@ -397,6 +397,78 @@ brush
 	Normal
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 498 , 3 , 50 , 37 ]
+brush
+	name "HUDICON_KAINE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 498 , 3 , 50 , 37 ]
+brush
+	name "HUDICON_SOLO"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 543 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 543 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 543 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 543 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 543 , 3 , 50 , 37 ]
+brush
+	name "HUDICON_KARRDE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 598 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 598 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 598 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 598 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 598 , 3 , 50 , 37 ]
+brush
+	name "HUDICON_LEIA"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 643 , 3 , 50 , 37 ]
+	Pressed
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 643 , 3 , 50 , 37 ]
+	CursorOver
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 643 , 3 , 50 , 37 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 643 , 3 , 50 , 37 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 643 , 3 , 50 , 37 ]
 brush
 	name "HUDICON_RESEARCH_CULTURECOSTDECREASE"
 	content "States"

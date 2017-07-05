@@ -30,6 +30,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_HERO_ACKBAR_NAME"
 descStringID "IDS_HERO_ACKBAR_DESCRIPTION"
-hudIcon "HUDICON_ACKBAR"
-smallHudIcon "HUDICON_ACKBAR"
+hudIcon "HUDICON_RESEARCH_ACKBAR"
+smallHudIcon "HUDICON_RESEARCH_ACKBAR"
 infoCardIcon ""

@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 417
+brushCount 419
 brush
 	name "HUDICON_INTEGO"
 	content "States"
@@ -4699,4 +4699,13 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 607 , 307 , 100 , 50 ]
-
+brush
+	name "MAINVIEWICON_PELTAST"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 708 , 307 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_RAIDER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 809 , 307 , 100 , 50 ]
