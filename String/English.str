@@ -1,5 +1,5 @@
 TXT
-NumStrings 8802
+NumStrings 8816
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -13,11 +13,71 @@ StringInfo
 	ID "IDS_ABILITY_CIUTRIC_DESCRIPTION"
 	Value "Pestage's crew gains extra bonuses as he gains levels."
 StringInfo
+	ID "IDS_ABILITY_STRIKEFAST_NAME"
+	Value "Strikefast"
+StringInfo
+	ID "IDS_ABILITY_STRIKEFAST_DESCRIPTION"
+	Value "Despite only being a Victory-class, Parck is able to draw the most possible out of his crew."
+StringInfo
+	ID "IDS_ABILITY_SIGNALWEAKNESS_NAME"
+	Value "Signal Weakness"
+StringInfo
+	ID "IDS_ABILITY_SIGNALWEAKNESS_DESCRIPTION"
+	Value "Parck identifies weak points on the enemy hull, increasing damage againjst it from all sources temporarily."
+StringInfo
+	ID "IDS_ABILITY_VISIONARY_NAME"
+	Value "Dedication"
+StringInfo
+	ID "IDS_ABILITY_VISIONARY_DESCRIPTION"
+	Value "Parck's devotion to Thrawn's vision encourages him to use his strategic acumen to the fullest extent."
+StringInfo
+	ID "IDS_ABILITY_GRANDADMIRAL_NAME"
+	Value "Grand Admiral"
+StringInfo
+	ID "IDS_ABILITY_GRANDADMIRAL_DESCRIPTION"
+	Value "As a Grand Admiral, Grant is one of the most talented Imperial commanders."
+StringInfo
+	ID "IDS_ABILITY_SIEGESPECIALIST_NAME"
+	Value "Siege Specialist"
+StringInfo
+	ID "IDS_ABILITY_SIEGESPECIALIST_DESCRIPTION"
+	Value "Grant closely coordinates the siege efforts of his fleet, increasing the damage done to the planet's defenses."
+StringInfo
+	ID "IDS_ABILITY_EYEFORTALENT_NAME"
+	Value "Eye for Talent"
+StringInfo
+	ID "IDS_ABILITY_EYEFORTALENT_DESCRIPTION"
+	Value "Parck is able to identify promising officers, promoting them to command aboard the target vessel."
+StringInfo
+	ID "IDS_ABILITY_RESOURCEINFLUX_NAME"
+	Value "Resource Influx"
+StringInfo
+	ID "IDS_ABILITY_RESOURCEINFLUX_DESCRIPTION"
+	Value "Pestage's vast personal wealth is directed towards increasing production rate of Imperial shipyards at this world."
+StringInfo
+	ID "IDS_ABILITY_SURVIVALINSTINCT_NAME"
+	Value "Survival Instinct"
+StringInfo
+	ID "IDS_ABILITY_SURVIVALINSTINCT_DESCRIPTION"
+	Value "Pestage redirects most damage from himself to allied vessels for a short period of time."
+StringInfo
 	ID "IDS_ABILITY_REBELDREAM_NAME"
 	Value "Rebel Dream"
 StringInfo
 	ID "IDS_ABILITY_REBELDREAM_DESCRIPTION"
 	Value "Leia's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_ABILITY_ROUSINGSPEECH_NAME"
+	Value "Rousing Speech"
+StringInfo
+	ID "IDS_ABILITY_ROUSINGSPEECH_DESC"
+	Value "Leia broadcasts a speech to the local population, increasing their allegiance to the New Republic."
+StringInfo
+	ID "IDS_ABILITY_MINDTRICK_NAME"
+	Value "Mind Trick"
+StringInfo
+	ID "IDS_ABILITY_MINDTRICK_DESC"
+	Value "Leia uses her fledling Jedi powers to direct enemy fire away from the Rebel Dream."
 StringInfo
 	ID "IDS_ABILITY_ORIFLAMME_NAME"
 	Value "Oriflamme"
