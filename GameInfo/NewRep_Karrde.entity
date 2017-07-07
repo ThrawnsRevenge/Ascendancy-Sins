@@ -11,7 +11,7 @@ prefersToFocusFire TRUE
 usesFighterAttack TRUE
 autoJoinFleetDefault TRUE
 canBomb False
-mainViewIcon "HUDICON_SOLO"
+mainViewIcon "HUDICON_KARRDE"
 basePrice
 	credits 190.000000
 	metal 20.000000

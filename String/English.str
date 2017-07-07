@@ -323,7 +323,7 @@ StringInfo
 	Value "Besk raids the target planet, siphoning cridets from local businesses."
 StringInfo
 	ID "IDS_ABILITY_BUZZDROIDS_NAME"
-	Value "Ruthless Leader"
+	Value "Buzz Droids"
 StringInfo
 	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
 	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
@@ -400,7 +400,7 @@ StringInfo
 	ID "IDS_ABILITY_WHEREITCOUNTS_DESCRIPTION"
 	Value "The Falcon quickly jumps to safety at another location."
 StringInfo
-	ID "IDS_ABILITY_LUCKSHOT_NAME"
+	ID "IDS_ABILITY_LUCKYSHOT_NAME"
 	Value "Lucky Shot"
 StringInfo
 	ID "IDS_ABILITY_LUCKYSHOT_DESCRIPTION"

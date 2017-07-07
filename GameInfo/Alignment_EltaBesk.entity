@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "MAINVIEWICON_PRAETOR"
+mainViewIcon "HUDICON_BESK"
 basePrice
 	credits 4000.000000
 	metal 300.000000
@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_BESK_NAME"
 DescriptionStringID "IDS_HERO_BESK_DESCRIPTION"
-picture "HUDICON_MUNIFICENT"
+picture "HUDICON_BESK"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -89,9 +89,9 @@ numRandomDebrisSmall 5
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "Medium"
-hudIcon "HUDICON_PRAETOR"
-smallHudIcon "HUDICONSMALL_CRUISER"
-infoCardIcon "HUDICONSMALL_CRUISER"
+hudIcon "HUDICON_BESK"
+smallHudIcon "HUDICON_BESK"
+infoCardIcon "HUDICON_BESK"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon

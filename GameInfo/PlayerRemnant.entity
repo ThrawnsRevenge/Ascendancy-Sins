@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 102
+		count 103
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -159,6 +159,7 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_Allegiance"
 		entityDefName "RemnantResearch_ShipUnlock_Daala"
 		entityDefName "RemnantResearch_ShipUnlock_Pellaeon"
+		entityDefName "RemnantResearch_ShipUnlock_Thrawn"
 		entityDefName "RemnantResearch_MaxShipSlots0"
 		entityDefName "RemnantResearch_MaxShipSlots1"
 		entityDefName "RemnantResearch_MaxShipSlots2"

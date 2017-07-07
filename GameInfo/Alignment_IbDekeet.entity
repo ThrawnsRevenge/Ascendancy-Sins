@@ -38,7 +38,7 @@ bombEffectsDef
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 	projectileTravelEffectName "TurbolaserGreen_Single"
-mainViewIcon "MAINVIEWICON_SECUTOR"
+mainViewIcon "HUDICON_DEKEET"
 basePrice
 	credits 1800.000000
 	metal 125.000000
@@ -74,7 +74,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_DEKEET_NAME"
 DescriptionStringID "IDS_HERO_DEKEET_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_SECUTOR"
+picture "HUDICON_DEKEET"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -88,9 +88,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_SECUTOR"
-smallHudIcon "HUDICONSMALL_FLEET_CARRIER"
-infoCardIcon "HUDICONSMALL_FLEET_CARRIER"
+hudIcon "HUDICON_DEKEET"
+smallHudIcon "HUDICON_DEKEET"
+infoCardIcon "HUDICON_DEKEET"
 minZoomDistanceMult 1.750000
 NumWeapons 2
 Weapon

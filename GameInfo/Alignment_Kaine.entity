@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "HUDICON_RESEARCH_DAALA"
+mainViewIcon "HUDICON_KAINE"
 basePrice
 	credits 12000.000000
 	metal 900.000000
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_HERO_DAALA_NAME"
 DescriptionStringID "IDS_HERO_DAALA_DESCRIPTION"
-picture "HUDICON_EXECUTOR"
+picture "HUDICON_KAINE"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -92,9 +92,9 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_RESEARCH_DAALA"
-smallHudIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_SUPER_CAPITAL_SHIP"
+hudIcon "HUDICON_KAINE"
+smallHudIcon "HUDICON_KAINE"
+infoCardIcon "HUDICON_KAINE"
 minZoomDistanceMult 1.250000
 NumWeapons 3
 Weapon
@@ -262,7 +262,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTIR_EXECUTORMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_KnightHammer"
+	meshName "IR_Executor"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
