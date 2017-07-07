@@ -10,12 +10,9 @@ researchWindowLocation
 	pos [ 6 , 1 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "EotHResearch_ShipUnlock_Visvia"
-		Level 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
