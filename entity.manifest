@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2208
+entityNameCount 2209
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -500,6 +500,7 @@ entityName "EotH_Auriette.entity"
 entityName "EotH_Massias.entity"
 entityName "EotH_Phalanx.entity"
 entityName "EotH_Syndic.entity"
+entityName "EotH_Oto.entity"
 entityName "EotH_Vigilance.entity"
 entityName "EotH_Warlord.entity"
 entityName "EotH_Consen.entity"
