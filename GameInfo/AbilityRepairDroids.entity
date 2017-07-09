@@ -22,7 +22,12 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "Anytime"
+aiUseTime "OnlyWhenHullDamageExceeds"
+onlyAutoCastWhenTotalHullDamageTakenExceedsAmount
+	Level:0 1000.000000
+	Level:1 1250.000000
+	Level:2 1500.000000
+	Level:3 1500.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -36,10 +41,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 40.000000
-	Level:1 40.000000
-	Level:2 40.000000
-	Level:3 40.000000
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
