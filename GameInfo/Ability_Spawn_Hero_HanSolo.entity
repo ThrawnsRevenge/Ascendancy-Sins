@@ -38,9 +38,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 200.000000
+	metal 100.000000
+	crystal 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
