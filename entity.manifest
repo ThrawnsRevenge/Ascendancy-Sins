@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2209
+entityNameCount 2211
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -505,6 +505,7 @@ entityName "EotH_Vigilance.entity"
 entityName "EotH_Warlord.entity"
 entityName "EotH_Consen.entity"
 entityName "EotH_Visvia.entity"
+entityName "EotH_Lambda.entity"
 entityName "EotH_Clawcraft.entity"
 entityName "EotH_Clawcraft_Squad.entity"
 entityName "EotH_Scarsiss.entity"
@@ -625,6 +626,7 @@ entityName "EotHResearch_ShipUnlock_Efodio.entity"
 entityName "EotHResearch_ShipUnlock_Siath.entity"
 entityName "EotHResearch_ShipUnlock_Stent.entity"
 entityName "EotHResearch_ShipUnlock_Aralani.entity"
+entityName "EotHResearch_ShipUnlock_Lambda.entity"
 entityName "NewRep_FrigateResearch.entity"
 entityName "NewRep_HomeOne.entity"
 entityName "NewRep_EscapePod.entity"
