@@ -20,10 +20,10 @@ technique RenderWithoutPixelShader
         VertexShader = compile vs_1_1 RenderSceneVS();
 		PixelShader = NULL;
 		Texture[0] = NULL;
-		AlphaBlendEnable = false;
-		SrcBlend = zero;
-		DestBlend = zero;
-		ZEnable	= false;
+		AlphaBlendEnable = true;
+		SrcBlend = one;
+		DestBlend = one;
+		ZEnable	= true;
 		ZWriteEnable = false;			
     }
 }

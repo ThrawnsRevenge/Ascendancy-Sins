@@ -74,7 +74,7 @@ RenderScenePS( VsOutput i, out float4 oColor0:COLOR0 )
 	float3 view = normalize( i.View );
 	float3 dirToPosition = normalize( i.DirToPosition );
 	
-	float dotLightView = 1.5f - dot( light, view );
+	float dotLightView = 1.f - dot( light, view );
 	float dotLightPosition = dot( light, dirToPosition );
 		
 	float4 diffuseSample = tex2D( TextureDiffuse0Sampler, i.TexCoord0 ); 
