@@ -165,12 +165,11 @@ picture "PICTURE_EMPRESS"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateEmpress"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 7
+UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeEmpressToughness"
 UpgradeType "StarBaseUpgradeEmpressHangar"
 UpgradeType "StarBaseUpgradeEmpressWeapons"
 UpgradeType "StarBaseUpgradeEmpressDamage"
-UpgradeType "StarBaseUpgradeEmpressArrays"
 UpgradeType "StarBaseUpgradeEmpressGovernment"
 UpgradeType "StarBaseUpgradeEmpressRestore"
 MeshNameInfoCount 1
