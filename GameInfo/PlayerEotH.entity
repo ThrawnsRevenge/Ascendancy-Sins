@@ -31,11 +31,10 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 6
+			count 5
 			entityDefName "EotH_Syndic"
 			entityDefName "EotH_Ascendancy"
 			entityDefName "EotH_Phalanx"
-			entityDefName "EotH_Efodio"
 			entityDefName "EotH_Peltast"
 			entityDefName "EotH_Intego"
 	frigateInfo
