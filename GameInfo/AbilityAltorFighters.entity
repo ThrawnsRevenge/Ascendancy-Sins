@@ -6,11 +6,10 @@ buffType "BuffRemnantFighters"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
-	numObjects 6
+	numObjects 5
 	object "CapitalShip"
 	object "Frigate"
 	object "PlanetModule"
-	object "StarBase"
 	object "Titan"
 	object "Corvette"
 	numSpaces 1

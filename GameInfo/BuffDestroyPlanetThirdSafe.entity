@@ -9,10 +9,10 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyOrRemoveBuffToSelf"
+	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffMothball"
+	delayTime 7.000000
+	buffType "BuffDestroyPlanetThird"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -24,6 +24,8 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

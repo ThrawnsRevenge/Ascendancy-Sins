@@ -7,12 +7,19 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
 instantAction
-	buffInstantActionType "ApplyOrRemoveBuffToSelf"
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerDoesNotHaveBuff"
+	conditionBuffType "BuffDestroyPlanetSecond"
+	conditionBuffShortName ""
+	buffTypeToRemove "BuffDestroyPlanetThirdSafe"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffMothball"
+	delayTime 4.000000
+	buffType "BuffDestroyPlanetSecond"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -24,6 +31,8 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

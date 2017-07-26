@@ -1,5 +1,5 @@
 TXT
-NumStrings 8822
+NumStrings 8824
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -817,6 +817,12 @@ StringInfo
 	ID "IDS_ABILITY_PUNISHINGFIREPOWER_DESCRIPTION"
 	Value "A fervor overtakes the crews of surrounding ships, increasing their damage output but also amplifying damage done to them. Can stack up to 3 times."
 StringInfo
+	ID "IDS_ABILITY_GLORYOFTHENEWORDER_NAME"
+	Value "Glory of the New Order"
+StringInfo
+	ID "IDS_ABILITY_GLORYOFTHENEWORDER_DESCRIPTION"
+	Value "The Allegiance instills fear in the enemy population, decreasing production and increasing damage taken at the target planet."
+StringInfo
 	ID "IDS_ABILITY_SHIELDSCAN_NAME"
 	Value "Planetary Shield Scan"
 StringInfo
@@ -1259,7 +1265,7 @@ StringInfo
 	Value "Reactor Cooling"
 StringInfo
 	ID "IDS_EOTHRESEARCH_SPEEDBOOST_DESCRIPTION"
-	Value "Improvements to reactor cooling allow engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on level. Only applies to ships constructed after the tech is researched."
+	Value "Improvements to reactor cooling allow engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on research level. Must be applied by a shipyard."
 StringInfo
 	ID "IDS_BULWARK_NAME"
 	Value "Bulwark"

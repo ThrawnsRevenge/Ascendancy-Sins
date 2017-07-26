@@ -2,11 +2,44 @@
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit -1
+stackingLimit 1
 buffExclusivityForAIType "NotExclusive"
 isInterruptable TRUE
 isChannelling TRUE
 numInstantActions 5
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "BuffDestroyPlanetFirstSafe"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "BuffDestroyPlanetSecondSafe"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "BuffDestroyPlanetThirdSafe"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -32,48 +65,6 @@ instantAction
 		mediumEffectName "Ability_OrbitalCannonTechMuzzle"
 		largeEffectName "Ability_OrbitalCannonTechMuzzle"
 		soundID "WEAPON_TECHORBITALCANNON_MUZZLE"
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerDoesNotHaveBuff"
-	conditionBuffType "BuffDestroyPlanetFirst"
-	conditionBuffShortName ""
-	buffType "BuffDestroyPlanetFirst"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffDestroyPlanetFirst"
-	conditionBuffShortName ""
-	buffType "BuffDestroyPlanetSecond"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffDestroyPlanetSecond"
-	conditionBuffShortName ""
-	buffType "BuffDestroyPlanetThird"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
