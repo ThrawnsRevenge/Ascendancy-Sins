@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ASCENDANCY"
-smallHudIcon "HUDICON_ASCENDANCY"
+hudIcon "HUDICON_PELTAST"
+smallHudIcon "HUDICON_PELTAST"
 infoCardIcon ""
 NameStringID "IDS_CAPITALSHIP_PELTAST_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"

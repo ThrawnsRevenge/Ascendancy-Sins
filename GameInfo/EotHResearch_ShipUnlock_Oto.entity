@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_VISVIA"
+hudIcon "HUDICON_OTO"
 smallHudIcon "HUDICON_VISVIA"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"

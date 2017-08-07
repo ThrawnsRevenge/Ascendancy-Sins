@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Scout"
 statCountType "FrigateScout"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_WURRIF"
 picture "PICTURE_FRIGATE_WURRIF"
 NameStringID "IDS_FRIGATE_WURRIF_NAME"
 DescriptionStringID "IDS_FRIGATE_WURRIF_DESCRIPTION"

@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_RAIDER"
-picture "HUDICON_LANCER"
+picture "HUDICON_RAIDER"
 NameStringID "IDS_FRIGATE_RAIDER_NAME"
 DescriptionStringID "IDS_FRIGATE_RAIDER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_LANCER"
+hudIcon "HUDICON_RAIDER"
 smallHudIcon "HUDICONSMALL_FRIGATE"
 infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 3.000000

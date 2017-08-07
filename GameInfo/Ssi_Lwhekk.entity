@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "HUDICONSMALL_CAPITALSHIP_LWHEKK"
+mainViewIcon "MAINVIEWICON_LWHEKK"
 basePrice
 	credits 800.000000
 	metal 70.000000

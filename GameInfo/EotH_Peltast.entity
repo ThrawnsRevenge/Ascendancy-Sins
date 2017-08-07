@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_PELTAST_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ASCENDANCY"
+picture "HUDICON_PELTAST"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -92,7 +92,7 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASCENDANCY"
+hudIcon "HUDICON_PELTAST"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
