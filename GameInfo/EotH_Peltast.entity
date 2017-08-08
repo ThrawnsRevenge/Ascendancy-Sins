@@ -4,7 +4,7 @@ ability:0 "AbilitySnipe"
 ability:1 "AbilityOvercharge"
 ability:2 "AbilityEscapeVelocity"
 ability:3 "AbilityEmergencyShielding"
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -49,10 +49,10 @@ basePrice
 slotCount 7.000000
 BuildTime 80.000000
 MaxHullPoints
-	StartValue 3830.000000
+	StartValue 4530.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 3830.000000
+	StartValue 4530.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000

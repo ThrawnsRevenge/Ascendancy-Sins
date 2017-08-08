@@ -4,7 +4,7 @@ ability:0 "AbilityNumericalSuperiority"
 ability:1 "AbilityFighterConnerNets"
 ability:2 "AbilityCoordinatedStrike"
 ability:3 "AbilityCloak"
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

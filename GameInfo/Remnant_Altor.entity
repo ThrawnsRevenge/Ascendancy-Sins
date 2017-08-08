@@ -4,7 +4,7 @@ ability:0 "AbilityAltorFighters"
 ability:1 "AbilityAltorRepair"
 ability:2 "AbilityDetonateFuelCells"
 ability:3 "AbilityAltorProtect"
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

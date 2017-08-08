@@ -223,7 +223,7 @@ ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityHullBreach"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLifeT3"
+ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
