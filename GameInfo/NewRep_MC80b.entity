@@ -4,7 +4,7 @@ ability:0 "AbilityEMPBurst"
 ability:1 "AbilityPowerToShieldsCapital"
 ability:2 "AbilityTargetingEnhancement"
 ability:3 "AbilityIonBlast"
-ability:4 "AbilityPassiveLowLifePodsT4"
+ability:4 "AbilityPassiveLowLifePodsT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

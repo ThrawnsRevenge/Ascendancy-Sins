@@ -4,7 +4,7 @@ ability:0 "AbilityInterdictCapital"
 ability:1 "AbilityOverwhelmCapital"
 ability:2 "AbilityEmbargo"
 ability:3 "AbilityCommunicationJam"
-ability:4 "AbilityPassiveLowLifeT2"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
