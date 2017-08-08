@@ -63,14 +63,14 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 2.000000
+		Level:0 1.000000
 		Level:1 10.000000
 		Level:2 10.000000
 		Level:3 10.000000
 	buffInstantActionType "GiveCreditsToPlayer"
 	instantActionTriggerType "AlwaysPerform"
 	credits
-		Level:0 -0.360000
+		Level:0 -0.180000
 		Level:1 -0.360000
 		Level:2 -0.360000
 		Level:3 -0.360000
