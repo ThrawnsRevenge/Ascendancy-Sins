@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Corvette"
 statCountType "FrigateCorvette"
-mainViewIcon "MAINVIEWICON_YT1300"
-picture "HUDICON_YT1300"
+mainViewIcon "MAINVIEWICON_SMUGGLER"
+picture "HUDICON_SMUGGLER"
 NameStringID "IDS_CORVETTE_SMUGGLER_NAME"
 DescriptionStringID "IDS_CORVETTE_SMUGGLER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_YT1300"

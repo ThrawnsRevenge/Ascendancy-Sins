@@ -1,5 +1,5 @@
 TXT
-NumStrings 8824
+NumStrings 8826
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -3192,6 +3192,12 @@ StringInfo
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
 	Value "Civilian casualties are of no concern to the Empire."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_GROUNDSUPPORT_NAME"
+	Value "Ground Support"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_GROUNDSUPPORT_DESCRIPTION"
+	Value "Ground invasion forces are used to support orbital deployments in taking planets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_ACADEMY_NAME"
 	Value "Imperial Academy"

@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
 hudIcon "HUDICON_TIEDROID"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_TIEDROID"
+smallHudIcon "HUDICON_TIEDROID"
 infoCardIcon ""
 NameStringID "IDS_FIGHTERTIEDROID_NAME"
 DescriptionStringID "IDS_FIGHTERTIEDROID_DESCRIPTION"

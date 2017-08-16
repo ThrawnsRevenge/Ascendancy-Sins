@@ -1,6 +1,42 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 425
+brushCount 429
+brush
+	name "HUDICON_SMUGGLER"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 387 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 387 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 387 , 202 , 52 , 37 ]
+brush
+	name "HUDICON_TIEDROID"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 442 , 202 , 52 , 37 ]
+	Pressed
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 202 , 52 , 37 ]
+	CursorOver
+		fileName "Unit_Hud_Highlight"
+		pixelBox [ 442 , 202 , 52 , 37 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 202 , 52 , 37 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 442 , 202 , 52 , 37 ]
 brush
 	name "HUDICON_RAIDER"
 	content "States"
@@ -4773,6 +4809,11 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 102 , 358 , 100 , 50 ]
+brush
+	name "MAINVIEWICON_SMUGGLER"
+	content "Simple"
+	fileName "Ascendancy_Ship_Main_Icons"
+	pixelBox [ 203 , 358 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_SHREE"
 	content "Simple"

@@ -732,7 +732,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 0 , 100 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 310 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
