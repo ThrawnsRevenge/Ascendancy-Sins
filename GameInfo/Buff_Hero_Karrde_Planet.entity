@@ -24,4 +24,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "C_Buff_Hero_Karrde_Self"
+	buffTypeToQuery "Buff_Hero_Karrde_Self"
