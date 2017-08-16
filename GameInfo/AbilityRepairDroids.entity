@@ -6,9 +6,9 @@ buffType "BuffRepairDroids"
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
-	smallEffectName "Ability_RepairPlatformTechActivate"
-	mediumEffectName "Ability_RepairPlatformTechActivate"
-	largeEffectName "Ability_RepairPlatformTechActivate"
+			smallEffectName "Ability_RepairPlatformTechActivate"
+			mediumEffectName "Ability_RepairPlatformTechActivate"
+			largeEffectName "Ability_RepairPlatformTechActivate"
 	soundID "EFFECT_REPAIR_TECH"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
