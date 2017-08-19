@@ -5,10 +5,10 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffRepairDroids"
 effectInfo
 	effectAttachInfo
-		attachType "Ability"
-			smallEffectName "Ability_RepairPlatformTechActivate"
-			mediumEffectName "Ability_RepairPlatformTechActivate"
-			largeEffectName "Ability_RepairPlatformTechActivate"
+		attachType "Above"
+			smallEffectName ""
+			mediumEffectName ""
+			largeEffectName ""
 	soundID "EFFECT_REPAIR_TECH"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
