@@ -4,7 +4,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_TIEFIGHTER"
+hudIcon "HUDICON_TIEDROID"
 smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 fighterEntityDef "Remnant_TIEFighter"
