@@ -1,6 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 58
+brushCount 59
+brush
+	name "HUDABILITYICON_EMPIRE"
+	content "States"
+	Disabled
+		fileName "Ability_Hud_Disabled"
+		pixelBox [ 387 , 122 , 52 , 37 ]
+	Pressed
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 387 , 122 , 52 , 37 ]
+	CursorOver
+		fileName "Ability_Hud_Highlight"
+		pixelBox [ 387 , 122 , 52 , 37 ]
+	Focused
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 387 , 122 , 52 , 37 ]
+	Normal
+		fileName "Ability_Hud_Normal"
+		pixelBox [ 387 , 122 , 52 , 37 ]
 brush
 	name "HUDABILITYICON_RADIATIONBOMB"
 	content "States"

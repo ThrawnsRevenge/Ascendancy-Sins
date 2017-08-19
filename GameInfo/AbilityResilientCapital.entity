@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_RESILIENT_NAME"
 descStringID "IDS_ABILITY_RESILIENT_DESCRIPTION"
-hudIcon "HUDABILITYICON_RESILIENT"
-smallHudIcon "HUDABILITYICON_RESILIENT"
+hudIcon "HUDABILITYICON_BULWARK"
+smallHudIcon "HUDABILITYICON_BULWARK"
 infoCardIcon ""

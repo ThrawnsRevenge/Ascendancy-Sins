@@ -30,6 +30,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_HERO_SIATH_NAME"
 descStringID "IDS_HERO_SIATH_DESCRIPTION"
-hudIcon "HUDICON_SIATH"
-smallHudIcon "HUDICON_SIATH"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

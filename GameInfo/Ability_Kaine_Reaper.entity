@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_REAPER_NAME"
 descStringID "IDS_ABILITY_REAPER_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDICON_KAINE"
+smallHudIcon "HUDICON_KAINE"
 infoCardIcon ""

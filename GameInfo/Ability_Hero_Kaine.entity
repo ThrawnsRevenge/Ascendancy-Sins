@@ -30,6 +30,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_HERO_KAINE_NAME"
 descStringID "IDS_HERO_KAINE_DESCRIPTION"
-hudIcon "HUDICON_KAINE"
-smallHudIcon "HUDICON_KAINE"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

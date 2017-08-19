@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_HOMEONE_NAME"
 descStringID "IDS_ABILITY_HOMEONE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDICON_RESEARCH_ACKBAR"
+smallHudIcon "HUDICON_RESEARCH_ACKBAR"
 infoCardIcon ""
