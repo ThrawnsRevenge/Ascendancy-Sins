@@ -1802,8 +1802,7 @@ planetItemsTemplate
 				item "Unique:Frigate:Katana"
 planetItemsTemplate
 	templateName "Template:Unique:Random"
-	subTemplates 3
-		template "Template:Unique:Centerpoint"
+	subTemplates 2
 		template "Template:Unique:KatanaFleet"
 		template "Template:Unique:DesignateShipyard"
 	groups 0
