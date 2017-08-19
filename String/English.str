@@ -3116,7 +3116,7 @@ StringInfo
 	Value "Thrawn Doctrine"
 StringInfo
 	ID "IDS_ABILITY_THRAWNDOCTRINE_DESCRIPTION"
-	Value "Thrawn's strategies favour the development of frigates, increasing their damage output and speed by 5%."
+	Value "Thrawn's strategies favour the development of frigates, increasing their damage output and resistance by 10%."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RATIONING_NAME"
 	Value "Spread Thin"

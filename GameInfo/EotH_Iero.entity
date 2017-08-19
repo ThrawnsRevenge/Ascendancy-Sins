@@ -21,8 +21,8 @@ basePrice
 	credits 280.000000
 	metal 35.000000
 	crystal 15.000000
-NameStringID "IDS_PLANETMODULE_IERO_NAME"
-DescriptionStringID "IDS_PLANETMODULE_IERO_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_GOLANI_NAME"
+DescriptionStringID "IDS_PLANETMODULE_GOLANI_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
 statCountType "ModulePointDefense"
 Prerequisites

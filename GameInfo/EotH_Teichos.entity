@@ -21,8 +21,8 @@ basePrice
 	credits 650.000000
 	metal 70.000000
 	crystal 40.000000
-NameStringID "IDS_PLANETMODULE_TEICHOS_NAME"
-DescriptionStringID "IDS_PLANETMODULE_TEICHOS_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_GOLANII_NAME"
+DescriptionStringID "IDS_PLANETMODULE_GOLANII_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
 statCountType "ModulePointDefense"
 Prerequisites
