@@ -35,6 +35,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_TARKINDOCTRINE_NAME"
 descStringID "IDS_ABILITY_TARKINDOCTRINE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_TARKIN"
+smallHudIcon "HUDABILITYICON_TARKIN"
 infoCardIcon ""

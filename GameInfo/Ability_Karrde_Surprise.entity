@@ -66,6 +66,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_SURPRISE_NAME"
 descStringID "IDS_ABILITY_SURPRISE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_OVERWHELM"
+smallHudIcon "HUDABILITYICON_OVERWHELM"
 infoCardIcon ""

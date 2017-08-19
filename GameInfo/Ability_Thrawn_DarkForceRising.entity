@@ -77,6 +77,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0	
 nameStringID "IDS_ABILITY_DARKFORCERISING_NAME"
 descStringID "IDS_ABILITY_DARKFORCERISING_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDICON_RESEARCH_KATANAFLEET"
+smallHudIcon "HUDICON_RESEARCH_KATANAFLEET"
 infoCardIcon ""

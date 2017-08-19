@@ -53,7 +53,7 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_CONCENTRATEFIRE_NAME"
 descStringID "IDS_ABILITY_CONCENTRATEFIRE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_COMMANDASSAULT"
+smallHudIcon "HUDABILITYICON_COMMANDASSAULT"
 infoCardIcon ""
 

@@ -82,6 +82,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_SCOURGE_NAME"
 descStringID "IDS_ABILITY_SCOURGE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDICON_RESEARCH_IMPOSINGPRESENCE"
+smallHudIcon "HUDICON_RESEARCH_IMPOSINGPRESENCE"
 infoCardIcon ""

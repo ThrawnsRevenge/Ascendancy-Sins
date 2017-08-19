@@ -91,6 +91,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PLASMAROUND_NAME"
 descStringID "IDS_ABILITY_PLASMAROUND_DESCRIPTION"
-hudIcon "HUDABILITYICON_PROTECT"
-smallHudIcon "HUDABILITYICON_PROTECT"
+hudIcon "HUDABILITYICON_OVERWHELM"
+smallHudIcon "HUDABILITYICON_OVERWHELM"
 infoCardIcon ""

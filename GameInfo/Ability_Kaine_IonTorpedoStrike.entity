@@ -77,6 +77,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_IONBARRAGE_NAME"
 descStringID "IDS_ABILITY_IONBARRAGE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_DENTINGSTRIKE"
+smallHudIcon "HUDABILITYICON_DENTINGSTRIKE"
 infoCardIcon ""

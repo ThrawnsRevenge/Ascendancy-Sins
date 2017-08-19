@@ -69,6 +69,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_NOGHRI_NAME"
 descStringID "IDS_ABILITY_NOGHRI_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_NOGHRI"
+smallHudIcon "HUDABILITYICON_NOGHRI"
 infoCardIcon ""

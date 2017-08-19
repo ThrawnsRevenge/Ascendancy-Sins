@@ -34,7 +34,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_DISSIDENTSUPPRESSION_NAME"
-descStringID "IDS_ABILITY_VELCAR_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+descStringID "IDS_ABILITY_DISSIDENTSUPPRESSION_DESCRIPTION"
+hudIcon "HUDABILITYICON_INSURRECTION"
+smallHudIcon "HUDABILITYICON_INSURRECTION"
 infoCardIcon ""
