@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ASHIK"
-smallHudIcon "HUDICON_ASHIK"
+hudIcon "HUDICON_ARALANI"
+smallHudIcon "HUDICON_ARALANI"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_HERO_ARALANI_NAME"
-DescriptionStringID "IDS_ABILITY_HERO_ARALANI_DESCRIPTION"
+NameStringID "IDS_HERO_ARALANI_NAME"
+DescriptionStringID "IDS_HERO_ARALANI_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 3 , 1 ]

@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCH_STENT"
 smallHudIcon "HUDICON_RESEARCH_STENT"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_HERO_STENT_NAME"
-DescriptionStringID "IDS_ABILITY_HERO_STENT_DESCRIPTION"
+NameStringID "IDS_HERO_STENT_NAME"
+DescriptionStringID "IDS_HERO_STENT_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 5 , 0 ]
