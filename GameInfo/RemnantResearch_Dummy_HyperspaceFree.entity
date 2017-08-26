@@ -28,7 +28,9 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
-researchBoolModifiers 0
+researchBoolModifiers 1
+researchModifier
+	modifierType "AllowGalaxyTravel"
 researchFloatModifiers 1
 researchModifier
 	modifierType "HyperspaceAntimatterCostAdjustment"
