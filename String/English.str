@@ -1,5 +1,5 @@
 TXT
-NumStrings 8828
+NumStrings 8829
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -807,6 +807,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_NAME"
 	Value "Split Proton"
+StringInfo
+	ID "IDS_ABILITY_PROTONSPLIT_UNLOCK"
+	Value "Allows Warlord gunboats to use the Split Proton ability."
 StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
 	Value "When this ship launches a torpedo, it splits and hits two other nearby targets after the first."
