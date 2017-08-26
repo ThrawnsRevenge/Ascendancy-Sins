@@ -55,16 +55,11 @@ isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "ResourcesAndMustHaveShipSlots"
+useCostType "Resources"
 resourceCost
-	credits 0.000000
-	metal   0.000000
-	crystal 0.000000
-requiredShipSlots
-	Level:0 20.000000
-	Level:1 30.000000
-	Level:2 40.000000
-	Level:3 60.000000
+	credits 2500.000000
+	metal 150.000000
+	crystal 500.000000
 cooldownTime
 	Level:0 480.000000
 	Level:1 480.000000
