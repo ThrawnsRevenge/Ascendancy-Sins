@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_BESK"
-smallHudIcon "HUDICON_BESK"
+hudIcon "HUDICON_DEKEET"
+smallHudIcon "HUDICON_DEKEET"
 infoCardIcon ""
 NameStringID "IDS_HERO_DEKEET_NAME"
 DescriptionStringID "IDS_HERO_DEKEET_DESCRIPTION"

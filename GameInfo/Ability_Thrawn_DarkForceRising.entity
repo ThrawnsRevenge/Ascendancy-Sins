@@ -9,7 +9,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-		type "Remnant_Katana"
+		type "Remnant_Katana_Thrawn"
 		weight 1				
 spawnShips
 	minFleetPoints 30.000000
@@ -17,7 +17,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-		type "Remnant_Katana"
+		type "Remnant_Katana_Thrawn"
 		weight 1	
 spawnShips
 	minFleetPoints 40.000000
@@ -25,7 +25,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-		type "Remnant_Katana"
+		type "Remnant_Katana_Thrawn"
 		weight 1		
 spawnShips
 	minFleetPoints 60.000000
@@ -33,7 +33,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-		type "Remnant_Katana"
+		type "Remnant_Katana_Thrawn"
 		weight 1
 spawnShipsArrivalDelayTime 4.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"

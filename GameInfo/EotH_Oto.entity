@@ -163,13 +163,12 @@ picture "PICTURE_OTO"
 statCountType "StarBase"
 creationSourceAbility "AbilityCreateOto"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 6
+UpgradeTypeCount 5
 UpgradeType "StarBaseUpgradeOtoToughness"
 UpgradeType "StarBaseUpgradeOtoHangar"
 UpgradeType "StarBaseUpgradeOtoWeapons"
 UpgradeType "StarBaseUpgradeOtoDamage"
 UpgradeType "StarBaseUpgradeOtoRestore"
-UpgradeType "StarBaseUpgradeEmpressGovernment"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "EotH_Oto"

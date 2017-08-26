@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "VeryLight"
-hudIcon "HUDICON_YT1300"
-smallHudIcon "MAINVIEWICON_YT1300"
-infoCardIcon "INFOCARDICON_YT1300"
+hudIcon "HUDICON_SMUGGLER"
+smallHudIcon "HUDICON_SMUGGLER"
+infoCardIcon "HUDICON_SMUGGLER"
 minZoomDistanceMult 6.000000
 NumWeapons 2
 Weapon

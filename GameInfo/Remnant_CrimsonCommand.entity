@@ -11,8 +11,8 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_VSDII"
 picture "CAPITALSHIPPICTURE_VSDII"
-NameStringID "IDS_CAPITALSHIP_VSDII_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_VSDII_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_CRIMSON_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_CRIMSON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
 	credits 860.000000
@@ -183,14 +183,7 @@ Weapon
 	PointStaggerDelay 0.900000
 	TravelSpeed 2000.000000
 	Duration 0.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RemnantResearch_ShipUnlock_CrimsonCommand"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 2

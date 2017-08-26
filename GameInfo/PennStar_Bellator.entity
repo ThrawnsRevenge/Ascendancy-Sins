@@ -205,7 +205,7 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "Remnant_TIEDefender_Squad"
+squadTypeEntityDef:3 "Alignment_Skipray_Squad"
 squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 4
 SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_0"

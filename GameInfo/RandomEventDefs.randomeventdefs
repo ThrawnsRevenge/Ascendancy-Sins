@@ -128,7 +128,7 @@ randomEventDefCount 10
 		respawnCount 0
 		nextSpawnTimeMin 1200.0
 		nextSpawnTimeMax 3000.0
-		spawnWeight 0.02
+		spawnWeight 0.01
 	randomEventDef
 		id "PEREGRINESNEST"
 		nameID "IDS_RANDOMEVENT_PEREGRINESNEST_NAME"
@@ -154,6 +154,6 @@ randomEventDefCount 10
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		respawnCount 2
-		nextSpawnTimeMin 1200.0
-		nextSpawnTimeMax 3000.0
-		spawnWeight 0.55
+		nextSpawnTimeMin 1500.0
+		nextSpawnTimeMax 6000.0
+		spawnWeight 0.05
