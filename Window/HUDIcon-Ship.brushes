@@ -42,19 +42,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 405 , 202 , 52 , 37 ]
+		pixelBox [ 332 , 202 , 52 , 37 ]
 	Pressed
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 405 , 202 , 52 , 37 ]
+		pixelBox [ 332 , 202 , 52 , 37 ]
 	CursorOver
 		fileName "Unit_Hud_Highlight"
-		pixelBox [ 405 , 202 , 52 , 37 ]
+		pixelBox [ 332 , 202 , 52 , 37 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 405 , 202 , 52 , 37 ]
+		pixelBox [ 332 , 202 , 52 , 37 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 405 , 202 , 52 , 37 ]
+		pixelBox [ 332 , 202 , 52 , 37 ]
 brush
 	name "HUDICON_OTO"
 	content "States"

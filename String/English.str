@@ -1,5 +1,5 @@
 TXT
-NumStrings 8826
+NumStrings 8829
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -140,7 +140,7 @@ StringInfo
 	Value "Scourge Squadron Leader"
 StringInfo
 	ID "IDS_ABILITY_SCOURGE_DESCRIPTION"
-	Value "Kaine summons help from other Scourge Squadron Star Destroyers temporarily."
+	Value "Kaine summons help from other Scourge Squadron Star Destroyersy."
 StringInfo
 	ID "IDS_ABILITY_SENSORSCRAMBLER_NAME"
 	Value "Sensor Scrambler"
@@ -721,6 +721,12 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_DESCRIPTION"
 	Value "Daala's fervour to recapture lost Imperial territory spurs production of offensive bases."
 StringInfo
+	ID "IDS_PLANETMODULE_SHIPYARDADMIN_NAME"
+	Value "Shipyard Administration"
+StringInfo
+	ID "IDS_PLANETMODULE_SHIPYARDADMIN_DESCRIPTION"
+	Value "Shipyards built at this world will have an increased build rate. This building is not a shipyard."
+StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
 StringInfo
@@ -730,10 +736,10 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
 	Value "Fortress Worlds"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_FORRESSWORLDS_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_DESCRIPTION"
 	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more tactical structures."
 StringInfo
-	ID "IDS_REMNANTRESEARCH_FORRESSWORLDSTWO_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDSTWO_DESCRIPTION"
 	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more starbases."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_NAME"
@@ -801,6 +807,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_NAME"
 	Value "Split Proton"
+StringInfo
+	ID "IDS_ABILITY_PROTONSPLIT_UNLOCK"
+	Value "Allows Warlord gunboats to use the Split Proton ability."
 StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
 	Value "When this ship launches a torpedo, it splits and hits two other nearby targets after the first."
@@ -1825,7 +1834,7 @@ StringInfo
 	ID "IDS_CAPITALSHIP_INTEGO_NAME"
 	Value "Intego Destroyer"
 StringInfo
-	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
+	ID "IDS_CAPITALSHIP_INTEGO_DESCRIPTION"
 	Value "The largest ship in the Empire of the Hand's navy, the Intego has less firepower than some of the smaller ships, but a far more resilient hull."
 StringInfo
 	ID "IDS_CAPITALSHIP_ALTOR_NAME"

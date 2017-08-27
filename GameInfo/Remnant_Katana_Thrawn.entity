@@ -7,23 +7,23 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Scout"
-statCountType "FrigateScout"
-mainViewIcon "MAINVIEWICON_WURRIF"
-picture "PICTURE_FRIGATE_WURRIF"
-NameStringID "IDS_FRIGATE_WURRIF_NAME"
-DescriptionStringID "IDS_FRIGATE_WURRIF_DESCRIPTION"
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_DREADNAUGHT"
+picture "PICTURE_FRIGATE_DREADNAUGHT"
+NameStringID "IDS_FRIGATE_KATANADREADNAUGHT_NAME"
+DescriptionStringID "IDS_FRIGATE_KATANADREADNAUGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 340.000000
-	metal 50.000000
+	credits 30.000000
+	metal 5.000000
 	crystal 0.000000
-slotCount 3.000000
-BuildTime 25.000000
+slotCount 5.000000
+BuildTime 4.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 1200.000000
-MaxShieldPoints 1200.000000
+MaxHullPoints 2610.000000
+MaxShieldPoints 2048.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 2.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_WURRIF"
-smallHudIcon "HUDICONSMALL_FRIGATE_WURRIF"
-infoCardIcon "INFOCARDICON_FRIGATE_WURRIF"
+hudIcon "HUDICON_FRIGATE_DREADNAUGHT"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
@@ -49,10 +49,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 165.000000
+	DamagePerBank:RIGHT 165.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -66,12 +66,13 @@ Weapon
 		burstCount 4
 		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName "MuzzlePurple_Single_Large"
+		muzzleEffectName "MuzzleGreen_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
 		hitEffectName "TurbolaserImpact"
 		hitHullEffectSounds
 			soundCount 1
@@ -79,21 +80,21 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserPurple_Single"
+		projectileTravelEffectName "TurbolaserGreen_Dual"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageAffectType "AFFECTS_ONLY_SHIELDS"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.400000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
@@ -108,8 +109,10 @@ Weapon
 		muzzleEffectName "MuzzleBlue_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_IONCANNON_MUZZLE"
+			soundCount 3
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_IONCANNON_MUZZLE_ALT2"
 		hitEffectName "IonImpact_Large"
 		hitHullEffectSounds
 			soundCount 1
@@ -122,13 +125,13 @@ m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
-TargetCountPerBank:LEFT 0
-TargetCountPerBank:RIGHT 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechLight"
-renderShield FALSE
+ShieldMeshName "IR_Dreadnaught"
+renderShield TRUE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -137,34 +140,34 @@ maxDecelerationAngular 9.999996
 maxSpeedLinear 825.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
-squadTypeEntityDef:0 "Ssi_Swarm_Squad"
-squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
-squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
-squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:0 "Remnant_TIEInterceptor_Squad"
+squadAntiMatterCost:0 12.000000
+squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
+squadAntiMatterCost:1 12.000000
+squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
+squadAntiMatterCost:2 12.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+maxNumCommandPoints 1
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
+SoundID "EVENTIR_DREADNAUGHTATTACKTWO"
+SoundID "EVENTIR_DREADNAUGHTATTACKTHREE"
+SoundID "EVENTIR_DREADNAUGHTATTACKONE"
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHLIGHT_ONCREATION"
+SoundID "EVENTIR_DREADNAUGHTSELECTONE"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
+SoundID "EVENTIR_DREADNAUGHTMOVETWO"
+SoundID "EVENTIR_DREADNAUGHTMOVETHREE"
+SoundID "EVENTIR_DREADNAUGHTMOVEONE"
 NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_0"
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_1"
-SoundID "FRIGATE_TECHLIGHT_ONSELECTED_2"
+SoundID "EVENTIR_DREADNAUGHTSELECTONE"
+SoundID "EVENTIR_DREADNAUGHTSELECTTWO"
+SoundID "EVENTIR_DREADNAUGHTSELECTTHREE"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
+SoundID "EVENTIR_DREADNAUGHTMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Ssi_Wurrif"
+	meshName "IR_Dreadnaught"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -176,10 +179,10 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 ""
 ability:1 ""
 ability:2 ""
-ability:3 "AbilityThrawnDoctrine"
-ability:4 "AbilityPassiveLowLife"
-MaxAntiMatter 200.000000
-AntiMatterRestoreRate 0.500000
+ability:3 ""
+ability:4 "AbilityPassiveLowLifeT1"
+MaxAntiMatter 12.000000
+AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

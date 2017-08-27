@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "AlwaysPerform"
+	spawnShipsLevelCount 4
+	spawnShips
+		minFleetPoints 20.000000
+		maxFleetPoints 20.000000
+		requiredShipCount 1
+		requiredShip
+			type "Remnant_Katana_Thrawn"
+			minCount 4
+			maxCount 4
+		randomShipCount 0			
+	spawnShips
+		minFleetPoints 30.000000
+		maxFleetPoints 30.000000
+		requiredShipCount 1
+		requiredShip
+			type "Remnant_Katana_Thrawn"
+			minCount 6
+			maxCount 6
+		randomShipCount 0	
+	spawnShips
+		minFleetPoints 40.000000
+		maxFleetPoints 40.000000
+		requiredShipCount 1
+		requiredShip
+			type "Remnant_Katana_Thrawn"
+			minCount 8
+			maxCount 8
+		randomShipCount 0		
+	spawnShips
+		minFleetPoints 50.000000
+		maxFleetPoints 50.000000
+		requiredShipCount 1
+		requiredShip
+			type "Remnant_Katana_Thrawn"
+			minCount 10
+			maxCount 10
+		randomShipCount 0	
+	spawnShipsArrivalDelayTime 4.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 16.000000
+		Level:2 17.000000
+		Level:3 19.000000

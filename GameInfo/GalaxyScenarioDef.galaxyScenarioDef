@@ -644,7 +644,7 @@ planetType
 	designName "PirateBase"
 	designStringId "IDSGalaxyScenarioTypePlanetPirateBase"
 	orbitBodyTypeCount 1
-	orbitBodyType "PirateBase"
+	orbitBodyType "Ecumenopolis"
 planetType
 	designName "AridOcean"
 	designStringId "IDSGalaxyScenarioTypePlanetAridOcean"

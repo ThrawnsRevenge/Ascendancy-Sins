@@ -7,23 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
-instantAction
-	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	spawnShipsLevelCount 1
-	spawnShips
-		minFleetPoints 1000.000000
-		maxFleetPoints 1000.000000
-		requiredShipCount 1
-		requiredShip
-			type "Remnant_Executor"
-			minCount 1
-			maxCount 1
-		randomShipCount 0
-	spawnShipsArrivalDelayTime 7.000000
-	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numInstantActions 1
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
@@ -55,7 +39,7 @@ instantAction
 			maxCount 2
 		requiredShip
 			type "Remnant_ISDI"
-			minCount 1
+			minCount 2
 			maxCount 2
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000

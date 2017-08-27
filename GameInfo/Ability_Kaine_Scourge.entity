@@ -4,32 +4,32 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 4
 spawnShips
-	minFleetPoints 02.000000
-	maxFleetPoints 02.000000
+	minFleetPoints 5.000000
+	maxFleetPoints 5.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 03.000000
-	maxFleetPoints 03.000000
+	minFleetPoints 10.000000
+	maxFleetPoints 10.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 04.000000
-	maxFleetPoints 04.000000
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 05.000000
-	maxFleetPoints 05.000000
+	minFleetPoints 30.000000
+	maxFleetPoints 30.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
@@ -55,21 +55,11 @@ isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "ResourcesAndMustHaveCapitalCrew"
+useCostType "Resources"
 resourceCost
-	credits 2800.000000
-	metal 400.000000
-	crystal 250.000000
-requiredShipSlots
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-requiredCapitalShipSlots
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	credits 2500.000000
+	metal 150.000000
+	crystal 500.000000
 cooldownTime
 	Level:0 240.000000
 	Level:1 200.000000
