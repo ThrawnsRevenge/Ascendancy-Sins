@@ -64,7 +64,8 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 104
+		count 105
+		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"

@@ -3116,10 +3116,10 @@ StringInfo
 	Value "In their drive to bring democracy to the galaxy, New Republic factions improve their relationship with each other at the expense of relations with other factions."
 StringInfo
 	ID "IDS_FREERESEARCH_HYPERSPACE_NAME"
-	Value "Free Hyperspace"
+	Value "Intergalactic Travel"
 StringInfo
 	ID "IDS_FREERESEARCH_HYPERSPACE_DESCRIPTION"
-	Value "If you have a hyperdrive, hyperspace costs nothing."
+	Value "Your ships can leave the Star Wars galaxy, and go to other, less Star Wars-y galaxies."
 StringInfo
 	ID "IDS_ABILITY_THRAWNDOCTRINE_NAME"
 	Value "Thrawn Doctrine"

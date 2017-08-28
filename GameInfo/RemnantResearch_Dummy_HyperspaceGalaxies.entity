@@ -14,19 +14,19 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 0.000000
-PerLevelUpgradeTime 0.000000
+BaseUpgradeTime 10.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 00.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 10.000000
+	metal 10.000000
+	crystal 10.000000
 PerLevelCostIncrease
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 10.000000
+	metal 10.000000
+	crystal 10.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 0
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 1
 researchModifier
