@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 106
+		count 107
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
@@ -117,6 +117,7 @@ entities
 		entityDefName "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		entityDefName "NewRepResearch_Flat_CultureExport"
 		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
+		entityDefName "NewRepResearch_AbilityUnlock_ArbitrateTariff"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "NewRepResearch_Global_RebelRoots"
 		entityDefName "NewRepResearch_Global_StandUnited"
