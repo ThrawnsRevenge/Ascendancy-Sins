@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2220
+entityNameCount 2221
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -1270,6 +1270,7 @@ entityName "AbilityEscapePodBoard.entity"
 entityName "AbilityClusterBombs.entity"
 entityName "AbilityCoordinate.entity"
 entityName "AbilityPDRed.entity"
+entityName "AbilityPDBlue.entity"
 entityName "AbilityFighterConnerNets.entity"
 entityName "AbilityCoordinatedStrike.entity"
 entityName "BuffCoordinatedStrike.entity"
