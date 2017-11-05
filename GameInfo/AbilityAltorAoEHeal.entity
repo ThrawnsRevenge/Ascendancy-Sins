@@ -1,28 +1,31 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTarget"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRepairPlatformRemnant"
+buffType "BuffRepairAltorAoE"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
-	numObjects 6
+	numObjects 5
 	object "CapitalShip"
 	object "Frigate"
 	object "PlanetModule"
-	object "StarBase"
 	object "Titan"
 	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 2
+	numConstraints 1
 	constraint "NotSelf"
-	constraint "HasHullDamage"
 range
 	Level:0 3200.000000
 	Level:1 4200.000000
 	Level:2 5200.000000
 	Level:3 6200.000000
+maxTargetCount
+	Level:0 10.000000
+	Level:1 12.000000
+	Level:2 14.000000
+	Level:3 16.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -42,31 +45,20 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "Anytime"
-aiUseTargetCondition "Any"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-cooldownTime
-	Level:0 20.000000
-	Level:1 15.000000
-	Level:2 10.000000
-	Level:3 10.000000
-orderAcknowledgementType "ONGENERALORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_REPAIRALTOR_NAME"
-descStringID "IDS_ABILITY_REPAIRALTOR_DESCRIPTION"
+nameStringID "IDS_ABILITY_ALTORPASSIVEHEAL_NAME"
+descStringID "IDS_ABILITY_ALTORPASSIVEHEAL_DESCRIPTION"
 hudIcon "HUDABILITYICON_REPAIR"
 smallHudIcon "HUDABILITYICON_REPAIR"
 infoCardIcon ""

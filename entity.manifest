@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2218
+entityNameCount 2220
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -1239,6 +1239,8 @@ entityName "AbilityRepairPlatformRemnant.entity"
 entityName "AbilityRemnantFighters.entity"
 entityName "AbilityMTCHangar.entity"
 entityName "AbilityAltorRepair.entity"
+entityName "AbilityAltorAoEHeal.entity"
+entityName "BuffRepairAltorAoE.entity"
 entityName "AbilityAltorFighters.entity"
 entityName "AbilityHajenRepair.entity"
 entityName "AbilityHajenFighters.entity"

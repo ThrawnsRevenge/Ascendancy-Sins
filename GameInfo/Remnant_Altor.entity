@@ -2,7 +2,6 @@
 entityType "CapitalShip"
 ability:0 "AbilityAltorFighters"
 ability:1 "AbilityAltorRepair"
-ability:2 "AbilityDetonateFuelCells"
 ability:3 "AbilityAltorProtect"
 ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
