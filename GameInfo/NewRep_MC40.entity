@@ -225,7 +225,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityPowerToShields"
 ability:1 ""
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 12.000000
 AntiMatterRestoreRate 0.000000

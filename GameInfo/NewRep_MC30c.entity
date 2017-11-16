@@ -223,7 +223,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityClusterBombs"
 ability:1 ""
-ability:2 ""
+ability:2 "AbilityVeteran"
 ability:3 "AbilityBombardEmpire"
 ability:4 "AbilityPassiveLowLifePodsT1"
 MaxAntiMatter 0.000000

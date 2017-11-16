@@ -10,17 +10,12 @@ isChannelling FALSE
 numInstantActions 0	
 numPeriodicActions 1
 periodicAction
-	actionCountType "Finite"
-	actionCount
-		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 2.500000
+		Level:1 2.500000
+		Level:2 2.500000
+		Level:3 2.500000
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnChance"
 	buffApplyChance
@@ -29,9 +24,9 @@ periodicAction
 		Level:2 0.100000
 		Level:3 0.100000
 	buffType "BuffVeteranBonus"
-		effectInfo
+	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""
@@ -41,5 +36,10 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllPeriodicActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
 		

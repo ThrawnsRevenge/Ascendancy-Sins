@@ -182,7 +182,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityEnhancedTargetting"
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 24.000000
 AntiMatterRestoreRate 0.000000
