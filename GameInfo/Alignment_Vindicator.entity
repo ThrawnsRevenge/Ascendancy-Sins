@@ -221,7 +221,7 @@ ability:2 ""
 ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.001000
+AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

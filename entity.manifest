@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2227
+entityNameCount 2228
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -943,6 +943,7 @@ entityName "RemnantResearch_Global_SpreadFire.entity"
 entityName "RemnantResearch_Global_Spaarti.entity"
 entityName "RemnantResearch_Global_DaalaStarbases.entity"
 entityName "RemnantResearch_Global_DaalaDefenses.entity"
+entityName "RemnantResearch_Global_SupplyChainOne.entity"
 entityName "RemnantResearch_Flat_Turbolasers.entity"
 entityName "RemnantResearch_Flat_Turbolasers2.entity"
 entityName "RemnantResearch_Flat_Turbolasers3.entity"

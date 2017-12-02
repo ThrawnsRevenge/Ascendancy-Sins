@@ -71,7 +71,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000

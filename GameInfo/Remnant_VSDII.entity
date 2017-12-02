@@ -225,7 +225,7 @@ ability:2 "AbilityVeteran"
 ability:3 "AbilityThrawnDoctrine"
 ability:4 "AbilityPassiveLowLifeT2"
 MaxAntiMatter 24.000000
-AntiMatterRestoreRate 0.000000
+AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0
