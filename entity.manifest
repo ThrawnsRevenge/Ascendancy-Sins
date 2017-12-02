@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2221
+entityNameCount 2227
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
@@ -1221,6 +1221,12 @@ entityName "AbilityPowerToShieldsCapital.entity"
 entityName "BuffPowerToShields.entity"
 entityName "AbilitySsiColonize.entity"
 entityName "BuffSsiExpand.entity"
+entityName "AbilityShipyardLimited.entity"
+entityName "BuffShipyardLimitedSelf.entity"
+entityName "BuffShipyardLimited.entity"
+entityName "AbilityWarehouse.entity"
+entityName "BuffWarehouseSelf.entity"
+entityName "BuffWarehouse.entity"
 entityName "AbilityTractorBeam.entity"
 entityName "AbilityTractorLockdown.entity"
 entityName "BuffTractorLockdownMarkerTarget.entity"

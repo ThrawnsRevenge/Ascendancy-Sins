@@ -49,10 +49,10 @@ basePrice
 slotCount 4.000000
 BuildTime 70.000000
 MaxHullPoints
-	StartValue 4500.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4500.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -61,7 +61,7 @@ ShieldPointRestoreRate
 	StartValue 30.000000
 	ValueIncreasePerLevel 0.240000
 ArmorPointsFromExperience
-	StartValue 6.000000
+	StartValue 7.000000
 	ValueIncreasePerLevel 0.540000
 maxMitigation
 	StartValue 0.650000
