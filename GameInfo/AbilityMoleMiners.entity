@@ -6,8 +6,7 @@ buffType "BuffMoleMiner"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 3
-	object "CapitalShip"
+	numObjects 2
 	object "Frigate"
 	object "Corvette"
 	numSpaces 1
@@ -56,10 +55,10 @@ isUltimateAbility FALSE
 maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
-	Level:0 3.000000
-	Level:1 4.000000
-	Level:2 5.000000
-	Level:3 8.000000
+	Level:0 2.000000
+	Level:1 3.000000
+	Level:2 4.000000
+	Level:3 5.000000
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
