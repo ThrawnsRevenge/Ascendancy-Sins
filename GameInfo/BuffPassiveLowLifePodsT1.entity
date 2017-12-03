@@ -103,10 +103,10 @@ periodicAction
 	buffInstantActionType "GiveCreditsToPlayer"
 	instantActionTriggerType "AlwaysPerform"
 	credits
-		Level:0 -0.360000
-		Level:1 -0.360000
-		Level:2 -0.360000
-		Level:3 -0.360000
+		Level:0 -0.200000
+		Level:1 -0.200000
+		Level:2 -0.200000
+		Level:3 -0.200000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -118,10 +118,10 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "EarnCredits"
 	earnRate
-		Level:0 -0.360000
-		Level:1 -0.360000
-		Level:2 -0.360000
-		Level:3 -0.360000
+		Level:0 -0.040000
+		Level:1 -0.040000
+		Level:2 -0.040000
+		Level:3 -0.040000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1

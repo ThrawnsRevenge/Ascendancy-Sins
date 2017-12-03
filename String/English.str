@@ -1,5 +1,5 @@
 TXT
-NumStrings 8829
+NumStrings 8831
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -606,6 +606,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_DESCRIPTION"
 	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
+StringInfo
+	ID "IDS_ABILITY_ALTORPASSIVEHEAL_NAME"
+	Value "Fleet Logistics"
+StringInfo
+	ID "IDS_ABILITY_ALTORPASSIVEHEAL_DESCRIPTION"
+	Value "The Altore constantly heals friendly ships around it for a small amount."
 StringInfo
 	ID "IDS_ABILITY_DRYDOCKARMS_NAME"
 	Value "Drydock Arm"
