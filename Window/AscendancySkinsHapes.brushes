@@ -1,0 +1,48 @@
+TXT
+onlyLoadOnDemand FALSE
+brushCount 7
+brush
+  name "AscendancySkinsHapesBottomBar"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 107 , 380 , 810 , 150 ]
+brush
+  name "AscendancySkinsHapesTopBar"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 285 , -2 , 455 , 85 ]
+brush
+  name "AscendancySkinsHapesInfoCard"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 12
+		bottom 12
+	contentMargins
+		left 12
+		right 12
+		top 14
+		bottom 14
+	fileName "AscendancySkinHapes"
+	pixelBox [ 497 , 223 , 300 , 29 ]
+brush
+  name "AscendancySkinsHapesLeftCap"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 522 , 107 , 220 , 43 ]
+brush
+  name "AscendancySkinsHapesRightCap"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 1 , 180 , 15 , 42 ]
+brush
+  name "AscendancySkinsHapesEmpireWindow"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 5 , 5 , 200 , 36 ]
+brush
+  name "AscendancySkinsHapesQuickMarket"
+  content "Simple"
+  fileName "AscendancySkinHapes"
+  pixelBox [ 781 , 0 , 178 , 63 ]
