@@ -1,6 +1,6 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 22
+brushCount 23
 brush
   name "AscendancyBackdropMenuSinglePlayer"
   content "Simple"
@@ -75,6 +75,11 @@ brush
   name "AscendancyBackdropFactionSelectPA"
   content "Simple"
   fileName "AscendancyBackdropFactionSelectPA"
+  pixelBox [ 0 , 0 , 3000 , 768 ]
+brush
+  name "AscendancyBackdropFactionSelectHapes"
+  content "Simple"
+  fileName "AscendancyBackdropFactionSelectHapes"
   pixelBox [ 0 , 0 , 3000 , 768 ]
 brush
   name "AscendancyBackdropMenuInGameMenu"

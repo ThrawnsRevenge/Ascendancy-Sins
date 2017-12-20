@@ -1,5 +1,5 @@
 TXT
-brushFileCount 38
+brushFileCount 39
 brushFile "Achievements.brushes"
 brushFile "GameEvent.brushes"
 brushFile "GameOver.brushes"
@@ -38,3 +38,4 @@ brushFile "AscendancySkinsNewRepublic.brushes"
 brushFile "AscendancySkinsEmpireOfTheHand.brushes"
 brushFile "AscendancySkinsImperialRemnant.brushes"
 brushFile "AscendancySkinsPentastarAlignment.brushes"
+brushFile "AscendancySkinsHapes.brushes"

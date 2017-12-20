@@ -1,5 +1,5 @@
 TXT
-NumStrings 8831
+NumStrings 8832
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"
@@ -1476,6 +1476,9 @@ StringInfo
 StringInfo
 	ID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
 	Value "The Pentastar Alignment formed in 4 ABY after the Battle of Endor primarily with the Imperial forces under Grand Moff Ardus Kaine of Oversector Outer. Because much of the territory except for Oversector Outer is from the backwater worlds of the Outer Rim, much of the Pentastar forces are comprised of a mix of outdated technology from the Clone Wars in support of state-of-the-art Imperial battleships. The Alignment is a primarily corporation-based faction, with a heavy emphasis on trade."
+StringInfo
+	ID "IDS_RACESELECTDIALOG_HAPES_DESCRIPTION"
+	Value "The Hapes Consortium was the ruling government and consortium of the Hapes Cluster. A hereditary monarchy based on the capital world of Hapes, it ruled over the region in isolation since before 3000 BBY, protected by the Transitory Mists. It spanned 63 closely positioned star systems, each with an inhabited world."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 	Value "Random"
