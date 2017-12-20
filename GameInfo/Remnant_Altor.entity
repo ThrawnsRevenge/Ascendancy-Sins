@@ -2,9 +2,9 @@
 entityType "CapitalShip"
 ability:0 "AbilityAltorFighters"
 ability:1 "AbilityAltorRepair"
-ability:2 "AbilityDetonateFuelCells"
+ability:2 "AbilityAltorAoEHeal"
 ability:3 "AbilityAltorProtect"
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -16,7 +16,7 @@ basePrice
 	credits 800.000000
 	metal 50.000000
 	crystal 105.000000
-slotCount 1.000000
+slotCount 4.000000
 BuildTime 75.000000
 MaxHullPoints
 	StartValue 6000.000000

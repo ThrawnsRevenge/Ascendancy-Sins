@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Aralani_name"
-descStringID "C_ability_Aralani_desc"
-hudIcon "C_res_icon_Aralani"
-smallHudIcon "C_res_icon_Aralani"
+nameStringID "IDS_HERO_ARALANI_NAME"
+descStringID "IDS_HERO_ARALANI_DESCRIPTION"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

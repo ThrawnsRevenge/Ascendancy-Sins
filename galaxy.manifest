@@ -1,5 +1,21 @@
 TXT
-fileCount 15
+fileCount 31
+fileName "Huge Multi-System Random Map"
+fileName "Huge Multi-System Random Map Fair"
+fileName "Huge Single-System Random Map"
+fileName "Huge Single-System Random Map Fair"
+fileName "Large Multi-System Random Map"
+fileName "Large Multi-System Random Map Fair"
+fileName "Large Single-System Random Map"
+fileName "Large Single-System Random Map Fair"
+fileName "Medium Large Random Map"
+fileName "Medium Large Random Map Fair"
+fileName "Medium Random Map"
+fileName "Medium Random Map Fair"
+fileName "Small Random Map"
+fileName "Small Random Map Fair"
+fileName "Huge Ring Random Map"
+fileName "Huge Ring Random Map Fair"
 fileName "Deep Core Conflict"
 fileName "Braxant Brawl"
 fileName "BalancePoint"

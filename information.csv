@@ -21,7 +21,7 @@ EotH_Ascendancy.entity,CapitalShip,1300,60,20,1,80,4430,4430,48,6,0.65,3,"""ION"
 EotH_Ascent.entity,Frigate,100,10,25,1,20,1150,1250,5,0,0.6,1,"""AUTOCANNON""",10,0,0,0,4000,2,,,,,,,,,,,,,,,,,,,,,
 EotH_Asdoni.entity,Frigate,200,50,0,1,25,700,700,200,2,0.6,2,"""AUTOCANNON""",0,0,30,30,4000,1,"""AUTOCANNON""",0,0,15,15,4000,1,,,,,,,,,,,,,,
 EotH_Auriette.entity,Frigate,400,40,10,5,40,1900,1900,84,3,0.6,2,"""LASERTECH""",120,0,0,0,5000,2,"""LASERTECH""",84,0,0,0,5000,5,,,,,,,,,,,,,,
-EotH_Budirech.entity,Frigate,620,75,50,7,55,2300,2800,0,2,0.6,3,"""LASERTECH""",0,0,60,60,5000,5,"""LASERTECH""",0,0,60,60,5000,5,"""LASERTECH""",0,0,40,40,5000,5,,,,,,,
+EotH_Budirech.entity,Frigate,620,75,50,7,55,2300,2800,0,2,0.6,3,"""LASERTECH""",100,0,60,60,5000,5,"""LASERTECH""",100,0,60,60,5000,5,"""LASERTECH""",60,0,40,40,5000,5,,,,,,,
 EotH_Chaf.entity,Frigate,900,80,30,8,65,3500,3500,200,2,0.6,4,"""MISSILE""",100,0,0,0,5500,15,"""PHASEMISSILE""",24,0,0,0,5500,15,"""LASERTECH""",320,0,0,0,5000,5,"""ION""",364,0,0,0,5000,4
 EotH_Consen.entity,Frigate,100,10,25,1,40,1150,1125,5,0,0.6,1,"""LASERTECH""",21,0,0,0,5000,2,,,,,,,,,,,,,,,,,,,,,
 EotH_ConsenConstructor.entity,Frigate,1500,150,250,1,25,1500,0,0,3,0.6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,

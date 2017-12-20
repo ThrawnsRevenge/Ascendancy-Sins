@@ -1,5 +1,416 @@
 TXT
-NumStrings 8648
+NumStrings 8831
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
+	Value "Diplomatic Immunity"
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
+	Value "Leia is able to escape damage for a brief period."
+StringInfo
+	ID "IDS_ABILITY_CIUTRIC_NAME"
+	Value "Ciutric"
+StringInfo
+	ID "IDS_ABILITY_CIUTRIC_DESCRIPTION"
+	Value "Pestage's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_ABILITY_STRIKEFAST_NAME"
+	Value "Strikefast"
+StringInfo
+	ID "IDS_ABILITY_STRIKEFAST_DESCRIPTION"
+	Value "Despite only being a Victory-class, Parck is able to draw the most possible out of his crew."
+StringInfo
+	ID "IDS_ABILITY_SIGNALWEAKNESS_NAME"
+	Value "Signal Weakness"
+StringInfo
+	ID "IDS_ABILITY_SIGNALWEAKNESS_DESCRIPTION"
+	Value "Parck identifies weak points on the enemy hull, increasing damage againjst it from all sources temporarily."
+StringInfo
+	ID "IDS_ABILITY_VISIONARY_NAME"
+	Value "Dedication"
+StringInfo
+	ID "IDS_ABILITY_VISIONARY_DESCRIPTION"
+	Value "Parck's devotion to Thrawn's vision encourages him to use his strategic acumen to the fullest extent."
+StringInfo
+	ID "IDS_ABILITY_GRANDADMIRAL_NAME"
+	Value "Grand Admiral"
+StringInfo
+	ID "IDS_ABILITY_GRANDADMIRAL_DESCRIPTION"
+	Value "As a Grand Admiral, Grant is one of the most talented Imperial commanders."
+StringInfo
+	ID "IDS_ABILITY_SIEGESPECIALIST_NAME"
+	Value "Siege Specialist"
+StringInfo
+	ID "IDS_ABILITY_SIEGESPECIALIST_DESCRIPTION"
+	Value "Grant closely coordinates the siege efforts of his fleet, increasing the damage done to the planet's defenses."
+StringInfo
+	ID "IDS_ABILITY_EYEFORTALENT_NAME"
+	Value "Eye for Talent"
+StringInfo
+	ID "IDS_ABILITY_EYEFORTALENT_DESCRIPTION"
+	Value "Parck is able to identify promising officers, promoting them to command aboard the target vessel."
+StringInfo
+	ID "IDS_ABILITY_RESOURCEINFLUX_NAME"
+	Value "Resource Influx"
+StringInfo
+	ID "IDS_ABILITY_RESOURCEINFLUX_DESCRIPTION"
+	Value "Pestage's vast personal wealth is directed towards increasing production rate of Imperial shipyards at this world."
+StringInfo
+	ID "IDS_ABILITY_SURVIVALINSTINCT_NAME"
+	Value "Survival Instinct"
+StringInfo
+	ID "IDS_ABILITY_SURVIVALINSTINCT_DESCRIPTION"
+	Value "Pestage redirects most damage from himself to allied vessels for a short period of time."
+StringInfo
+	ID "IDS_ABILITY_REBELDREAM_NAME"
+	Value "Rebel Dream"
+StringInfo
+	ID "IDS_ABILITY_REBELDREAM_DESCRIPTION"
+	Value "Leia's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_ABILITY_ROUSINGSPEECH_NAME"
+	Value "Rousing Speech"
+StringInfo
+	ID "IDS_ABILITY_ROUSINGSPEECH_DESC"
+	Value "Leia broadcasts a speech to the local population, increasing their allegiance to the New Republic."
+StringInfo
+	ID "IDS_ABILITY_MINDTRICK_NAME"
+	Value "Mind Trick"
+StringInfo
+	ID "IDS_ABILITY_MINDTRICK_DESC"
+	Value "Leia uses her fledling Jedi powers to direct enemy fire away from the Rebel Dream."
+StringInfo
+	ID "IDS_ABILITY_ORIFLAMME_NAME"
+	Value "Oriflamme"
+StringInfo
+	ID "IDS_ABILITY_ORIFLAMME_DESCRIPTION"
+	Value "Grant's crew gains extra bonuses as he gains levels."
+StringInfo
+	ID "IDS_HERO_SIATH_NAME"
+	Value "Siath - Battlehammer"
+StringInfo
+	ID "IDS_SPAWNHERO_SIATH_NAME"
+	Value "Recruit Admiral Siath"
+StringInfo
+	ID "IDS_HERO_SIATH_DESCRIPTION"
+	Value "A high-ranking Chiss admiral within Thrawn's household phalanx forces."
+StringInfo
+	ID "IDS_HERO_KAINE_NAME"
+	Value "Ardus Kaine - Reaper"
+StringInfo
+	ID "IDS_HERO_KAINE_DESCRIPTION"
+	Value "A highly intelligent Grand Moff who formed the Pentastar Alignment soon after the death of the Empire ."
+StringInfo
+	ID "IDS_HERO_PESTAGE_NAME"
+	Value "Sate Pestage"
+StringInfo
+	ID "IDS_HERO_PESTAGE_DESCRIPTION"
+	Value "The Grand Vizier of the Empire under Palpatine. Pestage took over de facto control of the Empire after Palpatine's death. If this unit dies, the Remnant is defeated."
+StringInfo
+	ID "IDS_HERO_GRANT_NAME"
+	Value "Octavian Grant"
+StringInfo
+	ID "IDS_HERO_GRANT_DESCRIPTION"
+	Value "An Imperial Grand Admiral who sought to retire in the Pentastar Alignment after Endor. If this unit dies, the Alignment is defeated."
+StringInfo
+	ID "IDS_HERO_PARCK_NAME"
+	Value "Voss Parck"
+StringInfo
+	ID "IDS_HERO_PARCK_DESCRIPTION"
+	Value "Thrawn's second in command. After Thrawn's departure to lead the Empire, Parck continued leading the Hand to live up to Thrawn's vision. If this unit dies, the Hand is defeated."
+StringInfo
+	ID "IDS_HERO_LEIA_NAME"
+	Value "Leia Organa-Solo"
+StringInfo
+	ID "IDS_HERO_LEIA_DESCRIPTION"
+	Value "A skilled diplomat and force-sensitive hero of the Rebellion. If Leia is killed, the New Republic is defeated."
+StringInfo
+	ID "IDS_ABILITY_IONBARRAGE_NAME"
+	Value "Ion Barrage"
+StringInfo
+	ID "IDS_ABILITY_IONBARRAGE_DESCRIPTION"
+	Value "Sends out a salvo of powerful Ion Cannon blasts, doing damage to enemy shielding and slowing their recovery."
+StringInfo
+	ID "IDS_ABILITY_REAPER_NAME"
+	Value "Reaper"
+StringInfo
+	ID "IDS_ABILITY_REAPER_DESCRIPTION"
+	Value "The flagship of the Pentastar Alignment."
+StringInfo
+	ID "IDS_ABILITY_SCOURGE_NAME"
+	Value "Scourge Squadron Leader"
+StringInfo
+	ID "IDS_ABILITY_SCOURGE_DESCRIPTION"
+	Value "Kaine summons help from other Scourge Squadron Star Destroyersy."
+StringInfo
+	ID "IDS_ABILITY_SENSORSCRAMBLER_NAME"
+	Value "Sensor Scrambler"
+StringInfo
+	ID "IDS_ABILITY_SENSORSCRAMBLER_DESCRIPTION"
+	Value "Deploys autonomous drones which draw enemy fire to themselves."
+StringInfo
+	ID "IDS_ABILITY_CHISSINTEL_NAME"
+	Value "Hand Intelligence"
+StringInfo
+	ID "IDS_ABILITY_CHISSINTEL_DESCRIPTION"
+	Value "Deploys scouts to the target gravity well to gather intelligence for the Hand of Thrawn's archives."
+StringInfo
+	ID "IDS_ABILITY_BATTLEHAMMER_NAME"
+	Value "Battlehammer"
+StringInfo
+	ID "IDS_ABILITY_BATTLEHAMMER_DESCRIPTION"
+	Value "Siath's intense discipline grants bonuses to his crew."
+StringInfo
+	ID "IDS_ABILITY_GRAVITYBOMB_NAME"
+	Value "Gravity Bomb"
+StringInfo
+	ID "IDS_ABILITY_GRAVITYBOMB_DESCRIPTION"
+	Value "The detonation of this bomb draws in nearby objects causing increased damage upon impact."
+StringInfo
+	ID "IDS_ABILITY_RETRIBUTION_NAME"
+	Value "Retribution"
+StringInfo
+	ID "IDS_ABILITY_RETRIBUTION_DESCRIPTION"
+	Value "As the flagship of the commander of Thrawn's Chiss forces, Retribution has the most skilled crews in the Hand fleet."
+StringInfo
+	ID "IDS_ABILITY_DAMPENING_NAME"
+	Value "Sensor Dampening"
+StringInfo
+	ID "IDS_ABILITY_DAMPENING_DESCRIPTION"
+	Value "Frontier reduces the effectiveness of sensors on surrounding enemies, reducing response time on attacks and causing increased damage to those targets."
+StringInfo
+	ID "IDS_ABILITY_DECORATEDCOMMANDER_NAME"
+	Value "Decorated Commander"
+StringInfo
+	ID "IDS_ABILITY_DECORATEDCOMMANDER_DESCRIPTION"
+	Value "Ar'alani's decades of experience within the Chiss Expansionary Defense Force grants significant bonuses to her forces."
+StringInfo
+	ID "IDS_ABILITY_FRONTIER_NAME"
+	Value "Frontier"
+StringInfo
+	ID "IDS_ABILITY_FRONTIER_DESCRIPTION"
+	Value "Ar'alani's crews benefit from her years of experience, improving their effectiveness."
+StringInfo
+	ID "IDS_ABILITY_TARGETENGINES_NAME"
+	Value "Target Engines"
+StringInfo
+	ID "IDS_ABILITY_TARGETENGINES_DESCRIPTION"
+	Value "Directs the Frontier's fire to enemy engines, crippling them."
+StringInfo
+	ID "IDS_ABILITY_PLASMAROUND_NAME"
+	Value "Plasma Round"
+StringInfo
+	ID "IDS_ABILITY_PLASMAROUND_DESCRIPTION"
+	Value "Retribution shoots a powerful round capable of seeping through the target's shields and directly damaging the hull."
+StringInfo
+	ID "IDS_ABILITY_GRAVITICROUND_NAME"
+	Value "Gravitic Round"
+StringInfo
+	ID "IDS_ABILITY_GRAVITICROUND_DESCRIPTION"
+	Value "Retribution shoots a gravity bomb at the target, drawing surrounding matter in and causing damage."
+StringInfo
+	ID "IDS_ABILITY_PARAMETRICSHIELD_NAME"
+	Value "Parametric Shield"
+StringInfo
+	ID "IDS_ABILITY_PARAMETRICSHIELD_DESCRIPTION"
+	Value "Directs energy first to shields, and then towards amplifying the next ability cast."
+StringInfo
+	ID "IDS_ABILITY_VELCAR_NAME"
+	Value "Velcar"
+StringInfo
+	ID "IDS_ABILITY_VELCAR_DESCRIPTION"
+	Value "Dekeet's flagship, Velcar, is upgraded with private sector contractors to improve its functionality."
+StringInfo
+	ID "IDS_ABILITY_TIESWARM_NAME"
+	Value "TIE Swarm"
+StringInfo
+	ID "IDS_ABILITY_TIESWARM_DESCRIPTION"
+	Value "Increase the number and build rate of fighters from the Velcar for a short duration."
+StringInfo
+	ID "IDS_ABILITY_PLANETARYGOVERNANCE_NAME"
+	Value "Planetary Governance"
+StringInfo
+	ID "IDS_ABILITY_PLANETARYGOVERNANCE_DESCRIPTION"
+	Value "Improves the economy of any gravity well in which he is present."
+StringInfo
+	ID "IDS_ABILITY_FORTRESSMODE_NAME"
+	Value "Full Power"
+StringInfo
+	ID "IDS_ABILITY_FORTRESSMODE_DESCRIPTION"
+	Value "Temporarily switches all power from engines to combat systems, increasing shielding, weapon power, and weapon range for a short time."
+StringInfo
+	ID "IDS_ABILITY_ASTEROIDSHUNT_NAME"
+	Value "Asteroid Shunt"
+StringInfo
+	ID "IDS_ABILITY_ASTEROIDSHUNT_DESCRIPTION"
+	Value "Pellaeon adapts Thrawn's strategy from Coruscant, deploying cloaked asteroids as orbital mines."
+StringInfo
+	ID "IDS_ABILITY_FLEETCLOAK_NAME"
+	Value "Fleet Cloak"
+StringInfo
+	ID "IDS_ABILITY_FLEETCLOAK_DESCRIPTION"
+	Value "Pellaeon cloaks all ships in his vicinity."
+StringInfo
+	ID "IDS_ABILITY_RIGHTTORULE_NAME"
+	Value "Right to Rule"
+StringInfo
+	ID "IDS_ABILITY_RIGHTTORULE_DESCRIPTION"
+	Value "Pellaeon's command ship is staffed by the best crew available to the Empire."
+StringInfo
+	ID "IDS_ABILITY_COMMANDPELLAEON_NAME"
+	Value "Old Man of the Empire"
+StringInfo
+	ID "IDS_ABILITY_COMMANDPELLAEON_DESCRIPTION"
+	Value "Pellaeon's experience makes has made him one of the most capable admirals the galaxy has ever seen, surpassed only by Thrawn and Ackbar."
+StringInfo
+	ID "IDS_ABILITY_DARKFORCERISING_NAME"
+	Value "Dark Force Rising"
+StringInfo
+	ID "IDS_ABILITY_DARKFORCERISING_DESCRIPTION"
+	Value "Thrawn calls several Katana Fleet dreadnaughts in for support."
+StringInfo
+	ID "IDS_ABILITY_NOGHRI_NAME"
+	Value "Noghri Strike Team"
+StringInfo
+	ID "IDS_ABILITY_NOGHRI_DESCRIPTION"
+	Value "Thrawn dispatches Noghri commando teams to enemy vessels, damaging subsystems."
+StringInfo
+	ID "IDS_ABILITY_COMMANDTHRAWN_NAME"
+	Value "Brilliant Command"
+StringInfo
+	ID "IDS_ABILITY_COMMANDTHRAWN_DESCRIPTION"
+	Value "Thrawn's strategies vastly improve the effectiveness of ships under his command."
+StringInfo
+	ID "IDS_ABILITY_CHIMAERA_NAME"
+	Value "Chimaera"
+StringInfo
+	ID "IDS_ABILITY_CHIMAERA_DESCRIPTION"
+	Value "Thrawn expects and inspires excellence in his crew."
+StringInfo
+	ID "IDS_ABILITY_SURPRISE_NAME"
+	Value "Surprise!"
+StringInfo
+	ID "IDS_ABILITY_SURPRISE_DESCRIPTION"
+	Value "Karrde deploys three retractable turbolasers to fire a powerful salvo at a target vessel."
+StringInfo
+	ID "IDS_ABILITY_SMUGGLERSALLIANCE_NAME"
+	Value "Smuggler's Alliance"
+StringInfo
+	ID "IDS_ABILITY_SMUGGLERSALLIANCE_DESCRIPTION"
+	Value "Karrde summons allied smugglers from his secret organization to help in battle temporarily."
+StringInfo
+	ID "IDS_ABILITY_SPYNETWORK_NAME"
+	Value "Spy Network"
+StringInfo
+	ID "IDS_ABILITY_SPYNETWORK_DESCRIPTION"
+	Value "Karrde uses his contacts and hijacked ommuncations arrays to fully detect what's occuring in a targetted gravity well."
+StringInfo
+	ID "IDS_ABILITY_WILDKARRDE_NAME"
+	Value "Wild Karrde"
+StringInfo
+	ID "IDS_ABILITY_WILDKARRDE_DESCRIPTION"
+	Value "The equipment and crew on the Wild Karrde are the finest money can buy without official sanction."
+StringInfo
+	ID "IDS_ABILITY_AIVIRUS_NAME"
+	Value "AI Virus"
+StringInfo
+	ID "IDS_ABILITY_AIVIRUS_DESCRIPTION"
+	Value "Engineers from Dynamic Automata infect enemy computer systems with a virus, causing various systems to malfunction."
+StringInfo
+	ID "IDS_ABILITY_CORPORATEACQUISITION_NAME"
+	Value "Corporate Acquisition"
+StringInfo
+	ID "IDS_ABILITY_CORPORATEACQUISITION_DESCRIPTION"
+	Value "Besk raids the target planet, siphoning cridets from local businesses."
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_NAME"
+	Value "Buzz Droids"
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
+	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
+StringInfo
+	ID "IDS_ABILITY_DYNAMIC_NAME"
+	Value "Dynamic"
+StringInfo
+	ID "IDS_ABILITY_DYNAMIC_DESCRIPTION"
+	Value "The crew of Besk's flagship, the Dynamic,live up to the ship's name and thrive in various circumstances."
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_NAME"
+	Value "Ruthless Leader"
+StringInfo
+	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
+	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
+StringInfo
+	ID "IDS_ABILITY_TARKINDOCTRINE_NAME"
+	Value "Ruthless Leader"
+StringInfo
+	ID "IDS_ABILITY_TARKINDOCTRINE_DESCRIPTION"
+	Value "Daala uses her leadership style, inspired by Grand Moff Tarkin, to inspire her forces towards greater heights."
+StringInfo
+	ID "IDS_ABILITY_CRITICALSTRIKE_NAME"
+	Value "Critical Strike"
+StringInfo
+	ID "IDS_ABILITY_CRITICALSTRIKE_DESCRIPTION"
+	Value "Knight Hammer targets one enemy capital vessels with a focused high powered energy blast from multiple turbolasers."
+StringInfo
+	ID "IDS_ABILITY_NIGHTHAMMER_NAME"
+	Value "Knight Hammer"
+StringInfo
+	ID "IDS_ABILITY_NIGHTHAMMER_DESCRIPTION"
+	Value "Knight Hammer's various upgrades to subsystems increase its own power in combat."
+StringInfo
+	ID "IDS_ABILITY_ITSATRAP_NAME"
+	Value "IT'S A TRAP!"
+StringInfo
+	ID "IDS_ABILITY_ITSATRAP_DESCRIPTION"
+	Value "Ackbar helpfully points out the obvious, putting his fleet on increased guard for a limited time, significantly decreasing damage taken."
+StringInfo
+	ID "IDS_ABILITY_HOMEONECOMMAND_NAME"
+	Value "Fleet Command"
+StringInfo
+	ID "IDS_ABILITY_HOMEONECOMMAND_DESCRIPTION"
+	Value "Ackbar's sound strategies make the most of the ships under his command."
+StringInfo
+	ID "IDS_ABILITY_DISSIDENTSUPPRESSION_NAME"
+	Value "Dissident Suppression"
+StringInfo
+	ID "IDS_ABILITY_DISSIDENTSUPPRESSION_DESCRIPTION"
+	Value "Daala increases the bombing damage of her fleet, crushing all opposition on the planet."
+StringInfo
+	ID "IDS_ABILITY_CONCENTRATEFIRE_NAME"
+	Value "Concentrate Fire"
+StringInfo
+	ID "IDS_ABILITY_CONCENTRATEFIRE_DESCRIPTION"
+	Value "Ackbar designates a target in the enemy fleet, causing all allied ships to attack it while doing increased damage."
+StringInfo
+	ID "IDS_ABILITY_HOMEONE_NAME"
+	Value "Home One"
+StringInfo
+	ID "IDS_ABILITY_HOMEONE_DESCRIPTION"
+	Value "As the command ship of the New Republic fleet, the Home One crews are the best available, increasing their capabilities."
+StringInfo
+	ID "IDS_ABILITY_FALCON_NAME"
+	Value "A Few Modifications"
+StringInfo
+	ID "IDS_ABILITY_FALCON_DESCRIPTION"
+	Value "The Falcon is no ordinary YT-1300. Han has made several changes, upgrading subsystems."
+StringInfo
+	ID "IDS_ABILITY_WHEREITCOUNTS_NAME"
+	Value "Where It Counts"
+StringInfo
+	ID "IDS_ABILITY_WHEREITCOUNTS_DESCRIPTION"
+	Value "The Falcon quickly jumps to safety at another location."
+StringInfo
+	ID "IDS_ABILITY_LUCKYSHOT_NAME"
+	Value "Lucky Shot"
+StringInfo
+	ID "IDS_ABILITY_LUCKYSHOT_DESCRIPTION"
+	Value "The Falcon's dorsal and ventral turrets quickly destroy all enemy ships around it."
+StringInfo
+	ID "IDS_ABILITY_FLYCASUAL_NAME"
+	Value "Fly Casual"
+StringInfo
+	ID "IDS_ABILITY_FLYCASUAL_DESCRIPTION"
+	Value "Han flies the Falcon in an inconspicuous way, causing enemy ships to ignore them for a small period of time."
 StringInfo
 	ID "IDSOptionsScreenUserInterfaceOptionsUIScale"
 	Value "UI Scale"
@@ -26,7 +437,10 @@ StringInfo
 	Value "Planet Detail"
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIA_NAME"
-	Value "Validusia Trade Station"
+	Value "Validusia Space Station"
+StringInfo
+	ID "IDS_PLANETMODULE_VALIDUSIA_DESCRIPTION"
+	Value "A large space station specializing in defense and supply."
 StringInfo
 	ID "IDS_PLANETMODULE_VALIDUSIACOMMANDSTATION_NAME"
 	Value "Validusia Station"
@@ -100,6 +514,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_ASTROMECHS2_DESCRIPTION"
 	Value "Restraining bolts are installed on astromechs when on duty, reducing the incidence of snide comments and improving their work efficiency."
 StringInfo
+	ID "IDS_ABILITY_BATTLEMEDITATION_DESCRIPTION"
+	Value "Palpatine uses the force to more effectively coordinate the forces under his control, increasing their effectiveness but also increasing the damage they take."
+StringInfo
+	ID "IDS_ABILITY_BATTLEMEDITATION_NAME"
+	Value "Battle Meditation"
+StringInfo
 	ID "IDS_ABILITY_COMMANDSPEED_DESCRIPTION"
 	Value "The Intego acts as a command and control node for vessels in range by providing updated enemy fleet movement predictions, allowing friendly vessels to close at a faster rate to their designated targets."
 StringInfo
@@ -118,47 +538,80 @@ StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
 	Value "Electronic Baffle"
 StringInfo
-	ID "IDS_ABILITY_SPAWN_KARRDE_NAME"
+	ID "IDS_SPAWNHERO_KARRDE_NAME"
 	Value "Call Talon Karrde"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_KARRDE_DESCRIPTION"
 	Value "The New Republic calls for the assistance of the smuggler Talon Karrde and his flagship, the Wild Karrde."
 StringInfo
-	ID "IDS_ABILITY_SPAWN_ACKBAR_NAME"
-	Value "Call Admiral Ackbar"
+	ID "IDS_SPAWNHERO_ACKBAR_NAME"
+	Value "Recruit Admiral Ackbar"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_ACKBAR_DESCRIPTION"
 	Value "The New Republic calls for the assistance of supreme commander of New Republic forces, Admiral Ackbar in Home One."
 StringInfo
-	ID "IDS_ABILITY_SPAWN_SOLO_NAME"
-	Value "Call Han & Chewbacca"
+	ID "IDS_SPAWNHERO_SOLO_NAME"
+	Value "Recruit Han & Chewbacca"
 StringInfo
 	ID "IDS_ABILITY_SPAWN_SOLO_DESCRIPTION"
 	Value "The New Republic calls for the assistance of General Solo and the Millenium Falcon."
 StringInfo
-	ID "IDS_ABILITY_HERO_KARRDE_NAME"
+	ID "IDS_HERO_KARRDE_NAME"
 	Value "Talon Karrde - Wild Karrde"
 StringInfo
-	ID "IDS_ABILITY_HERO_KARRDE_DESCRIPTION"
+	ID "IDS_HERO_KARRDE_DESCRIPTION"
 	Value "The leader of the Smuggler's Alliance. Karrde grants several economic bonuses and can call for allied smuggler help in battle."
 StringInfo
-	ID "IDS_ABILITY_HERO_ACKBAR_NAME"
-	Value "Admiral Ackbar - Home One"
+	ID "IDS_HERO_ACKBAR_NAME"
+	Value "Ackbar - Home One"
 StringInfo
-	ID "IDS_ABILITY_HERO_ACKBAR_DESCRIPTION"
-	Value "A masterful tactician in charge of all New Republic forces. Provides significant buffs to allied forces."
+	ID "IDS_HERO_ACKBAR_DESCRIPTION"
+	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
-	ID "IDS_ABILITY_HERO_SOLO_NAME"
+	ID "IDS_HERO_SOLO_NAME"
 	Value "Han & Chewie - Millenium Falcon"
 StringInfo
-	ID "IDS_ABILITY_HERO_SOLO_DESCRIPTION"
+	ID "IDS_HERO_SOLO_DESCRIPTION"
 	Value "A former smuggler who excels at eliminating enemy fighters."
+StringInfo
+	ID "IDS_HERO_ASHIK_NAME"
+	Value "Ashik - Fel Ascent"
+StringInfo
+	ID "IDS_SPAWNHERO_ASHIK_NAME"
+	Value "Recruit Ashik"
+StringInfo
+	ID "IDS_HERO_ASHIK_DESCRIPTION"
+	Value "Future head of personal security to Emperor Fel, Ashik commands a small gunship in anti-fighter operations."
+StringInfo
+	ID "IDS_HERO_ARALANI_NAME"
+	Value "Ar'alani - Frontier"
+StringInfo
+	ID "IDS_SPAWNHERO_ARALANI_NAME"
+	Value "Recruit Ar'Alani"
+StringInfo
+	ID "IDS_HERO_ARALANI_DESCRIPTION"
+	Value "A long-serving admiral in the Chiss Expansionary Defense Force who was sympathetic to Thrawn's goals. Provides command bonuses to her fleet."
+StringInfo
+	ID "IDS_HERO_STENT_NAME"
+	Value "Stent - Ascendancy"
+StringInfo
+	ID "IDS_SPAWNHERO_STENT_NAME"
+	Value "Recruit Stent"
+StringInfo
+	ID "IDS_HERO_STENT_DESCRIPTION"
+	Value "The somewhat hot-headed commander of Thrawn's household phalanx, the Chiss soldiers loyal to Thrawn within the Empire of the Hand."
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_NAME"
 	Value "Targetting Link"
 StringInfo
 	ID "IDS_ABILITY_ALTORLINK_DESCRIPTION"
 	Value "The vessel assists a nearby combatant with targeting, greatly increasing the combatant's rate of fire and chances of scoring a direct hit."
+StringInfo
+	ID "IDS_ABILITY_ALTORPASSIVEHEAL_NAME"
+	Value "Fleet Logistics"
+StringInfo
+	ID "IDS_ABILITY_ALTORPASSIVEHEAL_DESCRIPTION"
+	Value "The Altore constantly heals friendly ships around it for a small amount."
 StringInfo
 	ID "IDS_ABILITY_DRYDOCKARMS_NAME"
 	Value "Drydock Arm"
@@ -207,6 +660,18 @@ StringInfo
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
+	Value "Diverse Military"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
+	Value "The Alignment allows aliens in the military, decreasing allegiance among human populations."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
+	Value "Diverse Military"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
+	Value "The Alignment allows aliens in the military, decreasing allegiance among human populations."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_ENHANCEDDEFENSE_NAME"
 	Value "Enhanced Defense"
@@ -262,6 +727,12 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_FORWARDBASES_DESCRIPTION"
 	Value "Daala's fervour to recapture lost Imperial territory spurs production of offensive bases."
 StringInfo
+	ID "IDS_PLANETMODULE_SHIPYARDADMIN_NAME"
+	Value "Shipyard Administration"
+StringInfo
+	ID "IDS_PLANETMODULE_SHIPYARDADMIN_DESCRIPTION"
+	Value "Shipyards built at this world will have an increased build rate. This building is not a shipyard."
+StringInfo
 	ID "IDS_FIGHTERTIEDROID_NAME"
 	Value "TIE Droid"
 StringInfo
@@ -271,10 +742,10 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_NAME"
 	Value "Fortress Worlds"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_FORRESSWORLDS_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDS_DESCRIPTION"
 	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more tactical structures."
 StringInfo
-	ID "IDS_REMNANTRESEARCH_FORRESSWORLDSTWO_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_FORTRESSWORLDSTWO_DESCRIPTION"
 	Value "The Emperor contructs more military platforms on important planets in order to fortify his holdings. Allows more starbases."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TRAININGCUTS_NAME"
@@ -343,6 +814,9 @@ StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_NAME"
 	Value "Split Proton"
 StringInfo
+	ID "IDS_ABILITY_PROTONSPLIT_UNLOCK"
+	Value "Allows Warlord gunboats to use the Split Proton ability."
+StringInfo
 	ID "IDS_ABILITY_PROTONSPLIT_DESCRIPTION"
 	Value "When this ship launches a torpedo, it splits and hits two other nearby targets after the first."
 StringInfo
@@ -357,6 +831,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PUNISHINGFIREPOWER_DESCRIPTION"
 	Value "A fervor overtakes the crews of surrounding ships, increasing their damage output but also amplifying damage done to them. Can stack up to 3 times."
+StringInfo
+	ID "IDS_ABILITY_GLORYOFTHENEWORDER_NAME"
+	Value "Glory of the New Order"
+StringInfo
+	ID "IDS_ABILITY_GLORYOFTHENEWORDER_DESCRIPTION"
+	Value "The Allegiance instills fear in the enemy population, decreasing production and increasing damage taken at the target planet."
 StringInfo
 	ID "IDS_ABILITY_SHIELDSCAN_NAME"
 	Value "Planetary Shield Scan"
@@ -391,7 +871,7 @@ StringInfo
 	ID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
 	Value "Upgrade Computers"
 StringInfo
-	ID "DS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
+	ID "IDS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
 	Value "Targeting computers are upgraded, improving the ability to target critical systems. Increases both chance to hit and damage on hit."
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_NAME"
@@ -415,7 +895,7 @@ StringInfo
 	ID "IDS_ABILITY_UPGRADEDEFENSES_NAME"
 	Value "Upgrade Defenses"
 StringInfo
-	ID "IDS_ABILITY_UPGRADEWEAPONS_DESCRIPTION"
+	ID "IDS_ABILITY_UPGRADEDEFENSES_DESCRIPTION"
 	Value "Installs upgraded plating and shields on the target allied ship."
 StringInfo
 	ID "IDS_ABILITY_KINETICMEGAMASER_NAME"
@@ -502,17 +982,59 @@ StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_REACH_DESCRIPTION"
 	Value "Pentastar controlling interests in galactic corporations redirect a portion of their revenues from purchases across the galaxy into the Alignment."
 StringInfo
+	ID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_NAME"
+	Value "Recycling"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_DESCRIPTION"
+	Value "Your nearby capital ships retrieve processed materials for re-use by the Empire of the Hand."
+StringInfo
+	ID "IDS_EOTHRESEARCH_IMPREGNABLE_NAME"
+	Value "Impregnable"
+StringInfo
+	ID "IDS_EOTHRESEARCH_IMPREGNABLE_DESCRIPTION"
+	Value "Hand defense station crews fight to hold the last line of defense doing increased damage against enemy targets."
+StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_NAME"
 	Value "Rapid Deployment"
 StringInfo
 	ID "IDS_EOTHRESEARCH_RAPIDDEPLOYMENT_DESCRIPTION"
 	Value "Prefabricated parts allow Empire of the Hand orbital structures to be built more quickly."
 StringInfo
+	ID "IDS_EOTHRESEARCH_HOLDOUTS_NAME"
+	Value "Holdouts"
+StringInfo
+	ID "IDS_EOTHRESEARCH_HOLDOUTS_DESCRIPTION"
+	Value "When fighting for home territory, Hand ships assume more defensive positions, using their armour plating to mitigate more damage."
+StringInfo
+	ID "IDS_EOTHRESEARCH_SELECTIVERELATIONS_NAME"
+	Value "Selective Relations"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SELECTIVERELATIONS_DESCRIPTION"
+	Value "The Empire of the Hand is able to be more selective of which missions it accepts, with lower consequences."
+StringInfo
+	ID "IDS_EOTHRESEARCH_GREATERGOOD_NAME"
+	Value "Greater Good"
+StringInfo
+	ID "IDS_EOTHRESEARCH_GREATERGOOD_DESCRIPTION"
+	Value "In order to protect the galaxy, the Empire of the Hand is willing to work more closely with all groups."
+StringInfo
+	ID "IDS_EOTHRESEARCH_SHIELDUPGRADE_NAME"
+	Value "Resilience"
+StringInfo
+	ID "IDS_EOTHRESEARCH_SHIELDUPGRADE_DESCRIPTION"
+	Value "Hand engineers improve shields of all vessels to compensate for their weaker hulls."
+StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCAR_NAME"
 	Value "Velcar Free Commerce"
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCAR_DESCRIPTION"
 	Value "Incorporates the Velcar Free Commerce Zone into the Pentastar Alignment, raising trade revenues but lowering loyalty because of slave labour."
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PRIVATELEASING_NAME"
+	Value "Private Surplus"
+StringInfo
+	ID "IDS_ALIGNMENTRESEARCH_PRIVATELEASING_DESCRIPTION"
+	Value "When scuttling ships, private companies can bid for the materials."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_VELCARUPGRADE_NAME"
 	Value "Institutionalized Slavery"
@@ -646,6 +1168,12 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_CONQUER_ICE_DESCRIPTION"
 	Value "Allows the establishment of New Republic bases on arctic worlds."
 StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_NAME"
+	Value "Coalition Forces"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFIRE_DESCRIPTION"
+	Value "Damage increases for every ally in a gravity well fighting alongside our forces."
+StringInfo
 	ID "IDS_NEWREPRESEARCH_SUPPORTIVEFORCES_NAME"
 	Value "Supporting Fire"
 StringInfo
@@ -752,7 +1280,7 @@ StringInfo
 	Value "Reactor Cooling"
 StringInfo
 	ID "IDS_EOTHRESEARCH_SPEEDBOOST_DESCRIPTION"
-	Value "Improvements to reactor cooling allow engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on level. Only applies to ships constructed after the tech is researched."
+	Value "Improvements to reactor cooling allow engines to draw more power, increasing their speed by 5, 10, 15, or 20 percent based on research level. Must be applied by a shipyard."
 StringInfo
 	ID "IDS_BULWARK_NAME"
 	Value "Bulwark"
@@ -1034,10 +1562,10 @@ StringInfo
 	Value "An old Corellian vessel with moderate firepower whose main use comes from its adaptability."
 StringInfo
 	ID "IDS_FRIGATE_AURIETTE_NAME"
-	Value "Au'riette Fleet Carrier"
+	Value "Ormos Fleet Carrier"
 StringInfo
 	ID "IDS_FRIGATE_AURIETTE_DESCRIPTION"
-	Value "A large support vessel dedicated to the transport of a sizeable complement of starfighters."
+	Value "A small carrier dedicated to the transport of a sizeable complement of starfighters."
 StringInfo
 	ID "IDS_FRIGATE_DECIMATOR_NAME"
 	Value "Decimator Cruiser"
@@ -1046,13 +1574,13 @@ StringInfo
 	Value "A hardy and versatile combat cruiser."
 StringInfo
 	ID "IDS_FRIGATE_KARIEK_NAME"
-	Value "Kariek Cruiser"
+	Value "Frouro Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_KARIEK_DESCRIPTION"
-	Value "A heavily armed and shielded frigate let down only by its uncharacteristically weak hull."
+	Value "A small fast frigate with heavy weaponry but a weak hull."
 StringInfo
 	ID "IDS_FRIGATE_MASSIAS_NAME"
-	Value "Massias Interdictor"
+	Value "Prolipsi Interdictor"
 StringInfo
 	ID "IDS_FRIGATE_MASSIAS_DESCRIPTION"
 	Value "A curious blend of Chiss and Imperial technology, the Massias is a small yet versatile frigate able to trap enemies within an artificial gravity well."
@@ -1154,13 +1682,13 @@ StringInfo
 	Value "A significant component of the Imperial fleet, the expensive Immobilizer can be used to interdict enemy ships using artificial gravity wells."
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_NAME"
-	Value "Fleet Tender: Alaria Freighter"
+	Value "Fleet Tender: Afthonia Freighter"
 StringInfo
 	ID "IDS_FRIGATE_ALARIA_DESCRIPTION"
 	Value "A large logistic ship which carries cargo to refuel and resupply allied ships, originating in service shipping duties along Chiss trade routes."
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_NAME"
-	Value "Bu'direch Cruiser"
+	Value "Prosvoli Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
 	Value "A fusion of the old Republic Dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
@@ -1178,7 +1706,7 @@ StringInfo
 	Value "A modified Dreadnaught with added ion cannons and a small hangar."
 StringInfo
 	ID "IDS_FRIGATE_ASCENT_NAME"
-	Value "Frontier Scout"
+	Value "Synoro Scout"
 StringInfo
 	ID "IDS_FRIGATE_ASCENT_DESCRIPTION"
 	Value "A sleek and inconspicuous vessel designed to get quickly into and out of new territories for the Empire of the Hand without drawing undue attention."
@@ -1312,7 +1840,7 @@ StringInfo
 	ID "IDS_CAPITALSHIP_INTEGO_NAME"
 	Value "Intego Destroyer"
 StringInfo
-	ID "IDS_CAPITALSHIP_PHALANX_DESCRIPTION"
+	ID "IDS_CAPITALSHIP_INTEGO_DESCRIPTION"
 	Value "The largest ship in the Empire of the Hand's navy, the Intego has less firepower than some of the smaller ships, but a far more resilient hull."
 StringInfo
 	ID "IDS_CAPITALSHIP_ALTOR_NAME"
@@ -1606,6 +2134,9 @@ StringInfo
 	ID "IDS_FRIGATE_CR90ENVOY_DESCRIPTION"
 	Value "A CR90 model refitted for diplomatic missions"
 StringInfo
+	ID "IDS_SPAWNHERO_BESK_NAME"
+	Value "Recruit Elta Besk"
+StringInfo
 	ID "IDS_HERO_BESK_NAME"
 	Value "Elta Besk"
 StringInfo
@@ -1615,14 +2146,23 @@ StringInfo
 	ID "IDS_HERO_DEKEET_NAME"
 	Value "Ib Dekeet"
 StringInfo
+	ID "IDS_SPAWNHERO_DEKEET_NAME"
+	Value "Recruit Ib Dekeet"
+StringInfo
 	ID "IDS_HERO_DEKEET_DESCRIPTION"
 	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Praetor and provides several governance bonuses to your planets."
 StringInfo
+	ID "IDS_SPAWNHERO_KAINE_NAME"
+	Value "Recruit Ardus Kaine"
+StringInfo
 	ID "IDS_HERO_KAINE_NAME"
-	Value "Ardus Kaine"
+	Value "Ardus Kaine - Reaper"
 StringInfo
 	ID "IDS_HERO_KAINE_DESCRIPTION"
 	Value "After Endor, Grand Moff Ardus Kaine struck out on his own to form the Pentastar Alignment, bringing together several high-ranking Imperials and local corporations. He commands the Executor-class Reaper, and provides combat bonuses to the Alignment fleet [DOES NOT RESPAWN]"
+StringInfo
+	ID "IDS_SPAWNHERO_THRAWN_NAME"
+	Value "Recruit Thrawn"
 StringInfo
 	ID "IDS_HERO_THRAWN_NAME"
 	Value "Thrawn - Chimera"
@@ -1630,23 +2170,11 @@ StringInfo
 	ID "IDS_HERO_THRAWN_DESCRIPTION"
 	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy. This vessel serves as the flagship for the Remnant in flagship victory mode."
 StringInfo
-	ID "IDS_HERO_STENT_NAME"
-	Value "Stent - Thrawn's Hand"
-StringInfo
-	ID "IDS_HERO_STENT_DESCRIPTION"
-	Value "A Chiss commander of Thrawn's Houshold Phalanx, and a devoted member of the Empire of the Hand bent on the destruction of all threats to the Chiss Ascendancy. This vessel serves as the flagship for the Hand in flagship victory mode."
-StringInfo
 	ID "IDS_HERO_GRANT_NAME"
 	Value "Grant - Oriflamme"
 StringInfo
 	ID "IDS_HERO_GRANT_DESCRIPTION"
 	Value "A Tapani nobleman turned Grand Admiral who, after the fall of the Empire, took refuge in the Pentastar Alignment. This vessel serves as the flagship for the Pentastar Alignment in flagship victory mode."
-StringInfo
-	ID "IDS_HERO_ACKBAR_NAME"
-	Value "Ackbar - Home One"
-StringInfo
-	ID "IDS_HERO_ACKBAR_DESCRIPTION"
-	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_FRIGATE_ESCAPEPOD_NAME"
 	Value "Escape Pod"
@@ -1728,6 +2256,12 @@ StringInfo
 StringInfo
 	ID "IDS_EOTHRESEARCH_EXITDISTANCE_DESCRIPTION"
 	Value "Improvements to navigation computers allows Empire of the Hand ships to exit hyperspace farther into a system."
+StringInfo
+	ID "IDS_EOTHRESEARCH_MEGAMASERS_NAME"
+	Value "Megamaser Improvements"
+StringInfo
+	ID "IDS_EOTHRESEARCH_MEGAMASERS_DESCRIPTION"
+	Value "Hand maser technolology is improved, increasing damage dealt by maser-based weaponry."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_SHIELDUPGRADE_NAME"
 	Value "Shielding"
@@ -2485,7 +3019,7 @@ StringInfo
 	ID "IDS_ABILITY_OVERWHELM_NAME"
 	Value "Overwhelm"
 StringInfo
-	ID "IDS_ABILITY_OVERHWHELM_DESCRIPTION"
+	ID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	Value "Transfers engine and shield generator power to weapons, dealing more damage for a short time."
 StringInfo
 	ID "IDS_ABILITY_PTS_NAME"
@@ -2588,16 +3122,16 @@ StringInfo
 	Value "In their drive to bring democracy to the galaxy, New Republic factions improve their relationship with each other at the expense of relations with other factions."
 StringInfo
 	ID "IDS_FREERESEARCH_HYPERSPACE_NAME"
-	Value "Free Hyperspace"
+	Value "Intergalactic Travel"
 StringInfo
 	ID "IDS_FREERESEARCH_HYPERSPACE_DESCRIPTION"
-	Value "If you have a hyperdrive, hyperspace costs nothing."
+	Value "Your ships can leave the Star Wars galaxy, and go to other, less Star Wars-y galaxies."
 StringInfo
 	ID "IDS_ABILITY_THRAWNDOCTRINE_NAME"
 	Value "Thrawn Doctrine"
 StringInfo
 	ID "IDS_ABILITY_THRAWNDOCTRINE_DESCRIPTION"
-	Value "Thrawn's strategies favour the development of frigates, increasing their damage output and speed by 5%."
+	Value "Thrawn's strategies favour the development of frigates, increasing their damage output and resistance by 10%."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RATIONING_NAME"
 	Value "Spread Thin"
@@ -2673,6 +3207,12 @@ StringInfo
 StringInfo
 	ID "IDS_REMNANTRESEARCH_RUTHLESS_DESCRIPTION"
 	Value "Civilian casualties are of no concern to the Empire."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_GROUNDSUPPORT_NAME"
+	Value "Ground Support"
+StringInfo
+	ID "IDS_REMNANTRESEARCH_GROUNDSUPPORT_DESCRIPTION"
+	Value "Ground invasion forces are used to support orbital deployments in taking planets."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_ACADEMY_NAME"
 	Value "Imperial Academy"
@@ -3013,23 +3553,38 @@ StringInfo
 	ID "IDS_SCIMITAR_DESCRIPTION"
 	Value "A heavy fighter which excels at assaulting capital ships."
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
-	Value "Natasi Daala"
+	ID "IDS_HERO_PALPATINE_NAME"
+	Value "Palpatine - Eclipse I"
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+	ID "IDS_SPAWNHERO_PALPATINE_NAME"
+	Value "Recruit Emperor Palpatine"
+StringInfo
+	ID "IDS_SPAWNHERO_PALPATINE_DESCRIPTION"
+	Value "Emperor Palpatine and his unique flagship, the Eclipse, will join your fleet. If killed, he cannot return, ironically."
+StringInfo
+	ID "IDS_HERO_PALPATINE_DESCRIPTION"
+	Value "The Emperor embodies the idea of ruling with an iron fist. His flagship, the Eclipse, is equipped with a superlaser and hundreds of weapon emplacements."
+StringInfo
+	ID "IDS_HERO_DAALA_NAME"
+	Value "Natasi Daala - Knight Hammer"
+StringInfo
+	ID "IDS_SPAWNHERO_DAALA_NAME"
+	Value "Recruit Natasi Daala"
+StringInfo
+	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala and her custom Executor-class will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
 StringInfo
-	ID "IDS_DAALA_DESCRIPTION"
+	ID "IDS_HERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala is the supreme commander of Imperial forces, most notable in her reign for uniting the Imperial Warlords."
 StringInfo
 	ID "IDS_SPAWNHERO_PELLAEON_NAME"
-	Value "Gilad Pellaeon"
+	Value "Recruit Gilad Pellaeon"
 StringInfo
-	ID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
-	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet. If he dies, he cannot respawn."
+	ID "IDS_HERO_PELLAEON_NAME"
+	Value "Pellaeon - Right to Rule"
 StringInfo
-	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
-	Value "As the leader of the Empire, Natasi Daala reunited all of the Warlords. She commands the Executor-class, Knight Hammer, a modified ship with black stealth armour."
+	ID "IDS_HERO_PELLAEON_DESCRIPTION"
+	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
 	Value "Galaxy Gun"
@@ -5354,10 +5909,10 @@ StringInfo
 	Value "*VALUE0*: *SPACING170* *VALUE1*"
 StringInfo
 	ID "IDSInfoCardArtifactUndiscoveredDesc"
-	Value "Your empire has not discovered this artifact yet. Exploring your empire's planets has a chance to find artifacts."
+	Value "Your empire has not discovered this holocron yet. Exploring your empire's planets has a chance to find holocrons."
 StringInfo
 	ID "IDSInfoCardArtifactUnownedStatus"
-	Value "You no longer own this artifact."
+	Value "You no longer own this holocron."
 StringInfo
 	ID "IDS_INFOCARD_GAMEEVENTCATEGORYTITLEFORMAT"
 	Value "%s Reports"
@@ -10966,12 +11521,6 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_RESEARCHRATEINCREASE_DESCRIPTION"
 	Value "The whole of the Unity focuses thought on research, which reduces the time required to make breakthroughs."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_NAME"
-	Value "Wreckage Auto-Salvage"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_DESCRIPTION"
-	Value "Resources from newly destroyed capital ships and planet structures are automatically collected by your nearby capital ships."
-StringInfo
 	ID "IDS_RESEARCHSUBJECT_SALVAGEEFFICIENCY_NAME"
 	Value "Improved Salvaging"
 StringInfo
@@ -11807,58 +12356,58 @@ StringInfo
 	Value "By harnessing the Unity's collective mind, all capital ships continously gain experience until the level cap. In addition, they receive bonus experience in combat."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_NAME"
-	Value "Jump Drive Relic"
+	Value "Galaxies Far, Far Away"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
-	Value "A highly advanced jump drive discovered in crash wreckage. Nearly undamaged, its technology allows travel to distant star systems at greatly accelerated rates and reduces the size of your empire's phase drives, decreasing ship mass."
+	Value "This holocron contains navigational information to reach other galaxies."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Resilient Metaloids"
+	Value "Improved Astromech Algorithms"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "A previously undiscovered compound grants quickened hull repair rates and increased armor when incorporated into hull plating, and hardens planets from bombardment."
+	Value "This holocron contains advanced astromech programming which can be used to make repairs more efficient."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
-	Value "Phase Accelerator"
+	Value "Navigational Charts"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "Deciphering the function of a hidden Phase Drive prototype greatly increases the speed at which your ships Phase Jump."
+	Value "This holocron contains detailed maps of galactic hyperlanes, allowing faster travel between planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
-	Value "Power Core Relic"
+	Value "Logistic Theory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
-	Value "A power source left behind by an ancient race, it significantly increases antimatter capacity and regeneration rates."
+	Value "Information stored in this holocron allows for passive restoration of fighter supply for some factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
-	Value "Ion Field Generator"
+	Value "Planetary Shield"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
-	Value "A large planetary energy system that emits charged particles into the upper atmosphere, creating a partial barrier to orbital bombardment. Also forces enemies to approach closer to the planet before beginning bombardment."
+	Value "A large planetary shield, creating a partial barrier to orbital bombardment. Also forces enemies to approach closer to the planet before beginning bombardment."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-	Value "Planetary Organic AI"
+	Value "Eficient Bureaucracy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
-	Value "A sentient cybernetic artificial intelligence manages all aspects of population development on your empire's planets, yielding higher populations, growth and tax rates."
+	Value "Improved systems for managing all aspects of population development on your empire's planets, yielding higher populations, growth and tax rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
-	Value "Data Archive"
+	Value "Ancient Holocron"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
-	Value "An advanced storage and simulation engine, it facilitates the act of performing research, thus reducing research time and cost."
+	Value "A long-lost repository of knowledge, it facilitates the act of performing research, thus reducing research time and cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-	Value "Relativistic Factories"
+	Value "Construction Methods"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
 	Value "Uncovered factory designs allow ships and modules to be constructed in a relativistically accelerated frame of reference, making them build at a quicker rate. These advanced factories also allow you to support additional civilian structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
-	Value "Manifest Dominion"
+	Value "Improved Holonet Arrays"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
-	Value "Holographic documents of unknown origin foretell your empire to become the galaxy's one true power. Culture spread rates, resistance to hostile culture, and relations with other factions are increased."
+	Value "Holonet arrays are improved accross your faction. Culture spread rates, resistance to hostile culture, and relations with other factions are increased."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
 	Value "Matter Compressor"
@@ -11867,10 +12416,10 @@ StringInfo
 	Value "An atomic scale scanning and reordering system, it allows all manner of products to be spatially compressed in order to make for more efficient transport through your empire's trade network."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
-	Value "Kinetic Intensifier"
+	Value "Condensed Tibanna"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
-	Value "Powerful quantum accelerator technology slightly increases the range and damage of all weapons."
+	Value "New methods for weaponized gas compression slightly increases the range and damage of all weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_NAME"
 	Value "Jump Field Generator"
@@ -20471,7 +21020,7 @@ StringInfo
 	Value "Non Combat research done"
 StringInfo
 	ID "IDS_GameStat_ArtifactResearchUpgradesDone"
-	Value "Artifact discoveries"
+	Value "Holocron discoveries"
 StringInfo
 	ID "IDS_GameStat_FleetResearchUpgradesDone"
 	Value "Fleet research done"
@@ -20495,7 +21044,7 @@ StringInfo
 	Value "Starbase upgrades"
 StringInfo
 	ID "IDS_GameStat_ArtifactLevelPlanetUpgradesDone"
-	Value "Planet upgrades - Artifacts"
+	Value "Planet upgrades - Holocrons"
 StringInfo
 	ID "IDS_GameStat_QuestsReceived"
 	Value "Quests Received"
@@ -23957,7 +24506,7 @@ StringInfo
 	Value "Logistical Slots"
 StringInfo
 	ID "IDSEmpireWindowSelectionButtonPlanetsWithArtifacts"
-	Value "Artifacts"
+	Value "Holocrons"
 StringInfo
 	ID "IDSStatsScreenTitle"
 	Value "STATISTICS"
@@ -24341,7 +24890,7 @@ StringInfo
 	Value "Select all planets with available Civilian Slots."
 StringInfo
 	ID "IDSEmpireWindowInfoCardSelectionButtonDescOwnedPlanetsWithArtifacts"
-	Value "Select all planets with discovered Artifacts."
+	Value "Select all planets with discovered holocrons."
 StringInfo
 	ID "IDSEmpireWindowInfoCardToggleShowChildrenButton"
 	Value "Toggle Expanded"
@@ -24584,7 +25133,7 @@ StringInfo
 	Value "Tip: Planets with low Allegiance will have lower credit and resource income."
 StringInfo
 	ID "IDSLoadScreenTip27"
-	Value "Tip: Explore planets from their Planet Development menu to find valuable artifacts and other bonuses."
+	Value "Tip: Explore planets from their Planet Development menu to find valuable holocrons and other bonuses."
 StringInfo
 	ID "IDSLoadScreenTip28"
 	Value "Tip: Completing missions for other empires will raise their opinion of you, eventually leading to peace offers and other treaties."
@@ -24638,7 +25187,7 @@ StringInfo
 	Value "Select civilian slot planets"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_SELECTPLANETSWITHARTIFACTS"
-	Value "Select artifact planets"
+	Value "Select holocron planets"
 StringInfo
 	ID "IDSAchievementsWindowPercCompleteLabel"
 	Value "Achievements Completed:"

@@ -4,7 +4,7 @@ ability:0 "AbilityRadiationBomb"
 ability:1 "AbilityRazePlanet"
 ability:2 "AbilityMissileBarrage"
 ability:3 ""
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -42,7 +42,7 @@ basePrice
 	credits 1180.000000
 	metal 100.000000
 	crystal 50.000000
-slotCount 1.000000
+slotCount 8.000000
 BuildTime 80.000000
 MaxHullPoints
 	StartValue 6500.000000
@@ -67,7 +67,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000

@@ -2,28 +2,28 @@
 entityType "TitanUpgrade"
 stageCount 5
 stage
-	nameStringID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
-	descStringID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	nameStringID "IDS_ABILITY_OVERWHELM_NAME"
+	descStringID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement -1
-	hudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
-	smallHudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
+	hudIcon "HUDABILITYICON_OVERWHELM"
+	smallHudIcon "HUDABILITYICON_OVERWHELM"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
-	descStringID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	nameStringID "IDS_ABILITY_OVERWHELM_NAME"
+	descStringID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 0
-	hudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
-	smallHudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
+	hudIcon "HUDABILITYICON_OVERWHELM"
+	smallHudIcon "HUDABILITYICON_OVERWHELM"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -31,15 +31,15 @@ stage
 		value 1.000000
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
-	descStringID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	nameStringID "IDS_ABILITY_OVERWHELM_NAME"
+	descStringID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 1
-	hudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
-	smallHudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
+	hudIcon "HUDABILITYICON_OVERWHELM"
+	smallHudIcon "HUDABILITYICON_OVERWHELM"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -47,15 +47,15 @@ stage
 		value 2.000000
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
-	descStringID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	nameStringID "IDS_ABILITY_OVERWHELM_NAME"
+	descStringID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 4
-	hudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
-	smallHudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
+	hudIcon "HUDABILITYICON_OVERWHELM"
+	smallHudIcon "HUDABILITYICON_OVERWHELM"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -63,15 +63,15 @@ stage
 		value 3.000000
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
-	descStringID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
+	nameStringID "IDS_ABILITY_OVERWHELM_NAME"
+	descStringID "IDS_ABILITY_OVERWHELM_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 6
-	hudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
-	smallHudIcon "HUDABILITYICON_NUMERICALSUPERIORITY"
+	hudIcon "HUDABILITYICON_OVERWHELM"
+	smallHudIcon "HUDABILITYICON_OVERWHELM"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty

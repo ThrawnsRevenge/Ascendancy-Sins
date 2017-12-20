@@ -4,7 +4,7 @@ ability:0 "AbilitySnipe"
 ability:1 "AbilityOvercharge"
 ability:2 "AbilityEscapeVelocity"
 ability:3 "AbilityEmergencyShielding"
-ability:4 "AbilityPassiveLowLifeT4"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -41,18 +41,18 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASCENDANCY"
+mainViewIcon "MAINVIEWICON_PELTAST"
 basePrice
 	credits 1300.000000
 	metal 60.000000
 	crystal 20.000000
-slotCount 1.000000
+slotCount 7.000000
 BuildTime 80.000000
 MaxHullPoints
-	StartValue 3830.000000
+	StartValue 4530.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 3830.000000
+	StartValue 4530.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_PELTAST_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ASCENDANCY"
+picture "HUDICON_PELTAST"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -92,7 +92,7 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASCENDANCY"
+hudIcon "HUDICON_PELTAST"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
@@ -109,7 +109,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 15000.000000
+	Range 25000.000000
 	PreBuffCooldownTime 16.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -149,7 +149,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 60.000000
 	DamagePerBank:RIGHT 60.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -189,7 +189,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 40.000000
 	DamagePerBank:RIGHT 40.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

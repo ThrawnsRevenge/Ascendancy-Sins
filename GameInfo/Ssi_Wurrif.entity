@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Scout"
 statCountType "FrigateScout"
-mainViewIcon "HUDICONSMALL_LAZY_FRIGATEHOLDER"
+mainViewIcon "MAINVIEWICON_WURRIF"
 picture "PICTURE_FRIGATE_WURRIF"
 NameStringID "IDS_FRIGATE_WURRIF_NAME"
 DescriptionStringID "IDS_FRIGATE_WURRIF_DESCRIPTION"
@@ -25,7 +25,7 @@ ExperiencePointsForDestroying 40.000000
 MaxHullPoints 1200.000000
 MaxShieldPoints 1200.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 90.000000
+ShieldPointRestoreRate 20.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites

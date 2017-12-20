@@ -1,0 +1,39 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_PRIMARYINDUSTRY"
+smallHudIcon "HUDICON_RESEARCH_PRIMARYINDUSTRY"
+infoCardIcon ""
+NameStringID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_NAME"
+DescriptionStringID "IDS_EOTHRESEARCH_SALVAGEDEBRIS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 200.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "SalvageWreckagePercent"
+	baseValue 0.000000
+	perLevelValue 0.060000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

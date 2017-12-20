@@ -12,19 +12,19 @@ numRandomDebrisLarge 3
 numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_CAPITALSHIPYARD"
-smallHudIcon "HUDICON_CAPITALSHIPYARD"
-infoCardIcon "HUDICON_CAPITALSHIPYARD"
+hudIcon ""
+smallHudIcon ""
+infoCardIcon ""
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 0.000000
 basePrice
 	credits  5000.000000
-	metal 2500.000000
+	metal 500.000000
 	crystal 100.000000
-NameStringID "IDS_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY_NAME"
-DescriptionStringID "IDS_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY_DESCRIPTION"
-planetModuleRoleType "CAPITALSHIPFACTORY"
-statCountType "ModuleCapitalShipFactory"
+NameStringID "IDS_PLANETMODULE_SHIPYARDADMIN_NAME"
+DescriptionStringID "IDS_PLANETMODULE_SHIPYARDADMIN_DESCRIPTION"
+planetModuleRoleType "Refinery"
+statCountType "ModuleRefinery"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -58,13 +58,13 @@ SoundID "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "UB_CapitalShipyard"
+	meshName "UB_NonCombatLab"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "CapShipyard0"
-mainViewIcon "HUDICON_CAPITALSHIPYARD"
-picture "HUDICON_CAPITALSHIPYARD"
+mainViewIcon ""
+picture ""
 minShadow 0.000000
 maxShadow 0.200000
 formationRank 3

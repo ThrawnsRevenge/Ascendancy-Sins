@@ -1,0 +1,91 @@
+TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "RestoreShieldPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.500000
+	shields
+		Level:0 500.000000
+		Level:1 600.000000
+		Level:2 700.000000
+		Level:3 800.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 20.000000
+		Level:1 22.000000
+		Level:2 24.000000
+		Level:3 26.000000
+numEntityModifiers 6
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 0.020000
+		Level:1 0.030000
+		Level:2 0.040000
+		Level:3 0.050000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.850000
+		Level:1 -0.850000
+		Level:2 -0.850000
+		Level:3 -0.850000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.550000
+		Level:1 -0.600000
+		Level:2 -0.650000
+		Level:3 -0.700000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.100000
+		Level:1 0.120000
+		Level:2 0.150000
+		Level:3 0.200000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 -0.550000
+		Level:1 -0.600000
+		Level:2 -0.650000
+		Level:3 -0.700000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 0.100000
+		Level:1 0.150000
+		Level:2 0.200000
+		Level:3 0.250000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000

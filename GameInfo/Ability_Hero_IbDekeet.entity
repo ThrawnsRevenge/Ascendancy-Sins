@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_IbDekeet_name"
-descStringID "C_ability_IbDekeet_desc"
-hudIcon "C_res_icon_IbDekeet"
-smallHudIcon "C_res_icon_IbDekeet"
+nameStringID "IDS_HERO_DEKEET_NAME"
+descStringID "IDS_HERO_DEKEET_DESCRIPTION"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_ability_Daala_name"
-descStringID "C_ability_Daala_desc"
-hudIcon "C_res_icon_Daala"
-smallHudIcon "C_res_icon_Daala"
+nameStringID "IDS_HERO_DAALA_NAME"
+descStringID "IDS_HERO_DAALA_DESCRIPTION"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

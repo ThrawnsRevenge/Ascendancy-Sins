@@ -142,12 +142,12 @@ Weapon
 		projectileTravelEffectName "TurbolaserGreen_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 2
-TargetCountPerBank:RIGHT 2
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
-ShieldMeshName "IR_Bilbringi"
+ShieldMeshName "IR_Cardan"
 renderShield TRUE
 squadTypeEntityDef:0 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:0 0.000000

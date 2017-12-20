@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityGilzeanColonize"
-ability:1 "AbilityPhalanxMicroJump"
-ability:2 "AbilityCloak"
-ability:3 "AbilityKineticMegamaser"
+ability:0 "Ability_Aralani_CommandShip"
+ability:1 "Ability_Aralani_SensorDampening"
+ability:2 "Ability_Aralani_TargetEngines"
+ability:3 "Ability_Aralani_Frontier"
 ability:4 "Ability_Hero_Aralani"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_SYNDIC_DESTROYER"
+mainViewIcon "HUDICON_ARALANI"
 basePrice
 	credits 1500.000000
 	metal 90.000000
@@ -75,9 +75,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_SYNDIC_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_SYNDIC_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_Syndic"
+NameStringID "IDS_HERO_ARALANI_NAME"
+DescriptionStringID "IDS_HERO_ARALANI_DESCRIPTION"
+picture "HUDICON_ARALANI"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -89,9 +89,9 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_SYNDIC"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_ARALANI"
+smallHudIcon "HHUDICON_ARALANI"
+infoCardIcon "HUDICON_ARALANI"
 minZoomDistanceMult 1.750000
 NumWeapons 4
 Weapon
@@ -106,7 +106,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -146,7 +146,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 125.000000
 	DamagePerBank:RIGHT 125.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -186,7 +186,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 108.000000
 	DamagePerBank:RIGHT 108.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -226,7 +226,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 120.000000
 	DamagePerBank:RIGHT 120.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToLocalOrbitBody"
+instantActionTriggerType "AlwaysPerform"
+buffType "Buff_Pestage_ResourceInflux"
+targetFilter
+	numOwnerships 2
+	ownership "Player"
+	ownership "Allied"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "NotInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 200.000000
+	Level:1 200.000000
+	Level:2 150.000000
+	Level:3 150.000000
+	orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_RESOURCEINFLUX_NAME"
+descStringID "IDS_ABILITY_RESOURCEINFLUX_DESC"
+hudIcon "HUDICON_RESEARCH_CREDITINCREASE"
+smallHudIcon "HUDICON_RESEARCH_CREDITINCREASE"
+infoCardIcon ""

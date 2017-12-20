@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -96,7 +96,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -183,7 +183,7 @@ ability:0 "AbilityFighterBlink"
 ability:1 ""
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityPassiveLowLifeT2"
+ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 84.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

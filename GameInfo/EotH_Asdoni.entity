@@ -13,7 +13,7 @@ mainViewIcon "MAINVIEWICON_ASDONI_FRIGATE"
 picture "PICTURE_FRIGATE_ASDONI"
 NameStringID "IDS_FRIGATE_ASDONI_NAME"
 DescriptionStringID "IDS_FRIGATE_ASDONI_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
 	credits 200.000000
 	metal 50.000000
@@ -53,7 +53,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 30.000000
 	DamagePerBank:RIGHT 30.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -93,7 +93,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 15.000000
 	DamagePerBank:RIGHT 15.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -176,7 +176,7 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 ""
+ability:0 "AbilityPDBlue"
 ability:1 ""
 ability:2 ""
 ability:3 ""

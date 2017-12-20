@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
+onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
@@ -22,16 +22,13 @@ instantAction
 		Level:1 1.000000
 		Level:2 1.000000
 		Level:3 1.000000
-	buffType "BuffVeteran"
+	buffType "BuffVeteranTarget"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 6
+		numObjects 3
 		object "CapitalShip"
 		object "Frigate"
-		object "PlanetModule"
-		object "StarBase"
-		object "Titan"
 		object "Corvette"
 		numSpaces 1
 		space "Normal"

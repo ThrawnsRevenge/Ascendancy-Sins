@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityTractorBeam"
-ability:1 "AbilityNumericalSuperiority"
-ability:2 "AbilityCloakRemnant"
-ability:3 "AbilityOverwhelmCapital"
+ability:0 "Ability_Thrawn_CommandShip"
+ability:1 "Ability_Thrawn_Noghri"
+ability:2 "Ability_Thrawn_DarkForceRising"
+ability:3 "Ability_Thrawn_Chimaera"
 ability:4 "Ability_Hero_Thrawn"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -72,9 +72,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_SPAWNHERO_THRAWN_NAME"
-DescriptionStringID "IDS_SPAWNHERO_THRAWN_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ISDII"
+NameStringID "IDS_HERO_THRAWN_NAME"
+DescriptionStringID "IDS_HERO_THRAWN_DESCRIPTION"
+picture "HUDICON_RESEARCH_THRAWN"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -88,9 +88,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_ISDII"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_THRAWN"
+smallHudIcon "HUDICON_RESEARCH_THRAWN"
+infoCardIcon "HUDICON_RESEARCH_THRAWN"
 minZoomDistanceMult 1.750000
 NumWeapons 3
 Weapon
@@ -237,7 +237,7 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 "Remnant_TIEDefender_Squad"
+squadTypeEntityDef:3 "Remnant_Scimitar_Squad"
 squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTIR_ISDIIATTACKTWO"

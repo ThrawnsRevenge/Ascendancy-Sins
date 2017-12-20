@@ -7,9 +7,9 @@ effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName "Ability_RepairPlatformTechActivate"
-	mediumEffectName "Ability_RepairPlatformTechActivate"
-	largeEffectName "Ability_RepairPlatformTechActivate"
+			smallEffectName "Ability_RepairPlatformTechActivate"
+			mediumEffectName "Ability_RepairPlatformTechActivate"
+			largeEffectName "Ability_RepairPlatformTechActivate"
 	soundID "EFFECT_REPAIR_TECH"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
@@ -23,12 +23,17 @@ minExperienceLevelRequired
 	Level:2 4.000000
 	Level:3 6.000000
 aiUseTime "Anytime"
-aiUseTargetCondition "Any"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+    Level:0 5000.000000
+    Level:1 418.000000
+    Level:2 612.000000
+    Level:3 800.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.500000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 0.000000
@@ -36,10 +41,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 40.000000
-	Level:1 40.000000
-	Level:2 40.000000
-	Level:3 40.000000
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
@@ -50,3 +55,4 @@ descStringID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
 hudIcon "HUDABILITYICON_REPAIR"
 smallHudIcon "HUDABILITYICON_REPAIR"
 infoCardIcon ""
+

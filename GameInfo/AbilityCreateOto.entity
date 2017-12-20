@@ -38,6 +38,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"
 descStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_DESCRIPTION"
-hudIcon "HUDICON_EMPRESS"
-smallHudIcon "HUDICON_EMPRESS"
+hudIcon "HUDICON_OTO"
+smallHudIcon "HUDICON_OTO"
 infoCardIcon ""

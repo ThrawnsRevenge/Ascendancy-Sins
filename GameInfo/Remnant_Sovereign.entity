@@ -71,7 +71,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.00000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
@@ -224,7 +224,7 @@ Weapon
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
+TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE

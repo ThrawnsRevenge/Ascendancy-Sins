@@ -4,7 +4,7 @@ ability:0 "AbilityInterdictCapital"
 ability:1 "AbilityOverwhelmCapital"
 ability:2 "AbilityEmbargo"
 ability:3 "AbilityCommunicationJam"
-ability:4 "AbilityPassiveLowLifeT2"
+ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -68,7 +68,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.00000
-	ValueIncreasePerLevel 0.001000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000

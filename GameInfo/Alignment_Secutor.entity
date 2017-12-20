@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityNumericalSuperiority"
 ability:1 "AbilityAlphaStrike"
 ability:2 "AbilityTractorBeam"
-ability:3 "AbilityISDColonize"
+ability:3 "AbilityOverwhelmCapital"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -43,7 +43,7 @@ basePrice
 	credits 1800.000000
 	metal 125.000000
 	crystal 75.000000
-slotCount 1.000000
+slotCount 7.000000
 BuildTime 95.000000
 MaxHullPoints
 	StartValue 6200.000000
@@ -68,7 +68,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.00000
-	ValueIncreasePerLevel 0.001000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
@@ -197,7 +197,7 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 ""
+squadTypeEntityDef:3 "Alignment_Skipray_Squad"
 squadAntiMatterCost:3 24.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTPA_SECUTORATTACKTWO"

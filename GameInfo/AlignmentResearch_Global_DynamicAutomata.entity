@@ -33,11 +33,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue -0.050000
+	perLevelValue -0.010000
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 100.000000
+	perLevelValue 40.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

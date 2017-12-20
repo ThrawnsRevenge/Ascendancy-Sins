@@ -65,7 +65,7 @@ maxMitigation
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
 	StartValue 72.000000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.000010
 AntiMatterRestoreRate
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
@@ -198,7 +198,7 @@ squadTypeEntityDef:1 "Remnant_TIEFighter_Squad"
 squadAntiMatterCost:1 12.000000
 squadTypeEntityDef:2 "Remnant_TIEBomber_Squad"
 squadAntiMatterCost:2 12.000000
-squadTypeEntityDef:3 ""
+squadTypeEntityDef:3 "Remnant_TIEDroid_Squad"
 squadAntiMatterCost:3 0.000000
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "EVENTIR_WDATTACKTWO"

@@ -4,7 +4,7 @@ ability:0 "AbilityGilzeanColonize"
 ability:1 "AbilityPhalanxMicroJump"
 ability:2 "AbilityCloak"
 ability:3 "AbilityKineticMegamaser"
-ability:4 "AbilityPassiveLowLifeT3"
+ability:4 "AbilityPassiveLowLifeT2"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -46,13 +46,13 @@ basePrice
 	credits 1500.000000
 	metal 90.000000
 	crystal 40.000000
-slotCount 1.000000
+slotCount 4.000000
 BuildTime 70.000000
 MaxHullPoints
-	StartValue 4500.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4500.000000
+	StartValue 4800.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -61,7 +61,7 @@ ShieldPointRestoreRate
 	StartValue 30.000000
 	ValueIncreasePerLevel 0.240000
 ArmorPointsFromExperience
-	StartValue 6.000000
+	StartValue 7.000000
 	ValueIncreasePerLevel 0.540000
 maxMitigation
 	StartValue 0.650000
@@ -106,7 +106,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -146,7 +146,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 125.000000
 	DamagePerBank:RIGHT 125.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -186,7 +186,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 108.000000
 	DamagePerBank:RIGHT 108.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -226,7 +226,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 120.000000
 	DamagePerBank:RIGHT 120.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

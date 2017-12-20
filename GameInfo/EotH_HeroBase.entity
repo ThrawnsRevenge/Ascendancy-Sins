@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
-ability:0 "Ability_Spawn_Hero_Ashik"
+ability:0 "Ability_Spawn_Hero_Siath"
 ability:1 "Ability_Spawn_Hero_Aralani"
 ability:2 "Ability_Spawn_Hero_Stent"
 ability:3 ""
@@ -16,7 +16,7 @@ hudIcon "HUDICON_NAVALCOMMAND"
 smallHudIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 infoCardIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 0.000000
 basePrice
 	credits 900.000000
 	metal 100.000000

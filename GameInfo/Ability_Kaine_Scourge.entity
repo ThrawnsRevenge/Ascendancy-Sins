@@ -1,0 +1,77 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 4
+spawnShips
+	minFleetPoints 5.000000
+	maxFleetPoints 5.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 10.000000
+	maxFleetPoints 10.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShips
+	minFleetPoints 30.000000
+	maxFleetPoints 30.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "Alignment_ISDII"
+		weight 1
+spawnShipsArrivalDelayTime 4.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 2500.000000
+	metal 150.000000
+	crystal 500.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 200.000000
+	Level:2 180.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SCOURGE_NAME"
+descStringID "IDS_ABILITY_SCOURGE_DESCRIPTION"
+hudIcon "HUDICON_RESEARCH_IMPOSINGPRESENCE"
+smallHudIcon "HUDICON_RESEARCH_IMPOSINGPRESENCE"
+infoCardIcon ""

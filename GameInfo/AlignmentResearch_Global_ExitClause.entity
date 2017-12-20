@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH"
-smallHudIcon "HUDICON_RESEARCH"
+hudIcon "HUDICON_RESEARCH_MISSIONS"
+smallHudIcon "HUDICON_RESEARCH_MISSIONS"
 infoCardIcon ""
 NameStringID "IDS_ALIGNMENTRESEARCH_EXITCLAUSE_NAME"
 DescriptionStringID "IDS_ALIGNMENTRESEARCH_EXITCLAUSE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 1 ]
+	pos [ 6 , 2 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0

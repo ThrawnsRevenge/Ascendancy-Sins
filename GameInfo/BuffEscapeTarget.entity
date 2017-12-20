@@ -17,10 +17,10 @@ instantAction
 	buffInstantActionType "GiveCreditsToPlayer"
 	instantActionTriggerType "AlwaysPerform"
 	credits
-		Level:0 50.000000
-		Level:1 50.000000
-		Level:2 50.000000
-		Level:3 50.000000
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
 		effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -33,19 +33,19 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.500000
 	hull
-		Level:0 250.000000
-		Level:1 250.000000
-		Level:2 250.000000
-		Level:3 250.000000
+		Level:0 450.000000
+		Level:1 450.000000
+		Level:2 450.000000
+		Level:3 450.000000
 instantAction
 	buffInstantActionType "RestoreAntiMatter"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	antiMatter
-		Level:0 12.000000
-		Level:1 12.000000
-		Level:2 12.000000
-		Level:3 12.000000
+		Level:0 24.000000
+		Level:1 24.000000
+		Level:2 24.000000
+		Level:3 24.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

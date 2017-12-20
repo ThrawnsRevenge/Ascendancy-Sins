@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCH_FLEETINCREASE"
 smallHudIcon "HUDICON_RESEARCH_FLEETINCREASE"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_DIVERSEMILITARY_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
+NameStringID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
+DescriptionStringID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
 researchWindowLocation
 	block 2
 	pos [ 7 , 0 ]
@@ -36,7 +36,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 40.000000
+	perLevelValue 20.000000
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000

@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "MAINVIEWICON_RAIDER_CORVETTE"
-picture "HUDICON_LANCER"
+mainViewIcon "MAINVIEWICON_RAIDER"
+picture "HUDICON_RAIDER"
 NameStringID "IDS_FRIGATE_RAIDER_NAME"
 DescriptionStringID "IDS_FRIGATE_RAIDER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_LANCER"
+hudIcon "HUDICON_RAIDER"
 smallHudIcon "HUDICONSMALL_FRIGATE"
 infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 3.000000
@@ -134,13 +134,13 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 ""
+ability:0 "AbilityPDGreen"
 ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 "AbilityPassiveLowLife"
 MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.001000
+AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1

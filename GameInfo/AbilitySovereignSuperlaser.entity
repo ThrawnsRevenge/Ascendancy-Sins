@@ -49,10 +49,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 120.000000
+	Level:0 140.000000
 	Level:1 120.000000
-	Level:2 120.000000
-	Level:3 120.000000
+	Level:2 100.000000
+	Level:3 80.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

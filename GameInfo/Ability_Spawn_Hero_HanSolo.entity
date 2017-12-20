@@ -38,9 +38,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 200.000000
+	metal 100.000000
+	crystal 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -64,8 +64,8 @@ NumResearchPrerequisites 1
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_SPAWN_SOLO_NAME"
-descStringID "IDS_ABILITY_SPAWN_SOLO_DESCRIPTION"
+nameStringID "IDS_SPAWNHERO_SOLO_NAME"
+descStringID "IDS_HERO_SOLO_DESCRIPTION"
 hudIcon "HUDICON_SOLO"
 smallHudIcon "HUDICON_SOLO"
 infoCardIcon ""

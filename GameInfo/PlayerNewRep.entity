@@ -67,8 +67,10 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 106
+		count 107
 		entityDefName "DummyResearch_AlwaysOn"
+		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
+		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
@@ -115,6 +117,7 @@ entities
 		entityDefName "NewRepResearch_AbilityUnlock_PlanetaryIon"
 		entityDefName "NewRepResearch_Flat_CultureExport"
 		entityDefName "NewRepResearch_AbilityUnlock_BoardingParty"
+		entityDefName "NewRepResearch_AbilityUnlock_ArbitrateTariff"
 		entityDefName "NewRepResearch_Global_HelpingHand"
 		entityDefName "NewRepResearch_Global_RebelRoots"
 		entityDefName "NewRepResearch_Global_StandUnited"
@@ -172,12 +175,10 @@ entities
 		entityDefName "NewRepResearch_MaxShipSlots5"
 		entityDefName "NewRepResearch_MaxShipSlots6"
 		entityDefName "NewRepResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "NewRep_Empress"
-	flagship "NewRep_HomeOne"
+	flagship "NewRep_Leia"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

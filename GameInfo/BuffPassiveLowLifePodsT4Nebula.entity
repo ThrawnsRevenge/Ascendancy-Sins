@@ -108,17 +108,17 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 2.000000
-		Level:1 10.000000
-		Level:2 10.000000
-		Level:3 10.000000
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
 	buffInstantActionType "GiveCreditsToPlayer"
 	instantActionTriggerType "AlwaysPerform"
 	credits
-		Level:0 -0.120000
-		Level:1 -0.120000
-		Level:2 -0.120000
-		Level:3 -0.120000
+		Level:0 -1.250000
+		Level:1 -1.250000
+		Level:2 -1.250000
+		Level:3 -1.250000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -126,7 +126,14 @@ periodicAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
-numOverTimeActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "EarnCredits"
+	earnRate
+		Level:0 -0.250000
+		Level:1 -0.250000
+		Level:2 -0.250000
+		Level:3 -0.250000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1

@@ -9,8 +9,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Corvette"
 statCountType "FrigateCorvette"
-mainViewIcon "MAINVIEWICON_YT1300"
-picture "HUDICON_YT1300"
+mainViewIcon "MAINVIEWICON_SMUGGLER"
+picture "HUDICON_SMUGGLER"
 NameStringID "IDS_CORVETTE_SMUGGLER_NAME"
 DescriptionStringID "IDS_CORVETTE_SMUGGLER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_YT1300"
@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "VeryLight"
-hudIcon "HUDICON_YT1300"
-smallHudIcon "MAINVIEWICON_YT1300"
-infoCardIcon "INFOCARDICON_YT1300"
+hudIcon "HUDICON_SMUGGLER"
+smallHudIcon "HUDICON_SMUGGLER"
+infoCardIcon "HUDICON_SMUGGLER"
 minZoomDistanceMult 6.000000
 NumWeapons 2
 Weapon

@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffEmergencyShielding"
+buffType "BuffEscapeVelocity"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

@@ -49,8 +49,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "unknown_name"
-descStringID "unknown_desc"
-hudIcon "HUDABILITYICON_MICROJUMP"
-smallHudIcon "HUDABILITYICON_MICROJUMP"
+nameStringID "IDS_ABILITY_ITSATRAP_NAME"
+descStringID "IDS_ABILITY_ITSATRAP_DESCRIPTION"
+hudIcon "HUDABILITYICON_ITSATRAP"
+smallHudIcon "HUDABILITYICON_ITSATRAP"
 infoCardIcon ""

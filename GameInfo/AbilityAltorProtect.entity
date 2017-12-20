@@ -17,10 +17,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotSelf"
 range
-	Level:0 1200.000000
-	Level:1 1200.000000
-	Level:2 1200.000000
-	Level:3 1200.000000
+	Level:0 3600.000000
+	Level:1 4000.000000
+	Level:2 4500.000000
+	Level:3 5000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -65,6 +65,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_ALTORPROTECT_NAME"
 descStringID "IDS_ABILITY_ALTORPROTECT_DESCRIPTION"
-hudIcon "HUDABILITYICON_PROTECT"
-smallHudIcon "HUDABILITYICON_PROTECT"
+hudIcon "HUDABILITYICON_SHIELDAEGIS"
+smallHudIcon "HUDABILITYICON_SHIELDAEGIS"
 infoCardIcon ""

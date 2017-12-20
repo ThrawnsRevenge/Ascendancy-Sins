@@ -11,13 +11,12 @@ targetFilter
 	object "CapitalShip"
 	numSpaces 1
 	space "Normal"
-	numConstraints 1
-	constraint "IsActivelyBeingConstructed"
+	numConstraints 0
 range
-	Level:0 500.000000
-	Level:1 500.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 1000.000000
+	Level:1 1000.000000
+	Level:2 1000.000000
+	Level:3 1000.000000
 maxTargetCount
 	Level:0 -1.000000
 	Level:1 -1.000000

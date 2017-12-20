@@ -26,14 +26,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "CultureResistPercent"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

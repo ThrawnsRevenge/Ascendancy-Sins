@@ -38,9 +38,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 2000.000000
+	metal 200.000000
+	crystal 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -64,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_IbDekeet_name"
-descStringID "C_spawn_IbDekeet_desc"
-hudIcon "C_res_icon_IbDekeet"
-smallHudIcon "C_res_icon_IbDekeet"
+nameStringID "IDS_HERO_DEKEET_NAME"
+descStringID "IDS_HERO_DEKEET_DESCRIPTION"
+hudIcon "HUDICON_DEKEET"
+smallHudIcon "HUDICON_DEKEET"
 infoCardIcon ""

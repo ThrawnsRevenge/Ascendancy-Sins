@@ -4,7 +4,7 @@ ability:0 "AbilityISDColonize"
 ability:1 "AbilityEmbargo"
 ability:2 "AbilityBulwark"
 ability:3 "AbilityNumericalSuperiority"
-ability:4 "AbilityPassiveLowLifeT3"
+ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -43,7 +43,7 @@ basePrice
 	credits 1000.000000
 	metal 100.000000
 	crystal 50.000000
-slotCount 1.000000
+slotCount 8.000000
 BuildTime 80.000000
 MaxHullPoints
 	StartValue 8000.000000
@@ -68,7 +68,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.001000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000

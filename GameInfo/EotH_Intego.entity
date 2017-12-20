@@ -41,12 +41,12 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_INTEGO_DESTROYER"
+mainViewIcon "MAINVIEWICON_INTEGO"
 basePrice
 	credits 2200.000000
 	metal 120.000000
 	crystal 40.000000
-slotCount 1.000000
+slotCount 12.000000
 BuildTime 120.000000
 MaxHullPoints
 	StartValue 8400.000000
@@ -109,7 +109,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 120.000000
 	DamagePerBank:RIGHT 120.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -149,7 +149,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 90.000000
 	DamagePerBank:RIGHT 90.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -189,7 +189,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 108.000000
 	DamagePerBank:RIGHT 108.000000
-	Range 10000.000000
+	Range 11000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -219,10 +219,10 @@ Weapon
 		projectileTravelEffectName "Ion_Single"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 mass 10000.000000
 ShieldMeshName "EotH_Intego"

@@ -1,0 +1,53 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Buff_Pellaeon_CloakSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID ""
+toggleStateOnDescStringID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+Level:0 0.00000 
+Level:1 0.00000 
+Level:2 0.00000 
+Level:3 0.00000 
+cooldownTime
+Level:0 5.00000 
+Level:1 5.00000 
+Level:2 5.00000 
+Level:3 5.00000 
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_FLEETCLOAK_NAME"
+descStringID "IDS_ABILITY_FLEETCLOAK_DESCRIPTION"
+hudIcon "HUDABILITYICON_COMMANDDEFENSE"
+smallHudIcon "HUDABILITYICON_COMMANDDEFENSE"
+infoCardIcon ""

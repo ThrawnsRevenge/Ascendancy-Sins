@@ -1,0 +1,40 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
+infoCardIcon ""
+NameStringID "IDS_EOTHRESEARCH_MEGAMASERS_NAME"
+DescriptionStringID "IDS_EOTHRESEARCH_MEGAMASERS_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 3 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 800.000000
+	metal 80.000000
+	crystal 55.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "LASERTECH"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

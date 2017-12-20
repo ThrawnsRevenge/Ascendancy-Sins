@@ -4,7 +4,7 @@ ability:0 "AbilityShieldAegis"
 ability:1 "AbilityBulwark"
 ability:2 "AbilityPowerToShieldsCapital"
 ability:3 "AbilityReflectiveshields"
-ability:4 "AbilityPassiveLowLifePodsT4"
+ability:4 "AbilityPassiveLowLifePodsT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -43,7 +43,7 @@ basePrice
 	credits 1700.000000
 	metal 120.000000
 	crystal 80.000000
-slotCount 1.000000
+slotCount 8.000000
 BuildTime 100.000000
 MaxHullPoints
 	StartValue 6250.000000

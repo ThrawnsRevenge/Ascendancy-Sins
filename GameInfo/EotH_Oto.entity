@@ -141,10 +141,10 @@ Weapon
 		projectileTravelEffectName "Ion_Single"
 m_weaponIndexForRange 1
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 3
+TargetCountPerBank:BACK 3
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 ShieldMeshName "EotH_Oto"
 renderShield TRUE
@@ -164,11 +164,11 @@ statCountType "StarBase"
 creationSourceAbility "AbilityCreateOto"
 maxUpgradeLevelCount 8
 UpgradeTypeCount 5
-UpgradeType "StarBaseUpgradeEmpressToughness"
-UpgradeType "StarBaseUpgradeEmpressHangar"
-UpgradeType "StarBaseUpgradeEmpressWeapons"
-UpgradeType "StarBaseUpgradeEmpressDamage"
-UpgradeType "StarBaseUpgradeEmpressRestore"
+UpgradeType "StarBaseUpgradeOtoToughness"
+UpgradeType "StarBaseUpgradeOtoHangar"
+UpgradeType "StarBaseUpgradeOtoWeapons"
+UpgradeType "StarBaseUpgradeOtoDamage"
+UpgradeType "StarBaseUpgradeOtoRestore"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "EotH_Oto"

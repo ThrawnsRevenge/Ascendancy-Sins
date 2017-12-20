@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityNumericalSuperiority"
-ability:1 "AbilityFighterConnerNets"
-ability:2 "AbilityCoordinatedStrike"
-ability:3 "AbilityCloak"
+ability:0 "Ability_Stent_GraviticRound"
+ability:1 "Ability_Stent_PlasmaRound"
+ability:2 "Ability_Stent_ParametricShield"
+ability:3 "Ability_Stent_Retribution"
 ability:4 "Ability_Hero_Stent"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASCENDANCY"
+mainViewIcon "HUDICON_RESEARCH_STENT"
 basePrice
 	credits 1300.000000
 	metal 60.000000
@@ -49,16 +49,16 @@ basePrice
 slotCount 1.000000
 BuildTime 80.000000
 MaxHullPoints
-	StartValue 4430.000000
+	StartValue 3830.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 4430.000000
+	StartValue 3830.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
 	ValueIncreasePerLevel 0.120000
 ShieldPointRestoreRate
-	StartValue 20.000000
+	StartValue 30.000000
 	ValueIncreasePerLevel 0.240000
 ArmorPointsFromExperience
 	StartValue 6.000000
@@ -67,7 +67,7 @@ maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 24.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
@@ -75,13 +75,13 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_ASCENDANCY_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_ASCENDANCY_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_ASCENDANCY"
+NameStringID "IDS_CAPITALSHIP_PELTAST_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_PELTAST_DESCRIPTION"
+picture "HUDICON_RESEARCH_STENT"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Ascendancy"
+		Subject "EotHResearch_ShipUnlock_Peltast"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -92,11 +92,51 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASCENDANCY"
-smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
-infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
+hudIcon "HUDICON_RESEARCH_STENT"
+smallHudIcon "HUDICON_RESEARCH_STENT"
+infoCardIcon "HUDICON_RESEARCH_STENT"
 minZoomDistanceMult 1.750000
 NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 1700.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 15000.000000
+	PreBuffCooldownTime 16.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "MuzzleBlue_Single_Larger"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
+			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
+		hitEffectName "MegamaserImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "MegaMaser_Peltast"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -105,10 +145,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 60.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.400000
 	CanFireAtFighter FALSE
@@ -136,7 +176,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Ion_Single"
+		projectileTravelEffectName "Ion_Dual"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -145,50 +185,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 60.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 70.000000
-	DamagePerBank:RIGHT 70.000000
-	Range 10000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleBlue_Single_Larger"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "MegamaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "MegaMaser_Dual"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 80.000000
-	DamagePerBank:RIGHT 80.000000
+	DamagePerBank:LEFT 40.000000
+	DamagePerBank:RIGHT 40.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -225,7 +225,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Hand_Ascendancy"
+ShieldMeshName "EotH_Peltast"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -261,7 +261,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTEH_ASCENDANCYMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Hand_Ascendancy"
+	meshName "EotH_Peltast"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

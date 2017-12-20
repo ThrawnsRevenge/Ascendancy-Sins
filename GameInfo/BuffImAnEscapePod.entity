@@ -3,7 +3,7 @@ entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
-allowFirstSpawnerToStack TRUE
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -14,7 +14,14 @@ instantAction
 	delayTime 90.000000
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.950000
+		Level:1 -0.950000
+		Level:2 -0.950000
+		Level:3 -0.950000
 numEntityBoolModifiers 1
 entityBoolModifier "DisablePhaseJump"
 numFinishConditions 1

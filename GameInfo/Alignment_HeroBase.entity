@@ -3,7 +3,7 @@ entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
 ability:0 "Ability_Spawn_Hero_IbDekeet"
 ability:1 "Ability_Spawn_Hero_EltaBesk"
-ability:2 ""
+ability:2 "Ability_Spawn_Hero_Kaine"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000
@@ -16,7 +16,7 @@ hudIcon "HUDICON_NAVALCOMMAND"
 smallHudIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 infoCardIcon "EMPIREICON_IMPERIAL_COMMAND_CENTER"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 0.000000
 basePrice
 	credits 900.000000
 	metal 100.000000

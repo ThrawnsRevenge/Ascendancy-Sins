@@ -43,7 +43,7 @@ basePrice
 	credits 4000.000000
 	metal 300.000000
 	crystal 180.000000
-slotCount 1.000000
+slotCount 16.000000
 BuildTime 200.000000
 MaxHullPoints
 	StartValue 11700.000000
@@ -68,7 +68,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.00000
-	ValueIncreasePerLevel 0.001000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000

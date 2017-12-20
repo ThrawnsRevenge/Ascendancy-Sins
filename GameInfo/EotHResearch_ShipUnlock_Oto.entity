@@ -1,21 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_VISVIA"
+hudIcon "HUDICON_OTO"
 smallHudIcon "HUDICON_VISVIA"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 2 ]
+	pos [ 6 , 1 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "EotHResearch_ShipUnlock_Visvia"
-		Level 1
-	ResearchPrerequisite
-		Subject "EotHResearch_ShipUnlock_Esseles"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

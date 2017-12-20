@@ -49,5 +49,12 @@ periodicAction
 		soundID ""
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 0
-numFinishConditions 0
+numEntityBoolModifiers 4
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+entityBoolModifier "DisableWeapons"
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"
+	

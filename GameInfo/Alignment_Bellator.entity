@@ -71,7 +71,7 @@ MaxAntiMatter
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.001000
+	ValueIncreasePerLevel 0.000010
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
@@ -79,7 +79,10 @@ NameStringID "IDS_TITAN_BELLATOR_NAME"
 DescriptionStringID "IDS_TITAN_BELLATOR_DESCRIPTION"
 picture "TITANPICTURE_BELLATOR"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AlignmentResearch_ShipUnlock_Bellator"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

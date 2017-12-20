@@ -181,11 +181,11 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilityOverwhelm"
-ability:2 "AbilityEnhancedTargetting"
+ability:2 "AbilityVeteran"
 ability:3 "AbilityThrawnDoctrine"
-ability:4 "AbilityPassiveLowLifeT2"
+ability:4 "AbilityPassiveLowLifeT1"
 MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.000000
+AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

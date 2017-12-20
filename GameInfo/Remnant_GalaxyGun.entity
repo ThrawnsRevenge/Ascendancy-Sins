@@ -43,7 +43,7 @@ statCountType "StarBase"
 creationSourceAbility "AbilityCreateGalaxyGun"
 maxUpgradeLevelCount 4
 UpgradeTypeCount 2
-UpgradeType "StarBaseUpgradeRemComToughness"
+UpgradeType "StarBaseUpgradeGalaxyGunToughness"
 UpgradeType "StarBaseUpgradeRemnantMilitarySpecialization"
 MeshNameInfoCount 1
 MeshNameInfo

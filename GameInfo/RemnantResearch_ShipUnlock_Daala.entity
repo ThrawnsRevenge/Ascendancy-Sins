@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCH_DAALA"
 smallHudIcon "HUDICON_RESEARCH_DAALA"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
-DescriptionStringID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+NameStringID "IDS_HERO_DAALA_NAME"
+DescriptionStringID "IDS_HERO_DAALA_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 7 , 2 ]

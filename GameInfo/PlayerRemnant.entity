@@ -64,7 +64,10 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 103
+		count 106
+		entityDefName "RemnantResearch_Global_SupplyChain"
+		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
+		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
 		entityDefName "ReallyRemnantResearch_Diplomacy_Missions"
 		entityDefName "RemnantResearch_Economy_TradeStation"
 		entityDefName "RemnantResearch_Economy_TradeIncrease"
@@ -154,10 +157,12 @@ entities
 		entityDefName "RemnantResearch_ShipUnlock_TorpedoSphere"
 		entityDefName "RemnantResearch_ShipUnlock_GalaxyGun"
 		entityDefName "RemnantResearch_ShipUnlock_Lambda"
+		entityDefName "RemnantResearch_ShipUnlock_Palpatine"
 		entityDefName "RemnantResearch_ShipUnlock_WorldDevastator"
 		entityDefName "RemnantResearch_ShipUnlock_Allegiance"
 		entityDefName "RemnantResearch_ShipUnlock_Daala"
 		entityDefName "RemnantResearch_ShipUnlock_Pellaeon"
+		entityDefName "RemnantResearch_ShipUnlock_Thrawn"
 		entityDefName "RemnantResearch_MaxShipSlots0"
 		entityDefName "RemnantResearch_MaxShipSlots1"
 		entityDefName "RemnantResearch_MaxShipSlots2"
@@ -166,13 +171,11 @@ entities
 		entityDefName "RemnantResearch_MaxShipSlots5"
 		entityDefName "RemnantResearch_MaxShipSlots6"
 		entityDefName "RemnantResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 2
 		entityDefName "Remnant_GalaxyGun"
 		entityDefName "Remnant_CommandStation"
-	flagship "Remnant_Chimera"
+	flagship "Remnant_Pestage"
 debrisData
 	numRandomMeshNamesLarge 10
 	randomMeshName "DebrisPsiGenericLarge0"

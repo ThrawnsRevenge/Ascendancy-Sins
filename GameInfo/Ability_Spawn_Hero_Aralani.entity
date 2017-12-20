@@ -38,9 +38,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 2000.000000
+	metal 200.000000
+	crystal 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -58,11 +58,14 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "EotHResearch_ShipUnlock_Aralani"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "C_spawn_Aralani_name"
-descStringID "C_spawn_Aralani_desc"
-hudIcon "C_res_icon_Aralani"
-smallHudIcon "C_res_icon_Aralani"
+nameStringID "IDS_SPAWNHERO_ARALANI_NAME"
+descStringID "IDS_HERO_ARALANI_DESCRIPTION"
+hudIcon "HUDICON_ARALANI"
+smallHudIcon "HUDICON_ARALANI"
 infoCardIcon ""

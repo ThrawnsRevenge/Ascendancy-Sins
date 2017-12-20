@@ -31,11 +31,10 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 6
+			count 5
 			entityDefName "EotH_Syndic"
 			entityDefName "EotH_Ascendancy"
 			entityDefName "EotH_Phalanx"
-			entityDefName "EotH_Efodio"
 			entityDefName "EotH_Peltast"
 			entityDefName "EotH_Intego"
 	frigateInfo
@@ -48,7 +47,7 @@ entities
 			entityDefName "EotH_Auriette"
 			entityDefName "Remnant_Sentinel"
 			entityDefName "EotH_Vigilance"
-			entityDefName "Remnant_Lambda"
+			entityDefName "EotH_Lambda"
 		Page:1
 			count 6
 			entityDefName "EotH_Chaf"
@@ -63,7 +62,8 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 84
+		count 95
+		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"
 		entityDefName "RemnantResearch_AbilityUnlock_Overwhelm"
@@ -72,10 +72,10 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Budirech"
 		entityDefName "EotHResearch_ShipUnlock_Auriette"
 		entityDefName "EotHResearch_ShipUnlock_Warlord"
+		entityDefName "EotHResearch_ShipUnlock_Oto"
 		entityDefName "EotHResearch_ShipUnlock_Chaf"
 		entityDefName "EotHResearch_ShipUnlock_Ascendancy"
 		entityDefName "EotHResearch_ShipUnlock_Alaria"
-		entityDefName "EotHResearch_ShipUnlock_Efodio"
 		entityDefName "EotHResearch_ShipUnlock_Peltast"
 		entityDefName "EotHResearch_ShipUnlock_Phalanx"
 		entityDefName "EotHResearch_ShipUnlock_Intego"
@@ -83,7 +83,12 @@ entities
 		entityDefName "EotHResearch_ShipUnlock_Brask"
 		entityDefName "EotHResearch_ShipUnlock_Visvia"
 		entityDefName "EotHResearch_ShipUnlock_Teichos"
-		entityDefName "RemnantResearch_ShipUnlock_Lambda"
+		entityDefName "EotHResearch_ShipUnlock_Aralani"
+		entityDefName "EotHResearch_ShipUnlock_Stent"
+		entityDefName "EotHResearch_ShipUnlock_Siath"
+		entityDefName "EotHResearch_Flat_Megamasers"
+		entityDefName "EotHResearch_Flat_Megamasers2"
+		entityDefName "EotHResearch_ShipUnlock_Lambda"
 		entityDefName "EotHResearch_ShipUnlock_Scarsiss"
 		entityDefName "EotHResearch_ShipUnlock_Krsiss"
 		entityDefName "RESEARCHSUBJECT_PACTUNLOCK_TRADE"
@@ -100,11 +105,15 @@ entities
 		entityDefName "EotHResearch_Global_Engines"
 		entityDefName "EotHResearch_Global_Engines2"
 		entityDefName "EotHResearch_Global_ExitDistance"
+		entityDefName "EotHResearch_Global_GreaterGood"
 		entityDefName "EotHResearch_Global_Infrastructure"
 		entityDefName "EotHResearch_Global_Bulwark"
 		entityDefName "EotHResearch_Global_RapidFire"
+		entityDefName "EotHResearch_Global_Resilience"
+		entityDefName "EotHResearch_Global_Resilience2"
 		entityDefName "EotHResearch_Global_RapidRecovery"
 		entityDefName "EotHResearch_Global_RapidDeployment"
+		entityDefName "EotHResearch_Global_SelectiveRelations"
 		entityDefName "EotHResearch_Global_GrowthRate"
 		entityDefName "EotHResearch_Global_SpeedBoost"
 		entityDefName "EotHResearch_Global_SpeedBoost2"
@@ -115,6 +124,7 @@ entities
 		entityDefName "EotHResearch_Global_ResistanceTwo"
 		entityDefName "EotHResearch_Global_CompoundLoyalty"
 		entityDefName "EotHResearch_Global_RulingFamilies"
+		entityDefName "EotHResearch_Global_Recycling"
 		entityDefName "EotHResearch_Global_Csapla"
 		entityDefName "EotHResearch_Global_Irokini"
 		entityDefName "EotHResearch_Flat_Afterburn"
@@ -127,6 +137,8 @@ entities
 		entityDefName "EotHResearch_Global_CultureSpread"
 		entityDefName "EotHResearch_Global_UnitedFront"
 		entityDefName "EotHResearch_AbilityUnlock_Microjump"
+		entityDefName "EotHResearch_AbilityUnlock_ProtonSplit"
+		entityDefName "EotHResearch_Global_Holdouts"
 		entityDefName "EotHResearch_Economy_Durasteel01"
 		entityDefName "EotHResearch_Economy_Durasteel02"
 		entityDefName "EotHResearch_Economy_Durasteel03"
@@ -146,12 +158,10 @@ entities
 		entityDefName "EotHResearch_MaxShipSlots5"
 		entityDefName "EotHResearch_MaxShipSlots6"
 		entityDefName "EotHResearch_MaxShipSlots7"
-		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
-		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
 	starBaseInfo
 		count 1
 		entityDefName "EotH_Oto"
-	flagship "EotH_Stent"
+	flagship "EotH_Parck"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisPhaseGenericLarge0"
@@ -722,7 +732,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 0 , 100 , 710 , 210 ]
+			area [ 0 , 100 , 710 , 310 ]
 			backdrop "Hand_Research_Block_Background"
 			tierIndicatorBackdrop "Hand_Research_Level_Bottom_Background"
 			title ""
