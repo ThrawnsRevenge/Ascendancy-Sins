@@ -32,21 +32,26 @@ entities
 	capitalShipInfo
 		Page:0
 			count 5
-			entityDefName "NewRep_MC80"
-			entityDefName "NewRep_MC80b"
-			entityDefName "NewRep_MC90"
-			entityDefName "NewRep_Nebula"
-			entityDefName "NewRep_Endurance"
+			entityDefName "Hapans_Magnetar"
+			entityDefName "Hapans_Corona"
+			entityDefName "Hapans_Neutron"
+			entityDefName "Hapans_Pulsar"
+			entityDefName "Hapans_Mist"
 	frigateInfo
 		Page:0
-			count 3
+			count 6
 			entityDefName "Hapans_NovaCruiser"
-			entityDefName "NewRep_Nebulon"
-			entityDefName "NewRep_Gallofree"
+			entityDefName "Hapans_Beta"
+			entityDefName "Hapans_Express"
+			entityDefName "Hapans_Stella"
+			entityDefName "Hapans_Flare"
+			entityDefName "Hapans_Ray"
 		Page:1
-			count 2
-			entityDefName "NewRep_AssaultFrigate"
+			count 4
 			entityDefName "Hapans_BattleDragon"
+			entityDefName "Hapans_Olanji"
+			entityDefName "Hapans_Charubah"
+			entityDefName "Hapans_Terephon"
 		NotOnPage
 			count 3
 			entityDefName "FrigateTechModuleConstructor"

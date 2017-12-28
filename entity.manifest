@@ -1,5 +1,18 @@
 TXT
-entityNameCount 2228
+entityNameCount 2241
+entityName "Hapans_Olanji.entity"
+entityName "Hapans_Charubah.entity"
+entityName "Hapans_Terephon.entity"
+entityName "Hapans_Ray.entity"
+entityName "Hapans_Flare.entity"
+entityName "Hapans_Stella.entity"
+entityName "Hapans_Express.entity"
+entityName "Hapans_Beta.entity"
+entityName "Hapans_Magnetar.entity"
+entityName "Hapans_Mist.entity"
+entityName "Hapans_Pulsar.entity"
+entityName "Hapans_Neutron.entity"
+entityName "Hapans_Corona.entity"
 entityName "Buff_Pestage_ResourceInflux.entity"
 entityName "Ability_Pestage_ResourceInflux.entity"
 entityName "Buff_Pestage_SurvivalInstinct.entity"
