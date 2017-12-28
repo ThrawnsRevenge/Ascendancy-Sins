@@ -1,5 +1,95 @@
 TXT
-NumStrings 8832
+NumStrings 8862
+StringInfo
+	ID "IDS_CAPITALSHIP_MIST_NAME"
+	Value "Mist"
+StringInfo
+	ID "IDS_CAPITALSHIP_MIST_DESCRIPTION"
+	Value "Assault Class Super Battledragon"
+StringInfo
+	ID "IDS_CAPITALSHIP_PULSAR_NAME"
+	Value "Pulsar"
+StringInfo
+	ID "IDS_CAPITALSHIP_PULSAR_DESCRIPTION"
+	Value "Carrier Class Super Battledragon"
+StringInfo
+	ID "IDS_CAPITALSHIP_NEUTRON_NAME"
+	Value "Neutron"
+StringInfo
+	ID "IDS_CAPITALSHIP_NEUTRON_DESCRIPTION"
+	Value "Carrier Class Super Battledragon"
+StringInfo
+	ID "IDS_CAPITALSHIP_CORONA_NAME"
+	Value "Corona"
+StringInfo
+	ID "IDS_CAPITALSHIP_CORONA_DESCRIPTION"
+	Value "Battleship Class Super Battledragon"
+StringInfo
+	ID "IDS_CAPITALSHIP_MAGNETAR_NAME"
+	Value "Magnetar"
+StringInfo
+	ID "IDS_CAPITALSHIP_MAGNETAR_DESCRIPTION"
+	Value "Colony Class Super Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_CHARUBAH_NAME"
+	Value "Charubah Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_CHARUBAH_DESCRIPTION"
+	Value "Support Class Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_TEREPHON_NAME"
+	Value "Terephon Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_TEREPHON_DESCRIPTION"
+	Value "Assault Class Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_OLANJI_NAME"
+	Value "Olanji Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_OLANJI_DESCRIPTION"
+	Value "Carrier Class Battledragon"
+StringInfo
+	ID "IDS_FRIGATE_RAY_NAME"
+	Value "Ray Frigate"
+StringInfo
+	ID "IDS_FRIGATE_RAY_DESCRIPTION"
+	Value "Ray Frigate"
+StringInfo
+	ID "IDS_FRIGATE_STELLA_NAME"
+	Value "Stella Frigate"
+StringInfo
+	ID "IDS_FRIGATE_STELLA_DESCRIPTION"
+	Value "Stella Fleet Tender Frigate"
+StringInfo
+	ID "IDS_FRIGATE_EXPRESS_NAME"
+	Value "Express Frigate"
+StringInfo
+	ID "IDS_FRIGATE_EXPRESS_DESCRIPTION"
+	Value "Express Diplomatic Frigate"
+StringInfo
+	ID "IDS_FRIGATE_BETA_NAME"
+	Value "Beta Frigate"
+StringInfo
+	ID "IDS_FRIGATE_BETA_DESCRIPTION"
+	Value "Beta Anti Fighter Frigate"
+StringInfo
+	ID "IDS_FRIGATE_FLARE_NAME"
+	Value "Flare Scout Frigate"
+StringInfo
+	ID "IDS_FRIGATE_FLARE_DESCRIPTION"
+	Value "TBD"
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
+	Value "Diplomatic Immunity"
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
+	Value "Leia is able to escape damage for a brief period."
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
+	Value "Diplomatic Immunity"
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
+	Value "Leia is able to escape damage for a brief period."
 StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
 	Value "Diplomatic Immunity"

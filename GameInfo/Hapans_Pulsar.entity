@@ -72,8 +72,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_ISDI_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_ISDI_DESCRIPTION"
+NameStringID "IDS_CAPITALSHIP_PULSAR_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_PULSAR_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_ISDI"
 Prerequisites
 	NumResearchPrerequisites 0
