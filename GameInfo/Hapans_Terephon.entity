@@ -15,18 +15,18 @@ NameStringID "IDS_FRIGATE_TEREPHON_NAME"
 DescriptionStringID "IDS_FRIGATE_TEREPHON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 600.000000
-	metal 50.000000
-	crystal 10.000000
-slotCount 5.000000
-BuildTime 30.000000
+	credits 850.000000
+	metal 95.000000
+	crystal 85.000000
+slotCount 8.000000
+BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000
-MaxHullPoints 1890.000000
-MaxShieldPoints 2360.000000
+MaxHullPoints 4550.000000
+MaxShieldPoints 4550.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
-BaseArmorPoints 3.500000
+BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 220.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -88,12 +88,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 440.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 8.000000
+	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
@@ -126,12 +126,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 220.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 15.000000
+	PreBuffCooldownTime 12.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000

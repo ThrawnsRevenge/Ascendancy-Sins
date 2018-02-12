@@ -40,16 +40,16 @@ bombEffectsDef
 	projectileTravelEffectName "TurbolaserGreen_Single"
 mainViewIcon "MAINVIEWICON_ISDI"
 basePrice
-	credits 1180.000000
-	metal 100.000000
-	crystal 50.000000
+	credits 900.000000
+	metal 60.000000
+	crystal 110.000000
 slotCount 5.000000
-BuildTime 80.000000
+BuildTime 85.000000
 MaxHullPoints
-	StartValue 5000.000000
+	StartValue 5450.000000
 	ValueIncreasePerLevel 144.000000
 MaxShieldPoints
-	StartValue 5000.000000
+	StartValue 5450.000000
 	ValueIncreasePerLevel 162.000000
 HullPointRestoreRate
 	StartValue 1.800000
@@ -58,13 +58,13 @@ ShieldPointRestoreRate
 	StartValue 30.600000
 	ValueIncreasePerLevel 0.240000
 ArmorPointsFromExperience
-	StartValue 6.000000
+	StartValue 5.500000
 	ValueIncreasePerLevel 0.540000
 maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.011110
 MaxAntiMatter
-	StartValue 72.000000
+	StartValue 133.000000
 	ValueIncreasePerLevel 0.000010
 AntiMatterRestoreRate
 	StartValue 0.000000
@@ -89,7 +89,7 @@ hudIcon "HUDICON_ISDI"
 smallHudIcon "HUDICONSMALL_CAPITAL_SHIP"
 infoCardIcon "HUDICONSMALL_CAPITAL_SHIP"
 minZoomDistanceMult 1.750000
-NumWeapons 3
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -98,12 +98,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 220.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.000000
+	PreBuffCooldownTime 8.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.900000
@@ -138,12 +138,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "ION"
-	DamagePerBank:FRONT 300.000000
+	DamagePerBank:FRONT 450.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.400000
+	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
@@ -170,46 +170,6 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "Ion_Single"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 100.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
-	Range 10000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.900000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.200000
-		fireDelay 0.000000
-		muzzleEffectName "MuzzleGreen_Single_Larger"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT1"
-			sound "WEAPON_CAPITAL_TURBOLASER_MUZZLE_ALT2"
-		hitEffectName "TurbolaserImpact"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "TurbolaserGreen_Double"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
