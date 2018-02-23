@@ -15,18 +15,18 @@ NameStringID "IDS_FRIGATE_OLANJI_NAME"
 DescriptionStringID "IDS_FRIGATE_OLANJI_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 600.000000
-	metal 50.000000
-	crystal 10.000000
-slotCount 5.000000
-BuildTime 30.000000
+	credits 650.000000
+	metal 75.000000
+	crystal 50.000000
+slotCount 6.000000
+BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.500000
-MaxHullPoints 1890.000000
-MaxShieldPoints 2360.000000
+MaxHullPoints 2800.000000
+MaxShieldPoints 2800.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
-BaseArmorPoints 3.500000
+BaseArmorPoints 2.000000
 maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 220.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -88,12 +88,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 440.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 8.000000
+	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.900000
@@ -119,46 +119,44 @@ Weapon
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "Ion_Single"
 Weapon
-	WeaponType "Missile"
+	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 200.000000
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 45.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 15.000000
-	CanFireAtFighter FALSE
+	PreBuffCooldownTime 1.000000
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
-	TravelSpeed 1000.000000
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Missile"
+		weaponType "Projectile"
 		burstCount 2
-		burstDelay 0.000000
+		burstDelay 0.200000
 		fireDelay 0.000000
-		muzzleEffectName ""
+		muzzleEffectName "MuzzleRed_Single_Large"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_PROTON_MUZZLE"
-		hitEffectName "Explosion1"
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "LaserImpact"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
-		missileTravelEffectName "Proton_Torp"
-		missileStartTurningDistance 10.000000
-		missileSlowTurnRate 3.141593
-		missileMaxSlowTurnTime 1.000000
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "LaserRed_Dual"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -219,7 +217,7 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 24.000000
+MaxAntiMatter 133.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
