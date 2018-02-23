@@ -15,9 +15,9 @@ NameStringID "IDS_FRIGATE_VENATOR_NAME"
 DescriptionStringID "IDS_FRIGATE_VENATOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 620.000000
-	metal 75.000000
-	crystal 40.000000
+	credits 980.000000
+	metal 100.000000
+	crystal 45.000000
 slotCount 8.000000
 BuildTime 60.000000
 hasLevels FALSE
@@ -52,10 +52,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 200.000000
+	DamagePerBank:FRONT 140.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
@@ -91,7 +91,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 15.000000
+	DamagePerBank:FRONT 110.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -220,10 +220,10 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "Engine_CapShip1"
 ability:0 "AbilityBombardEmpire"
 ability:1 "AbilitySPMATBeam"
-ability:2 "AbilityAcclamatorRefit"
+ability:2 ""
 ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT2"
-MaxAntiMatter 55.000000
+MaxAntiMatter 144.000000
 AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
