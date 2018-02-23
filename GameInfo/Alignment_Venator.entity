@@ -223,7 +223,7 @@ ability:1 "AbilitySPMATBeam"
 ability:2 "AbilityAcclamatorRefit"
 ability:3 "AbilityVeteran"
 ability:4 "AbilityPassiveLowLifeT2"
-MaxAntiMatter 144.000000
+MaxAntiMatter 55.000000
 AntiMatterRestoreRate 0.000010
 cargoType "Invalid"
 maxCargoCapacity 0.000000
