@@ -1,5 +1,11 @@
 TXT
-NumStrings 8862
+NumStrings 8864
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_COMMANDTRAINING_NAME"
+	Value "Command Training"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_COMMANDTRAINING_DESCRIPTION"
+	Value "New Republic Officers are now trained directly through military academies on fleet doctrine."
 StringInfo
 	ID "IDS_CAPITALSHIP_MIST_NAME"
 	Value "Mist"
@@ -3176,7 +3182,7 @@ StringInfo
 	Value "Field Training"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FIELDTRAINING_DESCRIPTION"
-	Value "Capital ships can passively gain higher levels."
+	Value "New Republic Officers gain experience of command by direct combat."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CITYPLANNING_NAME"
 	Value "Urban Zoning"

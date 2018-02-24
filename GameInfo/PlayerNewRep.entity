@@ -67,7 +67,7 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 107
+		count 108
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"
@@ -147,6 +147,7 @@ entities
 		entityDefName "NewRepResearch_Global_PlanetSpecialization00"
 		entityDefName "NewRepResearch_Global_PlanetSpecialization01"
 		entityDefName "NewRepResearch_Global_FieldTraining"
+		entityDefName "NewRepResearch_Global_CommandTraining"
 		entityDefName "NewRepResearch_Global_SmugglersAlliance"
 		entityDefName "NewRepResearch_PlanetUpgrades"
 		entityDefName "NewRepResearch_Global_SlowProduction"

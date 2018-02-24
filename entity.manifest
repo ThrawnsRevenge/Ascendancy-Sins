@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2243
+entityNameCount 2244
 entityName "Hapans_MiytilFighter_Squad.entity"
 entityName "Hapans_MiytilFighter.entity"
 entityName "Hapans_Olanji.entity"
@@ -727,6 +727,7 @@ entityName "NewRepResearch_Global_UnifyingForce.entity"
 entityName "NewRepResearch_Global_DiplomatCorps.entity"
 entityName "NewRepResearch_Global_CoalitionForces.entity"
 entityName "NewRepResearch_Global_FieldTraining.entity"
+entityName "NewRepResearch_Global_CommandTraining.entity"
 entityName "NewRepResearch_Global_SmugglersAlliance.entity"
 entityName "NewRepResearch_Global_RebelRoots.entity"
 entityName "NewRepResearch_Global_StandUnited.entity"
