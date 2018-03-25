@@ -64,7 +64,7 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 106
+		count 105
 		entityDefName "RemnantResearch_Global_SupplyChain"
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "RemnantResearch_Dummy_HyperspaceFree"
@@ -100,7 +100,6 @@ entities
 		entityDefName "RemnantResearch_Global_PrisonCamps"
 		entityDefName "RemnantResearch_Global_Fortifications"
 		entityDefName "RemnantResearch_Global_Infrastructure"
-		entityDefName "RemnantResearch_Global_SpreadFire"
 		entityDefName "RemnantResearch_Global_FieldTraining"
 		entityDefName "RemnantResearch_Global_Impenetrable"
 		entityDefName "RemnantResearch_Global_ImpenetrableTwo"
