@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "AbilitySovereignSuperlaser"
-ability:1 "AbilitySovereignInterdict"
+ability:0 "AbilitySovereignInterdict"
+ability:1 "AbilitySovereignSuperlaser"
 ability:2 "AbilityMassEffect"
 ability:3 "AbilityCrackMantle"
 ability:4 "AbilityPassiveLowLifeSuper"

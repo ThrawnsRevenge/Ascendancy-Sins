@@ -5,7 +5,7 @@ buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
-isInterruptable TRUE
+isInterruptable FALSE
 isChannelling TRUE
 numInstantActions 1
 instantAction

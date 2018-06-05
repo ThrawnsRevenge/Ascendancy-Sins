@@ -14,13 +14,13 @@ periodicAction
 	actionCount
 		Level:0 25.000000
 		Level:1 25.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 25.000000
+		Level:3 25.000000
 	actionIntervalTime
 		Level:0 1.250000
 		Level:1 1.250000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 1.250000
+		Level:3 1.250000
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffConcussionBarrageHit"
@@ -40,13 +40,13 @@ periodicAction
 	range
 		Level:0 8000.000000
 		Level:1 8000.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 9000.000000
+		Level:3 9500.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

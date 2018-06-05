@@ -18,7 +18,7 @@ maxNumLevels 1
 levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
-isAutoCastAvailable FALSE
+isAutoCastAvailable TRUE
 isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
