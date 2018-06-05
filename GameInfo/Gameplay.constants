@@ -199,15 +199,15 @@ GameplayConstants
 			CAPITALSHIP 1.000000
 			INTERCEPTOR 0.650000
 			BOMBER 0.750000
-		DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.15
 		DamagePercentBonus:ANTIVERYLIGHT:VeryLight 1.33333
-		DamagePercentBonus:ANTIVERYLIGHT:Light 0.75
-		DamagePercentBonus:ANTIVERYLIGHT:Medium 0.5
-		DamagePercentBonus:ANTIVERYLIGHT:Heavy 0.5
-		DamagePercentBonus:ANTIVERYLIGHT:VeryHeavy 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:Light 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:Medium 0.4
+		DamagePercentBonus:ANTIVERYLIGHT:Heavy 0.3
+		DamagePercentBonus:ANTIVERYLIGHT:VeryHeavy 0.15
 		DamagePercentBonus:ANTIVERYLIGHT:Module 0.35
-		DamagePercentBonus:ANTIVERYLIGHT:Pirate 0.25
-		DamagePercentBonus:ANTIVERYLIGHT:Titan 0.45	
+		DamagePercentBonus:ANTIVERYLIGHT:Pirate 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:Titan 0.05	
 		DamagePercentBonus:ANTILIGHT:CapitalShip 0.5
 		DamagePercentBonus:ANTILIGHT:VeryLight 1.0
 		DamagePercentBonus:ANTILIGHT:Light 2.0
