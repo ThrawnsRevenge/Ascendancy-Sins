@@ -32,7 +32,7 @@ researchBoolModifiers 0
 researchFloatModifiers 5
 researchModifier
 	modifierType "ShipMaxSlots"
-	baseValue 60.000000
+	baseValue 35.000000
 	perLevelValue 60.000000
 researchModifier
 	modifierType "IncomePercLost"
