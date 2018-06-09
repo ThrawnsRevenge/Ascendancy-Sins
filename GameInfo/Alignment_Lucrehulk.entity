@@ -43,7 +43,7 @@ basePrice
 	credits 1000.000000
 	metal 100.000000
 	crystal 50.000000
-slotCount 8.000000
+slotCount 18.000000
 BuildTime 80.000000
 MaxHullPoints
 	StartValue 8000.000000
@@ -221,8 +221,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName ""
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 2.000000
-	ValueIncreasePerLevel 0.200000
+	StartValue 3.000000
+	ValueIncreasePerLevel 0.400000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.031500
