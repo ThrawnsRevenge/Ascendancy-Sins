@@ -70,10 +70,10 @@ periodicAction
 		space "Normal"
 		numConstraints 0
 	columnRadius
-		Level:0 500.000000
-		Level:1 500.000000
-		Level:2 500.000000
-		Level:3 500.000000
+		Level:0 300.000000
+		Level:1 350.000000
+		Level:2 400.000000
+		Level:3 550.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
