@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2244
+entityNameCount 2245
 entityName "Hapans_MiytilFighter_Squad.entity"
 entityName "Hapans_MiytilFighter.entity"
 entityName "Hapans_Olanji.entity"
@@ -1443,6 +1443,7 @@ entityName "BuffHypervelocityGunPlanet.entity"
 entityName "BuffConsumeShipTarget.entity"
 entityName "BuffConsumeShipSelf.entity"
 entityName "BuffConsumeShipSelfScaling.entity"
+entityName "BuffConsumeShipSelfHeal.entity"
 entityName "BuffThrawnDoctrine.entity"
 entityName "BuffTractorBeam.entity"
 entityName "BuffTractorBeamTarget.entity"

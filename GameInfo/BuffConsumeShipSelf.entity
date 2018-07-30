@@ -7,7 +7,7 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 4
 instantAction
 	buffInstantActionType "PlayPersistantBeamEffect"
 	instantActionTriggerType "OnDelay"
@@ -56,6 +56,18 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffConsumeShipSelfScaling"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffConsumeShipSelfHeal"
 	effectInfo
 		effectAttachInfo
 			attachType "Center"

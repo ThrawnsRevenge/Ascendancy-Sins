@@ -14,17 +14,17 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.025000
-		Level:1 0.050000
-		Level:2 0.075000
-		Level:3 0.100000
+		Level:0 0.050000
+		Level:1 0.075000
+		Level:2 0.100000
+		Level:3 0.125000
 entityModifier
 	buffEntityModifierType "MaxHullPoints"
 	value
-		Level:0 250.000000
-		Level:1 500.000000
-		Level:2 750.000000
-		Level:3 1000.000000
+		Level:0 2000.000000
+		Level:1 3000.000000
+		Level:2 4000.000000
+		Level:3 5000.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
