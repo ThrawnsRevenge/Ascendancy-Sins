@@ -1,5 +1,17 @@
 TXT
-NumStrings 8881
+NumStrings 8885
+StringInfo
+	ID "IDS_ABILITY_CICSUITE_NAME"
+	Value "CIC Suite"
+StringInfo
+	ID "IDS_ABILITY_CICSUITE_DESCRIPTION"
+	Value "Special Command Centres provide targeting analysis data to other nearby imperial vessels."
+StringInfo
+	ID "IDS_ABILITY_CSHOT_NAME"
+	Value "Crippling Shot"
+StringInfo
+	ID "IDS_ABILITY_CSHOT_DESCRIPTION"
+	Value "A Targeted Strike on a critical location that can overwhelm shields and strip enemy hull plating."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_COMMANDTRAINING_NAME"
 	Value "Command Training"

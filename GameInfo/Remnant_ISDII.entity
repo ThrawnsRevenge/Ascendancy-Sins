@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityTractorBeam"
-ability:1 "AbilityNumericalSuperiority"
-ability:2 "AbilityCloakRemnant"
-ability:3 "AbilityOverwhelmCapital"
+ability:1 "Ability_ISD2_Cshot"
+ability:2 "Ability_ISD2_CICSuite"
+ability:3 ""
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

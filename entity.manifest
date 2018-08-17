@@ -1,5 +1,11 @@
 TXT
-entityNameCount 2245
+entityNameCount 2251
+entityName "Buff_ISD2_CICSuiteFleet.entity"
+entityName "Buff_ISD2_CICSuiteSelf.entity"
+entityName "Ability_ISD2_CICSuite.entity"
+entityName "Buff_ISD2_CshotTarget.entity"
+entityName "Buff_ISD2_Cshot.entity"
+entityName "Ability_ISD2_Cshot.entity"
 entityName "Hapans_MiytilFighter_Squad.entity"
 entityName "Hapans_MiytilFighter.entity"
 entityName "Hapans_Olanji.entity"
