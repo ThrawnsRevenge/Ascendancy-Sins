@@ -67,3 +67,4 @@ finishCondition
 		Level:3 10.000000
 finishCondition
 	finishConditionType "OwnerChanged"
+	

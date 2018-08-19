@@ -3,6 +3,7 @@ entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 5
+allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
 isChannelling FALSE

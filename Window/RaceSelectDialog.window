@@ -482,3 +482,4 @@ numFactionWindows 5
 			buttonTextFont "ButtonLabel"
 			buttonTextID "NO_TEXT"
 			buttonTextArea [ 0 , 0 , 0 , 0 ]
+			

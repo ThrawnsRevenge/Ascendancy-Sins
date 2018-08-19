@@ -1,5 +1,7 @@
 TXT
-entityNameCount 2251
+entityNameCount 2253
+entityName "Buff_ISD2_EnhCap.entity"
+entityName "Ability_ISD2_EnhCap.entity"
 entityName "Buff_ISD2_CICSuiteFleet.entity"
 entityName "Buff_ISD2_CICSuiteSelf.entity"
 entityName "Ability_ISD2_CICSuite.entity"

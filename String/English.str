@@ -1,5 +1,17 @@
 TXT
-NumStrings 8885
+NumStrings 8889
+StringInfo
+	ID "IDS_ABILITY_LOWLIFE_NAME"
+	Value "LOW LIFE"
+StringInfo
+	ID "IDS_ABILITY_LOWLIFE_DESCRIPTION"
+	Value "LOW LIFE"
+StringInfo
+	ID "IDS_ABILITY_ENHCAP_NAME"
+	Value "Enhanced Capacitors"
+StringInfo
+	ID "IDS_ABILITY_ENHCAP_DESCRIPTION"
+	Value "Increasing Capacitor Numbers allows stronger directed energy attacks"
 StringInfo
 	ID "IDS_ABILITY_CICSUITE_NAME"
 	Value "CIC Suite"
@@ -26654,3 +26666,4 @@ StringInfo
 	Value "Confirm Changes"
 StringInfo
 	ID "IDSConfirmVideoChangesDialogMessage"
+	Value "Confirmed"

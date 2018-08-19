@@ -23,7 +23,7 @@ basePrice
 	crystal 100.000000
 NameStringID "IDS_PLANETMODULE_SHIPYARDADMIN_NAME"
 DescriptionStringID "IDS_PLANETMODULE_SHIPYARDADMIN_DESCRIPTION"
-planetModuleRoleType "Refinery"
+planetModuleRoleType "REFINERY"
 statCountType "ModuleRefinery"
 Prerequisites
 	NumResearchPrerequisites 0
