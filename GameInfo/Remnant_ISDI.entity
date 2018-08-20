@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityISDColonize"
-ability:1 "AbilityOverwhelmCapital"
-ability:2 "AbilityTractorBeam"
-ability:3 "AbilityMoleMiners"
+ability:1 "Ability_Sensorprobe"
+ability:2 "AbilityIonBlast"
+ability:3 "Ability_ISD1_HullPlat"
 ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

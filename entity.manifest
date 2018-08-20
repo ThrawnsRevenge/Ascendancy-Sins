@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2253
+entityNameCount 2257
+entityName "Buff_ISD1_HullPlat.entity"
+entityName "Ability_ISD1_HullPlat.entity"
+entityName "Buff_Sensorprobe.entity"
+entityName "Ability_Sensorprobe.entity"
 entityName "Buff_ISD2_EnhCap.entity"
 entityName "Ability_ISD2_EnhCap.entity"
 entityName "Buff_ISD2_CICSuiteFleet.entity"

@@ -1,5 +1,17 @@
 TXT
-NumStrings 8889
+NumStrings 8893
+StringInfo
+	ID "IDS_ABILITY_HULLPLAT_NAME"
+	Value "Reinforced Hull"
+StringInfo
+	ID "IDS_ABILITY_HULLPLAT_DESCRIPTION"
+	Value "Additional Internal Hull Plating increases the durability of Imperial Star Destroyers"
+StringInfo
+	ID "IDS_ABILITY_SENSORPROBE_NAME"
+	Value "Imperial Probe Droids"
+StringInfo
+	ID "IDS_ABILITY_SENSORPROBE_DESCRIPTION"
+	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other Threats"
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "LOW LIFE"
