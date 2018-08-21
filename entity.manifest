@@ -1,5 +1,17 @@
 TXT
-entityNameCount 2261
+entityNameCount 2273
+entityName "BuffHeavyBattleCruiser.entity"
+entityName "AbilityHeavyBattleCruiser.entity"
+entityName "BuffRangeFinderArraySelf.entity"
+entityName "BuffRangeFinderArray.entity"
+entityName "AbilityRangeFinderArray.entity"
+entityName "BuffWarFooting.entity"
+entityName "AbilityWarFooting.entity"
+entityName "BuffRazePlanetTarget2.entity"
+entityName "BuffRazePlanetLauncher2.entity"
+entityName "BuffTorpSphereLoaders.entity"
+entityName "AbilityTorpSphereLoaders.entity"
+entityName "BuffAltorMissileBarrage.entity"
 entityName "BuffAltorVentFuelTargets.entity"
 entityName "BuffAltorVentFuelSelf.entity"
 entityName "AbilityAltorVentFuel.entity"

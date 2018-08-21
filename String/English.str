@@ -1,5 +1,29 @@
 TXT
-NumStrings 8897
+NumStrings 8905
+StringInfo
+	ID "IDS_ABILITY_HEAVYBATTLECRUISER_NAME"
+	Value "Heavy Battlecruiser"
+StringInfo
+	ID "IDS_ABILITY_HEAVYBATTLECRUISER_DESCRIPTION"
+	Value "The Allegiance class was designed to have additional structural integrity added as required."
+StringInfo
+	ID "IDS_ABILITY_RANGEFINDERARRAY_NAME"
+	Value "Rangefinder Array"
+StringInfo
+	ID "IDS_ABILITY_RANGEFINDERARRAY_DESCRIPTION"
+	Value "A complex rangefinder arrays helps extend turbolaser range targetting to nearby ships."
+StringInfo
+	ID "IDS_ABILITY_WARFOOTING_NAME"
+	Value "Prepared For War"
+StringInfo
+	ID "IDS_ABILITY_WARFOOTING_DESCRIPTION"
+	Value "Allegiance Class Heavy Battlecruisers are capable of temporarily boosting their defences during heavy combat actions."
+StringInfo
+	ID "IDS_ABILITY_TORPLOADERS_NAME"
+	Value "Droid Loaders"
+StringInfo
+	ID "IDS_ABILITY_TORPLOADERS_DESCRIPTION"
+	Value "Increasing Droid numbers allows for faster reloading for planetary bombardment"
 StringInfo
 	ID "IDS_ABILITY_VENTFUEL_NAME"
 	Value "VENT FUEL"
@@ -980,7 +1004,7 @@ StringInfo
 	Value "Glory of the New Order"
 StringInfo
 	ID "IDS_ABILITY_GLORYOFTHENEWORDER_DESCRIPTION"
-	Value "The Allegiance instills fear in the enemy population, decreasing production and increasing damage taken at the target planet."
+	Value "The Torpedo Sphere instills fear in the enemy population, decreasing production and increasing damage taken at the target planet."
 StringInfo
 	ID "IDS_ABILITY_SHIELDSCAN_NAME"
 	Value "Planetary Shield Scan"

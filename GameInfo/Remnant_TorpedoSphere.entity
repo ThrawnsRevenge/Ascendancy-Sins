@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityRadiationBomb"
+ability:0 "AbilityGloryOfTheNewOrder"
 ability:1 "AbilityRazePlanet"
 ability:2 "AbilityMissileBarrage"
-ability:3 ""
+ability:3 "AbilityTorpSphereLoaders"
 ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

@@ -1,8 +1,32 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffMissileBarrageFiring"
+buffType "BuffAltorMissileBarrage"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "Corvette"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 10500.000000
+	Level:1 10500.000000
+	Level:2 10500.000000
+	Level:3 10500.000000
+maxTargetCount
+	Level:0 3.000000
+	Level:1 5.000000
+	Level:2 7.000000
+	Level:3 9.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -10,18 +34,54 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
+travelSpeed 1500.000000
+effectStaggerDelay 0.300000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 1
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Missile"
+		burstCount 6
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PROTON_MUZZLE"
+		hitEffectName "Explosion1"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Proton_Torp"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility TRUE
-maxNumLevels 2
+isUltimateAbility FALSE
+maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
-	Level:0 5.000000
-	Level:1 7.000000
-	Level:2 0.000000
-	Level:3 0.000000
-aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 4.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -31,14 +91,14 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 0.000000
-	Level:1 0.500000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 0.000000
+	Level:2 00.000000
+	Level:3 00.000000
 cooldownTime
-	Level:0 240.000000
-	Level:1 180.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 120.000000
+	Level:1 100.000000
+	Level:2 80.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

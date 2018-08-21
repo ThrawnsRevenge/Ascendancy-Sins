@@ -1,29 +1,16 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyTargettedBuffToSelf"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRazePlanetLauncher2"
-targetFilter
-	numOwnerships 1
-	ownership "Enemy"
-	numObjects 1
-	object "Planet"
-	numSpaces 1
-	space "Normal"
-	numConstraints 0
-range
-	Level:0 5000.000000
-	Level:1 5000.000000
-	Level:2 5000.000000
-	Level:3 5000.000000
+buffType "BuffRangeFinderArraySelf"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-needsToFaceTarget TRUE
+needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
@@ -34,7 +21,7 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyWhenBombing"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -48,17 +35,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 40.000000
-	Level:1 45.000000
-	Level:2 50.000000
-	Level:3 55.000000
+	Level:0 120.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 90.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_RAZEPLANET_NAME"
-descStringID "IDS_ABILITY_RAZEPLANET_DESCRIPTION"
-hudIcon "HUDABILITYICON_RAZEPLANET"
-smallHudIcon "HUDABILITYICON_RAZEPLANET"
+nameStringID "IDS_ABILITY_RANGEFINDERARRAY_NAME"
+descStringID "IDS_ABILITY_RANGEFINDERARRAY_DESCRIPTION"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""
