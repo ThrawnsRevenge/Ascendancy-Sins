@@ -1,17 +1,29 @@
 TXT
-NumStrings 8893
+NumStrings 8897
+StringInfo
+	ID "IDS_ABILITY_VENTFUEL_NAME"
+	Value "VENT FUEL"
+StringInfo
+	ID "IDS_ABILITY_VENTFUEL_DESC"
+	Value "Drive fuel is a highly corrosive substance when vented in space it can cause multiple issues for vessels. Clever tacticians have used this to their advantage in combat."
+StringInfo
+	ID "VENTFUEL_ACTIVE_NAME"
+	Value "VENTING FUEL"
+StringInfo
+	ID "VENTFUEL_ACTIVE_DESC"
+	Value "Our Vessel is currently venting fuel desposits."
 StringInfo
 	ID "IDS_ABILITY_HULLPLAT_NAME"
 	Value "Reinforced Hull"
 StringInfo
 	ID "IDS_ABILITY_HULLPLAT_DESCRIPTION"
-	Value "Additional Internal Hull Plating increases the durability of Imperial Star Destroyers"
+	Value "Additional Internal Hull Plating increases the durability of Imperial Star Destroyers."
 StringInfo
 	ID "IDS_ABILITY_SENSORPROBE_NAME"
 	Value "Imperial Probe Droids"
 StringInfo
 	ID "IDS_ABILITY_SENSORPROBE_DESCRIPTION"
-	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other Threats"
+	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other Threats."
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "LOW LIFE"

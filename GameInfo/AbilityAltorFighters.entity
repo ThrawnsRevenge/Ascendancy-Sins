@@ -1,33 +1,28 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadius"
+buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRemnantFighters"
+buffType "BuffAltorFighters"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
-	numObjects 5
+	numObjects 6
+	object "PlanetModule"
 	object "CapitalShip"
 	object "Frigate"
-	object "PlanetModule"
+	object "StarBase"
 	object "Titan"
 	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 3
+	numConstraints 2
 	constraint "NotSelf"
 	constraint "HasAntiMatterShortage"
-	constraint "CanHaveFighters"
 range
-	Level:0 3200.000000
-	Level:1 4200.000000
-	Level:2 5200.000000
-	Level:3 6200.000000
-maxTargetCount
-	Level:0 10.000000
-	Level:1 12.000000
-	Level:2 14.000000
-	Level:3 16.000000
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -39,7 +34,7 @@ effectInfo
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility FALSE
+isUltimateAbility TRUE
 maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
@@ -47,12 +42,7 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyWhenManyTargetsInRange"
-onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 2.000000
-	Level:1 2.000000
-	Level:2 3.000000
-	Level:3 3.000000
+aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -66,10 +56,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 30.000000
-	Level:1 25.000000
-	Level:2 20.000000
-	Level:3 15.000000
+	Level:0 60.000000
+	Level:1 50.000000
+	Level:2 40.000000
+	Level:3 30.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

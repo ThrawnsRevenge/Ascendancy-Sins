@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2257
+entityNameCount 2261
+entityName "BuffAltorVentFuelTargets.entity"
+entityName "BuffAltorVentFuelSelf.entity"
+entityName "AbilityAltorVentFuel.entity"
+entityName "BuffAltorFighters.entity"
 entityName "Buff_ISD1_HullPlat.entity"
 entityName "Ability_ISD1_HullPlat.entity"
 entityName "Buff_Sensorprobe.entity"

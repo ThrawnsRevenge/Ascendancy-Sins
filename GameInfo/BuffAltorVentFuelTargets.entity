@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE	
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.300000
+		Level:1 -0.450000
+		Level:2 -0.600000
+		Level:3 -0.7500000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.500000
+		Level:1 -0.600000
+		Level:2 -0.700000
+		Level:3 -0.800000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 -0.250000
+		Level:1 -0.400000
+		Level:2 -0.600000
+		Level:3 -0.800000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+finishCondition
+	finishConditionType "OwnerChanged"
