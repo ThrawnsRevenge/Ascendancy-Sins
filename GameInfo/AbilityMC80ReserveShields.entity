@@ -2,10 +2,10 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTargetingEnhancement"
+buffType "BuffReserveShields"
 effectInfo
 	effectAttachInfo
-		attachType "Center"
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -21,31 +21,20 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyInCombat"
-aiUseTargetCondition "Any"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-cooldownTime
-	Level:0 120.000000
-	Level:1 110.000000
-	Level:2 100.000000
-	Level:3 90.000000
-orderAcknowledgementType "ONATTACKORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
-descStringID "IDS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
-hudIcon "HUDABILITYICON_OVERWHELM"
-smallHudIcon "HUDABILITYICON_OVERWHELM"
+nameStringID "IDS_ABILITY_RESERVESHIELDS_NAME"
+descStringID "IDS_ABILITY_RESERVESHIELDS_DESCRIPTION"
+hudIcon "HUDABILITYICON_COMMANDASSAULT"
+smallHudIcon "HUDABILITYICON_COMMANDASSAULT"
 infoCardIcon ""

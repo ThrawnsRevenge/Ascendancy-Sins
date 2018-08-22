@@ -1,30 +1,68 @@
 ﻿TXT
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
-numPeriodicActions 0
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 2.500000
+		Level:1 2.500000
+		Level:2 2.500000
+		Level:3 2.500000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffTargetingEnhancementFleet"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	range
+		Level:0 4000.000000
+		Level:1 5000.000000
+		Level:2 6000.000000
+		Level:3 7000.000000
+	maxTargetCount
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 3.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numOverTimeActions 0
-numEntityModifiers 2
-entityModifier
-	buffEntityModifierType "DamageAsDamageDealer"
-	value
-		Level:0 0.050000
-		Level:1 0.100000
-		Level:2 0.150000
-		Level:3 0.200000
-entityModifier
-	buffEntityModifierType "ChanceToHitAsDamageDealer"
-	value
-		Level:0 0.050000
-		Level:1 0.100000
-		Level:2 0.200000
-		Level:3 0.300000
+numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

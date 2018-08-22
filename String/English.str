@@ -1,5 +1,17 @@
 TXT
-NumStrings 8905
+NumStrings 8909
+StringInfo
+	ID "IDS_ABILITY_SHIELDDISRUPTOR_NAME"
+	Value "Shield Disruptor"
+StringInfo
+	ID "IDS_ABILITY_SHIELDDISRUPTOR_DESC"
+	Value "An experimental modulated ion beam that can disable shields between targets in close proximity"
+StringInfo
+	ID "IDS_ABILITY_RESERVESHIELDS_NAME"
+	Value "Reserve Shields"
+StringInfo
+	ID "IDS_ABILITY_RESERVESHIELDS_DESCRIPTION"
+	Value "The MC80 can be fitted with addtional shield generators as required."
 StringInfo
 	ID "IDS_ABILITY_HEAVYBATTLECRUISER_NAME"
 	Value "Heavy Battlecruiser"

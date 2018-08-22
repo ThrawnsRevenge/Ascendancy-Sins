@@ -1,11 +1,32 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTargetingEnhancement"
+buffType "BuffShieldDisruptorActivate"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 3
+	constraint "NotSelf"
+	constraint "CanHaveShields"
+	constraint "NotInvulnerable"
+range
+	Level:0 6000.000000
+	Level:1 7000.000000
+	Level:2 8000.000000
+	Level:3 9000.000000
 effectInfo
 	effectAttachInfo
-		attachType "Center"
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -21,7 +42,12 @@ minExperienceLevelRequired
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000
-aiUseTime "OnlyInCombat"
+aiUseTime "OnlyWhenManyTargetsInRange"
+    onlyAutoCastWhenTargetCountExceedsAmount 
+    Level:0 4.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 6.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -36,16 +62,16 @@ antiMatterCost
 	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
-	Level:1 110.000000
-	Level:2 100.000000
-	Level:3 90.000000
+	Level:1 100.000000
+	Level:2 80.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
-descStringID "IDS_ABILITY_TARGETINGENHANCEMENT_DESCRIPTION"
-hudIcon "HUDABILITYICON_OVERWHELM"
-smallHudIcon "HUDABILITYICON_OVERWHELM"
+nameStringID "IDS_ABILITY_SHIELDDISRUPTOR_NAME"
+descStringID "IDS_ABILITY_SHIELDDISRUPTOR_DESC"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

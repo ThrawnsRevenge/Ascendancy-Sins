@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityEMPBurst"
 ability:1 "AbilityPowerToShieldsCapital"
 ability:2 "AbilityTargetingEnhancement"
-ability:3 "AbilityIonBlast"
+ability:3 "AbilityShieldDisruptor"
 ability:4 "AbilityPassiveLowLifePodsT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

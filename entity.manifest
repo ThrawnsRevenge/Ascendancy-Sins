@@ -1,5 +1,15 @@
 TXT
-entityNameCount 2273
+entityNameCount 2283
+entityName "BuffTargetingEnhancementFleet.entity"
+entityName "BuffShieldDisruptorTarget4.entity"
+entityName "BuffShieldDisruptorTarget3.entity"
+entityName "BuffShieldDisruptorTarget2.entity"
+entityName "BuffShieldDisruptorHit.entity"
+entityName "BuffShieldDisruptorTarget.entity"
+entityName "AbilityShieldDisruptor.entity"
+entityName "BuffShieldDisruptorActivate.entity"
+entityName "BuffMC80ReserveShields.entity"
+entityName "AbilityMC80ReserveShields.entity"
 entityName "BuffHeavyBattleCruiser.entity"
 entityName "AbilityHeavyBattleCruiser.entity"
 entityName "BuffRangeFinderArraySelf.entity"

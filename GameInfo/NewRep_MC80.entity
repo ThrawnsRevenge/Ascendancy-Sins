@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityGilzeanColonize"
-ability:1 "AbilityBoardingParty"
+ability:1 "AbilityInciteRebellion"
 ability:2 "AbilityPowerToShieldsCapital"
-ability:3 "AbilityInciteRebellion"
+ability:3 "AbilityMC80ReserveShields"
 ability:4 "AbilityPassiveLowLifePodsT2"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
