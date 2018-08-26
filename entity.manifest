@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2283
+entityNameCount 2287
+entityName "BuffAbsorbFirstSpawner.entity"
+entityName "BuffAbsorb.entity"
+entityName "BuffAbsorbSelf.entity"
+entityName "AbilityAbsorb.entity"
 entityName "BuffTargetingEnhancementFleet.entity"
 entityName "BuffShieldDisruptorTarget4.entity"
 entityName "BuffShieldDisruptorTarget3.entity"
