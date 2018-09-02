@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityOverwhelmCapital"
-ability:1 "AbilityTargetHangar"
-ability:2 "AbilityProjectForceNebula"
+ability:0 "Ability_Nebula_FocusFire"
+ability:1 "AbilityProjectForceNebula"
+ability:2 "AbilityNebulaCommand"
 ability:3 "AbilityPiercingBlows"
 ability:4 "AbilityPassiveLowLifePodsT4"
 defaultAutoAttackRange "GravityWell"

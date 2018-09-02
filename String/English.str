@@ -1,5 +1,35 @@
 TXT
-NumStrings 8909
+NumStrings 8921
+StringInfo
+	ID "IDS_ABILITY_DECOY_NAME"
+	Value "Decoy"
+StringInfo
+	ID "IDS_ABILITY_DECOY_DESC"
+	Value "The vessel is able to taunt the enemy forcing it to attack it."
+StringInfo
+	ID "G_unboardable_name"
+	Value "Unboardable"
+StringInfo
+	ID "G_unboardable_Desc"
+	Value "If its not in the archives then it does not exist"
+StringInfo
+	ID "IDS_ABILITY_FORCEPROJECT_NAME"
+	Value "Force Projection"
+StringInfo
+	ID "IDS_ABILITY_FORCEPROJECT_DESC"
+	Value "Jedi Knights on the bridge of the Nebula project force images into space of friendly republic vessels in a bid to fool the enemy."
+StringInfo
+	ID "IDS_ABILITY_NEBCOMMAND_NAME"
+	Value "Command and Control"
+StringInfo
+	ID "IDS_ABILITY_NEBCOMMAND_DESC"
+	Value "Similar to Imperial designs the Nebula class is capable of coordinating other new republic vessels to deliver higher damage output."
+StringInfo
+	ID "IDS_ABILITY_FOCUSFIRE_NAME"
+	Value "Focus Fire"
+StringInfo
+	ID "IDS_ABILITY_FOCUSFIRE_DESC"
+	Value "The republic captain orders the command team to focus fire on a key target ripping through its shields and hull."
 StringInfo
 	ID "IDS_ABILITY_ABSORB_NAME"
 	Value "Energy Absorption"

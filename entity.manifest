@@ -1,5 +1,20 @@
 TXT
-entityNameCount 2287
+entityNameCount 2302
+entityName "BuffUncap.entity"
+entityName "AbilityUncap.entity"
+entityName "BuffDecoy.entity"
+entityName "AbilityDecoy.entity"
+entityName "BuffDecoySelf.entity"
+entityName "NewRep_Force_Dauntless.entity"
+entityName "NewRep_Force_MC40.entity"
+entityName "NewRep_Force_Nebulon.entity"
+entityName "BuffProjectForceNebula.entity"
+entityName "BuffNebulaCommandFleet.entity"
+entityName "BuffNebulaCommandSelf.entity"
+entityName "AbilityNebulaCommand.entity"
+entityName "Buff_Nebula_FocusFire.entity"
+entityName "Buff_Nebula_FocusFireTarget.entity"
+entityName "Ability_Nebula_FocusFire.entity"
 entityName "BuffAbsorbFirstSpawner.entity"
 entityName "BuffAbsorb.entity"
 entityName "BuffAbsorbSelf.entity"
