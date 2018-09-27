@@ -1,5 +1,5 @@
 TXT
-NumStrings 8921
+NumStrings 8691
 StringInfo
 	ID "IDS_ABILITY_DECOY_NAME"
 	Value "Decoy"
@@ -4049,1609 +4049,919 @@ StringInfo
 	Value "Economist"
 StringInfo
 	ID "IDS_STARNAME_0"
-	Value "Acamar"
+	Value "Galaxy Far Far Away"
 StringInfo
 	ID "IDS_STARNAME_1"
-	Value "Achernar"
+	Value "Deep Core"
 StringInfo
 	ID "IDS_STARNAME_2"
-	Value "Acrux"
+	Value "Rishi Maze"
 StringInfo
 	ID "IDS_STARNAME_3"
-	Value "Acubens"
+	Value "Companion Cresh"
 StringInfo
 	ID "IDS_STARNAME_4"
-	Value "Adhafera"
+	Value "Companion Dorn"
 StringInfo
 	ID "IDS_STARNAME_5"
-	Value "Adhara"
+	Value "Companion Esk"
 StringInfo
 	ID "IDS_STARNAME_6"
-	Value "Agena"
+	Value "Companion Forn"
 StringInfo
 	ID "IDS_STARNAME_7"
-	Value "Albali"
+	Value "Companion Grek"
 StringInfo
 	ID "IDS_STARNAME_8"
-	Value "Albireo"
-StringInfo
-	ID "IDS_STARNAME_9"
-	Value "Alchibah"
-StringInfo
-	ID "IDS_STARNAME_10"
-	Value "Alcor"
-StringInfo
-	ID "IDS_STARNAME_11"
-	Value "Alcyone"
-StringInfo
-	ID "IDS_STARNAME_12"
-	Value "Aldebaran"
-StringInfo
-	ID "IDS_STARNAME_13"
-	Value "Alderamin"
-StringInfo
-	ID "IDS_STARNAME_14"
-	Value "Alfirk"
-StringInfo
-	ID "IDS_STARNAME_15"
-	Value "Algedi"
-StringInfo
-	ID "IDS_STARNAME_16"
-	Value "Algenib"
-StringInfo
-	ID "IDS_STARNAME_17"
-	Value "Algieba"
-StringInfo
-	ID "IDS_STARNAME_18"
-	Value "Algol"
-StringInfo
-	ID "IDS_STARNAME_19"
-	Value "Alhena"
-StringInfo
-	ID "IDS_STARNAME_20"
-	Value "Alioth"
-StringInfo
-	ID "IDS_STARNAME_21"
-	Value "Alkaid"
-StringInfo
-	ID "IDS_STARNAME_22"
-	Value "Alkalurops"
-StringInfo
-	ID "IDS_STARNAME_23"
-	Value "Alkes"
-StringInfo
-	ID "IDS_STARNAME_24"
-	Value "Almaak"
-StringInfo
-	ID "IDS_STARNAME_25"
-	Value "Al Na'ir"
-StringInfo
-	ID "IDS_STARNAME_26"
-	Value "Alnasl"
-StringInfo
-	ID "IDS_STARNAME_27"
-	Value "Alnilam"
-StringInfo
-	ID "IDS_STARNAME_28"
-	Value "Alnitak"
-StringInfo
-	ID "IDS_STARNAME_29"
-	Value "Al Niyat"
-StringInfo
-	ID "IDS_STARNAME_30"
-	Value "Alphard"
-StringInfo
-	ID "IDS_STARNAME_31"
-	Value "Alphecca"
-StringInfo
-	ID "IDS_STARNAME_32"
-	Value "Alpheratz"
-StringInfo
-	ID "IDS_STARNAME_33"
-	Value "Alrisha"
-StringInfo
-	ID "IDS_STARNAME_34"
-	Value "Alshain"
-StringInfo
-	ID "IDS_STARNAME_35"
-	Value "Altair"
-StringInfo
-	ID "IDS_STARNAME_36"
-	Value "Alterf"
-StringInfo
-	ID "IDS_STARNAME_37"
-	Value "Aludra"
-StringInfo
-	ID "IDS_STARNAME_38"
-	Value "Altais"
-StringInfo
-	ID "IDS_STARNAME_39"
-	Value "Alula"
-StringInfo
-	ID "IDS_STARNAME_40"
-	Value "Alya"
-StringInfo
-	ID "IDS_STARNAME_41"
-	Value "Ancha"
-StringInfo
-	ID "IDS_STARNAME_42"
-	Value "Ankaa"
-StringInfo
-	ID "IDS_STARNAME_43"
-	Value "Antares"
-StringInfo
-	ID "IDS_STARNAME_44"
-	Value "Arcturus"
-StringInfo
-	ID "IDS_STARNAME_45"
-	Value "Arkab"
-StringInfo
-	ID "IDS_STARNAME_46"
-	Value "Arneb"
-StringInfo
-	ID "IDS_STARNAME_47"
-	Value "Ascella"
-StringInfo
-	ID "IDS_STARNAME_48"
-	Value "Asellus"
-StringInfo
-	ID "IDS_STARNAME_49"
-	Value "Antilicus"
-StringInfo
-	ID "IDS_STARNAME_50"
-	Value "Aspidiske"
-StringInfo
-	ID "IDS_STARNAME_51"
-	Value "Asterope"
-StringInfo
-	ID "IDS_STARNAME_52"
-	Value "Atik"
-StringInfo
-	ID "IDS_STARNAME_53"
-	Value "Atlas"
-StringInfo
-	ID "IDS_STARNAME_54"
-	Value "Atria"
-StringInfo
-	ID "IDS_STARNAME_55"
-	Value "Avior"
-StringInfo
-	ID "IDS_STARNAME_56"
-	Value "Azha"
-StringInfo
-	ID "IDS_STARNAME_57"
-	Value "Baten Kaitos"
-StringInfo
-	ID "IDS_STARNAME_58"
-	Value "Becrux"
-StringInfo
-	ID "IDS_STARNAME_59"
-	Value "Beid"
-StringInfo
-	ID "IDS_STARNAME_60"
-	Value "Bellatrix"
-StringInfo
-	ID "IDS_STARNAME_61"
-	Value "Benetnasch"
-StringInfo
-	ID "IDS_STARNAME_62"
-	Value "Betelgeuse"
-StringInfo
-	ID "IDS_STARNAME_63"
-	Value "Biham"
-StringInfo
-	ID "IDS_STARNAME_64"
-	Value "Canopus"
-StringInfo
-	ID "IDS_STARNAME_65"
-	Value "Capella"
-StringInfo
-	ID "IDS_STARNAME_66"
-	Value "Caph"
-StringInfo
-	ID "IDS_STARNAME_67"
-	Value "Castor"
-StringInfo
-	ID "IDS_STARNAME_68"
-	Value "Cebalrai"
-StringInfo
-	ID "IDS_STARNAME_69"
-	Value "Celaeno"
-StringInfo
-	ID "IDS_STARNAME_70"
-	Value "Chara"
-StringInfo
-	ID "IDS_STARNAME_71"
-	Value "Cheleb"
-StringInfo
-	ID "IDS_STARNAME_72"
-	Value "Cynos"
-StringInfo
-	ID "IDS_STARNAME_73"
-	Value "Chort"
-StringInfo
-	ID "IDS_STARNAME_74"
-	Value "Cor Caroli"
-StringInfo
-	ID "IDS_STARNAME_75"
-	Value "Dabih"
-StringInfo
-	ID "IDS_STARNAME_76"
-	Value "Deneb"
-StringInfo
-	ID "IDS_STARNAME_77"
-	Value "Deneb Algedi"
-StringInfo
-	ID "IDS_STARNAME_78"
-	Value "Deneb Kaitos"
-StringInfo
-	ID "IDS_STARNAME_79"
-	Value "Denebola"
-StringInfo
-	ID "IDS_STARNAME_80"
-	Value "Diphda"
-StringInfo
-	ID "IDS_STARNAME_81"
-	Value "Dnoces"
-StringInfo
-	ID "IDS_STARNAME_82"
-	Value "Dschubba"
-StringInfo
-	ID "IDS_STARNAME_83"
-	Value "Dubhe"
-StringInfo
-	ID "IDS_STARNAME_84"
-	Value "Edasich"
-StringInfo
-	ID "IDS_STARNAME_85"
-	Value "Electra"
-StringInfo
-	ID "IDS_STARNAME_86"
-	Value "El Nath"
-StringInfo
-	ID "IDS_STARNAME_87"
-	Value "Eltanin"
-StringInfo
-	ID "IDS_STARNAME_88"
-	Value "Enif"
-StringInfo
-	ID "IDS_STARNAME_89"
-	Value "Errai"
-StringInfo
-	ID "IDS_STARNAME_90"
-	Value "Fomalhaut"
-StringInfo
-	ID "IDS_STARNAME_91"
-	Value "Furud"
-StringInfo
-	ID "IDS_STARNAME_92"
-	Value "Gacrux"
-StringInfo
-	ID "IDS_STARNAME_93"
-	Value "Giausar"
-StringInfo
-	ID "IDS_STARNAME_94"
-	Value "Gienah"
-StringInfo
-	ID "IDS_STARNAME_95"
-	Value "Girtab"
-StringInfo
-	ID "IDS_STARNAME_96"
-	Value "Gomeisa"
-StringInfo
-	ID "IDS_STARNAME_97"
-	Value "Graffias"
-StringInfo
-	ID "IDS_STARNAME_98"
-	Value "Grumium"
-StringInfo
-	ID "IDS_STARNAME_99"
-	Value "Hadar"
-StringInfo
-	ID "IDS_STARNAME_100"
-	Value "Hamal"
-StringInfo
-	ID "IDS_STARNAME_101"
-	Value "Homam"
-StringInfo
-	ID "IDS_STARNAME_102"
-	Value "Izar"
-StringInfo
-	ID "IDS_STARNAME_103"
-	Value "Kadalis"
-StringInfo
-	ID "IDS_STARNAME_104"
-	Value "Kadusar"
-StringInfo
-	ID "IDS_STARNAME_105"
-	Value "Kirtab"
-StringInfo
-	ID "IDS_STARNAME_106"
-	Value "Kaus"
-StringInfo
-	ID "IDS_STARNAME_107"
-	Value "Keid"
-StringInfo
-	ID "IDS_STARNAME_108"
-	Value "Kitalpha"
-StringInfo
-	ID "IDS_STARNAME_109"
-	Value "Kokab"
-StringInfo
-	ID "IDS_STARNAME_110"
-	Value "Kornephoros"
-StringInfo
-	ID "IDS_STARNAME_111"
-	Value "Lesath"
-StringInfo
-	ID "IDS_STARNAME_112"
-	Value "Maia"
-StringInfo
-	ID "IDS_STARNAME_113"
-	Value "Marfik"
-StringInfo
-	ID "IDS_STARNAME_114"
-	Value "Markab"
-StringInfo
-	ID "IDS_STARNAME_115"
-	Value "Matar"
-StringInfo
-	ID "IDS_STARNAME_116"
-	Value "Mebsuta"
-StringInfo
-	ID "IDS_STARNAME_117"
-	Value "Media"
-StringInfo
-	ID "IDS_STARNAME_118"
-	Value "Megrez"
-StringInfo
-	ID "IDS_STARNAME_119"
-	Value "Meissa"
-StringInfo
-	ID "IDS_STARNAME_120"
-	Value "Menkib"
-StringInfo
-	ID "IDS_STARNAME_121"
-	Value "Menkalinan"
-StringInfo
-	ID "IDS_STARNAME_122"
-	Value "Menkar"
-StringInfo
-	ID "IDS_STARNAME_123"
-	Value "Merope"
-StringInfo
-	ID "IDS_STARNAME_124"
-	Value "Mesarthim"
-StringInfo
-	ID "IDS_STARNAME_125"
-	Value "Miaplacidus"
-StringInfo
-	ID "IDS_STARNAME_126"
-	Value "Mimosa"
-StringInfo
-	ID "IDS_STARNAME_127"
-	Value "Mintaka"
-StringInfo
-	ID "IDS_STARNAME_128"
-	Value "Mira"
-StringInfo
-	ID "IDS_STARNAME_129"
-	Value "Mirak"
-StringInfo
-	ID "IDS_STARNAME_130"
-	Value "Mirfak"
-StringInfo
-	ID "IDS_STARNAME_131"
-	Value "Mirzam"
-StringInfo
-	ID "IDS_STARNAME_132"
-	Value "Mizar"
-StringInfo
-	ID "IDS_STARNAME_133"
-	Value "Mothallah"
-StringInfo
-	ID "IDS_STARNAME_134"
-	Value "Muhlifain"
-StringInfo
-	ID "IDS_STARNAME_135"
-	Value "Muliphen"
-StringInfo
-	ID "IDS_STARNAME_136"
-	Value "Muphrid"
-StringInfo
-	ID "IDS_STARNAME_137"
-	Value "Muscida"
-StringInfo
-	ID "IDS_STARNAME_138"
-	Value "Naos"
-StringInfo
-	ID "IDS_STARNAME_139"
-	Value "Nashira"
-StringInfo
-	ID "IDS_STARNAME_140"
-	Value "Navi"
-StringInfo
-	ID "IDS_STARNAME_141"
-	Value "Nekkar"
-StringInfo
-	ID "IDS_STARNAME_142"
-	Value "Nihal"
-StringInfo
-	ID "IDS_STARNAME_143"
-	Value "Nasl"
-StringInfo
-	ID "IDS_STARNAME_144"
-	Value "Nusakan"
-StringInfo
-	ID "IDS_STARNAME_145"
-	Value "Phact"
-StringInfo
-	ID "IDS_STARNAME_146"
-	Value "Phad"
-StringInfo
-	ID "IDS_STARNAME_147"
-	Value "Phecda"
-StringInfo
-	ID "IDS_STARNAME_148"
-	Value "Pherkad"
-StringInfo
-	ID "IDS_STARNAME_149"
-	Value "Pleione"
-StringInfo
-	ID "IDS_STARNAME_150"
-	Value "Polaris"
-StringInfo
-	ID "IDS_STARNAME_151"
-	Value "Pollux"
-StringInfo
-	ID "IDS_STARNAME_152"
-	Value "Porrima"
-StringInfo
-	ID "IDS_STARNAME_153"
-	Value "Procyon"
-StringInfo
-	ID "IDS_STARNAME_154"
-	Value "Propus"
-StringInfo
-	ID "IDS_STARNAME_155"
-	Value "Pulcherrima"
-StringInfo
-	ID "IDS_STARNAME_156"
-	Value "Rasalgethi"
-StringInfo
-	ID "IDS_STARNAME_157"
-	Value "Rasalhague"
-StringInfo
-	ID "IDS_STARNAME_158"
-	Value "Ras Elased"
-StringInfo
-	ID "IDS_STARNAME_159"
-	Value "Rastaban"
-StringInfo
-	ID "IDS_STARNAME_160"
-	Value "Regor"
-StringInfo
-	ID "IDS_STARNAME_161"
-	Value "Regulus"
-StringInfo
-	ID "IDS_STARNAME_162"
-	Value "Rigel"
-StringInfo
-	ID "IDS_STARNAME_163"
-	Value "Rigil Kent"
-StringInfo
-	ID "IDS_STARNAME_164"
-	Value "Rigil Kentaurus"
-StringInfo
-	ID "IDS_STARNAME_165"
-	Value "Rotanev"
-StringInfo
-	ID "IDS_STARNAME_166"
-	Value "Rukba"
-StringInfo
-	ID "IDS_STARNAME_167"
-	Value "Rukbat"
-StringInfo
-	ID "IDS_STARNAME_168"
-	Value "Sabik"
-StringInfo
-	ID "IDS_STARNAME_169"
-	Value "Sadalachbia"
-StringInfo
-	ID "IDS_STARNAME_170"
-	Value "Sadalbari"
-StringInfo
-	ID "IDS_STARNAME_171"
-	Value "Sadalmelik"
-StringInfo
-	ID "IDS_STARNAME_172"
-	Value "Sadalsuud"
-StringInfo
-	ID "IDS_STARNAME_173"
-	Value "Sadatoni"
-StringInfo
-	ID "IDS_STARNAME_174"
-	Value "Sadr"
-StringInfo
-	ID "IDS_STARNAME_175"
-	Value "Saiph"
-StringInfo
-	ID "IDS_STARNAME_176"
-	Value "Sargas"
-StringInfo
-	ID "IDS_STARNAME_177"
-	Value "Scheat"
-StringInfo
-	ID "IDS_STARNAME_178"
-	Value "Schedar"
-StringInfo
-	ID "IDS_STARNAME_179"
-	Value "Seginus"
-StringInfo
-	ID "IDS_STARNAME_180"
-	Value "Shaula"
-StringInfo
-	ID "IDS_STARNAME_181"
-	Value "Sheliak"
-StringInfo
-	ID "IDS_STARNAME_182"
-	Value "Sheratan"
-StringInfo
-	ID "IDS_STARNAME_183"
-	Value "Sirius"
-StringInfo
-	ID "IDS_STARNAME_184"
-	Value "Situla"
-StringInfo
-	ID "IDS_STARNAME_185"
-	Value "Skat"
-StringInfo
-	ID "IDS_STARNAME_186"
-	Value "Spica"
-StringInfo
-	ID "IDS_STARNAME_187"
-	Value "Sterope"
-StringInfo
-	ID "IDS_STARNAME_188"
-	Value "Sualocin"
-StringInfo
-	ID "IDS_STARNAME_189"
-	Value "Suhail"
-StringInfo
-	ID "IDS_STARNAME_190"
-	Value "Sulafat"
-StringInfo
-	ID "IDS_STARNAME_191"
-	Value "Syrma"
-StringInfo
-	ID "IDS_STARNAME_192"
-	Value "Talitha"
-StringInfo
-	ID "IDS_STARNAME_193"
-	Value "Tania"
-StringInfo
-	ID "IDS_STARNAME_194"
-	Value "Tiraph"
-StringInfo
-	ID "IDS_STARNAME_195"
-	Value "Tarazed"
-StringInfo
-	ID "IDS_STARNAME_196"
-	Value "Taygeta"
-StringInfo
-	ID "IDS_STARNAME_197"
-	Value "Tegmine"
-StringInfo
-	ID "IDS_STARNAME_198"
-	Value "Thuban"
-StringInfo
-	ID "IDS_STARNAME_199"
-	Value "Unkalhai"
-StringInfo
-	ID "IDS_STARNAME_200"
-	Value "Vega"
-StringInfo
-	ID "IDS_STARNAME_201"
-	Value "Vindematrix"
-StringInfo
-	ID "IDS_STARNAME_202"
-	Value "Wasat"
-StringInfo
-	ID "IDS_STARNAME_203"
-	Value "Wazn"
-StringInfo
-	ID "IDS_STARNAME_204"
-	Value "Wezen"
-StringInfo
-	ID "IDS_STARNAME_205"
-	Value "Yed"
-StringInfo
-	ID "IDS_STARNAME_206"
-	Value "Yildun"
-StringInfo
-	ID "IDS_STARNAME_207"
-	Value "Zaniah"
-StringInfo
-	ID "IDS_STARNAME_208"
-	Value "Zaurak"
-StringInfo
-	ID "IDS_STARNAME_209"
-	Value "Zavijava"
-StringInfo
-	ID "IDS_STARNAME_210"
-	Value "Zosma"
-StringInfo
-	ID "IDS_STARNAME_211"
-	Value "Zubenelgenubi"
-StringInfo
-	ID "IDS_STARNAME_212"
-	Value "Zubeneschamali"
-StringInfo
-	ID "IDS_STARNAME_213"
-	Value "Kitara"
-StringInfo
-	ID "IDS_STARNAME_214"
-	Value "Talis"
-StringInfo
-	ID "IDS_STARNAME_215"
-	Value "Sol"
-StringInfo
-	ID "IDS_STARNAME_216"
-	Value "Sikarra"
-StringInfo
-	ID "IDS_STARNAME_217"
-	Value "Golganis"
-StringInfo
-	ID "IDS_STARNAME_218"
-	Value "Targus"
-StringInfo
-	ID "IDS_STARNAME_219"
-	Value "Vione"
-StringInfo
-	ID "IDS_STARNAME_220"
-	Value "Kronac"
-StringInfo
-	ID "IDS_STARNAME_221"
-	Value "Draconis"
-StringInfo
-	ID "IDS_STARNAME_222"
-	Value "Hezekiah"
-StringInfo
-	ID "IDS_STARNAME_223"
-	Value "Cimtar"
-StringInfo
-	ID "IDS_STARNAME_224"
-	Value "Agamemnon"
-StringInfo
-	ID "IDS_STARNAME_225"
-	Value "Metis"
-StringInfo
-	ID "IDS_STARNAME_226"
-	Value "Telos"
-StringInfo
-	ID "IDS_STARNAME_227"
-	Value "Rhaego"
-StringInfo
-	ID "IDS_STARNAME_228"
-	Value "Hades"
-StringInfo
-	ID "IDS_STARNAME_229"
-	Value "Celanus"
-StringInfo
-	ID "IDS_STARNAME_230"
-	Value "Velsta"
-StringInfo
-	ID "IDS_STARNAME_231"
-	Value "Quirari"
-StringInfo
-	ID "IDS_STARNAME_232"
-	Value "Xi"
-StringInfo
-	ID "IDS_STARNAME_233"
-	Value "Dichotomous"
-StringInfo
-	ID "IDS_STARNAME_234"
-	Value "Atropos"
-StringInfo
-	ID "IDS_STARNAME_235"
-	Value "Ubis"
-StringInfo
-	ID "IDS_STARNAME_236"
-	Value "Weir"
-StringInfo
-	ID "IDS_STARNAME_237"
-	Value "Liladi"
-StringInfo
-	ID "IDS_STARNAME_238"
-	Value "Quanth"
+	Value "Firefist"
 StringInfo
 	ID "IDS_PLANETNAME_000"
-	Value "Aarhus"
+	Value "Abanol"
 StringInfo
 	ID "IDS_PLANETNAME_001"
 	Value "Abderhalden"
 StringInfo
 	ID "IDS_PLANETNAME_002"
-	Value "Aberdonia"
+	Value "Adana"
 StringInfo
 	ID "IDS_PLANETNAME_003"
-	Value "Abilunon"
+	Value "Aloxl"
 StringInfo
 	ID "IDS_PLANETNAME_004"
-	Value "Abkhazia"
+	Value "Barbeen"
 StringInfo
 	ID "IDS_PLANETNAME_005"
-	Value "Achaemenides"
+	Value "Besero"
 StringInfo
 	ID "IDS_PLANETNAME_006"
-	Value "Adachi"
+	Value "Byss"
 StringInfo
 	ID "IDS_PLANETNAME_007"
-	Value "Adelheid"
+	Value "Chel"
 StringInfo
 	ID "IDS_PLANETNAME_008"
-	Value "Admetos"
+	Value "Constancia"
 StringInfo
 	ID "IDS_PLANETNAME_009"
-	Value "Adonis"
+	Value "Cos Secundu"
 StringInfo
 	ID "IDS_PLANETNAME_010"
-	Value "Aegina"
+	Value "Cosia"
 StringInfo
 	ID "IDS_PLANETNAME_011"
-	Value "Agamemnon"
+	Value "Crystan V"
 StringInfo
 	ID "IDS_PLANETNAME_012"
-	Value "Agasthenes"
+	Value "Dremulae"
 StringInfo
 	ID "IDS_PLANETNAME_013"
-	Value "Aharon"
+	Value "Dulvoyinn"
 StringInfo
 	ID "IDS_PLANETNAME_014"
-	Value "Akhmatova"
+	Value "Ebaq"
 StringInfo
 	ID "IDS_PLANETNAME_015"
-	Value "Albellus"
+	Value "Eclipse"
 StringInfo
 	ID "IDS_PLANETNAME_016"
-	Value "Algoa"
+	Value "Empress Teta"
 StringInfo
 	ID "IDS_PLANETNAME_017"
-	Value "Anhui"
+	Value "Furies Gate"
 StringInfo
 	ID "IDS_PLANETNAME_018"
-	Value "Antenor"
+	Value "Gillad"
 StringInfo
 	ID "IDS_PLANETNAME_019"
-	Value "Anteros"
+	Value "Had Abbadon"
 StringInfo
 	ID "IDS_PLANETNAME_020"
-	Value "Apollo"
+	Value "Hakassi"
 StringInfo
 	ID "IDS_PLANETNAME_021"
-	Value "Annatarius"
+	Value "Houll"
 StringInfo
 	ID "IDS_PLANETNAME_022"
-	Value "Arrhenius"
+	Value "Jerrilek"
 StringInfo
 	ID "IDS_PLANETNAME_023"
-	Value "Artemis"
+	Value "Kalimahr"
 StringInfo
 	ID "IDS_PLANETNAME_024"
-	Value "Aurelia"
+	Value "Kalist VI"
 StringInfo
 	ID "IDS_PLANETNAME_025"
-	Value "Barkhatova"
+	Value "Kampe"
 StringInfo
 	ID "IDS_PLANETNAME_026"
-	Value "Belgorod"
+	Value "Keeara Major"
 StringInfo
 	ID "IDS_PLANETNAME_027"
-	Value "Bellerophon"
+	Value "Keres I"
 StringInfo
 	ID "IDS_PLANETNAME_028"
-	Value "Caldeira"
+	Value "Khomm"
 StringInfo
 	ID "IDS_PLANETNAME_029"
-	Value "Calliope"
+	Value "Kins"
 StringInfo
 	ID "IDS_PLANETNAME_030"
-	Value "Cassini"
+	Value "Kirrek"
 StringInfo
 	ID "IDS_PLANETNAME_031"
-	Value "Cebriones"
+	Value "Kissarm"
 StringInfo
 	ID "IDS_PLANETNAME_032"
-	Value "Cesaro"
+	Value "Krev Couer"
 StringInfo
 	ID "IDS_PLANETNAME_033"
-	Value "Chaonis"
+	Value "Kuar"
 StringInfo
 	ID "IDS_PLANETNAME_034"
-	Value "Charybdis"
+	Value "Malterra"
 StringInfo
 	ID "IDS_PLANETNAME_035"
-	Value "Chione"
+	Value "Mawr"
 StringInfo
 	ID "IDS_PLANETNAME_036"
-	Value "Chodas"
+	Value "Mozos"
 StringInfo
 	ID "IDS_PLANETNAME_037"
-	Value "Chromios"
+	Value "Nox"
 StringInfo
 	ID "IDS_PLANETNAME_038"
-	Value "Clusius"
+	Value "Nur"
 StringInfo
 	ID "IDS_PLANETNAME_039"
-	Value "Condruses"
+	Value "Obri"
 StringInfo
 	ID "IDS_PLANETNAME_040"
-	Value "Cygania"
+	Value "Ojom"
 StringInfo
 	ID "IDS_PLANETNAME_041"
-	Value "Cyllarus"
+	Value "Ottabesk"
 StringInfo
 	ID "IDS_PLANETNAME_042"
-	Value "Daedalus"
+	Value "Pelutt"
 StringInfo
 	ID "IDS_PLANETNAME_043"
-	Value "Damocles"
+	Value "Phiris"
 StringInfo
 	ID "IDS_PLANETNAME_044"
-	Value "Danae"
+	Value "Phoros"
 StringInfo
 	ID "IDS_PLANETNAME_045"
-	Value "Deineka"
+	Value "Polos"
 StringInfo
 	ID "IDS_PLANETNAME_046"
-	Value "Deiphobus"
+	Value "Prakith"
 StringInfo
 	ID "IDS_PLANETNAME_047"
-	Value "Demeter"
+	Value "Relus"
 StringInfo
 	ID "IDS_PLANETNAME_048"
-	Value "Demophon"
+	Value "Ronika"
 StringInfo
 	ID "IDS_PLANETNAME_049"
-	Value "Deucalion"
+	Value "Sha Qarot"
 StringInfo
 	ID "IDS_PLANETNAME_050"
-	Value "Diomedes"
+	Value "Shikaakwa"
 StringInfo
 	ID "IDS_PLANETNAME_051"
-	Value "Dione"
+	Value "Ska Gora"
 StringInfo
 	ID "IDS_PLANETNAME_052"
-	Value "Dresda"
+	Value "Sunspot"
 StringInfo
 	ID "IDS_PLANETNAME_053"
-	Value "Durkheim"
+	Value "Tarkin's Fang"
 StringInfo
 	ID "IDS_PLANETNAME_054"
-	Value "Echemmon"
+	Value "Tryast"
 StringInfo
 	ID "IDS_PLANETNAME_055"
-	Value "Echion"
+	Value "Tython"
 StringInfo
 	ID "IDS_PLANETNAME_056"
-	Value "Egeria"
+	Value "Vulp Major"
 StringInfo
 	ID "IDS_PLANETNAME_057"
-	Value "Enid"
+	Value "Vulpter"
 StringInfo
 	ID "IDS_PLANETNAME_058"
-	Value "Ennomos"
+	Value "Vulpus"
 StringInfo
 	ID "IDS_PLANETNAME_059"
-	Value "Eos"
+	Value "Aaeton"
 StringInfo
 	ID "IDS_PLANETNAME_060"
-	Value "Epimetheus"
+	Value "Aaghra"
 StringInfo
 	ID "IDS_PLANETNAME_061"
-	Value "Eriepa"
+	Value "Aargau"
 StringInfo
 	ID "IDS_PLANETNAME_062"
-	Value "Esipov"
+	Value "Abregado-Rae"
 StringInfo
 	ID "IDS_PLANETNAME_063"
-	Value "Eumelos"
+	Value "Adamastor"
 StringInfo
 	ID "IDS_PLANETNAME_065"
-	Value "Faerra"
+	Value "Adikaria"
 StringInfo
 	ID "IDS_PLANETNAME_066"
-	Value "Feros"
+	Value "Albecus"
 StringInfo
 	ID "IDS_PLANETNAME_067"
-	Value "Firneis"
+	Value "Aldraig IV"
 StringInfo
 	ID "IDS_PLANETNAME_068"
-	Value "Fortuna"
+	Value "Alland"
 StringInfo
 	ID "IDS_PLANETNAME_069"
-	Value "Fraethi"
+	Value "Alsakan"
 StringInfo
 	ID "IDS_PLANETNAME_070"
-	Value "Gaea"
+	Value "Andara"
 StringInfo
 	ID "IDS_PLANETNAME_071"
-	Value "Galanthus"
+	Value "Ash"
 StringInfo
 	ID "IDS_PLANETNAME_072"
-	Value "Galatea"
+	Value "Ator"
 StringInfo
 	ID "IDS_PLANETNAME_073"
-	Value "Galilea"
+	Value "Atrisia"
 StringInfo
 	ID "IDS_PLANETNAME_074"
-	Value "Ganesa"
+	Value "Axtria"
 StringInfo
 	ID "IDS_PLANETNAME_075"
-	Value "Ganymed"
+	Value "Azameen"
 StringInfo
 	ID "IDS_PLANETNAME_076"
-	Value "Garuda"
+	Value "Azbrian"
 StringInfo
 	ID "IDS_PLANETNAME_077"
-	Value "Garumna"
+	Value "Balosar"
 StringInfo
 	ID "IDS_PLANETNAME_078"
-	Value "Gelria"
+	Value "Bantu"
 StringInfo
 	ID "IDS_PLANETNAME_079"
-	Value "Ghoshal"
+	Value "Bar'leth"
 StringInfo
 	ID "IDS_PLANETNAME_080"
-	Value "Giada"
+	Value "Baraboo"
 StringInfo
 	ID "IDS_PLANETNAME_081"
-	Value "Ginestra"
+	Value "Basilisk"
 StringInfo
 	ID "IDS_PLANETNAME_082"
-	Value "Ginevra"
+	Value "Belgaroth"
 StringInfo
 	ID "IDS_PLANETNAME_083"
-	Value "Giomus"
+	Value "Bellassa"
 StringInfo
 	ID "IDS_PLANETNAME_084"
-	Value "Gethsemane"
+	Value "Bessimir"
 StringInfo
 	ID "IDS_PLANETNAME_085"
-	Value "Gromov"
+	Value "Bethars"
 StringInfo
 	ID "IDS_PLANETNAME_086"
-	Value "Gyas"
+	Value "Boruga"
 StringInfo
 	ID "IDS_PLANETNAME_087"
-	Value "Hadano"
+	Value "Birsingrial"
 StringInfo
 	ID "IDS_PLANETNAME_088"
-	Value "Hakone"
+	Value "Brentaal IV"
 StringInfo
 	ID "IDS_PLANETNAME_089"
-	Value "Halaesus"
+	Value "Broest"
 StringInfo
 	ID "IDS_PLANETNAME_090"
-	Value "Halitherses"
+	Value "Caamas"
 StringInfo
 	ID "IDS_PLANETNAME_091"
-	Value "Halleria"
+	Value "Caamor"
 StringInfo
 	ID "IDS_PLANETNAME_092"
-	Value "Hamina"
+	Value "Canastra IV"
 StringInfo
 	ID "IDS_PLANETNAME_093"
-	Value "Hamra"
+	Value "Chandrila"
 StringInfo
 	ID "IDS_PLANETNAME_094"
-	Value "Hapke"
+	Value "Chasin"
 StringInfo
 	ID "IDS_PLANETNAME_095"
-	Value "Hecuba"
+	Value "Columus"
 StringInfo
 	ID "IDS_PLANETNAME_096"
-	Value "Helenos"
+	Value "Corann"
 StringInfo
 	ID "IDS_PLANETNAME_097"
-	Value "Hercynia"
+	Value "Corellia"
 StringInfo
 	ID "IDS_PLANETNAME_098"
-	Value "Hesperia"
+	Value "Corulag"
 StringInfo
 	ID "IDS_PLANETNAME_099"
-	Value "Hirai"
+	Value "Coruscant"
 StringInfo
 	ID "IDS_PLANETNAME_100"
-	Value "Hygiea"
+	Value "Cortina"
 StringInfo
 	ID "IDS_PLANETNAME_101"
-	Value "Hypatia"
+	Value "Danteel"
 StringInfo
 	ID "IDS_PLANETNAME_102"
-	Value "Icarion"
+	Value "Darada"
 StringInfo
 	ID "IDS_PLANETNAME_103"
-	Value "Idaios"
+	Value "Dentaal"
 StringInfo
 	ID "IDS_PLANETNAME_104"
-	Value "Iduna"
+	Value "Eamus VI"
 StringInfo
 	ID "IDS_PLANETNAME_105"
-	Value "Ikeda"
+	Value "Faargau"
 StringInfo
 	ID "IDS_PLANETNAME_106"
-	Value "Illyria"
+	Value "Fedalle"
 StringInfo
 	ID "IDS_PLANETNAME_107"
-	Value "Ilos"
+	Value "Foerost"
 StringInfo
 	ID "IDS_PLANETNAME_108"
-	Value "Inari"
+	Value "Frego"
 StringInfo
 	ID "IDS_PLANETNAME_109"
-	Value "Ishtar"
+	Value "Ganthel"
 StringInfo
 	ID "IDS_PLANETNAME_110"
-	Value "Ithaka"
+	Value "Humbarine"
 StringInfo
 	ID "IDS_PLANETNAME_111"
-	Value "Jacobi"
+	Value "Iphigin"
 StringInfo
 	ID "IDS_PLANETNAME_112"
-	Value "Jindra"
+	Value "Ixtlar"
 StringInfo
 	ID "IDS_PLANETNAME_113"
-	Value "Jitka"
+	Value "Karlatt"
 StringInfo
 	ID "IDS_PLANETNAME_114"
-	Value "Junttura"
+	Value "Korfo II"
 StringInfo
 	ID "IDS_PLANETNAME_115"
-	Value "Jyuro"
+	Value "Lansono"
 StringInfo
 	ID "IDS_PLANETNAME_116"
-	Value "Kaburaki"
+	Value "Liaq"
 StringInfo
 	ID "IDS_PLANETNAME_117"
-	Value "Kahnia"
+	Value "Loretto"
 StringInfo
 	ID "IDS_PLANETNAME_118"
-	Value "Kainar"
+	Value "Marfa"
 StringInfo
 	ID "IDS_PLANETNAME_119"
-	Value "Kaizuka"
+	Value "Merakai"
 StringInfo
 	ID "IDS_PLANETNAME_120"
-	Value "Kanroku"
+	Value "N'Zoth"
 StringInfo
 	ID "IDS_PLANETNAME_121"
-	Value "Kapaneus"
+	Value "Necropolis"
 StringInfo
 	ID "IDS_PLANETNAME_122"
-	Value "Karlstad"
+	Value "New Plympto"
 StringInfo
 	ID "IDS_PLANETNAME_123"
-	Value "Kaseda"
+	Value "Oligatz"
 StringInfo
 	ID "IDS_PLANETNAME_124"
-	Value "Kasuga"
+	Value "Osadia"
 StringInfo
 	ID "IDS_PLANETNAME_125"
-	Value "Kimura"
+	Value "Pantolomin"
 StringInfo
 	ID "IDS_PLANETNAME_126"
-	Value "Kiruna"
+	Value "Perlemia"
 StringInfo
 	ID "IDS_PLANETNAME_127"
-	Value "Klotho"
+	Value "Perma"
 StringInfo
 	ID "IDS_PLANETNAME_128"
-	Value "Klythios"
+	Value "Plexis"
 StringInfo
 	ID "IDS_PLANETNAME_129"
-	Value "Komm"
+	Value "Prekaz"
 StringInfo
 	ID "IDS_PLANETNAME_130"
-	Value "Koronis"
+	Value "Ralltiir"
 StringInfo
 	ID "IDS_PLANETNAME_131"
-	Value "Kressida"
+	Value "Rendili"
 StringInfo
 	ID "IDS_PLANETNAME_132"
-	Value "Kron"
+	Value "Ruan"
 StringInfo
 	ID "IDS_PLANETNAME_133"
-	Value "Krystosek"
+	Value "Sarapin"
 StringInfo
 	ID "IDS_PLANETNAME_134"
-	Value "Kudara"
+	Value "Skako"
 StringInfo
 	ID "IDS_PLANETNAME_135"
-	Value "Kypria"
+	Value "Tamban"
 StringInfo
 	ID "IDS_PLANETNAME_136"
-	Value "Lagerros"
+	Value "Tati"
 StringInfo
 	ID "IDS_PLANETNAME_137"
-	Value "Landau"
+	Value "Utharis"
 StringInfo
 	ID "IDS_PLANETNAME_138"
-	Value "Laupheim"
+	Value "Xerxes"
 StringInfo
 	ID "IDS_PLANETNAME_139"
-	Value "Lautaro"
+	Value "Zonama Sekot"
 StringInfo
 	ID "IDS_PLANETNAME_140"
-	Value "Leukothea"
+	Value "Ambria"
 StringInfo
 	ID "IDS_PLANETNAME_141"
-	Value "Liberia"
+	Value "Antar"
 StringInfo
 	ID "IDS_PLANETNAME_142"
-	Value "Liguria"
+	Value "Atzerri"
 StringInfo
 	ID "IDS_PLANETNAME_143"
-	Value "Liia"
+	Value "Bestine IV"
 StringInfo
 	ID "IDS_PLANETNAME_144"
-	Value "Lingas"
+	Value "Beneris"
 StringInfo
 	ID "IDS_PLANETNAME_145"
-	Value "Liriope"
+	Value "Bilbringi"
 StringInfo
 	ID "IDS_PLANETNAME_146"
-	Value "Lotharos"
+	Value "Bogden"
 StringInfo
 	ID "IDS_PLANETNAME_147"
-	Value "Lukion"
+	Value "Burcana"
 StringInfo
 	ID "IDS_PLANETNAME_148"
-	Value "Lycomede"
+	Value "Carratos"
 StringInfo
 	ID "IDS_PLANETNAME_149"
-	Value "Lyubov"
+	Value "Champala"
 StringInfo
 	ID "IDS_PLANETNAME_150"
-	Value "Magion"
+	Value "Chardaan"
 StringInfo
 	ID "IDS_PLANETNAME_151"
-	Value "Maichin"
+	Value "Colla IV"
 StringInfo
 	ID "IDS_PLANETNAME_152"
-	Value "Maisica"
+	Value "Comkin V"
 StringInfo
 	ID "IDS_PLANETNAME_153"
-	Value "Makhaon"
+	Value "Dalastine"
 StringInfo
 	ID "IDS_PLANETNAME_154"
-	Value "Makino"
+	Value "Denon"
 StringInfo
 	ID "IDS_PLANETNAME_155"
-	Value "Malhotra"
+	Value "Eyar"
 StringInfo
 	ID "IDS_PLANETNAME_156"
-	Value "Mansurova"
+	Value "Ejolus"
 StringInfo
 	ID "IDS_PLANETNAME_157"
-	Value "Manulis"
+	Value "Gallinore"
 StringInfo
 	ID "IDS_PLANETNAME_158"
-	Value "Maresjev"
+	Value "Gilvaanen"
 StringInfo
 	ID "IDS_PLANETNAME_159"
-	Value "Matsuda"
+	Value "Gorobei"
 StringInfo
 	ID "IDS_PLANETNAME_160"
-	Value "Meduna"
+	Value "Heptalia"
 StringInfo
 	ID "IDS_PLANETNAME_161"
-	Value "Melanthios"
+	Value "Indar"
 StringInfo
 	ID "IDS_PLANETNAME_162"
-	Value "Melchior"
+	Value "Kiffex"
 StringInfo
 	ID "IDS_PLANETNAME_163"
-	Value "Memnon"
+	Value "Kiffu"
 StringInfo
 	ID "IDS_PLANETNAME_164"
-	Value "Menabrea"
+	Value "Kooriva"
 StringInfo
 	ID "IDS_PLANETNAME_165"
-	Value "Merionis"
+	Value "Levian Two"
 StringInfo
 	ID "IDS_PLANETNAME_166"
-	Value "Minerva"
+	Value "Lorell"
 StringInfo
 	ID "IDS_PLANETNAME_167"
-	Value "Minox"
+	Value "Loth"
 StringInfo
 	ID "IDS_PLANETNAME_168"
-	Value "Mirrin"
+	Value "M4-78"
 StringInfo
 	ID "IDS_PLANETNAME_169"
-	Value "Mitaka"
+	Value "Manaan"
 StringInfo
 	ID "IDS_PLANETNAME_170"
-	Value "Mjolnir"
+	Value "Mechis III"
 StringInfo
 	ID "IDS_PLANETNAME_171"
-	Value "Moraes"
+	Value "Mindabaal"
 StringInfo
 	ID "IDS_PLANETNAME_172"
-	Value "Naeve"
+	Value "Moorja"
 StringInfo
 	ID "IDS_PLANETNAME_173"
-	Value "Nakai"
+	Value "Mindor"
 StringInfo
 	ID "IDS_PLANETNAME_174"
-	Value "Nemiro"
+	Value "Myrkr"
 StringInfo
 	ID "IDS_PLANETNAME_175"
-	Value "Nephthys"
+	Value "Obroa-skai"
 StringInfo
 	ID "IDS_PLANETNAME_176"
-	Value "Niebuhr"
+	Value "Ord Pentala"
 StringInfo
 	ID "IDS_PLANETNAME_177"
-	Value "Nihondaira"
+	Value "Osara"
 StringInfo
 	ID "IDS_PLANETNAME_178"
-	Value "Nisyros"
+	Value "Porus Vida"
 StringInfo
 	ID "IDS_PLANETNAME_179"
-	Value "Nocturna"
+	Value "Pyr"
 StringInfo
 	ID "IDS_PLANETNAME_180"
-	Value "Nortia"
+	Value "Qretu V"
 StringInfo
 	ID "IDS_PLANETNAME_181"
-	Value "Novalis"
+	Value "Reecee"
 StringInfo
 	ID "IDS_PLANETNAME_182"
-	Value "Obrant"
+	Value "Taanab"
 StringInfo
 	ID "IDS_PLANETNAME_183"
-	Value "Odessa"
+	Value "Thyferra"
 StringInfo
 	ID "IDS_PLANETNAME_184"
-	Value "Ogarev"
+	Value "Tolfrania"
 StringInfo
 	ID "IDS_PLANETNAME_185"
-	Value "Ogiria"
+	Value "Trevura"
 StringInfo
 	ID "IDS_PLANETNAME_186"
-	Value "Oineus"
+	Value "Ubduria"
 StringInfo
 	ID "IDS_PLANETNAME_187"
-	Value "Okuda"
+	Value "Uphrades"
 StringInfo
 	ID "IDS_PLANETNAME_188"
-	Value "Oleyuria"
+	Value "Voltare"
 StringInfo
 	ID "IDS_PLANETNAME_189"
-	Value "Orelskaya"
+	Value "Wroona"
 StringInfo
 	ID "IDS_PLANETNAME_190"
-	Value "Orestes"
+	Value "Yag'Dhul"
 StringInfo
 	ID "IDS_PLANETNAME_191"
-	Value "Oriani"
+	Value "Yisgga"
 StringInfo
 	ID "IDS_PLANETNAME_192"
-	Value "Orpheus"
+	Value "Zeltooine"
 StringInfo
 	ID "IDS_PLANETNAME_193"
-	Value "Ortigara"
+	Value "Zeltros"
 StringInfo
 	ID "IDS_PLANETNAME_194"
-	Value "Osipovia"
+	Value "Abhaen"
 StringInfo
 	ID "IDS_PLANETNAME_195"
-	Value "Paeonia"
+	Value "Ansion"
 StringInfo
 	ID "IDS_PLANETNAME_196"
-	Value "Palatia"
+	Value "Anzat"
 StringInfo
 	ID "IDS_PLANETNAME_197"
-	Value "Palisana"
+	Value "Ando"
 StringInfo
 	ID "IDS_PLANETNAME_198"
-	Value "Parvamenon"
+	Value "Belsavis"
 StringInfo
 	ID "IDS_PLANETNAME_199"
-	Value "Pasertia"
+	Value "Bimmisaari"
 StringInfo
 	ID "IDS_PLANETNAME_200"
-	Value "Peleus"
+	Value "Bomis Koori"
 StringInfo
 	ID "IDS_PLANETNAME_201"
-	Value "Pelion"
+	Value "Boz Pity"
 StringInfo
 	ID "IDS_PLANETNAME_202"
-	Value "Peneleos"
+	Value "Centares"
 StringInfo
 	ID "IDS_PLANETNAME_203"
-	Value "Penza"
+	Value "Chalcedon"
 StringInfo
 	ID "IDS_PLANETNAME_204"
-	Value "Peraga"
+	Value "Charros"
 StringInfo
 	ID "IDS_PLANETNAME_205"
-	Value "Periphas"
+	Value "Crul"
 StringInfo
 	ID "IDS_PLANETNAME_206"
-	Value "Petronius"
+	Value "Darkon III"
 StringInfo
 	ID "IDS_PLANETNAME_207"
-	Value "Phaedra"
+	Value "Druckenwell"
 StringInfo
 	ID "IDS_PLANETNAME_208"
-	Value "Phemios"
+	Value "Eiattu"
 StringInfo
 	ID "IDS_PLANETNAME_209"
-	Value "Piironen"
+	Value "Falleen"
 StringInfo
 	ID "IDS_PLANETNAME_210"
-	Value "Pindarus"
+	Value "Glee Anselm"
 StringInfo
 	ID "IDS_PLANETNAME_211"
-	Value "Plescia"
+	Value "Haruun Kal"
 StringInfo
 	ID "IDS_PLANETNAME_212"
-	Value "Praetorius"
+	Value "Ikkrukk"
 StringInfo
 	ID "IDS_PLANETNAME_213"
-	Value "Praxedis"
+	Value "Iridonia"
 StringInfo
 	ID "IDS_PLANETNAME_214"
-	Value "Prieska"
+	Value "Ithor"
 StringInfo
 	ID "IDS_PLANETNAME_215"
-	Value "Prometheus"
+	Value "Jiroch"
 StringInfo
 	ID "IDS_PLANETNAME_216"
-	Value "Prylis"
+	Value "Kaal"
 StringInfo
 	ID "IDS_PLANETNAME_217"
-	Value "Pyrrha"
+	Value "Klarba"
 StringInfo
 	ID "IDS_PLANETNAME_218"
-	Value "Ra-Shalom"
+	Value "Kalinda"
 StringInfo
 	ID "IDS_PLANETNAME_219"
-	Value "Rabelais"
+	Value "Kril'Dor"
 StringInfo
 	ID "IDS_PLANETNAME_220"
-	Value "Rakos"
+	Value "Kriselist"
 StringInfo
 	ID "IDS_PLANETNAME_221"
-	Value "Rentaro"
+	Value "Lannik"
 StringInfo
 	ID "IDS_PLANETNAME_222"
-	Value "Rezia"
+	Value "Lantilles"
 StringInfo
 	ID "IDS_PLANETNAME_223"
-	Value "Rhodesia"
+	Value "Lonnaw"
 StringInfo
 	ID "IDS_PLANETNAME_224"
-	Value "Rodari"
+	Value "Metalorn"
 StringInfo
 	ID "IDS_PLANETNAME_225"
-	Value "Roehla"
+	Value "Nal Hutta"
 StringInfo
 	ID "IDS_PLANETNAME_226"
-	Value "Rudra"
+	Value "New Cov"
 StringInfo
 	ID "IDS_PLANETNAME_227"
-	Value "Ryzhov"
+	Value "Null"
 StringInfo
 	ID "IDS_PLANETNAME_228"
-	Value "Saitama"
+	Value "Numidian Prime"
 StringInfo
 	ID "IDS_PLANETNAME_229"
-	Value "Sakharov"
+	Value "Ord Pardron"
 StringInfo
 	ID "IDS_PLANETNAME_230"
-	Value "Salopia"
+	Value "Orinda"
 StringInfo
 	ID "IDS_PLANETNAME_231"
-	Value "Sapientia"
+	Value "Riflor"
 StringInfo
 	ID "IDS_PLANETNAME_232"
-	Value "Saskia"
+	Value "Ringo Vinda"
 StringInfo
 	ID "IDS_PLANETNAME_233"
-	Value "Saturna"
+	Value "Rintonne"
 StringInfo
 	ID "IDS_PLANETNAME_234"
-	Value "Segovia"
+	Value "Ruusan"
 StringInfo
 	ID "IDS_PLANETNAME_235"
-	Value "Seleucus"
+	Value "Sebaddon"
 StringInfo
 	ID "IDS_PLANETNAME_236"
-	Value "Semphyra"
+	Value "Togoria"
 StringInfo
 	ID "IDS_PLANETNAME_237"
-	Value "Serpieri"
+	Value "Ubrikkia"
 StringInfo
 	ID "IDS_PLANETNAME_238"
-	Value "Sethos"
+	Value "Vondarc"
 StringInfo
 	ID "IDS_PLANETNAME_239"
-	Value "Sibelius"
+	Value "Vortex"
 StringInfo
 	ID "IDS_PLANETNAME_240"
-	Value "Sipiera"
+	Value "Wayland"
 StringInfo
 	ID "IDS_PLANETNAME_241"
-	Value "Smirnova"
+	Value "Arkania"
 StringInfo
 	ID "IDS_PLANETNAME_242"
-	Value "Sostero"
+	Value "Balmorra"
 StringInfo
 	ID "IDS_PLANETNAME_243"
-	Value "Spahr"
+	Value "Borleias"
 StringInfo
 	ID "IDS_PLANETNAME_244"
-	Value "Spiraea"
+	Value "Boudolayz"
 StringInfo
 	ID "IDS_PLANETNAME_245"
-	Value "Sthenelos"
+	Value "Carida"
 StringInfo
 	ID "IDS_PLANETNAME_246"
-	Value "Suleika"
+	Value "Cato Neimoidia"
 StringInfo
 	ID "IDS_PLANETNAME_247"
-	Value "Talthybius"
+	Value "Commenor"
 StringInfo
 	ID "IDS_PLANETNAME_248"
-	Value "Tantalus"
+	Value "Deko Neimoidia"
 StringInfo
 	ID "IDS_PLANETNAME_249"
-	Value "Tataria"
+	Value "Exodeen"
 StringInfo
 	ID "IDS_PLANETNAME_250"
-	Value "Tauris"
+	Value "Fondor"
 StringInfo
 	ID "IDS_PLANETNAME_251"
-	Value "Telesio"
+	Value "Ghorman"
 StringInfo
 	ID "IDS_PLANETNAME_252"
-	Value "Tercidina"
+	Value "Loronar"
 StringInfo
 	ID "IDS_PLANETNAME_253"
-	Value "Terradas"
+	Value "Mrisst"
 StringInfo
 	ID "IDS_PLANETNAME_254"
-	Value "Thekla"
+	Value "Noquivzor"
 StringInfo
 	ID "IDS_PLANETNAME_255"
-	Value "Themis"
+	Value "Palanhi"
 StringInfo
 	ID "IDS_PLANETNAME_256"
-	Value "Thereus"
+	Value "Quellor"
 StringInfo
 	ID "IDS_PLANETNAME_257"
-	Value "Thessalia"
+	Value "Talasea"
 StringInfo
 	ID "IDS_PLANETNAME_258"
-	Value "Thorenia"
+	Value "Teyr"
 StringInfo
 	ID "IDS_PLANETNAME_259"
-	Value "Thrasymede"
+	Value "Allanteen"
 StringInfo
 	ID "IDS_PLANETNAME_260"
-	Value "Tirion"
+	Value "Contruum"
 StringInfo
 	ID "IDS_PLANETNAME_261"
-	Value "Tirol"
+	Value "Corsin"
 StringInfo
 	ID "IDS_PLANETNAME_262"
-	Value "Titania"
+	Value "Derra"
 StringInfo
 	ID "IDS_PLANETNAME_263"
-	Value "Tolosa"
+	Value "Jardeen IV"
 StringInfo
 	ID "IDS_PLANETNAME_264"
-	Value "Tuscia"
+	Value "Pesitiin"
 StringInfo
 	ID "IDS_PLANETNAME_265"
-	Value "Tyndareus"
+	Value "Qat Chrystac"
 StringInfo
 	ID "IDS_PLANETNAME_266"
-	Value "Tyr"
+	Value "Rhommamool"
 StringInfo
 	ID "IDS_PLANETNAME_267"
-	Value "Utopia"
+	Value "Taloraan"
 StringInfo
 	ID "IDS_PLANETNAME_268"
-	Value "Vanadis"
+	Value "Tynna"
 StringInfo
 	ID "IDS_PLANETNAME_269"
-	Value "Vangelis"
+	Value "Yinchorr"
 StringInfo
 	ID "IDS_PLANETNAME_270"
-	Value "Vargas"
+	Value "Csilla"
 StringInfo
 	ID "IDS_PLANETNAME_271"
-	Value "Varuna"
+	Value "Nirauan"
 StringInfo
 	ID "IDS_PLANETNAME_272"
-	Value "Velimir"
+	Value "Kariek"
 StringInfo
 	ID "IDS_PLANETNAME_273"
-	Value "Veritas"
+	Value "Agamar"
 StringInfo
 	ID "IDS_PLANETNAME_274"
-	Value "Vietoris"
+	Value "Atravis"
 StringInfo
 	ID "IDS_PLANETNAME_275"
-	Value "Vitaris"
+	Value "Barab"
 StringInfo
 	ID "IDS_PLANETNAME_276"
-	Value "Waltari"
+	Value "Kuat"
 StringInfo
 	ID "IDS_PLANETNAME_277"
-	Value "Weierstrass"
+	Value "Bimmiel"
 StringInfo
 	ID "IDS_PLANETNAME_278"
-	Value "Wiesenthal"
+	Value "Lwhekk"
 StringInfo
 	ID "IDS_PLANETNAME_279"
-	Value "Xenia"
+	Value "Bakura"
 StringInfo
 	ID "IDS_PLANETNAME_280"
-	Value "Xenophon"
+	Value "Nal Hutta"
 StringInfo
 	ID "IDS_PLANETNAME_281"
-	Value "Yakutia"
+	Value "Dubrillion"
 StringInfo
 	ID "IDS_PLANETNAME_282"
-	Value "Yasuda"
+	Value "Da Soocha"
 StringInfo
 	ID "IDS_PLANETNAME_283"
-	Value "Yoshino"
+	Value "Entralla"
 StringInfo
 	ID "IDS_PLANETNAME_284"
-	Value "Yugra"
+	Value "Bastion"
 StringInfo
 	ID "IDS_PLANETNAME_285"
-	Value "Zanstra"
+	Value "Galidraan"
 StringInfo
 	ID "IDS_PLANETNAME_286"
-	Value "Zenbei"
+	Value "Kal'Shebbol"
 StringInfo
 	ID "IDS_PLANETNAME_287"
-	Value "Zernike"
+	Value "Kaltooine"
 StringInfo
 	ID "IDS_PLANETNAME_288"
-	Value "Zykina"
+	Value "Malachor"
 StringInfo
 	ID "IDS_PLANETNAME_289"
-	Value "Alcari"
+	Value "Korriban"
 StringInfo
 	ID "IDS_PLANETNAME_290"
-	Value "Kailey"
+	Value "Mon Calamari"
 StringInfo
 	ID "IDS_PLANETNAME_291"
-	Value "Kit-Kunis"
+	Value "Kuat"
 StringInfo
 	ID "IDS_PLANETNAME_292"
-	Value "Eetorian"
+	Value "Muunilinst"
 StringInfo
 	ID "IDS_PLANETNAME_293"
-	Value "Gateway"
+	Value "Mygeeto"
 StringInfo
 	ID "IDS_PLANETNAME_294"
-	Value "Hegira"
+	Value "Ord Trasi"
 StringInfo
 	ID "IDS_PLANETNAME_295"
-	Value "Cancello"
+	Value "Ord Mantell"
 StringInfo
 	ID "IDS_PLANETNAME_296"
-	Value "Porta"
+	Value "Ossus"
 StringInfo
 	ID "IDS_CANNONSHELLTECH_NAME"
 	Value "Galaxy Gun Warhead"
