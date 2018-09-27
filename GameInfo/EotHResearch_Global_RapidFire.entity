@@ -33,7 +33,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.060000
 	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
