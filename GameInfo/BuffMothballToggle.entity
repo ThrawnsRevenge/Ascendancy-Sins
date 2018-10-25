@@ -9,10 +9,19 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "RemoveBuffOfType"
+	buffInstantActionType "ApplyOrRemoveBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffMothball"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+		toggleStateOnNameStringID "IDS_ABILITY_VOLLEYFIREACTIVE_NAME"
+		toggleStateOnDescStringID "IDS_ABILITY_VOLLEYFIREACTIVE_DESCRIPTION"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

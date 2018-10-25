@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2303
+entityNameCount 2302
 entityName "BuffUncap.entity"
 entityName "AbilityUncap.entity"
 entityName "BuffDecoy.entity"
@@ -1387,7 +1387,6 @@ entityName "AbilityAltorProtect.entity"
 entityName "AbilityImAnEscapePod.entity"
 entityName "BuffImAnEscapePod.entity"
 entityName "AbilityMothball.entity"
-entityName "AbilityMothballRemove.entity"
 entityName "BuffMothball.entity"
 entityName "BuffMothballToggle.entity"
 entityName "AbilityEmpressRestore.entity"
