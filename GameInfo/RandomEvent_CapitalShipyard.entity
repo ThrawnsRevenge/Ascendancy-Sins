@@ -3,8 +3,8 @@ entityType "PlanetModuleShipFactory"
 minZoomDistanceMult 2.500000
 ability:0 "AbilityDesignateShipyard"
 ability:1 "AbilityMothball"
-ability:2 "AbilityCaptureableObject"
-ability:3 ""
+ability:2 "AbilityMothballRemove"
+ability:3 "AbilityCaptureableObject"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

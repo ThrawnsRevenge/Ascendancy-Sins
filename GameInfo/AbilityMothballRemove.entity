@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffMothball"
+buffType "BuffMothballToggle"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -56,8 +56,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_MOTHBALL_NAME"
-descStringID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
+nameStringID "IDS_ABILITY_UNMOTHBALL_NAME"
+descStringID "IDS_ABILITY_UNMOTHBALL_DESCRIPTION"
 hudIcon "HUDABILITYICON_PROJECTFORCE"
 smallHudIcon "HUDABILITYICON_PROJECTFORCE"
 infoCardIcon ""

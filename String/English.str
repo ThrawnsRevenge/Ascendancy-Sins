@@ -1,5 +1,5 @@
 TXT
-NumStrings 8691
+NumStrings 8693
 StringInfo
 	ID "IDS_ABILITY_DECOY_NAME"
 	Value "Decoy"
@@ -1094,7 +1094,13 @@ StringInfo
 	Value "Mothball"
 StringInfo
 	ID "IDS_ABILITY_MOTHBALL_DESCRIPTION"
-	Value "Disables the target owned ship, removing upkeep costs but also shutting off all major systems. This ability can be re-used to reactivate the ship."
+	Value "Disables the target owned ship, removing upkeep costs but also shutting off all major systems."
+StringInfo
+	ID "IDS_ABILITY_UNMOTHBALL_NAME"
+	Value "Recommission"
+StringInfo
+	ID "IDS_ABILITY_UNMOTHBALL_DESCRIPTION"
+	Value "Re-enables the target owned ship if it has been mothballed."
 StringInfo
 	ID "IDS_ABILITY_DEPLOYKWING_NAME"
 	Value "Deploy K-Wings"
