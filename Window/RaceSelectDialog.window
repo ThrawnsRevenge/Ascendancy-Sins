@@ -155,18 +155,18 @@ numFactionWindows 4
 		spaceBetweenFactionTechs 10
 		leftFactionTechsStartPosition [80, 590]
 			leftFactionTechOne "RemnantResearch_ShipUnlock_Executor"
-			leftFactionTechTwo "RemnantResearch_ShipUnlock_GalaxyGun"
+			leftFactionTechTwo "RemnantResearch_AbilityUnlock_HVGun"
 			leftFactionTechThree "RemnantResearch_ShipUnlock_CommandStation"
 			leftFactionTechFour "RemnantResearch_Flat_PowerSymbol"
 			leftFactionTechFive "RemnantResearch_Economy_MilitaryComplex"
 			leftFactionTechSix "RemnantResearch_Global_ImperialPurity"
 		rightFactionTechsStartPosition [ 400, 590]
 			rightFactionTechOne "RemnantResearch_Global_PellaeonDoctrine"
-			rightFactionTechTwo "RemnantResearch_Global_PrisonCamps"
+			rightFactionTechTwo "RemnantResearch_Global_MixedRaceMilitary"
 			rightFactionTechThree "RemnantResearch_Global_DaalaDoctrine"
-			rightFactionTechFour "RemnantResearch_Global_Ruthless"
-			rightFactionTechFive "RemnantResearch_Global_Inexorable"
-			rightFactionTechSix "RemnantResearch_AbilityUnlock_HVGun"
+			rightFactionTechFour "RemnantResearch_Global_MawInstallation"
+			rightFactionTechFive "RemnantResearch_Global_DeclarePalpatine"
+			rightFactionTechSix "RemnantResearch_ShipUnlock_GalaxyGun"
 		selectLeftButton
 			area [510, 475, 75 , 75]
 			underlayBrush "AscendancyButtonsFactionSelectSelectIR"
@@ -312,7 +312,7 @@ numFactionWindows 4
 		leftPlayerNameArea [-5000,370,0,0]
 		rightPlayerNameArea [-5000, -5000 , 0 , 0
 		playerDescriptionFont "InfoCardStandard"
-		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_HAPES_DESCRIPTION"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_ALIGNMENT_DESCRIPTION"
 		leftPlayerDescriptionArea [555,350,400,500]
 		rightPlayerDescriptionID "IDS_EMPTY"
 		rightPlayerDescriptionArea [560,140,400,500]
