@@ -21,21 +21,14 @@ instantAction
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 4
-entityModifier
-	buffEntityModifierType "ShieldMitigation"
-	value
-		Level:0 -0.100000
-		Level:1 -0.100000
-		Level:2 -0.260000
-		Level:3 -0.260000
+numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageDealer"
 	value
 		Level:0 0.020000
-		Level:1 0.020000
-		Level:2 0.020000
-		Level:3 0.020000
+		Level:1 0.030000
+		Level:2 0.040000
+		Level:3 0.050000
 entityModifier
 	buffEntityModifierType "WeaponCooldown"
 	value
@@ -47,9 +40,9 @@ entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
 		Level:0 0.100000
-		Level:1 0.100000
-		Level:2 0.100000
-		Level:3 0.100000
+		Level:1 0.080000
+		Level:2 0.060000
+		Level:3 0.040000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
