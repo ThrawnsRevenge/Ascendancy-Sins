@@ -4,7 +4,7 @@ minZoomDistanceMult 2.000000
 ability:0 "AbilityRepairPlatformRemnant"
 ability:1 "AbilityRemnantFighters"
 ability:2 "AbilityMothball"
-ability:3 ""
+ability:3 "AbilityMothballRemove"
 ability:4 ""
 MaxAntiMatter 300.000000
 AntiMatterRestoreRate 5.000000

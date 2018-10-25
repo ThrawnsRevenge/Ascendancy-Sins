@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
+onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
@@ -9,19 +9,10 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyOrRemoveBuffToSelf"
+	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffMothball"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-		toggleStateOnNameStringID "IDS_ABILITY_VOLLEYFIREACTIVE_NAME"
-		toggleStateOnDescStringID "IDS_ABILITY_VOLLEYFIREACTIVE_DESCRIPTION"
+	buffTypeToRemove "BuffMothball"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
