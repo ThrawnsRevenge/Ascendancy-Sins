@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRepairPlatformRemnant"
+buffType "BuffRepairAltorAoE"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -19,10 +19,10 @@ targetFilter
 	constraint "NotSelf"
 	constraint "HasHullDamage"
 range
-	Level:0 3200.000000
-	Level:1 4200.000000
-	Level:2 5200.000000
-	Level:3 6200.000000
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -56,10 +56,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 20.000000
-	Level:1 15.000000
-	Level:2 10.000000
-	Level:3 10.000000
+	Level:0 10.000000
+	Level:1 8.000000
+	Level:2 6.000000
+	Level:3 4.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

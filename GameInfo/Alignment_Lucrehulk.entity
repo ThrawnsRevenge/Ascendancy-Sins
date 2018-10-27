@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityISDColonize"
 ability:1 "AbilityEmbargo"
-ability:2 "AbilityBulwark"
+ability:2 "AbilityResilient"
 ability:3 "AbilityRepairDroidsCapital"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"
