@@ -7,16 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
-instantAction
-	buffInstantActionType "RestoreShieldPoints"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	shields
-		Level:0 100.000000
-		Level:1 120.000000
-		Level:2 140.000000
-		Level:3 160.000000
+numInstantActions 1
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -29,8 +20,15 @@ instantAction
 		largeEffectName "Ability_PowertoShields"
 		soundID ""
 numPeriodicActions 0
-numOverTimeActions 0
-numEntityModifiers 2
+numOverTimeActions 1
+	overTimeAction
+		buffOverTimeActionType "RestoreShields"
+			shieldRestoreRate
+				Level:0 150.000000
+				Level:1 200.000000
+				Level:2 250.000000
+				Level:3 300.000000
+numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
@@ -38,13 +36,6 @@ entityModifier
 		Level:1 -0.600000
 		Level:2 -0.40000
 		Level:3 -0.200000
-entityModifier
-	buffEntityModifierType "ShieldPointRestoration"
-	value
-		Level:0 0.050000
-		Level:1 0.100000
-		Level:2 0.150000
-		Level:3 0.200000
 numEntityBoolModifiers 1
 entityBoolModifier "HasShieldMeshEffect"
 numFinishConditions 3
