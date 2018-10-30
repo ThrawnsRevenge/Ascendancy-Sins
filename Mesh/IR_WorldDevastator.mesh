@@ -9,7 +9,7 @@ MeshData
 	Material
 		DiffuseTextureFileName "IR_WorldDevastator-cl.dds"
 		SelfIlluminationTextureFileName "IR_WorldDevastator-cl.dds"
-		NormalTextureFileName "IR_WorlDevastator-nm.dds"
+		NormalTextureFileName "IR_WorldDevastator-nm.dds"
 		DisplacementTextureFileName ""
 		TeamColorTextureFileName ""
 		Diffuse ffffffff
