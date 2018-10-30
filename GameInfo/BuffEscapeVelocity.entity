@@ -7,10 +7,30 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 2
+instantAction
+	buffInstantActionType "RestoreShieldPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	shields
+		Level:0 400.000000
+		Level:1 500.000000
+		Level:2 600.000000
+		Level:3 700.000000
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_PowertoShields"
+		mediumEffectName "Ability_PowertoShields"
+		largeEffectName "Ability_PowertoShields"
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 4
+numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "HyperspaceChargeUpRate"
 	value
@@ -19,13 +39,6 @@ entityModifier
 		Level:2 4.550000
 		Level:3 5.550000
 entityModifier
-	buffEntityModifierType "ShieldPointRestoreRate"
-	value
-		Level:0 -0.150000
-		Level:1 -0.150000
-		Level:2 -0.150000
-		Level:3 -0.150000
-entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
 		Level:0 1.750000
@@ -33,12 +46,12 @@ entityModifier
 		Level:2 3.750000
 		Level:3 4.750000
 entityModifier
-	buffEntityModifierType "LinearThrust"
+	buffEntityModifierType "ShieldPointRestoreRate"
 	value
-		Level:0 1.000000
-		Level:1 2.000000
-		Level:2 3.000000
-		Level:3 4.000000
+		Level:0 10.150000
+		Level:1 12.150000
+		Level:2 14.150000
+		Level:3 15.150000
 numEntityBoolModifiers 1
 entityBoolModifier "DisableWeapons"
 numFinishConditions 3

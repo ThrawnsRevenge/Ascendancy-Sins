@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilitySnipe"
 ability:1 "AbilityOvercharge"
 ability:2 "AbilityEscapeVelocity"
-ability:3 "AbilityEmergencyShielding"
+ability:3 ""
 ability:4 "AbilityPassiveLowLifeT3"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
