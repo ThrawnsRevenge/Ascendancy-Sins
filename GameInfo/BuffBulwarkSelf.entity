@@ -45,8 +45,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
 entityModifier
-numEntityModifiers 1
-entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
 		Level:0 0.030000

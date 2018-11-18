@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2303
+entityNameCount 2307
+entityName "BuffGravityManipulationParent.entity"
+entityName "BuffGravityManipulationChild.entity"
+entityName "BuffGravityManipulationSelf.entity"
+entityName "AbilityGravityManipulation.entity"
 entityName "BuffUncap.entity"
 entityName "AbilityUncap.entity"
 entityName "BuffDecoy.entity"
