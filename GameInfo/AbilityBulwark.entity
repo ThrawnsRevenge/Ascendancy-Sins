@@ -6,10 +6,10 @@ buffType "BuffBulwarkSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
-	smallEffectName "Ability_TauntActivate"
-	mediumEffectName "Ability_TauntActivate"
-	largeEffectName "Ability_TauntActivate"
-	soundID "EFFECT_TAUNT_ACTIVATE"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
 needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

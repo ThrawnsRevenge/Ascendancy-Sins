@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 ""
+ability:0 "AbilityBulwark"
 ability:1 "AbilityResilientCapital"
 ability:2 "AbilityCoordinatedCloak"
 ability:3 "AbilityCommandSpeed"
