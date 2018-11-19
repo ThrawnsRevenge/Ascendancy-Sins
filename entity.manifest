@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2307
+entityNameCount 2308
 entityName "BuffGravityManipulationParent.entity"
 entityName "BuffGravityManipulationChild.entity"
 entityName "BuffGravityManipulationSelf.entity"
@@ -392,6 +392,7 @@ entityName "BuffCommunicationJam.entity"
 entityName "AbilityCommunicationJam.entity"
 entityName "BuffRepairDroidsCapital.entity"
 entityName "AbilityRepairDroidsCapital.entity"
+entityName "AbilityRepairDroidsLucrehulk.entity"
 entityName "BuffReflectiveShieldsCapital.entity"
 entityName "AbilityReflectiveShieldsCapital.entity"
 entityName "NewRepUpgrade_Viscount_AbilityB.entity"
