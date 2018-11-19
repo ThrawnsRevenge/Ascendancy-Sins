@@ -3122,7 +3122,13 @@ StringInfo
 	Value "Bulwark"
 StringInfo
 	ID "IDS_ABILITY_BULWARK_DESCRIPTION"
-	Value "This ship broadcasts false commands to enemy ships, drawing fire to itself for a short time and slightly reducing damage taken."
+	Value "This ship bolsters the defenses of itself and its allies, increasing shield mitigation."
+StringInfo
+	ID "IDS_ABILITY_GRAVITYMANIPULATION_NAME"
+	Value "Gravity Manipulation"
+StringInfo
+	ID "IDS_ABILITY_GRAVITYMANIPULATION_DESCRIPTION"
+	Value "The Interdictor uses its gravity well generators to interfere with fighter engines and reduces their damage."
 StringInfo
 	ID "IDS_ABILITY_MICROJUMP_NAME"
 	Value "Micro Jump"
