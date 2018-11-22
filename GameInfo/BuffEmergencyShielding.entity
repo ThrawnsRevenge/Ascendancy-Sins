@@ -13,10 +13,10 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	shields
-		Level:0 400.000000
-		Level:1 500.000000
-		Level:2 600.000000
-		Level:3 700.000000
+		Level:0 1800.000000
+		Level:1 2200.000000
+		Level:2 2600.000000
+		Level:3 3000.000000
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -30,14 +30,7 @@ instantAction
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
-entityModifier
-	buffEntityModifierType "ShieldPointRestoreRate"
-	value
-		Level:0 10.150000
-		Level:1 12.150000
-		Level:2 14.150000
-		Level:3 15.150000
+numEntityModifiers 0
 numEntityBoolModifiers 2
 entityBoolModifier "HasShieldMeshEffect"
 entityBoolModifier "DisableWeapons"
