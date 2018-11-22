@@ -13565,7 +13565,7 @@ StringInfo
 	Value "Scattershot"
 StringInfo
 	ID "IDS_ABILITY_SCATTERSHOT_DESCRIPTION"
-	Value "The titan fires a salvo of projectiles, dealing damage and lowering armor in a cone in front of the ship."
+	Value "The Peltast fires a salvo of projectiles, dealing damage and lowering armor in a cone in front of the ship."
 StringInfo
 	ID "IDS_ABILITY_SELFDESTRUCT_NAME"
 	Value "Last Resort"

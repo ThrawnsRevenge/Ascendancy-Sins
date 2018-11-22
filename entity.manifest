@@ -1,5 +1,9 @@
 TXT
-entityNameCount 2308
+entityNameCount 2312
+entityName "BuffScattershotOvercharged.entity"
+entityName "BuffScattershotTarget.entity"
+entityName "BuffScattershotPre.entity"
+entityName "AbilityScattershot.entity"
 entityName "BuffGravityManipulationParent.entity"
 entityName "BuffGravityManipulationChild.entity"
 entityName "BuffGravityManipulationSelf.entity"
