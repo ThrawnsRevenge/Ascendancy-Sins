@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffPlasmaTorpedo"
 targetFilter
@@ -22,11 +22,6 @@ range
 	Level:1 8500.000000
 	Level:2 8500.000000
 	Level:3 8500.000000
-maxTargetCount
-	Level:0 4.000000
-	Level:1 4.000000
-	Level:2 4.000000
-	Level:3 4.000000	
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -71,13 +66,8 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "OnlyWhenManyTargetsInRange"
-onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 3.000000
-	Level:1 3.000000
-	Level:2 3.000000
-	Level:3 3.000000
-aiUseTargetCondition "Any"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitan"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

@@ -26,10 +26,10 @@ instantAction
 		constraint "NotInvulnerable"
 	weaponBank "LEFT"
 	range
-		Level:0 6000.000000
-		Level:1 6000.000000
-		Level:2 6000.000000
-		Level:3 6000.000000
+		Level:0 10000.000000
+		Level:1 12000.000000
+		Level:2 14000.000000
+		Level:3 16000.000000
 	coneAngle
 		Level:0 1.570000
 		Level:1 1.570000
@@ -37,16 +37,16 @@ instantAction
 		Level:3 1.570000
 	maxTargetCount
 		Level:0 10.000000
-		Level:1 10.000000
-		Level:2 10.000000
-		Level:3 10.000000
+		Level:1 12.000000
+		Level:2 15.000000
+		Level:3 20.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Ability"
 			abilityIndex 0
-		smallEffectName "TitanAbility_FragmentationScattershot_Travel"
-		mediumEffectName "TitanAbility_FragmentationScattershot_Travel"
-		largeEffectName "TitanAbility_FragmentationScattershot_Travel"
+		smallEffectName "Conc_Missile"
+		mediumEffectName "Conc_Missile"
+		largeEffectName "Conc_Missile"
 		soundID "EFFECT_SCATTERSHOT"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
@@ -78,16 +78,16 @@ instantAction
 		Level:3 1.570000
 	maxTargetCount
 		Level:0 10.000000
-		Level:1 10.000000
-		Level:2 10.000000
-		Level:3 10.000000
+		Level:1 12.000000
+		Level:2 15.000000
+		Level:3 20.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Ability"
 			abilityIndex 0
-		smallEffectName "TitanAbility_FragmentationScattershot_Travel"
-		mediumEffectName "TitanAbility_FragmentationScattershot_Travel"
-		largeEffectName "TitanAbility_FragmentationScattershot_Travel"
+		smallEffectName "Conc_Missile"
+		mediumEffectName "Conc_Missile"
+		largeEffectName "Conc_Missile"
 		soundID "EFFECT_SCATTERSHOT"
 numPeriodicActions 0
 numOverTimeActions 0
