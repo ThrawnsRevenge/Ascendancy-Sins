@@ -4,32 +4,32 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 4
 spawnShips
-	minFleetPoints 5.000000
-	maxFleetPoints 5.000000
+	minFleetPoints 14.000000
+	maxFleetPoints 14.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 10.000000
-	maxFleetPoints 10.000000
+	minFleetPoints 28.000000
+	maxFleetPoints 28.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 20.000000
-	maxFleetPoints 20.000000
+	minFleetPoints 42.000000
+	maxFleetPoints 42.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
 		type "Alignment_ISDII"
 		weight 1
 spawnShips
-	minFleetPoints 30.000000
-	maxFleetPoints 30.000000
+	minFleetPoints 56.000000
+	maxFleetPoints 56.000000
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip

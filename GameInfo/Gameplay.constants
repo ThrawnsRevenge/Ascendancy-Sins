@@ -720,7 +720,7 @@ GameplayConstants
 		relationshipRequirement:Trade 2.5
 		relationshipRequirement:ExternalVision 8.0
 		relationshipRequirement:InternalVision 9.5
-		relationshipRequirement:CeaseFire 4.5
+		relationshipRequirement:CeaseFire -15.5
 		relationshipRequirement:PeaceTreaty 9.0
 		relationshipRequirement:ResearchPact 10.5
 		relationshipRequirement:EfficiencyPact 11.0

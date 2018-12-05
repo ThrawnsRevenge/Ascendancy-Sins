@@ -31,10 +31,10 @@ periodicAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 18000.000000
-		Level:1 18000.000000
-		Level:2 18000.000000
-		Level:3 18000.000000
+		Level:0 25000.000000
+		Level:1 25000.000000
+		Level:2 25000.000000
+		Level:3 25000.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
