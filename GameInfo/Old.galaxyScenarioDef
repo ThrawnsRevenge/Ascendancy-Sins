@@ -928,7 +928,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 187
+planetItemTypeCount 180
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1227,9 +1227,6 @@ planetItemType
 	designName "Alignment:Frigate:Arquitens"
 	entityDefName "Alignment_Arquitens"
 planetItemType
-	designName "Alignment:Frigate:Raider"
-	entityDefName "Alignment_Raider"
-planetItemType
 	designName "Alignment:Frigate:Acclamator"
 	entityDefName "Alignment_Acclamator"
 planetItemType
@@ -1380,9 +1377,6 @@ planetItemType
 	designName "NewRep:Frigate:AssaultFrigate"
 	entityDefName "NewRep_AssaultFrigate"
 planetItemType
-	designName "NewRep:Frigate:Dauntless"
-	entityDefName "NewRep_Dauntless"
-planetItemType
 	designName "NewRep:Frigate:Constructor"
 	entityDefName "Remnant_CT11"
 planetItemType
@@ -1475,21 +1469,6 @@ planetItemType
 planetItemType
 	designName "Hapans:Frigate:NovaCruiser"
 	entityDefName "Hapans_NovaCruiser"
-planetItemType
-	designName "Ssi:Capital:Shree"
-	entityDefName "Ssi_Shree"
-planetItemType
-	designName "Ssi:Capital:Lwhekk"
-	entityDefName "Ssi_Lwhekk"
-planetItemType
-	designName "Ssi:Frigate:Wurrif"
-	entityDefName "Ssi_Wurrif"
-planetItemType
-	designName "Ssi:Frigate:Shree"
-	entityDefName "Ssi_Shree_Militia"
-planetItemType
-	designName "Ssi:Frigate:Lwhekk"
-	entityDefName "Ssi_Lwhekk_Militia"
 playerTypeCount 6
 playerType
 	designName "Remnant"
@@ -1509,7 +1488,7 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 104
+planetItemsTemplateCount 76
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1593,8 +1572,8 @@ planetItemsTemplate
 			items 14
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
@@ -1720,8 +1699,8 @@ planetItemsTemplate
 			items 15
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Frigate:Consen"
 				item "EotH:Module:Durasteel"
@@ -1876,27 +1855,27 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultStart_Comet"
 	subTemplates 1
-		template "Template:RemnantMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_IceField"
 	subTemplates 1
-		template "Template:EotHMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_ShatteredMoon"
 	subTemplates 1
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_RadiationStorm"
 	subTemplates 1
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_AntimatterFountain"
 	subTemplates 1
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ice"
@@ -1953,7 +1932,7 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_FerrusFair"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_FerrusFair"
+		template "Template:LocalMilitia_IceFair"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
@@ -1967,91 +1946,91 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_GreenhouseFair"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_GreenhouseFair"
+		template "Template:LocalMilitia_IceFair"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_OceanicFair"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_OceanicFair"
+		template "Template:LocalMilitia_IceFair"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ferrus"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:AlignmentMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Barren"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Greenhouse"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaMedium"
+		template "Template:LocalMilitiaMedium"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Oceanic"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_AridOcean"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ecumenopolis"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:RemnantMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Mountainous"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Swamp"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_TerranTwo"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:AlignmentMilitiaMedium"
+		template "Template:LocalMilitiaMedium"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_TerranThree"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:RemnantMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Arboreal"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:NewRepMilitiaMedium"
+		template "Template:LocalMilitiaMedium"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
@@ -2063,14 +2042,14 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_Polluted"
 	subTemplates 3
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:AlignmentMilitiaWeak"
+		template "Template:LocalMilitiaWeak"
 		template "Template:Unique:Random"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LightStart"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:RemnantMilitiaMedium"
+		template "Template:LocalMilitiaMedium"
 	groups 6
 		group
 			condition
@@ -2141,7 +2120,7 @@ planetItemsTemplate
 				item "EotH:Frigate:Vigilance"
 				item "EotH:Frigate:Vigilance"
 planetItemsTemplate
-	templateName "Template:AlignmentMilitiaVeryWeak"
+	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
 	groups 2
 		group
@@ -2151,11 +2130,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2163,13 +2142,13 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:AlignmentMilitiaVeryWeakUncolonizable"
+	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
 	groups 2
 		group
@@ -2179,11 +2158,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2191,13 +2170,13 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:AlignmentMilitiaWeak"
+	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
 	groups 2
 		group
@@ -2207,11 +2186,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2219,13 +2198,13 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:AlignmentMilitiaWeakFair"
+	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
 	groups 2
 		group
@@ -2235,11 +2214,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2247,13 +2226,13 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:AlignmentMilitiaMedium"
+	templateName "Template:HapansWeak"
 	subTemplates 0
 	groups 2
 		group
@@ -2262,390 +2241,7 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 7
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-planetItemsTemplate
-	templateName "Template:AlignmentMilitiaMediumFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-planetItemsTemplate
-	templateName "Template:AlignmentMilitiaStrong"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-				item "Alignment:Frigate:Procursator"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 8
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-				item "Alignment:Frigate:Procursator"
-planetItemsTemplate
-	templateName "Template:AlignmentMilitiaStrongFair"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-				item "Alignment:Frigate:Procursator"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 8
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Raider"
-				item "Alignment:Frigate:Arquitens"
-				item "Alignment:Frigate:Munificent"
-				item "Alignment:Frigate:Enforcer"
-				item "Alignment:Frigate:Venator"
-				item "Alignment:Frigate:Procursator"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaVeryWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaVeryWeakUncolonizable"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaWeakFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaMedium"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaMediumFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaStrong"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 9
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-				item "EotH:Frigate:Budirech"
-				item "EotH:Frigate:Budirech"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 9
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-				item "EotH:Frigate:Budirech"
-				item "EotH:Frigate:Budirech"
-planetItemsTemplate
-	templateName "Template:EotHMilitiaStrongFair"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 9
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-				item "EotH:Frigate:Budirech"
-				item "EotH:Frigate:Budirech"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 9
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Asdoni"
-				item "EotH:Frigate:Kariek"
-				item "EotH:Frigate:Nuruodo"
-				item "EotH:Frigate:Auriette"
-				item "EotH:Frigate:Chaf"
-				item "EotH:Frigate:Budirech"
-				item "EotH:Frigate:Budirech"
-planetItemsTemplate
-	templateName "Template:HapansMilitiaWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 4
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
+			items 1
 				item "Hapans:Frigate:NovaCruiser"
 		group
 			condition
@@ -2653,13 +2249,10 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 4
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
+			items 1
 				item "Hapans:Frigate:NovaCruiser"
 planetItemsTemplate
-	templateName "Template:HapansMilitiaMedium"
+	templateName "Template:HapansMedium"
 	subTemplates 0
 	groups 2
 		group
@@ -2668,26 +2261,18 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 6
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
+			items 2
 				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:NovaCruiser"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 6
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
-				item "Hapans:Frigate:NovaCruiser"
+			items 2
 				item "Hapans:Frigate:BattleDragon"
-				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:NovaCruiser"
 planetItemsTemplate
 	templateName "Template:HapansUnique"
 	subTemplates 0
@@ -2731,367 +2316,7 @@ planetItemsTemplate
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:StarHome"
 planetItemsTemplate
-	templateName "Template:NewRepMilitiaVeryWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaVeryWeakUncolonizable"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaWeakFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaMedium"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaMediumFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaStrong"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 9
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-				item "NewRep:Frigate:AssaultFrigate"
-				item "NewRep:Frigate:AssaultFrigate"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 9
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-				item "NewRep:Frigate:AssaultFrigate"
-				item "NewRep:Frigate:AssaultFrigate"
-planetItemsTemplate
-	templateName "Template:NewRepMilitiaStrongFair"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 9
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-				item "NewRep:Frigate:AssaultFrigate"
-				item "NewRep:Frigate:AssaultFrigate"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 9
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:CR90"
-				item "NewRep:Frigate:Nebulon"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:MC40"
-				item "NewRep:Frigate:Dauntless"
-				item "NewRep:Frigate:AssaultFrigate"
-				item "NewRep:Frigate:AssaultFrigate"
-planetItemsTemplate
-	templateName "Template:RemnantMilitiaVeryWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-planetItemsTemplate
-	templateName "Template:RemnantMilitiaVeryWeakUncolonizable"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-planetItemsTemplate
-	templateName "Template:RemnantMilitiaWeak"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-planetItemsTemplate
-	templateName "Template:RemnantMilitiaWeakFair"
-	subTemplates 0
-	groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 5
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
-planetItemsTemplate
-	templateName "Template:RemnantMilitiaMedium"
+	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
 	groups 2
 		group
@@ -3105,7 +2330,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 		group
@@ -3119,11 +2344,11 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:RemnantMilitiaMediumFair"
+	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
 	groups 2
 		group
@@ -3137,7 +2362,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 		group
@@ -3151,11 +2376,11 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 planetItemsTemplate
-	templateName "Template:RemnantMilitiaStrong"
+	templateName "Template:LocalMilitiaStrong"
 	subTemplates 0
 		groups 2
 		group
@@ -3169,7 +2394,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3185,13 +2410,13 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
-	templateName "Template:RemnantMilitiaStrongFair"
+	templateName "Template:LocalMilitiaStrongFair"
 	subTemplates 0
 		groups 2
 		group
@@ -3205,7 +2430,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3221,43 +2446,11 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
-planetItemsTemplate
-	templateName "Template:SsiMilitiaMedium"
-	subTemplates 0
-		groups 2
-		group
-			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 7
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Lwhekk"
-				item "Ssi:Frigate:Lwhekk"
-				item "Ssi:Frigate:Shree"
-		group
-			condition
-				type "NoPlanetOwner"
-				param ""
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 7
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Wurrif"
-				item "Ssi:Frigate:Lwhekk"
-				item "Ssi:Frigate:Lwhekk"
-				item "Ssi:Frigate:Shree"
 planetItemsTemplate
 	templateName "Template:ZsinjHome"
 	subTemplates 0
@@ -3273,7 +2466,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Carrack"
-				item "Remnant:Frigate:StrikeCruiser"
+				item "Alignment:Frigate:Vindicator"
 				item "Remnant:Frigate:VSDII"
 				item "Remnant:Frigate:StrikeCruiser"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3281,97 +2474,82 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Terran"
 	subTemplates 1
-		template "Template:RemnantMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 	groups 0		
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Desert"
 	subTemplates 1
-		template "Template:NewRepMilitiaStrong"
+		template "Template:LocalMilitiaStrong"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Volcanic"
 	subTemplates 1
-		template "Template:SsiMilitiaMedium"
+		template "Template:LocalMilitiaMedium"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Asteroid"
 	subTemplates 1
-		template "Template:NewRepMilitiaVeryWeak"
+		template "Template:LocalMilitiaVeryWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_DeadAsteroid"
 	subTemplates 1
-		template "Template:EotHMilitiaVeryWeak"
+		template "Template:LocalMilitiaVeryWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_ShipGraveyard"
 	subTemplates 1
-		template "Template:NewRepMilitiaVeryWeak"
+		template "Template:LocalMilitiaVeryWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_GasGiant"
 	subTemplates 1
-		template "Template:NewRepMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_PlasmaStorm"
 	subTemplates 1
-		template "Template:HapansMilitiaWeak"
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Ice"
 	subTemplates 1
-		template "Template:EotHMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_FerrusFair"
-	subTemplates 1
-		template "Template:AlignmentMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_GreenhouseFair"
-	subTemplates 1
-		template "Template:HapansMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_OceanicFair"
-	subTemplates 1
-		template "Template:NewRepMilitiaStrong"
+		template "Template:LocalMilitiaMedium"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_TerranFair"
 	subTemplates 1
-		template "Template:RemnantMilitiaStrongFair"
+		template "Template:LocalMilitiaStrongFair"
 	groups 0		
 planetItemsTemplate
 	templateName "Template:LocalMilitia_DesertFair"
 	subTemplates 1
-		template "Template:NewRepMilitiaStrongFair"
+		template "Template:LocalMilitiaStrongFair"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_AsteroidFair"
 	subTemplates 1
-		template "Template:NewRepMilitiaVeryWeak"
+		template "Template:LocalMilitiaVeryWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_VolcanicFair"
 	subTemplates 1
-		template "Template:SsiMilitiaMediumFair"
+		template "Template:LocalMilitiaMediumFair"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_GasGiantFair"
 	subTemplates 1
-		template "Template:NewRepMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_PlasmaStormFair"
 	subTemplates 1
-		template "Template:HapansMilitiaWeak"
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_IceFair"
 	subTemplates 1
-		template "Template:EotHMilitiaMediumFair"
+		template "Template:LocalMilitiaMediumFair"
 	groups 0
 planetItemsTemplate
 	templateName "Template:PirateBase"
