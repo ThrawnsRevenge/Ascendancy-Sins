@@ -22,7 +22,7 @@ periodicAction
 		Level:0 0.150000
 		Level:1 0.300000
 		Level:2 0.450000
-		Level:3 0.000000
+		Level:3 0.600000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

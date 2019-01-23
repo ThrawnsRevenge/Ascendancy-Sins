@@ -33,6 +33,6 @@ numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"
-	buffTypeToQuery "BuffBularkSelf"
+	buffTypeToQuery "BuffBulwarkSelf"
 finishCondition
 	finishConditionType "OwnerChanged"
