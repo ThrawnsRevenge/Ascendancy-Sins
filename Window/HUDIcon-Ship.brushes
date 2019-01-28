@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 428
+brushCount 425
 brush
 	name "HUDICON_SMUGGLER"
 	content "States"
@@ -235,24 +235,6 @@ brush
 	Normal
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 937 , 162 , 52 , 37 ]
-brush
-	name "HUDICON_NAVALCOMMAND"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 387 , 42 , 52 , 37 ]
-	Pressed
-		fileName "Unit_Hud_Highlight"
-		pixelBox [ 387 , 42 , 52 , 37 ]
-	CursorOver
-		fileName "Unit_Hud_Highlight"
-		pixelBox [ 387 , 42 , 52 , 37 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 387 , 42 , 52 , 37 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 387 , 42 , 52 , 37 ]
 brush
 	name "HUDICON_SKIPRAY"
 	content "States"
@@ -2570,11 +2552,6 @@ brush
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 304 , 1 , 100 , 50 ]
 brush
-	name "MAINVIEWICON_NEBULA"
-	content "Simple"
-	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 102 , 1 , 100 , 50 ]
-brush
 	name "HUDICONSMALL_CAPITALSHIP_PRAETOR"
 	content "Simple"
 	fileName "CapitalShip_Pip"
@@ -4434,11 +4411,6 @@ brush
 	content "Simple"
 	fileName "Ascendancy_Ship_Main_Icons"
 	pixelBox [ 203 , 1 , 100 , 50 ]
-brush
-	name "MAINVIEWICON_MC90"
-	content "Simple"
-	fileName "Ascendancy_Ship_Main_Icons"
-	pixelBox [ 304 , 1 , 100 , 50 ]
 brush
 	name "MAINVIEWICON_FERRET"
 	content "Simple"

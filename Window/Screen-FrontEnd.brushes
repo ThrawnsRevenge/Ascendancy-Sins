@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 221
+brushCount 219
 brush
 	name "RaceSelectRandom"
 	content "States"
@@ -2606,42 +2606,6 @@ brush
 	Normal
 		fileName "AscendancyPixel"
 		pixelBox [ 173 , 173 , 42 , 42 ]
-brush
-	name "GameOptionsAlliedVictoryEnabled"
-	content "States"
-	Disabled
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Pressed
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	CursorOver
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Focused
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Normal
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-brush
-	name "GameOptionsAlliedVictoryDisabled"
-	content "States"
-	Disabled
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Pressed
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	CursorOver
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Focused
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
-	Normal
-		fileName "AscendancyPixel"
-		pixelBox [ 302 , 173 , 42 , 42 ]
 brush
 	name "GameOptionsAlliedVictoryEnabled"
 	content "States"

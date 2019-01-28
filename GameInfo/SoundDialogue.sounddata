@@ -1,5 +1,5 @@
 TXT
-numEffects 1113
+numEffects 1110
 effect
 	name "EVENTPHASE_OCCUPATIONVICTORYHALFWAY"
 	fileName "EventPhase_OnOccupationPlanetVictoryNear.ogg"
@@ -103,9 +103,6 @@ effect
 	name "EVENTPHASE_ALLYCAPITALPLANETUNDERATTACK"
 	fileName "EventPhase_OnAllyCapitalPlanetUnderAttack.ogg"
 effect
-	name "EVENTPHASE_ALLYCAPITALPLANETDESTROYED"
-	fileName "EventPhase_OnAllyCapitalPlanetLost.ogg"
-effect
 	name "EVENTPHASE_ALLIEDGAMEWIN"
 	fileName "EventPhase_OnAlliedGameWin.ogg"
 effect
@@ -177,9 +174,6 @@ effect
 effect
 	name "EVENTREMNANT_PLAYERCAPITALPLANETDESTROYED"
 	fileName "EventRemnant_OnCapitalPlanetVictoryLost.ogg"
-effect
-	name "EVENTREMNANT_ALLYCAPITALPLANETDESTROYED"
-	fileName "EventRemnant_OnAllyCapitalPlanetLost.ogg"
 effect
 	name "EVENTREMNANT_ENEMYCAPITALPLANETSEVERELYDAMAGED"
 	fileName "EventRemnant_OnEnemyCapitalPlanetLost.ogg"
@@ -297,9 +291,6 @@ effect
 effect
 	name "EVENTNEWREP_PLAYERCAPITALPLANETDESTROYED"
 	fileName "EVENTNEWREP_OnCapitalPlanetVictoryLost.ogg"
-effect
-	name "EVENTNEWREP_ALLYCAPITALPLANETDESTROYED"
-	fileName "EVENTNEWREP_OnAllyCapitalPlanetLost.ogg"
 effect
 	name "EVENTNEWREP_ENEMYCAPITALPLANETSEVERELYDAMAGED"
 	fileName "EVENTNEWREP_OnEnemyCapitalPlanetLost.ogg"

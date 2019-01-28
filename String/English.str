@@ -1,5 +1,5 @@
 TXT
-NumStrings 8695
+NumStrings 8705
 StringInfo
 	ID "IDS_ABILITY_DECOY_NAME"
 	Value "Decoy"
@@ -268,7 +268,7 @@ StringInfo
 	ID "IDS_ABILITY_RESOURCEINFLUX_NAME"
 	Value "Resource Influx"
 StringInfo
-	ID "IDS_ABILITY_RESOURCEINFLUX_DESCRIPTION"
+	ID "IDS_ABILITY_RESOURCEINFLUX_DESC"
 	Value "Pestage's vast personal wealth is directed towards increasing production rate of Imperial shipyards at this world."
 StringInfo
 	ID "IDS_ABILITY_SURVIVALINSTINCT_NAME"
@@ -1081,7 +1081,7 @@ StringInfo
 	ID "IDS_ABILITY_VETERANCY_NAME"
 	Value "Veterancy"
 StringInfo
-	ID "DS_ABILITY_VETERANCY_DESCRIPTION"
+	ID "IDS_ABILITY_VETERANCY_DESCRIPTION"
 	Value "If this ship participates in the destruction of an enemy ship, it has a chance to improve the skill of its crew, increasing its stats as shown. This can stack up to 20 times."
 StringInfo
 	ID "IDS_ABILITY_TARGETINGENHANCEMENT_NAME"
@@ -1738,6 +1738,9 @@ StringInfo
 	ID "IDS_TRADESHIP_YT_NAME"
 	Value "Smuggler"
 StringInfo
+	ID "IDS_TRADESHIP_YT_DESCRIPTION"
+	Value "A small smuggling vessel capable of transporting illicit goods."
+StringInfo
 	ID "IDS_FRIGATE_SPACETUG_NAME"
 	Value "CT-11 Space Tug"
 StringInfo
@@ -2200,7 +2203,7 @@ StringInfo
 	ID "IDS_FIGHTERTIEFIGHTER_DESC"
 	Value "A squadron of light Imperial TIE Fighters, mostly used en masse to combat enemy fighters and bombers."
 StringInfo
-	ID "IDS_V19_NAME"
+	ID "IDS_FIGHTERV19_NAME"
 	Value "V19 Torrent"
 StringInfo
 	ID "IDS_FIGHTERV19_DESCRIPTION"
@@ -2393,7 +2396,10 @@ StringInfo
 	Value "Thrawn - Chimera"
 StringInfo
 	ID "IDS_HERO_THRAWN_DESCRIPTION"
-	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy. This vessel serves as the flagship for the Remnant in flagship victory mode."
+	Value "A brilliant Chiss strategist who joined the Empire to prepare the galaxy against external threats, and founded the Empire of the Hand before returning to the known galaxy."
+StringInfo
+	ID "IDS_SPAWNHERO_THRAWN_DESCRIPTION"
+	Value "Grand Admiral Thrawn joins your fleet."
 StringInfo
 	ID "IDS_HERO_GRANT_NAME"
 	Value "Grant - Oriflamme"
@@ -2458,7 +2464,7 @@ StringInfo
 	ID "IDS_FRIGATE_CT11_NAME"
 	Value "CT11 Space Tug"
 StringInfo
-	ID "IDS_FRIGATE_CT11_DESCRIPTION"
+	ID "IDS_FRIGATE_CT11_DESC"
 	Value "A small vessel used in the construction of structures."
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_PENTASTAR"
@@ -2700,6 +2706,12 @@ StringInfo
 StringInfo
 	ID "IDS_FIGHTERMIYTILBOMBER_DESCRIPTION"
 	Value "A heavy bomber able to assault frigates and capital ships."
+StringInfo
+	ID "IDS_FIGHTERMIYTILFIGHTER_NAME"
+	Value "Miy'til Fighter"
+StringInfo
+	ID "IDS_FIGHTERMIYTILFIGHTER_DESCRIPTION"
+	Value "The basic fighter of the Hapes Consortium."
 StringInfo
 	ID "IDS_FIGHTERBWING_NAME"
 	Value "B-Wing"
@@ -2982,6 +2994,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PRAETORION_NAME"
 	Value "Ion Blast"
+StringInfo
+	ID "IDS_ABILITY_PRAETORION_DESCRIPTION"
+	Value "The Praetor unleashes a strong burst of ion energy."
 StringInfo
 	ID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
 	Value "The Praetor's massive ion cannons temporarily disable an enemy ship."
@@ -3334,6 +3349,9 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_COMMANDSTATION_DESCRIPTION"
 	Value "Gives access to the Imperial Command Station, a structure which massively boosts defensive capabilities at the expense of its economic output."
 StringInfo
+	ID "IDS_PLANETMODULE_OTO_NAME"
+	Value "Oto Military Outpost"
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNLOCK_OTO_NAME"
 	Value "Oto Military Outpost"
 StringInfo
@@ -3499,7 +3517,7 @@ StringInfo
 	ID "IDS_REMNANT_RESEARCHFIELD_FLEET"
 	Value "Imperial Fleet"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_CARGO_NAME""
+	ID "IDS_REMNANTRESEARCH_CARGO_NAME"
 	Value "Capacity Increase"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_CARGO_DESCRIPTION"
@@ -3514,7 +3532,7 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_MILITARYCOMPLEX_NAME"
 	Value "Military Industrial Complex"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_MILITARYCOMPLEX_DESCRIPTION""
+	ID "IDS_REMNANTRESEARCH_MILITARYCOMPLEX_DESCRIPTION"
 	Value "Production is shifted to military ventures from other industries."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_PELLAEONDOCTRINE_NAME"
@@ -3538,7 +3556,7 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_SPAARTI_NAME"
 	Value "Spaarti Cylinders"
 StringInfo
-	ID "IDS_REMNANTRESEARCH_INTEGRATION_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_SPAARTI_DESCRIPTION"
 	Value "Thrawn's use of Spaarti cylinders to clone the best soldiers in the Empire increases the possible size of your navy, and reduces the upkeep costs."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_MIXEDRACEMILITARY_NAME"
@@ -3595,6 +3613,12 @@ StringInfo
 	ID "IDS_ABILITY_RHAZERSEDGE_DESCRIPTION"
 	Value "Fires a salvo of heavy Rhazer missiles at all targets in range of the Phalanx's left and right missile banks."
 StringInfo
+	ID "IDS_ABILITY_RHAZERWARHEADS_NAME"
+	Value "Rhazer Warheads"
+StringInfo
+	ID "IDS_ABILITY_RHAZERWARHEADS_DESCRIPTION"
+	Value "The Vigilance fires more powerful Rhazer missiles."
+StringInfo
 	ID "IDS_ABILITY_REINFORCE_NAME"
 	Value "Reinforce"
 StringInfo
@@ -3604,7 +3628,7 @@ StringInfo
 	ID "IDS_ABILITY_SLIMPROFILE_NAME"
 	Value "Slim Profile"
 StringInfo
-	ID "IDS_ABILITY_SLIMPROFILE_DESCRIPTION"
+	ID "IDS_ABILITY_SLIMPROFILE_DESC"
 	Value "The Nebulon-B's slim shape makes it more difficult to hit."
 StringInfo
 	ID "IDS_ABILITY_ENHANCEDTARGETTING_NAME"
@@ -3799,10 +3823,10 @@ StringInfo
 	ID "IDS_HERO_DAALA_NAME"
 	Value "Natasi Daala - Knight Hammer"
 StringInfo
-	ID "IDS_SPAWNHERO_DAALA_NAME"
+	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
 	Value "Recruit Natasi Daala"
 StringInfo
-	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
+	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala and her custom Executor-class will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
 StringInfo
 	ID "IDS_HERO_DAALA_DESCRIPTION"
@@ -3816,6 +3840,9 @@ StringInfo
 StringInfo
 	ID "IDS_HERO_PELLAEON_DESCRIPTION"
 	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet."
+StringInfo
+	ID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
+	Value "Grand Admiral Gilad Pellaeon and his flagship, Right to Rule, will join your fleet."
 StringInfo
 	ID "IDS_ABILITY_SPAWNHERO_GALAXYGUN_NAME"
 	Value "Galaxy Gun"
@@ -9788,7 +9815,7 @@ StringInfo
 	Value "Illuminator Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_LONGRANGEPSI_DESCRIPTION"
-	Value "Grants access to Illuminator Vessels - strong warships equipped with many long range beam weapons.""
+	Value "Grants access to Illuminator Vessels - strong warships equipped with many long range beam weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_LONGRANGEPHASE_NAME"
 	Value "Assailant Prototype"
@@ -10328,7 +10355,7 @@ StringInfo
 	Value "Forewarning"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_DETECTIONPSI0_DESCRIPTION"
-	Value "Frightening visions of the future warn scryers of incoming enemy ships during their phase jump to your empire's planets.""
+	Value "Frightening visions of the future warn scryers of incoming enemy ships during their phase jump to your empire's planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_DETECTIONPSI1_NAME"
 	Value "Acute Premonitions"
@@ -11087,7 +11114,7 @@ StringInfo
 	Value "Allows your allies to utilize your phase gate networks."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SHARED_SHIELD_TECH_NAME"
-	Value "Shared Shield Tech.""
+	Value "Shared Shield Tech."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SHARED_SHIELD_TECH_DESCRIPTION"
 	Value "Shared technology gives your forces increased shield strength, mitigation and regeneration."
@@ -13709,7 +13736,7 @@ StringInfo
 	Value "Malice"
 StringInfo
 	ID "IDS_ABILITY_SPREADWEAPONDAMAGE_DESCRIPTION"
-	Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire.""
+	Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire."
 StringInfo
 	ID "IDS_ABILITY_SPRINT_NAME"
 	Value "Intercept"
@@ -14427,6 +14454,9 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETTYPE_MOON"
 	Value "Dwarf Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_NEBULA"
+	Value "Nebula"
 StringInfo
 	ID "IDS_PLANETTYPE_OCEANIC"
 	Value "Oceanic Planet"
@@ -25892,7 +25922,7 @@ StringInfo
 	Value "Loading..."
 StringInfo
 	ID "IDS_ONGAMEWIN"
-	Value "You are victorious.""
+	Value "You are victorious."
 StringInfo
 	ID "IDSGalaxyInfoWindowScenarioMissingDLC"
 	Value "This map requires the following DLC to play: %s."

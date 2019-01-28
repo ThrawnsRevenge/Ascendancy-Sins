@@ -1,5 +1,5 @@
 TXT
-numEffects 1014
+numEffects 1012
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -2865,21 +2865,6 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-effect
-	name "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
-	fileName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 5
-	threshold 23000.000000
-	minAttenuationDist 800.000000
-	maxNumPlayingSimultaneously 5
-	isLooping FALSE
-	isResident TRUE
-	minRespawnTime 0.5
-	fadeInTime 0.0
-	fadeOutTime 0.0
-	alternateGroup "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
 effect
 	name "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
 	fileName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle_Alt1.ogg"
@@ -14778,21 +14763,6 @@ effect
 effect
 	name "WEAPON_FIGHTER_TIEFIGHTER_LASER_MUZZLE_ALT1"
 	fileName "Weapon_Fighter_TieFighter_Laser_Muzzle_Alt1.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 5
-	threshold 5000.000000
-	minAttenuationDist 100.000000
-	maxNumPlayingSimultaneously 5
-	isLooping FALSE
-	isResident TRUE
-	minRespawnTime 0.1
-	fadeInTime 0.0
-	fadeOutTime 0.0
-	alternateGroup ""
-effect
-	name "WEAPON_FIGHTER_TIEFIGHTER_LASER_MUZZLE_ALT2"
-	fileName "Weapon_Fighter_TieFighter_Laser_Muzzle_Alt2.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5

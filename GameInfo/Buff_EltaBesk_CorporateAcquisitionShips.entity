@@ -27,4 +27,4 @@ entityBoolModifier "DisablePhaseJump"
 numFinishConditions 1
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"
-	buffTypeToQuery "Buff_EltaBesk_CorporateAcquisitionPlanets"
+	buffTypeToQuery "Buff_EltaBesk_CorporateAcquisitionPlanet"

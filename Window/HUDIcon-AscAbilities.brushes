@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 66
+brushCount 64
 brush
 	name "HUDABILITYICON_NOGHRI"
 	content "States"
@@ -649,42 +649,6 @@ brush
 	Normal
 		fileName "Ability_Hud_Normal"
 		pixelBox [ 717 , 42 , 52 , 37 ]
-brush
-	name "HUDABILITYICON_SUPERLASER"
-	content "States"
-	Disabled
-		fileName "Ability_Hud_Disabled"
-		pixelBox [ 662 , 42 , 52 , 37 ]
-	Pressed
-		fileName "Ability_Hud_Highlight"
-		pixelBox [ 662 , 42 , 52 , 37 ]
-	CursorOver
-		fileName "Ability_Hud_Highlight"
-		pixelBox [ 662 , 42 , 52 , 37 ]
-	Focused
-		fileName "Ability_Hud_Normal"
-		pixelBox [ 662 , 42 , 52 , 37 ]
-	Normal
-		fileName "Ability_Hud_Normal"
-		pixelBox [ 662 , 42 , 52 , 37 ]
-brush
-	name "HUDABILITYICON_INTERDICT"
-	content "States"
-	Disabled
-		fileName "Ability_Hud_Disabled"
-		pixelBox [ 607 , 42 , 52 , 37 ]
-	Pressed
-		fileName "Ability_Hud_Highlight"
-		pixelBox [ 607 , 42 , 52 , 37 ]
-	CursorOver
-		fileName "Ability_Hud_Highlight"
-		pixelBox [ 607 , 42 , 52 , 37 ]
-	Focused
-		fileName "Ability_Hud_Normal"
-		pixelBox [ 607 , 42 , 52 , 37 ]
-	Normal
-		fileName "Ability_Hud_Normal"
-		pixelBox [ 607 , 42 , 52 , 37 ]
 brush
 	name "HUDABILITYICON_BULWARK"
 	content "States"

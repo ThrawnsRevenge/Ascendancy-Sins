@@ -20,7 +20,7 @@ picture "HUDICON_BWING"
 launchIcon "HUDABILITYICON_DOCK"
 dockIcon "HUDABILITYICON_UNDOCK"
 nameStringID "IDS_FIGHTERBWING_NAME"
-descriptionStringID "IDS_FURION_DESCRIPTION"
+descriptionStringID "IDS_FURION_DESC"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "StarBaseUpgrade"
-stageCount 3
+stageCount 2
 stage
 	price
 		credits 0.000000
@@ -37,25 +37,5 @@ stage
 	upgradeProperty
 		propertyType "WeaponUpgradeLevel"
 		value 1.000000
-	upgradeBoolPropertyCount 0
-stage
-	price
-		credits 1800.000000
-		metal 275.000000
-		crystal 150.000000
-	upgradeTime 60.000000
-	nameStringID "IDS_STARBASEUPGRADETECHWEAPONS_NAME"
-	descStringID "IDS_STARBASEUPGRADETECHWEAPONS_DESC2"
-	researchPrerequisites
-		NumResearchPrerequisites 0
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-	smallHudIcon "HUDICON_RESEARCH_SHIPWEAPONINCREASE"
-	infoCardIcon ""
-	upgradePropertyCount 1
-	upgradeProperty
-		propertyType "WeaponUpgradeLevel"
-		value 2.000000
 	upgradeBoolPropertyCount 0
 xpModifier 75.000000

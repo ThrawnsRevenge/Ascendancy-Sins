@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 630
+brushCount 629
 brush
 	name "HUDICON_RESEARCH_GROUNDSUPPORT"
 	content "States"
@@ -15,7 +15,7 @@ brush
 		pixelBox [ 58 , 163 , 50 , 37 ]
 	Focused
 		fileName "Buttons_Research_Normal"
-		pixelBox [ 58 163 , 50 , 37 ]
+		pixelBox [ 58 , 163 , 50 , 37 ]
 	Normal
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 58 , 163 , 50 , 37 ]
@@ -10993,24 +10993,6 @@ brush
 	Normal
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 415 , 189 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_MARKET"
-	content "States"
-	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 313 , 226 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 313 , 226 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 313 , 226 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 313 , 226 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 313 , 226 , 47 , 33 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_MASS_REDUCTION"
 	content "States"

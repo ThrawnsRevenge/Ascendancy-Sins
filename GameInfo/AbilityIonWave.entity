@@ -77,7 +77,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_IONWAVE_NAME"
-descStringID "IDS_ABILITY_IONWAVE_DFESCRIPTION"
+descStringID "IDS_ABILITY_IONWAVE_DESCRIPTION"
 hudIcon "HUDABILITYICON_BELLATORREACTOR"
 smallHudIcon "HUDABILITYICON_BELLATORREACTOR"
 infoCardIcon ""

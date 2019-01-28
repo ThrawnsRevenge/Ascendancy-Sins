@@ -67,10 +67,10 @@ instantAction
 		constraint "NotInvulnerable"
 	weaponBank "RIGHT"
 	range
-		Level:0 6000.000000
-		Level:1 6000.000000
-		Level:2 6000.000000
-		Level:3 6000.000000
+		Level:0 10000.000000
+		Level:1 12000.000000
+		Level:2 14000.000000
+		Level:3 16000.000000
 	coneAngle
 		Level:0 1.570000
 		Level:1 1.570000

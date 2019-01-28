@@ -12,7 +12,7 @@ hudIcon "HUDICON_SKIPRAY"
 smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_SKIPRAY_NAME"
+nameStringID "IDS_FIGHTERSKIPRAY_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
 statCountType "FighterBomber"
 formationOffsetDistance 50.000000

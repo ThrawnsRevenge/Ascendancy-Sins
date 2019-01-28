@@ -12,7 +12,7 @@ hudIcon "HUDICON_V19TORRENT"
 smallHudIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 infoCardIcon "HUDICONSMALL_FIGHTER_SQUADRON"
 minZoomDistanceMult 15.000000
-nameStringID "IDS_V19_NAME"
+nameStringID "IDS_FIGHTERV19_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000

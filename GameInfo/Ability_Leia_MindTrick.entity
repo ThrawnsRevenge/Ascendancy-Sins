@@ -40,7 +40,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_MINDTRICK_NAME"
-descStringID "IDS_ABILITY_MINDTRICK_DESCN"
+descStringID "IDS_ABILITY_MINDTRICK_DESC"
 hudIcon "HUDABILITYICON_PROJECTFORCE"
 smallHudIcon "HUDABILITYICON_PROJECTFORCE"
 infoCardIcon ""

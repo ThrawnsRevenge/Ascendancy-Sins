@@ -14,7 +14,7 @@ mainViewIcon "MAINVIEWICON_CONSEN"
 picture "PICTURE_FRIGATE_CONSEN"
 NameStringID "IDS_FRIGATE_CONSEN_NAME"
 DescriptionStringID "IDS_FRIGATE_CONSEN_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_CONSEN_NONCOMBAT"
+counterDescriptionStringID "IDSMainMenuScreenDLC1Button"
 basePrice
 	credits 100.000000
 	metal 10.000000
