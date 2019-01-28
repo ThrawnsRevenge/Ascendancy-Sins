@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2300
+entityNameCount 2302
 entityName "BuffScattershotTargetOvercharged.entity"
 entityName "BuffScattershotTarget.entity"
 entityName "BuffScattershotPre.entity"
@@ -561,6 +561,8 @@ entityName "Ssi_Swarm_Squad.entity"
 entityName "Ssi_Wurrif.entity"
 entityName "Ssi_Shree.entity"
 entityName "Ssi_Lwhekk.entity"
+entityName "Ssi_Shree_Militia.entity"
+entityName "Ssi_Lwhekk_Militia.entity"
 entityName "Garm_Katana.entity"
 entityName "Garm_Garm.entity"
 entityName "EotH_FrigateResearch.entity"
