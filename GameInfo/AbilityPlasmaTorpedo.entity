@@ -22,15 +22,7 @@ range
 	Level:1 8500.000000
 	Level:2 8500.000000
 	Level:3 8500.000000
-effectInfo
-	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
-travelSpeed 1300.000000
-effectStaggerDelay 0.250000
+travelSpeed 2000.000000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"
 weaponEffectAttachInfo
