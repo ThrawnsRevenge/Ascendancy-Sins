@@ -1,4 +1,5 @@
 TXT
+SinsArchiveVersion 193
 starTypeCount 9
 starType
 	designName "RandomStar"
@@ -4009,3 +4010,214 @@ player
 	themeIndex 21
 	pictureGroup "NPC"
 	pictureIndex 2
+player
+	designName "MinorFaction0"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech0"
+	overrideRaceName "TechLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechMiners"
+	themeGroup "NPCMinorFactions"
+	themeIndex 11
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction1"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech1"
+	overrideRaceName "TechLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechScrappers"
+	themeGroup "NPCMinorFactions"
+	themeIndex 1
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction2"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech2"
+	overrideRaceName "TechRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechSiegeRaiders"
+	themeGroup "NPCMinorFactions"
+	themeIndex 2
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction3"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech3"
+	overrideRaceName "TechRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechDemolitionists"
+	themeGroup "NPCMinorFactions"
+	themeIndex 10
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction4"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech4"
+	overrideRaceName "TechRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechXenophobes"
+	themeGroup "NPCMinorFactions"
+	themeIndex 3
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction5"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech5"
+	overrideRaceName "TechLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechUsedFrigates"
+	themeGroup "NPCMinorFactions"
+	themeIndex 9
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction6"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech6"
+	overrideRaceName "TechLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechDefensive"
+	themeGroup "NPCMinorFactions"
+	themeIndex 4
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction7"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi0"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiPacifists"
+	themeGroup "NPCMinorFactions"
+	themeIndex 8
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction8"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi1"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiCulture"
+	themeGroup "NPCMinorFactions"
+	themeIndex 12
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction9"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi2"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiDoomCult"
+	themeGroup "NPCMinorFactions"
+	themeIndex 14
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction10"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi3"
+	overrideRaceName "PsiLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiSiegeRaiders"
+	themeGroup "NPCMinorFactions"
+	themeIndex 5
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction11"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase0"
+	overrideRaceName "PhaseRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseTransporters"
+	themeGroup "NPCMinorFactions"
+	themeIndex 13
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction12"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase1"
+	overrideRaceName "PhaseRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseExpedition"
+	themeGroup "NPCMinorFactions"
+	themeIndex 0
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction13"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase2"
+	overrideRaceName "PhaseRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseArmsDealers"
+	themeGroup "NPCMinorFactions"
+	themeIndex 7
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction14"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase3"
+	overrideRaceName "PhaseLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "DefaultPhase"
+	themeGroup "NPCMinorFactions"
+	themeIndex 6
+	pictureGroup "NPC"
+	pictureIndex 2
+npcMiltiaPlayerCountPerGalaxy 5
