@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 entityType "CapitalShip"
 ability:0 "Ability_Siath_GraviticBomb"
 ability:1 "Ability_Siath_ChissIntelligence"

@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 starTypeCount 9
 starType
 	designName "RandomStar"
@@ -2734,11 +2735,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer TRUE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCPirateRaider"
 	themeGroup "SpecialNPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -2751,11 +2748,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer TRUE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCRebel"
 	themeGroup "SpecialNPC"
 	themeIndex 1
 	pictureGroup "NPC"
@@ -2768,11 +2761,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer TRUE
-	isMadVasariPlayer FALSE
+	playerType "NPCOccupationVictory"
 	themeGroup "NPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -2785,11 +2774,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer TRUE
+	playerType "NPCMadVasari"
 	themeGroup "PlayerRemnant"
 	themeIndex 15
 	pictureGroup "PlayerRemnant"
@@ -2802,11 +2787,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer TRUE
+	playerType "NPCMadVasari"
 	themeGroup "PlayerRemnant"
 	themeIndex 15
 	pictureGroup "PlayerRemnant"
@@ -2819,11 +2800,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "PlayerHapans"
 	themeIndex 15
 	pictureGroup "PlayerHapans"
@@ -2836,11 +2813,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "PlayerRemnant"
 	themeIndex 3
 	pictureGroup "PlayerRemnant"
@@ -2855,11 +2828,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 2
 	pictureGroup "NPC"
@@ -2872,11 +2841,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 3
 	pictureGroup "NPC"
@@ -2889,11 +2854,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 4
 	pictureGroup "NPC"
@@ -2906,11 +2867,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 5
 	pictureGroup "NPC"
@@ -2923,11 +2880,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 6
 	pictureGroup "NPC"
@@ -2940,11 +2893,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 7
 	pictureGroup "NPC"
@@ -2957,11 +2906,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 8
 	pictureGroup "NPC"
@@ -2974,11 +2919,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 9
 	pictureGroup "NPC"
@@ -2991,11 +2932,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 10
 	pictureGroup "NPC"
@@ -3008,11 +2945,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 11
 	pictureGroup "NPC"
@@ -3025,11 +2958,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 12
 	pictureGroup "NPC"
@@ -3042,11 +2971,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 13
 	pictureGroup "NPC"
@@ -3059,11 +2984,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 14
 	pictureGroup "NPC"
@@ -3076,11 +2997,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 15
 	pictureGroup "NPC"
@@ -3093,11 +3010,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 16
 	pictureGroup "NPC"
@@ -3110,11 +3023,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 17
 	pictureGroup "NPC"
@@ -3127,11 +3036,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 18
 	pictureGroup "NPC"
@@ -3144,11 +3049,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 19
 	pictureGroup "NPC"
@@ -3161,11 +3062,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 20
 	pictureGroup "NPC"
@@ -3178,11 +3075,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 21
 	pictureGroup "NPC"

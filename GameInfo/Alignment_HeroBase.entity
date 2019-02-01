@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
 ability:0 "Ability_Spawn_Hero_IbDekeet"

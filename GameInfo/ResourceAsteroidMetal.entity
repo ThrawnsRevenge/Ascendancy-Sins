@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "ResourceAsteroid"
 resource "Metal"
 hudIcon "HUDICON_RESOURCEASTEROIDMETAL"

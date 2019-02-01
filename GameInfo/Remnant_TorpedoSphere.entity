@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "CapitalShip"
 ability:0 "AbilityGloryOfTheNewOrder"
 ability:1 "AbilityRazePlanet"

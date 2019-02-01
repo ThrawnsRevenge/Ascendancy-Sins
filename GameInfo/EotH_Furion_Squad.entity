@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Squad"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
