@@ -1,5 +1,5 @@
-﻿TXT
-versionNumber 4
+TXT
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Dissolution"
@@ -6399,11 +6399,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6416,11 +6412,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6433,11 +6425,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6450,11 +6438,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6467,11 +6451,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6484,11 +6464,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6501,11 +6477,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6518,11 +6490,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6535,11 +6503,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6552,11 +6516,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -6569,11 +6529,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "PlayerHapans"
 	themeIndex 15
 	pictureGroup "PlayerHapans"
@@ -6583,3 +6539,5 @@ template
 	templateName "NewTemplate0"
 	subTemplates 0
 	groups 0
+dlcID 204880
+

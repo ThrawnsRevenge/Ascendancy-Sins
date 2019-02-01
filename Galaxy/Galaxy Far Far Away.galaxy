@@ -1,5 +1,5 @@
-﻿TXT
-versionNumber 4
+TXT
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "IDS_CUSTOMGALAXY_NAME_GFFA"
@@ -10501,3 +10501,5 @@ star
 interStarConnectionCount 0
 playerCount 0
 templates 0
+dlcID 204880
+

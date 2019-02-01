@@ -1,5 +1,5 @@
-﻿TXT
-versionNumber 4
+TXT
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Balance Point"
@@ -1284,11 +1284,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -1301,11 +1297,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -1318,11 +1310,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -1335,13 +1323,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
 	pictureIndex 0
 templates 0
+dlcID 204880
+
