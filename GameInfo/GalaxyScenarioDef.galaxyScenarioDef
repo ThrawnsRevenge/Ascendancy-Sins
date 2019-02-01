@@ -1,4 +1,4 @@
-TXT
+TXT2
 SinsArchiveVersion 193
 starTypeCount 9
 starType
@@ -453,34 +453,34 @@ planetType
 	orbitBodyType "Oceanic"
 planetType
 	designName "Ferrus"
-	designStringId "IDSGalaxyScenarioTypePlanetFerrous"
+	designStringId "IDSGalaxyScenarioTypePlanetPolluted"
 	orbitBodyTypeCount 1
 	orbitBodyType "Polluted"
 planetType
 	designName "Greenhouse"
-	designStringId "IDSGalaxyScenarioTypePlanetGreenhouse"
+	designStringId "IDSGalaxyScenarioTypePlanetArboreal"
 	orbitBodyTypeCount 1
 	orbitBodyType "Arboreal"
 planetType
 	designName "BarrenFair"
-	designStringId "IDSGalaxyScenarioTypePlanetBarrenFair"
+	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
 	orbitBodyType "BarrenFair"
 planetType
 	designName "OceanicFair"
-	designStringId "IDSGalaxyScenarioTypePlanetOceanicFair"
+	designStringId "IDSGalaxyScenarioTypePlanetOceanic"
 	orbitBodyTypeCount 1
 	orbitBodyType "OceanicFair"
 planetType
 	designName "FerrusFair"
-	designStringId "IDSGalaxyScenarioTypePlanetFerrousFair"
+	designStringId "IDSGalaxyScenarioTypePlanetPolluted"
 	orbitBodyTypeCount 1
-	orbitBodyType "FerrusFair"
+	orbitBodyType "Polluted"
 planetType
 	designName "GreenhouseFair"
-	designStringId "IDSGalaxyScenarioTypePlanetGreenhouseFair"
+	designStringId "IDSGalaxyScenarioTypePlanetArboreal"
 	orbitBodyTypeCount 1
-	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Arboreal"
 planetType
 	designName "OccupiedPlanet"
 	designStringId "IDSGalaxyScenarioTypePlanetOccupied"
@@ -493,7 +493,7 @@ planetType
 	orbitBodyType "Terran"
 planetType
 	designName "TerranFair"
-	designStringId "IDSGalaxyScenarioTypePlanetTerranFair"
+	designStringId "IDSGalaxyScenarioTypePlanetTerran"
 	orbitBodyTypeCount 1
 	orbitBodyType "TerranFair"
 planetType
@@ -508,7 +508,7 @@ planetType
 	orbitBodyType "Ice"
 planetType
 	designName "IceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetIceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetIce"
 	orbitBodyTypeCount 1
 	orbitBodyType "IceFair"
 planetType
@@ -518,7 +518,7 @@ planetType
 	orbitBodyType "Desert"
 planetType
 	designName "DesertFair"
-	designStringId "IDSGalaxyScenarioTypePlanetDesertFair"
+	designStringId "IDSGalaxyScenarioTypePlanetDesert"
 	orbitBodyTypeCount 1
 	orbitBodyType "DesertFair"
 planetType
@@ -533,7 +533,7 @@ planetType
 	orbitBodyType "Volcanic"
 planetType
 	designName "VolcanicFair"
-	designStringId "IDSGalaxyScenarioTypePlanetVolcanicFair"
+	designStringId "IDSGalaxyScenarioTypePlanetVolcanic"
 	orbitBodyTypeCount 1
 	orbitBodyType "VolcanicFair"
 planetType
@@ -543,19 +543,19 @@ planetType
 	orbitBodyType "Asteroid"
 planetType
 	designName "AsteroidFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "AsteroidFair"
 planetType
 	designName "Moon"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
-	orbitBodyType "Moon"
+	orbitBodyType "Barren"
 planetType
 	designName "MoonFair"
-	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
+	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
-	orbitBodyType "MoonFair"
+	orbitBodyType "Barren"
 planetType
 	designName "DeadAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetDeadAsteroid"
@@ -563,9 +563,9 @@ planetType
 	orbitBodyType "DeadAsteroid"	
 planetType
 	designName "ShipGraveyard"
-	designStringId "IDSGalaxyScenarioTypePlanetShipGraveyard"
-	orbitBodyTypeCount 1
-	orbitBodyType "ShipGraveyard"	
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidBelt"
 planetType
 	designName "AsteroidBelt"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
@@ -573,59 +573,59 @@ planetType
 	orbitBodyType "AsteroidBelt"
 planetType
 	designName "AsteroidBeltFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBeltFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidBeltFair"
 planetType
 	designName "AsteroidSpaceJunk"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunk"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
 	orbitBodyTypeCount 1	
-	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "AsteroidBelt"
 planetType
 	designName "AsteroidSpaceJunkFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunkFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
 	designName "PlasmaStorm"
-	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStorm"
-	orbitBodyTypeCount 1
-	orbitBodyType "PlasmaStorm"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
 	designName "Comet"
-	designStringId "IDSGalaxyScenarioTypePlanetComet"
-	orbitBodyTypeCount 1
-	orbitBodyType "Comet"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
 	designName "IceField"
-	designStringId "IDSGalaxyScenarioTypePlanetIceField"
-	orbitBodyTypeCount 1
-	orbitBodyType "IceField"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
 	designName "ShatteredMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetShatteredMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
-	orbitBodyType "ShatteredMoon"
+	orbitBodyType "Barren"
 planetType
 	designName "RadiationStorm"
-	designStringId "IDSGalaxyScenarioTypePlanetRadiationStorm"
+	designStringId "IDSGalaxyScenarioTypePlanetNebula"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"
+	orbitBodyType "Nebula"
 planetType
 	designName "AntimatterFountain"
-	designStringId "IDSGalaxyScenarioTypePlanetAntimatterFountain"
+	designStringId "IDSGalaxyScenarioTypePlanetNebula"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"
+	orbitBodyType "Nebula"
 planetType
 	designName "PlasmaStormFair"
-	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
+	designStringId "IDSGalaxyScenarioTypePlanetNebula"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"	
+	orbitBodyType "Nebula"	
 planetType
 	designName "MagneticCloud"
 	designStringId "IDSGalaxyScenarioTypePlanetMagneticCloud"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"	
+	orbitBodyType "Nebula"	
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
@@ -633,9 +633,9 @@ planetType
 	orbitBodyType "GasGiant"
 planetType
 	designName "GasGiantFair"
-	designStringId "IDSGalaxyScenarioTypePlanetGasGiantFair"
+	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
 	orbitBodyTypeCount 1	
-	orbitBodyType "GasGiantFair"
+	orbitBodyType "GasGiant"
 planetType
 	designName "Wormhole"
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
@@ -699,23 +699,23 @@ planetType
 orbitBodyTypeCount 58
 orbitBodyType
 	typeName "BlueStar"
-	entityDefName "STAR_BLUE"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""
 orbitBodyType	
 	typeName "YellowStar"
-	entityDefName "STAR_YELLOW"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""
 orbitBodyType	
 	typeName "RedStar"
-	entityDefName "STAR_RED"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""
 orbitBodyType	
 	typeName "GreenStar"
-	entityDefName "STAR_GREEN"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "NeutronStar"
-	entityDefName "STAR_NEUTRON"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "BlackHoleStar"
@@ -723,15 +723,15 @@ orbitBodyType
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "PulsarStar"
-	entityDefName "STAR_PULSAR"
+	entityDefName "STAR_BLACKHOLE"
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "PirateBase"
-	entityDefName "PlanetPirateBase"
+	entityDefName "PlanetTerranThree"
 	defaultTemplateName "Template:PirateBase"
 orbitBodyType	
 	typeName "BarrenFair"
-	entityDefName "PlanetBarrenFair"
+	entityDefName "PlanetBarren"
 	defaultTemplateName "Template:DefaultStart_BarrenFair"
 orbitBodyType	
 	typeName "FerrusFair"
@@ -767,7 +767,7 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_Terran"
 orbitBodyType	
 	typeName "TerranFair"
-	entityDefName "PlanetTerranFair"
+	entityDefName "PlanetTerranTwo"
 	defaultTemplateName "Template:DefaultStart_TerranFair"		
 orbitBodyType	
 	typeName "TerranHome"
@@ -783,7 +783,7 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_DesertFair"	
 orbitBodyType	
 	typeName "DesertHome"
-	entityDefName "PlanetDesertHome"
+	entityDefName "PlanetDesert"
 	defaultTemplateName "Template:DefaultStart_Desert"	
 orbitBodyType	
 	typeName "Volcanic"
@@ -819,7 +819,7 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_IceFair"					
 orbitBodyType	
 	typeName "DeadAsteroid"
-	entityDefName "PlanetDeadAsteroid"
+	entityDefName "PlanetAsteroid"
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "AsteroidBelt"
@@ -827,15 +827,15 @@ orbitBodyType
 	defaultTemplateName ""		
 orbitBodyType	
 	typeName "AsteroidBeltFair"
-	entityDefName "PlanetAsteroidBeltFair"
+	entityDefName "PlanetAsteroidBelt"
 	defaultTemplateName ""		
 orbitBodyType	
 	typeName "AsteroidSpaceJunk"
-	entityDefName "PlanetAsteroidSpaceJunk"
+	entityDefName "PlanetAsteroidBelt"
 	defaultTemplateName ""	
 orbitBodyType	
 	typeName "AsteroidSpaceJunkFair"
-	entityDefName "PlanetAsteroidSpaceJunkFair"
+	entityDefName "PlanetAsteroidBelt"
 	defaultTemplateName ""		
 orbitBodyType	
 	typeName "GasGiant"
@@ -859,11 +859,11 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_ShipGraveyard"
 orbitBodyType	
 	typeName "IceField"
-	entityDefName "PlanetIceField"
+	entityDefName "PlanetIce"
 	defaultTemplateName "Template:DefaultStart_IceField"
 orbitBodyType	
 	typeName "ShatteredMoon"
-	entityDefName "PlanetShatteredMoon"
+	entityDefName "PlanetBarren"
 	defaultTemplateName "Template:DefaultStart_ShatteredMoon"
 orbitBodyType	
 	typeName "RadiationStorm"
@@ -883,11 +883,11 @@ orbitBodyType
 	defaultTemplateName ""
 orbitBodyType
 	typeName "Wormhole"
-	entityDefName "PlanetWormhole"
+	entityDefName "PlanetGasGiant"
 	defaultTemplateName ""
 orbitBodyType
 	typeName "Occupied"
-	entityDefName "OccupiedPlanet"
+	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:OccupiedPlanet"
 orbitBodyType	
 	typeName "AridOcean"
@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 187
+planetItemTypeCount 154
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -938,118 +938,19 @@ planetItemType
 	entityDefName "Remnant_Katana"
 planetItemType
 	designName "Pirate:Frigate:Medium"
-	entityDefName "FrigatePirateMedium"
+	entityDefName "Remnant_Carrack"
 planetItemType
 	designName "Pirate:Frigate:Scout"
-	entityDefName "FrigatePirateScout"
+	entityDefName "Remnant_Mu"
 planetItemType
 	designName "Pirate:Frigate:Siege"
-	entityDefName "FrigatePirateSiege"
+	entityDefName "Remnant_VSDI"
 planetItemType
 	designName "Pirate:Frigate:Heavy"
-	entityDefName "FrigatePirateHeavy"
+	entityDefName "Remnant_VSDII"
 planetItemType
 	designName "Pirate:Frigate:AntiFighter"
-	entityDefName "FrigatePirateAntiFighter"
-planetItemType
-	designName "Bonus:CrystalMiners"
-	entityDefName "PlanetBonusCrystalMiners"
-planetItemType
-	designName "Bonus:ConductiveInterior"
-	entityDefName "PlanetBonusConductiveInterior"
-planetItemType
-	designName "Bonus:GeothermalPower"
-	entityDefName "PlanetBonusGeothermalHeatSource"
-planetItemType
-	designName "Bonus:HeliumAtmosphere"
-	entityDefName "PlanetBonusHeliumAtmosphere"
-planetItemType
-	designName "Bonus:IndustrialWasteland"
-	entityDefName "PlanetBonusIndustrialWasteland"
-planetItemType
-	designName "Bonus:Meteorites"
-	entityDefName "PlanetBonusMeteoriteCraters"
-planetItemType
-	designName "Bonus:SatelliteInfrastructure"
-	entityDefName "PlanetBonusSatelliteInfrastructure"
-planetItemType
-	designName "Bonus:SignalAbsorption"
-	entityDefName "PlanetBonusSignalAbsorption"
-planetItemType
-	designName "Bonus:SolarEnergy"
-	entityDefName "PlanetBonusSolarEnergyReserves"
-planetItemType
-	designName "Bonus:StableDebrisField"
-	entityDefName "PlanetBonusStableDebrisField"
-planetItemType
-	designName "Bonus:ThawCells"
-	entityDefName "PlanetBonusThawCells"
-planetItemType
-	designName "Bonus:ToxicFallout"
-	entityDefName "PlanetBonusToxicFallout"
-planetItemType
-	designName "Bonus:AcidAtmosphere"
-	entityDefName "PlanetBonusAcidAtmosphere"
-planetItemType
-	designName "Bonus:CavernSystem"
-	entityDefName "PlanetBonusCavernSystem"
-planetItemType
-	designName "Bonus:DustStorms"
-	entityDefName "PlanetBonusDustStorms"
-planetItemType
-	designName "Bonus:HighGravity"
-	entityDefName "PlanetBonusHighGravity"
-planetItemType
-	designName "Bonus:HugeGlaciers"
-	entityDefName "PlanetBonusHugeGlaciers"
-planetItemType
-	designName "Bonus:IonicStorms"
-	entityDefName "PlanetBonusIonicStorms"
-planetItemType
-	designName "Bonus:LowGravity"
-	entityDefName "PlanetBonusLowGravity"
-planetItemType
-	designName "Bonus:MedicinalPlants"
-	entityDefName "PlanetBonusMedicinalPlants"
-planetItemType
-	designName "Bonus:MegaFauna"
-	entityDefName "PlanetBonusMegaFauna"
-planetItemType
-	designName "Bonus:MetalMiners"
-	entityDefName "PlanetBonusMetalMiners"
-planetItemType
-	designName "Bonus:PenalColony"
-	entityDefName "PlanetBonusPenalColony"
-planetItemType
-	designName "Bonus:PirateTreasure"
-	entityDefName "PlanetBonusPirateTreasure"
-planetItemType
-	designName "Bonus:RareMetalDeposits"
-	entityDefName "PlanetBonusRareMetalDeposits0"
-planetItemType
-	designName "Bonus:SalvagerOutpost"
-	entityDefName "PlanetBonusSalvagerOutpost"
-planetItemType
-	designName "Bonus:SpiceTrade"
-	entityDefName "PlanetBonusSpiceTrade"
-planetItemType
-	designName "Bonus:StrictSecuirty"
-	entityDefName "PlanetBonusStrictSecurity"
-planetItemType
-	designName "Bonus:SurplusFoodstuffs"
-	entityDefName "PlanetBonusSurplusFoodstuffs"
-planetItemType
-	designName "Bonus:ThermalLift"
-	entityDefName "PlanetBonusThermalLift"
-planetItemType
-	designName "Bonus:TundraFarms"
-	entityDefName "PlanetBonusTundraFarms"
-planetItemType
-	designName "Bonus:VacationCenter"
-	entityDefName "PlanetBonusVacationCenter"
-planetItemType
-	designName "Bonus:WeaponTestGrounds"
-	entityDefName "PlanetBonusWeaponTestGrounds"		
+	entityDefName "Remnant_Lancer"
 planetItemType
 	designName "Artifact:WeaponBoost"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
@@ -1097,10 +998,10 @@ planetItemType
 	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Cosmetic:TitanPhaseLoyalist"
-	entityDefName "Cosmetic_Executor"
+	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Cosmetic:TitanPhaseRebel"
-	entityDefName "Cosmetic_Bellator"
+	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Unique:Starbase:Centerpoint"
 	entityDefName "Unique_Centerpoint"
@@ -1510,14 +1411,15 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 104
+planetItemsTemplateCount 107
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
 	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
-	subTemplates 0
+	subTemplates 1
+		template "Template:DefaultMinorFaction"
 	groups 10
 		group
 			condition
@@ -1594,8 +1496,8 @@ planetItemsTemplate
 			items 14
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
@@ -1721,8 +1623,8 @@ planetItemsTemplate
 			items 15
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Frigate:Consen"
 				item "EotH:Module:Durasteel"
@@ -1888,6 +1790,11 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_ShatteredMoon"
 	subTemplates 1
 		template "Template:NewRepMilitiaWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Nebula"
+	subTemplates 1
+		template "Template:HapansMilitiaWeak"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_RadiationStorm"
@@ -3260,6 +3167,38 @@ planetItemsTemplate
 				item "Ssi:Frigate:Lwhekk"
 				item "Ssi:Frigate:Shree"
 planetItemsTemplate
+	templateName "Template:SsiMilitiaMediumFair"
+	subTemplates 0
+		groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 7
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 7
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+planetItemsTemplate
 	templateName "Template:ZsinjHome"
 	subTemplates 0
 		groups 1
@@ -3535,6 +3474,196 @@ planetItemsTemplate
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:StarHome"
+planetItemsTemplate
+	templateName "Template:DefaultMinorFaction"
+	subTemplates 0
+	groups 6
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFZeroCommand"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFEriadu"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFMaldrood"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFRestored"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFZsinj"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFCentrality"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Module:CapitalShipyard"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:VSDII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Sentinel"
 validPictureGroups 5
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3548,7 +3677,7 @@ themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "PlayerHapans"
 themeGroup "NPC"
-autoAddPlayers 7
+npcPlayers 30
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3557,11 +3686,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer TRUE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCPirateRaider"
 	themeGroup "SpecialNPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -3574,11 +3699,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer TRUE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCRebel"
 	themeGroup "SpecialNPC"
 	themeIndex 1
 	pictureGroup "NPC"
@@ -3586,16 +3707,12 @@ player
 player
 	designName "Occupation"
 	inGameName "IDSScenarioPlayerNameOccupation"
-	overrideRaceName "NewRep"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer TRUE
-	isMadVasariPlayer FALSE
+	playerType "NPCOccupationVictory"
 	themeGroup "NPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -3603,73 +3720,16 @@ player
 player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
-	overrideRaceName "EotH"
-	teamIndex -1
-	startingCredits 0
-	startingMetal 0
-	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer TRUE
-	themeGroup "PlayerRemnant"
-	themeIndex 15
-	pictureGroup "PlayerRemnant"
-	pictureIndex 15
-player
-	designName "InsurgentWarlord"
-	inGameName "IDS_PLAYERRACENAME_WARLORDS"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer TRUE
+	playerType "NPCMadVasari"
 	themeGroup "PlayerRemnant"
 	themeIndex 15
 	pictureGroup "PlayerRemnant"
 	pictureIndex 15
-player
-	designName "HapesConsortium"
-	inGameName "IDS_PLAYERRACENAME_HAPANS"
-	overrideRaceName "Hapans"
-	teamIndex -1
-	startingCredits 0
-	startingMetal 0
-	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup "PlayerHapans"
-	themeIndex 15
-	pictureGroup "PlayerHapans"
-	pictureIndex 15
-player
-	designName "Zsinj"
-	inGameName "IDS_PLAYERRACENAME_ZSINJ"
-	overrideRaceName "Remnant"
-	teamIndex -1
-	startingCredits 0
-	startingMetal 0
-	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup "PlayerRemnant"
-	themeIndex 3
-	pictureGroup "PlayerRemnant"
-	pictureIndex 3
-autoAddMiltiaPlayerCountPerGalaxy 5
-autoAddMilitiaPlayers 20
 player
 	designName "Militia0"
 	inGameName "IDSScenarioPlayerNameMilitia0"
@@ -3678,334 +3738,254 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 2
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia1"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia1"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 3
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia2"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia2"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 4
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia3"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia3"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 5
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia4"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia4"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 6
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia5"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia5"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 7
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia6"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia6"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia7"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia7"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 9
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia8"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia8"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 10
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia9"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia9"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 11
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia10"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia10"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 12
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia11"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia11"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 13
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia12"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia12"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 14
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia13"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia13"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 15
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia14"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia14"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 16
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia15"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia15"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 17
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia16"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia16"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 18
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia17"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia17"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 19
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia18"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia18"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 20
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "Militia19"
-	inGameName "IDSScenarioPlayerNameMilitia0"
+	inGameName "IDSScenarioPlayerNameMilitia19"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 21
 	pictureGroup "NPC"
@@ -4013,13 +3993,13 @@ player
 player
 	designName "MinorFaction0"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech0"
-	overrideRaceName "TechLoyalist"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechMiners"
+	minorFactionPlayerDefName "MFMaldrood"
 	themeGroup "NPCMinorFactions"
 	themeIndex 11
 	pictureGroup "NPC"
@@ -4027,13 +4007,13 @@ player
 player
 	designName "MinorFaction1"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech1"
-	overrideRaceName "TechLoyalist"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechScrappers"
+	minorFactionPlayerDefName "MFEriadu"
 	themeGroup "NPCMinorFactions"
 	themeIndex 1
 	pictureGroup "NPC"
@@ -4041,13 +4021,13 @@ player
 player
 	designName "MinorFaction2"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech2"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechSiegeRaiders"
+	minorFactionPlayerDefName "MFZsinj"
 	themeGroup "NPCMinorFactions"
 	themeIndex 2
 	pictureGroup "NPC"
@@ -4055,13 +4035,13 @@ player
 player
 	designName "MinorFaction3"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech3"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechDemolitionists"
+	minorFactionPlayerDefName "MFRestored"
 	themeGroup "NPCMinorFactions"
 	themeIndex 10
 	pictureGroup "NPC"
@@ -4069,13 +4049,13 @@ player
 player
 	designName "MinorFaction4"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech4"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechXenophobes"
+	minorFactionPlayerDefName "MFCentrality"
 	themeGroup "NPCMinorFactions"
 	themeIndex 3
 	pictureGroup "NPC"
@@ -4083,141 +4063,15 @@ player
 player
 	designName "MinorFaction5"
 	inGameName "IDSScenarioPlayerNameMinorFactionTech5"
-	overrideRaceName "TechLoyalist"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechUsedFrigates"
+	minorFactionPlayerDefName "MFZeroCommand"
 	themeGroup "NPCMinorFactions"
 	themeIndex 9
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction6"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech6"
-	overrideRaceName "TechLoyalist"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechDefensive"
-	themeGroup "NPCMinorFactions"
-	themeIndex 4
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction7"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi0"
-	overrideRaceName "PsiRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiPacifists"
-	themeGroup "NPCMinorFactions"
-	themeIndex 8
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction8"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi1"
-	overrideRaceName "PsiRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiCulture"
-	themeGroup "NPCMinorFactions"
-	themeIndex 12
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction9"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi2"
-	overrideRaceName "PsiRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiDoomCult"
-	themeGroup "NPCMinorFactions"
-	themeIndex 14
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction10"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi3"
-	overrideRaceName "PsiLoyalist"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiSiegeRaiders"
-	themeGroup "NPCMinorFactions"
-	themeIndex 5
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction11"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase0"
-	overrideRaceName "PhaseRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseTransporters"
-	themeGroup "NPCMinorFactions"
-	themeIndex 13
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction12"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase1"
-	overrideRaceName "PhaseRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseExpedition"
-	themeGroup "NPCMinorFactions"
-	themeIndex 0
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction13"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase2"
-	overrideRaceName "PhaseRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseArmsDealers"
-	themeGroup "NPCMinorFactions"
-	themeIndex 7
-	pictureGroup "NPC"
-	pictureIndex 2
-player
-	designName "MinorFaction14"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase3"
-	overrideRaceName "PhaseLoyalist"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "DefaultPhase"
-	themeGroup "NPCMinorFactions"
-	themeIndex 6
 	pictureGroup "NPC"
 	pictureIndex 2
 npcMiltiaPlayerCountPerGalaxy 5
