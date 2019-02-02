@@ -1,10 +1,10 @@
 TXT2
 SinsArchiveVersion 193
 entityType "Cosmetic"
-ability:0 "AbilitySubjugatingAssault"
-ability:1 "AbilitySuppressionAura"
-ability:2 "AbilityUnityMass"
-ability:3 "AbilityRepossession"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -53,14 +53,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 7
-UpgradeType "TitanUpgrade_PsiLoyalist_AbilityA"
-UpgradeType "TitanUpgrade_PsiLoyalist_AbilityB"
-UpgradeType "TitanUpgrade_PsiLoyalist_AbilityC"
-UpgradeType "TitanUpgrade_PsiLoyalist_AbilityD"
-UpgradeType "TitanUpgrade_PsiLoyalist_Durability"
-UpgradeType "TitanUpgrade_PsiLoyalist_Weapons"
-UpgradeType "TitanUpgrade_PsiLoyalist_Abilities"
+UpgradeTypeCount 0
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 0
@@ -242,7 +235,7 @@ TargetCountPerBank:LEFT 2
 TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 mass 100000.000000
-ShieldMeshName "Titan_PsiLoyalist_Shield"
+ShieldMeshName "NR_MC80"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000

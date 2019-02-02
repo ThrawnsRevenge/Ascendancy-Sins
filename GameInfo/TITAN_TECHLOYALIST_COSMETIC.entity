@@ -53,14 +53,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 7
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityA"
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityB"
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityC"
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityD"
-UpgradeType "TitanUpgrade_TechLoyalist_Durability"
-UpgradeType "TitanUpgrade_TechLoyalist_Weapons"
-UpgradeType "TitanUpgrade_TechLoyalist_Abilities"
+UpgradeTypeCount 0
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 0
@@ -244,7 +237,7 @@ TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 mass 100000.000000
-ShieldMeshName "Titan_TechLoyalist_Shield"
+ShieldMeshName "IR_Executor"
 renderShield TRUE
 maxAccelerationLinear 80.000000
 maxAccelerationStrafe 10.000000

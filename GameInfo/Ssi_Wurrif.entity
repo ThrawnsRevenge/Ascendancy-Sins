@@ -129,7 +129,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechLight"
+ShieldMeshName "Ssi_Wurrif"
 renderShield FALSE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000

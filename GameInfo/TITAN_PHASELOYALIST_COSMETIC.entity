@@ -1,11 +1,11 @@
 TXT2
 SinsArchiveVersion 193
 entityType "Cosmetic"
-ability:0 "AbilityMicroPhaseJump"
-ability:1 "AbilitySuffusion"
-ability:2 "AbilityDesperation"
-ability:3 "AbilityTheMaw"
-ability:4 "AbilityTitanFleetBeacon"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -53,14 +53,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 7
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityA"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityB"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityC"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityD"
-UpgradeType "TitanUpgrade_PhaseLoyalist_Durability"
-UpgradeType "TitanUpgrade_PhaseLoyalist_Weapons"
-UpgradeType "TitanUpgrade_PhaseLoyalist_Abilities"
+UpgradeTypeCount 0
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 0
@@ -242,7 +235,7 @@ TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 mass 100000.000000
-ShieldMeshName "Titan_PhaseLoyalist_Shield"
+ShieldMeshName "IR_VSD"
 renderShield TRUE
 maxAccelerationLinear 80.000000
 maxAccelerationStrafe 10.000000

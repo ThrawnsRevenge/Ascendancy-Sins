@@ -61,12 +61,11 @@ entities
 			entityDefName "NewRep_GallofreeConstructor"
 			entityDefName "NewRep_MC40"
 		NotOnPage
-			count 5
+			count 4
 			entityDefName "NewRep_CT11"
 			entityDefName "NewRep_Stargalleon"
 			entityDefName "NewRep_YT"
 			entityDefName "NewRep_EscapePod"
-			entityDefName "FrigateTechRefineryShip"
 	researchInfo
 		count 108
 		entityDefName "DummyResearch_AlwaysOn"

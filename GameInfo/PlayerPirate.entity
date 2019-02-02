@@ -42,11 +42,11 @@ entities
 	frigateInfo
 		Page:0
 			count 5
-			entityDefName "FrigatePirateMedium"
-			entityDefName "FrigatePirateScout"
-			entityDefName "FrigatePirateSiege"
-			entityDefName "FrigatePirateHeavy"
-			entityDefName "FrigatePirateAntiFighter"
+			entityDefName "Remnant_Lancer"
+			entityDefName "Remnant_Carrack"
+			entityDefName "Remnant_Mu"
+			entityDefName "Remnant_EscortCarrier"
+			entityDefName "Remnant_Strikecruiser"
 		Page:1
 			count 0
 		NotOnPage
