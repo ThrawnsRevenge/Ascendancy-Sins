@@ -60,10 +60,9 @@ entities
 			entityDefName "Remnant_SentinelConstructor"
 			entityDefName "Remnant_CrimsonCommand"
 		NotOnPage
-			count 3
+			count 2
 			entityDefName "Remnant_CT11"
 			entityDefName "Remnant_Stargalleon"
-			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
 		count 105
 		entityDefName "RemnantResearch_Global_SupplyChain"

@@ -11,7 +11,8 @@ isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	spawnShipsLevelCount 4
 	spawnShips
 		minFleetPoints 20.000000

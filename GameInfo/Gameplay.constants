@@ -1,6 +1,5 @@
 TXT2
 SinsArchiveVersion 193
-SinsArchiveVersion 193
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -18,7 +17,6 @@ GameplayConstants
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 15
-	maxAiCannons 3
 	maxAiCannons 3
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
@@ -356,19 +354,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "FrigateTechLight"
+					type "NewRep_Nebulon"
 					weight 2
 				randomShip
-					type "FrigateTechLongRange"
+					type "NewRep_Quasar"
 					weight 6
 				randomShip
-					type "FrigateTechHeavy"
+					type "NewRep_Proficient"
 					weight 8
 				randomShip
-					type "FrigateTechAntiFighter"
+					type "NewRep_CR90"
 					weight 3
 				randomShip
-					type "FrigateTechSiege"
+					type "NewRep_MC40"
 					weight 3
 		rebellionInfo
 			minTimeBetweenAttacks 450
@@ -380,19 +378,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "FrigateTechLight"
+					type "Remnant_Strikecruiser"
 					weight 2
 				randomShip
-					type "FrigateTechLongRange"
+					type "Remnant_Carrack"
 					weight 6
 				randomShip
-					type "FrigateTechHeavy"
+					type "Remnant_VSDI"
 					weight 8
 				randomShip
-					type "FrigateTechAntiFighter"
+					type "Remnant_Lancer"
 					weight 3
 				randomShip
-					type "FrigateTechSiege"
+					type "Remnant_VSDII"
 					weight 3
 		pirateMercenariesInfo
 			minTimeBetweenAttacks 450
@@ -404,19 +402,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "FrigatePirateScout"
+					type "Remnant_Strikecruiser"
+					weight 2
+				randomShip
+					type "Remnant_Carrack"
+					weight 6
+				randomShip
+					type "Remnant_VSDI"
+					weight 8
+				randomShip
+					type "Remnant_Lancer"
 					weight 3
 				randomShip
-					type "FrigatePirateMedium"
-					weight 3
-				randomShip
-					type "FrigatePirateHeavy"
-					weight 3
-				randomShip
-					type "FrigatePirateAntiFighter"
-					weight 3
-				randomShip
-					type "FrigatePirateSiege"
+					type "Remnant_VSDII"
 					weight 3
 	VisibilityDistanceData
 		capitalShipRadiusMultiplier 100
@@ -957,9 +955,9 @@ GameplayConstants
 	aiData
 		aiRetreatThreshold 0.1
 	victoryData
-		occupationVictoryStarType "STAR_RED"
+		occupationVictoryStarType "STAR_BLACKHOLE"
 		occupationVictoryStarName "OccupationStar"
-		occupationVictoryPlanetType "OccupiedPlanet"
+		occupationVictoryPlanetType "PlanetTerranThree"
 		occupationVictoryPlanetName "Occupation"
 		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
 		occupationVictoryTime 1200
@@ -1029,7 +1027,7 @@ GameplayConstants
 					type "EotH_Alaria"
 					weight 1
 		outlawSpawnShipsOptions
-			raceEntityName "PlayerHapes"
+			raceEntityName "PlayerHapans"
 			spawnShips
 				minFleetPoints 20.000000
 				maxFleetPoints 20.000000
@@ -1131,8 +1129,7 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 1
-		planet "PlanetDeadAsteroid"
+		colonizePlanetBlackListCount 0
 		colonizablePlanetsWithMinorFactionsPercent 0.25
 		minConnectionDistanceToColonizedPlanets 2
 		minConnectionDistanceToSameFactionPlanets 5

@@ -12,9 +12,9 @@ range
 effectInfo
 	effectAttachInfo
 		attachType "Center"
-	smallEffectName "Ability_MicroPhaseJump"
-	mediumEffectName "Ability_MicroPhaseJump"
-	largeEffectName "Ability_MicroPhaseJump"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
 	soundID "EFFECT_MICROPHASEJUMP"
 needsToFaceTarget FALSE
 canCollideWithTarget FALSE

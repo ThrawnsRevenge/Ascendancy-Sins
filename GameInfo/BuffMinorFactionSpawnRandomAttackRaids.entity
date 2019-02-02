@@ -1,0 +1,123 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 8.000000
+		Level:1 8.000000
+		Level:2 8.000000
+		Level:3 8.000000
+	actionIntervalTime
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+	buffInstantActionType "SpawnShipsAtPlanetWithRandomTarget"
+	instantActionTriggerType "AlwaysPerform"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	spawnShipsLevelCount 3
+	spawnShips
+		minFleetPoints 20.000000
+		maxFleetPoints 30.000000
+		requiredShipCount 2
+		requiredShip
+			type "FrigatePsiLight"
+			minCount 1
+			maxCount 1
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 1
+			maxCount 1
+		randomShipCount 4
+		randomShip
+			type "FrigatePsiLight"
+			weight 6
+		randomShip
+			type "FrigatePsiLongRange"
+			weight 6
+		randomShip
+			type "FrigatePsiHeavy"
+			weight 1
+		randomShip
+			type "FrigatePsiAntiFighter"
+			weight 2
+	spawnShips
+		minFleetPoints 30.000000
+		maxFleetPoints 40.000000
+		requiredShipCount 2
+		requiredShip
+			type "FrigatePsiLight"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 2
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "FrigatePsiLight"
+			weight 6
+		randomShip
+			type "FrigatePsiLongRange"
+			weight 6
+		randomShip
+			type "FrigatePsiHeavy"
+			weight 2
+		randomShip
+			type "FrigatePsiAntiFighter"
+			weight 2
+	spawnShips
+		minFleetPoints 40.000000
+		maxFleetPoints 50.000000
+		requiredShipCount 2
+		requiredShip
+			type "FrigatePsiLight"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 3
+			maxCount 3
+		randomShipCount 4
+		randomShip
+			type "FrigatePsiLight"
+			weight 6
+		randomShip
+			type "FrigatePsiLongRange"
+			weight 6
+		randomShip
+			type "FrigatePsiHeavy"
+			weight 4
+		randomShip
+			type "FrigatePsiAntiFighter"
+			weight 2
+	spawnShipsArrivalDelayTime 3.000000
+	spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

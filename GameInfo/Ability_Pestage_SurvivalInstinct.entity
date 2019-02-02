@@ -8,9 +8,9 @@ effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName "Ability_SpreadWeaponDamageActivate"
-	mediumEffectName "Ability_SpreadWeaponDamageActivate"
-	largeEffectName "Ability_SpreadWeaponDamageActivate"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
 	soundID "EFFECT_MALICE"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE

@@ -29,10 +29,7 @@ Tier 4
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
-researchBoolModifiers 1
-researchModifier
-	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffFearOfForce"
+researchBoolModifiers 0
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

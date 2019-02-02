@@ -16,7 +16,8 @@ instantAction
 	buffType "BuffEscapeSelf"
 instantAction
 	buffInstantActionType "GiveCreditsToPlayer"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	credits
 		Level:0 100.000000
 		Level:1 100.000000
