@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 okButton
 	area [0,0,0,0]
 	fontId "ButtonLabel"

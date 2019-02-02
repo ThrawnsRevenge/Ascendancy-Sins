@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 scenarioListLabel
 	area [0, -10, 220, 30]
 	fontId "ButtonLabel"

@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 backdrop "AscendancyBackdropMenuInternetGameLobby"
 textEntryDef
 	labelFontId "Label"

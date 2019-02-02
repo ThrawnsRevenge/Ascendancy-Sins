@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 buttonDef
 	iconArea [10, 0, 30, 30]
 	textArea [50, 0, 100, 30]
