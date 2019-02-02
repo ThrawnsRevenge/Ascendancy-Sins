@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -35,7 +34,8 @@ periodicAction
 		Level:2 10.000000
 		Level:3 10.000000
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.500000
 	buffType "RandomEventDeathSeedTradeShipDetermine"
 	targetFilter
 		numOwnerships 0

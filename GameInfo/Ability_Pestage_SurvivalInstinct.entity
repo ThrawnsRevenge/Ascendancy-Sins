@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -8,9 +7,9 @@ effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
+	smallEffectName "Ability_SpreadWeaponDamageActivate"
+	mediumEffectName "Ability_SpreadWeaponDamageActivate"
+	largeEffectName "Ability_SpreadWeaponDamageActivate"
 	soundID "EFFECT_MALICE"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE

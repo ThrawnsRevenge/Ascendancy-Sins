@@ -1,5 +1,5 @@
 TXT
-versionNumber 193
+versionNumber 4
 isBrowsable FALSE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName ""
@@ -53,5 +53,3 @@ starCount 1
 		connectionChance .75
 		maxPlayerCount 0
 		ringCount 0
-dlcID 204880
-

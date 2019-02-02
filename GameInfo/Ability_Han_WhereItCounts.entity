@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyArbitraryTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -12,9 +11,9 @@ range
 effectInfo
 	effectAttachInfo
 		attachType "Center"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
+	smallEffectName "Ability_MicroPhaseJump"
+	mediumEffectName "Ability_MicroPhaseJump"
+	largeEffectName "Ability_MicroPhaseJump"
 	soundID "EFFECT_MICROPHASEJUMP"
 needsToFaceTarget FALSE
 canCollideWithTarget FALSE

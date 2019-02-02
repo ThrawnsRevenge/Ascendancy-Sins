@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCH_CULTUREINCREASE"
 smallHudIcon "HUDICON_RESEARCH_CULTUREINCREASE"
@@ -32,7 +31,7 @@ priority 1.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffOverwhelmCapital"
+	buffToApply "BuffFearOfForce"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

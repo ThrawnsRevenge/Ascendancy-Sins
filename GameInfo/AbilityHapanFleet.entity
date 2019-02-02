@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
@@ -14,9 +13,6 @@ spawnShips
 		weight 2
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
-shouldAdoptFirstSpawnersMinorFactionState TRUE
-spawnShipsMinStartingHullPerc 1.0
-spawnShipsMaxStartingHullPerc 1.0
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -31,21 +27,10 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
-creditCost
-	Level:0 2500.000000
-	Level:1 2500.000000
-	Level:2 2500.000000
-	Level:3 2500.000000
-metalCost
-	Level:0 150.000000
-	Level:1 150.000000
-	Level:2 150.000000
-	Level:3 150.000000
-crystalCost
-	Level:0 500.000000
-	Level:1 500.000000
-	Level:2 500.000000
-	Level:3 500.000000
+resourceCost
+	credits 2500.000000
+	metal 150.000000
+	crystal 500.000000
 cooldownTime
 	Level:0 600.000000
 	Level:1 600.000000

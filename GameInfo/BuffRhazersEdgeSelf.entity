@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -10,8 +9,7 @@ isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffRhazersEdgeTarget"
 	targetFilter
 		numOwnerships 1
@@ -52,8 +50,7 @@ instantAction
 		soundID "EFFECT_SCATTERSHOT"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffRhazersEdgeTarget"
 	targetFilter
 		numOwnerships 1

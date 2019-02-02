@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
@@ -10,16 +9,13 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Remnant_Allegiance"
+		type "Remnant_Praetor"
 		weight 1
 	randomShip
 		type "Remnant_WorldDevastator"
 		weight 1
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
-shouldAdoptFirstSpawnersMinorFactionState TRUE
-spawnShipsMinStartingHullPerc 1.0
-spawnShipsMaxStartingHullPerc 1.0
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -36,21 +32,10 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
-creditCost
-	Level:0 1610.000000
-	Level:1 1610.000000
-	Level:2 1610.000000
-	Level:3 1610.000000
-metalCost
-	Level:0 250.000000
-	Level:1 250.000000
-	Level:2 250.000000
-	Level:3 250.000000
-crystalCost
-	Level:0 150.000000
-	Level:1 150.000000
-	Level:2 150.000000
-	Level:3 150.000000
+resourceCost
+	credits 1610.000000
+	metal 250.000000
+	crystal 150.000000
 cooldownTime
 	Level:0 500.000000
 	Level:1 500.000000

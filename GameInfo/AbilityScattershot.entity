@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
 instantActionTriggerType "AlwaysPerform"

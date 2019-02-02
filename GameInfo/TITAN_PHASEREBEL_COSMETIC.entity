@@ -1,10 +1,9 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Cosmetic"
-ability:0 ""
-ability:1 ""
-ability:2 ""
-ability:3 ""
+ability:0 "AbilityNanoLeech"
+ability:1 "AbilityNanoRemit"
+ability:2 "AbilityGravityPulse"
+ability:3 "AbilityDissever"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -53,7 +52,14 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 0
+UpgradeTypeCount 7
+UpgradeType "TitanUpgrade_PhaseRebel_AbilityA"
+UpgradeType "TitanUpgrade_PhaseRebel_AbilityB"
+UpgradeType "TitanUpgrade_PhaseRebel_AbilityC"
+UpgradeType "TitanUpgrade_PhaseRebel_AbilityD"
+UpgradeType "TitanUpgrade_PhaseRebel_Durability"
+UpgradeType "TitanUpgrade_PhaseRebel_Weapons"
+UpgradeType "TitanUpgrade_PhaseRebel_Abilities"
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 0
@@ -285,7 +291,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 100000.000000
-ShieldMeshName "IR_ISDI"
+ShieldMeshName "Titan_PhaseRebel_Shield"
 renderShield TRUE
 maxAccelerationLinear 80.000000
 maxAccelerationStrafe 10.000000

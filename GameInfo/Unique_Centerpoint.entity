@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "StarBase"
 ability:0 "AbilityDestroyPlanet"
 ability:1 "AbilityMilitarySpecialization"
@@ -62,7 +61,7 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "Remnant_StarGalleon"
+cargoShipType "FrigateTechTradeShip"
 maxCargoShipCount 5
 cargoShipRespawnTime 25.000000
 baseBuildTime 120.000000

@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -17,7 +16,6 @@ GameplayConstants
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 15
-	maxAiCannons 3
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.30
@@ -354,19 +352,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "NewRep_Nebulon"
+					type "FrigateTechLight"
 					weight 2
 				randomShip
-					type "NewRep_Quasar"
+					type "FrigateTechLongRange"
 					weight 6
 				randomShip
-					type "NewRep_Proficient"
+					type "FrigateTechHeavy"
 					weight 8
 				randomShip
-					type "NewRep_CR90"
+					type "FrigateTechAntiFighter"
 					weight 3
 				randomShip
-					type "NewRep_MC40"
+					type "FrigateTechSiege"
 					weight 3
 		rebellionInfo
 			minTimeBetweenAttacks 450
@@ -378,19 +376,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "Remnant_Strikecruiser"
+					type "FrigateTechLight"
 					weight 2
 				randomShip
-					type "Remnant_Carrack"
+					type "FrigateTechLongRange"
 					weight 6
 				randomShip
-					type "Remnant_VSDI"
+					type "FrigateTechHeavy"
 					weight 8
 				randomShip
-					type "Remnant_Lancer"
+					type "FrigateTechAntiFighter"
 					weight 3
 				randomShip
-					type "Remnant_VSDII"
+					type "FrigateTechSiege"
 					weight 3
 		pirateMercenariesInfo
 			minTimeBetweenAttacks 450
@@ -402,19 +400,19 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 5
 				randomShip
-					type "Remnant_Strikecruiser"
-					weight 2
-				randomShip
-					type "Remnant_Carrack"
-					weight 6
-				randomShip
-					type "Remnant_VSDI"
-					weight 8
-				randomShip
-					type "Remnant_Lancer"
+					type "FrigatePirateScout"
 					weight 3
 				randomShip
-					type "Remnant_VSDII"
+					type "FrigatePirateMedium"
+					weight 3
+				randomShip
+					type "FrigatePirateHeavy"
+					weight 3
+				randomShip
+					type "FrigatePirateAntiFighter"
+					weight 3
+				randomShip
+					type "FrigatePirateSiege"
 					weight 3
 	VisibilityDistanceData
 		capitalShipRadiusMultiplier 100
@@ -955,153 +953,27 @@ GameplayConstants
 	aiData
 		aiRetreatThreshold 0.1
 	victoryData
-		occupationVictoryStarType "STAR_BLACKHOLE"
+		occupationVictoryStarType "STAR_RED"
 		occupationVictoryStarName "OccupationStar"
-		occupationVictoryPlanetType "PlanetTerranThree"
+		occupationVictoryPlanetType "OccupiedPlanet"
 		occupationVictoryPlanetName "Occupation"
 		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
 		occupationVictoryTime 1200
 	outlawSectorsData
-		npcIconOffset:Mesh
-			xOffset 0
-			yOffset -35
-		npcIconOffset:MainViewIcon
-			xOffset 0
-			yOffset -10
-		npcIconOffset:HUDIcon
-			xOffset -9
-			yOffset -9
-		npcIconOffset:PlanetIcon
-			xOffset 0
-			yOffset -52
-		outlawSpawnShipsType "MatchPlayerRace"
-		numOutlawSpawnShipsOptionsCount 5
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerAlignment"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "Alignment_Arquitens"
-					weight 4
-				randomShip
-					type "Alignment_StarGalleon"
-					weight 5
-				randomShip
-					type "Alignment_Gladiator"
-					weight 6
-				randomShip
-					type "Alignment_Raider"
-					weight 3
-				randomShip
-					type "Alignment_Acclamator"
-					weight 2
-				randomShip
-					type "Alignment_Venator"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerEotH"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "EotH_Kariek"
-					weight 4
-				randomShip
-					type "EotH_Nuruodo"
-					weight 5
-				randomShip
-					type "EotH_Auriette"
-					weight 6
-				randomShip
-					type "EotH_Asdoni"
-					weight 3
-				randomShip
-					type "EotH_Vigilance"
-					weight 2
-				randomShip
-					type "EotH_Alaria"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerHapans"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "Hapans_NovaCruiser"
-					weight 4
-				randomShip
-					type "Hapans_Beta"
-					weight 5
-				randomShip
-					type "Hapans_Ray"
-					weight 6
-				randomShip
-					type "Hapans_Flare"
-					weight 3
-				randomShip
-					type "Hapans_Stella"
-					weight 2
-				randomShip
-					type "Hapans_BattleDragon"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerRemnant"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "Remnant_Carrack"
-					weight 4
-				randomShip
-					type "Remnant_Strikecruiser"
-					weight 5
-				randomShip
-					type "Remnant_VSDI"
-					weight 6
-				randomShip
-					type "Remnant_Lancer"
-					weight 3
-				randomShip
-					type "Remnant_MTC"
-					weight 2
-				randomShip
-					type "Remnant_EscortCarrier"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerNewRep"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "NewRep_Nebulon"
-					weight 4
-				randomShip
-					type "NewRep_Hajen"
-					weight 5
-				randomShip
-					type "NewRep_Quasar"
-					weight 6
-				randomShip
-					type "NewRep_CR90"
-					weight 3
-				randomShip
-					type "NewRep_YT1300"
-					weight 2
-				randomShip
-					type "NewRep_Dauntless"
-					weight 1
-		baseFleetCapacity 20.0
+		militiaMainViewXOffsetScalar 0
+		militiaMainViewYOffsetScalar -.75		
+		militiaMainViewIconSizeScalar .55
+		militiaMainViewIconXOffsetScalar 0.0
+		militiaMainViewIconYOffsetScalar -.4		
+		militiaHUDIconSizeScalar .4
+		militiaHUDIconXOffsetScalar 0.0
+		militiaHUDIconYOffsetScalar .05
+		spawnShips
+			minFleetPoints 0.000000
+			maxFleetPoints 0.000000
+			requiredShipCount 0
+			randomShipCount 0
+		baseFleetCapacity 0.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0
 		fleetSupplyMax 2000.0
@@ -1116,79 +988,4 @@ GameplayConstants
 		maxPlanetsFleetSupplyScalar .15
 		pirateBountyBonusScalar 1.25
 		pirateRaidRaidTimeScalar .85
-	minorFactionsData
-		npcIconOffset:Mesh
-			xOffset 0
-			yOffset -35
-		npcIconOffset:MainViewIcon
-			xOffset 0
-			yOffset -10
-		npcIconOffset:HUDIcon
-			xOffset -9
-			yOffset -9
-		npcIconOffset:PlanetIcon
-			xOffset 0
-			yOffset -52
-		colonizePlanetBlackListCount 0
-		colonizablePlanetsWithMinorFactionsPercent 0.25
-		minConnectionDistanceToColonizedPlanets 2
-		minConnectionDistanceToSameFactionPlanets 5
-		minAdjacentPlanetCount 2
-		infrastructurePlanetUpgradeLevel 2
-		populationPlanetUpgradeLevel 3
-		civilianModulesUpgradeLevel 2
-		tacticalModulesUpgradeLevel 1
-		planetIncomeScalar 0.33333
-		planetCultureRepelAdditiveBonus 1.5
-		spawnTime 600
-		spawnTimeVariance 120
-		minorFactionPlayerDefCount 6
-		minorFactionPlayerDef
-			name "MFZeroCommand"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		minorFactionPlayerDef
-			name "MFCentrality"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		minorFactionPlayerDef
-			name "MFEriadu"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		minorFactionPlayerDef
-			name "MFMaldrood"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		minorFactionPlayerDef
-			name "MFRestored"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		minorFactionPlayerDef
-			name "MFZsinj"
-			planetAbilities
-				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
-				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
-				ability:2 ""
-				ability:3 ""
-				ability:4 ""
-		
+

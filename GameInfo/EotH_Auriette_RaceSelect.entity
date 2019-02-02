@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityPhalanxMicroJump"
 ability:1 "AbilityRhazersEdge"

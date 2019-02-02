@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToLocalOrbitBody"
 instantActionTriggerType "AlwaysPerform"
@@ -14,13 +13,33 @@ targetFilter
 	numSpaces 1
 	space "Normal"
 	numConstraints 0
-effectInfo
-	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName "TitanAbility_InspireImpair_ActivateAthena"
-	mediumEffectName "TitanAbility_InspireImpair_ActivateAthena"
-	largeEffectName "TitanAbility_InspireImpair_ActivateAthena"
-	soundID "EFFECT_INSPIREANDIMPAIR"
+travelSpeed 3000.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "Center"
+canWeaponEffectHitHull FALSE
+canWeaponEffectHitShields FALSE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName ""
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_GENERICFIRE"
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	projectileTravelEffectName "P_StarGalleon"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

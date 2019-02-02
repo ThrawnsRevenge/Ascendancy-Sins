@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -29,7 +28,6 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 20.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.600000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -129,7 +127,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Ssi_Wurrif"
+ShieldMeshName "Shield_FrigateTechLight"
 renderShield FALSE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000

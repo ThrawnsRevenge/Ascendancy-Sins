@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -20,7 +19,7 @@ periodicAction
 	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffTradeStation"
+	conditionBuffType "IndentifierTradeStation"
 	conditionBuffShortName ""
 	buffType "BuffSmugglersPlanet"
 	targetFilter

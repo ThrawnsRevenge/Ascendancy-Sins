@@ -1,5 +1,5 @@
 TXT
-NumStrings 8713
+NumStrings 8705
 StringInfo
 	ID "IDS_ABILITY_DECOY_NAME"
 	Value "Decoy"
@@ -24141,30 +24141,6 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypeStarPulsar"
 	Value "Pulsar"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetTerranTwo"
-	Value "Terran II"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetOceanic"
-	Value "Oceanic"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetTerranThree"
-	Value "Terran III"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetBarren"
-	Value "Barren"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetArboreal"
-	Value "Arboreal"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetPolluted"
-	Value "Polluted"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
-	Value "Asteroid or Moon"
-StringInfo
-	ID "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
-	Value "Asteroid or Moon Fair"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetWeightedNonIce"
 	Value "Random - Non Ice"

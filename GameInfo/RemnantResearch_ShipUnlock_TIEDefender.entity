@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "ResearchSubject"
 hudIcon "HUDICON_TIEDEFENDER"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_UNLOCK_DEFENDER"

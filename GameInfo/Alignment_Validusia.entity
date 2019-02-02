@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 entityType "StarBase"
 ability:0 "AbilityEmpressRestore"
 ability:1 ""

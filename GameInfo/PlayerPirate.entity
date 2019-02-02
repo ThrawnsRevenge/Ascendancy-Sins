@@ -1,9 +1,8 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_PIRATE"
 canColonize TRUE
-playerRaceType "Other"
+isPsi FALSE
 isSelectable FALSE
 selectablePriorty 0
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_TECH"
@@ -42,11 +41,11 @@ entities
 	frigateInfo
 		Page:0
 			count 5
-			entityDefName "Remnant_Lancer"
-			entityDefName "Remnant_Carrack"
-			entityDefName "Remnant_Mu"
-			entityDefName "Remnant_EscortCarrier"
-			entityDefName "Remnant_Strikecruiser"
+			entityDefName "FrigatePirateMedium"
+			entityDefName "FrigatePirateScout"
+			entityDefName "FrigatePirateSiege"
+			entityDefName "FrigatePirateHeavy"
+			entityDefName "FrigatePirateAntiFighter"
 		Page:1
 			count 0
 		NotOnPage
@@ -303,7 +302,6 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintCanSpreadWeaponDamage "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintCanPhaseDodge "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAbilityWithCooldown "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetConstraintHasColonizeAbility "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAntimatter "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPhaseMissiles "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPopulation "UI_COMMON_DEFAULTERROR"
@@ -314,11 +312,9 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintHasWeapons "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsExplored "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetConstraintNotIsExplored "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsResourceExtractor "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsMovingToLocalOrbitBody "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsPsi "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetConstraintNotIsTech "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedSquad "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintNotSelf "UI_COMMON_DEFAULTERROR"
@@ -330,15 +326,12 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintNotInvulnerable "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInNonFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetConstraintNotIsMinorFactionOwned "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetConstraintNotIsOutlaw "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerLinked "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerPlayer "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerFriendly "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerHostile "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerNoOwner "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerAlliedOrEnemy "UI_COMMON_DEFAULTERROR"
-	GameEventSound:UseAbilityUnmetOwnerUncontrolledMinorFaction "UI_COMMON_DEFAULTERROR"
 	GameEventSound:GameStart "UI_TECH_PLAYERPLANETCOLONIZED"
 	GameEventSound:GameWin ""
 	GameEventSound:AllyGameWin ""

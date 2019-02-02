@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
 ability:0 "AbilityCorporateHQAbilityOne"

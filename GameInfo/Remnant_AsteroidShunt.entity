@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 entityType "SpaceMine"
 ability:0 "Ability_Pellaeon_DetonateAsteroid"
 ability:1 ""

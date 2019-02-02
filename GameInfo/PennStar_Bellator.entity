@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Titan"
 ability:0 "AbilityNumericalSuperiorityExecutor"
 ability:1 "AbilityConcussionBarrage"

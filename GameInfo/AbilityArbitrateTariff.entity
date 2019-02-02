@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -7,9 +6,9 @@ buffType "BuffArbitrateTariffSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
+	smallEffectName "GrantAmnesty"
+	mediumEffectName "GrantAmnesty"
+	largeEffectName "GrantAmnesty"
 	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
@@ -33,7 +32,10 @@ cooldownTime
 	Level:3 120.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_ARBITRATETARIFF_NAME"

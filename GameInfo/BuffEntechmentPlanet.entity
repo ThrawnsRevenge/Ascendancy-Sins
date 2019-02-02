@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -16,8 +15,7 @@ instantAction
 	buffType "BuffEntechmentSelf"
 instantAction
 	buffInstantActionType "AddPopulationToPlanet"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	populationAdded
 		Level:0 -1.000000
 		Level:1 -1.000000

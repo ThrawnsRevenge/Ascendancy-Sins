@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -16,8 +15,7 @@ instantAction
 	buffType "BuffEscapeSelf"
 instantAction
 	buffInstantActionType "GiveCreditsToPlayer"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	credits
 		Level:0 100.000000
 		Level:1 100.000000

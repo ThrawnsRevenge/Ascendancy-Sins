@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -29,7 +28,8 @@ periodicAction
 		Level:2 1.000000
 		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	buffType "BuffHypervelocityGunDamage"
 	targetFilter
 		numOwnerships 1

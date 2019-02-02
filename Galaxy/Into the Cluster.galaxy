@@ -1,5 +1,5 @@
-TXT
-versionNumber 193
+﻿TXT
+versionNumber 4
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Into the Cluster (Full)"
@@ -2042,7 +2042,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2055,7 +2059,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2068,7 +2076,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2081,7 +2093,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2094,7 +2110,11 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2107,11 +2127,13 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	playerType "Normal"
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
 	pictureIndex 0
 templates 0
-dlcID 204880
-

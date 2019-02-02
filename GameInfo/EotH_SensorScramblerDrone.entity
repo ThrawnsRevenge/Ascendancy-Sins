@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn FALSE
@@ -29,7 +28,6 @@ HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 4.000000
 BaseArmorPoints 14.000000
 maxMitigation 0.550000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

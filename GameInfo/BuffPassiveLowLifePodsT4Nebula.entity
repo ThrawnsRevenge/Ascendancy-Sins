@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -8,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 5
+numInstantActions 6
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsLinked"
 	instantActionTriggerType "OnDelay"
@@ -86,6 +85,18 @@ instantAction
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerIsAboutToDie" 
 	buffType "BuffSpawnPods"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction	
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffFighterCountSafety"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

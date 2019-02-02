@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -15,8 +14,13 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "FixedLevel0"
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -38,21 +37,10 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
-creditCost
-	Level:0 10000.000000
-	Level:1 10000.000000
-	Level:2 10000.000000
-	Level:3 10000.000000
-metalCost
-	Level:0 1000.000000
-	Level:1 1000.000000
-	Level:2 1000.000000
-	Level:3 1000.000000
-crystalCost
-	Level:0 120.000000
-	Level:1 120.000000
-	Level:2 120.000000
-	Level:3 120.000000
+resourceCost
+	credits 10000.000000
+	metal 1000.000000
+	crystal 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -76,8 +64,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
-descStringID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+nameStringID "IDS_SPAWNHERO_DAALA_NAME"
+descStringID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
 hudIcon "HUDICON_RESEARCH_DAALA"
 smallHudIcon "HUDICON_RESEARCH_DAALA"
 infoCardIcon ""
