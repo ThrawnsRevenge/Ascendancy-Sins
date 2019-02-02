@@ -59,7 +59,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"

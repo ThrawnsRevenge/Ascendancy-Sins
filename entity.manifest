@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2374
+entityNameCount 2375
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -1581,6 +1581,7 @@ entityName "BuffConsumeShipSelfHeal.entity"
 entityName "BuffThrawnDoctrine.entity"
 entityName "BuffTractorBeam.entity"
 entityName "BuffTractorBeamTarget.entity"
+entityName "BuffOverwhelmHyperspace.entity"
 entityName "BuffOverwhelmCapital.entity"
 entityName "BuffOverwhelm.entity"
 entityName "BuffBombardEmpireTarget.entity"

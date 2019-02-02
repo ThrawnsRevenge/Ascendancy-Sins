@@ -32,7 +32,7 @@ priority 1.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffFearOfForce"
+	buffToApply "BuffOverwhelmCapital"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

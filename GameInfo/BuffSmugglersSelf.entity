@@ -20,7 +20,7 @@ periodicAction
 	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "IndentifierTradeStation"
+	conditionBuffType "BuffTradeStation"
 	conditionBuffShortName ""
 	buffType "BuffSmugglersPlanet"
 	targetFilter
