@@ -3484,11 +3484,10 @@ planetItemsTemplate
 				param "MFZeroCommand"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3515,11 +3514,10 @@ planetItemsTemplate
 				param "MFEriadu"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3546,11 +3544,10 @@ planetItemsTemplate
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3577,11 +3574,10 @@ planetItemsTemplate
 				param "MFRestored"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3608,11 +3604,10 @@ planetItemsTemplate
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3639,11 +3634,10 @@ planetItemsTemplate
 				param "MFCentrality"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 24
+			items 23
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Frigate:Constructor"
 				item "Remnant:Frigate:Constructor"
-				item "Remnant:Module:CapitalShipyard"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
@@ -3992,7 +3986,7 @@ player
 	pictureIndex 2
 player
 	designName "MinorFaction0"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech0"
+	inGameName "IDSScenarioPlayerNameMinorFactionMaldrood"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -4006,7 +4000,7 @@ player
 	pictureIndex 2
 player
 	designName "MinorFaction1"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech1"
+	inGameName "IDSScenarioPlayerNameMinorFactionEriadu"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
@@ -4020,7 +4014,7 @@ player
 	pictureIndex 2
 player
 	designName "MinorFaction2"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech2"
+	inGameName "IDSScenarioPlayerNameMinorFactionZsinj"
 	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
