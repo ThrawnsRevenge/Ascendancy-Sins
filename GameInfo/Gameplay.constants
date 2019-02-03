@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -16,6 +17,7 @@ GameplayConstants
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 15
+	maxAiCannons 3
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.30
@@ -960,20 +962,146 @@ GameplayConstants
 		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
 		occupationVictoryTime 1200
 	outlawSectorsData
-		militiaMainViewXOffsetScalar 0
-		militiaMainViewYOffsetScalar -.75		
-		militiaMainViewIconSizeScalar .55
-		militiaMainViewIconXOffsetScalar 0.0
-		militiaMainViewIconYOffsetScalar -.4		
-		militiaHUDIconSizeScalar .4
-		militiaHUDIconXOffsetScalar 0.0
-		militiaHUDIconYOffsetScalar .05
-		spawnShips
-			minFleetPoints 0.000000
-			maxFleetPoints 0.000000
-			requiredShipCount 0
-			randomShipCount 0
-		baseFleetCapacity 0.0
+		npcIconOffset:Mesh
+			xOffset 0
+			yOffset -35
+		npcIconOffset:MainViewIcon
+			xOffset 0
+			yOffset -10
+		npcIconOffset:HUDIcon
+			xOffset -9
+			yOffset -9
+		npcIconOffset:PlanetIcon
+			xOffset 0
+			yOffset -52
+		outlawSpawnShipsType "MatchPlayerRace"
+		numOutlawSpawnShipsOptionsCount 5
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerRemnant"
+			spawnShips
+				minFleetPoints 5.000000
+				maxFleetPoints 50.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Remnant_Carrack"
+					weight 4
+				randomShip
+					type "Remnant_Strikecruiser"
+					weight 5
+				randomShip
+					type "Remnant_VSDI"
+					weight 6
+				randomShip
+					type "Remnant_Lancer"
+					weight 3
+				randomShip
+					type "Remnant_EscortCarrier"
+					weight 2
+				randomShip
+					type "Remnant_MTC"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerNewRep"
+			spawnShips
+				minFleetPoints 5.000000
+				maxFleetPoints 50.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "NewRep_Nebulon"
+					weight 4
+				randomShip
+					type "NewRep_AssaultFrigate"
+					weight 5
+				randomShip
+					type "NewRep_Hajen"
+					weight 6
+				randomShip
+					type "NewRep_CR90"
+					weight 3
+				randomShip
+					type "NewRep_Quasar"
+					weight 2
+				randomShip
+					type "NewRep_Dauntless"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerEotH"
+			spawnShips
+				minFleetPoints 5.000000
+				maxFleetPoints 50.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "EotH_Kariek"
+					weight 4
+				randomShip
+					type "EotH_Vigilance"
+					weight 5
+				randomShip
+					type "EotH_Nuruodo"
+					weight 6
+				randomShip
+					type "EotH_Asdoni"
+					weight 3
+				randomShip
+					type "EotH_Warlord"
+					weight 2
+				randomShip
+					type "EotH_Alaria"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerAlignment"
+			spawnShips
+				minFleetPoints 5.000000
+				maxFleetPoints 50.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Alignment_Arquitens"
+					weight 4
+				randomShip
+					type "Alignment_StarGalleon"
+					weight 5
+				randomShip
+					type "Alignment_Gladiator"
+					weight 6
+				randomShip
+					type "Alignment_Acclamator"
+					weight 3
+				randomShip
+					type "Alignment_Raider"
+					weight 2
+				randomShip
+					type "Alignment_Venator"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerHapans"
+			spawnShips
+				minFleetPoints 5.000000
+				maxFleetPoints 50.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Hapans_Beta"
+					weight 4
+				randomShip
+					type "Hapans_Ray"
+					weight 5
+				randomShip
+					type "Hapans_Flare"
+					weight 6
+				randomShip
+					type "Hapans_Olanji"
+					weight 3
+				randomShip
+					type "Hapans_Charubah"
+					weight 2
+				randomShip
+					type "Hapans_BattleDragon"
+					weight 1
+		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0
 		fleetSupplyMax 2000.0
@@ -988,4 +1116,32 @@ GameplayConstants
 		maxPlanetsFleetSupplyScalar .15
 		pirateBountyBonusScalar 1.25
 		pirateRaidRaidTimeScalar .85
-
+	minorFactionsData
+		npcIconOffset:Mesh
+			xOffset 0
+			yOffset -35
+		npcIconOffset:MainViewIcon
+			xOffset 0
+			yOffset -10
+		npcIconOffset:HUDIcon
+			xOffset -9
+			yOffset -9
+		npcIconOffset:PlanetIcon
+			xOffset 0
+			yOffset -52
+		colonizePlanetBlackListCount 2
+		planet "PlanetShipGraveyard"
+		planet "PlanetDeadAsteroid"
+		colonizablePlanetsWithMinorFactionsPercent 0.25
+		minConnectionDistanceToColonizedPlanets 2
+		minConnectionDistanceToSameFactionPlanets 5
+		minAdjacentPlanetCount 2
+		infrastructurePlanetUpgradeLevel 2
+		populationPlanetUpgradeLevel 3
+		civilianModulesUpgradeLevel 2
+		tacticalModulesUpgradeLevel 1
+		planetIncomeScalar 0.33333
+		planetCultureRepelAdditiveBonus 1.5
+		spawnTime 600
+		spawnTimeVariance 120
+		minorFactionPlayerDefCount 0
