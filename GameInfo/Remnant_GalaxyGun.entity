@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "StarBase"
 ability:0 "AbilityDestroyPlanet"
 ability:1 "AbilityMilitarySpecialization"

@@ -1096,10 +1096,10 @@ planetItemType
 	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Cosmetic:TitanPhaseLoyalist"
-	entityDefName "Cosmetic_Executor"
+	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Cosmetic:TitanPhaseRebel"
-	entityDefName "Cosmetic_Bellator"
+	entityDefName "TITAN_PSIREBEL_COSMETIC"
 planetItemType
 	designName "Unique:Starbase:Centerpoint"
 	entityDefName "Unique_Centerpoint"
@@ -1509,7 +1509,7 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 104
+planetItemsTemplateCount 105
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1593,8 +1593,8 @@ planetItemsTemplate
 			items 14
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
@@ -1720,8 +1720,8 @@ planetItemsTemplate
 			items 15
 				item "EotH:Module:FrigateFactory"
 				item "EotH:Module:CommStation"
-				item "EotH:Frigate:Constructor"
-				item "EotH:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 				item "EotH:Module:CapitalShipyard"
 				item "EotH:Frigate:Consen"
 				item "EotH:Module:Durasteel"
@@ -3228,6 +3228,38 @@ planetItemsTemplate
 				item "Remnant:Frigate:Dreadnaught"
 planetItemsTemplate
 	templateName "Template:SsiMilitiaMedium"
+	subTemplates 0
+		groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 7
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 7
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+planetItemsTemplate
+	templateName "Template:SsiMilitiaMediumFair"
 	subTemplates 0
 		groups 2
 		group
