@@ -10,7 +10,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Remnant_Praetor"
+		type "Remnant_Allegiance"
 		weight 1
 	randomShip
 		type "Remnant_WorldDevastator"
