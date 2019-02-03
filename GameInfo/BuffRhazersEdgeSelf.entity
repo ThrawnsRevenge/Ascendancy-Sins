@@ -9,7 +9,8 @@ isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	buffType "BuffRhazersEdgeTarget"
 	targetFilter
 		numOwnerships 1
@@ -50,7 +51,8 @@ instantAction
 		soundID "EFFECT_SCATTERSHOT"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	buffType "BuffRhazersEdgeTarget"
 	targetFilter
 		numOwnerships 1

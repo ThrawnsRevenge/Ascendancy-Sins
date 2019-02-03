@@ -34,8 +34,7 @@ periodicAction
 		Level:2 10.000000
 		Level:3 10.000000
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.500000
+	instantActionTriggerType "AlwaysPerform"
 	buffType "RandomEventDeathSeedTradeShipDetermine"
 	targetFilter
 		numOwnerships 0
