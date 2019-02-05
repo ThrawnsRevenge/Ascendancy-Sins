@@ -30,14 +30,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 4
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "CultureWeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.025000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

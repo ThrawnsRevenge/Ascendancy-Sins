@@ -1144,4 +1144,28 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 600
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 0
+		minorFactionPlayerDefCount 3
+		minorFactionPlayerDef
+			name "MFEriadu"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "MFMaldrood"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "MFZsinj"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""

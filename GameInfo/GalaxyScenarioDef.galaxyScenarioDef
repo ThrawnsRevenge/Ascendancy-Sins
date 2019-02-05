@@ -1510,14 +1510,15 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
-planetItemsTemplateCount 105
+planetItemsTemplateCount 106
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
 	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
-	subTemplates 0
+	subTemplates 1
+		template "Template:DefaultMinorFaction"
 	groups 10
 		group
 			condition
@@ -3567,6 +3568,97 @@ planetItemsTemplate
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:BattleDragon"
 				item "Hapans:Frigate:StarHome"
+planetItemsTemplate
+	templateName "Template:DefaultMinorFaction"
+	subTemplates 0
+	groups 3
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFEriadu"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:TradePort"
+				item "Remnant:Module:RepairPlatform"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFMaldrood"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:TradePort"
+				item "Remnant:Module:RepairPlatform"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFZsinj"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:TradePort"
+				item "Remnant:Module:RepairPlatform"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Constructor"
+				item "Remnant:Frigate:Constructor"
 validPictureGroups 5
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3580,7 +3672,7 @@ themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "PlayerHapans"
 themeGroup "NPC"
-npcPlayers 27
+npcPlayers 30
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3930,6 +4022,48 @@ player
 	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 21
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction1"
+	inGameName "IDSScenarioPlayerNameMinorFactionEriadu"
+	overrideRaceName "Remnant"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFEriadu"
+	themeGroup "NPCMinorFactions"
+	themeIndex 0
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction2"
+	inGameName "IDSScenarioPlayerNameMinorFactionMaldrood"
+	overrideRaceName "Remnant"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFMaldrood"
+	themeGroup "NPCMinorFactions"
+	themeIndex 7
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction3"
+	inGameName "IDSScenarioPlayerNameMinorFactionZsinj"
+	overrideRaceName "Remnant"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFZsinj"
+	themeGroup "NPCMinorFactions"
+	themeIndex 6
 	pictureGroup "NPC"
 	pictureIndex 2
 npcMiltiaPlayerCountPerGalaxy 5
