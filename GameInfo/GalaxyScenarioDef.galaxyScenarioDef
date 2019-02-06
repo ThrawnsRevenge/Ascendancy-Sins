@@ -3571,94 +3571,79 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultMinorFaction"
 	subTemplates 0
-	groups 3
+	groups 4
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFEriadu"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 22
-				item "Tech:Module:FrigateFactory"
-				item "Tech:Module:TradePort"
-				item "Remnant:Module:RepairPlatform"
+			items 11
+				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Tech:Frigate:LongRange"
-				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Frigate:Constructor"
-				item "Remnant:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 22
-				item "Tech:Module:FrigateFactory"
-				item "Tech:Module:TradePort"
-				item "Remnant:Module:RepairPlatform"
+			items 11
+				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Tech:Frigate:LongRange"
-				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Frigate:Constructor"
-				item "Remnant:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 22
-				item "Tech:Module:FrigateFactory"
-				item "Tech:Module:TradePort"
-				item "Remnant:Module:RepairPlatform"
+			items 11
+				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Durasteel"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:Tibanna"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Tech:Frigate:LongRange"
-				item "Tech:Frigate:LongRange"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Dreadnaught"
-				item "Remnant:Frigate:Constructor"
-				item "Remnant:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFCentrality"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 11
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Carrack"
+				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:Dreadnaught"
 validPictureGroups 5
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3672,7 +3657,7 @@ themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "PlayerHapans"
 themeGroup "NPC"
-npcPlayers 30
+npcPlayers 31
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -4025,7 +4010,7 @@ player
 	pictureGroup "NPC"
 	pictureIndex 2
 player
-	designName "MinorFaction1"
+	designName "MinorFaction0"
 	inGameName "IDSScenarioPlayerNameMinorFactionEriadu"
 	overrideRaceName "Remnant"
 	teamIndex -1
@@ -4035,11 +4020,11 @@ player
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFEriadu"
 	themeGroup "NPCMinorFactions"
-	themeIndex 0
+	themeIndex 11
 	pictureGroup "NPC"
 	pictureIndex 2
 player
-	designName "MinorFaction2"
+	designName "MinorFaction1"
 	inGameName "IDSScenarioPlayerNameMinorFactionMaldrood"
 	overrideRaceName "Remnant"
 	teamIndex -1
@@ -4049,11 +4034,11 @@ player
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFMaldrood"
 	themeGroup "NPCMinorFactions"
-	themeIndex 7
+	themeIndex 1
 	pictureGroup "NPC"
 	pictureIndex 2
 player
-	designName "MinorFaction3"
+	designName "MinorFaction2"
 	inGameName "IDSScenarioPlayerNameMinorFactionZsinj"
 	overrideRaceName "Remnant"
 	teamIndex -1
@@ -4063,7 +4048,21 @@ player
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFZsinj"
 	themeGroup "NPCMinorFactions"
-	themeIndex 6
+	themeIndex 2
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction3"
+	inGameName "IDSScenarioPlayerNameMinorFactionCentrality"
+	overrideRaceName "Remnant"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFCentrality"
+	themeGroup "NPCMinorFactions"
+	themeIndex 10
 	pictureGroup "NPC"
 	pictureIndex 2
 npcMiltiaPlayerCountPerGalaxy 5

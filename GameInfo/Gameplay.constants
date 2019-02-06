@@ -1130,8 +1130,8 @@ GameplayConstants
 			xOffset 0
 			yOffset -52
 		colonizePlanetBlackListCount 2
-		planet "PlanetShipGraveyard"
-		planet "PlanetDeadAsteroid"
+		planet "PlanetNebula"
+		planet "PlanetGasGiant"
 		colonizablePlanetsWithMinorFactionsPercent 0.25
 		minConnectionDistanceToColonizedPlanets 2
 		minConnectionDistanceToSameFactionPlanets 5
@@ -1144,11 +1144,11 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 600
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 3
+		minorFactionPlayerDefCount 4
 		minorFactionPlayerDef
 			name "MFEriadu"
 			planetAbilities
-				ability:0 "AbilityMinorFactionRepairShips"
+				ability:0 ""
 				ability:1 ""
 				ability:2 ""
 				ability:3 ""
@@ -1156,7 +1156,7 @@ GameplayConstants
 		minorFactionPlayerDef
 			name "MFMaldrood"
 			planetAbilities
-				ability:0 "AbilityMinorFactionRepairShips"
+				ability:0 ""
 				ability:1 ""
 				ability:2 ""
 				ability:3 ""
@@ -1164,7 +1164,15 @@ GameplayConstants
 		minorFactionPlayerDef
 			name "MFZsinj"
 			planetAbilities
-				ability:0 "AbilityMinorFactionRepairShips"
+				ability:0 ""
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "MFCentrality"
+			planetAbilities
+				ability:0 ""
 				ability:1 ""
 				ability:2 ""
 				ability:3 ""
