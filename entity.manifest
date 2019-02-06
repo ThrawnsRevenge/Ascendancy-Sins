@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2375
+entityNameCount 2376
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -2093,6 +2093,7 @@ entityName "MissionAttackPlanet.entity"
 entityName "MissionBuildStarBase.entity"
 entityName "MissionBuildMines.entity"
 entityName "MissionCaptureResources.entity"
+entityName "MissionCaptureMinorFaction.entity"
 entityName "MissionColonize.entity"
 entityName "MissionExplore.entity"
 entityName "MissionRaid.entity"

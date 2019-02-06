@@ -2,13 +2,13 @@ TXT
 NumStrings 8710
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionChissAscendancy"
-	Value "Centrality"
+	Value "Chiss Ascendancy"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionMaldrood"
-	Value "Centrality"
+	Value "Greater Maldrood"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionEriadu"
-	Value "Warlord Zsinj"
+	Value "Eriadu Authority"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionCentrality"
 	Value "Centrality"
