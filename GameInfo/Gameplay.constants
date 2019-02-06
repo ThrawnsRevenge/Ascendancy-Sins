@@ -1129,9 +1129,11 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 2
+		colonizePlanetBlackListCount 4
 		planet "PlanetNebula"
 		planet "PlanetGasGiant"
+		planet "PlanetAsteroidBelt"
+		planet "PlanetMawInstallation"
 		colonizablePlanetsWithMinorFactionsPercent 0.25
 		minConnectionDistanceToColonizedPlanets 2
 		minConnectionDistanceToSameFactionPlanets 5
@@ -1177,3 +1179,5 @@ GameplayConstants
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
+
+				
