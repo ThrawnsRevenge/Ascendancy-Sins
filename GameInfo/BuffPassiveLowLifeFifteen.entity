@@ -11,7 +11,7 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
@@ -19,6 +19,13 @@ entityModifier
 		Level:1 -0.800000
 		Level:2 -0.800000
 		Level:3 -0.800000
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -20.500000
+		Level:1 -20.500000
+		Level:2 -20.500000
+		Level:3 -20.500000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
