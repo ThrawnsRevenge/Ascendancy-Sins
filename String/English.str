@@ -407,7 +407,7 @@ StringInfo
 	Value "Sensor Dampening"
 StringInfo
 	ID "IDS_ABILITY_DAMPENING_DESCRIPTION"
-	Value "Frontier reduces the effectiveness of sensors on surrounding enemies, reducing response time on attacks and causing increased damage to those targets."
+	Value "Frontier causes friendly vessels to emit false sensor readings, indirectly improving their capacity to survive enemy fire."
 StringInfo
 	ID "IDS_ABILITY_DECORATEDCOMMANDER_NAME"
 	Value "Decorated Commander"
