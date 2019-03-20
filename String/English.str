@@ -1,5 +1,5 @@
 TXT
-NumStrings 8710
+NumStrings 8648
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionChissAscendancy"
 	Value "Chiss Ascendancy"
@@ -112,9 +112,6 @@ StringInfo
 	ID "IDS_ABILITY_SENSORPROBE_DESCRIPTION"
 	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other Threats."
 StringInfo
-	ID "IDS_ABILITY_LOWLIFE_NAME"
-	Value "LOW LIFE"
-StringInfo
 	ID "IDS_ABILITY_LOWLIFE_DESCRIPTION"
 	Value "LOW LIFE"
 StringInfo
@@ -226,18 +223,6 @@ StringInfo
 	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
 	Value "Leia is able to escape damage for a brief period."
 StringInfo
-	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
-	Value "Diplomatic Immunity"
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
-	Value "Leia is able to escape damage for a brief period."
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_NAME"
-	Value "Diplomatic Immunity"
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATICIMMUNITY_DESCRIPTION"
-	Value "Leia is able to escape damage for a brief period."
-StringInfo
 	ID "IDS_ABILITY_CIUTRIC_NAME"
 	Value "Ciutric"
 StringInfo
@@ -325,23 +310,11 @@ StringInfo
 	ID "IDS_HERO_SIATH_DESCRIPTION"
 	Value "A high-ranking Chiss admiral within Thrawn's household phalanx forces."
 StringInfo
-	ID "IDS_HERO_KAINE_NAME"
-	Value "Ardus Kaine - Reaper"
-StringInfo
-	ID "IDS_HERO_KAINE_DESCRIPTION"
-	Value "A highly intelligent Grand Moff who formed the Pentastar Alignment soon after the death of the Empire ."
-StringInfo
 	ID "IDS_HERO_PESTAGE_NAME"
 	Value "Sate Pestage"
 StringInfo
 	ID "IDS_HERO_PESTAGE_DESCRIPTION"
 	Value "The Grand Vizier of the Empire under Palpatine. Pestage took over de facto control of the Empire after Palpatine's death. If this unit dies, the Remnant is defeated."
-StringInfo
-	ID "IDS_HERO_GRANT_NAME"
-	Value "Octavian Grant"
-StringInfo
-	ID "IDS_HERO_GRANT_DESCRIPTION"
-	Value "An Imperial Grand Admiral who sought to retire in the Pentastar Alignment after Endor. If this unit dies, the Alignment is defeated."
 StringInfo
 	ID "IDS_HERO_PARCK_NAME"
 	Value "Voss Parck"
@@ -425,7 +398,7 @@ StringInfo
 	Value "Target Engines"
 StringInfo
 	ID "IDS_ABILITY_TARGETENGINES_DESCRIPTION"
-	Value "Directs the Frontier's fire to enemy engines, crippling them."
+	Value "Directs the ships's fire to enemy engines, crippling them."
 StringInfo
 	ID "IDS_ABILITY_PLASMAROUND_NAME"
 	Value "Plasma Round"
@@ -564,12 +537,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_DYNAMIC_DESCRIPTION"
 	Value "The crew of Besk's flagship, the Dynamic,live up to the ship's name and thrive in various circumstances."
-StringInfo
-	ID "IDS_ABILITY_BUZZDROIDS_NAME"
-	Value "Ruthless Leader"
-StringInfo
-	ID "IDS_ABILITY_BUZZDROIDS_DESCRIPTION"
-	Value "Besk uses Buzz Droids acquired through pirate and corporate contacts to bore through enemy vessels within a radius."
 StringInfo
 	ID "IDS_ABILITY_TARKINDOCTRINE_NAME"
 	Value "Ruthless Leader"
@@ -868,9 +835,6 @@ StringInfo
 	ID "IDS_ABILITY_COMMUNICATIONJAM_DESCRIPTION"
 	Value "The Dominator activates a wide band communication jamming frequency affecting enemy weapon targetting."
 StringInfo
-	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
-	Value "The Viscount sends out a fleet of repair droids to repair nearby ships."
-StringInfo
 	ID "IDS_ABILITY_REFLECTIVESHIELDSCAPITAL_NAME"
 	Value "Reflective Shields"
 StringInfo
@@ -891,12 +855,6 @@ StringInfo
 StringInfo
 	ID "IDS_CENTERPOINT_NAME"
 	Value "Centerpoint Station"
-StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
-	Value "Diverse Military"
-StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_DESCRIPTION"
-	Value "The Alignment allows aliens in the military, decreasing allegiance among human populations."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_DIVERSEMILITARY_NAME"
 	Value "Diverse Military"
@@ -1020,9 +978,6 @@ StringInfo
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_DESC"
 	Value "Dedicate this planet towards greater population and cultural influence at the cost of trade and industry. Choosing this path locks out Industry and Smuggling Specialization."
-StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_DESC"
-	Value "Dedicate this planet towards trade income and ship building at the cost of culture and population. Choosing this path locks out Social and Smuggling Specialization."
 StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADESMUGGLER_NAME"
 	Value "Smuggling Specialization"
@@ -1188,12 +1143,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_CLOSEQUARTERS_DESCRIPTION"
 	Value "This ship calculates a microjump to its target and, upon exiting hyperspace, directs power to its weapons."
-StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
-	Value "Open Markets"
-StringInfo
-	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_DESCRIPTION"
-	Value "Tariffs are reduced on trade with non-allied factions, increasing trade revenue."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_FREETRADE_NAME"
 	Value "Open Markets"
@@ -1495,23 +1444,11 @@ StringInfo
 	ID "IDS_EOTHRESEARCH_HYPERCHARGEONE_DESCRIPTION"
 	Value "State-of-the-art hyperdrives are installed in all Empire of the Hand ships, allowing them to complete the Kessel Run in fewer parsecs because that's apparently how that measurement works."
 StringInfo
-	ID "IDS_EOTHRESEARCH_EXITDISTANCE_NAME"
-	Value "Gravitational Compensators"
-StringInfo
-	ID "IDS_EOTHRESEARCH_EXITDISTANCE_DESCRIPTION"
-	Value "Hyperdrives are upgraded in order to enter and exit hyperspace closer to planets."
-StringInfo
 	ID "IDS_EOTHRESEARCH_CITYPLANNING_NAME"
 	Value "Arctic Roots"
 StringInfo
 	ID "IDS_EOTHRESEARCH_CITYPLANNING_DESCRIPTION"
 	Value "The Chiss origins on arctic Csilla allow them to support much higher populations on ice worlds."
-StringInfo
-	ID "IDS_EOTHRESEARCH_COOPERATION_NAME"
-	Value "Enemy of My Enemy"
-StringInfo
-	ID "IDS_EOTHRESEARCH_COOPERATION_DESCRIPTION"
-	Value "The Empire of the Hand is willing to overlook historic differences for the greater purpose of uniting the galaxy."
 StringInfo
 	ID "IDS_EOTHRESEARCH_SPEEDBOOST_NAME"
 	Value "Reactor Cooling"
@@ -1690,17 +1627,11 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_NEWREP"
 	Value "New Republic"
 StringInfo
-	ID "IDS_PLAYERRACENAME_EOTH"
-	Value "Empire of the Hand"
-StringInfo
 	ID "IDS_PLAYERRACENAME_REMNANT"
 	Value "Imperial Remnant"
 StringInfo
 	ID "IDS_PLAYERRACENAME_ALIGNMENT"
 	Value "Pentastar Alignment"
-StringInfo
-	ID "IDS_PLAYERRACENAME_NEWREP"
-	Value "New Republic"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_NEWREP_DESCRIPTION"
 	Value "The New Republic formed out of the victorious Rebel Alliance after their victory at Endor in order to restore democracy to the galaxy, as in the days of the old galactic Republic. Although fewer in number, their vessels are individually very powerful, especially with the advent of the New Class Fleet Modernization Project and newer Mon Calamari ship models. Their fighters are also among the best in the galaxy. The main focus of the New Republic is spreading their democratic message throughout the galaxy."
@@ -1731,9 +1662,6 @@ StringInfo
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTALIGNMENT"
 	Value "Select Pentastar Alignment"
-StringInfo
-	ID "IDS_RACESELECTDIALOG_SELECTPHASEREBEL"
-	Value "Select Vasari Rebel"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTNEWREP"
 	Value "Select New Republic"
@@ -2338,9 +2266,6 @@ StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_NAME"
 	Value "Social Specialization"
 StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_DESC"
-	Value "Dedicate this planet towards greater population and cultural influence at the cost of trade and industry. Choosing this path locks out Industry Specialization."
-StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_NAME"
 	Value "Industry Specialization"
 StringInfo
@@ -2683,12 +2608,6 @@ StringInfo
 	ID "IDS_NEWREPRESEARCH_INFRASTRUCTURE_DESCRIPTION"
 	Value "Allows more logistic slots at your planets."
 StringInfo
-	ID "IDS_NEWREPRESEARCH_DEREGULATION_NAME"
-	Value "Construction Deregulation"
-StringInfo
-	ID "IDS_NEWREPRESEARCH_DEREGULATION_DESCRIPTION"
-	Value "Less red tape means construction projects are finished faster."
-StringInfo
 	ID "IDS_NEWREPRESEARCH_CULTURESPREAD_NAME"
 	Value "News Cycle"
 StringInfo
@@ -2781,9 +2700,6 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_WORLDDEVASTATOR_NAME"
 	Value "World Devastator"
-StringInfo
-	ID "IDS_CAPITALSHIP_WORLDDEVASTATOR_DESCRIPTION"
-	Value "A giant ship which comsumes enemy ships to improve itself or produce new ships."
 StringInfo
 	ID "IDS_UNLOCK_WORLDDEVASTATOR_NAME"
 	Value "Devastate World"
@@ -2896,9 +2812,6 @@ StringInfo
 	ID "IDS_ABILITY_INTERRUPTTARGETING_NAME"
 	Value "Scramble Transmissions"
 StringInfo
-	ID "IDS_ABILITY_INTERRUPTTARGETTING_DESCRIPTION"
-	Value "Interferes with the ability of enemy ships to effectively select targets."
-StringInfo
 	ID "IDS_ABILITY_DETONATEFUELCELLS_NAME"
 	Value "Detonate Fuel Cells"
 StringInfo
@@ -2941,12 +2854,6 @@ StringInfo
 	ID "IDS_ABILITY_REFLECTIVESHIELDS_DESCRIPTION"
 	Value "The shields of the MC80B passively reflect damage back at its attackers."
 StringInfo
-	ID "IDS_ABILITY_INTERRUPTTARGETTING_NAME"
-	Value "Interrupt Targetting"
-StringInfo
-	ID "IDS_ABILITY_INTERRUPTTARGETTING_DESCRIPTION"
-	Value "The Endurance sends out signals interfering with the targetting computers of nearby enemy fighters."
-StringInfo
 	ID "IDS_ABILITY_NUMERICALSUPERIORITY_NAME"
 	Value "Numerical Superiority"
 StringInfo
@@ -2958,12 +2865,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_INCITEREBELLION_DESCRIPTION"
 	Value "The presence of the New Republic inspires dissident elements to take action on the planet, damaging infrastructure and reducing allegiance."
-StringInfo
-	ID "IDS_ABILITY_SHIELDRESTORE_NAME"
-	Value "Protector"
-StringInfo
-	ID "IDS_ABILITY_SHIELDRESTORE_DESCRIPTION"
-	Value "The Viscount drains its own shields to restore shields to all allied ships in its vicinity."
 StringInfo
 	ID "IDS_ABILITY_REPAIRDROIDS_NAME"
 	Value "Repair Droids"
@@ -3012,9 +2913,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PRAETORION_DESCRIPTION"
 	Value "The Praetor unleashes a strong burst of ion energy."
-StringInfo
-	ID "IDS_ABILITY_NUMERICALSUPERIORITY_DESCRIPTION"
-	Value "The Praetor's massive ion cannons temporarily disable an enemy ship."
 StringInfo
 	ID "IDS_ABILITY_REFIT_NAME"
 	Value "Fighter Support"
@@ -3190,12 +3088,6 @@ StringInfo
 	ID "IDS_ABILITY_PLANETARYMEGAMASER_DESCRIPTION"
 	Value "Allows your CT11 to install a giant megamaser on the planet's surface, which every 60 seconds can fire at up to two enemy ships, the kinetic impact of which throws off their targeting systems."
 StringInfo
-	ID "IDS_ABILITY_SHIELDAEGIES_NAME"
-	Value "Shield Aegis"
-StringInfo
-	ID "IDS_ABILITY_SHIELDAEGIS_DESCRIPTION"
-	Value "This ship boosts the shield mitigation of ships around it."
-StringInfo
 	ID "IDS_ABILITY_DOCK_NAME"
 	Value "Dock"
 StringInfo
@@ -3207,9 +3099,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MILITARYSPECIALIZATION_DESCRIPTION"
 	Value "Redirects economic output to planet defense, both military and cultural"
-StringInfo
-	ID "IDS_ABILITY_HYPERVELOCITYGUN_DESCRIPTION"
-	Value "Fires a Hypervelocity cannon at the target from the planet's surface."
 StringInfo
 	ID "IDS_ABILITY_DENTINGSTRIKE_NAME"
 	Value "Denting Strike"
@@ -3601,9 +3490,6 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
 	Value "Durasteel Production"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_CRYSTAL_DESCRIPTION"
-	Value "Improves the rate at which Durasteel is produced."
-StringInfo
 	ID "IDS_REMNANTRESEARCH_ABILITYACCESS_FINALHOUR_NAME"
 	Value "Final Hour"
 StringInfo
@@ -3681,9 +3567,6 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TIBANNA_DESCRIPTION"
 	Value "Increaes the rate at which Tibanna gas is refined."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_DURASTEEL_NAME"
-	Value "Tibanna Gas Production"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DURASTEEL_DESCRIPTION"
 	Value "Increaes the rate at which Durasteel is refined."
@@ -5761,9 +5644,6 @@ StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ENERGYWEAPONCOOLDOWN"
 	Value "Energy Weapon Cooldown"
 StringInfo
-	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONRANGE"
-	Value "Weapon Range"
-StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_DAMAGEOUTPUT"
 	Value "Damage output"
 StringInfo
@@ -7003,18 +6883,6 @@ StringInfo
 	ID "IDS_INFOCARD_PLANETCLOSEUPGRADEMANAGEMENT_DESC"
 	Value "Return to the main menu."
 StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_NAME"
-	Value "Social Specialization"
-StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADESOCIAL_DESC"
-	Value "Dedicate this planet towards greater population and cultural influence at the cost of trade and industry. Choosing this path locks out Industry Specialization."
-StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_NAME"
-	Value "Industry Specialization"
-StringInfo
-	ID "IDS_INFOCARD_PLANETUPGRADEINDUSTRY_DESC"
-	Value "Dedicate this planet towards trade income and ship building at the cost of culture and population. Choosing this path locks out Social Specialization."
-StringInfo
 	ID "IDS_INFOCARD_PLANETUPGRADEPOPULATION_NAME"
 	Value "Civilian Infrastructure"
 StringInfo
@@ -7644,9 +7512,6 @@ StringInfo
 StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTFAILED"
 	Value "You have failed the %s mission from %s."
-StringInfo
-	ID "IDS_GAMEMESSAGE_QUESTCOMPLETED"
-	Value "You have successfully finished the %s mission from %s."
 StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTENDED"
 	Value "Your mission from %s has ended because %s has been defeated."
@@ -9279,12 +9144,6 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_NANOMEDICINEOUTREACH_DESCRIPTION"
 	Value "Unlocks the Nanomedicine Outreach ability to the Voruntak Envoy, allowing the ship to help repair planet damage in order to boost relations."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_NAME"
-	Value "Xeno Defense"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_DESCRIPTION"
-	Value "Grants the Xeno Defense ability to the Voruntak Envoy, increasing a planet's total health while in orbit in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_NAME"
 	Value "Accel. Wave Cannons"
@@ -12520,12 +12379,6 @@ StringInfo
 	ID "IDS_ABILITY_ASTEROIDBELT_DESCRIPTION"
 	Value "Chaotic motion of fine debris complicates target acquisition, reducing the accuracy of weapons fire while in the gravity well."
 StringInfo
-	ID "IDS_ABILITY_BATTLEMEDITATION_NAME"
-	Value "Concentration Aura"
-StringInfo
-	ID "IDS_ABILITY_BATTLEMEDITATION_DESCRIPTION"
-	Value "Increases the damage output of strike craft hosted by nearby friendly forces."
-StringInfo
 	ID "IDS_ABILITY_BIDIRECTIONAL_JAMMING_NAME"
 	Value "Bidirectional Jamming"
 StringInfo
@@ -12625,9 +12478,6 @@ StringInfo
 	ID "IDS_ABILITY_CLUSTERWARHEADS_UNLOCK"
 	Value "Unlocks the Rhazer Cluster ability."
 StringInfo
-	ID "IDS_ABILITY_COLONIZE_NAME"
-	Value "Colonize"
-StringInfo
 	ID "IDS_ABILITY_COLONIZEPHASE_DESCRIPTION"
 	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. For a brief time, this planet will also have access to additional construction frigates."
 StringInfo
@@ -12636,9 +12486,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_COLONIZETECH_DESCRIPTION"
 	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost. Additionally, free resource extractors will be built and the extraction rate increased."
-StringInfo
-	ID "IDS_ABILITY_COLONIZEFRIGATE_DESCRIPTION"
-	Value "Sends supplies and personnel down to the surface of the planet to create a new outpost."
 StringInfo
 	ID "IDS_ABILITY_COMET_NAME"
 	Value "Comet"
@@ -13525,12 +13372,6 @@ StringInfo
 	ID "IDS_ABILITY_REINFORCEDARMOR_DESCRIPTION"
 	Value "Grants this ship additional armor and hull strength."
 StringInfo
-	ID "IDS_ABILITY_REPAIRDROIDS_NAME"
-	Value "Repair Drones"
-StringInfo
-	ID "IDS_ABILITY_REPAIRDROIDS_DESCRIPTION"
-	Value "Sends a group of autonomous repair drones to repair hull points over time."
-StringInfo
 	ID "IDS_ABILITY_REPOSSESSION_NAME"
 	Value "Repossession"
 StringInfo
@@ -13854,12 +13695,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_TARGETCOMPUTERCORE_DESCRIPTION"
 	Value "The corvette's weapons have a chance to reduce its target's chance to hit for some time."
-StringInfo
-	ID "IDS_ABILITY_TARGETENGINES_NAME"
-	Value "Target Engines"
-StringInfo
-	ID "IDS_ABILITY_TARGETENGINES_DESCRIPTION"
-	Value "The corvette's weapons have a chance to reduce its target's movement speed for some time."
 StringInfo
 	ID "IDS_ABILITY_TARGETBACKUPGENERATORS_NAME"
 	Value "Target Backup Generators"
@@ -14418,9 +14253,6 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETTYPE_OCCUPIED"
 	Value "Occupied Planet"
-StringInfo
-	ID "IDS_PLANETTYPE_TERRAN"
-	Value "Terran Planet"
 StringInfo
 	ID "IDS_PLANETTYPE_ICE"
 	Value "Ice Planet"
@@ -16194,9 +16026,6 @@ StringInfo
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETUPGRADEINFRASTRUCTURE"
 	Value "Upgrade Infrastructure"
-StringInfo
-	ID "IDS_UIMAPPINGNAME_PLANETCANCELUPGRADEINFRASTRUCTURE"
-	Value "Cancel Upgrade Infrastructure"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETUPGRADEARTIFACTLEVEL"
 	Value "Explore Planet"
@@ -24217,9 +24046,6 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
 	Value "Random - Uncolonizable Fair"
 StringInfo
-	ID "IDSGalaxyScenarioTypeRandomIceVolcanic"
-	Value "Random - Ice or Volcanic"
-StringInfo
 	ID "IDSGalaxyScenarioTypeRandomIceVolcanicFair"
 	Value "Random Ice or Volcanic Fair"
 StringInfo
@@ -25879,9 +25705,6 @@ StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
 	Value "Unlike their Loyalist breathren, the Vasari Rebels feel their best chance for survival is to cooperate with other races and bring them along on their flight. Rebels are capable of quick hit and run attacks, sharing phase networks, and of moving their starbases to new systems. Vasari Rebels' superior expertise in nano-technology allows them to construct the Kultorask Titan - an imposing vessel that can leech power from enemies and stream it back to the titan."
 StringInfo
-	ID "IDS_RACESELECTDIALOG_SELECTRANDOM"
-	Value "Random"
-StringInfo
 	ID "IDS_RACESELECTDIALOG_SELECTTECREBEL"
 	Value "Select TEC Rebel"
 StringInfo
@@ -25989,9 +25812,6 @@ StringInfo
 StringInfo
 	ID "IDS_RANDOMEVENT_ECONOMICUPTURN_NAME"
 	Value "Economic Upturn"
-StringInfo
-	ID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
-	Value "Cultural Explosion"
 StringInfo
 	ID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
 	Value "Lando's Book"
@@ -26124,9 +25944,3 @@ StringInfo
 StringInfo
 	ID "IDS_GDPRParagraph12"
 	Value "In the future we may update the data being collected or the reasons for collection. You will be asked to 'Accept' or 'Decline' again if any changes are made."
-StringInfo
-	ID "IDSConfirmVideoChangesDialogTitle"
-	Value "Confirm Changes"
-StringInfo
-	ID "IDSConfirmVideoChangesDialogMessage"
-	Value "Confirmed"

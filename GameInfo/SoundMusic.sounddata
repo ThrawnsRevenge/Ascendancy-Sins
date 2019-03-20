@@ -226,7 +226,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_NEWBATTLE_1"
-	fileName "Defending the Colony.ogg"
+	fileName "M_Battle23.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -234,7 +234,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_NEWBATTLE_2"
-	fileName "Invasion Fleet.ogg"
+	fileName "M_Battle20.ogg"
 	isLooping FALSE
 	actionLevel 0.6
 	actionRange 0.4
@@ -242,7 +242,7 @@ music
 	emotionRange 1.0	
 music
 	name "MUSIC_NEWBATTLE_3"
-	fileName "Marauders.ogg"
+	fileName "M_Battle21.ogg"
 	isLooping FALSE
 	actionLevel 0.7
 	actionRange 0.3
@@ -546,7 +546,7 @@ music
 	emotionRange 0.5
 music
 	name "MUSIC_TROUBLE_1"
-	fileName "Trouble 1.ogg"
+	fileName "M_Sad3.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
@@ -562,7 +562,7 @@ music
 	emotionRange 0.4
 music
 	name "MUSIC_TROUBLE_2"
-	fileName "Trouble 2.ogg"
+	fileName "M_Sad2.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.3
@@ -570,7 +570,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_3"
-	fileName "Trouble 3.ogg"
+	fileName "M_Sad1.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
