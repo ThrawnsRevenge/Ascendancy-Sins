@@ -51,10 +51,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 30.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 15.000000
-	DamagePerBank:RIGHT 15.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
 	PreBuffCooldownTime 1.000000
 	CanFireAtFighter TRUE
@@ -83,10 +83,10 @@ Weapon
 		projectileTravelEffectName "LaserGreen_Quad"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 0
+TargetCountPerBank:FRONT 2
 TargetCountPerBank:BACK 0
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
