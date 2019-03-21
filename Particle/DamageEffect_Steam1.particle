@@ -42,7 +42,7 @@ ParticleSimulation
 		AreParticlesAttached FALSE
 		numTextures 2
 		textureName "C:\Users\Anthony\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\Ascendancy-Sins\Textures\smoke1.tga"
-		textureName "C:\Users\Anthony N\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\ascendancy\Textures\exexplo03n.dds"
+		textureName "exexplo03n.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000

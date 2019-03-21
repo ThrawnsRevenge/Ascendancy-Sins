@@ -610,22 +610,22 @@ planetType
 	designName "RadiationStorm"
 	designStringId "IDSGalaxyScenarioTypePlanetRadiationStorm"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"
+	orbitBodyType "PlanetAsteroidBelt"
 planetType
 	designName "AntimatterFountain"
 	designStringId "IDSGalaxyScenarioTypePlanetAntimatterFountain"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"
+	orbitBodyType "PlanetAsteroidBelt"
 planetType
 	designName "PlasmaStormFair"
 	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"	
+	orbitBodyType "PlanetAsteroidBelt"	
 planetType
 	designName "MagneticCloud"
 	designStringId "IDSGalaxyScenarioTypePlanetMagneticCloud"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlanetNebula"	
+	orbitBodyType "PlanetAsteroidBelt"	
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 187
+planetItemTypeCount 185
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1138,9 +1138,6 @@ planetItemType
 	designName "Remnant:Module:HeroBase"
 	entityDefName "Remnant_HeroBase"
 planetItemType
-	designName "Remnant:Module:GalaxyGun"
-	entityDefName "Remnant_GalaxyGun"
-planetItemType
 	designName "Warlords:Hero:Zsinj"
 	entityDefName "Warlords_Zsinj"
 planetItemType
@@ -1179,9 +1176,6 @@ planetItemType
 planetItemType
 	designName "Remnant:Capital:Altor"
 	entityDefName "Remnant_Altor"
-planetItemType
-	designName "Alignment:Capital:Praetor"
-	entityDefName "Alignment_Praetor"
 planetItemType
 	designName "Remnant:Capital:WorldDevastator"
 	entityDefName "Remnant_WorldDevastator"

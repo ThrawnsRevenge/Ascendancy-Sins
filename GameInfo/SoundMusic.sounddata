@@ -314,7 +314,7 @@ music
 	emotionRange 0.4
 music
 	name "M_IR_Ambient4"
-	fileName "M_IR_Ambient4.ogg"
+	fileName "M_IR_Ambient6.ogg"
 	isLooping FALSE
 	actionLevel 0.0
 	actionRange 0.15
@@ -818,7 +818,7 @@ music
 	emotionRange 0.7
 music
 	name "M_NR_Announcement"
-	fileName "M_NR_Announcement.ogg"
+	fileName "M_PSA_Announcement.ogg"
 	isLooping FALSE
 	actionLevel 0.0
 	actionRange 1.0

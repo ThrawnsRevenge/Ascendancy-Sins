@@ -6,7 +6,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_BARREN"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Barren""
+	meshName "Planet_Barren"
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -21,7 +21,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_BARREN"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Barren""
+	meshName "Planet_Barren"
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -36,7 +36,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_BARREN"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Barren""
+	meshName "Planet_Barren"
 	cloudColor ffe7c362
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""

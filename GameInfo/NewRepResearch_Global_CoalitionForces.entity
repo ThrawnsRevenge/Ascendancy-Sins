@@ -35,7 +35,7 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "WeaponDamageAdjustmentForEachAlliedPlayerInGravityWell""
+	modifierType "WeaponDamageAdjustmentForEachAlliedPlayerInGravityWell"
 	baseValue 0.000000
 	perLevelValue 0.050000
 	linkedWeaponClass "LASERTECH"
