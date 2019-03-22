@@ -979,8 +979,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerRemnant"
 			spawnShips
-				minFleetPoints 5.000000
-				maxFleetPoints 50.000000
+				minFleetPoints 1.000000
+				maxFleetPoints 20.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1004,8 +1004,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerNewRep"
 			spawnShips
-				minFleetPoints 5.000000
-				maxFleetPoints 50.000000
+				minFleetPoints 1.000000
+				maxFleetPoints 20.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1029,8 +1029,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerEotH"
 			spawnShips
-				minFleetPoints 5.000000
-				maxFleetPoints 50.000000
+				minFleetPoints 1.000000
+				maxFleetPoints 20.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1054,8 +1054,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerAlignment"
 			spawnShips
-				minFleetPoints 5.000000
-				maxFleetPoints 50.000000
+				minFleetPoints 1.000000
+				maxFleetPoints 20.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1079,8 +1079,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerHapans"
 			spawnShips
-				minFleetPoints 5.000000
-				maxFleetPoints 50.000000
+				minFleetPoints 1.000000
+				maxFleetPoints 20.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip

@@ -572,7 +572,7 @@ StringInfo
 	Value "Dissident Suppression"
 StringInfo
 	ID "IDS_ABILITY_DISSIDENTSUPPRESSION_DESCRIPTION"
-	Value "Daala increases the bombing damage of her fleet, crushing all opposition on the planet."
+	Value "Increases the bombing damage of her fleet, crushing all opposition on the planet."
 StringInfo
 	ID "IDS_ABILITY_CONCENTRATEFIRE_NAME"
 	Value "Concentrate Fire"
@@ -1106,7 +1106,7 @@ StringInfo
 	Value "Resilient"
 StringInfo
 	ID "IDS_ABILITY_RESILIENT_DESCRIPTION"
-	Value "Engineering and repair crews work quickly to repair damage, restoring 1000 hull points over 10 seconds and reducing incoming damage during this time."
+	Value "Engineering and repair crews work quickly to repair damage, restoring hull points and reducing incoming damage while activated."
 StringInfo
 	ID "IDS_ABILITY_TARGETINGJAMMER_NAME"
 	Value "Targeting Jammer"
@@ -2309,7 +2309,7 @@ StringInfo
 	Value "Elta Besk"
 StringInfo
 	ID "IDS_HERO_BESK_DESCRIPTION"
-	Value "Head of Dynamic Automota, Elta Besk is one of the founding members of the Pentastar Alignment. Commands an ISDII with significant droid-based support abilities."
+	Value "Head of Dynamic Automota, Elta Besk is one of the founding members of the Pentastar Alignment. Commands a Munificent with significant droid-based support abilities."
 StringInfo
 	ID "IDS_HERO_DEKEET_NAME"
 	Value "Ib Dekeet"
@@ -5702,7 +5702,7 @@ StringInfo
 	Value "Ability Cooldown rate"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ABILITYANTIMATTERCOST"
-	Value "Ability antimatter cost"
+	Value "Ability supply cost"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_HULLPOINTRESTORERATE"
 	Value "Hull restore rate"
@@ -7700,7 +7700,7 @@ StringInfo
 	Value "Target must have non-passive ability."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTER"
-	Value "Target must have antimatter."
+	Value "Target must have fighter supply."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASPHASEMISSILES"
 	Value "Target must have Phase Missiles."
@@ -7742,7 +7742,7 @@ StringInfo
 	Value "Target's shields are already at full strength."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTERSHORTAGE"
-	Value "Target's antimatter is already full."
+	Value "Target's fighter supply is already full."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASWEAPONS"
 	Value "Target must have weapons."
@@ -8234,7 +8234,7 @@ StringInfo
 	Value "be not self"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_ANTIMATTERSHORTAGE"
-	Value "be missing antimatter"
+	Value "be missing fighter supply"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASWEAPONS"
 	Value "have weapons"
@@ -9041,7 +9041,7 @@ StringInfo
 	Value "Sabotage Reactor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SABOTAGEANTIMATTER_DESCRIPTION"
-	Value "Grants the Sabotage Reactor ability to Cobalt Light Frigates, allowing them to more effectively combat frigates and structures with antimatter."
+	Value "Grants the Sabotage Reactor ability to Cobalt Light Frigates, allowing them to more effectively combat frigates and structures with fighter supply."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SABOTAGEENGINES_NAME"
 	Value "Demolition Bots"
@@ -9089,13 +9089,13 @@ StringInfo
 	Value "Steal Fighter Supply"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_STEALANTIMATTER_DESCRIPTION"
-	Value "Grants the Steal Fighter Supply ability to Disciple Vessels, allowing them to replenish their own antimatter stores by depleting those of enemies."
+	Value "Grants the Steal Fighter Supply ability to Disciple Vessels, allowing them to replenish their own fighter supply stores by depleting those of enemies."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_STOPREGEN_NAME"
 	Value "Disruptor Nanites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_STOPREGEN_DESCRIPTION"
-	Value "Grants the Disruptor Nanites ability to Phase Missile Defense Platforms, allowing them to halt hull, shield, and antimatter restoration on affected enemies."
+	Value "Grants the Disruptor Nanites ability to Phase Missile Defense Platforms, allowing them to halt hull, shield, and fighter supply restoration on affected enemies."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_NAME"
 	Value "Synergy"
@@ -9185,49 +9185,49 @@ StringInfo
 	Value "Efficient Generators"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH0_DESCRIPTION"
-	Value "Increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH1_NAME"
 	Value "Potent Reaction Chaining"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH1_DESCRIPTION"
-	Value "Further increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Further increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI0_NAME"
 	Value "Inspired Reactor Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI0_DESCRIPTION"
-	Value "Increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI1_NAME"
 	Value "Quick Reaction Cycling"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI1_DESCRIPTION"
-	Value "Further increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Further increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI2_NAME"
 	Value "Synergistic Reactions"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI2_DESCRIPTION"
-	Value "Further increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Further increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE0_NAME"
 	Value "Improved Reactor Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE0_DESCRIPTION"
-	Value "Increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE1_NAME"
 	Value "Optimized Reactors"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE1_DESCRIPTION"
-	Value "Further increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Further increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE2_NAME"
 	Value "Superior Chain Reactions"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERPHASE2_DESCRIPTION"
-	Value "Further increases the size and regeneration rate of the antimatter reserves of ships and structures."
+	Value "Further increases the size and regeneration rate of the fighter supply reserves of ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARMORTECH0_NAME"
 	Value "Advanced Metallurgy"
@@ -9401,7 +9401,7 @@ StringInfo
 	Value "Cleanse and Renew"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CLEANSE_AND_RENEW_DESCRIPTION"
-	Value "The Unity's true followers gain the ability to harness antimatter from the gravity wells of newly conquered planets."
+	Value "The Unity's true followers gain the ability to harness fighter supply from the gravity wells of newly conquered planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CONFLUENCE_OF_THE_UNITY_NAME"
 	Value "Confluence of the Unity"
@@ -9437,7 +9437,7 @@ StringInfo
 	Value "Vespa Corvette"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CORVETTEACCESS_PSIREBEL_DESCRIPTION"
-	Value "Grants access to the Vespa Corvette prototype - a fast attack ship capable of slowing an enemy's antimatter restoration from any source and slowing energy weapon fire rates."
+	Value "Grants access to the Vespa Corvette prototype - a fast attack ship capable of slowing an enemy's fighter supply restoration from any source and slowing energy weapon fire rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CORVETTEACCESS_PSILOYALIST_NAME"
 	Value "Acolyte Corvette"
@@ -9611,7 +9611,7 @@ StringInfo
 	Value "Friendly Jump Telemetry"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIENDLY_JUMP_TELEMETRY_DESCRIPTION"
-	Value "By sharing jump data, phase jumps to friendly gravity wells no longer results in lost antimatter."
+	Value "By sharing jump data, phase jumps to friendly gravity wells no longer results in lost fighter supply."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ANTIFIGHTERTECH_NAME"
 	Value "Garda Prototype"
@@ -10205,7 +10205,7 @@ StringInfo
 	Value "High Efficiency Jumps"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_ANTIMATTERCOSTDECREASE_DESCRIPTION"
-	Value "Decreases the antimatter cost of phase jumping."
+	Value "Decreases the fighter supply cost of phase jumping."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_GRAVITYRANGEDECREASE_NAME"
 	Value "Gravity Tolerance"
@@ -10331,7 +10331,7 @@ StringInfo
 	Value "Fighter Supply Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_ANTIMATTER_DESCRIPTION"
-	Value "Joint improvements to containment systems and generators give both partners a boost to antimatter capacity and regeneration."
+	Value "Joint improvements to containment systems and generators give both partners a boost to fighter supply capacity and regeneration."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_ARMOR_NAME"
 	Value "Armor Pact"
@@ -10775,7 +10775,7 @@ StringInfo
 	Value "Fighter Supply Multicasting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEIMPROVEMENT_PSIANTIMATTERRECHARGER_DESCRIPTION"
-	Value "Increases the antimatter restored by the Temple of Renewal structure."
+	Value "Increases the fighter supply restored by the Temple of Renewal structure."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEIMPROVEMENT_PSIHANGARDEFENSE_NAME"
 	Value "Skilled Hangar Anima"
@@ -11195,7 +11195,7 @@ StringInfo
 	Value "Docking Booms"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_RESUPPLY_DESCRIPTION"
-	Value "Grants Argonev class starbases access to Docking Booms upgrades, allowing them to repair and refill the antimatter reserves of nearby friendly forces."
+	Value "Grants Argonev class starbases access to Docking Booms upgrades, allowing them to repair and refill the fighter supply reserves of nearby friendly forces."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_SELFDESTRUCT_NAME"
 	Value "Safety Override Protocol"
@@ -11411,7 +11411,7 @@ StringInfo
 	Value "Eradica Prototype II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_2_DESCRIPTION"
-	Value "Allows you to continue construction on the Eradica Titan. Refinements to antimatter containment from the Eradica leads to greater capacity for all ships."
+	Value "Allows you to continue construction on the Eradica Titan. Refinements to fighter supply containment from the Eradica leads to greater capacity for all ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_3_NAME"
 	Value "Eradica Prototype III"
@@ -11867,7 +11867,7 @@ StringInfo
 	Value "Jump Field Generator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_DESCRIPTION"
-	Value "Powerful jump stabilization technology protects your ships' antimatter reserves during Phase Jumps, reducing the amount wasted in transit. Also allows travel through Wormholes and for ships to exit closer to planets."
+	Value "Powerful jump stabilization technology protects your ships' fighter supply reserves during Phase Jumps, reducing the amount wasted in transit. Also allows travel through Wormholes and for ships to exit closer to planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_NAME"
 	Value "Neruda Prototype"
@@ -12329,7 +12329,7 @@ StringInfo
 	Value "Fighter Supply Fountain"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_DESCRIPTION"
-	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their antimatter reserves here very rapidly."
+	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their fighter supply reserves here very rapidly."
 StringInfo
 	ID "IDS_ABILITY_ABILITYGUIDANCE_NAME"
 	Value "Guidance"
@@ -12347,19 +12347,19 @@ StringInfo
 	Value "Detonate Fighter Supply"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTERDETONATE_DESCRIPTION"
-	Value "De-stabilizes the antimatter reserves on the target, causing a portion of it to combust and deal damage over time. The target is also unable to use antimatter for abilities over this time period."
+	Value "De-stabilizes the fighter supply reserves on the target, causing a portion of it to combust and deal damage over time. The target is also unable to use fighter supply for abilities over this time period."
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTERRECHARGEMODULE_NAME"
 	Value "Recharge Fighter Supply"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTERRECHARGEMODULE_DESCRIPTION"
-	Value "Recharges the antimatter of friendly targets within range over a short duration."
+	Value "Recharges the fighter supply of friendly targets within range over a short duration."
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTERRESTORE_NAME"
 	Value "Fighter Supply Restoration"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTERRESTORE_DESCRIPTION"
-	Value "Restores some antimatter to friendly ships within range."
+	Value "Restores some fighter supply to friendly ships within range."
 StringInfo
 	ID "IDS_ABILITY_ANTIMODULETORPEDOES_NAME"
 	Value "Neutron Torpedoes"
@@ -12521,7 +12521,7 @@ StringInfo
 	Value "Interference"
 StringInfo
 	ID "IDS_ABILITY_CRIPPLEABILITIES_DESCRIPTION"
-	Value "Disrupts the electronics of the target, causing abilities to require greater amounts of antimatter and to take longer to cooldown."
+	Value "Disrupts the electronics of the target, causing abilities to require greater amounts of fighter supply and to take longer to cooldown."
 StringInfo
 	ID "IDS_ABILITY_CRIPPLEDEFENSE_NAME"
 	Value "Cripple Defenses"
@@ -12641,7 +12641,7 @@ StringInfo
 	Value "Jump Destabilization"
 StringInfo
 	ID "IDS_ABILITY_DESTABILIZEHYPERSPACE_DESCRIPTION"
-	Value "The starbase disrupts the outbound phase lanes of its gravity well, causing hostile ships that are jumping away to take damage and lose antimatter."
+	Value "The starbase disrupts the outbound phase lanes of its gravity well, causing hostile ships that are jumping away to take damage and lose fighter supply."
 StringInfo
 	ID "IDS_ABILITY_DETECTMINESTECH_NAME"
 	Value "Reveal Mines"
@@ -12713,13 +12713,13 @@ StringInfo
 	Value "Disintegration"
 StringInfo
 	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
-	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Vulkoras, replenishing it in turn."
+	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and fighter supply. These gains are streamed back to the Vulkoras, replenishing it in turn."
 StringInfo
 	ID "IDS_ABILITY_DISRUPTIVESTRIKES_NAME"
 	Value "Disruptive Strikes"
 StringInfo
 	ID "IDS_ABILITY_DISRUPTIVESTRIKES_DESCRIPTION"
-	Value "Has a chance to increase ability cooldowns and deplete antimatter when this ship's energy weapons hit enemy ships."
+	Value "Has a chance to increase ability cooldowns and deplete fighter supply when this ship's energy weapons hit enemy ships."
 StringInfo
 	ID "IDS_ABILITY_DISRUPTIONMATRIX_NAME"
 	Value "Disruption Matrix"
@@ -12755,19 +12755,19 @@ StringInfo
 	Value "EMP Charge"
 StringInfo
 	ID "IDS_ABILITY_EMPBLAST_DESCRIPTION"
-	Value "Fires a high energy radio frequency bomb at the target ship, depleting shields and antimatter from it and nearby ships when the bomb explodes."
+	Value "Fires a high energy radio frequency bomb at the target ship, depleting shields and fighter supply from it and nearby ships when the bomb explodes."
 StringInfo
 	ID "IDS_ABILITY_ENERGYABSORB_NAME"
 	Value "Energy Absorption"
 StringInfo
 	ID "IDS_ABILITY_ENERGYABSORB_DESCRIPTION"
-	Value "Provides a slight increase to armor and converts part of any energy attacks against this capital ship into antimatter."
+	Value "Provides a slight increase to armor and converts part of any energy attacks against this capital ship into fighter supply."
 StringInfo
 	ID "IDS_ABILITY_ENERGYDISRUPTION_NAME"
 	Value "Energy Disruption"
 StringInfo
 	ID "IDS_ABILITY_ENERGYDISRUPTION_DESCRIPTION"
-	Value "Allows the Vespa to disrupt energy restoration, preventing antimatter regeneration and slowing energy weapons."
+	Value "Allows the Vespa to disrupt energy restoration, preventing fighter supply regeneration and slowing energy weapons."
 StringInfo
 	ID "IDS_ABILITY_ENERGYWEAPONBOOST_NAME"
 	Value "Amplify Energy Aura"
@@ -13025,7 +13025,7 @@ StringInfo
 	Value "Finest Hour"
 StringInfo
 	ID "IDS_ABILITY_LASTSTAND_DESCRIPTION"
-	Value "In a desperate move, the crew stress themselves and this ship's engineering to the limit, granting the ship splash damage attacks, increased repair rates, and increased antimatter regeneration."
+	Value "In a desperate move, the crew stress themselves and this ship's engineering to the limit, granting the ship splash damage attacks, increased repair rates, and increased fighter supply regeneration."
 StringInfo
 	ID "IDS_ABILITY_LETHARGY_NAME"
 	Value "Lethargy"
@@ -13037,7 +13037,7 @@ StringInfo
 	Value "Flux Field"
 StringInfo
 	ID "IDS_ABILITY_LOWCOSTABILITIES_DESCRIPTION"
-	Value "Greatly reduces the antimatter cost of regular abilities for nearby friendly ships and structures."
+	Value "Greatly reduces the fighter supply cost of regular abilities for nearby friendly ships and structures."
 StringInfo
 	ID "IDS_ABILITY_MAGNETICCLOUD_NAME"
 	Value "Magnetic Cloud"
@@ -13175,13 +13175,13 @@ StringInfo
 	Value "Nano Leech"
 StringInfo
 	ID "IDS_ABILITY_NANOLEECH_DESCRIPTION"
-	Value "The titan unleashes a nanite swarm, stealing hull and antimatter from nearby enemy ships while they remain in range."
+	Value "The titan unleashes a nanite swarm, stealing hull and fighter supply from nearby enemy ships while they remain in range."
 StringInfo
 	ID "IDS_ABILITY_NANOREMIT_NAME"
 	Value "Nano Remit"
 StringInfo
 	ID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
-	Value "The Titan sacrifices some of its own hull and antimatter to restore the hull and antimatter to nearby friendly ships. You must have enough hull and antimatter for this effect to take place."
+	Value "The Titan sacrifices some of its own hull and fighter supply to restore the hull and fighter supply to nearby friendly ships. You must have enough hull and fighter supply for this effect to take place."
 StringInfo
 	ID "IDS_ABILITY_OVERCHARGE_NAME"
 	Value "Analyze Weakness"
@@ -13322,7 +13322,7 @@ StringInfo
 	Value "Purification"
 StringInfo
 	ID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
-	Value "Destroys target owned frigate or cruiser, allowing the titan to absorb its remaining hull, shields and antimatter."
+	Value "Destroys target owned frigate or cruiser, allowing the titan to absorb its remaining hull, shields and fighter supply."
 StringInfo
 	ID "IDS_ABILITY_QUELLUNREST_NAME"
 	Value "Quell Unrest"
@@ -13340,7 +13340,7 @@ StringInfo
 	Value "Radiation Field"
 StringInfo
 	ID "IDS_ABILITY_RADIATION_STORM_DESCRIPTION"
-	Value "This area of space is saturated with deadly radiation, which saps antimatter and hinders passive regeneration. Strike craft are also kept from launching due to potential lethal exposure."
+	Value "This area of space is saturated with deadly radiation, which saps fighter supply and hinders passive regeneration. Strike craft are also kept from launching due to potential lethal exposure."
 StringInfo
 	ID "IDS_ABILITY_RAZEPLANET_NAME"
 	Value "Raze Planet"
@@ -13382,13 +13382,13 @@ StringInfo
 	Value "Repulsion"
 StringInfo
 	ID "IDS_ABILITY_REPULSIONFIELD_DESCRIPTION"
-	Value "A powerful telekinetic field is projected from this ship, pushing away and slowing the movement of all hostile ships within range. Maintaining the field drains antimatter over time."
+	Value "A powerful telekinetic field is projected from this ship, pushing away and slowing the movement of all hostile ships within range. Maintaining the field drains fighter supply over time."
 StringInfo
 	ID "IDS_ABILITY_REPULSIONFIELDACTIVE_NAME"
 	Value "Deactivate Repulsion"
 StringInfo
 	ID "IDS_ABILITY_REPULSIONFIELDACTIVE_DESCRIPTION"
-	Value "Stops the channelling of Repulsion, ceasing the consumption of antimatter."
+	Value "Stops the channelling of Repulsion, ceasing the consumption of fighter supply."
 StringInfo
 	ID "IDS_ABILITY_RESOURCEDRAIN_NAME"
 	Value "Drain Planet"
@@ -13406,7 +13406,7 @@ StringInfo
 	Value "Resupply"
 StringInfo
 	ID "IDS_ABILITY_RESUPPLY_DESCRIPTION"
-	Value "Repairs damage and replenishes antimatter of friendly forces over a short duration."
+	Value "Repairs damage and replenishes fighter supply of friendly forces over a short duration."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
 	Value "Inexorable"
@@ -13538,7 +13538,7 @@ StringInfo
 	Value "Solar Radiation"
 StringInfo
 	ID "IDS_ABILITY_SOLARREGENERATION_DESCRIPTION"
-	Value "Grants capital ships and frigates within the star's gravity well increased antimatter regeneration and makes them harder to detect when jumping to their next destination."
+	Value "Grants capital ships and frigates within the star's gravity well increased fighter supply regeneration and makes them harder to detect when jumping to their next destination."
 StringInfo
 	ID "IDS_ABILITY_STAR_BLACKHOLE_NAME"
 	Value "Black Hole"
@@ -13610,7 +13610,7 @@ StringInfo
 	Value "Steal Fighter Supply"
 StringInfo
 	ID "IDS_ABILITY_STEALANTIMATTER_DESCRIPTION"
-	Value "Takes antimatter from a target enemy ship and adds it to this ship's antimatter reserves."
+	Value "Takes fighter supply from a target enemy ship and adds it to this ship's fighter supply reserves."
 StringInfo
 	ID "IDS_ABILITY_STOPREGEN_NAME"
 	Value "Disruptor Nanites"
@@ -13646,7 +13646,7 @@ StringInfo
 	Value "Subjugation"
 StringInfo
 	ID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
-	Value "Psionic energy is channeled into the titan's weapons, giving them a chance to permanently mind control enemy ships. Weapons fire depletes antimatter and deals decreased damage while this ability is active."
+	Value "Psionic energy is channeled into the titan's weapons, giving them a chance to permanently mind control enemy ships. Weapons fire depletes fighter supply and deals decreased damage while this ability is active."
 StringInfo
 	ID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_NAME"
 	Value "Stop Subjugation"
@@ -13688,7 +13688,7 @@ StringInfo
 	Value "Target Fighter Supply"
 StringInfo
 	ID "IDS_ABILITY_TARGETANTIMATTERTANKS_DESCRIPTION"
-	Value "The corvette's weapons have a chance to deplete its target's antimatter reserves."
+	Value "The corvette's weapons have a chance to deplete its target's fighter supply reserves."
 StringInfo
 	ID "IDS_ABILITY_TARGETCOMPUTERCORE_NAME"
 	Value "Target Computer Core"
@@ -13754,7 +13754,7 @@ StringInfo
 	Value "Transfer Fighter Supply"
 StringInfo
 	ID "IDS_ABILITY_TRANSFERANTIMATTER_DESCRIPTION"
-	Value "Tranfers antimatter from this ship to a target friendly ship or structure."
+	Value "Tranfers fighter supply from this ship to a target friendly ship or structure."
 StringInfo
 	ID "IDS_ABILITY_UNITYMASS_NAME"
 	Value "Unity Mass"
@@ -13790,7 +13790,7 @@ StringInfo
 	Value "Unyielding Will"
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
-	Value "When the titan's hull is depleted, it will become invulnerable for a short period of time before being destroyed. Ability cooldowns are greatly reduced and antimatter regeneration is massively increased."
+	Value "When the titan's hull is depleted, it will become invulnerable for a short period of time before being destroyed. Ability cooldowns are greatly reduced and fighter supply regeneration is massively increased."
 StringInfo
 	ID "IDS_ABILITY_VENGEANCE_NAME"
 	Value "Vengeance"
@@ -14003,7 +14003,7 @@ StringInfo
 	Value "Disciple Vessel"
 StringInfo
 	ID "IDS_FRIGATE_PSILIGHT_DESCRIPTION"
-	Value "A front line combat frigate crewed by low caste acolytes, it can be upgraded to manipulate antimatter."
+	Value "A front line combat frigate crewed by low caste acolytes, it can be upgraded to manipulate fighter supply."
 StringInfo
 	ID "IDS_FRIGATE_PSILONGRANGE_NAME"
 	Value "Illuminator Vessel"
@@ -14222,7 +14222,7 @@ StringInfo
 	Value "Vespa Corvette"
 StringInfo
 	ID "IDS_CORVETTE_PSIREBEL_DESCRIPTION"
-	Value "A small, quick hybrid ship capable of disrupting antimatter and energy weapons, reducing an enemy's ability to regenerate antimatter and slowing energy weapon fire rates."
+	Value "A small, quick hybrid ship capable of disrupting fighter supply and energy weapons, reducing an enemy's ability to regenerate fighter supply and slowing energy weapon fire rates."
 StringInfo
 	ID "IDS_PLANETTYPE_ARIDOCEAN"
 	Value "Arid Oceanic"
@@ -19181,10 +19181,10 @@ StringInfo
 	Value "In addition to increases in its attributes, your capital ship now has an ability point it can spend to unlock new offensive and defensive systems. To spend this point, select the capital ship and click the Ability Management button on the action grid."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_EXPLAINABILITYTYPES0"
-	Value "Abilities fall into two major categories: triggered abilities and passive abilities. Triggered abilities typically require antimatter to be used, and have a cooldown period before they can be used again."
+	Value "Abilities fall into two major categories: triggered abilities and passive abilities. Triggered abilities typically require fighter supply to be used, and have a cooldown period before they can be used again."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_PICKABILITY"
-	Value "Passive abilities require no antimatter, and typically grant a constant benefit to the ship and/or nearby allies. Go ahead and choose a new ability to activate."
+	Value "Passive abilities require no fighter supply, and typically grant a constant benefit to the ship and/or nearby allies. Go ahead and choose a new ability to activate."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_EXPLAINAUTOCAST0"
 	Value "Excellent. When triggered abilities are first unlocked, they begin in an auto-use state, denoted by a circular arrow animation."
@@ -19580,7 +19580,7 @@ StringInfo
 	Value "Repair Platform must also be researched before they can be constructed. Go ahead and do this now via the Military tech tree."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDDEFENSE_REPAIRINFO"
-	Value "Repair Platform can repair an unlimited number of damaged structures or ships within their range - until they exhaust their antimatter supply."
+	Value "Repair Platform can repair an unlimited number of damaged structures or ships within their range - until they exhaust their fighter supply supply."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDDEFENSE_REPAIRPLACEMENT"
 	Value "Build a Repair Platform within range of your other structures now."
@@ -21353,7 +21353,7 @@ StringInfo
 	Value "Max allegiance increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERCAPACITYADJUSTMENT"
-	Value "Max antimatter increase:"
+	Value "Max fighter supply increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERREGENADJUSTMENT"
 	Value "Fighter Supply regeneration:"
@@ -21512,7 +21512,7 @@ StringInfo
 	Value "Max Hull Points Increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_HYPERSPACEANTIMATTERCOSTADJUSTMENT"
-	Value "Phase Jump antimatter cost:"
+	Value "Phase Jump fighter supply cost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_HYPERSPACECHARGEUPRATEADJUSTMENT"
 	Value "Phase Jump charge up rate:"
@@ -21761,7 +21761,7 @@ StringInfo
 	Value "Docking Booms"
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHRESUPPLY_DESC"
-	Value "Grants the Resupply ability to the starbase, allowing it to repair the hull and replenish the antimatter of nearby friendly forces."
+	Value "Grants the Resupply ability to the starbase, allowing it to repair the hull and replenish the fighter supply of nearby friendly forces."
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHBLOCKCOLONIZE_NAME"
 	Value "Auxiliary Government"
@@ -22058,7 +22058,7 @@ StringInfo
 	Value "Fighter Supply Funnelling"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_DESCRIPTION"
-	Value "Refinements to the Ankylon's antimatter storage unit grant the ship superior antimatter capacity and use."
+	Value "Refinements to the Ankylon's fighter supply storage unit grant the ship superior fighter supply capacity and use."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
 	Value "Fortified Superstructure"
@@ -22076,7 +22076,7 @@ StringInfo
 	Value "Magnetic Containment"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_DESCRIPTION"
-	Value "Advances in the Ragnarov's magnetic containment system give it improved antimatter capacity and regeneration."
+	Value "Advances in the Ragnarov's magnetic containment system give it improved fighter supply capacity and regeneration."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
 	Value "High-Stress Alloys"
@@ -22094,7 +22094,7 @@ StringInfo
 	Value "Psi-Containment"
 StringInfo
 	ID "IDS_TITANUPGRADE_PSILOYALIST_ABILITIES_DESCRIPTION"
-	Value "The Coronata is upgraded with the latest advances in antimatter containment, increasing its efficiency."
+	Value "The Coronata is upgraded with the latest advances in fighter supply containment, increasing its efficiency."
 StringInfo
 	ID "IDS_TITANUPGRADE_PSILOYALIST_DURABILITY_NAME"
 	Value "Psi-Reactive Armor"
@@ -22112,7 +22112,7 @@ StringInfo
 	Value "Reactive Containment"
 StringInfo
 	ID "IDS_TITANUPGRADE_PSIREBEL_ABILITIES_DESCRIPTION"
-	Value "The Eradica is upgraded with a new reactive containment system, giving it greater antimatter capacity."
+	Value "The Eradica is upgraded with a new reactive containment system, giving it greater fighter supply capacity."
 StringInfo
 	ID "IDS_TITANUPGRADE_PSIREBEL_DURABILITY_NAME"
 	Value "Unity Armor"
@@ -22130,7 +22130,7 @@ StringInfo
 	Value "Quantum Containment"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_ABILITIES_DESCRIPTION"
-	Value "Recent technology acquired by the Vorastra allows its crew to significantly enhance its use of antimatter."
+	Value "Recent technology acquired by the Vorastra allows its crew to significantly enhance its use of fighter supply."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
 	Value "Dense Composites"
@@ -22148,7 +22148,7 @@ StringInfo
 	Value "Harmonic Containment"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASEREBEL_ABILITIES_DESCRIPTION"
-	Value "Joint efforts with Advent scientists grant the Kultorask greatly improved antimatter generation."
+	Value "Joint efforts with Advent scientists grant the Kultorask greatly improved fighter supply generation."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASEREBEL_DURABILITY_NAME"
 	Value "Nano Fibers"

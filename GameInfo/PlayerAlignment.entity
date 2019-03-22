@@ -14,12 +14,12 @@ entities
 			count 8
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "Remnant_FrigateShipyard"
-			entityDefName "Remnant_CombatLab"
+			entityDefName "Remnant_PolicyLab"
 			entityDefName "Alignment_TradeStation"
 			entityDefName "Remnant_CommStation"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Remnant_CapitalShipyard"
-			entityDefName "Remnant_PolicyLab"
+			entityDefName "Remnant_CombatLab"
 		Page:1
 			count 6
 			entityDefName "Remnant_GolanI"

@@ -2,7 +2,7 @@ TXT2
 SinsArchiveVersion 193
 entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCH_SHIELDGENERATOR"
-smallHudIcon "HUDICON_RESEARCH_SHIELDGENERATOR"
+smallHudIcon ""
 infoCardIcon ""
 NameStringID "IDS_ABILITY_PLANETSHIELD_NAME"
 DescriptionStringID "IDS_ABILITY_PLANETSHIELD_DESCRIPTION"
