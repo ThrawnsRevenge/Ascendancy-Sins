@@ -20,16 +20,16 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 4
 	randomShip
-		type "FrigateTechLight"
+		type "Remnant_Carrack"
 		weight 6
 	randomShip
-		type "FrigateTechLongRange"
+		type "Remnant_Dreadnaught"
 		weight 4
 	randomShip
-		type "FrigateTechHeavy"
+		type "Remnant_VSDI"
 		weight 1
 	randomShip
-		type "FrigateTechAntiFighter"
+		type "Remnant_Lancer"
 		weight 2
 spawnShips
 	minFleetPoints 45.000000
@@ -37,19 +37,19 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 5
 	randomShip
-		type "FrigateTechLight"
+		type "Remnant_Carrack"
 		weight 5
 	randomShip
-		type "FrigateTechLongRange"
+		type "Remnant_Dreadnaught"
 		weight 5
 	randomShip
-		type "FrigateTechHeavy"
+		type "Remnant_VSDI"
 		weight 2
 	randomShip
-		type "FrigateTechAntiFighter"
+		type "Remnant_Lancer"
 		weight 2
 	randomShip
-		type "FrigateTechCarrier"
+		type "Remnant_EscortCarrier"
 		weight 1
 spawnShips
 	minFleetPoints 65.000000
@@ -57,19 +57,19 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 5
 	randomShip
-		type "FrigateTechLight"
+		type "Remnant_Carrack"
 		weight 3
 	randomShip
-		type "FrigateTechLongRange"
+		type "Remnant_Dreadnaught"
 		weight 3
 	randomShip
-		type "FrigateTechHeavy"
+		type "Remnant_VSDI"
 		weight 4
 	randomShip
-		type "FrigateTechAntiFighter"
+		type "Remnant_Lancer"
 		weight 2
 	randomShip
-		type "FrigateTechCarrier"
+		type "Remnant_EscortCarrier"
 		weight 2
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"

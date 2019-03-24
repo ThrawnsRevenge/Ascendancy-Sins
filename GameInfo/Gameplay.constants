@@ -1150,32 +1150,32 @@ GameplayConstants
 		minorFactionPlayerDef
 			name "MFEriadu"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidImp"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidImp"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFMaldrood"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidImp"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidImp"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFZsinj"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidImp"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidImp"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFCentrality"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidImp"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidImp"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""

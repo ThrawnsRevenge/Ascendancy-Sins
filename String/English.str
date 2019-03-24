@@ -1,6 +1,18 @@
 TXT
-NumStrings 8648
+NumStrings 8652
 StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_NAME"
+	Value "Assist Defense"
+StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_DESCRIPTION"
+	Value "The minor faction launches forces to aid in the defense of a target planet."
+StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAID_NAME"
+	Value "Assault Target"
+StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAID_DESCRIPTION"
+	Value "The minor faction launches forces to aid in the assault of a target planet."
+	StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionChissAscendancy"
 	Value "Chiss Ascendancy"
 StringInfo
