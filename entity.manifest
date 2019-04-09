@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2376
+entityNameCount 2379
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -116,6 +116,9 @@ entityName "BuffRangeFinderArray.entity"
 entityName "AbilityRangeFinderArray.entity"
 entityName "BuffWarFooting.entity"
 entityName "AbilityWarFooting.entity"
+entityName "BuffPropulsionInterferenceTarget.entity"
+entityName "BuffPropulsionInterferenceSelf.entity"
+entityName "AbilityPropulsionInterference.entity"
 entityName "BuffRazePlanetTarget2.entity"
 entityName "BuffRazePlanetLauncher2.entity"
 entityName "BuffTorpSphereLoaders.entity"

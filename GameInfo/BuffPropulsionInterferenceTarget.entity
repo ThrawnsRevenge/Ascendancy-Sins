@@ -1,10 +1,10 @@
-TXT2
+﻿TXT2
 SinsArchiveVersion 193
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 5
-allowFirstSpawnerToStack FALSE
+stackingLimit 3
+allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -13,21 +13,17 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
 entityModifier
-	buffEntityModifierType "DamageAsDamageTarget"
+	buffEntityModifierType "PhysicalDamageAsDamageTarget"
 	value
-		Level:0 0.050000
-		Level:1 0.075000
-		Level:2 0.100000
-		Level:3 0.150000
+		Level:0 -0.050000
+		Level:1 -0.100000
+		Level:2 -0.150000
+		Level:3 -0.200000
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 1
 finishCondition
-	finishConditionType "OwnerChanged"
+	finishConditionType "OutOfRange"
 finishCondition
-	finishConditionType "TimeElapsed"
-	time
-		Level:0 15.000000
-		Level:1 15.000000
-		Level:2 15.000000
-		Level:3 15.000000
-		
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffPropulsionInterferenceSelf"
+

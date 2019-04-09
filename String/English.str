@@ -1,5 +1,17 @@
 TXT
-NumStrings 8652
+NumStrings 8656
+StringInfo
+	ID "IDS_ABILITY_DESIGNATETARGET_NAME"
+	Value "Designate Target"
+StringInfo
+	ID "IDS_ABILITY_DESIGNATETARGET_DESCRIPTION"
+	Value "The Syndic marks an enemy ship for concentrated fire by units under its command, enhancing damage against it."
+StringInfo
+	ID "IDS_ABILITY_PROPULSIONINTERFERENCE_NAME"
+	Value "Propulsion Interference"
+StringInfo
+	ID "IDS_ABILITY_PROPULSIONINTERFERENCE_DESCRIPTION"
+	Value "The gravity well generators on this ship are used to interfere with propulsion mechanisms on physical projectiles in the area, reducing the damage from their impacts on allied ships."
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_NAME"
 	Value "Assist Defense"

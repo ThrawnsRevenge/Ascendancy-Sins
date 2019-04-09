@@ -1,31 +1,12 @@
 TXT2
 SinsArchiveVersion 193
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTarget"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffShieldScan"
-targetFilter
-	numOwnerships 1
-	ownership "Enemy"
-	numObjects 6
-	object "PlanetModule"
-	object "CapitalShip"
-	object "Frigate"
-	object "StarBase"
-	object "Titan"
-	object "Corvette"
-	numSpaces 1
-	space "Normal"
-	numConstraints 0
-range
-	Level:0 12000.000000
-	Level:1 12000.000000
-	Level:2 12000.000000
-	Level:3 12000.000000
+buffType "BuffPropulsionInterferenceSelf"
 effectInfo
 	effectAttachInfo
-		attachType "Ability"
-		abilityIndex 0
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -53,8 +34,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_DESIGNATETARGET_NAME"
-descStringID "IDS_ABILITY_DESIGNATETARGET_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_DENTINGSTRIKE"
-smallHudIcon "HUDICON_ABILITY_DENTINGSTRIKE"
+nameStringID "IDS_ABILITY_PROPULSIONINTERFERENCE_NAME"
+descStringID "IDS_ABILITY_PROPULSIONINTERFERENCE_DESCRIPTION"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""
