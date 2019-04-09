@@ -1,5 +1,11 @@
 TXT
-NumStrings 8656
+NumStrings 8658
+StringInfo
+	ID "IDS_ABILITY_DEPLOYATATS_NAME"
+	Value "Prepare for Ground Assault!"
+StringInfo
+	ID "IDS_ABILITY_DEPLOYATATS_DESCRIPTION"
+	Value "The Secutor dploys its large complement of ground forces to engage enemy garrisons on the planet."
 StringInfo
 	ID "IDS_ABILITY_DESIGNATETARGET_NAME"
 	Value "Designate Target"

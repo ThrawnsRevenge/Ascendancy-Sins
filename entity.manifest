@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2379
+entityNameCount 2381
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -80,6 +80,8 @@ entityName "BuffGravityManipulationParent.entity"
 entityName "BuffGravityManipulationChild.entity"
 entityName "BuffGravityManipulationSelf.entity"
 entityName "AbilityGravityManipulation.entity"
+entityName "BuffDeployATATs.entity"
+entityName "AbilityDeployATATs.entity"
 entityName "BuffUncap.entity"
 entityName "AbilityUncap.entity"
 entityName "BuffDecoy.entity"
