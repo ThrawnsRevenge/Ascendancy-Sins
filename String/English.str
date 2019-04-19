@@ -374,7 +374,7 @@ StringInfo
 	Value "Scourge Squadron Leader"
 StringInfo
 	ID "IDS_ABILITY_SCOURGE_DESCRIPTION"
-	Value "Kaine summons help from other Scourge Squadron Star Destroyersy."
+	Value "Kaine summons help from other Scourge Squadron Star Destroyers."
 StringInfo
 	ID "IDS_ABILITY_SENSORSCRAMBLER_NAME"
 	Value "Sensor Scrambler"
