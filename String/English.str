@@ -5,7 +5,7 @@ StringInfo
 	Value "Prepare for Ground Assault!"
 StringInfo
 	ID "IDS_ABILITY_DEPLOYATATS_DESCRIPTION"
-	Value "The Secutor dploys its large complement of ground forces to engage enemy garrisons on the planet."
+	Value "The Secutor deploys its large complement of ground forces to engage enemy garrisons on the planet."
 StringInfo
 	ID "IDS_ABILITY_DESIGNATETARGET_NAME"
 	Value "Designate Target"
@@ -140,7 +140,7 @@ StringInfo
 	Value "Imperial Probe Droids"
 StringInfo
 	ID "IDS_ABILITY_SENSORPROBE_DESCRIPTION"
-	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other Threats."
+	Value "Probe Droids are dispatched to far away systems to scan for New Republic Forces and other threats."
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_DESCRIPTION"
 	Value "LOW LIFE"
@@ -155,7 +155,7 @@ StringInfo
 	Value "CIC Suite"
 StringInfo
 	ID "IDS_ABILITY_CICSUITE_DESCRIPTION"
-	Value "Special Command Centres provide targeting analysis data to other nearby imperial vessels."
+	Value "Special Command Centres provide targeting analysis data to other nearby Imperial vessels."
 StringInfo
 	ID "IDS_ABILITY_CSHOT_NAME"
 	Value "Crippling Shot"
@@ -269,7 +269,7 @@ StringInfo
 	Value "Signal Weakness"
 StringInfo
 	ID "IDS_ABILITY_SIGNALWEAKNESS_DESCRIPTION"
-	Value "Parck identifies weak points on the enemy hull, increasing damage againjst it from all sources temporarily."
+	Value "Parck identifies weak points on the enemy hull, increasing damage against it from all sources temporarily."
 StringInfo
 	ID "IDS_ABILITY_VISIONARY_NAME"
 	Value "Dedication"
@@ -311,7 +311,7 @@ StringInfo
 	Value "Rebel Dream"
 StringInfo
 	ID "IDS_ABILITY_REBELDREAM_DESCRIPTION"
-	Value "Leia's crew gains extra bonuses as he gains levels."
+	Value "Leia's crew gains extra bonuses as she gains levels."
 StringInfo
 	ID "IDS_ABILITY_ROUSINGSPEECH_NAME"
 	Value "Rousing Speech"
@@ -323,7 +323,7 @@ StringInfo
 	Value "Mind Trick"
 StringInfo
 	ID "IDS_ABILITY_MINDTRICK_DESC"
-	Value "Leia uses her fledling Jedi powers to direct enemy fire away from the Rebel Dream."
+	Value "Leia uses her fledgling Jedi powers to direct enemy fire away from the Rebel Dream."
 StringInfo
 	ID "IDS_ABILITY_ORIFLAMME_NAME"
 	Value "Oriflamme"
@@ -494,7 +494,7 @@ StringInfo
 	Value "Old Man of the Empire"
 StringInfo
 	ID "IDS_ABILITY_COMMANDPELLAEON_DESCRIPTION"
-	Value "Pellaeon's experience makes has made him one of the most capable admirals the galaxy has ever seen, surpassed only by Thrawn and Ackbar."
+	Value "Pellaeon's experience has made him one of the most capable admirals the galaxy has ever seen, surpassed only by Thrawn and Ackbar."
 StringInfo
 	ID "IDS_ABILITY_DARKFORCERISING_NAME"
 	Value "Dark Force Rising"
@@ -554,7 +554,7 @@ StringInfo
 	Value "Corporate Acquisition"
 StringInfo
 	ID "IDS_ABILITY_CORPORATEACQUISITION_DESCRIPTION"
-	Value "Besk raids the target planet, siphoning cridets from local businesses."
+	Value "Besk raids the target planet, siphoning credits from local businesses."
 StringInfo
 	ID "IDS_ABILITY_BUZZDROIDS_NAME"
 	Value "Buzz Droids"
@@ -578,7 +578,7 @@ StringInfo
 	Value "Critical Strike"
 StringInfo
 	ID "IDS_ABILITY_CRITICALSTRIKE_DESCRIPTION"
-	Value "Knight Hammer targets one enemy capital vessels with a focused high powered energy blast from multiple turbolasers."
+	Value "Knight Hammer targets one enemy capital vessel with a focused high powered energy blast from multiple turbolasers."
 StringInfo
 	ID "IDS_ABILITY_NIGHTHAMMER_NAME"
 	Value "Knight Hammer"
@@ -794,7 +794,7 @@ StringInfo
 	Value "Ackbar - Home One"
 StringInfo
 	ID "IDS_HERO_ACKBAR_DESCRIPTION"
-	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
+	Value "A Mon Calamari admiral, famous for leading the Rebel Alliance Navy to victory against the Emperor at Endor. This vessel serves as the flagship for the New Republic in flagship victory mode."
 StringInfo
 	ID "IDS_HERO_SOLO_NAME"
 	Value "Han & Chewie - Millenium Falcon"
@@ -839,7 +839,7 @@ StringInfo
 	Value "Fleet Logistics"
 StringInfo
 	ID "IDS_ABILITY_ALTORPASSIVEHEAL_DESCRIPTION"
-	Value "The Altore constantly heals friendly ships around it for a small amount."
+	Value "The Altor constantly heals friendly ships around it for a small amount."
 StringInfo
 	ID "IDS_ABILITY_DRYDOCKARMS_NAME"
 	Value "Drydock Arm"
@@ -1292,7 +1292,7 @@ StringInfo
 	Value "Protectionism"
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_PROTECTIONISM_DESCRIPTION"
-	Value "The Alignment's reliance on trade for its economy prompts naval commanders to push their forces to the limit in defence of worlds containing a trade post, granting bonus firepower and defense. This bonus can stack up to three times."
+	Value "The Alignment's reliance on trade for its economy prompts naval commanders to push their forces to the limit in defense of worlds containing a trade post, granting bonus firepower and defense. This bonus can stack up to three times."
 StringInfo
 	ID "IDS_ALIGNMENTRESEARCH_HOSTILETAKEOVER_NAME"
 	Value "Hostile Takeover"
@@ -1604,49 +1604,49 @@ StringInfo
 	Value "Capital Command Tier I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS0_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS1_NAME"
 	Value "Capital Command Tier II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS1_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS2_NAME"
 	Value "Capital Command Tier III"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS2_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_NAME"
 	Value "Capital Command Tier IV"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS3_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS4_NAME"
 	Value "Capital Command Tier V"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS4_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS5_NAME"
 	Value "Capital Command Tier VI"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS5_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS6_NAME"
 	Value "Capital Command Tier VII"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS6_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS7_NAME"
 	Value "Capital Command Tier VIII"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPS7_DESCRIPTION"
-	Value "Increases the number of Capital ships your faction is able to sustain at once."
+	Value "Increases the number of capital ships your faction is able to sustain at once."
 StringInfo
 	ID "IDS_PLAYERRACENAME_EOTH"
 	Value "Empire of the Hand"
@@ -1802,7 +1802,7 @@ StringInfo
 	Value "Gladiator"
 StringInfo
 	ID "IDS_FRIGATE_GLADIATOR_DESCRIPTION"
-	Value "A small Star Destroyer warship"
+	Value "A small Star Destroyer design"
 StringInfo
 	ID "IDS_FRIGATE_ARQUITENS_NAME"
 	Value "Arquitens"
@@ -1892,7 +1892,7 @@ StringInfo
 	Value "Prosvoli Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_BUDIRECH_DESCRIPTION"
-	Value "A fusion of the old Republic Dreadnaught and Chiss technology in the same vein as the Clawcraft, the Budirech boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
+	Value "A fusion of the old Republic Dreadnaught and Chiss technology in the same vein as the Clawcraft, the Prosvoli boasts more firepower than its inspiration, while also doing away with many of the weaknesses of the Dreadnaught, including its massive crew requirements. It does however have a weaker hull, relying more on its powerful shields."
 StringInfo
 	ID "IDS_FRIGATE_DREADNAUGHT_NAME"
 	Value "Dreadnaught Cruiser"
@@ -1958,7 +1958,7 @@ StringInfo
 	Value "Dauntless Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_DAUNTLESS_DESCRIPTION"
-	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other frigates."
+	Value "Originally converted luxury liners made by Sullustans for the use of the Rebellion, the Dauntless boasts both heavy firepower and defenses, although lacks some of the versitility of other cruisers."
 StringInfo
 	ID "IDS_FRIGATE_BAC_NAME"
 	Value "Bothan Assault Cruiser"
@@ -1970,13 +1970,13 @@ StringInfo
 	Value "Assault Frigate"
 StringInfo
 	ID "IDS_FRIGATE_ASSAULT_DESCRIPTION"
-	Value "A heavily modified Dreadnaught Cruiser with extra weaponry and enhanced manoeuvrability."
+	Value "A heavily modified Dreadnaught Cruiser with extra weaponry and enhanced maneuverability."
 StringInfo
 	ID "IDS_FRIGATE_MC40_NAME"
 	Value "MC40a Light Cruiser"
 StringInfo
 	ID "IDS_FRIGATE_MC40_DESCRIPTION"
-	Value "A fast, manoeuvrable escort equipped with exceptionally strong shields."
+	Value "A fast, maneuvrable escort equipped with exceptionally strong shields."
 StringInfo
 	ID "IDS_FRIGATE_QUASAR_NAME"
 	Value "Quasar Carrier"
@@ -2357,7 +2357,7 @@ StringInfo
 	Value "Ardus Kaine - Reaper"
 StringInfo
 	ID "IDS_HERO_KAINE_DESCRIPTION"
-	Value "After Endor, Grand Moff Ardus Kaine struck out on his own to form the Pentastar Alignment, bringing together several high-ranking Imperials and local corporations. He commands the Executor-class Reaper, and provides combat bonuses to the Alignment fleet [DOES NOT RESPAWN]"
+	Value "After Endor, Grand Moff Ardus Kaine struck out on his own to form the Pentastar Alignment, bringing together several high-ranking Imperials and local corporations. He commands the Executor-class Super Star Destroyer Reaper, and provides combat bonuses to the Alignment fleet [DOES NOT RESPAWN]"
 StringInfo
 	ID "IDS_SPAWNHERO_THRAWN_NAME"
 	Value "Recruit Thrawn"
