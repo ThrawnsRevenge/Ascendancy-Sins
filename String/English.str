@@ -3182,13 +3182,13 @@ StringInfo
 	Value "Emergency Shielding"
 StringInfo
 	ID "IDS_ABILITY_EMERGENCYSHIELDING_DESCRIPTION"
-	Value "All emergency power gets routed from offensive systems to shielding."
+	Value "All emergency power gets rerouted from offensive systems to shielding."
 StringInfo
 	ID "IDS_ABILITY_ESCAPEVELOCITY_NAME"
 	Value "Escape Velocity"
 StringInfo
 	ID "IDS_ABILITY_ESCAPEVELOCITY_DESCRIPTION"
-	Value "All emergency power gets routed from offensive and shielding to engines."
+	Value "All emergency power gets rerouted from offensive and shielding to engines."
 StringInfo
 	ID "IDS_ABILITY_LOWLIFE_NAME"
 	Value "Degrading Systems"
@@ -3224,7 +3224,7 @@ StringInfo
 	Value "Improved Turbolasers"
 StringInfo
 	ID "IDS_REMNANTRESEARCH_TURBOLASERSTWO_DESCRIPTION"
-	Value "More compact gas packing causes lasers to weaponry more damage to targets."
+	Value "More compact gas packing causeing lasers to have a greater damage output."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_MONITORJUMPS_NAME"
 	Value "Hyperspace Monitors"
@@ -3623,7 +3623,7 @@ StringInfo
 	Value "Dark Force Rising"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_KATANAFLEET_DESCRIPTION"
-	Value "Spawns 20 Katana Dreadnaughts at the Chimera. Only usable in Flagship victory mode."
+	Value "Spawns 20 Katana Dreadnaughts at the Chimaera. Only usable in Flagship victory mode."
 StringInfo
 	ID "IDS_REMNANTRESEARCH_FEAROFFORCE_NAME"
 	Value "Fear of Force"
@@ -3767,7 +3767,7 @@ StringInfo
 	Value "Pellaeon - Right to Rule"
 StringInfo
 	ID "IDS_HERO_PELLAEON_DESCRIPTION"
-	Value "Grand Admiral Gilad Pellaeon controls the Chimera and grants combat bonuses to your fleet."
+	Value "Grand Admiral Gilad Pellaeon controls the Chimaera and grants combat bonuses to your fleet."
 StringInfo
 	ID "IDS_SPAWNHERO_PELLAEON_DESCRIPTION"
 	Value "Grand Admiral Gilad Pellaeon and his flagship, Right to Rule, will join your fleet."
