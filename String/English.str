@@ -25859,7 +25859,7 @@ StringInfo
 	Value "Smuggler's Den"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SMUGGLERS_DEN_DESCRIPTION"
-	Value "Allows access to the smuggler's den which establishes trade routes between planets, black market upgrades for your ships, and freighters which smuggle cargo from nearby enemy trade ports."
+	Value "Allows access to the Smuggler's Den which establishes trade routes between planets, black market upgrades for your ships, and freighters which smuggle cargo from nearby enemy trade ports."
 StringInfo
 	ID "IDS_SMUGGLERS_DEN_NAME"
 	Value "Smuggler's Den"
@@ -25913,7 +25913,7 @@ StringInfo
 	Value "Lwhekk-class Manufacturing Ship"
 StringInfo
 	ID "IDS_CAPITALSHIP_LWHEKK_DESCRIPTION"
-	Value "A large yet undergunned cruiser designed to support the fleet through entenchment, the production of Swarm droids, and supplying other necessary equipment."
+	Value "A large yet undergunned cruiser designed to support the fleet through entrenchment, the production of Swarm droids, and supplying other necessary equipment."
 StringInfo
 	ID "IDS_FRIGATE_WURRIF_NAME"
 	Value "Wuriff-class Light Cruiser"
