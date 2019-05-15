@@ -3,7 +3,7 @@ SinsArchiveVersion 193
 entityType "CapitalShip"
 ability:0 "AbilityScrambleTransmissions"
 ability:1 "AbilityAlphaStrike"
-ability:2 ""
+ability:2 "AbilitySurplusFighters"
 ability:3 "AbilityDeployATATs"
 ability:4 "AbilityPassiveLowLifeT4"
 defaultAutoAttackRange "GravityWell"

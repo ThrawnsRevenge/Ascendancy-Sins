@@ -1,5 +1,11 @@
 TXT
-NumStrings 8658
+NumStrings 8660
+StringInfo
+	ID "IDS_ABILITY_SURPLUS_NAME"
+	Value "Surplus Fighters"
+StringInfo
+	ID "IDS_ABILITY_SURPLUS_DESCRIPTION"
+	Value "The Secutor deploys squads of TIE Defenders from its vast hangar bays."
 StringInfo
 	ID "IDS_ABILITY_DEPLOYATATS_NAME"
 	Value "Prepare for Ground Assault!"

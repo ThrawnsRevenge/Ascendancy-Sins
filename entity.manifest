@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2381
+entityNameCount 2382
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -141,6 +141,7 @@ entityName "Buff_ISD2_CICSuiteSelf.entity"
 entityName "Ability_ISD2_CICSuite.entity"
 entityName "Buff_ISD2_CshotTarget.entity"
 entityName "Buff_ISD2_Cshot.entity"
+entityName "AbilitySurplusFighters.entity"
 entityName "Ability_ISD2_Cshot.entity"
 entityName "Hapans_MiytilFighter_Squad.entity"
 entityName "Hapans_MiytilFighter.entity"
