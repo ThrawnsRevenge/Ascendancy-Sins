@@ -772,11 +772,11 @@ StringInfo
 	ID "IDS_ABILITY_ELECTRONICBAFFLE_NAME"
 	Value "Electronic Baffle"
 StringInfo
-	ID "IDS_SPAWNHERO_KARRDE_NAME"
-	Value "Call Talon Karrde"
+	ID "IDS_SPAWNHERO_LEIA_NAME"
+	Value "Call Leia Organa Solo"
 StringInfo
-	ID "IDS_ABILITY_SPAWN_KARRDE_DESCRIPTION"
-	Value "The New Republic calls for the assistance of the smuggler Talon Karrde and his flagship, the Wild Karrde."
+	ID "IDS_ABILITY_SPAWN_LEIA_DESCRIPTION"
+	Value "The New Republic calls for the assistance of Leia in the captured Star Destroyer, the Rebel Dream."
 StringInfo
 	ID "IDS_SPAWNHERO_ACKBAR_NAME"
 	Value "Recruit Admiral Ackbar"

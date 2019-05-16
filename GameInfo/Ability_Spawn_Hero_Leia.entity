@@ -3,7 +3,7 @@ SinsArchiveVersion 193
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Spawn_Hero_Karrde_Self"
+buffType "Buff_Spawn_Hero_Leia_Self"
 targetFilter
 	numOwnerships 1
 	ownership "Player"
@@ -39,20 +39,20 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 creditCost
-	Level:0 500.000000
-	Level:1 500.000000
-	Level:2 500.000000
-	Level:3 500.000000
+	Level:0 2200.000000
+	Level:1 2200.000000
+	Level:2 2200.000000
+	Level:3 2200.000000
 metalCost
-	Level:0 100.000000
-	Level:1 100.000000
-	Level:2 100.000000
-	Level:3 100.000000
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 180.000000
+	Level:3 180.000000
 crystalCost
-	Level:0 50.000000
-	Level:1 50.000000
-	Level:2 50.000000
-	Level:3 50.000000
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -70,14 +70,11 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "NewRepResearch_ShipUnlock_KARRDE"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SPAWNHERO_KARRDE_NAME"
-descStringID "IDS_HERO_KARRDE_DESCRIPTION"
-hudIcon "HUDICON_KARRDE"
-smallHudIcon "HUDICON_KARRDE"
+nameStringID "IDS_SPAWNHERO_LEIA_NAME"
+descStringID "IDS_ABILITY_SPAWN_LEIA_DESCRIPTION"
+hudIcon "HUDICON_LEIA"
+smallHudIcon "HUDICON_LEIA"
 infoCardIcon ""

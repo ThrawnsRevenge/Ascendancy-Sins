@@ -5,7 +5,7 @@ ability:0 "Ability_Karrde_SpyNetwork"
 ability:1 "Ability_Karrde_Surprise"
 ability:2 "Ability_Karrde_SmugglersAlliance"
 ability:3 "Ability_Karrde_WildKarrde"
-ability:4 "Ability_Hero_Karrde"
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

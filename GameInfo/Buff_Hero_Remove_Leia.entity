@@ -13,7 +13,7 @@ instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "Buff_Spawn_Hero_Karrde_Self"
+	buffTypeToRemove "Buff_Spawn_Hero_Leia_Self"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

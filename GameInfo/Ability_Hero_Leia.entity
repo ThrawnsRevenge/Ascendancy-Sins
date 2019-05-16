@@ -3,7 +3,7 @@ SinsArchiveVersion 193
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Buff_Hero_KarrdeSelf"
+buffType "Buff_Hero_LeiaSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -29,8 +29,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HERO_KARRDE_NAME"
-descStringID "IDS_HERO_KARRDE_DESCRIPTION"
+nameStringID "IDS_HERO_LEIA_NAME"
+descStringID "IDS_HERO_LEIA_DESCRIPTION"
 hudIcon ""
 smallHudIcon ""
 infoCardIcon ""

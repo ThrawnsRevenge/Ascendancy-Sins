@@ -19,7 +19,7 @@ instantAction
 		maxFleetPoints 31.000000
 		requiredShipCount 1
 		requiredShip
-			type "NewRep_Karrde"
+			type "NewRep_Leia"
 			minCount 1
 			maxCount 1
 		randomShipCount 0
@@ -31,7 +31,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnBuffFinish"
-	buffType "Buff_Hero_Remove_Karrde"
+	buffType "Buff_Hero_Remove_Leia"
 	travelSpeed 900000.000000
 	hasWeaponEffects FALSE
 numPeriodicActions 0

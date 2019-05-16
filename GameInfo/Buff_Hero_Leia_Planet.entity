@@ -10,21 +10,19 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 2
 instantAction
-	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
-	instantActionTriggerType "OnDelay"
-	delayTime 20.000000
-	buffType "Buff_E4X_SpawnHeroSafetyRemove"
-	travelSpeed 900000.000000
-	hasWeaponEffects FALSE
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnBuffFinish"
+	buffTypeToRemove "Buff_Spawn_Hero_Planet_Leia"
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
-	delayTime 20.000000
-	buffTypeToRemove "Buff_Spawn_Hero_Planet_Karrde"
+	delayTime 0.000000
+	buffTypeToRemove "Buff_Spawn_Hero_Leia_Safety"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "LastSpawnerNoLongerHasBuff"
+	buffTypeToQuery "Buff_Hero_LeiaSelf"

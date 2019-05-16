@@ -13,12 +13,12 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Buff_Spawn_Hero_Planet_Karrde"
+	buffType "Buff_Spawn_Hero_Planet_Leia"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Buff_Spawn_Hero_Karrde_Safety"
+	buffType "Buff_Spawn_Hero_Leia_Safety"
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
