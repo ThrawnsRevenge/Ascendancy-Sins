@@ -1485,7 +1485,7 @@ planetItemType
 planetItemType
 	designName "Ssi:Frigate:Lwhekk"
 	entityDefName "Ssi_Lwhekk_Militia"
-playerTypeCount 7
+playerTypeCount 8
 playerType
 	designName "Remnant"
 	entityDefName "PlayerRemnant"
@@ -1507,6 +1507,9 @@ playerType
 playerType
 	designName "SsiRuuvi"
 	entityDefName "PlayerSsiRuuvi"
+playerType
+	designName "ChissAscendancy"
+	entityDefName "PlayerChiss"
 planetItemsTemplateCount 106
 planetItemsTemplate
 	templateName "Empty"
@@ -3568,7 +3571,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultMinorFaction"
 	subTemplates 0
-	groups 5
+	groups 6
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3645,6 +3648,24 @@ planetItemsTemplate
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFSsiRuuvi"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 11
+				item "Remnant:Module:FrigateFactory"
+				item "EotH:Module:Brask"	
+				item "EotH:Module:Visvia
+				item "EotH:Frigate:Asdoni
+				item "EotH:Frigate:Asdoni"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Vigilance"
+				item "EotH:Frigate:Vigilance"
+				item "EotH:Frigate:Massias"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFChissAscendancy"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
@@ -4064,6 +4085,20 @@ player
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFSsiRuuvi"
+	themeGroup "PlayerEotH"
+	themeIndex 4
+	pictureGroup "PlayerEotH"
+	pictureIndex 1
+player
+	designName "MinorFaction5"
+	inGameName "IDSScenarioPlayerNameMinorFactionChissAscendancy"
+	overrideRaceName "ChissAscendancy"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFChissAscendancy"
 	themeGroup "PlayerEotH"
 	themeIndex 4
 	pictureGroup "PlayerEotH"
