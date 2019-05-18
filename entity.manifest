@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2382
+entityNameCount 2383
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
@@ -510,6 +510,7 @@ entityName "BuffSpawnHeroDaalaDisablerSpawnerCheck.entity"
 entityName "BuffSpawnHeroActuallyDont.entity"
 entityName "BuffSpawnHeroCooldown.entity"
 entityName "Remnant_AITrap.entity"
+entityName "PlayerSsiRuuvi.entity"
 entityName "PlayerEotH.entity"
 entityName "PlayerAlignment.entity"
 entityName "PlayerNewRep.entity"

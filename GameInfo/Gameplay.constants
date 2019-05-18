@@ -1146,7 +1146,7 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 600
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 4
+		minorFactionPlayerDefCount 5
 		minorFactionPlayerDef
 			name "MFEriadu"
 			planetAbilities
@@ -1179,5 +1179,12 @@ GameplayConstants
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
-
+		minorFactionPlayerDef
+			name "MFSsiRuuvi"
+			planetAbilities
+				ability:0 ""
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
 				

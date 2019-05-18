@@ -1485,7 +1485,7 @@ planetItemType
 planetItemType
 	designName "Ssi:Frigate:Lwhekk"
 	entityDefName "Ssi_Lwhekk_Militia"
-playerTypeCount 6
+playerTypeCount 7
 playerType
 	designName "Remnant"
 	entityDefName "PlayerRemnant"
@@ -1504,6 +1504,9 @@ playerType
 playerType
 	designName "Alignment"
 	entityDefName "PlayerAlignment"
+playerType
+	designName "SsiRuuvi"
+	entityDefName "PlayerSsiRuuvi"
 planetItemsTemplateCount 106
 planetItemsTemplate
 	templateName "Empty"
@@ -3565,7 +3568,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultMinorFaction"
 	subTemplates 0
-	groups 4
+	groups 5
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3638,6 +3641,24 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Frigate:Dreadnaught"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFSsiRuuvi"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 11
+				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+				item "Ssi:Frigate:Shree"
 validPictureGroups 5
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3651,7 +3672,7 @@ themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
 themeGroup "PlayerHapans"
 themeGroup "NPC"
-npcPlayers 29
+npcPlayers 30
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -4032,5 +4053,19 @@ player
 	themeGroup "PlayerRemnant"
 	themeIndex 4
 	pictureGroup "PlayerRemnant"
+	pictureIndex 1
+player
+	designName "MinorFaction4"
+	inGameName "IDSScenarioPlayerNameMinorFactionSsiRuuvi"
+	overrideRaceName "SsiRuuvi"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFSsiRuuvi"
+	themeGroup "PlayerEotH"
+	themeIndex 4
+	pictureGroup "PlayerEotH"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5

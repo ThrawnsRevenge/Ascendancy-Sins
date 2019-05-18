@@ -1,5 +1,5 @@
 TXT
-NumStrings 8660
+NumStrings 8662
 StringInfo
 	ID "IDS_ABILITY_SURPLUS_NAME"
 	Value "Surplus Fighters"
@@ -36,9 +36,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAID_DESCRIPTION"
 	Value "The minor faction launches forces to aid in the assault of a target planet."
-	StringInfo
+StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionChissAscendancy"
 	Value "Chiss Ascendancy"
+StringInfo
+	ID "IDSScenarioPlayerNameMinorFactionSsiRuuvi"
+	Value "Ssi-Ruuvi Imperium"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionMaldrood"
 	Value "Greater Maldrood"
@@ -1656,6 +1659,9 @@ StringInfo
 StringInfo
 	ID "IDS_PLAYERRACENAME_EOTH"
 	Value "Empire of the Hand"
+StringInfo
+	ID "IDS_PLAYERRACENAME_SSIRUUVI"
+	Value "Ssi-Ruuvi Imperium"
 StringInfo
 	ID "IDS_PLAYERRACENAME_ZSINJ"
 	Value "Zsinj's Empire"
