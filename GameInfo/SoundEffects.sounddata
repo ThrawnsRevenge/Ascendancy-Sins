@@ -1,5 +1,5 @@
 TXT
-numEffects 1012
+numEffects 1024
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -4038,6 +4038,186 @@ effect
 effect
 	name "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_ONSELECTION_0"
 	fileName "PlanetModule_TechOrbitalNonCombatLaboratory_OnSelection_0.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKONE"
+	fileName "IR_ALLEGIANCE_Attack1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKTWO"
+	fileName "IR_ALLEGIANCE_Attack2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKTHREE"
+	fileName "IR_ALLEGIANCE_Attack3.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKFOUR"
+	fileName "IR_ALLEGIANCE_Attack4.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKFIVE"
+	fileName "IR_ALLEGIANCE_Attack5.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEATTACKSIX"
+	fileName "IR_ALLEGIANCE_Attack6.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEMOVEONE"
+	fileName "IR_ALLEGIANCE_Move1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEMOVETWO"
+	fileName "IR_ALLEGIANCE_Move2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCEMOVETHREE"
+	fileName "IR_ALLEGIANCE_Move3.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCESELECTONE"
+	fileName "IR_ALLEGIANCE_Select1.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCESELECTTWO"
+	fileName "IR_ALLEGIANCE_Select2.ogg"
+	type "Dialogue"
+	is3D FALSE
+	priority 255
+	threshold 0.000000
+	minAttenuationDist 0.000000
+	maxNumPlayingSimultaneously 1
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "EVENTIR_ALLEGIANCESELECTTHREE"
+	fileName "IR_ALLEGIANCE_Select3.ogg"
 	type "Dialogue"
 	is3D FALSE
 	priority 255
