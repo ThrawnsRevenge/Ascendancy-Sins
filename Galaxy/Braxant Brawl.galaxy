@@ -3,7 +3,7 @@ versionNumber 4
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Braxant Brawl"
-browseDescription "Braxant Sector."
+browseDescription "The Imperial Remnant has retreated to Braxtant after losing in the Core and Inner Rim. Will they align with another faction or go it alone to control the Outer Rim?"
 isFirstCapitalShipIsFlagship FALSE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.150000

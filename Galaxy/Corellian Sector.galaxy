@@ -3,7 +3,7 @@ versionNumber 4
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName "Corellian Sector"
-browseDescription "TODO - Add Description Here."
+browseDescription "Fight in a three-way battle to take control of the Corellian sector, one of the major regions in the galaxy."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.150000

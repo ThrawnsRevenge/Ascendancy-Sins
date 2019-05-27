@@ -3,7 +3,7 @@ versionNumber 4
 isBrowsable TRUE
 browsePictureName "AscendancyScenarioPlaceholder"
 browseName ""
-browseDescription "TODO - Add Description Here."
+browseDescription "Two factions fight to gain control of the region surrounding Mon Calamari in a bid to control one of the most well-known Shipyards."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.150000
