@@ -1,5 +1,5 @@
 TXT
-NumStrings 8662
+NumStrings 8663
 StringInfo
 	ID "IDS_ABILITY_SURPLUS_NAME"
 	Value "Surplus Fighters"
@@ -42,6 +42,9 @@ StringInfo
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionSsiRuuvi"
 	Value "Ssi-Ruuvi Imperium"
+StringInfo
+	ID "IDSScenarioPlayerNameMinorFactionHapesConsortium"
+	Value "Hapes Consortium"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionMaldrood"
 	Value "Greater Maldrood"

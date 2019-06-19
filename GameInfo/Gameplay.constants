@@ -1140,13 +1140,13 @@ GameplayConstants
 		minAdjacentPlanetCount 2
 		infrastructurePlanetUpgradeLevel 2
 		populationPlanetUpgradeLevel 3
-		civilianModulesUpgradeLevel 2
-		tacticalModulesUpgradeLevel 1
-		planetIncomeScalar 0.33333
+		civilianModulesUpgradeLevel 3
+		tacticalModulesUpgradeLevel 2
+		planetIncomeScalar 0.53333
 		planetCultureRepelAdditiveBonus 1.5
-		spawnTime 600
+		spawnTime 100
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 6
+		minorFactionPlayerDefCount 7
 		minorFactionPlayerDef
 			name "MFEriadu"
 			planetAbilities
@@ -1189,6 +1189,14 @@ GameplayConstants
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFChissAscendancy"
+			planetAbilities
+				ability:0 ""
+				ability:1 ""
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "MFHapesConsortium"
 			planetAbilities
 				ability:0 ""
 				ability:1 ""

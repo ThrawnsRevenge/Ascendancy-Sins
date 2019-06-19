@@ -3571,14 +3571,14 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultMinorFaction"
 	subTemplates 0
-	groups 6
+	groups 7
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFEriadu"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3592,14 +3592,15 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Capital:ISDII"
+				item "Remnant:Capital:ISDII"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3613,14 +3614,15 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Capital:ISDII"
+				item "Remnant:Capital:ISDII"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3634,14 +3636,15 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Capital:ISDII"
+				item "Remnant:Capital:ISDII"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFCentrality"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 15
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3655,14 +3658,15 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
-				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Capital:ISDII"
+				item "Remnant:Capital:ISDII"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFChissAscendancy"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 22
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3677,13 +3681,21 @@ planetItemsTemplate
 				item "EotH:Frigate:Vigilance"
 				item "EotH:Frigate:Vigilance"
 				item "EotH:Frigate:Massias"
+				item "EotH:Frigate:Asdoni
+				item "EotH:Frigate:Asdoni"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Kariek"
+				item "EotH:Frigate:Vigilance"
+				item "EotH:Capital:Phalanx"
+				item "EotH:Capital:Syndic"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
 				param "MFSsiRuuvi"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 30
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
@@ -3698,6 +3710,72 @@ planetItemsTemplate
 				item "Ssi:Frigate:Lwhekk"
 				item "Ssi:Frigate:Shree"
 				item "Ssi:Frigate:Shree"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+				item "Ssi:Frigate:Shree"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Wurrif"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Lwhekk"
+				item "Ssi:Frigate:Shree"
+				item "Ssi:Frigate:Shree"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFHapesConsortium"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 43
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Durasteel"
+				item "NewRep:Module:Tibanna"
+				item "NewRep:Module:FrigateFactory"
+				item "NewRep:Frigate:Constructor"
+				item "NewRep:Frigate:Constructor"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:BattleDragon"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:NovaCruiser"
 validPictureGroups 7
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3715,7 +3793,7 @@ themeGroup "PlayerHapes"
 themeGroup "PlayerChiss"
 themeGroup "PlayerSsi"
 themeGroup "NPC"
-npcPlayers 30
+npcPlayers 32
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -4114,7 +4192,7 @@ player
 player
 	designName "MinorFaction5"
 	inGameName "IDSScenarioPlayerNameMinorFactionChissAscendancy"
-	overrideRaceName "ChissAscendancy"
+	overrideRaceName "EotH"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -4124,5 +4202,19 @@ player
 	themeGroup "PlayerChiss"
 	themeIndex 4
 	pictureGroup "PlayerChiss"
+	pictureIndex 1
+player
+	designName "MinorFaction6"
+	inGameName "IDSScenarioPlayerNameMinorFactionHapesConsortium"
+	overrideRaceName "Hapans"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFHapesConsortium"
+	themeGroup "PlayerHapes"
+	themeIndex 4
+	pictureGroup "PlayerHapes"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5
