@@ -1,0 +1,34 @@
+TXT
+themeCount 1
+Icon
+	textureName "AscendancyThemes"
+	startTopLeft [ 460 , 40 ]
+	width 40
+	height 40
+	rowItemCount 1
+	horizontalStride 40
+	verticalStride 40
+IconOverlay
+	textureName "AscendancyThemes"
+	startTopLeft [ 412 , 111 ]
+	width 16
+	height 16
+	rowItemCount 1
+	horizontalStride 16
+	verticalStride 16
+Picture
+	textureName "AscendancyThemes"
+	startTopLeft [ 190 , 95 ]
+	width 95
+	height 95
+	rowItemCount 1
+	horizontalStride 95
+	verticalStride 95
+PlanetIcon
+	textureName "AscendancyThemes"
+	startTopLeft [ 460 , 40 ]
+	width 40
+	height 40
+	rowItemCount 1
+	horizontalStride 40
+	verticalStride 40

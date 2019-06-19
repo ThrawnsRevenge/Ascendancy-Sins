@@ -3578,7 +3578,10 @@ planetItemsTemplate
 				param "MFEriadu"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 14
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
@@ -3596,7 +3599,10 @@ planetItemsTemplate
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 14
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
@@ -3614,7 +3620,10 @@ planetItemsTemplate
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 14
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
@@ -3632,7 +3641,10 @@ planetItemsTemplate
 				param "MFCentrality"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 14
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
@@ -3647,10 +3659,13 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "MFSsiRuuvi"
+				param "MFChissAscendancy"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 14
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactory"
 				item "EotH:Module:Brask"	
 				item "EotH:Module:Visvia
@@ -3665,11 +3680,14 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "MFChissAscendancy"
+				param "MFSsiRuuvi"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
-				item "Remnant:Module:FrigateFactory"
+			items 14
+				item "EotH:Module:Durasteel"
+				item "EotH:Module:Durasteel"
+				item "EotH:Module:Durasteel"
+				item "EotH:Module:FrigateFactory"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Ssi:Frigate:Wurrif"
@@ -3680,18 +3698,22 @@ planetItemsTemplate
 				item "Ssi:Frigate:Lwhekk"
 				item "Ssi:Frigate:Shree"
 				item "Ssi:Frigate:Shree"
-validPictureGroups 5
+validPictureGroups 7
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
 pictureGroup "PlayerNewRep"
 pictureGroup "PlayerEotH"
-pictureGroup "PlayerHapans"
-validThemeGroups 6
+pictureGroup "PlayerHapes"
+pictureGroup "PlayerSsi"
+pictureGroup "PlayerChiss"
+validThemeGroups 8
 themeGroup "PlayerAlignment"
 themeGroup "PlayerRemnant"
 themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
-themeGroup "PlayerHapans"
+themeGroup "PlayerHapes"
+themeGroup "PlayerChiss"
+themeGroup "PlayerSsi"
 themeGroup "NPC"
 npcPlayers 30
 player
@@ -4085,9 +4107,9 @@ player
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFSsiRuuvi"
-	themeGroup "PlayerEotH"
+	themeGroup "PlayerSsi"
 	themeIndex 4
-	pictureGroup "PlayerEotH"
+	pictureGroup "PlayerSsi"
 	pictureIndex 1
 player
 	designName "MinorFaction5"
@@ -4099,8 +4121,8 @@ player
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFChissAscendancy"
-	themeGroup "PlayerEotH"
+	themeGroup "PlayerChiss"
 	themeIndex 4
-	pictureGroup "PlayerEotH"
+	pictureGroup "PlayerChiss"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5

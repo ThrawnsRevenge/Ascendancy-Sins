@@ -1,9 +1,10 @@
 TXT
-fileCount 11
+fileCount 12
 fileName "NPC.playerThemes"
 fileName "PlayerVong.playerThemes"
 fileName "PlayerHapes.playerThemes"
 fileName "PlayerSsi.playerThemes"
+fileName "PlayerChiss.playerThemes"
 fileName "Special.playerThemes"
 fileName "SpecialNPC.playerThemes"
 fileName "PlayerRemnant.playerThemes"

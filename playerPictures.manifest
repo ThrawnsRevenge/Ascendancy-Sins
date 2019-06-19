@@ -1,8 +1,10 @@
 TXT
-fileCount 6
+fileCount 8
 fileName "NPC.playerPictures"
 fileName "PlayerRemnant.playerPictures"
 fileName "PlayerEotH.playerPictures"
 fileName "PlayerNewRep.playerPictures"
 fileName "PlayerPA.playerPictures"
 fileName "PlayerHapes.playerPictures"
+fileName "PlayerSsi.playerPictures"
+fileName "PlayerChiss.playerPictures"
