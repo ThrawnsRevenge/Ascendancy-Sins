@@ -1,34 +1,35 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 themeCount 1
 Icon
-	textureName "AscendancyThemes"
-	startTopLeft [ 420 , 40 ]
-	width 40
-	height 40
+	textureName "Theme_Ssi.tga"
+	startTopLeft [110,0]
+	width 33
+	height 33
 	rowItemCount 1
 	horizontalStride 40
 	verticalStride 40
 IconOverlay
-	textureName "AscendancyThemes"
-	startTopLeft [ 396 , 111 ]
-	width 16
-	height 16
+	textureName "Theme_Ssi.tga"
+	startTopLeft [171 , 0]
+	width 14
+	height 14
 	rowItemCount 1
-	horizontalStride 16
-	verticalStride 16
+	horizontalStride 20
+	verticalStride 20
 Picture
-	textureName "AscendancyThemes"
-	startTopLeft [ 95 , 95 ]
-	width 95
-	height 95
+	textureName "Theme_Ssi.tga"
+	startTopLeft [0,0]
+	width 110
+	height 110
 	rowItemCount 1
-	horizontalStride 95
-	verticalStride 95
+	horizontalStride 110
+	verticalStride 110	
 PlanetIcon
-	textureName "AscendancyThemes"
-	startTopLeft [ 420 , 40 ]
-	width 40
-	height 40
+	textureName "Theme_Ssi.tga"
+	startTopLeft [110,0]
+	width 33
+	height 33
 	rowItemCount 1
 	horizontalStride 40
 	verticalStride 40

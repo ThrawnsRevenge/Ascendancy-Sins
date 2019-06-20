@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 iconSizes
 	capitalShip [20, 20]
 	cannonShell [20, 20]
@@ -13,8 +14,8 @@ iconSizes
 	solarSystem [50, 50]
 	solarSystemPlanet [10, 10]
 	fleet [40, 40]
-planetPlayerThemeOffsetFromCenter -70
-planetNameOffsetFromTop -35
+planetPlayerThemeOffsetFromCenter -85
+planetNameOffsetFromTop -21
 planetNameFontId "PlanetNameMainView"
 meshBarsMinWidth 10
 meshBarsMaxWidth 60
