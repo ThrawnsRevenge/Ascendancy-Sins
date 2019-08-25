@@ -4,9 +4,8 @@ entityType "Ability"
 buffInstantActionType "SpawnShipsAtPlanetWithTarget"
 instantActionTriggerType "AlwaysPerform"
 targetFilter
-	numOwnerships 2
-	ownership "Enemy"
-	ownership "NoOwner"
+	numOwnerships 1
+	ownership "Friendly"
 	numObjects 1
 	object "Planet"
 	numSpaces 1
@@ -18,61 +17,46 @@ spawnShips
 	minFleetPoints 25.000000
 	maxFleetPoints 40.000000
 	requiredShipCount 0
-	randomShipCount 4
+	randomShipCount 3
 	randomShip
-		type "Remnant_Carrack"
+		type "Ssi_Lwhekk_Militia"
 		weight 6
 	randomShip
-		type "Remnant_Dreadnaught"
+		type "Ssi_Shree_Militia"
 		weight 4
 	randomShip
-		type "Remnant_VSDI"
-		weight 1
-	randomShip
-		type "Remnant_Lancer"
-		weight 2
+		type "Ssi_Wurrif"
+		weight 5
 spawnShips
 	minFleetPoints 45.000000
 	maxFleetPoints 60.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 3
 	randomShip
-		type "Remnant_Carrack"
+		type "Ssi_Lwhekk_Militia"
+		weight 6
+	randomShip
+		type "Ssi_Shree_Militia"
+		weight 4
+	randomShip
+		type "Ssi_Wurrif"
 		weight 5
-	randomShip
-		type "Remnant_Dreadnaught"
-		weight 5
-	randomShip
-		type "Remnant_VSDI"
-		weight 2
-	randomShip
-		type "Remnant_Lancer"
-		weight 2
-	randomShip
-		type "Remnant_EscortCarrier"
-		weight 1
 spawnShips
 	minFleetPoints 70.000000
 	maxFleetPoints 100.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 3
 	randomShip
-		type "Remnant_Carrack"
-		weight 3
+		type "Ssi_Lwhekk_Militia"
+		weight 6
 	randomShip
-		type "Remnant_Dreadnaught"
-		weight 3
-	randomShip
-		type "Remnant_VSDI"
+		type "Ssi_Shree_Militia"
 		weight 4
 	randomShip
-		type "Remnant_Lancer"
-		weight 2
-	randomShip
-		type "Remnant_EscortCarrier"
-		weight 2
+		type "Ssi_Wurrif"
+		weight 5
 spawnShipsArrivalDelayTime 7.000000
-spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+spawnShipsHyperspaceSpawnType "MinorFactionDefenseRaid"
 shouldAdoptFirstSpawnersMinorFactionState TRUE
 spawnShipsMinStartingHullPerc 1.000000
 spawnShipsMaxStartingHullPerc 1.000000
@@ -116,8 +100,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAID_NAME"
-descStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAID_DESCRIPTION"
-hudIcon "HUDICON_RESEARCH_SHOCKANDAWE"
-smallHudIcon "HUDICON_RESEARCH_SHOCKANDAWE"
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_DESCRIPTION"
+hudIcon "HUDICON_RESEARCH_DEFENSIVEFORMATION"
+smallHudIcon "HUDICON_RESEARCH_DEFENSIVEFORMATION"
 infoCardIcon ""

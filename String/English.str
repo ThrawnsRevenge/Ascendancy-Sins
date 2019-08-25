@@ -2381,7 +2381,7 @@ StringInfo
 	Value "Recruit Ib Dekeet"
 StringInfo
 	ID "IDS_HERO_DEKEET_DESCRIPTION"
-	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Praetor and provides several governance bonuses to your planets."
+	Value "An Imperial governor from the outer rim, Dekeet was a political rival-turned-ally of Ardus Kaine. Commands a Secutor and provides several governance bonuses to your planets."
 StringInfo
 	ID "IDS_SPAWNHERO_KAINE_NAME"
 	Value "Recruit Ardus Kaine"
@@ -2840,7 +2840,7 @@ StringInfo
 	Value "Rejuvenate"
 StringInfo
 	ID "IDS_ABILITY_EMPRESSRESTORE_DESCRIPTION"
-	Value "The Empress repairs and resupplies several ships around it."
+	Value "The station repairs and resupplies several ships around it."
 StringInfo
 	ID "IDS_ABILITY_ESCAPEPODSELF_NAME"
 	Value "Escape Pod"
@@ -3784,10 +3784,10 @@ StringInfo
 	ID "IDS_HERO_DAALA_NAME"
 	Value "Natasi Daala - Knight Hammer"
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_NAME"
+	ID "IDS_SPAWNHERO_DAALA_NAME"
 	Value "Recruit Natasi Daala"
 StringInfo
-	ID "IDS_ABILITY_SPAWNHERO_DAALA_DESCRIPTION"
+	ID "IDS_SPAWNHERO_DAALA_DESCRIPTION"
 	Value "Natasi Daala and her custom Executor-class will join your fleet. If you already have an Executor built, recruiting Daala will add a second SSD. If you do not, she will prevent building one."
 StringInfo
 	ID "IDS_HERO_DAALA_DESCRIPTION"

@@ -51,8 +51,8 @@ spawnShips
 		type "Remnant_EscortCarrier"
 		weight 1
 spawnShips
-	minFleetPoints 65.000000
-	maxFleetPoints 80.000000
+	minFleetPoints 70.000000
+	maxFleetPoints 100.000000
 	requiredShipCount 0
 	randomShipCount 5
 	randomShip
@@ -117,6 +117,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_NAME"
 descStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAID_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNDEFENSERAID"
-smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNDEFENSERAID"
+hudIcon "HUDICON_RESEARCH_DEFENSIVEFORMATION"
+smallHudIcon "HUDICON_RESEARCH_DEFENSIVEFORMATION"
 infoCardIcon ""

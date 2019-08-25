@@ -20,56 +20,50 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 4
 	randomShip
-		type "Remnant_Carrack"
+		type "EotH_Vigilance"
 		weight 6
 	randomShip
-		type "Remnant_Dreadnaught"
+		type "EotH_Kariek"
 		weight 4
 	randomShip
-		type "Remnant_VSDI"
+		type "EotH_Chaf"
 		weight 1
 	randomShip
-		type "Remnant_Lancer"
+		type "EotH_Auriette"
 		weight 2
 spawnShips
 	minFleetPoints 45.000000
 	maxFleetPoints 60.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 4
 	randomShip
-		type "Remnant_Carrack"
-		weight 5
+		type "EotH_Vigilance"
+		weight 6
 	randomShip
-		type "Remnant_Dreadnaught"
-		weight 5
+		type "EotH_Kariek"
+		weight 4
 	randomShip
-		type "Remnant_VSDI"
-		weight 2
-	randomShip
-		type "Remnant_Lancer"
-		weight 2
-	randomShip
-		type "Remnant_EscortCarrier"
+		type "EotH_Chaf"
 		weight 1
+	randomShip
+		type "EotH_Auriette"
+		weight 2
 spawnShips
 	minFleetPoints 70.000000
 	maxFleetPoints 100.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 4
 	randomShip
-		type "Remnant_Carrack"
-		weight 3
+		type "EotH_Vigilance"
+		weight 6
 	randomShip
-		type "Remnant_Dreadnaught"
-		weight 3
-	randomShip
-		type "Remnant_VSDI"
+		type "EotH_Kariek"
 		weight 4
 	randomShip
-		type "Remnant_Lancer"
-		weight 2
+		type "EotH_Chaf"
+		weight 1
 	randomShip
-		type "Remnant_EscortCarrier"
+		type "EotH_Auriette"
 		weight 2
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"

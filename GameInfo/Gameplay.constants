@@ -1182,24 +1182,24 @@ GameplayConstants
 		minorFactionPlayerDef
 			name "MFSsiRuuvi"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidSsi"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidSsi"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFChissAscendancy"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidChiss"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidChiss"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "MFHapesConsortium"
 			planetAbilities
-				ability:0 ""
-				ability:1 ""
+				ability:0 "AbilityMinorFactionSpawnDefenseRaidHapes"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidHapes"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
