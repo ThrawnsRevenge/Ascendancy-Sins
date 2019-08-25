@@ -21,13 +21,12 @@ entities
 			entityDefName "Remnant_CapitalShipyard"
 			entityDefName "Remnant_CombatLab"
 		Page:1
-			count 6
+			count 5
 			entityDefName "Remnant_GolanI"
 			entityDefName "Remnant_GolanII"
 			entityDefName "Remnant_GolanIII"
 			entityDefName "Alignment_TitanFactory"
 			entityDefName "Remnant_RepairPlatform"
-			entityDefName "Alignment_CorporateHeadquarters"
 	titanInfo
 		Page:0
 			count 1
@@ -66,7 +65,7 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 103
+		count 102
 		entityDefName "RemnantResearch_Global_MinorFactions0"
 		entityDefName "RemnantResearch_Global_MinorFactions1"
 		entityDefName "AlignmentResearch_AbilityUnlock_Embargo"
@@ -91,7 +90,6 @@ entities
 		entityDefName "AlignmentResearch_Global_CityPlanning"
 		entityDefName "AlignmentResearch_Global_ResaleValue"
 		entityDefName "AlignmentResearch_Global_PrivateLeasing"
-		entityDefName "AlignmentResearch_Global_CorporateHeadquarters"
 		entityDefName "AlignmentResearch_Global_EnhancedDefense"
 		entityDefName "AlignmentResearch_Global_CorporateOutreach"
 		entityDefName "AlignmentResearch_Global_DynamicAutomata"

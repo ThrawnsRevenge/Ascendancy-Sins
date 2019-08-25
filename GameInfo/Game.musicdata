@@ -1,6 +1,7 @@
 TXT
-musicThemeCount 77
-musicTheme "M_NR_Battle1"
+musicThemeCount 90
+musicTheme "MUSIC_FRONTEND"
+musicTheme "M_NR_Ambient1"
 musicTheme "M_NR_Ambient1"
 musicTheme "M_NR_Ambient2"
 musicTheme "M_NR_Ambient3"

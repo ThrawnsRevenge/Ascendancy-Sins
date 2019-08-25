@@ -1,5 +1,5 @@
 TXT
-numMusic 135
+numMusic 136
 music
 	name "MUSIC_FRONTEND"
 	fileName "M_Menu.ogg"
@@ -401,6 +401,14 @@ music
 	emotionLevel 0.4
 	emotionRange 0.6
 music
+	name "MUSIC_QUIET_3"
+	fileName "M_Ambient3.ogg"
+	isLooping FALSE
+	actionLevel 0.15
+	actionRange 0.15
+	emotionLevel 0.4
+	emotionRange 0.6
+music
 	name "MUSIC_QUIET_4"
 	fileName "M_Ambient4.ogg"
 	isLooping FALSE
@@ -578,7 +586,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_4"
-	fileName "Trouble 4.ogg"
+	fileName "M_Sad3.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -586,7 +594,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_5"
-	fileName "Trouble 5.ogg"
+	fileName "M_Sad2.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.3
@@ -594,7 +602,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_6"
-	fileName "Trouble 6.ogg"
+	fileName "M_Sad1.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -602,7 +610,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_7"
-	fileName "Trouble 7.ogg"
+	fileName "M_Sad1.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -610,7 +618,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_8"
-	fileName "Trouble 8.ogg"
+	fileName "M_Sad2.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -618,7 +626,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TROUBLE_9"
-	fileName "Trouble 9.ogg"
+	fileName "M_Sad1.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -1050,7 +1058,7 @@ music
 	emotionRange 0.6
 music
 	name "MUSIC_UPBEAT_1"
-	fileName "Upbeat 1.ogg"
+	fileName "M_NR_Ambient1.ogg"
 	isLooping FALSE
 	actionLevel 0.25
 	actionRange 0.125
@@ -1058,7 +1066,7 @@ music
 	emotionRange 0.5
 music
 	name "MUSIC_UPBEAT_2"
-	fileName "Upbeat 2.ogg"
+	fileName "M_NR_Ambient2.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.2
@@ -1066,7 +1074,7 @@ music
 	emotionRange 0.75
 music
 	name "MUSIC_UPBEAT_3"
-	fileName "Upbeat 3.ogg"
+	fileName "M_NR_Ambient3.ogg"
 	isLooping FALSE
 	actionLevel 0.6
 	actionRange 0.4
@@ -1074,7 +1082,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_PIRATE_ANNOUNCEMENT"
-	fileName "Pirate Announcement.ogg"
+	fileName "M_PSA_Announcement.ogg"
 	isLooping FALSE
 	actionLevel 0.6
 	actionRange 0.4

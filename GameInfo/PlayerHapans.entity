@@ -393,30 +393,40 @@ planetElevatorData
 	elevatorMeshName:GoodsFactory "PlanetElevator-Tech-GoodsFactory"
 	elevatorMeshName:ProductionCenter "PlanetElevator-Tech-ProductionCenter"
 musicThemeData
-	startupMusicThemeCount 3
-	musicTheme "M_IR_Ambient1"
-	musicTheme "MUSIC_QUIET_2"
-	musicTheme "MUSIC_QUIET_3"
-	neutralMusicThemeCount 10
+	startupMusicThemeCount 5
 	musicTheme "MUSIC_QUIET_1"
-	musicTheme "MUSIC_QUIET_2"
-	musicTheme "MUSIC_QUIET_3"
 	musicTheme "MUSIC_QUIET_10"
+	musicTheme "MUSIC_QUIET_15"
+	musicTheme "M_NR_Ambient1"
+	musicTheme "M_NR_Ambient2"
+	neutralMusicThemeCount 11
+	musicTheme "MUSIC_QUIET_4"
+	musicTheme "MUSIC_QUIET_7"
+	musicTheme "MUSIC_QUIET_9"
+	musicTheme "MUSIC_QUIET_10"
+	musicTheme "MUSIC_QUIET_11"
+	musicTheme "MUSIC_QUIET_15"
 	musicTheme "MUSIC_QUIET_16"
-	musicTheme "M_IR_Ambient1"
-	musicTheme "M_IR_Ambient2"
-	musicTheme "M_IR_Ambient3"
-	musicTheme "M_IR_Ambient4"
-	musicTheme "M_IR_Ambient5"
-	scareThemeCount 6
+	musicTheme "M_NR_Ambient1"
+	musicTheme "M_NR_Ambient2"
+	musicTheme "M_NR_Ambient3"
+	musicTheme "M_NR_Ambient4"
+	scareThemeCount 13
+	musicTheme "MUSIC_BATTLE_2"
+	musicTheme "MUSIC_BATTLE_3"
 	musicTheme "MUSIC_BATTLE_4"
+	musicTheme "MUSIC_BATTLE_6"
 	musicTheme "MUSIC_BATTLE_7"
+	musicTheme "MUSIC_BATTLE_11"
 	musicTheme "MUSIC_BATTLE_13"
+	musicTheme "MUSIC_BATTLE_14"
 	musicTheme "MUSIC_BATTLE_16"
+	musicTheme "MUSIC_BATTLE_17"
+	musicTheme "MUSIC_BATTLE_19"
 	musicTheme "MUSIC_BATTLE_23"
-	musicTheme "MUSIC_BATTLE_24"
+	musicTheme "M_NR_Battle1"
 	announcementCount 1
-	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
+	musicTheme "M_NR_Announcement"
 hudSkinData
 	loadScreenCharacterBrush "LoadScreenCharacterTech"
 	fleetIconCount 10
