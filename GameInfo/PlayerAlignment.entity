@@ -66,7 +66,9 @@ entities
 			entityDefName "FrigatePsiRefineryShip"
 			entityDefName "Remnant_FrigateResearch"
 	researchInfo
-		count 101
+		count 103
+		entityDefName "RemnantResearch_Global_MinorFactions0"
+		entityDefName "RemnantResearch_Global_MinorFactions1"
 		entityDefName "AlignmentResearch_AbilityUnlock_Embargo"
 		entityDefName "AlignmentResearch_AbilityUnlock_DrydockArms"
 		entityDefName "AlignmentResearch_AbilityUnlock_FortifiedRefueling"

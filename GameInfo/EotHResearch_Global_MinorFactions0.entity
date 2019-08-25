@@ -1,40 +1,40 @@
 TXT2
 SinsArchiveVersion 193
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
-smallHudIcon "HUDICON_RESEARCH_CULTURESUPPRESSION"
+hudIcon "HUDICON_RESEARCH_MISSIONS"
+smallHudIcon "HUDICON_RESEARCH_MISSIONS"
 infoCardIcon ""
-NameStringID "IDS_REMNANTRESEARCH_CLOSEDBORDERS_NAME"
-DescriptionStringID "IDS_REMNANTRESEARCH_CLOSEDBORDERS_DESCRIPTION"
+NameStringID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
+DescriptionStringID "IDS_EOTHPRESEARCH_MINORFACTIONS_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 2 , 0 ]
-ResearchField "NonCombat"
+	block 0
+	pos [ 3 , 4 ]
+ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 50.000000
-PerLevelUpgradeTime 10.000000
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
 BaseCost
 	credits 1000.000000
-	metal 200.000000
-	crystal 75.000000
+	metal 250.000000
+	crystal 150.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 3
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "CultureResistPercent"
+	modifierType "MinorFactionAbilityLevel"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

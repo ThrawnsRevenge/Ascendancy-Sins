@@ -1,5 +1,23 @@
 TXT
-NumStrings 8663
+NumStrings 8669
+StringInfo
+	ID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
+	Value "Federation Builders"
+StringInfo
+	ID "IDS_EOTHRESEARCH_MINORFACTIONS_DESCRIPTION"
+	Value "The New Republic deepens its tie with local powers, increasing the level of support minor factions can supply."
+StringInfo
+	ID "IDS_REMNANTRESEARCH_MINORFACTIONS_NAME"
+	Value "Coercion"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_MINORFACTIONS_DESCRIPTION"
+	Value "Imperial negotiators exact pressure on local powers to extract greater support from minor factions."
+StringInfo
+	ID "IDS_NEWREPRESEARCH_MINORFACTIONS_NAME"
+	Value "Coalition of the Willing"
+StringInfo
+	ID "IDS_NEWREPRESEARCH_MINORFACTIONS_DESCRIPTION"
+	Value "The New Republic deepens its tie with local powers, increasing the level of support minor factions can supply."
 StringInfo
 	ID "IDS_ABILITY_SURPLUS_NAME"
 	Value "Surplus Fighters"

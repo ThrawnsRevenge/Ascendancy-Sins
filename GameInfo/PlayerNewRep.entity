@@ -68,7 +68,9 @@ entities
 			entityDefName "NewRep_EscapePod"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 108
+		count 110
+		entityDefName "NewRepResearch_Global_MinorFactions0"
+		entityDefName "NewRepResearch_Global_MinorFactions1"		
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "RemnantResearch_AIHelp_CapitalsOne"
 		entityDefName "RemnantResearch_AIHelp_CapitalsTwo"

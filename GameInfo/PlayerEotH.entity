@@ -63,7 +63,9 @@ entities
 			entityDefName "Remnant_Stargalleon"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 95
+		count 97
+		entityDefName "EotHResearch_Global_MinorFactions0"
+		entityDefName "EotHResearch_Global_MinorFactions1"		
 		entityDefName "RemnantResearch_Dummy_HyperspaceGalaxies"
 		entityDefName "DummyResearch_AlwaysOn"
 		entityDefName "EotHResearch_AbilityUnlock_PlanetaryMegamaser"

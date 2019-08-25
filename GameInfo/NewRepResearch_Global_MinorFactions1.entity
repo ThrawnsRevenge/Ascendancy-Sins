@@ -1,19 +1,19 @@
 TXT2
 SinsArchiveVersion 193
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCH_DIPLOMAT"
-smallHudIcon "HUDICON_RESEARCH_DIPLOMAT"
+hudIcon "HUDICON_RESEARCH_MISSIONS"
+smallHudIcon "HUDICON_RESEARCH_MISSIONS"
 infoCardIcon ""
-NameStringID "IDS_NEWREPRESEARCH_DIPLOMATICCORPS_NAME"
-DescriptionStringID "IDS_NEWREPRESEARCH_DIPLOMATICCORPS_DESCRIPTION"
+NameStringID "IDS_NEWREPRESEARCH_MINORFACTIONS_NAME"
+DescriptionStringID "IDS_NEWREPRESEARCH_MINORFACTIONS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 3 ]
+	pos [ 4 , 3 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "NewRepResearch_Global_HelpingHand"
+		Subject "NewRepResearch_Global_MinorFactions0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -21,27 +21,23 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 45.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 600.000000
-	metal 50.000000
-	crystal 100.000000
+	credits 1000.000000
+	metal 250.000000
+	crystal 150.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 4
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 1
 researchModifier
-	modifierType "QuestRewardHappinessAdjustment"
+	modifierType "MinorFactionAbilityLevel"
 	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "QuestFailureHappinessAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

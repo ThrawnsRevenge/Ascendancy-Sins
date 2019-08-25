@@ -1,5 +1,11 @@
 TXT
-entityNameCount 2384
+entityNameCount 2390
+entityName "RemnantResearch_Global_MinorFactions0.entity"
+entityName "RemnantResearch_Global_MinorFactions1.entity"
+entityName "EotHResearch_Global_MinorFactions0.entity"
+entityName "EotHResearch_Global_MinorFactions1.entity"
+entityName "NewRepResearch_Global_MinorFactions0.entity"
+entityName "NewRepResearch_Global_MinorFactions1.entity"
 entityName "AbilityGoodwillMinorFaction.entity"
 entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
