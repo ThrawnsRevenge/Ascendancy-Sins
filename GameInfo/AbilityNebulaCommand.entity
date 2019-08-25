@@ -47,6 +47,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_NEBCOMMAND_NAME"
 descStringID "IDS_ABILITY_NEBCOMMAND_DESC"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_FORCEPUSH"
+smallHudIcon "HUDABILITYICON_FORCEPUSH"
 infoCardIcon ""

@@ -36,6 +36,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PROPULSIONINTERFERENCE_NAME"
 descStringID "IDS_ABILITY_PROPULSIONINTERFERENCE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_INTERDICT"
+smallHudIcon "HUDABILITYICON_INTERDICT"
 infoCardIcon ""

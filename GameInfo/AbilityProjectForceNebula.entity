@@ -47,6 +47,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_FORCEPROJECT_NAME"
 descStringID "IDS_ABILITY_FORCEPROJECT_DESC"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_PROJECTFORCE"
+smallHudIcon "HUDABILITYICON_PROJECTFORCE"
 infoCardIcon ""

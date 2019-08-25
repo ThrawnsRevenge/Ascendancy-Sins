@@ -57,6 +57,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_SENSORPROBE_NAME"
 descStringID "IDS_ABILITY_SENSORPROBE_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_EXPLORE"
+smallHudIcon "HUDABILITYICON_EXPLORE"
 infoCardIcon ""

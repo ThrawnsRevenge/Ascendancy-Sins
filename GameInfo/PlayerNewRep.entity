@@ -86,7 +86,7 @@ entities
 		entityDefName "NewRepResearch_ShipUnlock_Ackbar"
 		entityDefName "NewRepResearch_ShipUnlock_Envoy"
 		entityDefName "NewRepResearch_ShipUnlock_Solo"
-		entityDefName "NewRepResearch_ShipUnlock_Karrde"
+		entityDefName "NewRepResearch_ShipUnlock_Leia"
 		entityDefName "NewRepResearch_ShipUnlock_Quasar"
 		entityDefName "NewRepResearch_ShipUnlock_MC40a"
 		entityDefName "NewRepResearch_ShipUnlock_MC90"

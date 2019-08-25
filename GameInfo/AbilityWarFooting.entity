@@ -47,6 +47,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_WARFOOTING_NAME"
 descStringID "IDS_ABILITY_WARFOOTING_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_EMPIRE"
+smallHudIcon "HUDABILITYICON_EMPIRE"
 infoCardIcon ""

@@ -47,6 +47,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_RANGEFINDERARRAY_NAME"
 descStringID "IDS_ABILITY_RANGEFINDERARRAY_DESCRIPTION"
-hudIcon ""
-smallHudIcon ""
+hudIcon "HUDABILITYICON_FORCEPUSH"
+smallHudIcon "HUDABILITYICON_FORCEPUSH"
 infoCardIcon ""
