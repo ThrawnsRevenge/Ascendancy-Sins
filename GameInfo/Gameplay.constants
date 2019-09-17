@@ -1135,7 +1135,7 @@ GameplayConstants
 		planet "PlanetAsteroidBelt"
 		planet "PlanetMawInstallation"
 		colonizablePlanetsWithMinorFactionsPercent 0.25
-		minConnectionDistanceToColonizedPlanets 3
+		minConnectionDistanceToColonizedPlanets 2
 		minConnectionDistanceToSameFactionPlanets 5
 		minAdjacentPlanetCount 2
 		infrastructurePlanetUpgradeLevel 2

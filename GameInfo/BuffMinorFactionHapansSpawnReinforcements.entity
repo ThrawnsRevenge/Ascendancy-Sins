@@ -20,24 +20,18 @@ periodicAction
 	instantActionTriggerType "AlwaysPerform"
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 3.000000
-		maxFleetPoints 3500.000000
-		requiredShipCount 3
-		requiredShip
-			type "Ssi_Shree"
-			minCount 3
-			maxCount 6
-		requiredShip
-			type "Ssi_Wurrif"
-			minCount 8
-			maxCount 12
-		requiredShip
-			type "Ssi_Lwhekk"
-			minCount 2
-			maxCount 6
-		randomShipCount 0
-	spawnShipsArrivalDelayTime 7.000000
-	spawnShipsHyperspaceSpawnType "FleetBeacon"
+		minFleetPoints 70.000000
+		maxFleetPoints 100.000000
+		requiredShipCount 0
+		randomShipCount 2
+		randomShip
+			type "Hapans_NovaCruiser"
+			weight 5
+		randomShip
+			type "Hapans_BattleDragon"
+			weight 5
+		spawnShipsArrivalDelayTime 7.000000
+		spawnShipsHyperspaceSpawnType "FleetBeacon"
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0

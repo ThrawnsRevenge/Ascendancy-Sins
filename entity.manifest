@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2398
+entityNameCount 2399
 entityName "RemnantResearch_Global_MinorFactions0.entity"
 entityName "RemnantResearch_Global_MinorFactions1.entity"
 entityName "EotHResearch_Global_MinorFactions0.entity"
@@ -11,6 +11,7 @@ entityName "BuffGoodwillOnSelfMinorFaction.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionStart.entity"
 entityName "BuffGoodwillOnPlanetMinorFactionFinish.entity"
 entityName "AbilityMinorFactionHapansSpawnReinforcements.entity"
+entityName "BuffMinorFactionHapansSpawnReinforcements.entity"
 entityName "AbilityMinorFactionAntiMatterRestoreBonus.entity"
 entityName "AbilityMinorFactionAntiModuleDamageBonus.entity"
 entityName "AbilityMinorFactionArmorBonus.entity"

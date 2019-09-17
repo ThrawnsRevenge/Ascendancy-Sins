@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 185
+planetItemTypeCount 186
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1458,6 +1458,9 @@ planetItemType
 planetItemType
 	designName "EotH:Frigate:Alaria"
 	entityDefName "EotH_Alaria"
+planetItemType
+	designName "Hapans:Module:FrigateFactoryMF"
+	entityDefName "Hapans_FrigateShipyardMF"
 planetItemType
 	designName "Hapans:Frigate:BattleDragon"
 	entityDefName "Hapans_BattleDragon"
@@ -3736,7 +3739,7 @@ planetItemsTemplate
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Tibanna"
-				item "NewRep:Module:FrigateFactory"
+				item "Hapans:Module:FrigateFactoryMF"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "Hapans:Frigate:BattleDragon"
