@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 186
+planetItemTypeCount 189
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1461,6 +1461,15 @@ planetItemType
 planetItemType
 	designName "Hapans:Module:FrigateFactoryMF"
 	entityDefName "Hapans_FrigateShipyardMF"
+planetItemType
+	designName "Chiss:Module:FrigateFactoryMF"
+	entityDefName "Chiss_FrigateShipyardMF"
+planetItemType
+	designName "Ssi:Module:FrigateFactoryMF"
+	entityDefName "Ssi_FrigateShipyardMF"
+planetItemType
+	designName "Remnant:Module:FrigateFactoryMF"
+	entityDefName "Remnant_FrigateShipyardMF"
 planetItemType
 	designName "Hapans:Frigate:BattleDragon"
 	entityDefName "Hapans_BattleDragon"
@@ -3585,7 +3594,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3607,7 +3616,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3629,7 +3638,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3651,7 +3660,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactory"
+				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Frigate:Dreadnaught"
@@ -3673,7 +3682,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactory"
+				item "Chiss:Module:FrigateFactoryMF"
 				item "EotH:Module:Brask"	
 				item "EotH:Module:Visvia
 				item "EotH:Frigate:Asdoni
@@ -3702,7 +3711,7 @@ planetItemsTemplate
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
-				item "EotH:Module:FrigateFactory"
+				item "Ssi:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Ssi:Frigate:Wurrif"

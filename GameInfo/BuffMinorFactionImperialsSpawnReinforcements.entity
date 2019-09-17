@@ -1,0 +1,49 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1200.000000
+		Level:1 1200.000000
+		Level:2 1200.000000
+		Level:3 1200.000000
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "AlwaysPerform"
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 45.000000
+		maxFleetPoints 60.000000
+		requiredShipCount 0
+		randomShipCount 5
+		randomShip
+			type "Remnant_Carrack"
+			weight 5
+		randomShip
+			type "Remnant_Dreadnaught"
+			weight 5
+		randomShip
+			type "Remnant_VSDI"
+			weight 2
+		randomShip
+			type "Remnant_Lancer"
+			weight 2
+		randomShip
+			type "Remnant_ISDII"
+			weight 1
+		spawnShipsArrivalDelayTime 7.000000
+		spawnShipsHyperspaceSpawnType "FleetBeacon"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"
