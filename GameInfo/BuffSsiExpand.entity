@@ -7,11 +7,17 @@ stackingLimit -1
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
-instantAction
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1200.000000
+		Level:1 1200.000000
+		Level:2 1200.000000
+		Level:3 1200.000000
 	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 3.000000
@@ -19,23 +25,19 @@ instantAction
 		requiredShipCount 3
 		requiredShip
 			type "Ssi_Shree"
-			minCount 2
-			maxCount 4
+			minCount 3
+			maxCount 6
 		requiredShip
 			type "Ssi_Wurrif"
-			minCount 3
-			maxCount 7
+			minCount 8
+			maxCount 12
 		requiredShip
 			type "Ssi_Lwhekk"
 			minCount 2
-			maxCount 3
+			maxCount 6
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
-	shouldAdoptFirstSpawnersMinorFactionState TRUE
-	spawnShipsMinStartingHullPerc 1.0
-	spawnShipsMaxStartingHullPerc 1.0
-numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
