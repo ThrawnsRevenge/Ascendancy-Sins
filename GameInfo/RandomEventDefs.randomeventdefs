@@ -8,6 +8,19 @@ lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.3
 randomEventDefCount 10	
 	randomEventDef
+		id "SSIINCURSION"
+		nameID "IDS_RANDOMEVENT_RUUVI_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDRUUVI"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventSsiRuu"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomNonHomeworld"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 500.0
+		nextSpawnTimeMax 1500.0
+		spawnWeight 0.1
+	randomEventDef
 		id "PARTISANS"
 		nameID "IDS_RANDOMEVENT_PARTISANS_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
@@ -143,18 +156,4 @@ randomEventDefCount 10
 		respawnCount 1
 		nextSpawnTimeMin 600.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.05
-	randomEventDef
-		id "SSIINCURSION"
-		nameID "IDS_RANDOMEVENT_RUUVI_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDRUUVI"
-		spawnType "BuffAtLocation"
-		spawnEntity "RandomEventSsiRuu"
-		playerOwnerType "MadVasari"
-		spawnLocation "RandomNonHomeworld"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		respawnCount 2
-		nextSpawnTimeMin 1500.0
-		nextSpawnTimeMax 6000.0
 		spawnWeight 0.05
