@@ -3583,7 +3583,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultMinorFaction"
 	subTemplates 0
-	groups 7
+	groups 8
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3795,6 +3795,13 @@ planetItemsTemplate
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "MFCSA"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 16
 validPictureGroups 7
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -3812,7 +3819,7 @@ themeGroup "PlayerHapes"
 themeGroup "PlayerChiss"
 themeGroup "PlayerSsi"
 themeGroup "NPC"
-npcPlayers 32
+npcPlayers 33
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -4235,5 +4242,19 @@ player
 	themeGroup "PlayerHapes"
 	themeIndex 4
 	pictureGroup "PlayerHapes"
+	pictureIndex 1
+player
+	designName "MinorFaction7"
+	inGameName "IDSScenarioPlayerNameMinorFactionCorporateSectorAuthority"
+	overrideRaceName "CSA"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "MFCSA"
+	themeGroup "PlayerAlignment"
+	themeIndex 4
+	pictureGroup "PlayerAlignment"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5
