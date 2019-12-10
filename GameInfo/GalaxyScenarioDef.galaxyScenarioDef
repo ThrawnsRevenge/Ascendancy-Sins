@@ -3590,13 +3590,14 @@ planetItemsTemplate
 				param "MFEriadu"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
@@ -3612,13 +3613,14 @@ planetItemsTemplate
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
@@ -3634,13 +3636,14 @@ planetItemsTemplate
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
@@ -3656,13 +3659,14 @@ planetItemsTemplate
 				param "MFCentrality"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
 				item "Remnant:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
@@ -3678,13 +3682,14 @@ planetItemsTemplate
 				param "MFChissAscendancy"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 22
+			items 23
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
 				item "Chiss:Module:FrigateFactoryMF"
 				item "EotH:Module:Brask"	
 				item "EotH:Module:Visvia
+				item "EotH:Module:TradeStation"
 				item "EotH:Frigate:Asdoni
 				item "EotH:Frigate:Asdoni"
 				item "EotH:Frigate:Kariek"
@@ -3707,13 +3712,14 @@ planetItemsTemplate
 				param "MFSsiRuuvi"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 30
+			items 31
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "EotH:Module:Durasteel"
 				item "Ssi:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
 				item "Ssi:Frigate:Wurrif"
 				item "Ssi:Frigate:Wurrif"
 				item "Ssi:Frigate:Wurrif"
@@ -3744,11 +3750,12 @@ planetItemsTemplate
 				param "MFHapesConsortium"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 43
+			items 44
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Tibanna"
 				item "Hapans:Module:FrigateFactoryMF"
+				item "NewRep:Module:TradeStation"
 				item "NewRep:Frigate:Constructor"
 				item "NewRep:Frigate:Constructor"
 				item "Hapans:Frigate:BattleDragon"
