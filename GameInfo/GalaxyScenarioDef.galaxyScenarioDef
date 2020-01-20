@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 189
+planetItemTypeCount 190
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1245,6 +1245,9 @@ planetItemType
 planetItemType
 	designName "Alignment:Capital:ISDI"
 	entityDefName "Alignment_ISDI"
+planetItemType
+	designName "Alignment:Capital:Lucrehulk"
+	entityDefName "Alignment_Lucrehulk"
 planetItemType
 	designName "Alignment:Capital:ISDII"
 	entityDefName "Alignment_ISDII"
@@ -3801,7 +3804,31 @@ planetItemsTemplate
 				param "MFCSA"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 24
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Durasteel"
+				item "Remnant:Module:Tibanna"
+				item "Remnant:Module:FrigateFactoryMF"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:GolanIII"	
+				item "Remnant:Module:GolanIII"
+				item "Remnant:Module:TradeStation"
+				item "Remnant:Module:TradeStation"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Alignment:Frigate:Arquitens"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Remnant:Frigate:Dreadnaught"
+				item "Alignment:Capital:Lucrehulk"
+				item "Alignment:Capital:Lucrehulk"
 validPictureGroups 7
 pictureGroup "PlayerAlignment"
 pictureGroup "PlayerRemnant"
@@ -4254,7 +4281,7 @@ player
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFCSA"
 	themeGroup "PlayerAlignment"
-	themeIndex 4
+	themeIndex 1
 	pictureGroup "PlayerAlignment"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5
