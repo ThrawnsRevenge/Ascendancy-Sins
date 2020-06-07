@@ -1146,7 +1146,7 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 100
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 7
+		minorFactionPlayerDefCount 8
 		minorFactionPlayerDef
 			name "MFEriadu"
 			planetAbilities
@@ -1200,6 +1200,14 @@ GameplayConstants
 			planetAbilities
 				ability:0 "AbilityMinorFactionSpawnDefenseRaidHapes"
 				ability:1 "AbilityMinorFactionSpawnAttackRaidHapes"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "MFCSA"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAttackRaidCSA"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidCSA"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
