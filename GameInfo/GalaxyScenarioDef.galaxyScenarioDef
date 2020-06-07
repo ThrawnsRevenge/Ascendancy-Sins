@@ -4273,15 +4273,15 @@ player
 player
 	designName "MinorFaction7"
 	inGameName "IDSScenarioPlayerNameMinorFactionCorporateSectorAuthority"
-	overrideRaceName "CSA"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFCSA"
-	themeGroup "PlayerAlignment"
-	themeIndex 1
-	pictureGroup "PlayerAlignment"
+	themeGroup "PlayerRemnant"
+	themeIndex 4
+	pictureGroup "PlayerRemnant"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5
