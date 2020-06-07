@@ -1,5 +1,5 @@
 TXT
-NumStrings 8669
+NumStrings 8670
 StringInfo
 	ID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
 	Value "Federation Builders"
@@ -72,6 +72,9 @@ StringInfo
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionCentrality"
 	Value "Centrality"
+StringInfo
+	ID "IDSScenarioPlayerNameMinorFactionCorporateSectorAuthority"
+	Value "Corporate Sector Authority"
 StringInfo
 	ID "IDSScenarioPlayerNameMinorFactionZsinj"
 	Value "Warlord Zsinj"
