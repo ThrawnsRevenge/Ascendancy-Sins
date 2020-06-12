@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 190
+planetItemTypeCount 191
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1302,6 +1302,9 @@ planetItemType
 planetItemType
 	designName "Remnant:Frigate:VSDI"
 	entityDefName "Remnant_VSDI"
+planetItemType
+	designName "Remnant:Frigate:CrimsonCommand
+	entityDefName "Remnant_CrimsonCommand"
 planetItemType
 	designName "Remnant:Frigate:VSDII"
 	entityDefName "Remnant_VSDII"
@@ -3616,7 +3619,7 @@ planetItemsTemplate
 				param "MFMaldrood"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 19
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3631,6 +3634,9 @@ planetItemsTemplate
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Carrack"
 				item "Remnant:Frigate:Lancer"
+				item "Remnant:Frigate:CrimsonCommand"
+				item "Remnant:Frigate:CrimsonCommand"
+				item "Remnant:Frigate:CrimsonCommand"
 				item "Remnant:Capital:ISDII"
 				item "Remnant:Capital:ISDII"
 		group
@@ -3639,7 +3645,7 @@ planetItemsTemplate
 				param "MFZsinj"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
@@ -3656,6 +3662,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Capital:ISDII"
 				item "Remnant:Capital:ISDII"
+				item "Remnant:SSD:Executor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3753,7 +3760,7 @@ planetItemsTemplate
 				param "MFHapesConsortium"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 44
+			items 45
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Durasteel"
 				item "NewRep:Module:Tibanna"
@@ -3798,6 +3805,7 @@ planetItemsTemplate
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
 				item "Hapans:Frigate:NovaCruiser"
+				item "Hapans:Frigate:StarHome"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -4307,18 +4315,18 @@ player
 	themeIndex 4
 	pictureGroup "PlayerPA"
 	pictureIndex 1
-Player
+player
 	designName "MinorFaction8"
 	inGameName "IDSScenarioPlayerNameMinorFactionBakura"
-	overrideRaceName "Alignment"
+	overrideRaceName "Remnant"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFBakura"
-	themeGroup "PlayerPA"
+	themeGroup "PlayerRemnant"
 	themeIndex 4
-	pictureGroup "PlayerPA"
+	pictureGroup "PlayerRemnant"
 	pictureIndex 1
 npcMiltiaPlayerCountPerGalaxy 5

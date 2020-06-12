@@ -1,0 +1,42 @@
+TXT
+pictureCount 1
+LargeScreenPicture
+	textureName "AscendancyPortraits"
+	startTopLeft [ 0 , 0 ]
+	width 190
+	height 190
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+SmallScreenPicture
+	textureName "AscendancyPortraits"
+	startTopLeft [ 380 , 380 ]
+	width 60
+	height 60
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+BottomBarPicture
+	textureName "AscendancyPortraits"
+	startTopLeft [ 380 , 380 ]
+	width 60
+	height 60
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+ButtonIcon
+	textureName "AscendancyPortraits"
+	startTopLeft [ 380 , 500 ]
+	width 40
+	height 40
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+MediumScreenPicture
+	textureName "AscendancyPortraits"
+	startTopLeft [ 0 , 380 ]
+	width 95
+	height 95
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
