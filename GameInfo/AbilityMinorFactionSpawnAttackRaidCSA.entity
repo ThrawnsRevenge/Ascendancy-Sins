@@ -20,7 +20,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Remnant_Dreadnought"
+		type "Remnant_Dreadnaught"
 		weight 5
 	randomShip
 		type "Alignment_Arquitens"
@@ -31,7 +31,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Remnant_Dreadnought"
+		type "Remnant_Dreadnaught"
 		weight 5
 	randomShip
 		type "Alignment_Arquitens"
@@ -42,7 +42,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Remnant_Dreadnought"
+		type "Remnant_Dreadnaught"
 		weight 5
 	randomShip
 		type "Alignment_Arquitens"
