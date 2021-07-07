@@ -47,63 +47,63 @@ MeshData
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.001"
+		DataString "Exhaust"
 		Position [ -5.900277 -6.369865 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.002"
+		DataString "Exhaust"
 		Position [ 3.097134 -6.369865 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.003"
+		DataString "Exhaust"
 		Position [ 7.292819 -6.369865 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.004"
+		DataString "Exhaust"
 		Position [ 3.003896 -0.576626 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.005"
+		DataString "Exhaust"
 		Position [ -1.455960 -0.685412 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.006"
+		DataString "Exhaust"
 		Position [ -5.900277 5.403492 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.007"
+		DataString "Exhaust"
 		Position [ -1.366191 5.311799 -59.876869 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.008"
+		DataString "Exhaust"
 		Position [ 3.097134 5.403492 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 -1.000000 ]
 	Point
-		DataString "Exhaust.009"
+		DataString "Exhaust"
 		Position [ 7.292819 5.403492 -59.850975 ]
 		Orientation
 			 [ -1.000000 -0.000000 0.000000 ]
@@ -124,14 +124,14 @@ MeshData
 			 [ -0.000000 1.000000 0.000000 ]
 			 [ -1.000000 -0.000000 0.000000 ]
 	Point
-		DataString "Weapon-1.001"
+		DataString "Weapon-1"
 		Position [ 10.855191 0.000000 12.205299 ]
 		Orientation
 			 [ 0.000000 0.000000 -1.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 1.000000 -0.000000 0.000000 ]
 	Point
-		DataString "Weapon-0.001"
+		DataString "Weapon-0"
 		Position [ 11.386851 0.000000 -0.049137 ]
 		Orientation
 			 [ 0.000000 0.000000 -1.000000 ]
