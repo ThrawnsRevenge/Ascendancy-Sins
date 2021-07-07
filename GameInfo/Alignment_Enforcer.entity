@@ -170,7 +170,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "IR_Vindicator"
+ShieldMeshName "PA_Enforcer"
 renderShield TRUE
 maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
@@ -207,7 +207,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTPA_ENFORCERMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "IR_Vindicator"
+	meshName "PA_Enforcer"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
