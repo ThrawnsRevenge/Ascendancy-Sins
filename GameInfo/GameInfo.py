@@ -1,8 +1,8 @@
 import os, sys, csv
 
 #arguments received from command line
-folder_path = sys.argv[1] #folder where files are
-csv_path = sys.argv[2] #where CSV file is ending
+folder_path = "GameInfo\\" #folder where files are
+csv_path = "stats.csv" #where CSV file is ending
 all_files = os.listdir(folder_path)
 
 
@@ -16,7 +16,7 @@ for entity in all_files:
     full_path = folder_path + entity
     opened_entity = open(full_path, 'r')
     for i, line in enumerate(opened_entity):
-        if (i == 1) and (entity[-17:] != "RaceSelect.entity"):
+        if (i == 2) and (entity[-17:] != "RaceSelect.entity"):
             if line == 'entityType "CapitalShip"\n':
                 CapitalShip_PathList.append(entity)
             elif line == 'entityType "Frigate"\n':
@@ -62,42 +62,42 @@ for entity in CapitalShip_PathList:
     with open(folder_path + entity) as f:
         data[0].append(entity) #Name
         line = f.readlines()
-        data[0].append(line[1][12:-2]) #entityType
-        if line[12][8:-1] == "FALSE": #(for special weird case)
-            data[0].append(line[15][9:-1]) #credit
-            data[0].append(line[16][7:-1]) #metal
-            data[0].append(line[17][9:-1]) #crystal
-            data[0].append(line[18][10:-1]) #slotCount
-            data[0].append(line[19][10:-1]) #BuildTime
-            data[0].append(line[21][12:-1]) #MaxHullPoints
-            data[0].append(line[24][12:-1]) #MaxShieldPoints
-            data[0].append(line[39][12:-1]) #MaxAntiMatter
-            data[0].append(line[33][12:-1]) #BaseArmorPoints
-            data[0].append(line[36][12:-1]) #maxMitigation
-            data[0].append(line[68][11:-1]) #NumWeapons
-            for weapon in range(1, int(line[68][11:-1]) + 1):
-                info = weapons(68)
+        data[0].append(line[2][12:-2]) #entityType
+        if line[13][8:-1] == "FALSE": #(for special weird case)
+            data[0].append(line[16][9:-1]) #credit
+            data[0].append(line[17][7:-1]) #metal
+            data[0].append(line[18][9:-1]) #crystal
+            data[0].append(line[19][10:-1]) #slotCount
+            data[0].append(line[20][10:-1]) #BuildTime
+            data[0].append(line[22][12:-1]) #MaxHullPoints
+            data[0].append(line[25][12:-1]) #MaxShieldPoints
+            data[0].append(line[40][12:-1]) #MaxAntiMatter
+            data[0].append(line[34][12:-1]) #BaseArmorPoints
+            data[0].append(line[37][12:-1]) #maxMitigation
+            data[0].append(line[69][11:-1]) #NumWeapons
+            for weapon in range(1, int(line[69][11:-1]) + 1):
+                info = weapons(69)
                 for i in range(0, 7):
                     data[0].append(info[1][i])
         else: #for normal cases
-            num = int(line[29][12:-1]) #soundCount1
-            num = num + int(line[num + 32][12:-1]) #soundCount2
-            num = num + int(line[num + 34][12:-1]) #soundCount3
-            data[0].append(line[num + 38][9:-1]) #credit
-            data[0].append(line[num + 39][7:-1]) #metal
-            data[0].append(line[num + 40][9:-1]) #crystal
-            data[0].append(line[num + 41][10:-1]) #slotCount
-            data[0].append(line[num + 42][10:-1]) #BuildTime
-            data[0].append(line[num + 44][12:-1]) #MaxHullPoints
-            data[0].append(line[num + 47][12:-1]) #MaxShieldPoints
-            data[0].append(line[num + 62][12:-1]) #MaxAntiMatter
-            data[0].append(line[num + 56][12:-1]) #BaseArmorPoints
-            data[0].append(line[num + 59][12:-1]) #maxMitigation
-            num = num + (3*int(line[num + 74][26:-1]))
-            num = num + int(line[num+81][18:-1])
-            data[0].append(line[num + 87][11:-1]) #NumWeapons
-            for weapon in range(1, int(line[num+87][11:-1]) + 1):
-                info = weapons(num + 87)
+            num = int(line[30][12:-1]) #soundCount1
+            num = num + int(line[num + 33][12:-1]) #soundCount2
+            num = num + int(line[num + 35][12:-1]) #soundCount3
+            data[0].append(line[num + 39][9:-1]) #credit
+            data[0].append(line[num + 40][7:-1]) #metal
+            data[0].append(line[num + 41][9:-1]) #crystal
+            data[0].append(line[num + 42][10:-1]) #slotCount
+            data[0].append(line[num + 43][10:-1]) #BuildTime
+            data[0].append(line[num + 45][12:-1]) #MaxHullPoints
+            data[0].append(line[num + 48][12:-1]) #MaxShieldPoints
+            data[0].append(line[num + 63][12:-1]) #MaxAntiMatter
+            data[0].append(line[num + 57][12:-1]) #BaseArmorPoints
+            data[0].append(line[num + 60][12:-1]) #maxMitigation
+            num = num + (3*int(line[num + 75][26:-1]))
+            num = num + int(line[num+82][18:-1])
+            data[0].append(line[num + 88][11:-1]) #NumWeapons
+            for weapon in range(1, int(line[num+88][11:-1]) + 1):
+                info = weapons(num + 88)
                 num = num + info[0]
                 for i in range(0, 7):
                     data[0].append(info[1][i])
@@ -109,37 +109,37 @@ for entity in Frigate_PathList:
     with open(folder_path + entity) as f:
         data[0].append(entity) #Name
         line = f.readlines()
-        data[0].append(line[1][12:-2]) #entityType
-        if (line[8][10:-1]) == "2":
+        data[0].append(line[2][12:-2]) #entityType
+        if (line[9][10:-1]) == "2":
             num = 1
         else:
             num = 0
-        data[0].append(line[num + 17][9:-1]) #credit
-        data[0].append(line[num + 18][7:-1]) #metal
-        data[0].append(line[num + 19][9:-1]) #crystal
-        data[0].append(line[num + 20][10:-1]) #slotCount
-        data[0].append(line[num + 21][10:-1]) #BuildTime
-        data[0].append(line[num + 24][14:-1]) #MaxHullPoints
-        data[0].append(line[num + 25][16:-1]) #MaxShieldPoints
-        BaseArmorPoints = (line[num + 28][16:-1]) #BaseArmorPoints
-        maxMitigation = (line[num + 29][14:-1]) #maxMitigation
-        if (line[num + 32][1:-1]) == "ResearchPrerequisite":
+        data[0].append(line[num + 18][9:-1]) #credit
+        data[0].append(line[num + 19][7:-1]) #metal
+        data[0].append(line[num + 20][9:-1]) #crystal
+        data[0].append(line[num + 21][10:-1]) #slotCount
+        data[0].append(line[num + 22][10:-1]) #BuildTime
+        data[0].append(line[num + 25][14:-1]) #MaxHullPoints
+        data[0].append(line[num + 26][16:-1]) #MaxShieldPoints
+        BaseArmorPoints = (line[num + 29][16:-1]) #BaseArmorPoints
+        maxMitigation = (line[num + 30][14:-1]) #maxMitigation
+        if (line[num + 34][1:-1]) == "ResearchPrerequisite":
             num = num + 3
-            if (line[num + 32][1:-1]) == "ResearchPrerequisite":
+            if (line[num + 34][1:-1]) == "ResearchPrerequisite":
                 num = num + 3
-        NumWeapons = (line[num+42][11:-1]) #NumWeapons
+        NumWeapons = (line[num+44][11:-1]) #NumWeapons
         temp_data = [[],[],[],[]]
-        for weapon in range(1, int(line[num+42][11:-1]) + 1):
-            info = weapons(num + 42)
+        for weapon in range(1, int(line[num+44][11:-1]) + 1):
+            info = weapons(num + 44)
             num = num + info[0]
             for i in range(0, 7):
                 temp_data[weapon-1].append(info[1][i])
-        num = num + int(line[num + 71][33:-1])
-        num = num + int(line[num + 72][24:-1])
-        num = num + int(line[num + 73][34:-1])
-        num = num + int(line[num + 74][24:-1])
-        num = num + int(line[num + 75][30:-1])
-        MaxAntiMatter = (line[num + 92][14:-1]) #MaxAntiMatter
+        #num = num + int(line[num + 70][33:-5])
+        #num = num + int(line[num + 74][24:-1])
+        #num = num + int(line[num + 75][34:-1])
+        #num = num + int(line[num + 76][24:-1])
+        #num = num + int(line[num + 77][30:-1])
+        MaxAntiMatter = 1 #MaxAntiMatter
        
         data[0].append(MaxAntiMatter)
         data[0].append(BaseArmorPoints)         
