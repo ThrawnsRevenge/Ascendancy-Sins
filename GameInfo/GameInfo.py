@@ -1,9 +1,10 @@
 import os, sys, csv
 
 #arguments received from command line
-folder_path = "GameInfo\\" #folder where files are
-csv_path = "stats.csv" #where CSV file is ending
-all_files = os.listdir(folder_path)
+dirname = os.path.dirname(__file__)
+folder_path = dirname + "\\"
+csv_path =  folder_path + "stats.csv" #where CSV file is ending
+all_files = os.listdir(dirname)
 
 
 #Initialize lists
