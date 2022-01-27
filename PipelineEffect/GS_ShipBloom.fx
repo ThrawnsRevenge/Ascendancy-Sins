@@ -1,5 +1,3 @@
-#define PBR 
-
 float4x4 g_World : World;
 float4x4 g_WorldViewProjection : WorldViewProjection;
 
@@ -58,19 +56,16 @@ float4 GetPixelColor( float2 iTexCoord )
     
     //Team Color
     float4 teamColorScalar = (colorSample.a * g_TeamColor.a); 
-	colorSample *= (1.f - teamColorScalar);
-	colorSample += (g_TeamColor * teamColorScalar);
+	float4 teamColor = colorSample * (1.f - teamColorScalar);
+	teamColor += (g_TeamColor * teamColorScalar);
 
 	//Self Illumination
 	float selfIlluminationScalar = dataSample.g;
-
-#ifdef PBR	
+	
 	//Bloom
-	float bloomScalar = dataSample.b;
-#else
 	float bloomScalar = dataSample.a;
-#endif
-	float4 oColor = colorSample * colorMultiplier * bloomScalar;
+	float4 oColor = max(colorSample, float4(.2f,.2f,.2f,1)) * colorMultiplier * bloomScalar;// Ignore Team Color.
+	// float4 oColor = 0.5 * ((colorSample * colorMultiplier * bloomScalar) + teamColor);// Average with team color
 	return oColor;
 }
 
