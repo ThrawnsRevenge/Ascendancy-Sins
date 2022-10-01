@@ -1,5 +1,5 @@
 TXT
-NumStrings 8671
+NumStrings 8669
 StringInfo
 	ID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
 	Value "Federation Builders"
@@ -10,7 +10,7 @@ StringInfo
 	ID "IDS_REMNANTRESEARCH_MINORFACTIONS_NAME"
 	Value "Coercion"
 StringInfo
-	ID "IDS_NEWREPRESEARCH_MINORFACTIONS_DESCRIPTION"
+	ID "IDS_REMNANTRESEARCH_MINORFACTIONS_DESCRIPTION"
 	Value "Imperial negotiators exact pressure on local powers to extract greater support from minor factions."
 StringInfo
 	ID "IDS_NEWREPRESEARCH_MINORFACTIONS_NAME"
@@ -12693,12 +12693,6 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_DEPLOYSPACEMINEPHASEGRAVITY_DESCRIPTION"
 	Value "Deploys a mine armed with a gravity pulse discharger, which will slow movement and disable the jump drives of nearby enemy ships."
-StringInfo
-	ID "IDS_ABILITY_DESIGNATETARGET_NAME"
-	Value "Designate Target"
-StringInfo
-	ID "IDS_ABILITY_DESIGNATETARGET_DESCRIPTION"
-	Value "Paints a target's weak points with targeting lasers, allowing friendly ships to deal additional damage against it."
 StringInfo
 	ID "IDS_ABILITY_DESPERATION_NAME"
 	Value "Desperation"
