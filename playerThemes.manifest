@@ -1,5 +1,5 @@
 TXT
-fileCount 12
+fileCount 13
 fileName "NPC.playerThemes"
 fileName "PlayerVong.playerThemes"
 fileName "PlayerHapes.playerThemes"
@@ -11,4 +11,5 @@ fileName "PlayerRemnant.playerThemes"
 fileName "PlayerEotH.playerThemes"
 fileName "PlayerNewRep.playerThemes"
 fileName "PlayerPA.playerThemes"
+fileName "PlayerCSA.playerThemes"
 fileName "PlayerRandom.playerThemes"

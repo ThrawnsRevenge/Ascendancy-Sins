@@ -1,5 +1,5 @@
 TXT
-NumStrings 8669
+NumStrings 8670
 StringInfo
 	ID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
 	Value "Federation Builders"
@@ -1686,6 +1686,9 @@ StringInfo
 StringInfo
 	ID "IDS_PLAYERRACENAME_EOTH"
 	Value "Empire of the Hand"
+StringInfo
+	ID "IDS_PLAYERRACENAME_CSA"
+	Value "Corporate Sector Authority"
 StringInfo
 	ID "IDS_PLAYERRACENAME_SSIRUUVI"
 	Value "Ssi-Ruuvi Imperium"
