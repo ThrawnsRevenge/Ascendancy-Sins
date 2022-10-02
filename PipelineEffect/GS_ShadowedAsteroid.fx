@@ -1,26 +1,29 @@
-#define PBR 				// Switches to Vanilla shader model - note that it will shade strange with non PBR textures.
+#define PBR
 
 float4x4 g_World : World;
 float4x4 g_WorldViewProjection : WorldViewProjection;
 float4x4 g_View;
+float4x4 g_ShadowUVTransforms[ShadowMapCount];
 
 texture	g_TextureDiffuse0 : Diffuse;
 texture	g_TextureNormal;
-texture g_TextureTeamColor;
 texture	g_TextureSelfIllumination;
 texture	g_TextureEnvironmentCube : Environment;
-texture g_EnvironmentIllumination : Environment;
+texture g_TextureShadowMap;
 
-float4 g_Light_AmbientLite : Ambient;
+float4 g_Light_AmbientLite: Ambient;
 float4 g_Light_AmbientDark : Ambient;
 
 float3 g_Light0_Position: Position = float3( 0.f, 0.f, 0.f );
 float4 g_Light0_DiffuseLite: Diffuse = float4( 1.f, 1.f, 1.f, 1.f );
 float4 g_Light0_Specular;
 
-float g_MaterialGlossiness;
-float4 g_TeamColor;
+float g_MaterialGlossiness = 1.f;
+float g_ShadowTextureSize;
 float minShadow = .0f;
+//float cascadeBias[4] = {.000005f, .000005f, .000005f, .000005f};
+float cascadeBias[4] = {0,0,0,0};
+float cascadeBlurLowerBound = .99f;
 
 sampler TextureColorSampler = sampler_state{
     Texture = <g_TextureDiffuse0>;
@@ -60,18 +63,15 @@ samplerCUBE TextureEnvironmentCubeSampler = sampler_state{
     AddressU = CLAMP;
     AddressV = CLAMP;
     AddressW = CLAMP;
-	 
 };
 
-samplerCUBE EnvironmentIlluminationCubeSampler = sampler_state{
-    Texture = <g_EnvironmentIllumination>;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
-    MipFilter = LINEAR;
+sampler TextureShadowSampler = sampler_state{
+	Texture = <g_TextureShadowMap>;
+	MipFilter = NONE;
+	MinFilter = POINT;
+    MagFilter = POINT;
     AddressU = CLAMP;
-    AddressV = CLAMP;
-    AddressW = CLAMP;
-
+    AddressV = CLAMP;	
 };
 
 struct VsOutput
@@ -79,8 +79,16 @@ struct VsOutput
 	float4 Position	: POSITION;
 	float2 TexCoord : TEXCOORD0;
 	float3 LightTangent : TEXCOORD1;
-	float3 ViewTangent : TEXCOORD2;	
+	float3 ViewTangent : TEXCOORD2;
+	float3 ShadowUV[ShadowMapCount]: TEXCOORD3;
 };
+
+float3 GetShadowUV(float4 position, int level)
+{
+	float4 fullShadowUV = mul(position, g_ShadowUVTransforms[level]);
+	float3 shadowUV = fullShadowUV.xyz / fullShadowUV.w;
+	return shadowUV;
+}
 
 VsOutput RenderSceneVS( 
 	float3 position : POSITION, 
@@ -104,9 +112,165 @@ VsOutput RenderSceneVS(
          
 	float3 lightInTangentSpace = mul(g_Light0_Position, tangentMatrix);
 	output.LightTangent = normalize(lightInTangentSpace - positionInTangentSpace);
-   
+	
+	for(int i = 0; i < ShadowMapCount; ++i)
+	{
+		output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+	}
+    
     return output;
 }
+
+float3 GetNormalInTangentSpace(float2 texCoord)
+{
+	//using nvidia's DXT5_NM format:
+	//http://discuss.microsoft.com/SCRIPTS/WA-MSD.EXE?A2=ind0507D&L=DIRECTXDEV&P=R1929&I=-3
+	float4 sample = 2.f * tex2D(TextureNormalSampler, texCoord) - 1.f;
+	float x = sample.a;
+	float y = sample.g;
+	float z = sqrt(1 - x * x - y * y);
+	return normalize(float3(x,y,z));
+}
+
+float4 GetSelfIllumLightScalar(float2 texCoord, float4 dataSample)
+{
+    return dataSample.g;
+}
+
+float4 GetLightColor(float3 incidence, float3 normal, float4 lightColor)
+{
+	float i = clamp(dot(incidence, normal), minShadow, 1.f);
+	return lightColor * i;
+}
+
+float4 GetSpecularColor(float3 light, float3 normal, float3 view, float4 dataSample)
+{
+	float3 h = normalize(light + view);
+	float glossScalar = dataSample.r;
+	float i = pow(clamp(dot(normal, h), 0.f, 1.f), g_MaterialGlossiness) * glossScalar;
+	
+	float d = saturate(dot(light, normal));
+	
+	return i * g_Light0_Specular * step(0.f, dot(light, normal));
+}
+
+float4 GetEnvironmentColor(float3 view, float4 dataSample)
+{
+    float4 sample = texCUBE(TextureEnvironmentCubeSampler, view);
+    float x = dataSample.b;
+    return (sample * x);
+}
+
+float GetShadowTermFromSampleWithPCF(float3 texCoord, float dotLightNormal, int cascadeIndex)
+{
+	float shadowTexelOffset = 1.f / g_ShadowTextureSize;
+	
+	// Sample each of them checking whether the pixel under test is shadowed or not
+	float fShadowTerm = 0.f;
+
+	for(int i = -2; i <= 2; ++i)
+	{
+		for(int j = -2; j <= 2; ++j)
+		{			
+			float2 offsetTexCoord = texCoord.xy + float2(i * shadowTexelOffset, j * shadowTexelOffset);
+			float smDepth = tex2D(TextureShadowSampler, offsetTexCoord.xy).r;
+			fShadowTerm += (texCoord.z - cascadeBias[cascadeIndex] <= smDepth) ? 1.f : minShadow;
+		}
+	}		
+
+	fShadowTerm /= 25.0f;
+
+	fShadowTerm = lerp(minShadow, fShadowTerm, (dotLightNormal + 1.f) / 2.f);
+
+	return fShadowTerm;
+}
+
+float GetShadowScalar(float3 shadowUV[ShadowMapCount], float3 lightDir, float3 normalDir)
+{	
+	float columnInc = 1.f / ShadowMapColumnCount;
+	float rowInc = 1.f / ShadowMapRowCount;
+	bool foundValidCascade = false;
+	int cascadeIndex = -1;
+	float3 texCoord;
+	float distToEdge = -1.f;
+	for(int row = 0; row < ShadowMapRowCount; row++)
+	{
+		for(int column = 0; column < ShadowMapColumnCount; column++)
+		{	
+			//check if close to the left or right and blend with sample on either side.
+			
+			float left = column * columnInc;
+			float right = left + columnInc;
+			float bottom = row * rowInc;
+			float top = bottom + rowInc;
+			cascadeIndex = column + row * ShadowMapColumnCount;
+			texCoord = shadowUV[cascadeIndex];
+			if(texCoord.x >= left && 
+				texCoord.x <= right && 
+				texCoord.y >= bottom && 
+				texCoord.y <= top)
+			{
+				foundValidCascade = true;
+				distToEdge = min(right - texCoord.x, top - texCoord.y);
+				break;
+			}
+		}
+		if(foundValidCascade)
+		{
+			break;
+		}
+	}
+		
+	float shadowScalar;	
+	float dotLightNormal = dot(lightDir, normalDir);
+	if(foundValidCascade)
+	{
+		shadowScalar = GetShadowTermFromSampleWithPCF(texCoord, dotLightNormal, cascadeIndex);
+		if(cascadeIndex != ShadowMapCount - 1)
+		{
+			float nextShadowScalar = GetShadowTermFromSampleWithPCF(shadowUV[cascadeIndex + 1], dotLightNormal, cascadeIndex + 1);			
+			float tValue = max(1.f - distToEdge - cascadeBlurLowerBound, 0.f) / (1.f - cascadeBlurLowerBound);
+			shadowScalar = lerp(shadowScalar, nextShadowScalar, tValue);
+		}
+	}
+	else
+	{		
+		shadowScalar = max((dotLightNormal + 1.f) / 2.f, minShadow);
+	}
+	return shadowScalar;
+}
+
+float4 GetFinalPixelColor(float2 texCoord, float3 lightTangent, float3 viewTangent, float3 shadowUV[ShadowMapCount])
+{
+	float4 colorSample = tex2D(TextureColorSampler, texCoord);
+	float4 dataSample = tex2D(TextureDataSampler, texCoord);
+
+	//NOTE: have to renormalize tangent vectors as linear interpolation screws them up.
+	float3 normalTangent = GetNormalInTangentSpace(texCoord);
+	
+	float4 finalColor = 0.f;
+	
+	float4 amb = colorSample * g_Light_AmbientDark;
+	
+	//float shadowScalar = GetShadowScalar(shadowUV, lightTangent, normalTangent);	
+	
+	float4 diff = colorSample * GetLightColor(lightTangent, normalTangent, g_Light0_DiffuseLite);
+	float4 spec = GetSpecularColor(lightTangent, normalTangent, viewTangent, dataSample);
+	float4 env = GetEnvironmentColor(viewTangent, dataSample);
+	
+	finalColor = amb + diff + spec + env;
+	
+	float selfIllumLightScalar = GetSelfIllumLightScalar(texCoord, dataSample).g;
+	finalColor = selfIllumLightScalar * colorSample + (1.f - selfIllumLightScalar) * finalColor;
+		
+	return finalColor;
+}
+
+float4 RenderScenePS(VsOutput input) : COLOR0
+{ 
+	return GetFinalPixelColor(input.TexCoord, input.LightTangent, input.ViewTangent, input.ShadowUV);
+}
+
 
 float4 SRGBToLinear(float4 color)
 {
@@ -134,100 +298,6 @@ float4 LinearToSRGB(float4 color)
 	return float4(0.662002687 * S1 + 0.684122060 * S2 - 0.323583601 * S3 - 0.225411470 * color.rgb, color.a);
 }
 
-float4 GetColorWithTeamColorSample(float4 colorSample)
-{
-	float4 linearTeamColor = SRGBToLinear(g_TeamColor);
-	float teamColorScalar = (colorSample.a * linearTeamColor.a); 
-	
-	float4 colorWithTeamColor = colorSample * (1.f - teamColorScalar);
-	colorWithTeamColor += (linearTeamColor * teamColorScalar);
-	colorWithTeamColor.a = colorSample.a;
-
-	return colorWithTeamColor;
-}
-
-float3 GetNormalInTangentSpace(float2 texCoord)
-{
-	//using nvidia's DXT5_NM format:
-	//http://discuss.microsoft.com/SCRIPTS/WA-MSD.EXE?A2=ind0507D&L=DIRECTXDEV&P=R1929&I=-3
-	float4 sample = 2.f * tex2D(TextureNormalSampler, texCoord) - 1.f;
-	float x = sample.a;
-	float y = sample.g;
-	float z = sqrt(1 - x * x - y * y);
-
-	//NOTE: have to renormalize tangent vectors as linear interpolation screws them up.
-	return normalize(float3(x,y,z));
-}
-
-float4 GetAmbientLightColor(float3 normal)
-{
-    float4 ambSample = SRGBToLinear(texCUBE(EnvironmentIlluminationCubeSampler, normal));
-	ambSample.a = 1.f;	
-    return ambSample;
-}
-
-float4 GetDiffuseLightColor(float3 incidence, float3 normal, float4 lightColor)
-{
-	float diffuseScalar = clamp(dot(incidence, normal), minShadow, 1.f);
-	return diffuseScalar * lightColor;
-}
-
-float4 GetSpecularColor(float3 light, float3 normal, float3 view, float glossScalar)
-{
-	float3 h = normalize(light + view); //half angle
-
-    float NDotH = dot(normal, h);
-    float HDotV = dot(h, view);
-    float NDotV = dot(normal, view);
-    float NDotL = dot(normal, light);
-	
-	//Geometretic attenuation (self masking)
-    float selfMask = clamp(min(1, min(2 * (NDotH * NDotV) / HDotV, 2 * (NDotH * NDotL) / HDotV)), .001f, 1.f);
-
-	float i = pow(clamp(NDotH, 0.0001f, 1.f), g_MaterialGlossiness) * glossScalar; //pow(0, x) is bugged so keep it at a small non-zero value.
-	
-	float4 linearSpecular = SRGBToLinear(g_Light0_Specular);
-	return i * selfMask * linearSpecular;
-}
-
-float4 GetEnvironmentColor(float3 view, float envScalar)
-{
-    float4 envSample = SRGBToLinear(texCUBE(TextureEnvironmentCubeSampler, view));    
-	envSample.a = 1.f;
-    return (envSample * envScalar);
-}
-
-float4 GetFinalPixelColor(float2 texCoord, float3 lightTangent, float3 viewTangent)
-{   
-	float4 colorSample = SRGBToLinear(tex2D(TextureColorSampler, texCoord));
-	colorSample = GetColorWithTeamColorSample(colorSample);	
-	float4 dataSample = tex2D(TextureDataSampler, texCoord);	
-		
-	float3 normalTangent = GetNormalInTangentSpace(texCoord);
-	
-	float specScalar = dataSample.r;
-	float4 spec = GetSpecularColor(lightTangent, normalTangent, viewTangent, specScalar);	
-
-	float4 amb = GetAmbientLightColor(normalTangent) * colorSample;
-
-	float4 linearDiffuseLite = SRGBToLinear(g_Light0_DiffuseLite);
-	float4 diff = GetDiffuseLightColor(lightTangent, normalTangent, linearDiffuseLite) * colorSample;
-	
-	float envScalar = dataSample.b;
-	float4 env = GetEnvironmentColor(viewTangent, envScalar);
-	
-	float4 finalColor = amb + diff + env + spec;
-	
-	float selfIllumLightScalar = dataSample.g;
-	finalColor = selfIllumLightScalar * colorSample + (1.f - selfIllumLightScalar) * finalColor;
-		
-	return LinearToSRGB(finalColor);
-}
-
-float4 RenderScenePS(VsOutput input) : COLOR0
-{ 
-	return GetFinalPixelColor(input.TexCoord, input.LightTangent, input.ViewTangent);
-}
 /////////////////////////////////////////////////PBR////////////////////////////////
 	// If we want to do image based PBR lighting, we need to work in world space
 	// Note we will skip tangent binormals and instead do per pixel cotangent derivative mapping, which allows the modders a lot more freedom in uv mapping
@@ -237,6 +307,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		float2 TexCoord					: TEXCOORD0;
 		float3 PosWS					: TEXCOORD1;
 		float3 NormalWS					: TEXCOORD2;
+		float3 ShadowUV[ShadowMapCount]	: TEXCOORD3;
 	};
 	
 	VsOutputWS RenderSceneWSVS( 
@@ -251,6 +322,12 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		output.TexCoord = texCoord;	
 		output.PosWS	= mul(float4(position, 1.f), g_World).xyz;
 		output.NormalWS = normalize(mul(normal, (float3x3)g_World));
+		
+
+		for(int i = 0; i < ShadowMapCount; ++i)
+		{
+			output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+		}
 		
 		return output;
 	}
@@ -294,7 +371,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 	PBRProperties UnpackProperties(float4 colorSample, float4 dataSample, float4 normalSample)
 	{
 		PBRProperties Output;
-		Output.SpecularColor 		= max((float3)0.04, dataSample.r * colorSample.rgb);
+		Output.SpecularColor 		= max((float3)0.08 * colorSample.a, dataSample.r * colorSample.rgb);
 		Output.DiffuseColor 		= saturate(colorSample.rgb  - Output.SpecularColor);
 		Output.EmissiveColor 		= float4(Square(colorSample.rgb) * 8.0, colorSample.a) * ToLinear(dataSample.g);
 		Output.Roughness 			= max(0.02, dataSample.w);
@@ -361,11 +438,21 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 	float3 DiffuseBurley(PBRProperties Properties, PBRDots Dots)
 	{
 		float FD90 = 0.5 + 2.0 * Square(Dots.VoH) * Properties.Roughness;
-		float FdV = 1.0 + (FD90 - 1.0) * Pow5( 1.0 - Dots.NoV );
-		float FdL = 1.0 + (FD90 - 1.0) * Pow5( 1.0 - Dots.NoL );
+		float FdV = 1.0 + (FD90 - 1.0) * Pow5(1.0 - Dots.NoV);
+		float FdL = 1.0 + (FD90 - 1.0) * Pow5(1.0 - Dots.NoL);
 		return Properties.DiffuseColor * 0.3183098862 * FdV * FdL; // 0.31831 = 1/pi
 	}
 
+		// Diffuse term
+	float3 AmbientDiffuseBurley(PBRProperties Properties, float NoV, float3 view, float3 normal)
+	{
+		float3 H = normalize(-normal + view);
+		float FD90 = 0.5 + 2.0 * Square(abs(dot(view, H))) * Properties.Roughness;
+		float FdV = 1.0 + (FD90 - 1.0) * Pow5(1.0 - NoV);
+		float FdL = 1.0 + (FD90 - 1.0) * Pow5(1.0 - abs(dot(-normal, normal)));
+		return Properties.DiffuseColor * FdV * FdL; // 0.31831 = 1/pi
+	}
+	
 	// Specular lobe
 	float D_GGX(PBRProperties Properties, PBRDots Dots)
 	{
@@ -487,63 +574,144 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		return AmbientReflection;
 	}
 	
-float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal)
+float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 shadowUV[ShadowMapCount])
 {   
 	// get all vector attributes and normalize them all.
 	float3 view		 			= normalize(-pos);
 	float3 light 				= normalize(g_Light0_Position - pos);
 	float3 normalVert			= normalize(normal);
+	
+	// we use a UV hack, if x is in negative we do a trick for crystals
+//	float crystalMask = saturate(ceil(-texCoord.x));
 
+	#ifdef NORMALVERTEX
+		return 					float4(normalVert, 0.0);
+	#endif
 	// sample textures
 	// Note we are using DXT5 for normal maps, NOT DXT5_NM, sacrificing a little bit of quality to be able to have ao in one of the high compressed channels.
 	float4 normalSample			= tex2D(TextureNormalSampler, texCoord);
-	float4 colorSample			= GetColorWithTeamColorSample(SRGBToLinear(tex2D(TextureColorSampler, texCoord)));
+	float4 colorSample			= SRGBToLinear(tex2D(TextureColorSampler, texCoord));
 	float4 dataSample 			= tex2D(TextureDataSampler, texCoord);
 
+	#ifdef METALLIC
+		return 					float4(dataSample.rrr, 0.0);
+	#endif
+	
+	#ifdef BASECOLOR
+		return 					LinearToSRGB(float4(colorSample.rgb, 0.0));
+	#endif
+	
 	PBRProperties Properties 	= UnpackProperties(colorSample, dataSample, normalSample);
 	
-	normal						= GetNormalDXT5(normalSample);
+	if(texCoord.x < 0.0)
+		Properties.DiffuseColor *= mad(-0.9, dataSample.g, 1.0);
+	#ifdef SPECULARCOLOR
+		return					LinearToSRGB(float4(Properties.SpecularColor, 0.0));
+	#endif
+	
+	#ifdef DIFFUSECOLOR
+		return 					LinearToSRGB(float4(Properties.DiffuseColor, 0.0));
+	#endif
+	
+	#ifdef EMISSIVECOLOR
+		return 					float4(Properties.EmissiveColor, 0.0);
+	#endif
+	
+	#ifdef ROUGHNESS
+		return 					float4(Properties.Roughness.rrr, 0.0);
+	#endif
+	
+	#ifdef AODIFFUSE
+		return 					float4(Properties.AO.rrr, 0.0);
+	#endif
+	
+	normal						 = GetNormalDXT5(normalSample);
+	#ifdef NORMALMAP
+		return float4(normal, 0.0);
+	#endif
 	
 	normal 						= CotangentDerivativeMap(pos, normalVert, normal, texCoord);
-		
-	float4 finalColor			= Properties.EmissiveColor;
+	
+	#ifdef NORMALMAPPED
+		return float4(normal, 0.0);
+	#endif
+	
+	float4 finalColor			= Properties.EmissiveColor * saturate(ceil(texCoord.x));
 	
 	float NoV					= dot(view, normal);	
+//	float3 reflection			= -GetSpecularDominantDir(normal, (view - 2.0 * normal * NoV), Properties);
 	float3 reflection			= -(view - 2.0 * normal * NoV);
 	
 	float SpecularAO 			= ApproximateSpecularSelfOcclusion(reflection, normal);
 	SpecularAO					*= EmpiricalSpecularAO(Properties);
+//	SpecularAO					*= CheapSpecularAO(Properties);
+
+	#ifdef AOSPECULAR
+		return 					float4(SpecularAO.rrr, 0.0);
+	#endif	
 	
 	float3 diffuse = 0.0;
 	float3 specular = 0.0;
 	
 	float3 ReflectionSample 	= SRGBToLinear(texCUBElod(TextureEnvironmentCubeSampler, float4(reflection, Properties.RoughnessMip))).rgb;
 	
+	#ifdef PUREREFLECTION
+		return 					float4(texCUBElod(TextureEnvironmentCubeSampler, float4(reflection, 0.0)).rgb, 0.0);
+	#endif
+	
+	#ifdef REFLECTION
+		return 					LinearToSRGB(float4(ReflectionSample, 0.0));
+	#endif
+	//ReflectionSample * 
 	specular 					+= ReflectionSample * AmbientBRDF(saturate(abs(dot(view, normal))), Properties);
 
-	float3 DiffuseSample		= SRGBToLinear(texCUBE(EnvironmentIlluminationCubeSampler, normal)).rgb;
-		
-	diffuse 					+= Properties.DiffuseColor * DiffuseSample;
+//	float3 DiffuseDirection 	= GetDiffuseDominantDir(normal, view, NoV, Properties);
+	float3 DiffuseSample		= SRGBToLinear(texCUBElod(TextureEnvironmentCubeSampler, float4(normal, 8.0))).rgb;
+	
+	#ifdef PURERADIANCE
+		return 					LinearToSRGB(float4(DiffuseSample, 0.0));
+	#endif
+	
+	diffuse 					+= DiffuseSample * AmbientDiffuseBurley(Properties, NoV, normal, view);
+	
+	#ifdef RADIANCE
+		return 					LinearToSRGB(float4(diffuse, 0.0));
+	#endif
 	
 	float3 subsurfaceScatter 	= 0.0;
 	
 	float shadowScalar 			= dot(normal, light);
+		
+	float3 scatterDir = -normal;
+	float scatterMip = 8;
+	float subsurfaceIntensity = 1;
+	if(texCoord.x < 0.0)
+	{
+		scatterDir = lerp(scatterDir, refract(lerp(scatterDir, reflection, NoV), -view, colorSample.a), dataSample.g);
+		scatterMip -= normalSample.r * 8.0;
+		subsurfaceIntensity += normalSample.r * 9.0;
+	}
+	//return float4(texCUBElod(TextureEnvironmentCubeSampler, float4(-scatterDir, scatterMip)).rgb, 0);
+	
 	if(Properties.SubsurfaceOpacity > 0)
 	{
 		float3 subsurfaceColor 		= Square(SRGBToLinear(tex2Dbias(TextureColorSampler, float4(texCoord, 0.0, 2.0)).rgb));	
 		float InScatter				= pow(saturate(dot(light, -view)), 12) * lerp(3, .1f, Properties.SubsurfaceOpacity);
-		float NormalContribution	= saturate(dot(normal, normalize(view + light)) * Properties.SubsurfaceOpacity + 1.0 - Properties.SubsurfaceOpacity);
+		float NormalContribution	= saturate(dot(-scatterDir, normalize(view + light)) * Properties.SubsurfaceOpacity + 1.0 - Properties.SubsurfaceOpacity);
 		float BackScatter		 	= Properties.AO * NormalContribution * 0.1591549431;
 		subsurfaceScatter 			= lerp(BackScatter, 1, InScatter) * subsurfaceColor * saturate(shadowScalar + Properties.SubsurfaceOpacity);
 		
 		InScatter					= pow(NoV, 12) * lerp(3, .1f, Properties.SubsurfaceOpacity);
 		NormalContribution			= saturate(dot(normal, reflection) * Properties.SubsurfaceOpacity + 1.0 - Properties.SubsurfaceOpacity);
 		BackScatter		 			= Properties.AO * NormalContribution * 0.1591549431;
-		subsurfaceScatter	 		+= subsurfaceColor * lerp(BackScatter, 1, InScatter) * SRGBToLinear(texCUBE(EnvironmentIlluminationCubeSampler, -normal)).rgb;
+		
+		subsurfaceScatter	 		+= subsurfaceColor * lerp(BackScatter, 1, InScatter) * SRGBToLinear(texCUBElod(TextureEnvironmentCubeSampler, float4(-scatterDir, scatterMip))).rgb * subsurfaceIntensity;
 		
 	}
-
-	shadowScalar 				= saturate(shadowScalar);
+	#ifdef SHOWSUBSURFACE
+		return LinearToSRGB(float4(subsurfaceScatter, 1.0));
+	#endif
+	shadowScalar 				= GetShadowScalar(shadowUV, light, normal) * saturate(shadowScalar);
 	
 	if(shadowScalar > 0.0)
 	{
@@ -551,17 +719,19 @@ float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal)
 	
 		specular 				+= SpecularGGX(Properties, dots) * shadowScalar;
 		diffuse 				+= DiffuseBurley(Properties, dots) * shadowScalar;
-		
 	}
-		
-	finalColor.rgb 				+= (diffuse * Properties.AO * (1.0 - Properties.SubsurfaceOpacity) + specular * SpecularAO) + subsurfaceScatter;
+	
+	
+	finalColor.rgb += (diffuse * Properties.AO * (1.0 - Properties.SubsurfaceOpacity) + specular * SpecularAO) + subsurfaceScatter;
 
 	return LinearToSRGB(finalColor);
+	//GetDots(normal, view, light);
+
 }
 
 float4 RenderScenePBRPS(VsOutputWS input) : COLOR0
 { 
-	return GetFinalPixelColorPBR(input.TexCoord, input.PosWS, input.NormalWS);
+	return GetFinalPixelColorPBR(input.TexCoord, input.PosWS, input.NormalWS, input.ShadowUV);
 }
 
 technique RenderWithPixelShader
@@ -571,9 +741,9 @@ technique RenderWithPixelShader
 	#ifdef PBR
 		VertexShader = compile vs_3_0 RenderSceneWSVS();
 		PixelShader = compile ps_3_0 RenderScenePBRPS();
-	#else	
-        VertexShader = compile vs_2_0 RenderSceneVS();
-        PixelShader = compile ps_2_0 RenderScenePS();
+	#else
+		VertexShader = compile vs_3_0 RenderSceneVS();
+		PixelShader = compile ps_3_0 RenderScenePS();
 	#endif
 		AlphaTestEnable = FALSE;
         AlphaBlendEnable = TRUE;
