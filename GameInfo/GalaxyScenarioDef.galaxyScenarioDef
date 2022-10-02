@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 192
+planetItemTypeCount 193
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1506,6 +1506,9 @@ planetItemType
 planetItemType
 	designName "Ssi:Frigate:Lwhekk"
 	entityDefName "Ssi_Lwhekk_Militia"
+planetItemType
+	designName "CSA:Capital:Invincible"
+	entityDefName "CSA_Invincible"
 playerTypeCount 9
 playerType
 	designName "Remnant"
@@ -3842,7 +3845,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Alignment:Capital:Lucrehulk"
-				item "Alignment:Capital:Lucrehulk"
+				item "CSA:Capital:Invincible"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"

@@ -37,7 +37,7 @@ periodicAction
 			type "Remnant_Lancer"
 			weight 2
 		randomShip
-			type "Remnant_Lucrehulk"
+			type "CSA_Invincible"
 			weight 1
 		spawnShipsArrivalDelayTime 7.000000
 		spawnShipsHyperspaceSpawnType "FleetBeacon"

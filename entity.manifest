@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2411
+entityNameCount 2412
 entityName "RemnantResearch_Global_MinorFactions0.entity"
 entityName "RemnantResearch_Global_MinorFactions1.entity"
 entityName "EotHResearch_Global_MinorFactions0.entity"
@@ -1273,6 +1273,7 @@ entityName "AlignmentResearch_MaxShipSlots5.entity"
 entityName "AlignmentResearch_MaxShipSlots6.entity"
 entityName "AlignmentResearch_MaxShipSlots7.entity"
 entityName "AlignmentUpgrade_Bellator_AbilityA.entity"
+entityName "CSA_Invincible.entity"
 entityName "AbilityCaptureableObject.entity"
 entityName "BuffPlanetForAPlanet.entity"
 entityName "BuffCaptureableObject.entity"

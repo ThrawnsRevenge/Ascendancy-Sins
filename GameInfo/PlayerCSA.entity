@@ -32,8 +32,9 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 1
+			count 2
 			entityDefName "Alignment_Lucrehulk"
+			entityDefName "CSA_Invincible"
 	frigateInfo
 		Page:0
 			count 4
