@@ -255,7 +255,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "EVENTIR_ISDIMOVETWO"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "CSA_Invincible"
+	meshName "IR_ISDI"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
