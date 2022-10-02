@@ -929,7 +929,7 @@ orbitBodyType
 	typeName "Mountainous"
 	entityDefName "PlanetMountainous"
 	defaultTemplateName "Template:DefaultStart_Mountainous"
-planetItemTypeCount 191
+planetItemTypeCount 193
 planetItemType
 	designName "Unique:Frigate:ShipyardDesignate"
 	entityDefName "RandomEvent_ShipyardSpawner"
@@ -1477,6 +1477,9 @@ planetItemType
 	designName "Remnant:Module:FrigateFactoryMF"
 	entityDefName "Remnant_FrigateShipyardMF"
 planetItemType
+	designName "CSA:Module:FrigateFactoryMF"
+	entityDefName "CSA_FrigateShipyardMF"
+planetItemType
 	designName "Hapans:Frigate:BattleDragon"
 	entityDefName "Hapans_BattleDragon"
 planetItemType
@@ -1503,7 +1506,10 @@ planetItemType
 planetItemType
 	designName "Ssi:Frigate:Lwhekk"
 	entityDefName "Ssi_Lwhekk_Militia"
-playerTypeCount 8
+planetItemType
+	designName "CSA:Capital:Invincible"
+	entityDefName "CSA_Invincible"
+playerTypeCount 9
 playerType
 	designName "Remnant"
 	entityDefName "PlayerRemnant"
@@ -1525,6 +1531,9 @@ playerType
 playerType
 	designName "SsiRuuvi"
 	entityDefName "PlayerSsiRuuvi"
+playerType
+	designName "CSA"
+	entityDefName "PlayerCSA"
 playerType
 	designName "ChissAscendancy"
 	entityDefName "PlayerChiss"
@@ -3816,7 +3825,7 @@ planetItemsTemplate
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Durasteel"
 				item "Remnant:Module:Tibanna"
-				item "Remnant:Module:FrigateFactoryMF"
+				item "CSA:Module:FrigateFactoryMF"
 				item "Remnant:Module:GolanIII"	
 				item "Remnant:Module:GolanIII"
 				item "Remnant:Module:GolanIII"	
@@ -3836,7 +3845,7 @@ planetItemsTemplate
 				item "Remnant:Frigate:Dreadnaught"
 				item "Remnant:Frigate:Dreadnaught"
 				item "Alignment:Capital:Lucrehulk"
-				item "Alignment:Capital:Lucrehulk"
+				item "CSA:Capital:Invincible"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3860,16 +3869,18 @@ planetItemsTemplate
 				item "Remnant:Frigate:Lancer"
 				item "Remnant:Capital:ISDII"
 				item "Remnant:Capital:ISDII"
-validPictureGroups 7
+validPictureGroups 8
 pictureGroup "PlayerPA"
+pictureGroup "PlayerCSA"
 pictureGroup "PlayerRemnant"
 pictureGroup "PlayerNewRep"
 pictureGroup "PlayerEotH"
 pictureGroup "PlayerHapes"
 pictureGroup "PlayerSsi"
 pictureGroup "PlayerChiss"
-validThemeGroups 8
+validThemeGroups 9
 themeGroup "PlayerPA"
+themeGroup "PlayerCSA"
 themeGroup "PlayerRemnant"
 themeGroup "PlayerNewRep"
 themeGroup "PlayerEotH"
@@ -4304,16 +4315,16 @@ player
 player
 	designName "MinorFaction7"
 	inGameName "IDSScenarioPlayerNameMinorFactionCorporateSectorAuthority"
-	overrideRaceName "Alignment"
+	overrideRaceName "CSA"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
 	minorFactionPlayerDefName "MFCSA"
-	themeGroup "PlayerPA"
+	themeGroup "PlayerCSA"
 	themeIndex 4
-	pictureGroup "PlayerPA"
+	pictureGroup "PlayerCSA"
 	pictureIndex 1
 player
 	designName "MinorFaction8"

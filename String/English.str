@@ -1,5 +1,5 @@
 TXT
-NumStrings 8669
+NumStrings 8672
 StringInfo
 	ID "IDS_EOTHRESEARCH_MINORFACTIONS_NAME"
 	Value "Federation Builders"
@@ -1687,6 +1687,9 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_EOTH"
 	Value "Empire of the Hand"
 StringInfo
+	ID "IDS_PLAYERRACENAME_CSA"
+	Value "Corporate Sector Authority"
+StringInfo
 	ID "IDS_PLAYERRACENAME_SSIRUUVI"
 	Value "Ssi-Ruuvi Imperium"
 StringInfo
@@ -2112,6 +2115,12 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_ISDI_DESCRIPTION"
 	Value "The mainstay of the Imperial fleet and a symbol of the Empire's military might."
+StringInfo
+	ID "IDS_CAPITALSHIP_INVINCIBLE_NAME"
+	Value "Invincible Dreadnought"
+StringInfo
+	ID "IDS_CAPITALSHIP_INVINCIBLE_DESCRIPTION"
+	Value "An ancient ship which, despite its years, packs a significant missile-based punch."
 StringInfo
 	ID "IDS_CAPITALSHIP_LUCREHULK_NAME"
 	Value "Lucrehulk"
